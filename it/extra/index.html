@@ -26,35 +26,6 @@
 		  gtag('config', 'UA-132562222-1');
 		</script>
 		
-		<script>
-			var getHTML = function ( url, callback ) {
-
-				// Feature detection
-				if ( !window.XMLHttpRequest ) return;
-
-				// Create new request
-				var xhr = new XMLHttpRequest();
-
-				// Setup callback
-				xhr.onload = function() {
-					if ( callback && typeof( callback ) === 'function' ) {
-						callback( this.responseXML );
-					}
-				}
-
-				// Get the HTML
-				xhr.open( 'GET', url );
-				xhr.responseType = 'document';
-				xhr.send();
-
-			};
-			
-			
-			getHTML( 'https://t.me/InfoPolimi', function (response) {
-				console.log(response.documentElement.innerHTML);
-			});
-
-		</script>
 	</head>
 
 	<body>
