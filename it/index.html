@@ -23,17 +23,33 @@
 	<script>
 		document.addEventListener("DOMContentLoaded", function(event) {
 			document.getElementById("searchBar").search_callback = showSearchResults;
+			document.getElementById("searchYearInput").onchange = function(){
+				// Forcing search reload
+				document.getElementById('searchBar').dispatchEvent(new Event('keyup'));
+			}
 		});
 
 		function showSearchResults(data){
 			data = data.data.data;
 
+			var year = document.getElementById("searchYearInput").value;
+			data = data.filter((item) => {
+				if (item.year == year){
+					return true;
+				}
+				else {
+					return false;
+				}
+			})
+
 			html = data.reduce((html, item) => {
-				return html + '<li>' + item.class + ' (' + item.id + ')</li>';
+				return html + '<li>' + item.class + ' (' + item.id + ') @ ' + item.year + '</li>';
 			}, "");
 
 			document.getElementById("searchResult").innerHTML = html;
 		}
+
+
 	</script>
   </head>
 
@@ -141,7 +157,7 @@
 									Anno di ingresso:&nbsp;&nbsp;
 								</td>
 								<td>
-									<select style="width: 170px;">
+									<select style="width: 170px;" id="searchYearInput">
 										<option value="2019/2020">2019/2020</option>
 										<option value="2018/2019">2018/2019</option>
 										<option value="2017/2018">2017/2018</option>
