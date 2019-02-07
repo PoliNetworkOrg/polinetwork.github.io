@@ -12,7 +12,7 @@
 			data = data.data.data;
 
 			html = data.reduce((html, item) => {
-				return html + '<li>' + item.class + '(' + item.id + ')</li>';
+				return html + '<li>' + item.class + ' (' + item.id + ')</li>';
 			}, "");
 
 			document.getElementById("searchResult").innerHTML = html;
