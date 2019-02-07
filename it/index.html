@@ -42,15 +42,33 @@
 				}
 			})
 
-			html = data.reduce((html, item) => {
-				return html + '<li>' + item.class + ' (' + item.id + ') @ ' + item.year + '</li>';
-			}, "");
+			data.sort((a, b) => {
+				return a.class.toLowerCase().localeCompare(b.class);
+			});
 
-			document.getElementById("searchResult").innerHTML = html;
+			if (data.length > 0){
+				html = data.reduce((html, item) => {
+					return html + '<li>' + item.class + ' (' + item.id + ') @ ' + item.year + '</li>';
+				}, "");
+
+				document.getElementById("searchResult").innerHTML = html;
+				document.getElementById("error_search").classList.add("hide");
+				document.getElementById("searchResult").classList.remove("hide");
+			}
+			else {
+				document.getElementById("error_search").classList.remove("hide");
+				document.getElementById("searchResult").classList.add("hide");
+			}
+			
 		}
 
 
 	</script>
+	<style>
+		.hide {
+			display: none;
+		}
+	</style>
   </head>
 
   <body id="page-top">
@@ -149,7 +167,7 @@
 									Corso di laurea:&nbsp;&nbsp;
 								</td>
 								<td>
-									<input type="search" id="searchBar" style="width: 170px;" data-limit="-1">
+									<input type="search" id="searchBar" style="width: 170px;" data-limit="8">
 								</td>
 							</tr>
 							<tr>
