@@ -19,6 +19,7 @@ function init(event) {
 		if (!el.search_callback){
 			el.search_callback = function(data){console.log(data.data)}
 		}
+		el._search_callback = function(data) {this.search_callback(data);}.bind(el);
 		el.search_worker = new Worker('/js/workers/search.js');
 		el.search_worker.postMessage({
 			op_id: "warmup",
@@ -26,7 +27,7 @@ function init(event) {
 			data: null
 		});
 		el.addEventListener("keyup", function(e){
-			var q = new RegExp(this.value, "gi")
+			var q = new RegExp(this.value, "gi");
 			this.search_worker.postMessage({
 				op_id: "",
 				op_type: "search",
@@ -37,13 +38,15 @@ function init(event) {
 						id: q,
 						degree: q,
 						school: q,
-						group_type: q
+						platform: q,
+						type: q,
+						year: q
 					},
 					join: "OR",
 					limit: this.dataset.limit
 				}
 			});
 		});
-		el.search_worker.onmessage = el.search_callback;
+		el.search_worker.onmessage = el._search_callback;
 	}
 }
