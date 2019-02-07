@@ -23,18 +23,52 @@
 	<script>
 		document.addEventListener("DOMContentLoaded", function(event) {
 			document.getElementById("searchBar").search_callback = showSearchResults;
+			document.getElementById("searchYearInput").onchange = function(){
+				// Forcing search reload
+				document.getElementById('searchBar').dispatchEvent(new Event('keyup'));
+			}
 		});
 
 		function showSearchResults(data){
 			data = data.data.data;
 
-			html = data.reduce((html, item) => {
-				return html + '<li>' + item.class + ' (' + item.id + ')</li>';
-			}, "");
+			var year = document.getElementById("searchYearInput").value;
+			data = data.filter((item) => {
+				if (item.year == year){
+					return true;
+				}
+				else {
+					return false;
+				}
+			})
 
-			document.getElementById("searchResult").innerHTML = html;
+			data.sort((a, b) => {
+				return a.class.toLowerCase().localeCompare(b.class);
+			});
+
+			if (data.length > 0){
+				html = data.reduce((html, item) => {
+					return html + '<li>' + item.class + ' (' + item.id + ') @ ' + item.year + '</li>';
+				}, "");
+
+				document.getElementById("searchResult").innerHTML = html;
+				document.getElementById("error_search").classList.add("hide");
+				document.getElementById("searchResult").classList.remove("hide");
+			}
+			else {
+				document.getElementById("error_search").classList.remove("hide");
+				document.getElementById("searchResult").classList.add("hide");
+			}
+			
 		}
+
+
 	</script>
+	<style>
+		.hide {
+			display: none;
+		}
+	</style>
   </head>
 
   <body id="page-top">
@@ -133,7 +167,7 @@
 									Corso di laurea:&nbsp;&nbsp;
 								</td>
 								<td>
-									<input type="search" id="searchBar" style="width: 170px;" data-limit="-1">
+									<input type="search" id="searchBar" style="width: 170px;" data-limit="8">
 								</td>
 							</tr>
 							<tr>
@@ -141,7 +175,7 @@
 									Anno di ingresso:&nbsp;&nbsp;
 								</td>
 								<td>
-									<select style="width: 170px;">
+									<select style="width: 170px;" id="searchYearInput">
 										<option value="2019/2020">2019/2020</option>
 										<option value="2018/2019">2018/2019</option>
 										<option value="2017/2018">2017/2018</option>
