@@ -115,7 +115,10 @@
 			}
 			
 		}
-
+		
+		function display_forma_tabellare(){
+			document.getElementById("forma_tabellare").classList.remove("hide");
+		}
 
 	</script>
 	<style>
@@ -158,7 +161,7 @@
         <div class="my-auto">
           <h1 class="mb-0" style="font-size: calc(1.7rem + 4vw);text-align:center;">Poli<span class="text-primary" style="color: #F3582A !important;">Network</span>
           </h1>
-          <div class="subheading mb-5" style="text-align:center;font-size: calc(0.6rem + 2vw)">MAIL: <a href="mailto:polinetwork@outlook.com" style="color: #E24719 !important;">polinetwork@outlook.com</a>
+          <div class="subheading mb-5" style="text-align:center;font-size: calc(0.6rem + 1.4vw)">MAIL: <a href="mailto:polinetwork@outlook.com" style="color: #E24719 !important;">polinetwork@outlook.com</a>
           </div>
 		  <div style="text-align: center;margin-bottom: 30px;">
 			  <a href="../en/index.html"><img src="../img/en.png" style="width:60px;" /></a>&nbsp;&nbsp;
@@ -250,8 +253,10 @@
 				</div>
 				<br />
 				<br />
-				<div style="padding-top: 5px;padding-bottom: 5px;padding-left: 40px;padding-right: 10px;border: 1px solid;border-radius: 50px;margin-right: 0px;">
-					<p style="margin-bottom: 0px;text-align: left;padding-left: 10px;">&gt; Forma tabellare</p>
+				La ricerca non funziona? Segnalaci il problema!<br />Nel frattempo, prova la forma tabellare, <span onclick="display_forma_tabellare()" style="text-decoration: underline;">clicca qui</span>
+				<br /><br />		
+				<div style="padding-top: 5px;padding-bottom: 5px;padding-left: 40px;padding-right: 10px;border: 1px solid;border-radius: 50px;margin-right: 0px;" class="hide" id="forma_tabellare">
+					
 					<table>
 						<tr>
 							<td>
