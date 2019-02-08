@@ -156,9 +156,9 @@
 
       <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
         <div class="my-auto">
-          <h1 class="mb-0" style="font-size: calc(3rem + 3vw);text-align:center;">Poli<span class="text-primary" style="color: #F3582A !important;">Network</span>
+          <h1 class="mb-0" style="font-size: calc(1.7rem + 4vw);text-align:center;">Poli<span class="text-primary" style="color: #F3582A !important;">Network</span>
           </h1>
-          <div class="subheading mb-5" style="text-align:center;">MAIL: <a href="mailto:polinetwork@outlook.com" style="color: #E24719 !important;">polinetwork@outlook.com</a>
+          <div class="subheading mb-5" style="text-align:center;font-size: calc(0.6rem + 2vw)">MAIL: <a href="mailto:polinetwork@outlook.com" style="color: #E24719 !important;">polinetwork@outlook.com</a>
           </div>
 		  <div style="text-align: center;margin-bottom: 30px;">
 			  <a href="../en/index.html"><img src="../img/en.png" style="width:60px;" /></a>&nbsp;&nbsp;
@@ -193,7 +193,7 @@
 
       <hr class="m-0">
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="groups">
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="groups" style="padding-left: 1rem !important;padding-right: 1rem !important;">
         <div class="my-auto">
           <h2 class="mb-5">Gruppi 👥</h2>
 
@@ -211,53 +211,35 @@
 
           <div class="resume-item d-flex flex-column flex-md-row">
             <div class="resume-content mr-auto">
-				<h3 class="mb-0">Specifici di un corso di laurea</h3>
-				<div class="subheading mb-3">Entra nel tuo gruppo!</div>
-				<div id="ricerca" style="border: 1px solid;padding: 10px;border-radius: 30px;">
-					<div>
+				<h3 class="mb-0" style="font-size: calc(0.95rem + 1vw)">Specifici di un corso di laurea</h3>
+				<div class="subheading mb-3" style="font-size: calc(0.9rem + 0.8vw)">Entra nel tuo gruppo!</div>
+				<div id="ricerca" style="border: 1px solid;padding: 10px;border-radius: 30px;display:inline-block;width:100%;">
+					<div style="display:inline-block;width:100%;">
+						Corso di laurea:<br />
+						<input type="search" id="searchBar" style="width: 100%;margin-bottom: 8px;" data-limit="8" ><br />
+						Anno di ingresso:<br />
+						<select style="width: 100%;margin-bottom: 8px;" id="searchYearInput">
+							<option value="2019/2020">2019/2020</option>
+							<option value="2018/2019">2018/2019</option>
+							<option value="2017/2018">2017/2018</option>
+							<option value="2017/2018">Precedenti</option>
+						</select>
 						<table>
 							<tr>
 								<td>
-									Corso di laurea:&nbsp;&nbsp;
+								Grado:&nbsp;
 								</td>
 								<td>
-									<input type="search" id="searchBar" style="width: 170px;" data-limit="8">
-								</td>
-							</tr>
-							<tr>
-								<td>
-									Anno di ingresso:&nbsp;&nbsp;
+									<input type="radio" name="triennale_o_magistrale" value="triennale" checked="checked">
+									Triennale&nbsp;&nbsp;
 								</td>
 								<td>
-									<select style="width: 170px;" id="searchYearInput">
-										<option value="2019/2020">2019/2020</option>
-										<option value="2018/2019">2018/2019</option>
-										<option value="2017/2018">2017/2018</option>
-										<option value="2017/2018">Precedenti</option>
-									</select>
-								</td>
-							</tr>
-							<tr>							
-								<td colspan="2">
-									
-									<table>
-										<tr>
-											<td>
-											Grado:&nbsp;
-											</td>
-											<td>
-												<input type="radio" name="triennale_o_magistrale" value="triennale" checked="checked">
-												Triennale&nbsp;&nbsp;
-											</td>
-											<td>
-												<input type="radio" name="triennale_o_magistrale" value="magistrale">
-												Magistrale&nbsp;&nbsp;
-											</td>
-										</tr>
-									</table>
+									<input type="radio" name="triennale_o_magistrale" value="magistrale">
+									Magistrale&nbsp;&nbsp;
 								</td>
 							</tr>
 						</table>
+
 					</div>
 					<div id="error_search" style="padding-left: 20px;padding-top: 15px;color: #8a2727;text-decoration: underline;font-style: italic;">
 						Ancora nessun risultato!
@@ -267,7 +249,8 @@
 					</ul>
 				</div>
 				<br />
-				<div style="padding-top: 5px;padding-bottom: 5px;padding-left: 40px;padding-right: 10px;border: 1px solid;border-radius: 50px;margin-right: 140px;">
+				<br />
+				<div style="padding-top: 5px;padding-bottom: 5px;padding-left: 40px;padding-right: 10px;border: 1px solid;border-radius: 50px;margin-right: 0px;">
 					<p style="margin-bottom: 0px;text-align: left;padding-left: 10px;">&gt; Forma tabellare</p>
 					<table>
 						<tr>
