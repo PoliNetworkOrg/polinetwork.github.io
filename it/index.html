@@ -54,8 +54,22 @@
 						item_html = '<li>';
 						item_html += '<a href="https://t.me/joinchat/' + item_link + '">';
 						item_html += '<img style="width:18px;" src="../img/tg.svg" />';
+						item_html += "&nbsp;[";
+						item_html += item.degree
 						item_html += "&nbsp;";
+						item_html += item.office
+						item_html += "]&nbsp;";
 						item_html += item.class
+						if (item.language == "ITA")
+						{
+							item_html += "&nbsp;";
+							item_html += "🇮🇹";
+						}
+						else if (item.language == "ENG")
+						{
+							item_html += "&nbsp;";
+							item_html += "🇬🇧";
+						}
 						item_html += '</a>';
 						item_html += '</li>';
 						return html + item_html;
@@ -65,8 +79,22 @@
 						item_html = '<li>';
 						item_html += '<a href="https://www.facebook.com/groups/' + item_link + '">';
 						item_html += '<img style="width:18px;" src="../img/fb.svg" />';
+						item_html += "&nbsp;[";
+						item_html += item.degree
 						item_html += "&nbsp;";
+						item_html += item.office
+						item_html += "]&nbsp;";
 						item_html += item.class
+						if (item.language == "ITA")
+						{
+							item_html += "&nbsp;";
+							item_html += "🇮🇹";
+						}
+						else if (item.language == "ENG")
+						{
+							item_html += "&nbsp;";
+							item_html += "🇬🇧";
+						}
 						item_html += '</a>';
 						item_html += '</li>';
 						return html + item_html;
