@@ -48,12 +48,31 @@
 
 			if (data.length > 0){
 				html = data.reduce((html, item) => {
-					item_html = '<li>';
-					item_html += '<a href="' + item.id + '">';
-					item_html += item.class
-					item_html += '</a>';
-					item_html += '</li>';
-					return html + item_html;
+					item_link = item.id.substring(3);
+					if (item.type=="TG")
+					{
+						item_html = '<li>';
+						item_html += '<a href="https://t.me/joinchat/' + item_link + '">';
+						item_html += '<img src="img/tg.svg" />';
+						item_html += item.class
+						item_html += '</a>';
+						item_html += '</li>';
+						return html + item_html;
+					}
+					else if (item.type == "FB")
+					{
+						item_html = '<li>';
+						item_html += '<a href="https://www.facebook.com/groups/' + item_link + '">';
+						item_html += '<img src="img/fb.svg" />';
+						item_html += item.class
+						item_html += '</a>';
+						item_html += '</li>';
+						return html + item_html;
+					}
+
+					return "";
+					
+
 				}, "");
 
 				document.getElementById("searchResult").innerHTML = html;
