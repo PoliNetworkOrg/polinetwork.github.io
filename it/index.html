@@ -49,9 +49,9 @@
 			if (data.length > 0){
 				html = data.reduce((html, item) => {
 					item_html = '<li>';
-					item_html = '<a href="' + item.id + '">';
+					item_html += '<a href="' + item.id + '">';
 					item_html += item.class
-					item_html = '</a>';
+					item_html += '</a>';
 					item_html += '</li>';
 					return html + item_html;
 				}, "");
