@@ -117,7 +117,15 @@
 		}
 		
 		function display_forma_tabellare(){
-			document.getElementById("forma_tabellare").classList.remove("hide");
+			x = document.getElementById("forma_tabellare");
+			if (x.classList.contains("hide"))
+			{
+				x.classList.remove("hide");
+			}
+			else
+			{
+				x.classList.add("hide");
+			}
 		}
 
 	</script>
