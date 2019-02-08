@@ -49,7 +49,7 @@
 			if (data.length > 0){
 				html = data.reduce((html, item) => {
 					item_link = item.id.substring(3);
-					if (item.type=="TG")
+					if (item.platform == "TG")
 					{
 						item_html = '<li>';
 						item_html += '<a href="https://t.me/joinchat/' + item_link + '">';
@@ -59,7 +59,7 @@
 						item_html += '</li>';
 						return html + item_html;
 					}
-					else if (item.type == "FB")
+					else if (item.platform == "FB")
 					{
 						item_html = '<li>';
 						item_html += '<a href="https://www.facebook.com/groups/' + item_link + '">';
