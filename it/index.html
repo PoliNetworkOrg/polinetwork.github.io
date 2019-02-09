@@ -35,6 +35,10 @@
 				// Forcing search reload
 				document.getElementById('searchBar').dispatchEvent(new Event('keyup'));
 			}
+			document.getElementById("triennale_o_magistrale_unico").onchange = function(){
+				// Forcing search reload
+				document.getElementById('searchBar').dispatchEvent(new Event('keyup'));
+			}
 			
 		});
 
@@ -51,7 +55,9 @@
 				}
 			})
 			
-			var degree = $('#triennale_o_magistrale_triennale').is(':checked') ? 1 : 0;
+			var degree_lt = $('#triennale_o_magistrale_triennale').is(':checked') ? 1 : 0;
+			var degree_lm = $('#triennale_o_magistrale_magistrale').is(':checked') ? 1 : 0;
+			var degree_lu = $('#triennale_o_magistrale_unico').is(':checked') ? 1 : 0;
 
 			data.sort((a, b) => {
 				return a.class.toLowerCase().localeCompare(b.class);
@@ -65,7 +71,7 @@
 				html = data.reduce((html, item) => {
 					if (text.length > 0)
 					{
-						if ((item.degree=="LT" && degree) || (item.degree=="LM" && !degree))
+						if ((item.degree=="LT" && degree_lt) || (item.degree=="LM" && degree_lm) || (item.degree=="LU" && degree_lu))
 						{				
 							item_link = item.id.substring(3);
 							if (item.platform == "TG")
@@ -223,7 +229,7 @@
 		  white-space: nowrap;
 		  padding: 0;
 		  margin: 0;
-		  width: 50%;
+		  width: 70%;
 		  border-top: 1px solid black;
 		  -webkit-transition: width 0.4s ease;
 		  transition: width 0.4s ease;
@@ -247,7 +253,7 @@
 
 		input.question:focus + label > span,
 		input.question:valid + label > span {
-		  top: -105px;
+		  top: -102px;
 		  font-size: 16px;
 		  color: #868e96;
 		  padding-left:10px;
@@ -393,7 +399,7 @@
             <div class="resume-content mr-auto">
 				<h3 class="mb-0">Specifici di un corso di laurea</h3>
 				<div class="subheading mb-3">Entra nel tuo gruppo!</div>
-				<div id="ricerca" style="border: 1px solid;padding: 15px;border-radius: 30px;display:inline-block;width:100%;border-color: #bf4a004d;">
+				<div id="ricerca" style="border: 1px solid;padding-top: 10px;padding-left: 10px;padding-right: 10px;padding-bottom: 20px;border-radius: 30px;display:inline-block;width:100%;border-color: #bf4a0033;">
 					<div style="display:inline-block;width:100%;">
 						<div style="padding-top: 5px;">
 							<form>
@@ -412,24 +418,29 @@
 							</select>
 						</div>
 						<div style="padding-top: 5px;">
-							<table>
-								<tr>
-									<td>
-									<span style="color:#3B3B3B;position: relative;top: -1px;">Grado:</span>&nbsp;&nbsp;
-									</td>
-									<td>
-										<input type="radio" name="triennale_o_magistrale" id="triennale_o_magistrale_triennale" value="triennale" checked="checked">
-										Triennale&nbsp;&nbsp;
-									</td>
-									<td>
-										<input type="radio" name="triennale_o_magistrale" id="triennale_o_magistrale_magistrale" value="magistrale">
-										Magistrale&nbsp;&nbsp;
-									</td>
-								</tr>
-							</table>
+							<span style="color:#3B3B3B;position: relative;top: -1px;">Grado:</span>
+							<div>
+								<table>
+									<tr>
+										<td>
+											<input type="radio" name="triennale_o_magistrale" id="triennale_o_magistrale_triennale" value="triennale" checked="checked">
+											Triennale&nbsp;&nbsp;
+										</td>
+										<td>
+											<input type="radio" name="triennale_o_magistrale" id="triennale_o_magistrale_magistrale" value="magistrale">
+											Magistrale&nbsp;&nbsp;
+										</td>
+										<td>
+											<input type="radio" name="triennale_o_magistrale" id="triennale_o_magistrale_unico" value="unico">
+											Ciclo unico
+										</td>
+									</tr>
+								</table>
+							</div>
 						</div>
 					</div>
-					<div id="error_search" style="padding-left: 20px;padding-top: 15px;color: #8a2727;text-decoration: underline;font-style: italic;">
+					<hr>
+					<div id="error_search" style="padding-left: 20px;color: #8a2727;text-decoration: underline;font-style: italic;">
 						Ancora nessun risultato!
 					</div>
 					<ul id="searchResult" class="hide" style="padding-top: 20px;list-style: none;padding-left: 0px;">
