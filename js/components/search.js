@@ -19,7 +19,9 @@ function init(event) {
 		if (!el.search_callback){
 			el.search_callback = function(data){console.log(data.data)}
 		}
-		el._search_callback = function(data) {this.search_callback(data);}.bind(el);
+		el._search_callback = function(data) {
+			this.search_callback(data);
+		}.bind(el);
 		el.search_worker = new Worker('/js/workers/search.js');
 		el.search_worker.postMessage({
 			op_id: "warmup",
