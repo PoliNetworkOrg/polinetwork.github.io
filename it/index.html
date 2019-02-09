@@ -145,6 +145,130 @@
 		h2.mb-5{
 			font-size: calc(2.75rem + 0.7vw);
 		}
+		
+		select {
+			margin-bottom: 1em;
+			padding: .25em;
+			border: 0;
+			border-bottom: 2px solid currentcolor; 
+			letter-spacing: .15em;
+			border-radius: 0;
+			&:focus, &:active {
+				outline: 0;
+				border-bottom-color: red;
+			}
+		}
+		
+		/*
+		Basic input element using psuedo classes
+		*/
+
+		html {
+		  font-family: 'Lora', sans-serif;
+		  width: 100%;
+		}
+
+
+		textarea:focus,
+		input:focus {
+		  outline: 0;
+		}
+		/* Question */
+
+		input.question,
+		textarea.question {
+		  font-size: 30px;
+		  font-weight: 300;
+		  border-radius: 2px;
+		  margin: 0;
+		  border: none;
+		  width: 80%;
+		  background: rgba(0, 0, 0, 0);
+		  transition: padding-top 0.2s ease, margin-top 0.2s ease;
+		  overflow-x: hidden; /* Hack to make "rows" attribute apply in Firefox. */
+		}
+		/* Underline and Placeholder */
+
+		input.question + label,
+		textarea.question + label {
+		  display: block;
+		  position: relative;
+		  white-space: nowrap;
+		  padding: 0;
+		  margin: 0;
+		  width: 10%;
+		  border-top: 1px solid red;
+		  -webkit-transition: width 0.4s ease;
+		  transition: width 0.4s ease;
+		  height: 0px;
+		}
+
+		input.question:focus + label,
+		textarea.question:focus + label {
+		  width: 100%;
+		}
+
+		input.question:focus,
+		input.question:valid {
+		  padding-top: 35px;
+		}
+
+		textarea.question:valid,
+		textarea.question:focus {
+		  margin-top: 35px;
+		}
+
+		input.question:focus + label > span,
+		input.question:valid + label > span {
+		  top: -90px;
+		  font-size: 16px;
+		  color: #868e96;
+		  padding-left:5px;
+		}
+
+		textarea.question:focus + label > span,
+		textarea.question:valid + label > span {
+		  top: -150px;
+		  font-size: 22px;
+		  color: #333;
+		}
+
+		input.question:valid + label,
+		textarea.question:valid + label {
+		  border-color: green;
+		}
+
+		input.question:invalid,
+		textarea.question:invalid {
+		  box-shadow: none;
+		}
+
+		input.question + label > span,
+		textarea.question + label > span {
+		  font-weight: 300;
+		  margin: 0;
+		  position: absolute;
+		  color: #8F8F8F;
+		  font-size: 35px;
+		  top: -85px;
+		  left: 0px;
+		  z-index: -1;
+		  -webkit-transition: top 0.2s ease, font-size 0.2s ease, color 0.2s ease;
+		  transition: top 0.2s ease, font-size 0.2s ease, color 0.2s ease;
+		}
+
+		@-webkit-keyframes appear {
+		  100% {
+			opacity: 1;
+		  }
+		}
+
+		@keyframes appear {
+		  100% {
+			opacity: 1;
+		  }
+		}
+
 	</style>
   </head>
 
@@ -179,7 +303,8 @@
 
       <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
         <div class="my-auto">
-          <h1 class="mb-0" style="font-size: calc(1.9rem + 3vw);text-align:center;">Poli<span class="text-primary" style="color: #F3582A !important;">Network</span>
+          <h1 class="mb-0" style="font-size: calc(1.9rem + 3vw);text-align:center;">Poli<span class="text-primary" style="color: #F3582A !important;margin:0px;display:inline;padding:0px;font-size: calc(1.9rem + 3vw);">Network
+		  </span>
           </h1>
           <div class="subheading mb-5" style="text-align:center;font-size: calc(0.8rem + 0.9vw)">MAIL: <a href="mailto:polinetwork@outlook.com" style="color: #E24719 !important;">polinetwork@outlook.com</a>
           </div>
@@ -238,31 +363,38 @@
 				<div class="subheading mb-3">Entra nel tuo gruppo!</div>
 				<div id="ricerca" style="border: 1px solid;padding: 15px;border-radius: 30px;display:inline-block;width:100%;border-color: #bf4a004d;">
 					<div style="display:inline-block;width:100%;">
-						Corso di laurea:<br />
-						<input type="search" id="searchBar" style="width: 100%;margin-bottom: 8px;" data-limit="8" ><br />
-						Anno di ingresso:<br />
-						<select style="width: 100%;margin-bottom: 8px;" id="searchYearInput">
-							<option value="2019/2020">2019/2020</option>
-							<option value="2018/2019">2018/2019</option>
-							<option value="2017/2018">2017/2018</option>
-							<option value="2017/2018">Precedenti</option>
-						</select>
-						<table>
-							<tr>
-								<td>
-								Grado:&nbsp;
-								</td>
-								<td>
-									<input type="radio" name="triennale_o_magistrale" value="triennale" checked="checked">
-									Triennale&nbsp;&nbsp;
-								</td>
-								<td>
-									<input type="radio" name="triennale_o_magistrale" value="magistrale">
-									Magistrale&nbsp;&nbsp;
-								</td>
-							</tr>
-						</table>
-
+						<div style="padding-top: 10px;">
+							<form>
+								<input type="search" name="name" class="question" style="width: 100%;line-height:display: block;padding: 5px;border: none;font-size: 22px;" data-limit="8" id="searchBar" required autocomplete="off" data-limit="8"  />
+								<label for="nme"><span style="display: block;border: none;padding-top:25px;">Corso di laurea:</span></label>
+							</form>
+						</div>
+						<div style="padding-top:15px;">
+							Anno di ingresso:<br />
+							<select style="width: 100%;margin-bottom: 8px;" id="searchYearInput">
+								<option value="2019/2020">2019/2020</option>
+								<option value="2018/2019">2018/2019</option>
+								<option value="2017/2018">2017/2018</option>
+								<option value="2017/2018">Precedenti</option>
+							</select>
+						</div>
+						<div style="padding-top: 5px;">
+							<table>
+								<tr>
+									<td>
+									Grado:&nbsp;
+									</td>
+									<td>
+										<input type="radio" name="triennale_o_magistrale" value="triennale" checked="checked">
+										Triennale&nbsp;&nbsp;
+									</td>
+									<td>
+										<input type="radio" name="triennale_o_magistrale" value="magistrale">
+										Magistrale&nbsp;&nbsp;
+									</td>
+								</tr>
+							</table>
+						</div>
 					</div>
 					<div id="error_search" style="padding-left: 20px;padding-top: 15px;color: #8a2727;text-decoration: underline;font-style: italic;">
 						Ancora nessun risultato!
@@ -273,7 +405,10 @@
 				</div>
 				<br />
 				<br />
-				La ricerca non funziona? <a href="https://m.me/PolitecnicoDiMilanoNetwork/">Segnalaci il problema!</a><br />Nel frattempo, prova la forma tabellare, <span onclick="display_forma_tabellare()" style="text-decoration: underline;">clicca qui</span>
+				La ricerca non funziona? <a href="https://m.me/PolitecnicoDiMilanoNetwork/">Segnalaci il problema!</a><br />Nel frattempo, prova la forma tabellare, 
+				<span onclick="display_forma_tabellare()" style="text-decoration: underline;font-size: 1rem;margin:0px;display:inline;padding:0px;">
+					clicca qui
+				</span>
 				<br /><br />		
 				<div style="padding-top: 5px;padding-bottom: 5px;padding-left: 40px;padding-right: 10px;border: 1px solid;border-radius: 50px;margin-right: 0px;" class="hide" id="forma_tabellare">
 					
