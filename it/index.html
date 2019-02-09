@@ -56,57 +56,62 @@
 			data.sort((a, b) => {
 				return a.class.toLowerCase().localeCompare(b.class);
 			});
+			
+			var text = document.getElementById('searchBar').value;
 
 			if (data.length > 0){
 				html = data.reduce((html, item) => {
-					if ((item.degree=="LT" && degree) || (item.degree=="LM" && !degree))
-					{				
-						item_link = item.id.substring(3);
-						if (item.platform == "TG")
-						{
-							item_html = '<li>';
-							item_html += '<a href="https://t.me/joinchat/' + item_link + '">';
-							item_html += '<img style="width:18px;" src="../img/tg.svg" />';
-							item_html += "&nbsp;[";
-							item_html += item.office
-							item_html += "]&nbsp;";
-							item_html += item.class
-							if (item.language == "ITA")
+					if (text.lenght > 0)
+					{
+						if ((item.degree=="LT" && degree) || (item.degree=="LM" && !degree))
+						{				
+							item_link = item.id.substring(3);
+							if (item.platform == "TG")
 							{
-								item_html += "&nbsp;";
-								item_html += '<img style="width:18px;" src="../img/it_flag.png" />';
+								item_html = '<li>';
+								item_html += '<a href="https://t.me/joinchat/' + item_link + '">';
+								item_html += '<img style="width:18px;" src="../img/tg.svg" />';
+								item_html += "&nbsp;[";
+								item_html += item.office
+								item_html += "]&nbsp;";
+								item_html += item.class
+								if (item.language == "ITA")
+								{
+									item_html += "&nbsp;";
+									item_html += '<img style="width:18px;" src="../img/it_flag.png" />';
+								}
+								else if (item.language == "ENG")
+								{
+									item_html += "&nbsp;";
+									item_html += '<img style="width:18px;" src="../img/en_flag.png" />';
+								}
+								item_html += '</a>';
+								item_html += '</li>';
+								return html + item_html;
 							}
-							else if (item.language == "ENG")
+							else if (item.platform == "FB")
 							{
-								item_html += "&nbsp;";
-								item_html += '<img style="width:18px;" src="../img/en_flag.png" />';
+								item_html = '<li>';
+								item_html += '<a href="https://www.facebook.com/groups/' + item_link + '">';
+								item_html += '<img style="width:18px;" src="../img/fb.svg" />';
+								item_html += "&nbsp;[";
+								item_html += item.office
+								item_html += "]&nbsp;";
+								item_html += item.class
+								if (item.language == "ITA")
+								{
+									item_html += "&nbsp;";
+									item_html += '<img style="width:18px;" src="../img/it_flag.png" />';
+								}
+								else if (item.language == "ENG")
+								{
+									item_html += "&nbsp;";
+									item_html += '<img style="width:18px;" src="../img/en_flag.png" />';
+								}
+								item_html += '</a>';
+								item_html += '</li>';
+								return html + item_html;
 							}
-							item_html += '</a>';
-							item_html += '</li>';
-							return html + item_html;
-						}
-						else if (item.platform == "FB")
-						{
-							item_html = '<li>';
-							item_html += '<a href="https://www.facebook.com/groups/' + item_link + '">';
-							item_html += '<img style="width:18px;" src="../img/fb.svg" />';
-							item_html += "&nbsp;[";
-							item_html += item.office
-							item_html += "]&nbsp;";
-							item_html += item.class
-							if (item.language == "ITA")
-							{
-								item_html += "&nbsp;";
-								item_html += '<img style="width:18px;" src="../img/it_flag.png" />';
-							}
-							else if (item.language == "ENG")
-							{
-								item_html += "&nbsp;";
-								item_html += '<img style="width:18px;" src="../img/en_flag.png" />';
-							}
-							item_html += '</a>';
-							item_html += '</li>';
-							return html + item_html;
 						}
 					}
 					return html;
