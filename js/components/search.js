@@ -33,14 +33,7 @@ function init(event) {
 				op_type: "search",
 				data: {
 					query: {
-						class: q,
-						office: q,
-						id: q,
-						degree: q,
-						school: q,
-						platform: q,
-						type: q,
-						year: q
+						class: q
 					},
 					join: "OR",
 					limit: this.dataset.limit
