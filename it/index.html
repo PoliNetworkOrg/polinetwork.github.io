@@ -27,7 +27,11 @@
 				// Forcing search reload
 				document.getElementById('searchBar').dispatchEvent(new Event('keyup'));
 			}
-			document.getElementsByName("triennale_o_magistrale")[0].onchange = function(){
+			document.getElementById("triennale_o_magistrale_triennale").onchange = function(){
+				// Forcing search reload
+				document.getElementById('searchBar').dispatchEvent(new Event('keyup'));
+			}
+			document.getElementById("triennale_o_magistrale_magistrale").onchange = function(){
 				// Forcing search reload
 				document.getElementById('searchBar').dispatchEvent(new Event('keyup'));
 			}
@@ -64,8 +68,6 @@
 							item_html += '<a href="https://t.me/joinchat/' + item_link + '">';
 							item_html += '<img style="width:18px;" src="../img/tg.svg" />';
 							item_html += "&nbsp;[";
-							item_html += item.degree
-							item_html += "&nbsp;";
 							item_html += item.office
 							item_html += "]&nbsp;";
 							item_html += item.class
@@ -89,8 +91,6 @@
 							item_html += '<a href="https://www.facebook.com/groups/' + item_link + '">';
 							item_html += '<img style="width:18px;" src="../img/fb.svg" />';
 							item_html += "&nbsp;[";
-							item_html += item.degree
-							item_html += "&nbsp;";
 							item_html += item.office
 							item_html += "]&nbsp;";
 							item_html += item.class
