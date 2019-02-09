@@ -58,7 +58,9 @@
 			});
 			
 			var text = document.getElementById('searchBar').value;
-
+			
+			var no_results = false;
+			
 			if (data.length > 0){
 				html = data.reduce((html, item) => {
 					if (text.length > 0)
@@ -114,10 +116,23 @@
 							}
 						}
 					}
+					else
+					{
+						no_results = false;
+					}
+					
 					return html;
 				}, "");
 
 				document.getElementById("searchResult").innerHTML = html;
+
+			}
+			else {
+				no_results = true;
+			}
+			
+			if (no_results)
+			{
 				document.getElementById("error_search").classList.add("hide");
 				document.getElementById("searchResult").classList.remove("hide");
 			}
