@@ -223,8 +223,8 @@
 		  white-space: nowrap;
 		  padding: 0;
 		  margin: 0;
-		  width: 10%;
-		  border-top: 1px solid red;
+		  width: 50%;
+		  border-top: 1px solid black;
 		  -webkit-transition: width 0.4s ease;
 		  transition: width 0.4s ease;
 		  height: 0px;
@@ -247,10 +247,10 @@
 
 		input.question:focus + label > span,
 		input.question:valid + label > span {
-		  top: -90px;
+		  top: -105px;
 		  font-size: 16px;
 		  color: #868e96;
-		  padding-left:5px;
+		  padding-left:10px;
 		}
 
 		textarea.question:focus + label > span,
@@ -275,8 +275,9 @@
 		  font-weight: 300;
 		  margin: 0;
 		  position: absolute;
-		  color: #8F8F8F;
-		  font-size: 35px;
+		  color: #3B3B3B;
+		  font-size: 25px;
+		  padding-left:5px;
 		  top: -85px;
 		  left: 0px;
 		  z-index: -1;
@@ -390,15 +391,15 @@
 				<div class="subheading mb-3">Entra nel tuo gruppo!</div>
 				<div id="ricerca" style="border: 1px solid;padding: 15px;border-radius: 30px;display:inline-block;width:100%;border-color: #bf4a004d;">
 					<div style="display:inline-block;width:100%;">
-						<div style="padding-top: 10px;">
+						<div style="padding-top: 5px;">
 							<form>
 								<input type="search" name="name" class="question" style="width: 100%;line-height:display: block;padding: 5px;border: none;font-size: 22px;" data-limit="8" id="searchBar" required autocomplete="off" data-limit="8"  />
-								<label for="nme"><span style="display: block;border: none;padding-top:25px;">Corso di laurea:</span></label>
+								<label for="nme"><span style="display: block;border: none;padding-top:43px;">Corso di laurea:</span></label>
 							</form>
 						</div>
 						<div style="padding-top:15px;">
-							<i style="  border: solid black;border-width: 0 3px 3px 0;display: inline-block;padding: 3px;transform: rotate(45deg);-webkit-transform:rotate(45deg);position:relative;top:27px;right:-95%;"></i>
-							<span style="position: relative;left: -10px;">Anno di ingresso:</span><br />
+							<i style="border: solid;border-color: #0009;border-width: 0 3px 3px 0;display: inline-block;padding: 3px;transform: rotate(45deg);-webkit-transform:rotate(45deg);position:relative;top:27px;right:-95%;"></i>
+							<span style="position: relative;left: -10px;color:#3B3B3B;">Anno di ingresso:</span><br />
 							<select style="width: 100%;margin-bottom: 8px;-moz-appearance: none;-webkit-appearance: none;appearance: none;color: #868e96;font-weight: bold;font-size: 0.95rem;" id="searchYearInput">
 								<option value="2019/2020">2019/2020</option>
 								<option value="2018/2019">2018/2019</option>
@@ -410,7 +411,7 @@
 							<table>
 								<tr>
 									<td>
-									Grado:&nbsp;
+									<span style="color:#3B3B3B;position: relative;top: -1px;">Grado:</span>&nbsp;&nbsp;
 									</td>
 									<td>
 										<input type="radio" name="triennale_o_magistrale" id="triennale_o_magistrale_triennale" value="triennale" checked="checked">
