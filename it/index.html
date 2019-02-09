@@ -131,7 +131,7 @@
 				no_results = true;
 			}
 			
-			if (no_results)
+			if (no_results || html.length == 0)
 			{
 				document.getElementById("error_search").classList.remove("hide");
 				document.getElementById("searchResult").classList.add("hide");
