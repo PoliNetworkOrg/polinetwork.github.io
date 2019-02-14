@@ -65,7 +65,7 @@
 			
 			var text = document.getElementById('searchBar').value;
 			
-			var no_results = false;
+			var no_results = 0;
 			
 			if (data.length > 0){
 				html = data.reduce((html, item) => {
@@ -124,7 +124,7 @@
 					}
 					else
 					{
-						no_results = true;
+						no_results = 1;
 					}
 					
 					return html;
@@ -134,11 +134,24 @@
 
 			}
 			else {
-				no_results = true;
+				no_results = 2;
 			}
 			
-			if (no_results || html.length == 0)
+			if (no_results != 0 || html.length == 0)
 			{
+				if (no_results == 1)
+				{
+					document.getElementById("error_search").innerHTML = "Non hai scritto il nome di nessun corso!";
+				}
+				else if (no_results == 2)
+				{
+					document.getElementById("error_search").innerHTML = "Ancora nessun risultato!";
+				}
+				else
+				{
+					document.getElementById("error_search").innerHTML = "Errore sconosciuto!";
+				}
+				
 				document.getElementById("error_search").classList.remove("hide");
 				document.getElementById("searchResult").classList.add("hide");
 			}
