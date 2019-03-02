@@ -29,7 +29,10 @@ function init(event) {
 			data: null
 		});
 		el.addEventListener("keyup", function(e){
-			var q = new RegExp(this.value, "gi");
+			var tmp = this.value.split(" ");
+			tmp = tmp.map(item => "(" + item + ")(.)*");
+			tmp = tmp.join("");
+			var q = new RegExp(tmp, "gi");
 			this.search_worker.postMessage({
 				op_id: "",
 				op_type: "search",
