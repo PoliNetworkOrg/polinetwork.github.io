@@ -146,7 +146,7 @@ search = function(query, join, limit){
 	result.sort();
 
 	// Limiting data
-	if (limit !== -1){
+	if (Number(limit) !== -1){
 		result = result.slice(0, limit);
 	}
 
