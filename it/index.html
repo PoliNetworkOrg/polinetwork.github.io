@@ -69,13 +69,20 @@
 			var text = document.getElementById('searchBar').value;
 			
 			var no_results = 0;
+			var n_results = 0;
 			
 			if (data.length > 0){
 				html = data.reduce((html, item) => {
 					if (text.length > 0)
 					{
 						if ((item.degree=="LT" && degree_lt) || (item.degree=="LM" && degree_lm) || (item.degree=="LU" && degree_lu))
-						{				
+						{		
+							n_results = n_results + 1;
+							if (n_results > 10)
+							{
+								return html;
+							}
+						
 							item_link = item.id.substring(3);
 							if (item.platform == "TG")
 							{
@@ -426,7 +433,7 @@
 						<div style="padding-top: 5px;">
                             <label for="nme" style="margin-bottom:0px;"><span style="display: block;border: none;color: #3B3B3B;">&nbsp;🔍 Cerca un corso di laurea:</span></label>	
 							<div style=" border-bottom: 2px solid;">
-								<input type="search" name="name" class="question" style="width: 100%;line-height:display: block;padding: 5px;border: none;font-size: 17px;" data-limit="-1" id="searchBar" required autocomplete="off" data-limit="8" placeholder="Inserisci il tuo corso di laurea (es. Informatica)"  />
+								<input type="search" name="name" class="question" style="width: 100%;line-height:display: block;padding: 5px;border: none;font-size: 17px;" data-limit="-1" id="searchBar" required autocomplete="off" data-limit="-1" placeholder="Inserisci il tuo corso di laurea (es. Informatica)"  />
 							</div>
 						</div>
 						<div style="padding-top:15px;">
