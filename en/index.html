@@ -477,22 +477,28 @@
 						<div style="padding-top: 5px;">
                             <label for="nme" style="margin-bottom:0px;"><span style="display: block;border: none;color: #3B3B3B;">&nbsp;🔍 Search a course:</span></label>	
 							<div style=" border-bottom: 2px solid;">
-								<input type="search" name="name" class="question" style="width: 100%;line-height:display: block;padding: 5px;border: none;font-size: 17px;"
-										id="searchBar" required autocomplete="off" data-limit="-1" placeholder="Type your course (ex. Computer)"  />
+								<!--
+									TODO: sistemare style per l'input sottostante
+									style="width: 100%;line-height:display: block;padding: 5px;border: none;font-size: 17px;"
+									line-height non è settato e l'errore di sintassi non setta le proprietà successive: display, padding, border, font-size.
+									momentaneamente sistemato rimuovendo l'errore sintattico (non so a che valore avevate intenzione di settare line-height)
+								-->
+								<input type="search" name="name" class="question" style="width: 100%;display: block;padding: 5px;border: none;font-size: 17px;"
+										id="searchBar" required autocomplete="off" data-limit="-1" placeholder="Enter your course (e.g. Computer)"  />
 							</div>
 						</div>
 						<div style="padding-top:15px;">
 							<i style="border: solid;border-color: #0009;border-width: 0 3px 3px 0;display: inline-block;padding: 3px;transform: rotate(45deg);-webkit-transform:rotate(45deg);position:relative;top:27px;right:-95%;z-index:-10;"></i>
-							<span style="position: relative;left: -10px;color:#3B3B3B;">Year of entry:</span><br />
+							<span style="position: relative;left: -10px;color:#3B3B3B;">Year of subscription:</span><br />
 							<select style="width: 100%;margin-bottom: 8px;-moz-appearance: none;-webkit-appearance: none;appearance: none;color: #868e96;font-weight: bold;font-size: 0.95rem;background-color: #fff0;" id="searchYearInput">
 								<!-- <option value="2019/2020">2019/2020</option> !-->
 								<option value="2018/2019">2018/2019</option>
 								<option value="2017/2018">2017/2018</option>
-								<option value="2017/2018">Before</option>
+								<option value="2017/2018">Previous years</option>
 							</select>
 						</div>
 						<div style="padding-top: 5px;">
-							<span style="color:#3B3B3B;position: relative;top: -1px;">Grade:</span>
+							<span style="color:#3B3B3B;position: relative;top: -1px;">Type:</span>
 							<div>
 								<table>
 									<tr>
