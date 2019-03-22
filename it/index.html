@@ -477,7 +477,13 @@
 						<div style="padding-top: 5px;">
                             <label for="nme" style="margin-bottom:0px;"><span style="display: block;border: none;color: #3B3B3B;">&nbsp;🔍 Cerca un corso di laurea:</span></label>	
 							<div style=" border-bottom: 2px solid;">
-								<input type="search" name="name" class="question" style="width: 100%;line-height:display: block;padding: 5px;border: none;font-size: 17px;"
+								<!--
+									TODO: sistemare style per l'input sottostante
+									style="width: 100%;line-height:display: block;padding: 5px;border: none;font-size: 17px;"
+									line-height non è settato e l'errore di sintassi non setta le proprietà successive: display, padding, border, font-size.
+									momentaneamente sistemato rimuovendo l'errore sintattico (non so a che valore avevate intenzione di settare line-height)
+								-->
+								<input type="search" name="name" class="question" style="width: 100%;display: block;padding: 5px;border: none;font-size: 17px;"
 										id="searchBar" required autocomplete="off" data-limit="-1" placeholder="Inserisci il tuo corso di laurea (es. Informatica)"  />
 							</div>
 						</div>
