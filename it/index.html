@@ -130,6 +130,29 @@
 								item_html += '</li>';
 								return html + item_html;
 							}
+							else if (item.platform == "WA")
+							{
+								item_html = '<li>';
+								item_html += '<a href="https://chat.whatsapp.com/' + item_link + '">';
+								item_html += '<img style="width:18px;" src="../img/wa.svg" />';
+								item_html += "&nbsp;[";
+								item_html += item.office
+								item_html += "]&nbsp;";
+								item_html += item.class
+								if (item.language == "ITA")
+								{
+									item_html += "&nbsp;";
+									item_html += '<img style="width:18px;" src="../img/it_flag.png" />';
+								}
+								else if (item.language == "ENG")
+								{
+									item_html += "&nbsp;";
+									item_html += '<img style="width:18px;" src="../img/en_flag.png" />';
+								}
+								item_html += '</a>';
+								item_html += '</li>';
+								return html + item_html;
+							}
 						}
 					}
 					else
