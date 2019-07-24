@@ -43,6 +43,19 @@
 				document.getElementById('searchBar').dispatchEvent(new Event('keyup'));
 			}
 			
+			document.getElementById("tipo_gruppo_s").onchange = function(){
+				// Forcing search reload
+				document.getElementById('searchBar').dispatchEvent(new Event('keyup'));
+			}
+			document.getElementById("tipo_gruppo_c").onchange = function(){
+				// Forcing search reload
+				document.getElementById('searchBar').dispatchEvent(new Event('keyup'));
+			}
+			document.getElementById("tipo_gruppo_e").onchange = function(){
+				// Forcing search reload
+				document.getElementById('searchBar').dispatchEvent(new Event('keyup'));
+			}
+			
 		});
 
 		function showSearchResults(data2){
