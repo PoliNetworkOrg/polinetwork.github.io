@@ -83,85 +83,88 @@
 			
 			if (data.length > 0){
 				html = data.reduce((html, item) => {
-					if (text.length > 0 && item.tipo == tipo)
+					if (text.length > 0)
 					{
 						if ((item.degree=="LT" && degree_lt) || (item.degree=="LM" && degree_lm) || (item.degree=="LU" && degree_lu))
 						{		
-							n_results = n_results + 1;
-							if (n_results > 10)
+							if (item.tipo == tipo)
 							{
-								return html;
-							}
-						
-							item_link = item.id_link;
-							if (item.platform == "TG")
-							{
-								item_html = '<li>';
-								item_html += '<a href="https://t.me/joinchat/' + item_link + '">';
-								item_html += '<img style="width:18px;" src="../img/tg.svg" />';
-								item_html += "&nbsp;[";
-								item_html += item.office
-								item_html += "]&nbsp;";
-								item_html += item.class
-								if (item.language == "ITA")
+								n_results = n_results + 1;
+								if (n_results > 10)
 								{
-									item_html += "&nbsp;";
-									item_html += '<img style="width:18px;" src="../img/it_flag.png" />';
+									return html;
 								}
-								else if (item.language == "ENG")
+							
+								item_link = item.id_link;
+								if (item.platform == "TG")
 								{
-									item_html += "&nbsp;";
-									item_html += '<img style="width:18px;" src="../img/en_flag.png" />';
+									item_html = '<li>';
+									item_html += '<a href="https://t.me/joinchat/' + item_link + '">';
+									item_html += '<img style="width:18px;" src="../img/tg.svg" />';
+									item_html += "&nbsp;[";
+									item_html += item.office
+									item_html += "]&nbsp;";
+									item_html += item.class
+									if (item.language == "ITA")
+									{
+										item_html += "&nbsp;";
+										item_html += '<img style="width:18px;" src="../img/it_flag.png" />';
+									}
+									else if (item.language == "ENG")
+									{
+										item_html += "&nbsp;";
+										item_html += '<img style="width:18px;" src="../img/en_flag.png" />';
+									}
+									item_html += '</a>';
+									item_html += '</li>';
+									return html + item_html;
 								}
-								item_html += '</a>';
-								item_html += '</li>';
-								return html + item_html;
-							}
-							else if (item.platform == "FB")
-							{
-								item_html = '<li>';
-								item_html += '<a href="https://www.facebook.com/groups/' + item_link + '">';
-								item_html += '<img style="width:18px;" src="../img/fb.svg" />';
-								item_html += "&nbsp;[";
-								item_html += item.office
-								item_html += "]&nbsp;";
-								item_html += item.class
-								if (item.language == "ITA")
+								else if (item.platform == "FB")
 								{
-									item_html += "&nbsp;";
-									item_html += '<img style="width:18px;" src="../img/it_flag.png" />';
+									item_html = '<li>';
+									item_html += '<a href="https://www.facebook.com/groups/' + item_link + '">';
+									item_html += '<img style="width:18px;" src="../img/fb.svg" />';
+									item_html += "&nbsp;[";
+									item_html += item.office
+									item_html += "]&nbsp;";
+									item_html += item.class
+									if (item.language == "ITA")
+									{
+										item_html += "&nbsp;";
+										item_html += '<img style="width:18px;" src="../img/it_flag.png" />';
+									}
+									else if (item.language == "ENG")
+									{
+										item_html += "&nbsp;";
+										item_html += '<img style="width:18px;" src="../img/en_flag.png" />';
+									}
+									item_html += '</a>';
+									item_html += '</li>';
+									return html + item_html;
 								}
-								else if (item.language == "ENG")
+								else if (item.platform == "WA")
 								{
-									item_html += "&nbsp;";
-									item_html += '<img style="width:18px;" src="../img/en_flag.png" />';
+									item_html = '<li>';
+									item_html += '<a href="https://chat.whatsapp.com/' + item_link + '">';
+									item_html += '<img style="width:18px;" src="../img/wa.svg" />';
+									item_html += "&nbsp;[";
+									item_html += item.office
+									item_html += "]&nbsp;";
+									item_html += item.class
+									if (item.language == "ITA")
+									{
+										item_html += "&nbsp;";
+										item_html += '<img style="width:18px;" src="../img/it_flag.png" />';
+									}
+									else if (item.language == "ENG")
+									{
+										item_html += "&nbsp;";
+										item_html += '<img style="width:18px;" src="../img/en_flag.png" />';
+									}
+									item_html += '</a>';
+									item_html += '</li>';
+									return html + item_html;
 								}
-								item_html += '</a>';
-								item_html += '</li>';
-								return html + item_html;
-							}
-							else if (item.platform == "WA")
-							{
-								item_html = '<li>';
-								item_html += '<a href="https://chat.whatsapp.com/' + item_link + '">';
-								item_html += '<img style="width:18px;" src="../img/wa.svg" />';
-								item_html += "&nbsp;[";
-								item_html += item.office
-								item_html += "]&nbsp;";
-								item_html += item.class
-								if (item.language == "ITA")
-								{
-									item_html += "&nbsp;";
-									item_html += '<img style="width:18px;" src="../img/it_flag.png" />';
-								}
-								else if (item.language == "ENG")
-								{
-									item_html += "&nbsp;";
-									item_html += '<img style="width:18px;" src="../img/en_flag.png" />';
-								}
-								item_html += '</a>';
-								item_html += '</li>';
-								return html + item_html;
 							}
 						}
 					}
