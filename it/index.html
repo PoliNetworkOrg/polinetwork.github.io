@@ -47,15 +47,25 @@
 
 		function showSearchResults(data2){
 			data = data2.data.data;
+			
+			var tipo = '';
+			if ($('#tipo_gruppo_s').is(':checked'))
+				tipo = 'S';
+			else if ($('#tipo_gruppo_e').is(':checked'))
+				tipo = 'E';
+			else if ($('#tipo_gruppo_c').is(':checked'))
+				tipo = 'C';
 
 			var year = document.getElementById("searchYearInput").value;
 			data = data.filter((item) => {
-				if (item.year == year){
+				if (item.year == year && tipo == 'S'){
 					return true;
 				}
-				else {
-					return false;
+				else if (tipo != 'S') {
+					return true;
 				}
+				else
+					return false;
 			})
 			
 			var degree_lt = $('#triennale_o_magistrale_triennale').is(':checked') ? 1 : 0;
@@ -73,7 +83,7 @@
 			
 			if (data.length > 0){
 				html = data.reduce((html, item) => {
-					if (text.length > 0)
+					if (text.length > 0 && item.tipo == tipo)
 					{
 						if ((item.degree=="LT" && degree_lt) || (item.degree=="LM" && degree_lm) || (item.degree=="LU" && degree_lu))
 						{		
