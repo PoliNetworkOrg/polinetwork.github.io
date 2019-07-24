@@ -107,6 +107,16 @@
 								{
 									return html;
 								}
+								
+								var bandiera = "";
+								if (item.language == "ITA")
+								{
+									bandiera = "it_flag.png";
+								}
+								else if (item.language == "ENG")
+								{
+									bandiera = "en_flag.png";
+								}
 							
 								item_link = item.id_link;
 								if (item.platform == "TG")
@@ -118,16 +128,10 @@
 									item_html += item.office
 									item_html += "]&nbsp;";
 									item_html += item.class
-									if (item.language == "ITA")
-									{
-										item_html += "&nbsp;";
-										item_html += '<img style="width:18px;" src="../img/it_flag.png" />';
-									}
-									else if (item.language == "ENG")
-									{
-										item_html += "&nbsp;";
-										item_html += '<img style="width:18px;" src="../img/en_flag.png" />';
-									}
+
+									item_html += "&nbsp;";
+									item_html += '<img style="width:18px;" src="../img/'+bandiera+'.png" />';
+
 									item_html += '</a>';
 									item_html += '</li>';
 									return html + item_html;
@@ -141,16 +145,10 @@
 									item_html += item.office
 									item_html += "]&nbsp;";
 									item_html += item.class
-									if (item.language == "ITA")
-									{
-										item_html += "&nbsp;";
-										item_html += '<img style="width:18px;" src="../img/it_flag.png" />';
-									}
-									else if (item.language == "ENG")
-									{
-										item_html += "&nbsp;";
-										item_html += '<img style="width:18px;" src="../img/en_flag.png" />';
-									}
+									
+									item_html += "&nbsp;";
+									item_html += '<img style="width:18px;" src="../img/'+bandiera+'.png" />';
+									
 									item_html += '</a>';
 									item_html += '</li>';
 									return html + item_html;
@@ -164,16 +162,10 @@
 									item_html += item.office
 									item_html += "]&nbsp;";
 									item_html += item.class
-									if (item.language == "ITA")
-									{
-										item_html += "&nbsp;";
-										item_html += '<img style="width:18px;" src="../img/it_flag.png" />';
-									}
-									else if (item.language == "ENG")
-									{
-										item_html += "&nbsp;";
-										item_html += '<img style="width:18px;" src="../img/en_flag.png" />';
-									}
+									
+									item_html += "&nbsp;";
+									item_html += '<img style="width:18px;" src="../img/'+bandiera+'.png" />';
+									
 									item_html += '</a>';
 									item_html += '</li>';
 									return html + item_html;
