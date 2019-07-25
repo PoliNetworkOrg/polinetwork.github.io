@@ -124,9 +124,12 @@
 									item_html = '<li>';
 									item_html += '<a href="https://t.me/joinchat/' + item_link + '">';
 									item_html += '<img style="width:18px;" src="../img/tg.svg" />';
-									item_html += "&nbsp;[";
-									item_html += item.office
-									item_html += "]&nbsp;";
+									if (item.office)
+									{
+										item_html += "&nbsp;[";
+										item_html += item.office
+										item_html += "]&nbsp;";
+									}
 									item_html += item.class
 
 									item_html += "&nbsp;";
