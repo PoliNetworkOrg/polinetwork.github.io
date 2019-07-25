@@ -1,4 +1,5 @@
 {"info_data":{
+"TG///LclXl1EnkkdCxTYfQKxE4w":{"class":"InfoSec","office":"","id":"TG///LclXl1EnkkdCxTYfQKxE4w","degree":"","school":"","id_link":"LclXl1EnkkdCxTYfQKxE4w","language":"ITA","type":"C","year":"","permanentId":"-1001361547847","platform":"TG"},
 "TG///LclXl0NU3vqTqpLSn8Zzow":{"class":"#include <tette.h>","office":"","id":"TG///LclXl0NU3vqTqpLSn8Zzow","degree":"","school":"","id_link":"LclXl0NU3vqTqpLSn8Zzow","language":"ITA","type":"E","year":"","permanentId":"-1001129635578","platform":"TG"},
 "TG///LclXl1JtxlLkxVFxg7n5sQ":{"class":"Artificial Intelligence","office":"","id":"TG///LclXl1JtxlLkxVFxg7n5sQ","degree":"","school":"","id_link":"LclXl1JtxlLkxVFxg7n5sQ","language":"ITA","type":"C","year":"","permanentId":"-1001382925906","platform":"TG"},
 "TG///LclXl0YtuPC10hS43u8ruQ":{"class":"Automazione industriale","office":"","id":"TG///LclXl0YtuPC10hS43u8ruQ","degree":"","school":"","id_link":"LclXl0YtuPC10hS43u8ruQ","language":"ITA","type":"C","year":"","permanentId":"-1001177401584","platform":"TG"},
@@ -424,6 +425,7 @@
 "TG/2019/2020/LEONARDO/FNGD_0ReljmRiDQyopax8Q":{"class":"Urbanistica: Città Ambiente Paesaggio","office":"LEONARDO","id":"TG/2019/2020/LEONARDO/FNGD_0ReljmRiDQyopax8Q","degree":"LT","school":"AUIC","id_link":"FNGD_0ReljmRiDQyopax8Q","language":"ITA","type":"S","year":"2019/2020","permanentId":"","platform":"TG"},
 "WA/2019/2020/LEONARDO/DSFKSKAsvGUDczfy7UQNPK":{"class":"Urbanistica: Città Ambiente Paesaggio","office":"LEONARDO","id":"WA/2019/2020/LEONARDO/DSFKSKAsvGUDczfy7UQNPK","degree":"LT","school":"AUIC","id_link":"DSFKSKAsvGUDczfy7UQNPK","language":"ITA","type":"S","year":"2019/2020","permanentId":"","platform":"WA"}},
 "index_data":[
+{"class":"InfoSec","office":"","id":"TG///LclXl1EnkkdCxTYfQKxE4w","degree":"","school":"","id_link":"LclXl1EnkkdCxTYfQKxE4w","language":"ITA","type":"C","year":"","permanentId":"-1001361547847","platform":"TG"},
 {"class":"#include <tette.h>","office":"","id":"TG///LclXl0NU3vqTqpLSn8Zzow","degree":"","school":"","id_link":"LclXl0NU3vqTqpLSn8Zzow","language":"ITA","type":"E","year":"","permanentId":"-1001129635578","platform":"TG"},
 {"class":"Artificial Intelligence","office":"","id":"TG///LclXl1JtxlLkxVFxg7n5sQ","degree":"","school":"","id_link":"LclXl1JtxlLkxVFxg7n5sQ","language":"ITA","type":"C","year":"","permanentId":"-1001382925906","platform":"TG"},
 {"class":"Automazione industriale","office":"","id":"TG///LclXl0YtuPC10hS43u8ruQ","degree":"","school":"","id_link":"LclXl0YtuPC10hS43u8ruQ","language":"ITA","type":"C","year":"","permanentId":"-1001177401584","platform":"TG"},
