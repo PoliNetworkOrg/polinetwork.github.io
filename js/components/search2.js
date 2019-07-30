@@ -34,6 +34,10 @@
 				// Forcing search reload
 				document.getElementById('searchBar').dispatchEvent(new Event('keyup'));
 			}
+			document.getElementById("tipo_gruppo_a").onchange = function(){
+				// Forcing search reload
+				document.getElementById('searchBar').dispatchEvent(new Event('keyup'));
+			}
 			
 		});
 
