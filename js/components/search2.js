@@ -1,3 +1,39 @@
+		document.addEventListener("DOMContentLoaded", function(event) {
+			document.getElementById("searchBar").search_callback = showSearchResults;
+			document.getElementById("searchYearInput").onchange = function(){
+				// Forcing search reload
+				document.getElementById('searchBar').dispatchEvent(new Event('keyup'));
+			}
+			document.getElementById("triennale_o_magistrale_triennale").onchange = function(){
+				// Forcing search reload
+				document.getElementById('searchBar').dispatchEvent(new Event('keyup'));
+			}
+			document.getElementById("triennale_o_magistrale_magistrale").onchange = function(){
+				// Forcing search reload
+				document.getElementById('searchBar').dispatchEvent(new Event('keyup'));
+			}
+			document.getElementById("triennale_o_magistrale_unico").onchange = function(){
+				// Forcing search reload
+				document.getElementById('searchBar').dispatchEvent(new Event('keyup'));
+			}
+			
+			document.getElementById("tipo_gruppo_s").onchange = function(){
+				// Forcing search reload
+				document.getElementById('searchBar').dispatchEvent(new Event('keyup'));
+			}
+			document.getElementById("tipo_gruppo_c").onchange = function(){
+				// Forcing search reload
+				document.getElementById('searchBar').dispatchEvent(new Event('keyup'));
+			}
+			document.getElementById("tipo_gruppo_e").onchange = function(){
+				// Forcing search reload
+				document.getElementById('searchBar').dispatchEvent(new Event('keyup'));
+			}
+			
+		});
+
+
+
 function showSearchResults(data2){
 			data = data2.data.data;
 			
