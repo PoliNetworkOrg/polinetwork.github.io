@@ -16,6 +16,11 @@
 				// Forcing search reload
 				document.getElementById('searchBar').dispatchEvent(new Event('keyup'));
 			}
+			document.getElementById("triennale_o_magistrale_all").onchange = function(){
+				// Forcing search reload
+				document.getElementById('searchBar').dispatchEvent(new Event('keyup'));
+			}
+			
 			
 			document.getElementById("tipo_gruppo_s").onchange = function(){
 				// Forcing search reload
@@ -44,22 +49,49 @@ function showSearchResults(data2){
 				tipo = 'E';
 			else if ($('#tipo_gruppo_c').is(':checked'))
 				tipo = 'C';
-
-			var year = document.getElementById("searchYearInput").value;
-			data = data.filter((item) => {
-				if (item.year == year && tipo == 'S'){
-					return true;
-				}
-				else if (tipo != 'S') {
-					return true;
-				}
-				else
-					return false;
-			})
 			
+						
 			var degree_lt = $('#triennale_o_magistrale_triennale').is(':checked') ? 1 : 0;
 			var degree_lm = $('#triennale_o_magistrale_magistrale').is(':checked') ? 1 : 0;
 			var degree_lu = $('#triennale_o_magistrale_unico').is(':checked') ? 1 : 0;
+			var degree_all = $('#triennale_o_magistrale_all').is(':checked') ? 1 : 0;
+
+			var year = document.getElementById("searchYearInput").value;
+			data = data.filter((item) => {
+				
+				if (item.year == year && tipo == 'S'){
+					;
+				}
+				else if (tipo != 'S') {
+					;
+				}
+				else
+					return false;
+				
+				
+				if (degree_all)
+				{
+					;
+				}
+				else
+				{
+					if ((item.degree=="LT" && degree_lt) || (item.degree=="LM" && degree_lm) || (item.degree=="LU" && degree_lu) || tipo != "S")
+					{
+						;
+					}
+					else
+					{
+						return false;
+					}
+				}
+				
+				if (item.type != tipo)
+					return false;
+				
+				
+				return true;				
+			})
+
 
 			data.sort((a, b) => {
 				return a.class.toLowerCase().localeCompare(b.class);
@@ -69,92 +101,89 @@ function showSearchResults(data2){
 			
 			var no_results = 0;
 			var n_results = 0;
+			var result_limit = 10;
 			
 			if (data.length > 0){
 				html = data.reduce((html, item) => {
 					if (text.length > 0)
 					{
-						if ((item.degree=="LT" && degree_lt) || (item.degree=="LM" && degree_lm) || (item.degree=="LU" && degree_lu) || tipo != "S")
-						{		
-							if (item.type == tipo)
-							{
-								n_results = n_results + 1;
-								if (n_results > 10)
-								{
-									return html;
-								}
-								
-								var bandiera = "";
-								if (item.language == "ITA")
-								{
-									bandiera = "it_flag";
-								}
-								else if (item.language == "ENG")
-								{
-									bandiera = "en_flag";
-								}
-							
-								item_link = item.id_link;
-								if (item.platform == "TG")
-								{
-									item_html = '<li>';
-									item_html += '<a href="https://t.me/joinchat/' + item_link + '">';
-									item_html += '<img style="width:18px;" src="../img/tg.svg" />';
-									if (item.office)
-									{
-										item_html += "&nbsp;[";
-										item_html += item.office
-										item_html += "]&nbsp;";
-									}
-									else
-									{
-										item_html += "&nbsp;";
-									}
-									item_html += item.class
-
-									item_html += "&nbsp;";
-									item_html += '<img style="width:18px;" src="../img/'+bandiera+'.png" />';
-
-									item_html += '</a>';
-									item_html += '</li>';
-									return html + item_html;
-								}
-								else if (item.platform == "FB")
-								{
-									item_html = '<li>';
-									item_html += '<a href="https://www.facebook.com/groups/' + item_link + '">';
-									item_html += '<img style="width:18px;" src="../img/fb.svg" />';
-									item_html += "&nbsp;[";
-									item_html += item.office
-									item_html += "]&nbsp;";
-									item_html += item.class
-									
-									item_html += "&nbsp;";
-									item_html += '<img style="width:18px;" src="../img/'+bandiera+'.png" />';
-									
-									item_html += '</a>';
-									item_html += '</li>';
-									return html + item_html;
-								}
-								else if (item.platform == "WA")
-								{
-									item_html = '<li>';
-									item_html += '<a href="https://chat.whatsapp.com/' + item_link + '">';
-									item_html += '<img style="width:18px;" src="../img/wa.svg" />';
-									item_html += "&nbsp;[";
-									item_html += item.office
-									item_html += "]&nbsp;";
-									item_html += item.class
-									
-									item_html += "&nbsp;";
-									item_html += '<img style="width:18px;" src="../img/'+bandiera+'.png" />';
-									
-									item_html += '</a>';
-									item_html += '</li>';
-									return html + item_html;
-								}
-							}
+						n_results = n_results + 1;
+						if (n_results > result_limit)
+						{
+							return html;
 						}
+						
+						var bandiera = "";
+						if (item.language == "ITA")
+						{
+							bandiera = "it_flag";
+						}
+						else if (item.language == "ENG")
+						{
+							bandiera = "en_flag";
+						}
+					
+						item_link = item.id_link;
+						if (item.platform == "TG")
+						{
+							item_html = '<li>';
+							item_html += '<a href="https://t.me/joinchat/' + item_link + '">';
+							item_html += '<img style="width:18px;" src="../img/tg.svg" />';
+							if (item.office)
+							{
+								item_html += "&nbsp;[";
+								item_html += item.office
+								item_html += "]&nbsp;";
+							}
+							else
+							{
+								item_html += "&nbsp;";
+							}
+							item_html += item.class
+
+							item_html += "&nbsp;";
+							item_html += '<img style="width:18px;" src="../img/'+bandiera+'.png" />';
+
+							item_html += '</a>';
+							item_html += '</li>';
+							return html + item_html;
+						}
+						else if (item.platform == "FB")
+						{
+							item_html = '<li>';
+							item_html += '<a href="https://www.facebook.com/groups/' + item_link + '">';
+							item_html += '<img style="width:18px;" src="../img/fb.svg" />';
+							item_html += "&nbsp;[";
+							item_html += item.office
+							item_html += "]&nbsp;";
+							item_html += item.class
+							
+							item_html += "&nbsp;";
+							item_html += '<img style="width:18px;" src="../img/'+bandiera+'.png" />';
+							
+							item_html += '</a>';
+							item_html += '</li>';
+							return html + item_html;
+						}
+						else if (item.platform == "WA")
+						{
+							item_html = '<li>';
+							item_html += '<a href="https://chat.whatsapp.com/' + item_link + '">';
+							item_html += '<img style="width:18px;" src="../img/wa.svg" />';
+							item_html += "&nbsp;[";
+							item_html += item.office
+							item_html += "]&nbsp;";
+							item_html += item.class
+							
+							item_html += "&nbsp;";
+							item_html += '<img style="width:18px;" src="../img/'+bandiera+'.png" />';
+							
+							item_html += '</a>';
+							item_html += '</li>';
+							return html + item_html;
+						}
+						
+						
 					}
 					else
 					{
