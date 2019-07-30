@@ -81,7 +81,7 @@ function showSearchResults(data2){
 				}
 				else
 				{
-					if ((item.degree=="LT" && degree_lt) || (item.degree=="LM" && degree_lm) || (item.degree=="LU" && degree_lu) || tipo != "S")
+					if ((item.degree=="LT" && degree_lt) || (item.degree=="LM" && degree_lm) || (item.degree=="LU" && degree_lu) || (tipo != "S" && tipo != "A"))
 					{
 						;
 					}
