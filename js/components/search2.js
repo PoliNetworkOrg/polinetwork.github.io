@@ -42,6 +42,21 @@
 		});
 
 
+		function escape_HTML(html_str) {
+			'use strict';
+
+			return html_str.replace(/[&<>"]/g, function (tag) {
+				var chars_to_replace = {
+					'&': '&',
+					'<': '<',
+					'>': '>',
+					'"': '"'
+				};
+
+				return chars_to_replace[tag] || tag;
+			});
+		}
+
 
 function showSearchResults(data2){
 			data = data2.data.data;
@@ -147,7 +162,7 @@ function showSearchResults(data2){
 							{
 								item_html += "&nbsp;";
 							}
-							item_html += item.class
+							item_html += escape_HTML(item.class)
 
 							item_html += "&nbsp;";
 							item_html += '<img style="width:18px;" src="../img/'+bandiera+'.png" />';
@@ -164,7 +179,7 @@ function showSearchResults(data2){
 							item_html += "&nbsp;[";
 							item_html += item.office
 							item_html += "]&nbsp;";
-							item_html += item.class
+							item_html += escape_HTML(item.class)
 							
 							item_html += "&nbsp;";
 							item_html += '<img style="width:18px;" src="../img/'+bandiera+'.png" />';
@@ -181,7 +196,7 @@ function showSearchResults(data2){
 							item_html += "&nbsp;[";
 							item_html += item.office
 							item_html += "]&nbsp;";
-							item_html += item.class
+							item_html += escape_HTML(item.class)
 							
 							item_html += "&nbsp;";
 							item_html += '<img style="width:18px;" src="../img/'+bandiera+'.png" />';
@@ -247,3 +262,4 @@ function showSearchResults(data2){
 				x.classList.add("hide");
 			}
 		}
+		
