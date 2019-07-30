@@ -49,6 +49,8 @@ function showSearchResults(data2){
 				tipo = 'E';
 			else if ($('#tipo_gruppo_c').is(':checked'))
 				tipo = 'C';
+			else if ($('#tipo_gruppo_a').is(':checked'))
+				tipo = 'A';
 			
 						
 			var degree_lt = $('#triennale_o_magistrale_triennale').is(':checked') ? 1 : 0;
@@ -85,7 +87,9 @@ function showSearchResults(data2){
 					}
 				}
 				
-				if (item.type != tipo)
+				if (tipo == 'A')
+					;
+				else if (item.type != tipo)
 					return false;
 				
 				
