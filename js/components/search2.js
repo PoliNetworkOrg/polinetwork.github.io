@@ -59,6 +59,12 @@ function escapeHtml (string) {
   });
 }
 
+function htmlDecode(input)
+{
+  var doc = new DOMParser().parseFromString(input, "text/html");
+  return doc.documentElement.textContent;
+}
+
 
 function showSearchResults(data2){
 			data = data2.data.data;
@@ -164,7 +170,7 @@ function showSearchResults(data2){
 							{
 								item_html += "&nbsp;";
 							}
-							item_html += escapeHtml(item.class)
+							item_html += escapeHtml(htmlDecode(item.class))
 
 							item_html += "&nbsp;";
 							item_html += '<img style="width:18px;" src="../img/'+bandiera+'.png" />';
@@ -181,7 +187,7 @@ function showSearchResults(data2){
 							item_html += "&nbsp;[";
 							item_html += item.office
 							item_html += "]&nbsp;";
-							item_html += escapeHtml(item.class)
+							item_html += escapeHtml(htmlDecode(item.class))
 							
 							item_html += "&nbsp;";
 							item_html += '<img style="width:18px;" src="../img/'+bandiera+'.png" />';
@@ -198,7 +204,7 @@ function showSearchResults(data2){
 							item_html += "&nbsp;[";
 							item_html += item.office
 							item_html += "]&nbsp;";
-							item_html += escapeHtml(item.class)
+							item_html += escapeHtml(htmlDecode(item.class))
 							
 							item_html += "&nbsp;";
 							item_html += '<img style="width:18px;" src="../img/'+bandiera+'.png" />';
