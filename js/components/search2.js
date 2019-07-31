@@ -134,94 +134,111 @@ function showSearchResults(data2){
 			var n_results = 0;
 			var result_limit = 10;
 			
-			if (data.length > 0){
+			if (text.length > 0)
+			{
+				;
+			}
+			else
+			{
+				no_results = 1;
+			}
+	
+			
+			if (data.length > 0 && no_results == 0){
 				html = data.reduce((html, item) => {
-					if (text.length > 0)
+
+					n_results = n_results + 1;
+					if (n_results > result_limit)
 					{
-						n_results = n_results + 1;
-						if (n_results > result_limit)
-						{
-							return html;
-						}
-						
-						var bandiera = "";
-						if (item.language == "ITA")
-						{
-							bandiera = "it_flag";
-						}
-						else if (item.language == "ENG")
-						{
-							bandiera = "en_flag";
-						}
-					
-						item_link = item.id_link;
-						if (item.platform == "TG")
-						{
-							item_html = '<li>';
-							item_html += '<a href="https://t.me/joinchat/' + item_link + '">';
-							item_html += '<img style="width:18px;" src="../img/tg.svg" />';
-							if (item.office)
-							{
-								item_html += "&nbsp;[";
-								item_html += item.office
-								item_html += "]&nbsp;";
-							}
-							else
-							{
-								item_html += "&nbsp;";
-							}
-							item_html += escapeHtml((item.class))
-
-							item_html += "&nbsp;";
-							item_html += '<img style="width:18px;" src="../img/'+bandiera+'.png" />';
-
-							item_html += '</a>';
-							item_html += '</li>';
-							return html + item_html;
-						}
-						else if (item.platform == "FB")
-						{
-							item_html = '<li>';
-							item_html += '<a href="https://www.facebook.com/groups/' + item_link + '">';
-							item_html += '<img style="width:18px;" src="../img/fb.svg" />';
-							item_html += "&nbsp;[";
-							item_html += item.office
-							item_html += "]&nbsp;";
-							item_html += escapeHtml(htmlDecode(item.class))
-							
-							item_html += "&nbsp;";
-							item_html += '<img style="width:18px;" src="../img/'+bandiera+'.png" />';
-							
-							item_html += '</a>';
-							item_html += '</li>';
-							return html + item_html;
-						}
-						else if (item.platform == "WA")
-						{
-							item_html = '<li>';
-							item_html += '<a href="https://chat.whatsapp.com/' + item_link + '">';
-							item_html += '<img style="width:18px;" src="../img/wa.svg" />';
-							item_html += "&nbsp;[";
-							item_html += item.office
-							item_html += "]&nbsp;";
-							item_html += escapeHtml(htmlDecode(item.class))
-							
-							item_html += "&nbsp;";
-							item_html += '<img style="width:18px;" src="../img/'+bandiera+'.png" />';
-							
-							item_html += '</a>';
-							item_html += '</li>';
-							return html + item_html;
-						}
-						
-						
+						return html;
 					}
-					else
+					
+					var bandiera = "";
+					if (item.language == "ITA")
 					{
-						no_results = 1;
+						bandiera = "it_flag";
+					}
+					else if (item.language == "ENG")
+					{
+						bandiera = "en_flag";
+					}
+				
+					item_link = item.id_link;
+					if (item.platform == "TG")
+					{
+						item_html = '<li>';
+						item_html += '<a href="https://t.me/joinchat/' + item_link + '">';
+						item_html += '<img style="width:18px;" src="../img/tg.svg" />';
+						if (item.office)
+						{
+							item_html += "&nbsp;[";
+							item_html += item.office
+							item_html += "]&nbsp;";
+						}
+						else
+						{
+							item_html += "&nbsp;";
+						}
+						item_html += escapeHtml((item.class))
+
+						item_html += "&nbsp;";
+						item_html += '<img style="width:18px;" src="../img/'+bandiera+'.png" />';
+
+						item_html += '</a>';
+						item_html += '</li>';
+						return html + item_html;
+					}
+					else if (item.platform == "FB")
+					{
+						item_html = '<li>';
+						item_html += '<a href="https://www.facebook.com/groups/' + item_link + '">';
+						item_html += '<img style="width:18px;" src="../img/fb.svg" />';
+						if (item.office)
+						{
+							item_html += "&nbsp;[";
+							item_html += item.office
+							item_html += "]&nbsp;";
+						}
+						else
+						{
+							item_html += "&nbsp;";
+						}
+						item_html += escapeHtml(htmlDecode(item.class))
+						
+						item_html += "&nbsp;";
+						item_html += '<img style="width:18px;" src="../img/'+bandiera+'.png" />';
+						
+						item_html += '</a>';
+						item_html += '</li>';
+						return html + item_html;
+					}
+					else if (item.platform == "WA")
+					{
+						item_html = '<li>';
+						item_html += '<a href="https://chat.whatsapp.com/' + item_link + '">';
+						item_html += '<img style="width:18px;" src="../img/wa.svg" />';
+						if (item.office)
+						{
+							item_html += "&nbsp;[";
+							item_html += item.office
+							item_html += "]&nbsp;";
+						}
+						else
+						{
+							item_html += "&nbsp;";
+						}
+						item_html += escapeHtml(htmlDecode(item.class))
+						
+						item_html += "&nbsp;";
+						item_html += '<img style="width:18px;" src="../img/'+bandiera+'.png" />';
+						
+						item_html += '</a>';
+						item_html += '</li>';
+						return html + item_html;
 					}
 					
 					return html;
+					
 				}, "");
 
 				document.getElementById("searchResult").innerHTML = html;
