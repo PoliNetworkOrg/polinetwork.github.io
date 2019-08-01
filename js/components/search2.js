@@ -166,6 +166,7 @@ function showSearchResults(data2){
 					item_link = item.id_link;
 					
 					item.class = item.class.replace("&apos;", "'");
+					item.class = item.class.replace("&quot;", "\"");
 					if (item.platform == "TG")
 					{
 						item_html = '<li>';
