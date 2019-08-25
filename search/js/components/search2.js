@@ -170,7 +170,7 @@ function showSearchResults(data2){
 					item.class = item.class.replace("&quot;", "\"");
 					if (item.platform == "TG")
 					{
-						item_html = '<li>';
+						item_html = '<li>&nbsp;';
 						item_html += '<a href="https://t.me/joinchat/' + item_link + '">';
 						item_html += '<img style="width:18px;" src="../../img/tg.svg" />';
 						if (item.office)
@@ -194,7 +194,7 @@ function showSearchResults(data2){
 					}
 					else if (item.platform == "FB")
 					{
-						item_html = '<li>';
+						item_html = '<li>&nbsp;';
 						item_html += '<a href="https://www.facebook.com/groups/' + item_link + '">';
 						item_html += '<img style="width:18px;" src="../../img/fb.svg" />';
 						if (item.office)
@@ -218,7 +218,7 @@ function showSearchResults(data2){
 					}
 					else if (item.platform == "WA")
 					{
-						item_html = '<li>';
+						item_html = '<li>&nbsp;';
 						item_html += '<a href="https://chat.whatsapp.com/' + item_link + '">';
 						item_html += '<img style="width:18px;" src="../../img/wa.svg" />';
 						if (item.office)
