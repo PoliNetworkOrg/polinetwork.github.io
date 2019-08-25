@@ -22,7 +22,7 @@ function init(event) {
 		el._search_callback = function(data) {
 			this.search_callback(data);
 		}.bind(el);
-		el.search_worker = new Worker('/js/workers/search.js');
+		el.search_worker = new Worker('/search/js/workers/search.js');
 		el.search_worker.postMessage({
 			op_id: "warmup",
 			op_type: "preload",
