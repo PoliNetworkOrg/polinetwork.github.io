@@ -1,45 +1,106 @@
-		document.addEventListener("DOMContentLoaded", function(event) {
-			document.getElementById("searchBar").search_callback = showSearchResults;
-			document.getElementById("searchYearInput").onchange = function(){
-				// Forcing search reload
-				document.getElementById('searchBar').dispatchEvent(new Event('keyup'));
-			}
-			document.getElementById("triennale_o_magistrale_triennale").onchange = function(){
-				// Forcing search reload
-				document.getElementById('searchBar').dispatchEvent(new Event('keyup'));
-			}
-			document.getElementById("triennale_o_magistrale_magistrale").onchange = function(){
-				// Forcing search reload
-				document.getElementById('searchBar').dispatchEvent(new Event('keyup'));
-			}
-			document.getElementById("triennale_o_magistrale_unico").onchange = function(){
-				// Forcing search reload
-				document.getElementById('searchBar').dispatchEvent(new Event('keyup'));
-			}
-			document.getElementById("triennale_o_magistrale_all").onchange = function(){
-				// Forcing search reload
-				document.getElementById('searchBar').dispatchEvent(new Event('keyup'));
-			}
-			
-			
-			document.getElementById("tipo_gruppo_s").onchange = function(){
-				// Forcing search reload
-				document.getElementById('searchBar').dispatchEvent(new Event('keyup'));
-			}
-			document.getElementById("tipo_gruppo_c").onchange = function(){
-				// Forcing search reload
-				document.getElementById('searchBar').dispatchEvent(new Event('keyup'));
-			}
-			document.getElementById("tipo_gruppo_e").onchange = function(){
-				// Forcing search reload
-				document.getElementById('searchBar').dispatchEvent(new Event('keyup'));
-			}
-			document.getElementById("tipo_gruppo_a").onchange = function(){
-				// Forcing search reload
-				document.getElementById('searchBar').dispatchEvent(new Event('keyup'));
-			}
-			
-		});
+function updateSearch(){
+	var cls = new RegExp(
+		document.getElementById("searchBar").value
+			.split(" ")
+			.map(item => "(" + item + ")(.)*")
+			.join("")
+	, "gi");
+
+	var type = "";
+	if ($('#tipo_gruppo_s').is(':checked'))
+		type = 'S';
+	else if ($('#tipo_gruppo_e').is(':checked'))
+		type = 'E';
+	else if ($('#tipo_gruppo_c').is(':checked'))
+		type = 'C';
+	else if ($('#tipo_gruppo_a').is(':checked'))
+		type = 'A';
+
+	var degree = "";
+	if ($('#triennale_o_magistrale_triennale').is(':checked'))
+		degree = 'LT';
+	else if ($('#triennale_o_magistrale_magistrale').is(':checked'))
+		degree = 'LM';
+	else if ($('#triennale_o_magistrale_unico').is(':checked'))
+		degree = 'LU';
+
+	window.worker.postMessage({
+		op_id: "",
+		op_type: "search",
+		data: {
+			query: {
+				class: cls,
+				year: $("#searchYearInput").val(),
+				type: type,
+				degree: degree
+			},
+			join: "AND",
+			limit: 10
+		}
+	});
+}
+
+function parseSearchResponse(data){
+	data = data.data;
+	if (data.op_type === "preload"){
+		document.getElementById("searchBar").onkeyup = updateSearch;
+		document.getElementById("searchYearInput").onchange = updateSearch;
+		document.getElementById("triennale_o_magistrale_triennale").onchange = updateSearch;
+		document.getElementById("triennale_o_magistrale_magistrale").onchange = updateSearch;
+		document.getElementById("triennale_o_magistrale_unico").onchange = updateSearch;
+		document.getElementById("triennale_o_magistrale_all").onchange = updateSearch;
+		
+		document.getElementById("tipo_gruppo_s").onchange = updateSearch;
+		document.getElementById("tipo_gruppo_c").onchange = updateSearch;
+		document.getElementById("tipo_gruppo_e").onchange = updateSearch;
+		document.getElementById("tipo_gruppo_a").onchange = updateSearch;
+
+		document.getElementById("searchBar").disabled = false;
+		document.getElementById("searchYearInput").disabled = false;
+		document.getElementById("triennale_o_magistrale_triennale").disabled = false;
+		document.getElementById("triennale_o_magistrale_magistrale").disabled = false;
+		document.getElementById("triennale_o_magistrale_unico").disabled = false;
+		document.getElementById("triennale_o_magistrale_all").disabled = false;
+		
+		document.getElementById("tipo_gruppo_s").disabled = false;
+		document.getElementById("tipo_gruppo_c").disabled = false;
+		document.getElementById("tipo_gruppo_e").disabled = false;
+		document.getElementById("tipo_gruppo_a").disabled = false;
+
+		document.getElementById("loading_search").classList.add("hide");
+		document.getElementById("error_search").classList.remove("hide");
+		document.getElementById("searchResult").classList.remove("hide");
+	}
+	else {
+		showSearchResults(data.data);
+	}
+}
+
+document.addEventListener("DOMContentLoaded", function(event) {
+	document.getElementById("loading_search").classList.remove("hide");
+	document.getElementById("error_search").classList.add("hide");
+	document.getElementById("searchResult").classList.add("hide");
+
+	document.getElementById("searchBar").disabled = true;
+	document.getElementById("searchYearInput").disabled = true;
+	document.getElementById("triennale_o_magistrale_triennale").disabled = true;
+	document.getElementById("triennale_o_magistrale_magistrale").disabled = true;
+	document.getElementById("triennale_o_magistrale_unico").disabled = true;
+	document.getElementById("triennale_o_magistrale_all").disabled = true;
+	
+	document.getElementById("tipo_gruppo_s").disabled = true;
+	document.getElementById("tipo_gruppo_c").disabled = true;
+	document.getElementById("tipo_gruppo_e").disabled = true;
+	document.getElementById("tipo_gruppo_a").disabled = true;
+
+	window.worker = new Worker('/js/workers/search.js');
+	window.worker.postMessage({
+		op_id: "warmup",
+		op_type: "preload",
+		data: null
+	});
+	window.worker.onmessage = parseSearchResponse;
+});
 
 
 var entityMap = {
@@ -54,241 +115,81 @@ var entityMap = {
 };
 
 function escapeHtml (string) {
-  return String(string).replace(/[&<>"'`=\/]/g, function (s) {
-    return entityMap[s];
-  });
+  return String(string).replace(/[&<>"'`=\/]/g, s => entityMap[s]);
 }
 
-function htmlDecode(input)
-{
-  var doc = new DOMParser().parseFromString(input, "text/html");
-  return doc.documentElement.textContent;
+const mapping = {
+	language: {
+		"ITA": "it_flag",
+		"ENG": "en_flag",
+		"__default__": ""
+	},
+	platform: {
+		"TG" : {
+			"link_pre": "https://t.me/joinchat/",
+			"link_post": "",
+			"img": "tg"
+		},
+		"FB" : {
+			"link_pre": "https://www.facebook.com/groups/",
+			"link_post": "",
+			"img": "fb"
+		},
+		"WA" : {
+			"link_pre": "https://chat.whatsapp.com/",
+			"link_post": "",
+			"img": "wa"
+		},
+		"__default__": {
+			"link_pre": "",
+			"link_post": "",
+			"img": ""
+		}
+	}
 }
 
-
-function showSearchResults(data2){
-			data = data2.data.data;
-			
-			var tipo = '';
-			if ($('#tipo_gruppo_s').is(':checked'))
-				tipo = 'S';
-			else if ($('#tipo_gruppo_e').is(':checked'))
-				tipo = 'E';
-			else if ($('#tipo_gruppo_c').is(':checked'))
-				tipo = 'C';
-			else if ($('#tipo_gruppo_a').is(':checked'))
-				tipo = 'A';
-			
-						
-			var degree_lt = $('#triennale_o_magistrale_triennale').is(':checked') ? 1 : 0;
-			var degree_lm = $('#triennale_o_magistrale_magistrale').is(':checked') ? 1 : 0;
-			var degree_lu = $('#triennale_o_magistrale_unico').is(':checked') ? 1 : 0;
-			var degree_all = $('#triennale_o_magistrale_all').is(':checked') ? 1 : 0;
-
-			var year = document.getElementById("searchYearInput").value;
-			data = data.filter((item) => {
-				
-				if (item.year == year && tipo == 'S'){
-					;
-				}
-				else if (tipo != 'S') {
-					;
-				}
-				else
-					return false;
-				
-				
-				if (degree_all)
-				{
-					;
-				}
-				else
-				{
-					if ((item.degree=="LT" && degree_lt) || (item.degree=="LM" && degree_lm) || (item.degree=="LU" && degree_lu) || (tipo != "S" && tipo != "A"))
-					{
-						;
-					}
-					else
-					{
-						return false;
-					}
-				}
-				
-				if (tipo == 'A')
-					;
-				else if (item.type != tipo)
-					return false;
-				
-				
-				return true;				
-			})
-
-
-			data.sort((a, b) => {
-				return a.class.toLowerCase().localeCompare(b.class);
-			});
-			
-			var text = document.getElementById('searchBar').value;
-			
-			var no_results = 0;
-			var n_results = 0;
-			var result_limit = 10;
-			
-			if (text.length > 0)
-			{
-				;
-			}
-			else
-			{
-				no_results = 1;
-			}
-	
-			
-			if (data.length > 0 && no_results == 0){
-				html = data.reduce((html, item) => {
-
-					n_results = n_results + 1;
-					if (n_results > result_limit)
-					{
-						return html;
-					}
-					
-					var bandiera = "";
-					if (item.language == "ITA")
-					{
-						bandiera = "it_flag";
-					}
-					else if (item.language == "ENG")
-					{
-						bandiera = "en_flag";
-					}
-				
-					item_link = item.id_link;
-					
-					item.class = item.class.replace("&apos;", "'");
-					item.class = item.class.replace("&quot;", "\"");
-					item.class = item.class.replace("&quot;", "\"");
-					if (item.platform == "TG")
-					{
-						item_html = '<li>&nbsp;';
-						item_html += '<a href="https://t.me/joinchat/' + item_link + '">';
-						item_html += '<img style="width:18px;" src="../../img/tg.svg" />';
-						if (item.office)
-						{
-							item_html += "&nbsp;[";
-							item_html += item.office
-							item_html += "]&nbsp;";
-						}
-						else
-						{
-							item_html += "&nbsp;";
-						}
-						item_html += escapeHtml((item.class))
-
-						item_html += "&nbsp;";
-						item_html += '<img style="width:18px;" src="../../img/'+bandiera+'.png" />';
-
-						item_html += '</a>';
-						item_html += '</li>';
-						return html + item_html;
-					}
-					else if (item.platform == "FB")
-					{
-						item_html = '<li>&nbsp;';
-						item_html += '<a href="https://www.facebook.com/groups/' + item_link + '">';
-						item_html += '<img style="width:18px;" src="../../img/fb.svg" />';
-						if (item.office)
-						{
-							item_html += "&nbsp;[";
-							item_html += item.office
-							item_html += "]&nbsp;";
-						}
-						else
-						{
-							item_html += "&nbsp;";
-						}
-						item_html += escapeHtml(htmlDecode(item.class))
-						
-						item_html += "&nbsp;";
-						item_html += '<img style="width:18px;" src="../../img/'+bandiera+'.png" />';
-						
-						item_html += '</a>';
-						item_html += '</li>';
-						return html + item_html;
-					}
-					else if (item.platform == "WA")
-					{
-						item_html = '<li>&nbsp;';
-						item_html += '<a href="https://chat.whatsapp.com/' + item_link + '">';
-						item_html += '<img style="width:18px;" src="../../img/wa.svg" />';
-						if (item.office)
-						{
-							item_html += "&nbsp;[";
-							item_html += item.office
-							item_html += "]&nbsp;";
-						}
-						else
-						{
-							item_html += "&nbsp;";
-						}
-						item_html += escapeHtml(htmlDecode(item.class))
-						
-						item_html += "&nbsp;";
-						item_html += '<img style="width:18px;" src="../../img/'+bandiera+'.png" />';
-						
-						item_html += '</a>';
-						item_html += '</li>';
-						return html + item_html;
-					}
-					
-					return html;
-					
-				}, "");
-
-				document.getElementById("searchResult").innerHTML = html;
-
+function applyMapping(item){
+	for (key in mapping){
+		if (item[key]){
+			if (mapping[key][item[key]] !== undefined){
+				item[key] = mapping[key][item[key]];
 			}
 			else {
-				no_results = 2;
+				item[key] = mapping[key]["__default__"];
 			}
-			
-			if (no_results != 0 || html.length == 0)
-			{
-				if (no_results == 1)
-				{
-					document.getElementById("error_search").innerHTML = "Non hai scritto il nome di nessun corso!";
-				}
-				else if (no_results == 2)
-				{
-					document.getElementById("error_search").innerHTML = "Ancora nessun risultato!";
-				}
-				else
-				{
-					document.getElementById("error_search").innerHTML = "Nessun risultato!";
-				}
-				
-				document.getElementById("error_search").classList.remove("hide");
-				document.getElementById("searchResult").classList.add("hide");
-			}
-			else {
-				document.getElementById("error_search").classList.add("hide");
-				document.getElementById("searchResult").classList.remove("hide");
-			}
-			
 		}
-		
+	}
 
-		
-		
-		function display_forma_tabellare(){
-			x = document.getElementById("forma_tabellare");
-			if (x.classList.contains("hide"))
-			{
-				x.classList.remove("hide");
-			}
-			else
-			{
-				x.classList.add("hide");
-			}
-		}
-		
+	return item;
+}
+
+function genHtml(data){
+	return `
+		<li>
+			<a href="${data.platform.link_pre}${data.id_link}${data.platform.link_post}">
+				<img style="width:18px;" src="../../img/${data.platform.img}.svg" />
+				${(data.office?`&nbsp[${data.office}]`:``)}
+				&nbsp${escapeHtml(data.class)}&nbsp
+				<img style="width:18px;" src="../../img/${data.language}.png" />
+			</a>
+		</li>
+	`;
+}
+
+function showSearchResults(data){
+	document.getElementById("searchResult").innerHTML = "";
+	document.getElementById("error_search").innerHTML = "";
+	if (document.getElementById('searchBar') && (document.getElementById('searchBar').value === "")){
+		document.getElementById("error_search").innerHTML = "Non hai scritto il nome di nessun corso!";
+	}
+	else if (data.length === 0){
+		document.getElementById("error_search").innerHTML = "Nessun risultato!";
+	}
+	else {
+		document.getElementById("searchResult").innerHTML = data
+			.sort((a, b) => a.class.toLowerCase().localeCompare(b.class))
+			.map(applyMapping)
+			.map(genHtml)
+			.join("");
+	}
+}
