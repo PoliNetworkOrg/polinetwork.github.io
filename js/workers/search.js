@@ -73,16 +73,13 @@ onmessage = function(e) {
 
 			break;
 		case "preload":
-			data = null;
+			// Only for warming the script up
 			break;
 		default:
-			data = null;
+			// Nothing to do
 	}
-
-	if (data !== null){
-		// Default on op_type switch
-		postMessage(data);
-	}
+	
+	postMessage(data);
 }
 
 /**
@@ -121,6 +118,9 @@ search = function(query, join, limit){
 
 		result.forEach((curarr, curarrid) => {
 			curarr.forEach((item) => {
+				if (!tmp[item]){
+					tmp[item] = 0;
+				}
 				tmp[item] += Math.pow(2, curarrid);
 			});
 			oksum += Math.pow(2, curarrid);
@@ -176,7 +176,7 @@ preload = function(){
 _reload = function(){
 	var xhttp = new XMLHttpRequest();
 
-	xhttp.open('GET', '/data/search/groups3.json', false);
+	xhttp.open('GET', '/data/search/groups4.json', false);
 	xhttp.send(null);
 
 	if (xhttp.status === 200) {
@@ -216,7 +216,7 @@ _filter = function(key, value){
 	var toReturn;
 
 	toReturn = this.index_data.filter((item) => {
-		if (item[key].match(value)){
+		if (item[key] === null || item[key].match(value)){
 			return true;
 		}
 		else {
