@@ -6,17 +6,15 @@ function updateSearch(){
 			.join("")
 	, "gi");
 
-	var type = "";
+	var type = null;
 	if ($('#tipo_gruppo_s').is(':checked'))
 		type = 'S';
 	else if ($('#tipo_gruppo_e').is(':checked'))
 		type = 'E';
 	else if ($('#tipo_gruppo_c').is(':checked'))
 		type = 'C';
-	else if ($('#tipo_gruppo_a').is(':checked'))
-		type = 'A';
 
-	var degree = "";
+	var degree = null;
 	if ($('#triennale_o_magistrale_triennale').is(':checked'))
 		degree = 'LT';
 	else if ($('#triennale_o_magistrale_magistrale').is(':checked'))

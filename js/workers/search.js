@@ -216,7 +216,7 @@ _filter = function(key, value){
 	var toReturn;
 
 	toReturn = this.index_data.filter((item) => {
-		if (item[key] === null || item[key].match(value)){
+		if (value === null || item[key] === null || item[key].match(value)){
 			return true;
 		}
 		else {
