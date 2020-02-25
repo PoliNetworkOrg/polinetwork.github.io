@@ -40,6 +40,10 @@
 "TG///LclXl1lklUk3SsOWk5oczA":{"class":"Code Transformation and Optimization","office":null,"id":"TG///LclXl1lklUk3SsOWk5oczA","degree":null,"school":null,"id_link":"LclXl1lklUk3SsOWk5oczA","language":"ENG","type":"C","year":null,"permanentId":"-1001499764041","LastUpdateInviteLinkTime":"2019-11-15 21:13:00.000","platform":"TG"},
 "TG///LclXl08Hep0Io-cT8biCIQ":{"class":"Communication Network Design","office":null,"id":"TG///LclXl08Hep0Io-cT8biCIQ","degree":null,"school":null,"id_link":"LclXl08Hep0Io-cT8biCIQ","language":"ITA","type":"C","year":null,"permanentId":"-1001325890205","LastUpdateInviteLinkTime":"2019-11-15 21:13:00.000","platform":"TG"},
 "TG///LclXl068z85nrW7mWpXjSQ":{"class":"Communication and ICT: Principles and Applications","office":null,"id":"TG///LclXl068z85nrW7mWpXjSQ","degree":null,"school":null,"id_link":"LclXl068z85nrW7mWpXjSQ","language":"ENG","type":"C","year":null,"permanentId":"-1001320996814","LastUpdateInviteLinkTime":"2019-11-15 21:13:00.000","platform":"TG"},
+
+"TG///FNGD_0sp9ic6sUaXVugVhw":{"class":"Tecnologie informatiche per il web","office":null,"id":"TG///FNGD_0sp9ic6sUaXVugVhw","degree":null,"school":null,"id_link":"FNGD_0sp9ic6sUaXVugVhw","language":"ITA","type":"C","year":null,"permanentId":"","LastUpdateInviteLinkTime":"2020-02-25 11:13:00.000","platform":"TG"},
+
+
 "TG///LclXl1IEGZHSvP-dOBXnLQ":{"class":"Complessità nei sistemi e nelle reti","office":null,"id":"TG///LclXl1IEGZHSvP-dOBXnLQ","degree":null,"school":null,"id_link":"LclXl1IEGZHSvP-dOBXnLQ","language":"ITA","type":"C","year":null,"permanentId":"-1001376000401","LastUpdateInviteLinkTime":"2019-11-15 21:13:00.000","platform":"TG"},
 "TG///LclXl1c1hxoX0IkjGrWfuQ":{"class":"Complex Networks","office":null,"id":"TG///LclXl1c1hxoX0IkjGrWfuQ","degree":null,"school":null,"id_link":"LclXl1c1hxoX0IkjGrWfuQ","language":"ITA","type":"C","year":null,"permanentId":"-1001463125786","LastUpdateInviteLinkTime":"2019-11-15 21:13:00.000","platform":"TG"},
 "TG///LclXl1ZnA7MdonO85rKv3w":{"class":"Computer Ethics","office":null,"id":"TG///LclXl1ZnA7MdonO85rKv3w","degree":null,"school":null,"id_link":"LclXl1ZnA7MdonO85rKv3w","language":"ITA","type":"C","year":null,"permanentId":"-1001449591731","LastUpdateInviteLinkTime":"2019-11-15 21:13:00.000","platform":"TG"},
@@ -865,6 +869,11 @@
 {"class":"Biomedica","office":"LEONARDO","id":"FB/2017/2018/LEONARDO/1157077534390155","degree":"LT","school":"3I","id_link":"1157077534390155","language":"ITA","type":"S","year":"2017/2018","permanentId":null,"LastUpdateInviteLinkTime":"2019-07-27 11:42:33.000","platform":"FB"},
 {"class":"Building and Architectural Engineering","office":"LEONARDO","id":"FB/2017/2018/LEONARDO/322837361481707","degree":"LM","school":"AUIC","id_link":"322837361481707","language":"ENG","type":"S","year":"2017/2018","permanentId":null,"LastUpdateInviteLinkTime":"2019-07-27 11:42:33.000","platform":"FB"},
 {"class":"Building andArchitectural Engineering MAGISTRALE Building and Architectural Engineering","office":"LEONARDO","id":"TG/2017/2018/LEONARDO/LclXl0uk4BhPeqKcH5Z2ow","degree":"LM","school":"AUIC","id_link":"LclXl0uk4BhPeqKcH5Z2ow","language":"ENG","type":"S","year":"2017/2018","permanentId":"-1001269096472","LastUpdateInviteLinkTime":"2019-08-25 09:13:02.000","platform":"TG"},
+
+
+{"class":"Tecnologie informatiche per il web","office":"LEONARDO","id":"TG///FNGD_0sp9ic6sUaXVugVhw","degree":"LT","school":"3I","id_link":"FNGD_0sp9ic6sUaXVugVhw","language":"ITA","type":"C","year":"","permanentId":null,"LastUpdateInviteLinkTime":"2020-02-25 11:56:33.000","platform":"TG"},
+
+
 {"class":"Chimica","office":"LEONARDO","id":"FB/2017/2018/LEONARDO/223309354827644","degree":"LT","school":"3I","id_link":"223309354827644","language":"ITA","type":"S","year":"2017/2018","permanentId":null,"LastUpdateInviteLinkTime":"2019-07-27 11:42:33.000","platform":"FB"},
 {"class":"Civil Engineering for Risk Mitigation","office":"LECCO","id":"FB/2017/2018/LECCO/1456271391089654","degree":"LM","school":"ICAT","id_link":"1456271391089654","language":"ENG","type":"S","year":"2017/2018","permanentId":null,"LastUpdateInviteLinkTime":"2019-07-27 11:42:33.000","platform":"FB"},
 {"class":"Civile","office":"LEONARDO","id":"FB/2017/2018/LEONARDO/1625688507448921","degree":"LT","school":"ICAT","id_link":"1625688507448921","language":"ITA","type":"S","year":"2017/2018","permanentId":null,"LastUpdateInviteLinkTime":"2019-07-27 11:42:33.000","platform":"FB"},
