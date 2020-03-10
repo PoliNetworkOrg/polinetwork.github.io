@@ -33,7 +33,7 @@ function updateSearch(){
 				degree: degree
 			},
 			join: "AND",
-			limit: 10
+			limit: -1
 		}
 	});
 }
