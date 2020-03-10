@@ -175,22 +175,20 @@ function genHtml(data){
 }
 
 function showSearchResults(data){
-  document.getElementById("searchResult").innerHTML = "";
-  document.getElementById("error_search").innerHTML = "";
-
-  data = data.filter(item => item.id_link)
-      .sort((a, b) => a.class.toLowerCase().localeCompare(b.class))
-      .map(applyMapping)
-      .map(genHtml)
-      .join("");
-
-  if (document.getElementById('searchBar') && (document.getElementById('searchBar').value === "")){
-    document.getElementById("error_search").innerHTML = "Non hai scritto il nome di nessun corso!";
-  }
-  else if (data.length === 0){
-    document.getElementById("error_search").innerHTML = "Nessun risultato!";
-  }
-  else {
-    document.getElementById("searchResult").innerHTML = data;
-  }
+	document.getElementById("searchResult").innerHTML = "";
+	document.getElementById("error_search").innerHTML = "";
+	if (document.getElementById('searchBar') && (document.getElementById('searchBar').value === "")){
+		document.getElementById("error_search").innerHTML = "Non hai scritto il nome di nessun corso!";
+	}
+	else if (data.length === 0){
+		document.getElementById("error_search").innerHTML = "Nessun risultato!";
+	}
+	else {
+		document.getElementById("searchResult").innerHTML = data
+			.filter(item => item.id_link)
+			.sort((a, b) => a.class.toLowerCase().localeCompare(b.class))
+			.map(applyMapping)
+			.map(genHtml)
+			.join("");
+	}
 }
