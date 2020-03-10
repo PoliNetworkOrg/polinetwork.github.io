@@ -178,12 +178,13 @@ function showSearchResults(data){
   document.getElementById("searchResult").innerHTML = "";
   document.getElementById("error_search").innerHTML = "";
 
-  data = data.filter(item => item.id_link)
-      .sort((a, b) => a.class.toLowerCase().localeCompare(b.class))
-	  .slice(0, 10)
-      .map(applyMapping)
-      .map(genHtml)
-      .join("");
+	data = data
+		  .filter(item => item.id_link)
+		  .slice(0, 10)
+		  .sort((a, b) => a.class.toLowerCase().localeCompare(b.class))
+		  .map(applyMapping)
+		  .map(genHtml)
+		  .join("");
 
   if (document.getElementById('searchBar') && (document.getElementById('searchBar').value === "")){
     document.getElementById("error_search").innerHTML = "Non hai scritto il nome di nessun corso!";
