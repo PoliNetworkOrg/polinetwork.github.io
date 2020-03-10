@@ -180,6 +180,7 @@ function showSearchResults(data){
 
   data = data.filter(item => item.id_link)
       .sort((a, b) => a.class.toLowerCase().localeCompare(b.class))
+	  .slice(0, 10)
       .map(applyMapping)
       .map(genHtml)
       .join("");
