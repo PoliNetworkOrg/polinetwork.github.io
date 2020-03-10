@@ -185,6 +185,7 @@ function showSearchResults(data){
 	}
 	else {
 		document.getElementById("searchResult").innerHTML = data
+			.filter(item => item.id_link)
 			.sort((a, b) => a.class.toLowerCase().localeCompare(b.class))
 			.map(applyMapping)
 			.map(genHtml)
