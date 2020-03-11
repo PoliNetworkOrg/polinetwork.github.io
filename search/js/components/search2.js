@@ -181,7 +181,7 @@ function showSearchResults(data){
 	data = data
 		  .filter(item => item.id_link);
 		  
-	var data3 = arr.reduce((unique, o) => {
+	var data3 = data.reduce((unique, o) => {
 		if(!unique.some(obj => obj.id_link === o.id_link)) {
 			unique.push(o);
 		}
