@@ -179,8 +179,16 @@ function showSearchResults(data){
   document.getElementById("error_search").innerHTML = "";
 
 	data = data
-		  .filter(item => item.id_link)
-		  .slice(0, 10)
+		  .filter(item => item.id_link);
+		  
+	var data3 = arr.reduce((unique, o) => {
+		if(!unique.some(obj => obj.id_link === o.id_link)) {
+			unique.push(o);
+		}
+		return unique;
+	},[]);
+		  
+	data = data3.slice(0, 10)
 		  .sort((a, b) => a.class.toLowerCase().localeCompare(b.class))
 		  .map(applyMapping)
 		  .map(genHtml)
