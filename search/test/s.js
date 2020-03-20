@@ -1,6 +1,6 @@
 
       document.addEventListener('DOMContentLoaded', _ => {
-        fetch('/data/search/groups7.json')
+        fetch('/data/search/groups7n.json')
           .then(data => data.json())
           .then(data => {
             const searchData = {};
