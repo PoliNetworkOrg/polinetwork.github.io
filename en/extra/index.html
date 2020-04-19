@@ -111,73 +111,31 @@
 			</div>			
 				
 
-			<div class="row">
-				<div class="col-lg-4 col-sm-6 portfolio-item">
-					<div class="card h-100">
-						<a href="./house/index.html" target="_blank"><img class="card-img-top" src="../../img/1.jpg" alt="" /></a>
-						<div class="card-body">
-							<h4 class="card-title">
-								<a href="./house/index.html" target="_blank"><img src="../../img/web.svg" style="width: 18px;" /> Students in search of home</a>
-							</h4>
-							<p class="card-text">Looking for a house in Milan?</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-sm-6 portfolio-item">
-					<div class="card h-100">
-						<a href="https://t.me/InfoPolimi" target="_blank"><img class="card-img-top" src="../../img/2.jpg" alt="" /></a>
-						<div class="card-body">
-							<h4 class="card-title">
-								<a href="https://t.me/InfoPolimi" target="_blank"><img src="../../img/tg.svg" style="width: 18px;" /> Info Polimi</a>
-							</h4>
-							<p class="card-text">Are you having troubles with the registrar's office? Do you have any questions? Here you can find the answers!</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-sm-6 portfolio-item">
-					<div class="card h-100">
-						<a href="./gaming/index.html" target="_blank"><img class="card-img-top" src="../../img/gamers.jpg"  style="width: 100%;height: auto;max-height: 150px;padding-top: 0px;" alt="" /></a>
-						<div class="card-body">
-							<h4 class="card-title">
-								<a href="./gaming/index.html" target="_blank"><img src="../../img/web.svg" style="width: 18px;" /> Games</a>
-							</h4>
-							<p class="card-text">The gaming section of our network </p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-sm-6 portfolio-item">
-					<div class="card h-100">
-						<a href="https://www.facebook.com/groups/1052190631584520/" target="_blank"><img class="card-img-top" src="../../img/4.jpg" alt="" /></a>
-						<div class="card-body">
-							<h4 class="card-title">
-								<a href="https://www.facebook.com/groups/1052190631584520/" target="_blank"><img src="../../img/fb.svg" style="width: 18px;" /> Polimi Sport</a>
-							</h4>
-							<p class="card-text">Facebook group for sports aficionados </p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-sm-6 portfolio-item">
-					<div class="card h-100">
-						<a href="https://t.me/joinchat/FNGD_04V6mhpw01UaHBTIw"><img class="card-img-top" src="../../img/5.jpg" alt="" /></a>
-						<div class="card-body">
-							<h4 class="card-title">
-								<a href="https://t.me/joinchat/FNGD_04V6mgdLOFRBqZ0bw"><img src="../../img/tg.svg" style="width: 18px;" /> Sport Milano</a>
-							</h4>
-							<p class="card-text">Have you ever wondered if someone wanted to come to a sporting event with you? Do you need a fifth player for five-a-side football? Are you looking for somebody to go running with? The group is born to satisfy these needs. Good training 💪</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-sm-6 portfolio-item">
-					<div class="card h-100">
-						<a href="https://t.me/joinchat/AFY9TUesBa6BVmXHaXf3wQ"><img class="card-img-top" src="../../img/6.jpg" alt=""></a>
-						<div class="card-body">
-							<h4 class="card-title">
-								<a href="https://t.me/joinchat/AFY9TUesBa6BVmXHaXf3wQ"><img src="../../img/tg.svg" style="width: 18px;" /> Anime & manga</a>
-							</h4>
-							<p class="card-text">If you like animes and mangas, this is the right place for you</p>
-						</div>
-					</div>
-				</div>
+			<div class="row" id="row2">
+			
+				<script>
+					var dictionary_list = [
+					{"titolo": "Students in search of home", "img": "1.jpg", "link": "./house/index.html", "svg": "web", "desc": "Looking for a house in Milan?"}, 
+					{"titolo": "Info Polimi", "img": "2.jpg", "link": "https://t.me/InfoPolimi", "svg": "tg", "desc": "Are you having troubles with the registrar's office? Do you have any questions? Here you can find the answers!"},
+					{"titolo": "Games", "img": "gamers.jpg", "link": "./gaming/index.html", "svg": "web", "desc": "The gaming section of our network"},
+					{"titolo": "Polimi Sport", "img": "4.jpg", "link": "./sport/index.html", "svg": "web", "desc": "Facebook group for sports aficionados"},
+					{"titolo": "Anime & manga", "img": "6.jpg", "link": "https://t.me/joinchat/AFY9TUesBa6BVmXHaXf3wQ", "svg": "tg", "desc": "If you like animes and mangas, this is the right place for you"},
+					{"titolo": "Political debate", "img": "politica.jpg", "link": "https://t.me/joinchat/FNGD_03xe3BN_18Ep4tsDA", "svg": "tg", "desc": "Group for political debate"},
+					{"titolo": "International mobility for study", "img" : "mobilita.jpg", "link" : "https://t.me/joinchat/FNGD_0cnLiWQKOoPQV2Asw", "svg":"tg", "desc": "International mobility for study"}
+					];
+					
+					
+					for (index = 0; index < dictionary_list.length; ++index) {
+					
+						var html2 = '<div class="col-lg-4 col-sm-6 portfolio-item"><div class="card h-100"><a href="'+dictionary_list[index]["link"]+'" target="_blank"><img class="card-img-top" src="../../img/'+dictionary_list[index]["img"] +'" alt="" /></a><div class="card-body"><h4 class="card-title"><a href="'+dictionary_list[index]["link"]+'" target="_blank"><img src="../../img/'+dictionary_list[index]["svg"]+'.svg" style="width: 18px;" /> '+dictionary_list[index]["titolo"]+'</a></h4><p class="card-text">'+dictionary_list[index]["desc"]+'</p></div></div></div>'
+						
+						document.getElementById('row2').innerHTML += html2;
+					}
+
+
+				</script>
+			
+			
 				<div class="col-lg-4 col-sm-6 portfolio-item">
 					<div class="card h-100">
 						<a href="./ot/index.html"><img class="card-img-top" src="../../img/8.jpg" alt="" /></a>
