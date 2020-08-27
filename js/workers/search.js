@@ -176,7 +176,7 @@ preload = function(){
 _reload = function(){
 	var xhttp = new XMLHttpRequest();
 
-	xhttp.open('GET', '/data/search/groups10v.json', false);
+	xhttp.open('GET', '/data/search/groups11v.json', false);
 	xhttp.send(null);
 
 	if (xhttp.status === 200) {
