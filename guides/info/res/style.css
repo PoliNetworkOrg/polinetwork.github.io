@@ -1,0 +1,45 @@
+html{
+    font-family:Raleway,sans-serif;
+    background-color: #121212;
+    color: white;
+}
+h1 {
+    font-size:40px;
+    text-align: center;
+}
+title{
+    padding: 0px 0px 20px 0px;
+}
+p {
+    font-size:14px;
+    text-align: justify;
+    margin: 0 0 0 0;
+}
+.wrapper {
+    max-width: 750px;
+    margin: 0 auto;
+    position: relative;
+    padding: 20px 20px;
+}
+.accent {
+    color: #BB86FC;
+}
+.secondary{
+    color: #03DAC5;
+}
+p {
+    font-size: 1em;
+}
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
