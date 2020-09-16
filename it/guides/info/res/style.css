@@ -8,7 +8,29 @@
   src: url(./futura-bold);
 }
 
+
+@font-face {
+  font-family: montserrat;
+  src: url(./Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: montserrat-bold;
+  src: url(./Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(./Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: robotomono;
+  src: url(./RobotoMono-Regular.ttf);
+}
+
 html{
+	font-family: robotomono, monospace;
     background-color: #121212;
     color: white;
 }
