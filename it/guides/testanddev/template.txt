@@ -3,8 +3,8 @@ Ingegneria Informatica - Magistrale
 Questa guida è stata redatta dagli admin di Ingegneria Informatica del Polinetwork, raccogliendo opinioni di diversi studenti che hanno frequentato il Corso. Ogni paragrafo è un'opinione.
 
 ### Artificial Neural Networks and Deep Learning
-WHATSAPP https://www.google.com
-TELEGRAM https://www.google.com
+TELEGRAM https://telegram.org/
+WHATSAPP https://whatsapp.com/
 MANIFEST https://www.polimi.it
 
 Commento 1:Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at libero lacinia, lobortis risus nec, facilisis ipsum. Aenean interdum pretium ligula, at finibus magna faucibus sit amet. Morbi eu ultrices augue. Suspendisse augue justo, viverra vel enim vitae, consectetur luctus diam. Proin maximus maximus erat at convallis. Aliquam ullamcorper, purus eu tincidunt iaculis, est mi congue arcu, sit amet semper arcu lectus ut turpis. Aliquam nec varius neque. Pellentesque sit amet laoreet leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.

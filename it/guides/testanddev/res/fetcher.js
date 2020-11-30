@@ -40,13 +40,13 @@ fetch(window.location.pathname.split('/').pop().split('.')[0] + '.txt')
             doc += '<div class="course"><h3>' + lines[i-1].slice(3) + '</h3>'
             while (i < l && (lines[i].slice(0, 8) === 'TELEGRAM' || lines[i].slice(0, 8) === 'WHATSAPP' || lines[i].slice(0, 8) === 'MANIFEST'))
                 if (lines[i].slice(0, 8) === 'TELEGRAM'){
-                    doc += '<a href="' + lines[i-1].slice(8) + '"><img class="telegram" src="res/telegram.webp"></a>'
+                    doc += '<a href="' + lines[i].slice(8) + '"><img class="telegram" src="res/telegram.webp"></a>'
                     i++;
                 } else if (lines[i].slice(0, 8) === 'WHATSAPP'){
-                    doc += '<a href="' + lines[i-1].slice(8) + '"><img class="telegram" src="res/wa.svg"></a>'
+                    doc += '<a href="' + lines[i].slice(8) + '"><img class="telegram" src="res/wa.svg"></a>'
                     i++;
                 }else{
-                    doc += '<a href="' + lines[i-1].slice(8) + '"><img class="manifest" src="res/manifest.png"></a>'
+                    doc += '<a href="' + lines[i].slice(8) + '"><img class="manifest" src="res/manifest.png"></a>'
                     i++
                   }
             for (;i < l; ++i) {
