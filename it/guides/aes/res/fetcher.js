@@ -67,6 +67,6 @@ fetch(window.location.pathname.split('/').pop().split('.')[0] + '.txt')
         } // end of course
     } // end of courseS
     doc += '<div class="footer">Un\'iniziativa Polinetwork. Trova altro su <span class="accent"><a href="https://polinetwork.github.io">polinetwork.github.io</a></span>'
-    doc += '<br>Per commenti o suggerimenti di natura tecnica contatta @EliaMaggioni o @LuigiFusco su Telegram, per suggerimenti sui contenuti o per aggiungerne uno contatta @Raif9</div>'
+    doc += '<br>Per commenti o suggerimenti di natura tecnica contatta @EliaMaggioni o @LuigiFusco su Telegram, per suggerimenti sui contenuti o per aggiungere un commento contatta @Raif9</div>'
     document.body.innerHTML = doc
 }).catch(e => alert('Error parsing the file, please contact an admin on Telegram (@EliaMaggioni) or write an email at polinetwork@outlook.com ! ' + e))
