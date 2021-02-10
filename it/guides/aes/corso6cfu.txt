@@ -23,3 +23,17 @@ Il corso è diviso in diverse parti ognuna delle quali viene presentata attraver
 MANIFEST https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=744926&polij_device_category=DESKTOP&__pj0=0&__pj1=ea6510efa7b45c38a2ca4b35e298182e
 <b>Prof. Terranova (2019/20):</b> 
 Il corso è prettamente teorico, sono quasi assenti esercizi e anche l’esame è nozionistico. Per quanto riguarda il prof, è abbastanza chiaro e si affida molto alle slides (che sono sufficienti come materiale per la preparazione dell’esame). Il prof titolare del corso è affiancato da un architetto che tiene qualche lezione ed è spesso presente. Oltre a loro due ci sono degli interventi esterni da parte di personale di SEA (colleghi del prof. Terranova) che tengono delle presentazioni su singoli argomenti (che possono far parte degli argomenti d’esame). Per quanto riguarda l’esame, visto che lo scorso semestre era in modalità a distanza, le prova è stata scritta (un questionario con domande sia aperte che chiuse) con voto massimo 28. L’orale poteva essere sostenuto solo da chi avesse preso almeno 26 nella precedente prova scritta. Con l’orale si poteva quindi arrivare al 30.
+
+
+### SICUREZZA DEL TRASPORTO AEREO
+MANIFEST https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=745188&polij_device_category=DESKTOP&__pj0=0&__pj1=3dcc4bd896444d1887d3e7dd27a0a573
+Corso noioso e non gestito nel migliore dei modi, il professore (bravissima persona, intendiamoci) e molto lento e fa fatica a tenere alta l'attenzione e non risponde alle mail.
+Per quanto riguarda le lezioni, esse si svolgono con il professore che legge le slides aggiungendo dettagli storici su qualche incidente aereo qua e là, i concetti non sono tanti e neanche difficili anzi, l'unico rischio è quello di  smettere di seguire dopo la terza lezione e ritrovarsi a pochi giorni dell'esame senza sapere neanche di cosa parli il corso e in quel caso, per quanto semplici i concetti, è dura.
+A parte in questo caso (sfortunatamente molto comune) prendere un voto alto non è assolutamente difficile.
+L'esame in presenza consisteva in tre prove, una prova in itinere individuare (così si dice), una seconda in cui si è divisi in gruppo e ogni gruppo ha una prova diversa da risolvere e un terzo "progetto" molto veloce da svolgere con lo stesso gruppo con cui è stata svolta la seconda prova.
+Le prove valgono rispettivamente: 
+1) 0.5 (metà del voto finale) la prima.
+2) 0.3 la seconda
+3) 0.2 la terza.
+Il voto finale è dato dalla media pesata delle tre; volendo si può fare un unica prova orale al posto delle tre prove.
+L'esame a distanza consisteva in un unica prova orale più un progetto di gruppo facoltativo (non si è capito il peso del progetto sul voto finale).
