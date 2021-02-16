@@ -96,7 +96,7 @@ search = function(query, join, limit){
 
 	return this.index_data
 		.filter(item => this._filter(item, query))
-		.slice(0, (limit !== -1?undefined:limit));
+		.slice(0, (limit === -1?undefined:limit));
 	// // Filtering data
 	// var result = [];
 
