@@ -30,7 +30,8 @@ function updateSearch(){
 				class: cls,
 				year: $("#searchYearInput").val(),
 				type: type,
-				degree: degree
+				degree: degree,
+				linkfunzionante: "Y",
 			},
 			join: "AND",
 			limit: -1
