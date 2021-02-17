@@ -37,3 +37,15 @@ Le prove valgono rispettivamente:
 3) 0.2 la terza.
 Il voto finale è dato dalla media pesata delle tre; volendo si può fare un unica prova orale al posto delle tre prove.
 L'esame a distanza consisteva in un unica prova orale più un progetto di gruppo facoltativo (non si è capito il peso del progetto sul voto finale).
+
+
+### STATISTICA 
+MANIFEST https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=744925&polij_device_category=DESKTOP&__pj0=0&__pj1=30ead1c3a76235e6ab8d15fe0de7fb38
+Statistica è carina come materia, ma molto difficile da affrontare. Per me non vale assolutamente i 6 crediti assegnati dal politecnico. 
+Le prime tre lezioni sono decisamente semplici e possono sembrare molto facili, ma gli argomenti col passare del tempo diventano molto, molto più ostici. 
+Te la consiglio soprattutto se ti piace l'argomento, non sceglierla come unica alternativa. 
+Il professore è bravo a spiegare ma è abbastanza frettoloso perché c'è tantissima roba in programma... posso decisamente dire fin da subito che le ore a disposizione per il corso sono veramente insufficienti. 
+E soprattutto, se non segui lezione per lezione studiando volta per volta diventa impossibile seguire il corso. Sappiate in anticipo che si pedalerá di brutto.
+Una cosa che può spiazzare molti è che si utilizzerà spesso un programma per il PC chiamato R, che funziona come un tipico linguaggio di programmazione, ma in ambito statistico, in quanto è molto comodo per risolvere alcuni esercizi o fare dei Conti(quindi non pensate di venire a fare statistica per saltare informatica 😂). 
+In ogni caso il programma serve per velocizzare i calcoli ma non verrà utilizzato all'esame finale. 
+Anche se sei appassionato di statistica quel che si va a fare è molto più complicato di quanto si possa credere. Sia professore che esercitatore sono abbastanza disponibili nel rispiegare i concetti che non sono stati chiari. Il professore organizza anche eventuali progetti che possono essere tenuti dagli studenti riguardo ad analisi statistiche di eventi a proprio piacere. L'esposizione del progetto avviene in coppie o terzetti e questa cosa in più può modificare il voto da - 2 a +5 punti.
