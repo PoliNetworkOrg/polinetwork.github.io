@@ -192,6 +192,8 @@ Il prof risulta preparato e non annoia particolarmente quando spiega, anche perc
 L’esame è composto da 6 problemi come quelli visti a lezione ed esercitazione, dati questi problemi è possibile sceglierne 5. È inoltre consentito l’uso di un foglio A4 riempito a piacere.
 
 ###Informazione e Stima vs Probabilità e Statistica
+
+Parlando con una professoressa di PSI sono emerse alcune considerazioni:
 PSI è un corso metodologico i cui contenuti sono stati scelti per la
 loro rilevanza in un corso di probabilità e statistica per ingegneri e
 sono stati concordati con il CCS di Ingegneria Informatica, in quanto
