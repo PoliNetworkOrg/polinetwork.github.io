@@ -193,7 +193,7 @@ L’esame è composto da 6 problemi come quelli visti a lezione ed esercitazione
 
 ###Informazione e Stima vs Probabilità e Statistica
 
-Parlando con una professoressa di PSI sono emerse alcune considerazioni:
+Parlando con una professoressa di PSI sono emerse alcune considerazioni: </br>
 PSI è un corso metodologico i cui contenuti sono stati scelti per la
 loro rilevanza in un corso di probabilità e statistica per ingegneri e
 sono stati concordati con il CCS di Ingegneria Informatica, in quanto
@@ -207,7 +207,11 @@ Intelligence o  Machine Learning  o Data Science,  proprio per il suo approccio
 modellistico/metodologico. PSI fornisce inoltre delle basi solide per
 un nuovo corso di statistica bayesiana presente nel nuovo track di AI
 che verrà attivato nel breve termine.
-Nel corso di PSI  è presente una parte non trascurabile di inferenza
+Di seguito una breve comparazione tra i due corsi riguardo ai contenuti: </br>
+-Nel corso di PSI  è presente una parte non trascurabile di inferenza
 statistica: non solo la teoria della stima puntuale, ma anche la stima
 intervallare (necessaria per valutare accuratezza e precisione della
-stima, per esempio), oltre alla verifica di ipotesi; la parte di inferenza statistica è limitata nel corso di IS.
+stima, per esempio), oltre alla verifica di ipotesi; la parte di inferenza statistica è limitata nel corso di IS. </br>
+Di contro, nel corso di PSI non è presente la teoria dell'informazione, tipicamente usata dai  telecomunicazionisti,
+riguarda infatti "l'analisi e l'elaborazione su base matematica dei fenomeni relativi alla misurazione e alla trasmissione di informazioni
+su un canale fisico di comunicazione".
