@@ -1,4 +1,4 @@
-Corsi II a.a. 
+Corsi II a.a.
 
 Questa guida è stata redatta dagli admin di Ingegneria Informatica del Polinetwork, raccogliendo opinioni di diversi studenti che hanno frequentato il corso. Ogni paragrafetto è un'opinione.
 Cliccate sul nome del corso per aprirne la pagina e leggere il programma dettagliato.
@@ -60,7 +60,7 @@ gli errori che si incontrano e quali strumenti si usano. L'ho scelto
 perché era qualcosa di nuovo per me (al contrario di chimica) e non
 me ne sono pentito. La prima parte del programma è forse la più
 interessante, della seconda la teoria l'ho trovata più ostica e
-spiegata un po' in fretta. 
+spiegata un po' in fretta.
 
 Corso: E' un esame su argomenti troppo "specifici" che al 99.5%
 non serviranno a nulla a una persona che ha scelto ingegneria
@@ -163,8 +163,8 @@ Ho seguito il corso di Probabilità e Statistica con la docente Ladelli. Il cors
 
 Ho frequentato Probabilità e Statistica nel 2019 con la Professoressa Ladelli, esercitatore Boella. Il corso mi è piaciuto tantissimo, probabilmente uno dei migliori della triennale e ben organizzato. Il materiale è sufficiente sia per esercitarsi che per studiare la teoria. Nel complesso è un corso molto matematico che getta basi necessarie alla comprensione di moltissimi altri argomenti (basti pensare a tutto il ramo Machine Learning, basato tutto sulla Statistica). Consiglio questo corso a chiunque abbia voglia, in futuro, di cimentarsi in rami dell'informatica più teorici e matematici.
 
-Ho seguito il corso di Probabilità e Statistica tenuto dalla Prof.ssa Ladelli nell’ a.a 2018/2019. 
-Il corso inizia con la parte di Probabilità che inizialmente può risultare di difficile comprensione ma è fondamentale per capire gli argomenti successivi. Gli esercizi non hanno uno stampo teorico, perché tramite storie o giochi di carte mirano a insegnare la combinatoria per esprimere eventi. 
+Ho seguito il corso di Probabilità e Statistica tenuto dalla Prof.ssa Ladelli nell’ a.a 2018/2019.
+Il corso inizia con la parte di Probabilità che inizialmente può risultare di difficile comprensione ma è fondamentale per capire gli argomenti successivi. Gli esercizi non hanno uno stampo teorico, perché tramite storie o giochi di carte mirano a insegnare la combinatoria per esprimere eventi.
 Questa parte è anche la più divertente del corso, l’esercitatole Boella ha saputo farla apprezzare lasciando sempre esercizi nuovi a fine lezione per nulla scontati.
 La seconda parte inizia con l’introduzione delle variabili aleatorie e finisce con i test d’ipotesi che sono indubbiamente la parte meno divertente del corso, infatti la Prof.ssa ha utilizzato delle slides per spiegarla e quindi è pesata di più agli studenti.
 Grazie a questo corso ho iniziato ad apprezzare la materia che poi si è rivelata molto utile per comprendere concetti di corsi inerenti al Machine Learning.
@@ -173,7 +173,7 @@ Ho seguito il corso con la professoressa Epifani, trovo che il corso sia molto i
 Riguardo all'esame posso dire che è onesto, non è cambiato da quando era in presenza, ed è 3/4 esercizi ed 1/4 teoria, non fatevi fuorviare comunque, questo esame non si passa facendo esercizi. Riguardo la conoscenza delle dimostrazioni, quelle richieste sono un numero relativamente piccolo e tutte abbastanza banali.
 La professoressa è chiara fintanto che lo studente è ben preparato sulla lezione prima, soprattutto quando inizia la seconda parte, in caso contrario saranno arabo.
 
-###INFORMAZIONE E STIMA (PER INGEGNERIA INFORMATICA) 
+###INFORMAZIONE E STIMA (PER INGEGNERIA INFORMATICA)
 TELEGRAM https://t.me/joinchat/S-wUNggKWFyTKfUE
 MANIFEST https://www4.ceda.polimi.it/manifesti/manifesti/controller/ManifestoPublic.do?EVN_DETTAGLIO_RIGA_MANIFESTO=evento&aa=2019&k_cf=225&k_corso_la=358&k_indir=IT1&codDescr=054304&lang=IT&semestre=2&anno_corso=2&idItemOfferta=141820&idRiga=240363
 Il corso di informazione e stima mi è piaciuto un sacco perchè tratta di argomenti interessanti, le lezioni sono ben strutturate e il professore (Barletta Luca) è veramente in gamba.
@@ -186,7 +186,26 @@ Esame: L'esame è coerente con gli esercizi visti a lezione. È composto da 6 (o
 
 Il corso di informazione e stima è diviso in due parti: la prima riguarda lo studio della probabilità e statistica “classiche” e la seconda, appunto, di informazione e stima.
 Complessivamente ho apprezzato le lezioni perché ben bilanciate tra teoria e pratica; ogni pezzo di teoria è accompagnato da un esempio che aiuta a fissare le idee.
-La parte più interessante del corso è la seconda, infatti vengono usati gli argomenti della prima parte per stimare fenomeni aleatori, spesso finalizzati al mondo ingegneristico. Per esempio si stima dato un canale dati quanto sia affidabile oppure come stimare alcuni tipi di integrali non elementari. L’ultima parte del corso, quella dedicata all’informazione, si occupa invece dei concetti di entropia dell’informazione come lo spazio minimo necessario per memorizzare un certo tipo di dato in memoria conoscendone alcune sue caratteristiche.  
-Nell’insieme quello che inizia come un normale corso di probabilità sposta poco a poco l’attenzione su questioni pratiche dell’ingegneria dell’informazione. 
-Il prof risulta preparato e non annoia particolarmente quando spiega, anche perché si aiuta spesso con disegni e grafici che chiariscono le formule. 
+La parte più interessante del corso è la seconda, infatti vengono usati gli argomenti della prima parte per stimare fenomeni aleatori, spesso finalizzati al mondo ingegneristico. Per esempio si stima dato un canale dati quanto sia affidabile oppure come stimare alcuni tipi di integrali non elementari. L’ultima parte del corso, quella dedicata all’informazione, si occupa invece dei concetti di entropia dell’informazione come lo spazio minimo necessario per memorizzare un certo tipo di dato in memoria conoscendone alcune sue caratteristiche.
+Nell’insieme quello che inizia come un normale corso di probabilità sposta poco a poco l’attenzione su questioni pratiche dell’ingegneria dell’informazione.
+Il prof risulta preparato e non annoia particolarmente quando spiega, anche perché si aiuta spesso con disegni e grafici che chiariscono le formule.
 L’esame è composto da 6 problemi come quelli visti a lezione ed esercitazione, dati questi problemi è possibile sceglierne 5. È inoltre consentito l’uso di un foglio A4 riempito a piacere.
+
+###Informazione e Stima vs Probabilità e Statistica
+PSI è un corso metodologico i cui contenuti sono stati scelti per la
+loro rilevanza in un corso di probabilità e statistica per ingegneri e
+sono stati concordati con il CCS di Ingegneria Informatica, in quanto
+utili in corsi della laurea magistrale. Il corso è inoltre molto
+apprezzato anche all'estero, è infatti frequente che studenti
+intenzionati a partecipare  in programmi di laurea di secondo livello
+in atenei non italiani chiedano una lettera di raccomandazione (molto
+più spesso che in altri corsi di studio dove insegno materie simili).
+Certamente il corso è molto utile per studi magistrali nell'ambito di Artificial
+Intelligence o  Machine Learning  o Data Science,  proprio per il suo approccio
+modellistico/metodologico. PSI fornisce inoltre delle basi solide per
+un nuovo corso di statistica bayesiana presente nel nuovo track di AI
+che verrà attivato nel breve termine.
+Nel corso di PSI  è presente una parte non trascurabile di inferenza
+statistica: non solo la teoria della stima puntuale, ma anche la stima
+intervallare (necessaria per valutare accuratezza e precisione della
+stima, per esempio), oltre alla verifica di ipotesi; la parte di inferenza statistica è limitata nel corso di IS.
