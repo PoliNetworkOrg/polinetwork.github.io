@@ -168,9 +168,14 @@ function genHtml(data){
 	var d = `
 		<li>
 			<a href="${data.platform.link_pre}${data.id_link}${data.platform.link_post}">
-				<img style="width:18px;" src="../../img/${data.platform.img}.svg" />
-				${(data.office?`&nbsp[${data.office}]`:``)}
-				&nbsp${escapeHtml(data.class)}&nbsp`;
+				<img style="width:18px;" src="../../img/${data.platform.img}.svg" />`;
+				
+		if (data.tipo!="C")
+		{
+			d = d + `${(data.office?`&nbsp[${data.office}]`:``)}`;
+			d = d +`&nbsp`;
+		}
+		d = d + `${escapeHtml(data.class)}&nbsp`;
 		
 		if (data.language)
 		{		
