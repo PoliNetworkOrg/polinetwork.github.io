@@ -178,7 +178,7 @@ preload = function(){
 _reload = function(){
 	var xhttp = new XMLHttpRequest();
 
-	xhttp.open('GET', '/data/search/groups16.json', false);
+	xhttp.open('GET', '/data/search/groups17.json', false);
 	xhttp.send(null);
 
 	if (xhttp.status === 200) {
