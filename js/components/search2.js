@@ -154,11 +154,11 @@ function showSearchResults(data2){
 					}
 
 					var bandiera = "";
-					if (item.language == "ITA")
+					if (item.language == "ITA" || item.language == "IT")
 					{
 						bandiera = "it_flag";
 					}
-					else if (item.language == "ENG")
+					else if (item.language == "ENG" || item.language == "EN")
 					{
 						bandiera = "en_flag";
 					}
