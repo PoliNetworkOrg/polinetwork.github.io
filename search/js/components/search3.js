@@ -177,6 +177,7 @@ function genHtml(data){
 			d = d + `<img style="width:18px;" src="../../img/${data.language}.png" />`;
 		}
 		d = d + `</a></li>`;
+		return d;
 	
 }
 
