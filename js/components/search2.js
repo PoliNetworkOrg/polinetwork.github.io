@@ -186,7 +186,10 @@ function showSearchResults(data2){
 						item_html += escapeHtml((item.class))
 
 						item_html += "&nbsp;";
-						item_html += '<img style="width:18px;" src="../img/'+bandiera+'.png" />';
+						if (bandiera)
+						{
+							item_html += '<img style="width:18px;" src="../img/'+bandiera+'.png" />';
+						}
 
 						item_html += '</a>';
 						item_html += '</li>';
@@ -210,7 +213,10 @@ function showSearchResults(data2){
 						item_html += escapeHtml(htmlDecode(item.class))
 
 						item_html += "&nbsp;";
-						item_html += '<img style="width:18px;" src="../img/'+bandiera+'.png" />';
+						if (bandiera)
+						{
+							item_html += '<img style="width:18px;" src="../img/'+bandiera+'.png" />';
+						}
 
 						item_html += '</a>';
 						item_html += '</li>';
@@ -234,7 +240,10 @@ function showSearchResults(data2){
 						item_html += escapeHtml(htmlDecode(item.class))
 
 						item_html += "&nbsp;";
-						item_html += '<img style="width:18px;" src="../img/'+bandiera+'.png" />';
+						if (bandiera)
+						{
+							item_html += '<img style="width:18px;" src="../img/'+bandiera+'.png" />';
+						}
 
 						item_html += '</a>';
 						item_html += '</li>';
