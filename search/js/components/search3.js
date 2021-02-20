@@ -120,7 +120,9 @@ function escapeHtml (string) {
 const mapping = {
 	language: {
 		"ITA": "it_flag",
+		"IT": "it_flag",
 		"ENG": "en_flag",
+		"EN": "en_flag",
 		"__default__": ""
 	},
 	platform: {
@@ -163,16 +165,19 @@ function applyMapping(item){
 }
 
 function genHtml(data){
-	return `
+	var d = `
 		<li>
 			<a href="${data.platform.link_pre}${data.id_link}${data.platform.link_post}">
 				<img style="width:18px;" src="../../img/${data.platform.img}.svg" />
 				${(data.office?`&nbsp[${data.office}]`:``)}
-				&nbsp${escapeHtml(data.class)}&nbsp
-				<img style="width:18px;" src="../../img/${data.language}.png" />
-			</a>
-		</li>
-	`;
+				&nbsp${escapeHtml(data.class)}&nbsp`;
+		
+		if (data.language)
+		{		
+			d = d + `<img style="width:18px;" src="../../img/${data.language}.png" />`;
+		}
+		d = d + `</a></li>`;
+	
 }
 
 function showSearchResults(data){
