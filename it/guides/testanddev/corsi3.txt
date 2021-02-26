@@ -4,7 +4,7 @@ Questa guida è stata redatta dagli admin di Ingegneria Informatica del Polinetw
 Cliccate sul nome del corso per aprirne la pagina e leggere il programma dettagliato.
 
 ###BIOINFORMATICS ALGORITHMS
-TELEGRAM https://t.me/joinchat/LclXl0mB9m3teTuVX4MGDw
+TELEGRAM https://t.me/joinchat/SYH2bcCemecUZiZA
 MANIFEST https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=744529&polij_device_category=DESKTOP&__pj0=0&__pj1=9e3441292d61f42e8f252763f3c37183
 A primo impatto il nome potrebbe trarre in inganno, infatti molti credono che questo corso
 tratti prevalentemente argomenti di biologia e che quindi siano richieste conoscenze
@@ -134,7 +134,7 @@ utilizzate sono abbastanza datate offre un'ottima base per capire quelle più mo
 Fraternali è un ottimo professore.
 
 ###SOFTWARE DEFINED NETWORKING
-TELEGRAM https://t.me/joinchat/LclXl0IWxGg3yqZGYfDByw
+TELEGRAM https://t.me/joinchat/QhbEaLmNUETzNdfr
 MANIFEST https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=691339&polij_device_category=DESKTOP&__pj0=0&__pj1=b32d9a733d99f06fae7d08905ec155d5
 Indubbiamente è un corso pensato maggiormente per i telecom, ma super fattibile per
 chiunque abbia rudimenti di internet e reti (esame che tutti noi abbiamo fatto al primo
@@ -155,7 +155,7 @@ esercizi (a meno di qualche variazione) sono sempre gli stessi e una volta capit
 meccanismo si fanno con tranquillità. Quindi lo consiglio.
 
 ###AUTOMAZIONE INDUSTRIALE
-TELEGRAM https://t.me/joinchat/LclXl0YtuPA8tMCIgVAQyA
+TELEGRAM https://t.me/joinchat/Ri248OkMNyWNsYSW
 MANIFEST https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=617878&polij_device_category=DESKTOP&__pj0=0&__pj1=586e63f78dd1f0ce7a02946955f35892
 La materia è abbastanza interessante, in particolare la seconda parte del corso. La prima è
 molto meccanica e può invece risultare noiosa. Il professore è chiaro e l’esercitatore molto
@@ -193,7 +193,7 @@ esame troppo complesso per i cfu che offre ma senza perdere lo stimolo allo stud
 dal poco interesse.
 
 ###KNOWLEDGE ENGINEERING
-TELEGRAM https://t.me/joinchat/LclXl1J4D7z2UClaire9TQ
+TELEGRAM https://t.me/joinchat/UngPvH-7huj-jin4
 MANIFEST https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=667271&polij_device_category=DESKTOP&__pj0=0&__pj1=1467dab57c0890853f6b321e760cd297
 Il corso è interessante, l'esame non è difficilissimo, purtroppo zero coordinazione tra i due
 insegnanti che gestiscono le due metà del corso, e mentre il professore principale era
@@ -215,7 +215,7 @@ techniques. I say this because the preparation and experience of Prof. Colombett
 amazing and it's definitely something worth experiencing.
 
 ###ROBOTICS
-TELEGRAM https://t.me/joinchat/LclXl1NcelHbCuLT10v8oQ
+TELEGRAM https://t.me/joinchat/U1x6USuzBdbdGgUW
 MANIFEST https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=667653&polij_device_category=DESKTOP&__pj0=0&__pj1=a1b3fb0de8d506ddc89e80beb9d5228d
 Corso molto interessante, forse più di quanto appare dalla sua presentazione sul piano
 studi. Ho avuto l'impressione che tanta gente lo scarti a priori pensando che si tratti di un
@@ -277,7 +277,7 @@ La mia opinione è complessivamente positiva, sia per quanto riguarda gli argome
 modo in cui sono stati spiegati, che il taglio generale del corso.
 
 ###SICUREZZA DELLE RETI
-TELEGRAM https://t.me/joinchat/LclXl1jeOj5MgaS0SMtsmQ
+TELEGRAM https://t.me/joinchat/WN46PhUFZ4CxSiB2
 MANIFEST https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=712674&polij_device_category=DESKTOP&__pj0=0&__pj1=d3ed0e0e341de91a0c53fbe462fca676
 Il nome del corso è magari leggermente fuorviante, il contenuto è teoria dei numeri e
 protocolli di comunicazione sicura. Il professore è simpatico e spiega bene, il corso
