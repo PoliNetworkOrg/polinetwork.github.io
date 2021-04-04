@@ -11,21 +11,26 @@ body {
     margin: 0 auto;
     position: relative;
     padding: 20px 20px;
-    padding-bottom: 0;
+    padding-bottom: 20px;
 }
+
+.horizontalcardswrapper{
+  display: grid;
+  grid-template-rows: 1fr 0.80fr 0.46fr;
+}
+
 
 .clickable {
     user-select: none;
-}
-
-.spaced {
-    margin: 1.5em 0;
 }
 
 li {
     text-align: left;
 }
 
+.center{
+  margin:auto;
+}
 
 .card.clickable:hover {
     box-shadow: 0 0 0 0 rgba(0,0,0,0.5);
@@ -179,7 +184,7 @@ input[type=radio] {
         align-items: stretch;
         margin: 0 auto;
     }
-    
+
     .horizontal > * {
         flex-grow: 1;
     }
