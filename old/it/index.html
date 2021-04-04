@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="it"><head>
+
+    <meta charset="utf-16">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Sito dei gruppi telegram, whatsapp, facebook del Politecnico di Milano, creati da degli studenti">
+    <meta name="author" content="PoliNetwork">
+    <meta name="og:title" property="og:title" content="Sito dei gruppi telegram, whatsapp, facebook del Politecnico di Milano, creati da degli studenti"> 
+
+    <title>PoliNetwork</title>
+    
+    <link rel="icon" href="../img/icon.png">
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+	<link href="../font/saira_extra_condensed.woff2" rel="stylesheet">
+    <link href="../font/muli.woff2" rel="stylesheet">
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet">
+	
+	<style>
+		
+		section.resume-section {
+			padding-top: 2.5rem !important;
+			padding-bottom: 2.5rem !important;
+			padding-left: 2rem !important;
+			padding-right: 2rem !important;
+		}
+	
+		hr {
+			border-top: 1px solid rgba(40, 38, 38, 0.83);
+		}
+	
+		.hide {
+			display: none;
+		}
+		
+		.mb-0{
+			font-size: calc(1.4rem + 0.8vw);
+		}
+		
+		.subheading.mb-3{
+			font-size: calc(1.05rem + 0.5vw);
+		}
+		
+		h2.mb-5{
+			font-size: calc(2.76rem + 0.8vw);
+		}
+		
+		select {
+			margin-bottom: 1em;
+			padding: .25em;
+			border: 0;
+			border-bottom: 2px solid currentcolor; 
+			letter-spacing: .15em;
+			border-radius: 0;
+			&:focus, &:active {
+				outline: 0;
+				border-bottom-color: red;
+			}
+		}
+		
+		/*
+		Basic input element using psuedo classes
+		*/
+
+		html {
+		  font-family: 'Lora', sans-serif;
+		  width: 100%;
+		}
+
+
+		textarea:focus,
+		input:focus {
+		  outline: 0;
+		}
+		/* Question */
+
+		input.question,
+		textarea.question {
+		  font-size: 30px;
+		  font-weight: 300;
+		  border-radius: 2px;
+		  margin: 0;
+		  border: none;
+		  width: 80%;
+		  background: rgba(0, 0, 0, 0);
+		  transition: padding-top 0.2s ease, margin-top 0.2s ease;
+		  overflow-x: hidden; /* Hack to make "rows" attribute apply in Firefox. */
+		}
+		/* Underline and Placeholder */
+
+		input.question + label,
+		textarea.question + label {
+		  display: block;
+		  position: relative;
+		  white-space: nowrap;
+		  padding: 0;
+		  margin: 0;
+		  width: 70%;
+		  border-top: 1px solid black;
+		  -webkit-transition: width 0.4s ease;
+		  transition: width 0.4s ease;
+		  height: 0px;
+		}
+
+		input.question:focus + label,
+		textarea.question:focus + label {
+		  width: 100%;
+		}
+
+		input.question:focus,
+		input.question:valid {
+		  padding-top: 35px;
+		}
+
+		textarea.question:valid,
+		textarea.question:focus {
+		  margin-top: 35px;
+		}
+
+		input.question:focus + label > span,
+		input.question:valid + label > span {
+		  top: -102px;
+		  font-size: 16px;
+		  color: #868e96;
+		  padding-left:10px;
+		}
+
+		textarea.question:focus + label > span,
+		textarea.question:valid + label > span {
+		  top: -150px;
+		  font-size: 22px;
+		  color: #333;
+		}
+
+		input.question:valid + label,
+		textarea.question:valid + label {
+		  border-color: green;
+		}
+
+		input.question:invalid,
+		textarea.question:invalid {
+		  box-shadow: none;
+		}
+
+		input.question + label > span,
+		textarea.question + label > span {
+		  font-weight: 300;
+		  margin: 0;
+		  position: absolute;
+		  color: #3B3B3B;
+		  font-size: 25px;
+		  padding-left:5px;
+		  top: -85px;
+		  left: 0px;
+		  z-index: -1;
+		  -webkit-transition: top 0.2s ease, font-size 0.2s ease, color 0.2s ease;
+		  transition: top 0.2s ease, font-size 0.2s ease, color 0.2s ease;
+		}
+
+		@-webkit-keyframes appear {
+		  100% {
+			opacity: 1;
+		  }
+		}
+
+		@keyframes appear {
+		  100% {
+			opacity: 1;
+		  }
+		}
+		
+		a {
+			color: #0b3871;
+		}
+
+	</style>
+  </head>
+
+  <body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav" style="background-color: #1156ae !important;padding: 0.75rem 0.75rem;">
+	   <div style="text-align: center;margin-top: calc(0.7vw + (-3px));">
+			  <a href="../en/index.html"><img src="../img/en.png" style="width: calc(1.3rem + 1.6vw);" /></a>&nbsp;
+			  <a href="../it/index.html"><img src="../img/it.png" style="width: calc(1.3rem + 1.6vw);" /></a>
+	  </div>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">PoliNetwork</span>
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="../img/profile.jpg" alt="">
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger active" href="#about">Info</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#groups">Gruppi</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#projects">Progetti</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#blog">Blog</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#faq">FAQ</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about_us">Su di noi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#rules">Regole</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about" style="width: 100%;max-width: 100%;min-height: 1vh;">
+        <div class="my-auto" style="width: 100%;max-width: 100%;">
+          <h1 class="mb-0" style="font-size: calc(1.9rem + 3vw);text-align:center;">
+			<p style="margin-bottom: 0px;position: relative;top: 6px;">
+				<span>
+					Poli</span><span class="text-primary" style="color: #1156ae !important;margin:0px;display:inline;padding:0px;font-size: calc(1.9rem + 3vw);">Network
+				</span>
+			</p>
+          </h1>
+          <div class="subheading mb-5" style="text-align:center;font-size: calc(0.8rem + 0.9vw)">MAIL: <a href="mailto:polinetwork@outlook.com" style="color: #0b3871 !important;">polinetwork@outlook.com</a>
+          </div>
+          <p class="lead mb-5" style="text-align: center;font-size: calc(0.95rem + 0.3vw);">
+			<span style="font-size: calc(0.97rem + 0.5vw);">Benvenuto/a!</span>
+			<br />
+			Visita i link qui sotto per i nostri social!
+			<br> Scorri più in basso per i gruppi!
+		  </p>
+          <div class="social-icons" style="text-align:center;">
+			<a href="https://www.instagram.com/polinetwork_/">
+              <i class="fab fa-instagram"></i>
+            </a>
+			<a href="https://t.me/PoliNetwork">
+              <i class="fab fa-telegram"></i>
+            </a>			
+			<a href="https://www.facebook.com/PolitecnicoDiMilanoNetwork/">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+			<a href="https://www.reddit.com/r/polinetwork">
+              <i class="fab fa-reddit"></i>
+            </a>
+			<a href="https://discord.gg/Fp7ZHcC">
+              <i class="fab fa-discord"></i>
+            </a>
+			<a href="https://twitter.com/PolimiNetwork">
+              <i class="fab fa-twitter"></i>
+            </a>
+			<a href="https://www.youtube.com/channel/UCabLSgP6wvSFv-HH3N25w3w/">
+              <i class="fab fa-youtube"></i>
+            </a>
+			<a href="https://github.com/PoliNetwork">
+              <i class="fab fa-github"></i>
+            </a>
+			<a href="https://www.linkedin.com/company/polinetwork/">
+			<i class="fab fa-linkedin"></i>
+			</a>
+			<a href="./../en/guides/ms_teams/index.html">
+				<img src="../img/ms_teams_logo.png" style="width: 70%;text-align: center;align-content: center;align-items: center;align-self: center;top: -0.2em;position: relative;left: -0.05em;" />
+			</a>
+          </div>
+        </div>
+      </section>
+
+      <hr class="m-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="groups" style="min-height: 1vh;">
+        <div class="my-auto">
+          <h2 class="mb-5">Gruppi 👥</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">● Generali</h3>
+              <div class="subheading mb-3">Gruppi misti per tutti gli studenti</div>
+			  <div style="padding-left: 0px;max-width:570px;width:100%;">
+				<table style="max-width:570px;width:100%;">
+					<tr>
+						<td style="width:50%;padding-left:7px;padding-right:7px;">
+							<p style="margin-bottom:0.5rem;">
+								<a href="https://www.facebook.com/groups/matricole20172018polimi/">
+									<table>
+										<tr>
+											<td style="padding-right:7px;">
+												<a href="https://www.facebook.com/groups/matricole20172018polimi/">											
+													<img style="width:35px;padding-top:5px;" src="../img/fb.svg" />
+												</a>
+											</td>
+											<td>
+												<a href="https://www.facebook.com/groups/matricole20172018polimi/">
+													<span style="top: 2px;position: relative;">Generale:<br />Tutti gli studenti</span>
+												</a>
+											</td>
+										</tr>
+									</table>
+								</a>
+							</p>
+						</td>
+						<td style="width:50%;padding-left:7px;padding-right:7px;">
+							<p style="margin-bottom:0.5rem">
+								<a href="https://t.me/PoliGruppo">
+									<table>
+										<tr>
+											<td style="padding-right:7px;">
+												<a href="https://t.me/PoliGruppo">
+													<img style="width:35px;padding-top:5px;" src="../img/tg.svg" />
+												</a>
+											</td>
+											<td>
+												<a href="https://t.me/PoliGruppo">
+													<span style="top: 2px;position: relative;">Generale:<br />Tutti gli studenti</span>
+												</a>
+											</td>
+										</tr>
+									</table>
+								</a>
+							</p>
+						</td>
+					</tr>
+				</table>
+			  </div>
+            </div>
+          </div>
+
+
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+				<h3 class="mb-0">● Specifici di un corso di laurea</h3>
+				<div class="subheading mb-3">Entra nel tuo gruppo! 🔍</div>
+				<div class="subheading mb-3">&nbsp;&nbsp;&nbsp;&nbsp;<a href="./../search/it/index.html"><span style="font-size:2rem;">Clicca qui</span></a></div>
+				La ricerca non funziona? Un link non è funzionante? <a href="https://m.me/PolitecnicoDiMilanoNetwork/">Segnalaci il problema! Clicca qui!</a><br />
+            </div>
+          </div>
+		  
+		   <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+				<h3 class="mb-0"><br />● Extra 🧩</h3>
+				<div class="subheading mb-3">Gruppi non scolastici</div>
+				<p>Una serie di gruppi tutti da scoprire: <a href="./extra/index.html">LINK</a></p>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <hr class="m-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects"  style="min-height: 1vh;">
+        <div class="my-auto">
+          <h2 class="mb-5">Progetti &#x1F6E0;</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <div class="mb-3 subheading">Scopri vari progetti interessanti collegati a noi<br />link <a href="./projects/index.html">QUI</a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+	  
+	  <hr class="m-0">
+	  
+	  
+     <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="blog"  style="min-height: 1vh;">
+        <div class="my-auto">
+          <h2 class="mb-5">Blog 📰</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <div class="mb-3 subheading">Leggi il nostro blog<br />link <a href="https://polinetworkblog.altervista.org/">QUI</a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+	  
+	  <hr class="m-0">
+	  
+	  
+	  <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="faq"  style="min-height: 1vh;">
+        <div class="my-auto">
+          <h2 class="mb-5">FAQ ❓</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <div class="mb-3 subheading">Leggi le FAQ <br />link <a href="./faq/index.html">QUI</a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+	  
+	  <hr class="m-0">
+	  
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="about_us"  style="min-height: 1vh;">
+        <div class="my-auto">
+          <h2 class="mb-5">Su di noi 💭</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <div class="mb-3 subheading">Scopri di più su di noi <a href="./about_us/index.html">QUI</a></div>
+            </div>
+          </div>
+
+
+        </div>
+      </section>
+	  
+	  <hr class="m-0">
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="rules"  style="min-height: 1vh;">
+        <div class="my-auto">
+          <h2 class="mb-5">Regole 📝</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <div class="mb-3 subheading">Le regole dei vari gruppi si trovano <a href="./rules/index.html">QUI</a></div>
+			  
+			  <p style="margin-top:15px;">Vi invitiamo a rispettarle</p>
+            </div>
+          </div>
+
+
+        </div>
+      </section>
+	  
+	  <div style="padding: 15px;text-align: center;font-size: 0.8rem;">
+	  Questo sito non è affiliato al Politecnico di Milano.
+	  </div>
+
+
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
+
+  
+
+
+</body></html>
