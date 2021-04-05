@@ -15,7 +15,7 @@ body {
 
 .mainContainer{
     display: grid;
-    grid-template-rows: 3fr 6fr 10fr 1fr;
+    grid-template-rows: 2fr 6fr 10fr 1fr;
     grid-template-columns: 1fr;
 }
 
