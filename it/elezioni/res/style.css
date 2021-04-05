@@ -15,7 +15,7 @@ body {
 
 .mainContainer{
     display: grid;
-    grid-template-rows: 2fr 6fr 10fr 1fr;
+    grid-template-rows: 8fr 30fr 50fr 5fr;
     grid-template-columns: 1fr;
 }
 
@@ -27,6 +27,10 @@ body {
 .topBar{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.cardText{
     align-items: center;
 }
 
