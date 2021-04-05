@@ -27,7 +27,21 @@ body {
 .topBar{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    align-items: center;
+    border-bottom: 1px solid #454545;
+}
+
+.topBarTileContatti{
+    border-left: 1px solid #454545;
+}
+
+.topBarTexts{
+    margin: auto;
+    text-align: center;
+}
+
+.topBarTile{
+    height: 100%;
+    display: flex;
 }
 
 .midBar{
@@ -39,10 +53,6 @@ body {
     margin: auto;
 }
 
-.topBarTexts{
-    margin: auto;
-    text-align: center;
-}
 
 .bottomBar{
     display: grid;
@@ -57,8 +67,13 @@ body {
     object-fit: cover;
 }
 
+.footer{
+    text-align: center;
+}
+
 /* SLIDER ON LIST IMAGE */
 .cap-left {
+    padding: 1px 1px 1px 1px;
     height: 100%;
     display: block;
     position: relative;
