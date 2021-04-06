@@ -154,3 +154,12 @@ figure:hover:before {
 .cap-bot:before { bottom: 10px; left: 10px; }
 .cap-bot figcaption { left: 0; bottom: -30%;}
 .cap-bot:hover figcaption { bottom: 0; }
+
+@media (max-width: 576px) {
+    .testoCentrale{
+        max-width: 100% !important;
+    }
+    ul{
+        padding-left: 5px;
+    }
+}
