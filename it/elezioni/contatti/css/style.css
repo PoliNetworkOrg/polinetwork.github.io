@@ -54,15 +54,38 @@
 
 }
 
+.contattiTitle{
+    font-size: calc(0.30vw + 2.0rem + 5px);
+}
+
 .li{
-  padding-top:15px;
-  padding-bottom: 15px;
+  padding-top: calc(15px + 0.2rem);
+  padding-bottom: calc(15px + 0.2rem);
 }
 
 .questionSpan{
-  font-size: large;
+  font-size: calc(0.16vw + 0.95rem + 4px);
   -webkit-text-stroke: 1px black;
   -webkit-text-fill-color: black;
+  margin-top: calc(3px + 0.1rem);
+  margin-bottom: calc(3px + 0.1rem);
+  padding-top: calc(3px + 0.1rem);
+  padding-bottom: calc(3px + 0.1rem);
+}
+
+.answerSpan{
+    font-size: calc(0.16vw + 0.70rem + 3px);
+    margin-top: calc(3px + 0.1rem);
+    margin-bottom:calc(3px + 0.1rem);
+    padding-top:calc(3px + 0.1rem);
+    padding-bottom:  calc(3px + 0.1rem);
+}
+
+.spacerQuestion{
+  margin-top: calc(3px + 0.2rem);
+  margin-bottom:calc(3px + 0.2rem);
+  padding-top:calc(3px + 0.2rem);
+  padding-bottom:  calc(3px + 0.2rem);
 }
 
 .tableScuole{
