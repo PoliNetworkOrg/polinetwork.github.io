@@ -136,24 +136,8 @@
   	<script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/wow.min.js"></script>
-    <script src="js/classie.js"></script>
-  	<script>
-  	    function init() {
-  	        window.addEventListener('scroll', function(e){
-  	            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-  	                shrinkOn = 300,
-  	                header = document.querySelector("header");
-  	            if (distanceY > shrinkOn) {
-  	                classie.add(header,"smaller");
-  	            } else {
-  	                if (classie.has(header,"smaller")) {
-  	                    classie.remove(header,"smaller");
-  	                }
-  	            }
-  	        });
-  	    }
-  	    window.onload = init();
-  	</script>
+
+    
     <script type="text/javascript">
      	new WOW().init();
     </script>
