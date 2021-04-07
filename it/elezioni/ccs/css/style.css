@@ -54,6 +54,12 @@
 
 }
 
+.
+
+.candidateTable{
+    margin:auto;
+}
+
 .tableScuole{
    color:black;
    height: 100%;
@@ -89,6 +95,7 @@ h1 {
 h1:hover {
     background-size: 4px 50px;
 }
+
 
 .imageList{
     width: 100%;

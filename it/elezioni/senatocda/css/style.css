@@ -1,3 +1,8 @@
+:root {
+    --mainColor: #ff9800;
+}
+
+
 .containerNavBar{
     display: -ms-flexbox;
     display: flex;
@@ -17,6 +22,7 @@
     background-color: #fff;
     padding-right: 15px;
     padding-left: 15px;
+
 }
 
 .senateCdaDiv{
@@ -35,6 +41,49 @@
 
 }
 
+.candidate {
+    background: linear-gradient(
+            to bottom, var(--mainColor) 0%,
+            var(--mainColor) 100%
+    ) repeat-x 0 100%;
+    background-size: 0px 0px;
+    color: #000;
+    text-decoration: none;
+    transition: background-size .2s;
+}
+
+.candidate:hover {
+    background-size: 4px 50px;
+    color: #000;
+    text-decoration: none;
+}
+
+
+li{
+    list-style-type: none;
+
+}
+
+
+ul{
+    padding: 5px;
+}
+
+h1 {
+    background: linear-gradient(
+            to bottom, var(--mainColor) 0%,
+            var(--mainColor) 100%
+    ) repeat-x 0 100%;
+    background-size: 0px 0px;
+    color: #000;
+    text-decoration: none;
+    transition: background-size .2s;
+}
+
+h1:hover {
+    background-size: 4px 50px;
+}
+
 .testoCentrale{
     max-width: 60%;
     margin-left: auto;
@@ -48,8 +97,6 @@
 
 .imageList{
     width: 100%;
-    height: 100%;
-    object-fit: cover;
 }
 
 /* SLIDER ON LIST IMAGE */
