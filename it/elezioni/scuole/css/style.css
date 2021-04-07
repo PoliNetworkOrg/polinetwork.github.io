@@ -161,6 +161,12 @@ h1:hover {
 	border: 0.1px solid #0000008c;
 }
 
+
+.img-responsive{
+    width:50px;
+    height: 50px;
+}
+
 .imageList2{
     width: 100%;
     height: auto;
