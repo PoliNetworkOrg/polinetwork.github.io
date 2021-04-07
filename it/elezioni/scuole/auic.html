@@ -19,7 +19,10 @@
     <script src="../../../elezioni/jquery-3.6.0.min.js"></script>
     <script>
     $(function(){
-      $("#includedContentSvoltastudentiAUIC").load("./../../../elezioni/frame/scuole/AUIC/svoltastudenti.html");
+        $("#includedContentSvoltastudentiAUIC").load("./../../../elezioni/frame/scuole/AUIC/svoltastudenti.html");
+        $("#includedContentListaapertaAUIC").load("./../../../elezioni/frame/scuole/AUIC/listaaperta.html");
+        $("#includedContentTernasinistrorsaAUIC").load("./../../../elezioni/frame/scuole/AUIC/ternasinistrorsa.html");
+        $("#includedContentStudentiindipendentiAUIC").load("./../../../elezioni/frame/scuole/AUIC/studentiindipendenti.html");
     });
   </script>
 </head>
@@ -95,7 +98,7 @@ max-width: 100%;">
                     <div class="listTile2" style="width: 100%;">
                         <figure class="cap-left" style="width: 100%;">
                             <img class="imageList2" src="../../../img/logo-listaaperta_hor.png" alt="">
-                            <div  class="cardlista"> </div>
+                            <div  id="includedContentListaapertaAUIC"  class="cardlista"> </div>
                         </figure>
                     </div>
                 </div>
@@ -110,7 +113,7 @@ max-width: 100%;">
 					  	<br />
 						<h2>La Terna Sinistrorsa</h2>
 					  </figcaption>
-                <div  class="cardlista"> </div>
+                <div  id="includedContentTernasinistrorsaAUIC"  class="cardlista"> </div>
 					</figure>
 				  </div>
 				</div>
@@ -121,7 +124,7 @@ max-width: 100%;">
                     <div class="listTile2" style="width: 100%;">
                         <figure class="cap-left" style="width: 100%;">
                             <img class="imageList2" src="../../../img/logo-sip_hor.png" alt="">
-                                <div  class="cardlista"> </div>
+                                <div  id="includedContentStudentiindipendentiAUIC"  class="cardlista"> </div>
                         </figure>
                     </div>
                 </div>
