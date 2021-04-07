@@ -161,6 +161,13 @@ h1:hover {
 	border: 0.1px solid #0000008c;
 }
 
+.imageList2{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+	border: 0.1px solid #0000008c;
+}
+
 /* SLIDER ON LIST IMAGE */
 .cap-left {
     padding: 1px 1px 1px 1px;
