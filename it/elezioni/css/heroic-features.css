@@ -15,3 +15,14 @@ body {
 .nav-link{
   margin:auto;
 }
+
+.navbar-nav{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+@media(max-width: 991px){
+  .navbar-nav{
+    padding-right: 0px;
+  }
+}
