@@ -41,24 +41,7 @@
 
 .navbar{
     border-bottom: 1px solid #545454;
-}
 
-.nav-link{
-  color:black;
-}
-
-
-.navbar-dark .navbar-brand{
-    color:black;
-}
-
-.navbar-dark .navbar-nav .active > .nav-link{
-  color:black;
-
-}
-
-.navbar-dark .navbar-nav .nav-link{
-  color:black;
 }
 
 .candidate {
@@ -71,9 +54,7 @@
     text-decoration: none;
     transition: background-size .2s;
 }
-.nav-link:hover{
-  color: gray;
-}
+
 
 .candidate:hover {
     background-size: 4px 50px;
