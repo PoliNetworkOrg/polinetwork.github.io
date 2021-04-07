@@ -6,3 +6,12 @@
 body {
   padding-top: 56px;
 }
+
+
+.nav-item{
+  display:flex;
+}
+
+.nav-link{
+  margin:auto;
+}

@@ -1526,7 +1526,7 @@ h2 {
     background-size: 80px 160px;
 }
 
-@media (max-width: 767px) {
+@media (min-width: 768px) {
     #site-footer {
         text-align: center;
     }
