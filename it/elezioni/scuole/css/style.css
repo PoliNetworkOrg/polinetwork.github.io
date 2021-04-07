@@ -2,6 +2,10 @@
     --mainColor: #ff9800;
 }
 
+.cap-left {
+    display: block !important;
+}
+
 .containerNavBar{
     display: -ms-flexbox;
     display: flex;
