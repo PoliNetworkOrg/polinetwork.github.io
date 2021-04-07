@@ -54,7 +54,7 @@
 
 .navbar-dark .navbar-nav .active > .nav-link{
   color:black;
-  outline: 5px dotted green;
+
 }
 
 .navbar-dark .navbar-nav .nav-link{
@@ -71,10 +71,13 @@
     text-decoration: none;
     transition: background-size .2s;
 }
+.nav-link:hover{
+  color: gray;
+}
 
 .candidate:hover {
     background-size: 4px 50px;
-    color: #000;
+    color: gray;
     text-decoration: none;
 }
 
