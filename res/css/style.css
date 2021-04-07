@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: lightblue;
+    background-color: #f1f3f4;
     color: darkslategray;
     text-align: center;
     margin-bottom: 0;
@@ -10,8 +10,7 @@ body {
     max-width: 900px;
     margin: 0 auto;
     position: relative;
-    padding: 20px 20px;
-    padding-bottom: 20px;
+    padding: 20px 20px 20px;
 }
 
 .horizontalcardswrapper{
@@ -80,13 +79,14 @@ li {
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
     border-radius: 1em;
-    padding: 1em 2em;
+    padding: 1em 2em;}
+/*
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
     transition: box-shadow 0.2s;
     transition: background-color 0.2s;
 }
-
+*/
 .card.slim {
     padding: 0.25em 0.5em;
 }
