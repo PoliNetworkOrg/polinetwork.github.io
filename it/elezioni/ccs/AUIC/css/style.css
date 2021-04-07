@@ -2,6 +2,11 @@
     --mainColor: #ff9800;
 }
 
+a span{
+    padding-top: 100px;
+    margin-bottom: -100px;
+}
+
 .containerNavBar{
     display: -ms-flexbox;
     display: flex;
