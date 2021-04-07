@@ -16,7 +16,23 @@
 
     <!-- Custom styles for this template -->
     <link href="../css/heroic-features.css" rel="stylesheet">
+    <script src="../../../elezioni/jquery-3.6.0.min.js"></script>
 
+    <script>
+    $(function(){
+        $("#senatoSvoltastudenti").load("./../../../elezioni/frame/senato/svoltastudenti.html");
+        $("#cdaSvoltastudenti").load("./../../../elezioni/frame/cda/svoltastudenti.html");
+
+        $("#senatoListaaperta").load("./../../../elezioni/frame/senato/listaaperta.html");
+        $("#cdaListaaperta").load("./../../../elezioni/frame/cda/listaaperta.html");
+
+        $("#senatoTernasinistrorsa").load("./../../../elezioni/frame/senato/ternasinistrorsa.html");
+        $("#cdaTernasinistrorsa").load("./../../../elezioni/frame/cda/ternasinistrorsa.html");
+
+        $("#senatoStudentiindipendenti").load("./../../../elezioni/frame/senato/studentiindipendenti.html");
+        $("#cdaStudentiindipendenti").load("./../../../elezioni/frame/cda/studentiindipendenti.html");
+    });
+  </script>
 </head>
 
 <body>
