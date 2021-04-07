@@ -26,3 +26,30 @@ body {
     padding-right: 0px;
   }
 }
+
+.containerImgList{
+
+margin:auto;
+
+}
+
+.listTile{
+  height: 250px !important;
+}
+
+.cap-left{
+  display:flex;
+
+}
+
+.imageList{
+
+margin:auto;
+
+}
+
+.helper {
+    display: inline-block;
+    height: auto;
+    vertical-align: middle;
+}
