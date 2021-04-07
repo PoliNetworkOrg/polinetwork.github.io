@@ -52,7 +52,7 @@ width: 100%;
 .imageList{
 
 margin:auto;
-max-width: 300px;
+max-width: 100%;
 }
 
 .helper {
