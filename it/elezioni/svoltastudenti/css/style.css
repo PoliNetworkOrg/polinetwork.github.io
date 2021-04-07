@@ -19,6 +19,7 @@ Text Domain: creative
 
 .section {
     padding: 6em 0;
+    background-color: white;
 }
 
 
@@ -190,7 +191,7 @@ body {
     font-family: "Merriweather", Georgia, Times, serif;
     font-size: 1em;
     line-height: 1.5;
-    
+
     /*text-rendering: optimizeLegibility;*/
     color: #1c1c1c;
 }
@@ -286,10 +287,10 @@ li{
     text-transform: capitalize;
 }
 .top70{
-    margin-top:70px 
+    margin-top:70px
 }
 .top40{
-    margin-top:40px 
+    margin-top:40px
 }
 .grey{
     color:#878684;
@@ -321,11 +322,11 @@ li{
     transition: all 0.4s ease-in-out 0s;
 }
     .visible-nav{
-        text-transform: uppercase; 
+        text-transform: uppercase;
         margin: 83px 58px;
     }
     header.smaller .visible-nav{
-        text-transform: uppercase; 
+        text-transform: uppercase;
         margin: 53px 40px;
     }
     .xs-nav{
@@ -342,14 +343,14 @@ li{
         padding-top: 10px;
     }
 
-   
+
     header.smaller {
-        height: 75px; 
+        height: 75px;
         margin: 0 !important;
         padding: 0;
         /*transition:.5s;*/
     }
-   
+
 
     header.smaller nav {
         margin: 0 !important;
@@ -359,7 +360,7 @@ li{
 
     .last-child{
       background: #BFA55E;
-      padding: 51px; 
+      padding: 51px;
       line-height: 100px;
       text-transform: uppercase;
     }
@@ -371,9 +372,9 @@ li{
     line-height: 13px;
     /*transition:1.5s;*/
 }
-    
 
-   
+
+
     header.smaller .brand {
         font-size: 20px;
         text-transform: uppercase !important;
@@ -382,7 +383,7 @@ li{
         border: none;
         /*transition:1.5s;*/
     }
-    
+
 
     .header-cta .smaller {
     background-color: #c4ac6c;
@@ -1258,7 +1259,7 @@ h2 {
     max-height: 200px;
     max-width: 100%;
   }
-  
+
 /* Generic Button Styles */
 
   .button{
@@ -1304,7 +1305,7 @@ h2 {
   }
   .form-btn1{
     margin-left: -15px;
-    
+
   }
 
   .form-btn:hover{
@@ -1350,7 +1351,8 @@ h2 {
     display: block;
 }
 
-#members .imgcaption {
+.members .imgcaption {
+  background-color: white !important;
     text-align: center;
     color: #c4ac6c;
     font: 2em/1 "Novecento Sans Wide Demibold", Helvetica, Arial, sans-serif;
@@ -1398,7 +1400,7 @@ h2 {
 }
 
 #CTA-1 {
-    background: url(../images/bg3.jpg);  
+    background: url(../images/bg3.jpg);
     background-size: cover;
     background-position: top left;
 }
