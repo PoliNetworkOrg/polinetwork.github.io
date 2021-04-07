@@ -20,6 +20,14 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animate.min.css">
 
+    <script src="../../../elezioni/jquery-3.6.0.min.js"></script>
+    <script>
+    $(function(){
+      $("#includedContentSenato").load("./../../../elezioni/frame/senato/svoltastudenti.html");
+      $("#includedContentCda").load("./../../../elezioni/frame/cda/svoltastudenti.html");
+    });
+  </script>
+
 </head>
 
 <body>
@@ -68,32 +76,7 @@
             <h2>Senato</h2>
             <hr>
             <p class="lead-creative-banner">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
-            <div class="row">
-                <div class="col-md-4">
-                    <figure class="wow animated fadeInLeft">
-                        <img class="border-img img-responsive center-block" src="images/Reza.jpg" alt="John" width="280" height="280">
-                    </figure>
-                    <div class="imgcaption">
-                        <strong>John <span class="name">Doe</span></strong>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <figure class="wow animated fadeInDown">
-                        <img class="border-img img-responsive center-block" src="images/jewel.jpg" alt="Jan" width="280" height="280">
-                    </figure>
-                    <div class="imgcaption">
-                        <strong>Jane <span class="name">Doe</span></strong>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <figure class="wow animated fadeInRight">
-                        <img class="border-img img-responsive center-block" src="images/Reza.jpg" alt="Reza" width="280" height="280">
-                    </figure>
-                    <div class="imgcaption">
-                        <strong>Reza <span class="name">Doe</span></strong>
-                    </div>
-                </div>
-            </div>
+             <div id="includedContentSenato"></div>
         </div>
     </div><!-- members -->
 
@@ -104,32 +87,7 @@
             <h2>CDA</h2>
             <hr>
             <p class="lead-creative-banner">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
-            <div class="row">
-                <div class="col-md-4">
-                    <figure class="wow animated fadeInLeft">
-                        <img class="border-img img-responsive center-block" src="images/Reza.jpg" alt="John" width="280" height="280">
-                    </figure>
-                    <div class="imgcaption">
-                        <strong>John <span class="name">Doe</span></strong>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <figure class="wow animated fadeInDown">
-                        <img class="border-img img-responsive center-block" src="images/jewel.jpg" alt="Jan" width="280" height="280">
-                    </figure>
-                    <div class="imgcaption">
-                        <strong>Jane <span class="name">Doe</span></strong>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <figure class="wow animated fadeInRight">
-                        <img class="border-img img-responsive center-block" src="images/Reza.jpg" alt="Reza" width="280" height="280">
-                    </figure>
-                    <div class="imgcaption">
-                        <strong>Reza <span class="name">Doe</span></strong>
-                    </div>
-                </div>
-            </div>
+            <div id="includedContentCda"></div>
         </div>
     </div><!-- members -->
 
