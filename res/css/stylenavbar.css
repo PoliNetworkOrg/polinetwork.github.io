@@ -268,7 +268,6 @@ navbar{
 }
 header{
     contain:layout;
-    pointer-events:none;
     position:fixed;
     top:0;
     left:0;
@@ -281,12 +280,10 @@ header{
 .topbar{
     width: 100%;
     position: fixed;
-    height:51px;
     border-bottom:1px solid #bdc1c6;
     z-index:10;
     background-color:var(--tabbackground);
     display: grid;
-    overflow:hidden;
     grid-template-columns: 70% 15% 15%;
 }
 .ptitlesub{
@@ -443,7 +440,7 @@ a:visited{
   grid-column: 3;
   margin-left: 0px !important;
 }
-#curriculum{
+.curriculum{
     text-align:inherit;
     min-height:19px;
     margin:16px 0 16px 0
@@ -505,6 +502,7 @@ footer{
     padding-right:10px;
     color:var(--colordarktext);
     margin: auto;
+    padding-bottom: 5px;
 }
 #darkmode{
     font-size:.9em;
@@ -567,7 +565,25 @@ input:checked+.slider:before{
 .slider.round:before{
     border-radius:50%
 }
-@media screen and (max-width:850px){
+
+.dropdown{
+    padding-left:20px;
+}
+
+@media screen and (min-width: 1000px){
+    .dropdown{
+        display:none;
+    }
+}
+
+@media screen and (max-width: 616px){
+    .slidernavbar{
+        display:none;
+    }
+}
+
+@media screen and (max-width:1000px){
+
     .sfalzo{
         text-align:left!important
     }
@@ -637,7 +653,7 @@ input:checked+.slider:before{
     }
 }
 @media screen and (max-width:399px){
-    #titlecentered{
+    .titlecentered{
         font-size:.9em!important
     }
 }
