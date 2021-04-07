@@ -97,6 +97,7 @@ h1:hover {
 
 .imageList{
     width: 100%;
+    border: 0.1px solid #0000008c;
 }
 
 /* SLIDER ON LIST IMAGE */
