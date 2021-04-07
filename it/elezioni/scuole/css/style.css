@@ -28,6 +28,11 @@
     border-top: 1px solid #545454;
 }
 
+.cardlista{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .nav-item{
     padding-right: 50px;
     padding-left: 50px;
