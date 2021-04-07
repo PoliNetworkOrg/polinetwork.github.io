@@ -47,8 +47,18 @@
 
 .listTile{
     width: 450px;
-    height: 150px;
+    height: 200px;
     display: flex;
+    padding-left: calc(1px + 0.5rem);
+    padding-right: calc(1px + 0.5rem);
+
+}
+
+.tableScuole{
+   color:black;
+   height: 100%;
+   vertical-align: middle;
+   width: 100%;
 }
 
 .scuole{
