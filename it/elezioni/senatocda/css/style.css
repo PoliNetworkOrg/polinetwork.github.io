@@ -2,7 +2,13 @@
     --mainColor: #ff9800;
 }
 
+.h-100{
+    padding: 0 !important;
+}
 
+.cap-left{
+    display: block !important;
+}
 .containerNavBar{
     display: -ms-flexbox;
     display: flex;
