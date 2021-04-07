@@ -81,7 +81,7 @@
     </header>
 
     <!-- Page Features -->
-    <div class="row text-center">
+    <div class="row text-center" id="listeContainer">
 
 		  <div class="col-lg-3 col-md-6 mb-4">
 			<a href="./svoltastudenti/index.html">
@@ -146,6 +146,18 @@
 				</div>
 			</a>
 		  </div>
+
+			<script>
+				for (var j=0; j<5; j++)
+				{
+					var ul =  document.getElementById("listeContainer");
+					for (var i = ul.children.length; i >= 0; i--) {
+						ul.appendChild(ul.children[Math.random() * i | 0]);
+					}
+				}
+
+			</script>
+
     </div>
     <!-- /.row -->
 
