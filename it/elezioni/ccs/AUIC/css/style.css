@@ -39,6 +39,10 @@ a span{
     font-size: 1.2em;
 }
 
+.nav-link{
+  text-align: center;
+}
+
 .navbar{
     border-bottom: 1px solid #545454;
 
