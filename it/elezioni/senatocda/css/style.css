@@ -1,0 +1,126 @@
+.containerNavBar{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    color: #545454;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #fff;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.senateCdaDiv{
+    margin: 0px;
+    border-top: 1px solid #545454;
+}
+
+.nav-item{
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 1.2em;
+}
+
+.navbar{
+    border-bottom: 1px solid #545454;
+
+}
+
+.testoCentrale{
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.listTile{
+    width: 450px;
+    height: 500px;
+}
+
+.imageList{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* SLIDER ON LIST IMAGE */
+.cap-left {
+    padding: 1px 1px 1px 1px;
+    height: 100%;
+    display: block;
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 0;
+}
+figcaption {
+    position: absolute;
+    background: white;
+    background: rgba(0,0,0,0.75);
+    color: white;
+    padding: 10px 20px;
+    opacity: 0.6;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition:    all 0.6s ease;
+    -o-transition:      all 0.6s ease;
+    height: 100%;
+    width: 100%;
+}
+figure:hover figcaption {
+    opacity: 1;
+}
+figure:before {
+    position: absolute;
+    font-weight: 800;
+    background: black;
+    background: rgba(255,255,255,0.75);
+    text-shadow: 0 0 5px white;
+    color: black;
+    width: 24px;
+    height: 24px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius:    12px;
+    border-radius:         12px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    -moz-transition: all 0.6s ease;
+    opacity: 0.75;
+}
+figure:hover:before {
+    opacity: 0;
+}
+
+.cap-left:before {  bottom: 10px; left: 10px; }
+.cap-left figcaption { bottom: 0; left: -100%; }
+.cap-left:hover figcaption { left: 0; }
+
+.cap-right:before { bottom: 10px; right: 10px; }
+.cap-right figcaption { bottom: 0; right: -30%; }
+.cap-right:hover figcaption { right: 0; }
+
+.cap-top:before { top: 10px; left: 10px; }
+.cap-top figcaption { left: 0; top: -30%; }
+.cap-top:hover figcaption { top: 0; }
+
+.cap-bot:before { bottom: 10px; left: 10px; }
+.cap-bot figcaption { left: 0; bottom: -30%;}
+.cap-bot:hover figcaption { bottom: 0; }
+
+@media (max-width: 768px) {
+    .testoCentrale{
+        max-width: 100% !important;
+    }
+    ul{
+        padding-left: 5px;
+    }
+}
