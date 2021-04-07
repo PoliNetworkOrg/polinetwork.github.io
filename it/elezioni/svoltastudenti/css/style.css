@@ -282,6 +282,17 @@ body {
     color: #c4ac6c;
 }
 
+.spacerScuole{
+  padding-top:20px;
+  padding-bottom:20px;
+  margin-top:40px;
+  margin-bottom:20px;
+}
+
+.titleScuole{
+  font-size: calc(3px + 0.5vw + 1rem);
+}
+
 li{
     list-style-type: none;
     text-transform: capitalize;
