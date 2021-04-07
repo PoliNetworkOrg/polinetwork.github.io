@@ -29,13 +29,12 @@ body {
 
 .containerImgList{
 display: table-cell;
-
+margin:auto;
 
 }
 
 .listTile{
 display: table;
-margin: auto;
 }
 
 .cap-left{
