@@ -34,7 +34,7 @@ margin:auto;
 }
 
 .listTile{
-  height: 250px !important;
+
 }
 
 .cap-left{
@@ -42,10 +42,16 @@ margin:auto;
 
 }
 
+.h-100{
+  border: 1px solid rgba(0, 0, 0, 0.33);
+border-radius: 0.55rem;
+padding: 25px;
+}
+
 .imageList{
 
 margin:auto;
-
+max-width: 300px;
 }
 
 .helper {
