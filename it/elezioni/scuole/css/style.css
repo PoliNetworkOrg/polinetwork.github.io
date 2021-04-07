@@ -36,7 +36,41 @@
 
 .navbar{
     border-bottom: 1px solid #545454;
+}
 
+.nav-link{
+  color:black;
+}
+
+
+.navbar-dark .navbar-brand{
+    color:black;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link{
+  color:black;
+  outline: 5px dotted green;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color:black;
+}
+
+.candidate {
+    background: linear-gradient(
+            to bottom, var(--mainColor) 0%,
+            var(--mainColor) 100%
+    ) repeat-x 0 100%;
+    background-size: 0px 0px;
+    color: #000;
+    text-decoration: none;
+    transition: background-size .2s;
+}
+
+.candidate:hover {
+    background-size: 4px 50px;
+    color: #000;
+    text-decoration: none;
 }
 
 .testoCentrale{
@@ -45,9 +79,32 @@
     margin-right: auto;
 }
 
+li{
+    list-style-type: none;
+}
+
+ul{
+    padding: 5px;
+}
+
+h1 {
+    background: linear-gradient(
+            to bottom, var(--mainColor) 0%,
+            var(--mainColor) 100%
+    ) repeat-x 0 100%;
+    background-size: 0px 0px;
+    color: #000;
+    text-decoration: none;
+    transition: background-size .2s;
+}
+
+h1:hover {
+    background-size: 4px 50px;
+}
+
 .listTile{
     width: 450px;
-    height: 200px;
+    height: 250px;
     display: flex;
     padding-left: calc(1px + 0.5rem);
     padding-right: calc(1px + 0.5rem);
@@ -101,6 +158,7 @@ h1:hover {
     width: 100%;
     height: 100%;
     object-fit: cover;
+	border: 0.1px solid #0000008c;
 }
 
 /* SLIDER ON LIST IMAGE */
