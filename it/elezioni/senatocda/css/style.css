@@ -92,7 +92,13 @@ h1:hover {
 
 .listTile{
     width: 450px;
-    height: 500px;
+    height: auto;
+}
+
+.img-responsive{
+  width: 50px;
+  height: 50px;
+
 }
 
 .imageList{
