@@ -1,11 +1,3 @@
-body {
-    font-family: sans-serif;
-    background-color: #f1f3f4;
-    color: darkslategray;
-    text-align: center;
-    margin-bottom: 0;
-}
-
 .wrapper {
     max-width: 900px;
     margin: 0 auto;
@@ -20,6 +12,10 @@ body {
 
 .ptitlesub{
     padding-top:53px;
+}
+
+.ptitlesubcontainer {
+    right: 0px;
 }
 
 .clickable {
@@ -43,7 +39,7 @@ li {
 }
 
 .white {
-    background-color: white;
+    background-color: var(--tabbackground);
 }
 
 .white.clickable {
@@ -179,6 +175,14 @@ input[type=radio] {
     flex: 1;
 }
 
+.switchdivb{
+    padding-bottom: 5px;
+}
+
+#darkmode2{
+    color: var(--colordarktext);
+}
+
 /* Dropdown Button */
 .dropbtn {
     padding: 10px;
@@ -201,9 +205,11 @@ input[type=radio] {
     display: none;
     position: absolute;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    right: 0px;
+    z-index: 20;
+    right: 0;
+    background-color: var(--tabbackground) !important;
+    -webkit-box-shadow:0 1px 2px 0 rgba(60,64,67,.3),0 2px 6px 2px rgba(60,64,67,.15);
+    box-shadow:0 1px 2px 0 rgba(60,64,67,.3),0 2px 6px 2px rgba(60,64,67,.15);
 }
 
 /* Links inside the dropdown */
@@ -212,7 +218,9 @@ input[type=radio] {
 .dropdown-content {}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block !important;}
+.dropdown:hover .dropdown-content {
+    display: block !important;
+}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {}
