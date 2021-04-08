@@ -321,14 +321,16 @@ a:visited{
 }
 .Titolone{
     font-size:1.5em;
-    color:var(--colortitle);
+    color:var(--colortext);
     margin: 0 0 0 0;
     padding-bottom: 20px;
+    text-align: center;
 }
 .titlecontainer{
     grid-column: 2;
     grid-row-start: 2;
     grid-row-end: 2;
+    padding-top: 5px;
 }
 
 .devsite-header-billboard-search{
@@ -416,7 +418,6 @@ a:visited{
 }
 .switchdivb{
     grid-column: 2;
-
 }
 .ptitle{
     vertical-align: middle;
