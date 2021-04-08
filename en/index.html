@@ -24,13 +24,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="/res/js/search/bootstrap.js"></script>
     <script>
-        document.addEventListener('DOMContentLoaded', _ => {
-            el = document.querySelector('input[type="search"]');
-            if (el){
-                el.addEventListener('keyup', _ => {
-                    doSearch({limit: 100, join: "AND", query: {class: el.value}}, data => console.log("res", data));
-                })
-            }
+        document.addEventListener('DOMContentLoaded', _ => {            // Esegui quando il DOM e' pronto
+            els = document.querySelectorAll('input[type="search"]');    // Seleziona tutti gli input di tipo search
+            Array.from(els).forEach(el => {                             // Per ogni input di tipo search...
+                el.addEventListener('keyup', _ => {                     // Aggiungi un listener che scatta ogni volta che schiacci un tasto sulla tastiera
+                    doSearch({                                          // Esegui le search con questa funzione
+                        limit: 10,                                      // Limite di risultati per la ricerca
+                        join: "AND",                                    // Tipo di join
+                        query: {                                        // Ogni proprieta' viene mappata nelle proprieta' degli oggetti del json
+                            class: el.value                             
+                        }},
+                    data => console.log("res", data));                  // Callback in cui passare i risultati di ricerca
+                });
+            });
         });
     </script>
 </head>
