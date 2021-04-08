@@ -48,6 +48,11 @@ margin: auto;
 border-radius: 0.55rem;
 padding: 25px;
 width: 100%;
+    word-wrap: break-word !important;
+}
+
+.titleListaFigcaption{
+  font-size: calc(1rem + 0.9vw);
 }
 
 .imageList{
