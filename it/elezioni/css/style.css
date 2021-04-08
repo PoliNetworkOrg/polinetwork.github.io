@@ -52,6 +52,7 @@ width: 100%;
 
 .imageList{
 
+max-height: 300px !important;
 margin:auto;
 max-width: 300px;
 }
