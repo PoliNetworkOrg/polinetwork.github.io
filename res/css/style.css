@@ -203,6 +203,7 @@ input[type=radio] {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    right: 0px;
 }
 
 /* Links inside the dropdown */
@@ -211,7 +212,7 @@ input[type=radio] {
 .dropdown-content {}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {display: block !important;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {}
