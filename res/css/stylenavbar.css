@@ -14,7 +14,13 @@
     --borderbottom:0px;
     --linkcolor:coral;
     --calcagnocolor:#121212;
-    --calcagnotesto:white
+    --calcagnotesto:white;
+    --whiteclickable:#d8d8d8;
+    --whitehover:#bebebe;
+    --green:rgb(46, 201, 193);
+    --greenhover:rgb(37, 177, 170);
+    --orange:rgb(252, 157, 120);
+    --orangehover:rgb(252, 157, 120);
 }
 [data-theme=dark]{
     --tabbackground:#121212;
@@ -32,7 +38,16 @@
     --borderbottom:solid 1px white;
     --linkcolor:#03DDCB;
     --calcagnocolor:#f1f3f4;
-    --calcagnotesto:#121212
+    --calcagnotesto:#121212;
+    --whiteclickable:#272727;
+    --whitehover:#4e4e4ef8;
+    --green:rgb(28, 116, 111);
+    --greenhover:rgb(32, 134, 129);
+    --orange:rgb(177, 86, 50);
+    --orangehover:rgb(218, 135, 102);
+
+
+
 }
 html{
     font-family:Raleway,sans-serif
