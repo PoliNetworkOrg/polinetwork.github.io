@@ -22,8 +22,17 @@
     <link rel="stylesheet" type="text/css" href="../res/css/style.css">
     <link rel="stylesheet" type="text/css" href="../res/css/stylenavbar.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
+    <script src="/res/js/search/bootstrap.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', _ => {
+            el = document.querySelector('input[type="search"]');
+            if (el){
+                el.addEventListener('keyup', _ => {
+                    doSearch({limit: 100, join: "AND", query: {class: el.value}}, data => console.log("res", data));
+                })
+            }
+        });
+    </script>
 </head>
 
 <header>
@@ -72,7 +81,7 @@
 
                 <div class="input-group rounded">
                     <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
-                           aria-describedby="search-addon" />
+                           aria-describedby="search-addon" class="searchBox"/>
                     <span class="input-group-text border-0" id="search-addon">
                         <i class="fas fa-search"></i>
                       </span>
