@@ -1,5 +1,5 @@
 :root{
-    --tabbackground:white;
+    --tabbackground: #ffffff;
     --mainbackground:#f1f3f4;
     --maintext:#5f6368;
     --colortitle:#202124;
@@ -18,7 +18,7 @@
     --whiteclickable:#d8d8d8;
     --whitehover:#bebebe;
     --green:rgb(46, 201, 193);
-    --greenhover:rgb(37, 177, 170);
+    --greenhover: rgb(37, 177, 170);
     --orange:rgb(252, 157, 120);
     --orangehover:rgb(252, 157, 120);
 }
@@ -42,7 +42,7 @@
     --whiteclickable:#272727;
     --whitehover:#4e4e4ef8;
     --green:rgb(28, 116, 111);
-    --greenhover:rgb(32, 134, 129);
+    --greenhover: rgb(32, 134, 129);
     --orange:rgb(177, 86, 50);
     --orangehover:rgb(218, 135, 102);
 
