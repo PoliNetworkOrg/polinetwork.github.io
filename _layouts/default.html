@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <!-- Font Awesome -->
+    <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+            rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+            rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css"
+            rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="/res/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/res/css/stylenavbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/res/js/search/bootstrap.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', _ => {            // Esegui quando il DOM e' pronto
+            els = document.querySelectorAll('input[type="search"]');    // Seleziona tutti gli input di tipo search
+            Array.from(els).forEach(el => {                             // Per ogni input di tipo search...
+                el.addEventListener('keyup', _ => {                     // Aggiungi un listener che scatta ogni volta che schiacci un tasto sulla tastiera
+                    doSearch({                                          // Esegui le search con questa funzione
+                        limit: 10,                                      // Limite di risultati per la ricerca
+                        join: "AND",                                    // Tipo di join
+                        query: {                                        // Ogni proprieta' viene mappata nelle proprieta' degli oggetti del json
+                            class: el.value
+                        }},
+                    data => console.log("res", data));                  // Callback in cui passare i risultati di ricerca
+                });
+            });
+        });
+    </script>
+</head>
+
+    {{ content }}
+
+
+    <script src="/res/js/javas.js"></script>
+
+
+</html>
