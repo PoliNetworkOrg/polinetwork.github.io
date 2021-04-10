@@ -318,16 +318,7 @@ header{
     display:table;
     margin:auto
 }
-a:link{
-    color:var(--linkcolor);
-    background-color:transparent;
-    text-decoration:none
-}
-a:visited{
-    color:var(--linkcolor);
-    background-color:transparent;
-    text-decoration:none
-}
+
 #navigation{
     position:relative;
     text-align:left;
