@@ -1,12 +1,17 @@
-<header>
+< header>
     <div class="topbar">
+      {% if page.show_backToHome == true %}
+        <div class="backToHome">
+          <a href="/">torna alla home</a>
+        </div>
+      {% endif %}
         <div class="" id="titlecentered">
             <div class="containerTop">
                 <div class="containertitle">
                     <p class="ptitle"><b> PoliNetwork</b></p>
                 </div>
                 <div id="navigation" class="containertitle ml12">
-                    <p class="slidernavbar">- Descrizione</p>
+                    <p class="slidernavbar">- {{ page.title }}</p>
                 </div>
             </div>
         </div>
@@ -14,7 +19,7 @@
             <div class="switchdiv switchdiva">
                 <p id="darkmode">Enable_Dark_Mode</p>
             </div>
-            <div class="switchdiv switchdivb"><label class="theme-switch switch"> <input type="checkbox"> <span
+            <div class="switchdiv switchdivb"><label class="theme-switch switch"> <input id="darkmodeinputID" type="checkbox"> <span
                     class="slider round"></span> </label></div>
             <div class="dropdown">
                 <button class="dropbtn"><i class="fa fa-bars"></i></button>
@@ -23,7 +28,7 @@
                         <div class="switchdivb">
                             <p id="darkmode2">Enable_Dark_Mode</p>
                         </div>
-                        <div class="switchdivb"><label class="theme-switchb switch"> <input type="checkbox"> <span
+                        <div class="switchdivb"><label class="theme-switchb switch"> <input id="darkmodeinputID2" type="checkbox"> <span
                                 class="slider round"></span> </label>
                         </div>
                     </div>

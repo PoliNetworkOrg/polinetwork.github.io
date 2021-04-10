@@ -26,60 +26,6 @@
 
     <script src="/res/js/search/search3.js"></script>
 
-    <script>
-        function generaHTMLrisultato(item) {
-          item = applyMapping(item);
-          return genHtml(item);
-        }
-
-        function  generaHTMLnoresults(){
-          var doc = document.getElementById("searchResultsID");
-          doc.innerHTML = '<div class=\"result\"><div class="resultContainer"><a class="noResults" href="\https://t.me/PoliGruppo">There are no suggestions for your query. <i>Try asking here</i></a></div></div>';
-        }
-
-        function activateResultsDiv(){
-          var bar = document.getElementById("searchBarID");
-          var container = document.getElementById("searchContainerID");
-          if (bar.value.length > 0){
-            if (!container.classList.contains("searchResultsActive")){
-              container.classList.add("searchResultsActive");
-            }
-          } else {
-            if (container.classList.contains("searchResultsActive")){
-              container.classList.remove("searchResultsActive");
-            }
-          }
-        }
-
-        document.addEventListener('DOMContentLoaded', _ => {            // Esegui quando il DOM e' pronto
-            els = document.querySelectorAll('input[type="search"]');    // Seleziona tutti gli input di tipo search
-            Array.from(els).forEach(el => {                             // Per ogni input di tipo search...
-                el.addEventListener('keyup', _ => {                     // Aggiungi un listener che scatta ogni volta che schiacci un tasto sulla tastiera
-                    activateResultsDiv();
-                    doSearch({                                          // Esegui le search con questa funzione
-                        limit: 50,                                      // Limite di risultati per la ricerca
-                        join: "AND",                                    // Tipo di join
-                        query: {                                        // Ogni proprieta' viene mappata nelle proprieta' degli oggetti del json
-                            class: el.value
-                        }},
-                    data => {
-                      var doc = document.getElementById("searchResultsID");
-                      console.log("res", data);
-                      doc.innerHTML = "";
-                      data.forEach((item, i) => {
-                        doc.innerHTML += generaHTMLrisultato(item);
-                      });
-                      if(doc.innerHTML.length == 0){
-                        generaHTMLnoresults();
-                      }
-
-                    }
-                  );                  // Callback in cui passare i risultati di ricerca
-
-                });
-            });
-        });
-    </script>
 </head>
 
     {{ content }}
