@@ -57,7 +57,7 @@
                 el.addEventListener('keyup', _ => {                     // Aggiungi un listener che scatta ogni volta che schiacci un tasto sulla tastiera
                     activateResultsDiv();
                     doSearch({                                          // Esegui le search con questa funzione
-                        limit: 10,                                      // Limite di risultati per la ricerca
+                        limit: 50,                                      // Limite di risultati per la ricerca
                         join: "AND",                                    // Tipo di join
                         query: {                                        // Ogni proprieta' viene mappata nelle proprieta' degli oggetti del json
                             class: el.value

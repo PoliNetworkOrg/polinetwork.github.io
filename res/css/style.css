@@ -27,7 +27,7 @@
 .result:hover{
   outline: 0;
   text-decoration: none;
-  background-color: #dddddd;
+  background-color: var(--searchHover);
 }
 
 .resultLink{
@@ -61,6 +61,11 @@
 }
 
 .noResults{
+  text-decoration: none;
+  color: var(--maintext);
+}
+
+.noResults:hover{
   text-decoration: none;
   color: var(--maintext);
 }

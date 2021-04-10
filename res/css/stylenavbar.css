@@ -21,6 +21,7 @@
     --greenhover: rgb(37, 177, 170);
     --orange:rgb(252, 157, 120);
     --orangehover:rgb(252, 157, 120);
+    --searchHover: #dddddd;
 }
 [data-theme=dark]{
     --tabbackground:#121212;
@@ -45,9 +46,7 @@
     --greenhover: rgb(32, 134, 129);
     --orange:rgb(177, 86, 50);
     --orangehover:rgb(218, 135, 102);
-
-
-
+    --searchHover: #545454;
 }
 html{
     font-family:Raleway,sans-serif
