@@ -86,7 +86,7 @@
     max-width: 900px;
     margin: 0 auto;
     position: relative;
-    padding: 20px 20px 20px;
+    padding: 10px 10px 10px;
 }
 
 .horizontalcardswrapper{
@@ -163,7 +163,8 @@ li {
 
 .card {
     border-radius: 1em;
-    padding: 1em 2em;}
+    padding: 1em 1em;
+}
 /*
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
     transition: box-shadow 0.2s;
@@ -216,6 +217,14 @@ h2 {
     font-size: 2.2em;
 }
 
+.project-content h2 {
+    font-size: 1.2em;
+}
+
+.project-content p {
+    font-size: 1em;
+}
+
 h3 {
     font-size: 1.3em;
     font-weight: normal;
@@ -254,15 +263,24 @@ input[type=radio] {
     color: white;
 }
 
+.flexgroup {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flexitem {
+    flex: 0 1 100%;
+    margin: 0;
+    margin-bottom: 1em;
+}
+
 .equalspace div {
     flex: 1;
 }
 
 .switchdivb{
     padding-bottom: 5px;
-}
-
-#darkmode2{
 }
 
 /* Dropdown Button */
@@ -322,6 +340,18 @@ input[type=radio] {
     .horizontal > .slim + .slim {
         margin-left: 0.5em;
         margin-top: 0;
+    }
+
+    .card {
+        padding: 1em 2em;
+    }
+
+    .wrapper {
+        padding: 20px 20px 20px;
+    }
+
+    .flexitem {
+        flex: 0 1 calc(33.33% - 1em);
     }
 
 }
