@@ -200,14 +200,6 @@ p {
     margin: 0.5em 0;
 }
 
-* + .card {
-    margin-top: 1.5em;
-}
-
-* + .card.slim {
-    margin-top: 0.5em;
-}
-
 h1 {
     font-size: 2.8em;
 }
@@ -302,26 +294,66 @@ input[type=radio] {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {}
 
+.centerGrid{
+  margin: auto;
+}
 
-@media only screen and (min-width: 768px) {
+/* Cards homepage layout */
+  .horizontal {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: auto;
+
+  }
+
+  .horizontalSocial{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+  }
+
+  .card{
+    margin: 10px;
+  }
+
+  .section{
+    margin: 15px;
+  }
+
+  .topCard{
+    display: grid;
+    grid-template-columns: 3fr 8fr;
+    min-height: 210px;
+  }
+
+  /* Cards homepage layout END */
+
+@media only screen and (max-width: 768px) {
     .horizontal {
-        display: flex;
-        align-items: stretch;
-        margin: 0 auto;
+        grid-template-columns: 1fr 1fr;
+        grid-row: auto;
+    }
+    .info{
+      grid-column-start: 1;
+      grid-column-end: 3;
+
     }
 
-    .horizontal > * {
-        flex-grow: 1;
-    }
+}
 
-    .horizontal > * + * {
-        margin-left: 1.5em;
-        margin-top: 0;
+@media only screen and (max-width: 550px) {
+    .horizontal {
+        grid-template-columns: 1fr;
+        grid-row: auto;
     }
+    .horizontalSocial{
+      grid-template-columns: 1fr;
+      grid-row: auto;
+    }
+    .info{
+      grid-column-start: 1;
+      grid-column-end: 1;
 
-    .horizontal > .slim + .slim {
-        margin-left: 0.5em;
-        margin-top: 0;
     }
 
 }
