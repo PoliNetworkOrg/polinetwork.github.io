@@ -5,7 +5,7 @@
 }
 
 .searchResults{
-/*  display: none; */
+  display: none;
   max-height: calc(100vh - 255px);
   transition-delay: .2s;
   position: absolute;
@@ -30,8 +30,17 @@
   background-color: #dddddd;
 }
 
+.resultLink{
+  color: var(--maintext);
+  text-decoration: none;
+}
+
+.resultLink:hover{
+  color: var(--maintext);
+  text-decoration: none;
+}
+
 .result{
-  color: #202124;
   display: block;
   outline: 0;
   padding: 8px;
@@ -40,10 +49,20 @@
   -webkit-transition: background .2s;
   transition: background .2s;
   will-change: transition;
+  font-weight: 300;
+  font-size: 1rem;
 }
-.result a{
+
+.resultContainer{
   padding-left: 40px;
   text-decoration: none;
+  color: var(--maintext);
+  padding-right: 10px;
+}
+
+.noResults{
+  text-decoration: none;
+  color: var(--maintext);
 }
 
 #search-addon{
