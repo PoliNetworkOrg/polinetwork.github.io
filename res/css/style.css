@@ -91,9 +91,20 @@
 
 .horizontalcardswrapper{
   display: grid;
-  /*grid-template-rows: 0.5fr 0.80fr 0.46fr;*/
+}
+.expandable{
+  display: grid;
+  align-content: end;
+}
+.horizontalcardsbutton{
+  bottom: 0px;
+  margin: auto;
+  padding-bottom: 2px;
 }
 
+.cardLink{
+  margin: auto;
+}
 .ptitlesub{
     padding-top:53px;
 }
@@ -352,6 +363,13 @@ input[type=radio] {
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: auto;
 
+  }
+
+  .cardLink{
+    color: var(--maintext);
+  }
+  .cardLink:hover{
+    color: var(--maintext);
   }
 
   .horizontalSocial{
