@@ -493,6 +493,7 @@ body,html{
     text-align:justify;
     transition:.3s;
     margin:0
+    overflow-x: hidden;
 }
 footer{
     background-color:var(--mainbackground);
