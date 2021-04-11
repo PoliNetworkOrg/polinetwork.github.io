@@ -1,0 +1,36 @@
+<body>
+    <div style="margin-top: 20px;"></div>
+    <div class="wrapper">
+        <div class="card white section projectmain">
+            <div class="topproject">
+                <div class="centerGrid"><img class="image-container main" src="/res/images/{{ page.LImage }}"></div>
+                <div class="centerGrid">
+                    <h1>{{ page.LProjectTitle }}</h1>
+                </div>
+            </div>
+        </div>
+        <div class="card white section">
+            <h2>Links</h2>
+            <div class="projectsWrapper">
+                {% for link in page.LLinks %}
+                    <div class="card slim textAccentColor green clickable courses" onclick="location.href='{{ link[1] }}'">
+                        <p>{{ link[0] }}</p>
+                    </div>
+                {% endfor %}
+                <!--<div class="card slim textAccentColor green clickable courses" onclick="location.href='#'">
+                    <p>Link1</p>
+                </div>
+                <div class="card slim textAccentColor green clickable groups" onclick="location.href='#'">
+                    <p>Link2</p>
+                </div>
+                <div class="card slim textAccentColor green clickable rules" onclick="location.href='#'">
+                    <p>Link3</p>
+                </div>-->
+            </div>
+        </div>
+        <div class="card white section">
+            <h2>Description</h2>
+            <p>{{ page.LProjectDescription }}</p>
+        </div>
+    </div>
+</body>
