@@ -65,26 +65,36 @@
     </div>
     <div class="horizontal section">
         <div class="card white horizontalcardswrapper guides">
+          <div class="titleanddeskCard">
             <h2>{{ page.LGuidesTitle }}</h2>
 
             <p>{{ page.LGuidesText }}</p>
-            <div class="card green clickable horizontalcardsbutton"><p>Guides</p></div>
+          </div>
+            <div class="expandable">
+              <div class="card green clickable horizontalcardsbutton"><a href="./guides/" class="cardLink">Guides</a></div>
+          </div>
         </div>
         <div class="card white horizontalcardswrapper projects">
-
+          <div class="titleanddeskCard">
             <h2>{{ page.LProjectsTitle }}</h2>
 
 
             <p>{{ page.LProjectsText }}</p>
-            <div class="card green clickable horizontalcardsbutton"><p>Projects</p></div>
+            </div>
+            <div class="expandable">
+              <div class="card green clickable horizontalcardsbutton"><a href="./projects/" class="cardLink">Projects</a></div>
+            </div>
         </div>
         <div class="card white horizontalcardswrapper info">
-
+          <div class="titleanddeskCard">
             <h2>{{ page.LInfoTitle }}</h2>
 
 
             <p>{{ page.LInfoText }}</p>
-            <div class="card green clickable horizontalcardsbutton"><p>Info</p></div>
+          </div>
+            <div class="expandable">
+              <div class="card green clickable horizontalcardsbutton"><a href="./about_us/" class="cardLink">About us</a></div>
+            </div>
         </div>
     </div>
 </div>
