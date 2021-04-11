@@ -371,7 +371,6 @@ input[type=radio] {
   }
   .aboutCard{
     margin-top: 30px !important;
-    text-align: left;
   }
 
   .cardLink{
@@ -419,7 +418,7 @@ input[type=radio] {
     margin: auto;
     color: inherit;
     font-size: 1.2em;
-    margin: 0.5em 0 10px auto;
+    margin-right: 0;
   }
   .footer{
   }
