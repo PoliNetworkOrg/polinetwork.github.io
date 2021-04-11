@@ -213,10 +213,6 @@ h3 {
     font-weight: normal;
 }
 
-.card + .horizontal, p + .horizontal {
-    margin-top: 1.5em;
-}
-
 .card.slim + .horizontal {
     margin-top: 0.5em;
 }
@@ -314,10 +310,11 @@ input[type=radio] {
 
   .card{
     margin: 10px;
+    overflow: hidden;
   }
 
   .section{
-    margin: 15px;
+    margin-top: 5px;
   }
 
   .topCard{
@@ -355,5 +352,10 @@ input[type=radio] {
       grid-column-end: 1;
 
     }
-
+    .topCard{
+      grid-template-columns: 1fr;
+    }
+    .centerGrid h1 {
+      text-align: center;
+    }
 }
