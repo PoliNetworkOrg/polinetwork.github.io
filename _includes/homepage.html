@@ -1,0 +1,151 @@
+<body>
+<div>
+    <!--        <div class="ptitlesub">-->
+    <!--            -->
+    <!--        </div>-->
+    <div id="topTitle">
+        <div class="titlecontainer">
+            <p class="Titolone titlecentered">Cerca il tuo gruppo!</p>
+        </div>
+        <div class="devsite-header-billboard-search">
+
+                <div class="input-group rounded">
+                    <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" id="searchBarID"
+                           aria-describedby="search-addon" class="searchBox"/>
+                    <span class="input-group-text border-0" id="search-addon">
+                        <i class="fas fa-search"></i>
+                      </span>
+                      <div class="searchResults" id ="searchContainerID">
+                        <div class="searchBox" id="searchResultsID">
+
+                        </div>
+                      </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<div class="wrapper">
+    <div class="card white section">
+        <div class="topCard">
+            <div class="centerGrid"><img class="image-container main" src="/res/images/polinetwork.png"></div>
+            <div class="centerGrid">
+                <h1><span class="highlight">P</span>oli<span class="highlight">N</span>etwork</h1>
+                <p>A Network of students, for students</p>
+            </div>
+        </div>
+    </div>
+    <div class="card white section">
+        <h2>Groups 👥</h2>
+        <p>The main effort of the Network is creating and maintaining groups of students on Telegram and Facebook,
+            providing support and answering to university related questions</p>
+        <div class="horizontalSocial">
+            <div class="card white clickable"
+                 onclick="location.href='https://www.facebook.com/groups/matricole20172018polimi/'">
+                <div class="image-container big"><img src="../res/images/facebook.svg"></div>
+                <p>General facebook group</p>
+            </div>
+            <div class="card white clickable" onclick="location.href='https://t.me/PoliGruppo'">
+                <div class="image-container big"><img src="../res/images/telegram.png"></div>
+                <p>General telegram group</p>
+            </div>
+        </div>
+        <div class="card green clickable courses" onclick="location.href='groups.html'">
+            <p>🔍 Groups of all courses 🔍</p>
+        </div>
+        <div class="card green clickable groups" onclick="location.href='https://polinetwork.github.io/it/extra/index.html'">
+            <p>🧩 Extra groups 🧩</p>
+        </div>
+        <div class="card orange clickable rules" onclick="location.href='https://polinetwork.github.io/it/rules/index.html'">
+            <p>📝 Rules 📝</p>
+        </div>
+        <div class="spaced">
+            <br/>
+        </div>
+    </div>
+    <div class="horizontal section">
+        <div class="card white horizontalcardswrapper guides">
+            <h2>Guides 📖</h2>
+
+            <p>A collection of guides built by the members of the Network</p>
+            <div class="card green clickable horizontalcardsbutton"><p>Guides</p></div>
+        </div>
+        <div class="card white horizontalcardswrapper projects">
+
+            <h2>Projects 🛠</h2>
+
+
+            <p>Click to find out about the projects maintained by the Network</p>
+            <div class="card green clickable horizontalcardsbutton"><p>Projects</p></div>
+        </div>
+        <div class="card white horizontalcardswrapper info">
+
+            <h2>Info ❓</h2>
+
+
+            <p>Find out more about who we are and what we do</p>
+            <div class="card green clickable horizontalcardsbutton"><p>Info</p></div>
+        </div>
+    </div>
+    <div class="card white">
+        <p>&copy Copyright PoliNetwork</p>
+    </div>
+</div>
+</body>
+
+
+    <script>
+        function generaHTMLrisultato(item) {
+          item = applyMapping(item);
+          return genHtml(item);
+        }
+
+        function  generaHTMLnoresults(){
+          var doc = document.getElementById("searchResultsID");
+          doc.innerHTML = '<div class=\"result\"><div class="resultContainer"><a class="noResults" href="\https://t.me/PoliGruppo">There are no suggestions for your query. <i>Try asking here</i></a></div></div>';
+        }
+
+        function activateResultsDiv(){
+          var bar = document.getElementById("searchBarID");
+          var container = document.getElementById("searchContainerID");
+          if (bar.value.length > 0){
+            if (!container.classList.contains("searchResultsActive")){
+              container.classList.add("searchResultsActive");
+            }
+          } else {
+            if (container.classList.contains("searchResultsActive")){
+              container.classList.remove("searchResultsActive");
+            }
+          }
+        }
+
+        document.addEventListener('DOMContentLoaded', _ => {            // Esegui quando il DOM e' pronto
+            els = document.querySelectorAll('input[type="search"]');    // Seleziona tutti gli input di tipo search
+            Array.from(els).forEach(el => {                             // Per ogni input di tipo search...
+                el.addEventListener('keyup', _ => {                     // Aggiungi un listener che scatta ogni volta che schiacci un tasto sulla tastiera
+                    activateResultsDiv();
+                    doSearch({                                          // Esegui le search con questa funzione
+                        limit: 50,                                      // Limite di risultati per la ricerca
+                        join: "AND",                                    // Tipo di join
+                        query: {                                        // Ogni proprieta' viene mappata nelle proprieta' degli oggetti del json
+                            class: el.value
+                        }},
+                    data => {
+                      var doc = document.getElementById("searchResultsID");
+                      console.log("res", data);
+                      doc.innerHTML = "";
+                      data.forEach((item, i) => {
+                        doc.innerHTML += generaHTMLrisultato(item);
+                      });
+                      if(doc.innerHTML.length == 0){
+                        generaHTMLnoresults();
+                      }
+
+                    }
+                  );                  // Callback in cui passare i risultati di ricerca
+
+                });
+            });
+        });
+    </script>
