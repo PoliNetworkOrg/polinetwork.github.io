@@ -2,6 +2,7 @@
     --tabbackground: #ffffff;
     --mainbackground:#f1f3f4;
     --maintext:#5f6368;
+    --accenttext: #5f6368;
     --colortitle:#202124;
     --colordarktext:#5f6368;
     --border:0px;
@@ -24,9 +25,10 @@
     --searchHover: #dddddd;
 }
 [data-theme=dark]{
-    --tabbackground:#121212;
-    --mainbackground:black;
+    --tabbackground:#262626;
+    --mainbackground:#121212;
     --maintext:#e1e1ff;
+    --accenttext: #121212;
     --colortitle:white;
     --colordarktext:#20C20E;
     --border:1px solid white;
@@ -40,14 +42,15 @@
     --linkcolor:#03DDCB;
     --calcagnocolor:#f1f3f4;
     --calcagnotesto:#121212;
-    --whiteclickable:#272727;
+    --whiteclickable:#313131;
     --whitehover:#4e4e4ef8;
-    --green:rgb(28, 116, 111);
+    --green:#03DAC6;
     --greenhover: rgb(32, 134, 129);
-    --orange:rgb(177, 86, 50);
-    --orangehover:rgb(218, 135, 102);
+    --orange:#BB86FC;
+    --orangehover: #6200EE;
     --searchHover: #545454;
 }
+
 html{
     font-family:Raleway,sans-serif
 }
@@ -296,7 +299,7 @@ header{
     width: 100%;
     position: fixed;
     border-bottom:1px solid #bdc1c6;
-    z-index:10;
+    z-index:15;
     background-color:var(--tabbackground);
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;
@@ -493,6 +496,7 @@ body,html{
     text-align:justify;
     transition:.3s;
     margin:0
+    overflow-x: hidden;
 }
 footer{
     background-color:var(--mainbackground);
@@ -587,10 +591,10 @@ footer{
     transition:.4s
 }
 input:checked+.slider{
-    background-color:#2196f3
+    background-color:#BB86FC;
 }
 input:focus+.slider{
-    box-shadow:0 0 1px #2196f3
+    box-shadow:0 0 1px #BB86FC;
 }
 input:checked+.slider:before{
     -webkit-transform:translateX(26px);
