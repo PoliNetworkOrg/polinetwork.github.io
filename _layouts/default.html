@@ -26,11 +26,40 @@
 
     <script src="/res/js/search/search3.js"></script>
 
+    <script>
+      var dark_theme = 0;
+      if(window.matchMedia('{prefers-color-scheme: dark}')){
+        document.documentElement.setAttribute('data-theme', 'dark');
+        dark_theme = 1;
+      } else {
+        document.documentElement.setAttribute('data-theme', 'light');
+    }
+
+    </script>
+
 </head>
+{% include navbar.html %}
 
     {{ content }}
+    
+<div class="footerWrapper">
+  <div class="card white footerGrid">
+    <div class="footerSection">
+          <p>Copyright PoliNetwork</p>
+    </div>
+    <div class="footerSection">
+      <a href="{{ site.url }}/{{ page.OtherLanguage}}{{ page.path }}"> Switch to {{ page.OtherLanguage }}</a>
+  </div>
+</div>
 
-
+    <script>
+    if (dark_theme == 1){
+      document.getElementById("darkmodeinputID").checked = true;
+      document.getElementById("darkmodeinputID2").checked = true;
+      document.getElementById("darkmode").innerHTML = "Disable_Dark_Mode"
+      document.getElementById("darkmode2").innerHTML = "Disable_Dark_Mode"
+    }
+    </script>
     <script src="/res/js/javas.js"></script>
 
 
