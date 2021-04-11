@@ -340,6 +340,8 @@ input[type=radio] {
   .footerSection a{
     margin: auto;
     color: inherit;
+    font-size: 1.2em;
+    margin: 0.5em 0 10px auto;
   }
   .footer{
   }
