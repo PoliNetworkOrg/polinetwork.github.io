@@ -322,6 +322,9 @@ input[type=radio] {
     grid-template-columns: 3fr 8fr;
     min-height: 210px;
   }
+  .centerGrid h1 {
+    text-align: center;
+  }
 
   /* Cards homepage layout END */
 
@@ -354,8 +357,5 @@ input[type=radio] {
     }
     .topCard{
       grid-template-columns: 1fr;
-    }
-    .centerGrid h1 {
-      text-align: center;
     }
 }
