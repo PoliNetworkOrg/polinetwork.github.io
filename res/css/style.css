@@ -86,7 +86,7 @@
     max-width: 900px;
     margin: 0 auto;
     position: relative;
-    padding: 20px 20px 20px;
+    padding: 5px 20px 5px;
 }
 
 .horizontalcardswrapper{
@@ -368,6 +368,9 @@ input[type=radio] {
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: auto;
 
+  }
+  .aboutCard{
+    margin-top: 30px !important;
   }
 
   .cardLink{
