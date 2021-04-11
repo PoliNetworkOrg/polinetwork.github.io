@@ -325,7 +325,24 @@ input[type=radio] {
   .centerGrid h1 {
     text-align: center;
   }
-
+  .footerWrapper{
+    padding: 0 20px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .footerGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .footerSection{
+    display: flex;
+  }
+  .footerSection a{
+    margin: auto;
+    color: inherit;
+  }
+  .footer{
+  }
   /* Cards homepage layout END */
 
 @media only screen and (max-width: 768px) {

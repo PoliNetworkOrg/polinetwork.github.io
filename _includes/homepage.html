@@ -5,7 +5,7 @@
     <!--        </div>-->
     <div id="topTitle">
         <div class="titlecontainer">
-            <p class="Titolone titlecentered">Cerca il tuo gruppo!</p>
+            <p class="Titolone titlecentered"> {{ page.LTitolone }}</p>
         </div>
         <div class="devsite-header-billboard-search">
 
@@ -37,28 +37,27 @@
         </div>
     </div>
     <div class="card white section">
-        <h2>Groups 👥</h2>
-        <p>The main effort of the Network is creating and maintaining groups of students on Telegram and Facebook,
-            providing support and answering to university related questions</p>
+        <h2>{{ page.LgroupsTitle }}</h2>
+        <p>{{ page.LgroupsText }}</p>
         <div class="horizontalSocial">
             <div class="card white clickable"
                  onclick="location.href='https://www.facebook.com/groups/matricole20172018polimi/'">
                 <div class="image-container big"><img src="../res/images/facebook.svg"></div>
-                <p>General facebook group</p>
+                <p>{{ page.LFacebookTitle }}</p>
             </div>
             <div class="card white clickable" onclick="location.href='https://t.me/PoliGruppo'">
                 <div class="image-container big"><img src="../res/images/telegram.png"></div>
-                <p>General telegram group</p>
+                <p>{{ page.LTelegramTitle }}</p>
             </div>
         </div>
         <div class="card green clickable courses" onclick="location.href='groups.html'">
-            <p>🔍 Groups of all courses 🔍</p>
+            <p>{{ page.LAllCoursesTitle }}</p>
         </div>
         <div class="card green clickable groups" onclick="location.href='https://polinetwork.github.io/it/extra/index.html'">
-            <p>🧩 Extra groups 🧩</p>
+            <p>{{ page.LExtraTitle }}</p>
         </div>
         <div class="card orange clickable rules" onclick="location.href='https://polinetwork.github.io/it/rules/index.html'">
-            <p>📝 Rules 📝</p>
+            <p>{{ page.LRules }}</p>
         </div>
         <div class="spaced">
             <br/>
@@ -66,30 +65,27 @@
     </div>
     <div class="horizontal section">
         <div class="card white horizontalcardswrapper guides">
-            <h2>Guides 📖</h2>
+            <h2>{{ page.LGuidesTitle }}</h2>
 
-            <p>A collection of guides built by the members of the Network</p>
+            <p>{{ page.LGuidesText }}</p>
             <div class="card green clickable horizontalcardsbutton"><p>Guides</p></div>
         </div>
         <div class="card white horizontalcardswrapper projects">
 
-            <h2>Projects 🛠</h2>
+            <h2>{{ page.LProjectsTitle }}</h2>
 
 
-            <p>Click to find out about the projects maintained by the Network</p>
+            <p>{{ page.LProjectsText }}</p>
             <div class="card green clickable horizontalcardsbutton"><p>Projects</p></div>
         </div>
         <div class="card white horizontalcardswrapper info">
 
-            <h2>Info ❓</h2>
+            <h2>{{ page.LInfoTitle }}</h2>
 
 
-            <p>Find out more about who we are and what we do</p>
+            <p>{{ page.LInfoText }}</p>
             <div class="card green clickable horizontalcardsbutton"><p>Info</p></div>
         </div>
-    </div>
-    <div class="card white">
-        <p>&copy Copyright PoliNetwork</p>
     </div>
 </div>
 </body>
