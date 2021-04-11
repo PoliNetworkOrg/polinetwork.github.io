@@ -321,6 +321,11 @@ input[type=radio] {
   margin: auto;
 }
 
+
+.textAccentColor{
+  color: var(--accenttext);
+}
+
 /*Cards Projects layout */
 .project-img{
     margin-left: auto;
@@ -366,10 +371,9 @@ input[type=radio] {
   }
 
   .cardLink{
-    color: var(--maintext);
   }
   .cardLink:hover{
-    color: var(--maintext);
+    color: var(--accenttext);
   }
 
   .horizontalSocial{
