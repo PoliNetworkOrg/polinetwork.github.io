@@ -292,6 +292,7 @@ header{
     transition:.3s
 }
 .topbar{
+    top: 0;
     width: 100%;
     position: fixed;
     border-bottom:1px solid #bdc1c6;
@@ -328,7 +329,7 @@ header{
     font-size:1.3em;
     color:var(--colortext);
     margin: 0 0 0 0;
-    padding-bottom: 20px;
+    margin-top: 10px;
     text-align: center;
 }
 .titlecontainer{
