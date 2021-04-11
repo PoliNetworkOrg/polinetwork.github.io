@@ -296,7 +296,7 @@ header{
     width: 100%;
     position: fixed;
     border-bottom:1px solid #bdc1c6;
-    z-index:10;
+    z-index:15;
     background-color:var(--tabbackground);
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;
