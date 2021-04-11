@@ -326,6 +326,16 @@ input[type=radio] {
   color: var(--accenttext);
 }
 
+.aboutCard{
+  margin-top: 30px !important;
+}
+.struttura h3{
+  margin-top: 1.5em;
+}
+.struttura h4{
+  margin-top: 1.5em;
+}
+
 /*Cards Projects layout */
 .project-img{
     margin-left: auto;
@@ -369,10 +379,6 @@ input[type=radio] {
       grid-template-rows: auto;
 
   }
-  .aboutCard{
-    margin-top: 30px !important;
-  }
-
   .cardLink{
   }
   .cardLink:hover{
