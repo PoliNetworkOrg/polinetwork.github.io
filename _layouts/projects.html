@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<body>
+    <div style="margin-top: 50px;"></div>
+    <div class="wrapper">
+        <div class="projectsWrapper">
+{% for project in site.projectsInfo %}
+{% if project.Lang == page.Lang %}
+  <div class="card project white horizontalcardswrapper prjectClickable">
+    <a href="projectbase">
+      <img class="project-img" src="{{ project.Img }}">
+      <div class="project-content">
+          <h2>{{ project.Title }}</h2>
+          <p>{{ project.content }}</p>
+      </div>
+      </a>
+  </div>
+{% endif %}
+{% endfor %}
+</div>
