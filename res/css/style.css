@@ -5,6 +5,11 @@
 .struttura h2 {
   padding-top: 20px;
   color: var(--green);
+}
+
+.struttura h1 {
+  padding-top: 20px;
+  color: var(--green);
   text-align: center;
 }
 
