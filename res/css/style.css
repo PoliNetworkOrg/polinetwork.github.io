@@ -1,5 +1,30 @@
 /* search  */
 
+/* RULES */
+
+.struttura h2 {
+  padding-top: 20px;
+  color: var(--green);
+  text-align: center;
+}
+
+.struttura h3 {
+  color: var(--orange);
+}
+
+.struttura h4 {
+  color: var(--orange);
+}
+
+.AccentRules{
+  color: var(--green) !Important;
+}
+
+.plainRules{
+  color: var(--maintext) !Important;
+}
+/* END RULES */
+
 .searchResultsActive{
   display: block !important;
 }
@@ -447,6 +472,25 @@ input[type=radio] {
     overflow: hidden;
   }
 
+  .logo{
+    padding-left: 128px;
+  }
+
+  .firmaNetwork{
+    padding-right: 69px;
+    border-left: 1px solid var(--maintext);
+    padding-left: 80px;
+    font-weight: 60;
+  }
+
+  .sign{
+    background: var(--mainbackground);
+    border: 1px solid var(--maintext);
+    padding: 0px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+  }
+
   .section{
     margin-top: 5px;
   }
@@ -482,6 +526,18 @@ input[type=radio] {
   }
   /* Cards homepage layout END */
 
+@media only screen and (max-width: 900px){
+  .firmaNetwork{
+    border-left: 0 !Important;
+  }
+  .topCard {
+    grid-template-columns: 4fr 8fr;
+  }
+  .logo{
+    padding-left: 0;
+  }
+}
+
 @media only screen and (max-width: 768px) {
     .horizontal {
         grid-template-columns: 1fr 1fr;
@@ -496,6 +552,11 @@ input[type=radio] {
 }
 
 @media only screen and (max-width: 550px) {
+  .firmaNetwork{
+        padding-right: 0;
+        padding-left: 0;
+        margin:auto;
+    }
     .horizontal {
         grid-template-columns: 1fr;
         grid-row: auto;

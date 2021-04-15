@@ -18,7 +18,7 @@
     --calcagnotesto:white;
     --whiteclickable:#d8d8d8;
     --whitehover:#bebebe;
-    --green:rgb(46, 201, 193);
+    --green:#03DAC6;
     --greenhover: rgb(37, 177, 170);
     --orange:rgb(252, 157, 120);
     --orangehover:rgb(252, 157, 120);
@@ -46,8 +46,8 @@
     --whitehover:#4e4e4ef8;
     --green:#03DAC6;
     --greenhover: rgb(32, 134, 129);
-    --orange:#BB86FC;
-    --orangehover: #6200EE;
+    --orange:#f47e17;
+    --orangehover: #bb5000;
     --searchHover: #545454;
 }
 
@@ -478,11 +478,6 @@ header{
   grid-column: 3;
   margin-left: 0px !important;
 }
-.curriculum{
-    text-align:inherit;
-    min-height:19px;
-    margin:16px 0 16px 0
-}
 #card{
     border-radius:3px;
     -webkit-box-shadow:0 1px 2px 0 rgba(60,64,67,.3),0 2px 6px 2px rgba(60,64,67,.15);
@@ -497,6 +492,7 @@ body,html{
     transition:.3s;
     margin:0
     overflow-x: hidden;
+    font-weight: 60 !Important;
 }
 footer{
     background-color:var(--mainbackground);
@@ -591,10 +587,10 @@ footer{
     transition:.4s
 }
 input:checked+.slider{
-    background-color:#BB86FC;
+    background-color:#f47e17;
 }
 input:focus+.slider{
-    box-shadow:0 0 1px #BB86FC;
+    box-shadow:0 0 1px #f47e17;
 }
 input:checked+.slider:before{
     -webkit-transform:translateX(26px);
