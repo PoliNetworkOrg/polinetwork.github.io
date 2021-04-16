@@ -488,7 +488,8 @@ header{
 body,html{
     background-color:var(--mainbackground);
     color:var(--maintext);
-    text-align:left;
+    hyphens: auto;
+    text-align: left;
     transition:.3s;
     margin:0
     overflow-x: hidden;
