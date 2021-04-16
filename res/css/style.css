@@ -429,7 +429,7 @@ input[type=radio] {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
 }
-.learnmoreWrapper {
+.columnTwo {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
@@ -439,7 +439,7 @@ input[type=radio] {
   .projectsWrapper {
       grid-template-columns: 1fr 1fr;
   }
-  .learnmoreWrapper {
+  .columnTwo {
       grid-template-columns: 1fr 1fr;
   }
 }
@@ -448,7 +448,7 @@ input[type=radio] {
   .projectsWrapper {
       grid-template-columns: 1fr;
   }
-  .learnmoreWrapper {
+  .columnTwo {
       grid-template-columns: 1fr;
   }
 }
