@@ -496,6 +496,14 @@ input[type=radio] {
     margin-top: 10px;
   }
 
+  .cardTitleAndDescription{
+    margin: 10px;
+  }
+
+  .pcenter{
+      text-align: center;
+  }
+
   .section{
     margin-top: 5px;
   }

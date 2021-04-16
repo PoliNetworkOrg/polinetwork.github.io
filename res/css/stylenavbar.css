@@ -488,7 +488,7 @@ header{
 body,html{
     background-color:var(--mainbackground);
     color:var(--maintext);
-    text-align:justify;
+    text-align:left;
     transition:.3s;
     margin:0
     overflow-x: hidden;
