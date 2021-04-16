@@ -37,31 +37,33 @@
         </div>
     </div>
     <div class="card white section">
+      <div class="cardTitleAndDescription">
         <h2>{{ page.LgroupsTitle }}</h2>
         <p>{{ page.LgroupsText }}</p>
+      </div>
         <div class="horizontalSocial">
             <div class="card white clickable"
                  onclick="location.href='https://www.facebook.com/groups/matricole20172018polimi/'">
                 <div class="image-container big"><img src="../res/images/facebook.svg"></div>
-                <p>{{ page.LFacebookTitle }}</p>
+                <p class="pcenter">{{ page.LFacebookTitle }}</p>
             </div>
             <div class="card white clickable" onclick="location.href='https://t.me/PoliGruppo'">
                 <div class="image-container big"><img src="../res/images/telegram.png"></div>
-                <p>{{ page.LTelegramTitle }}</p>
+                <p class="pcenter">{{ page.LTelegramTitle }}</p>
             </div>
         </div>
         <div class="columnTwo">
           <div class="card textAccentColor green clickable courses" onclick="location.href='groups.html'">
-              <p>{{ page.LAllCoursesTitle }}</p>
+              <p class="pcenter">{{ page.LAllCoursesTitle }}</p>
           </div>
           <div class="card textAccentColor green clickable groups" onclick="location.href='https://polinetwork.github.io/it/extra/index.html'">
-              <p>{{ page.LExtraTitle }}</p>
+              <p class="pcenter">{{ page.LExtraTitle }}</p>
           </div>
           <div class="card textAccentColor orange clickable rules" onclick="location.href='./rules/'">
-              <p>{{ page.LRules }}</p>
+              <p class="pcenter">{{ page.LRules }}</p>
           </div>
           <div class="card textAccentColor orange clickable rules" onclick="location.href='./rules/'">
-              <p>{{ page.LMaterials }}</p>
+              <p class="pcenter">{{ page.LMaterials }}</p>
           </div>
         </div>
         <div class="spaced">
@@ -71,9 +73,10 @@
     <div class="horizontal section">
         <div class="card white horizontalcardswrapper guides">
           <div class="titleanddeskCard">
-            <h2>{{ page.LGuidesTitle }}</h2>
-
-            <p>{{ page.LGuidesText }}</p>
+            <div class="cardTitleAndDescription">
+              <h2>{{ page.LGuidesTitle }}</h2>
+              <p>{{ page.LGuidesText }}</p>
+            </div>
           </div>
             <div class="expandable">
               <div class="card green clickable horizontalcardsbutton"><a href="./guides/" class="textAccentColor cardLink">Guides</a></div>
@@ -81,21 +84,21 @@
         </div>
         <div class="card white horizontalcardswrapper projects">
           <div class="titleanddeskCard">
-            <h2>{{ page.LProjectsTitle }}</h2>
-
-
-            <p>{{ page.LProjectsText }}</p>
-            </div>
+              <div class="cardTitleAndDescription">
+                <h2>{{ page.LProjectsTitle }}</h2>
+                <p>{{ page.LProjectsText }}</p>
+              </div>
+          </div>
             <div class="expandable">
               <div class="card green clickable horizontalcardsbutton"><a href="./projects/" class="textAccentColor cardLink">Projects</a></div>
             </div>
         </div>
         <div class="card white horizontalcardswrapper info">
           <div class="titleanddeskCard">
-            <h2>{{ page.LInfoTitle }}</h2>
-
-
-            <p>{{ page.LInfoText }}</p>
+            <div class="cardTitleAndDescription">
+              <h2>{{ page.LInfoTitle }}</h2>
+              <p>{{ page.LInfoText }}</p>
+            </div>
           </div>
             <div class="expandable">
               <div class="card green clickable horizontalcardsbutton"><a href="./learnmore/" class="textAccentColor cardLink">Learn more</a></div>
