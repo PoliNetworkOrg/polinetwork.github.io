@@ -17,6 +17,10 @@
   text-align: center;
 }
 
+.noCenter h1{
+  text-align: left !Important;
+}
+
 .struttura h3 {
   color: var(--orange);
 }
