@@ -7,6 +7,10 @@
   color: var(--green);
 }
 
+.noCenter h1{
+  text-align: left !Important;
+}
+
 .struttura h1 {
   padding-top: 20px;
   color: var(--green);
@@ -382,7 +386,8 @@ input[type=radio] {
 .dropdown:hover .dropbtn {}
 
 .centerGrid{
-  margin: auto;
+  margin-bottom: auto;
+  margin-top: auto;
 }
 
 
@@ -479,6 +484,7 @@ input[type=radio] {
 
   .logo{
     padding-left: 128px;
+    margin-right: 69px;
   }
 
   .firmaNetwork{
@@ -514,9 +520,7 @@ input[type=radio] {
     min-height: 210px;
   }
 
-  .centerGrid h1 {
-    text-align: center;
-  }
+
   .footerWrapper{
     padding-top: 20px;
     max-width: 900px;
@@ -539,15 +543,26 @@ input[type=radio] {
   }
   /* Cards homepage layout END */
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 800px){
+
+  .centerGrid h1 {
+    text-align: center;
+  }
+
   .firmaNetwork{
     border-left: 0 !Important;
+    padding-right: 0;
+    padding-left: 0;
   }
   .topCard {
     grid-template-columns: 4fr 8fr;
   }
   .logo{
     padding-left: 0;
+    margin-right: 0px;
+  }
+  .centerGrid{
+    margin: auto;
   }
 }
 
@@ -569,6 +584,9 @@ input[type=radio] {
         padding-right: 0;
         padding-left: 0;
         margin:auto;
+    }
+    .logo{
+      margin-top: 20px;
     }
     .horizontal {
         grid-template-columns: 1fr;
