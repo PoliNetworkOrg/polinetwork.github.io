@@ -10,7 +10,9 @@ layout: default
 {% if project.Lang == page.Lang %}
   <div class="card project white horizontalcardswrapper prjectClickable">
     <a href="projectbase">
-      <img class="project-img" src="{{ project.Img }}">
+      <div class="image-container-projects">
+        <img class="project-img" src="{{ project.Img }}">
+      </div>
       <div class="project-content">
           <h2>{{ project.Title }}</h2>
           <p>{{ project.content }}</p>
