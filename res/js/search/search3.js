@@ -143,7 +143,7 @@ function genHtml(data){
 		<div class="result">
 			<div class="resultContainer">
 					<a class="resultLink" href="${data.platform.link_pre}${data.id_link}${data.platform.link_post}">
-						<img style="width:18px;" src="/old/img/${data.platform.img}.svg" />`;
+						<img style="width:18px;" src="/img/${data.platform.img}.svg" />`;
 
 				if (data.tipo!="C")
 				{
@@ -154,7 +154,7 @@ function genHtml(data){
 
 				if (data.language)
 				{
-					d = d + `<img style="width:18px;" src="/old/img/${data.language}.png" />`;
+					d = d + `<img style="width:18px;" src="/img/${data.language}.png" />`;
 				}
 				d = d + `</a></div></div>`;
 
