@@ -8,8 +8,12 @@
 
 <head>
     <title>Svoltastudenti</title>
+	
+
+
 
     <meta charset="utf-8">
+	<link rel="icon" href="../../../img/svolta.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="../vendor/bootstrap/css/bootstrap.css">
@@ -35,6 +39,7 @@
 </head>
 
 <body>
+
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="containerNavBar">
@@ -65,13 +70,24 @@
     </div>
 </nav>
 
+<style>
+.descrizioneLista{
+	font-size: calc(15px + 0.17vw + 0.08rem);
+}
+</style>
+
+	<br />
 
   	<div class="intro white">
   		<div class="container wow animated fadeInUp">
-	  		<p class="lead-creative top-margin" >Svoltastudenti
-        </p>
+		<img src="../../../img/svolta.png" style="width:calc(15px + 4vw + 5rem); padding:10px;">
+	  		<h2 style="color:white; font-size:calc(10px + 3vw + 0.5rem); ">Svoltastudenti</h2>
 
-	  		<p id="office-place" class="office-place">Descrizione della lista</p>
+		<a href="https://svoltastudenti.it"><button class="btn" style="padding:12px;margin:5px;border-radius:10px;">Sito ufficiale 🌐</button></a>
+		<br />
+		<button class="btn"  style="padding:12px;margin:5px;border-radius:10px;">Programma elettorale - PDF Completo 🗳</button>
+		
+	  		<p id="office-place" class="office-place descrizioneLista">Nata nel 2008 per rendere partecipi tutti gli studenti nei processi formativi e decisionali dell’Ateneo che tutti i giorni viviamo. Opportunità, idee e rappresentanti del tutto svincolati dai partiti: siamo apartitici, laici e multiculturali.</p>
   		</div><!-- /.container -->
   	</div><!-- /.intro -->
 
@@ -79,7 +95,7 @@
 
         <div class="section" id="our-info">
             <div class="container">
-                <h2>Programma elettorale</h2>
+                <h2 style=" font-size:calc(9px + 2.5vw + 0.3rem);">Programma elettorale</h2>
                 <hr />
                 <div class="row">
                     <div class="col-sm-6 wow animated fadeInLeft">
