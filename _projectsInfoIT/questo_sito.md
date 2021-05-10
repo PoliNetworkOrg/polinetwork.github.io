@@ -1,7 +1,7 @@
 ---
 Title: Questo Sito
 Author: NomeAutore
-Lang: IT
+Lang: it
 Img: /res/images/polinetwork.png
 Link: polimi.it
 ---

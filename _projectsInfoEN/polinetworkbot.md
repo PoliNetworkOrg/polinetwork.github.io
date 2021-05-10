@@ -1,7 +1,7 @@
 ---
 Title: "@PoliNetworkBot"
 Author: NomeAutore
-Lang: EN
+Lang: en
 Img: /img/19.jpg
 Link: polimi.it
 ---

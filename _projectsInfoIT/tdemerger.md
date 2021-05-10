@@ -1,7 +1,7 @@
 ---
 Title: TdeMerger
 Author: NomeAutore
-Lang: IT
+Lang: it
 Img: /img/tdemerger.jpeg
 Link: polimi.it
 ---

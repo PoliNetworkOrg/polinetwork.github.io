@@ -1,7 +1,7 @@
 ---
 Title: beep_helper
 Author: NomeAutore
-Lang: EN
+Lang: en
 Img: /img/beepupdates.jpg
 Link: polimi.it
 ---

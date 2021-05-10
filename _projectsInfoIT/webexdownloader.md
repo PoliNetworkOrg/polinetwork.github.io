@@ -1,7 +1,7 @@
 ---
 Title: WebXDownloader
 Author: NomeAutore
-Lang: IT
+Lang: it
 Img: /img/WebXDownloader.png
 Link: polimi.it
 ---

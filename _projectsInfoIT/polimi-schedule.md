@@ -1,7 +1,7 @@
 ---
 Title: Polimi-schedule
 Author: NomeAutore
-Lang: IT
+Lang: it
 Img: /img/time.png
 Link: polimi.it
 ---

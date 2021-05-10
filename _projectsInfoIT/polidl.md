@@ -1,7 +1,7 @@
 ---
 Title: PoliDL
 Author: NomeAutore
-Lang: IT
+Lang: it
 Img: /img/downloader.png
 Link: polimi.it
 ---

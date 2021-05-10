@@ -1,7 +1,7 @@
 ---
 Title: WebexHelper
 Author: NomeAutore
-Lang: IT
+Lang: it
 Img: /img/webexhelperfront.png
 Link: polimi.it
 ---

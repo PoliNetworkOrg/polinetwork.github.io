@@ -1,7 +1,7 @@
 ---
 Title: beep_updates
 Author: NomeAutore
-Lang: IT
+Lang: it
 Img: /img/beepupdates.jpg
 Link: polimi.it
 ---
