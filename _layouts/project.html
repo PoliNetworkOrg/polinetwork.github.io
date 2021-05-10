@@ -1,50 +1,36 @@
 ---
 layout: default
+show_backToHome: true
 ---
-
 <div class="wrapper projectsPadding">
     <div class="card white section">
         <div class="topCard topCardProjects">
-            <div class="centerGrid logo"><img class="image-container main" src="/img/downloader.png"></div>
+            <div class="centerGrid logo"><img class="image-container main" src="{{page.Img}}"></div>
             <div class="centerGrid firmaNetwork">
-                <h1><span class="highlight">PoliBeepSync</h1>
-                <p>Sincronizzatore automatico di cartelle PoliMi BeeP per PC.</p>
+                <h1><span class="highlight"> {{ page.Title }}</h1>
+                <p>{{ content }}</p>
             </div>
         </div>
     </div>
-    <div class="horizontal section">
-        <div class="card white horizontalcardswrapper guides">
-          <div class="titleanddeskCard">
-            <div class="cardTitleAndDescription">
-              <h2>Windows</h2>
-              <p>Scarica il file .exe</p>
-            </div>
-          </div>
-            <div class="expandable">
-              <div class="card green clickable horizontalcardsbutton"><a href="./guides/" class="textAccentColor cardLink">Guides</a></div>
-          </div>
-        </div>
-        <div class="card white horizontalcardswrapper projects">
-          <div class="titleanddeskCard">
-              <div class="cardTitleAndDescription">
-                <h2>{{ page.LProjectsTitle }}</h2>
-                <p>{{ page.LProjectsText }}</p>
+    {% for project in site.data.projectsInfo.projects.projects %}
+      {% if project.Title == page.Title %}
+        <div class="horizontal section">
+          {% for item in project.items %}
+            {% if item.lang == page.Lang %}
+              <div class="card white horizontalcardswrapper guides">
+                <div class="titleanddeskCard">
+                  <div class="cardTitleAndDescription">
+                    <h2> {{ item.title }} </h2>
+                    <p> {{ item.desc }} </p>
+                  </div>
+                </div>
+                  <div class="expandable">
+                    <div class="card green clickable horizontalcardsbutton"><a href="{{ item.link }}" class="textAccentColor cardLink"> {{ item.title }} </a></div>
+                </div>
               </div>
-          </div>
-            <div class="expandable">
-              <div class="card green clickable horizontalcardsbutton"><a href="./projects/" class="textAccentColor cardLink">Projects</a></div>
-            </div>
+            {% endif %}
+          {% endfor %}
         </div>
-        <div class="card white horizontalcardswrapper info">
-          <div class="titleanddeskCard">
-            <div class="cardTitleAndDescription">
-              <h2>{{ page.LInfoTitle }}</h2>
-              <p>{{ page.LInfoText }}</p>
-            </div>
-          </div>
-            <div class="expandable">
-              <div class="card green clickable horizontalcardsbutton"><a href="./learnmore/" class="textAccentColor cardLink">Learn more</a></div>
-            </div>
-        </div>
-    </div>
+      {% endif %}
+    {% endfor %}
 </div>

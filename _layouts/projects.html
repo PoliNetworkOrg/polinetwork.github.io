@@ -7,32 +7,12 @@ layout: default
         <div class="projectsWrapper projectsPadding">
 {% for project in site.projectsInfoIT %}
 {% if project.Lang == page.Lang %}
-  <div class="card project white horizontalcardswrapper prjectClickable">
-    <a href="projectbase">
-      <div class="image-container-projects">
-        <img class="project-img" src="{{ project.Img }}">
-      </div>
-      <div class="project-content">
-          <h2>{{ project.Title }}</h2>
-          <p>{{ project.content }}</p>
-      </div>
-      </a>
-  </div>
+  {% include projectCard.html %}
 {% endif %}
 {% endfor %}
 {% for project in site.projectsInfoEN %}
 {% if project.Lang == page.Lang %}
-  <div class="card project white horizontalcardswrapper prjectClickable">
-    <a href="projectbase">
-      <div class="image-container-projects">
-        <img class="project-img" src="{{ project.Img }}">
-      </div>
-      <div class="project-content">
-          <h2>{{ project.Title }}</h2>
-          <p>{{ project.content }}</p>
-      </div>
-      </a>
-  </div>
+  {% include projectCard.html %}
 {% endif %}
 {% endfor %}
 

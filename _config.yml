@@ -1,7 +1,7 @@
 collections:
   projectsInfoIT:
     output: true
-    permalink: /it/projects/:name
+    permalink: /it/projects/:name/
   projectsInfoEN:
     output: true
-    permalink: /en/projects/:name
+    permalink: /en/projects/:name/
