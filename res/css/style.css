@@ -153,6 +153,7 @@
 
 .clickable {
     user-select: none;
+    cursor: pointer;
 }
 
 li {
@@ -409,6 +410,12 @@ input[type=radio] {
 }
 .textSecondaryColor{
   color: var(--green);
+}
+.footerSection p{
+  font-size: inherit;
+}
+.polinetworkRedirect{
+  font-size: inherit;
 }
 
 /*Cards Projects layout */

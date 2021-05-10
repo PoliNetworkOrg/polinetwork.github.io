@@ -2,16 +2,20 @@ projects:
   - Title: PoliBeepSync
     items:
       - title: Windows X
+        lang: en
         descrip: Download .exe file
         link: https://github.com/Jacotsu/polibeepsync/releases/latest
       - title: Windows Y
+        lang: it
         descrip: Download .exe file
         link: https://github.com/Jacotsu/polibeepsync/releases/latest
   - Title: PoliBeepSync2
     items:
       - title: Windows X
+        lang: it
         descrip: Download .exe file
         link: https://github.com/Jacotsu/polibeepsync/releases/latest
       - title: Windows Y
+        lang: en
         descrip: Download .exe file
         link: https://github.com/Jacotsu/polibeepsync/releases/latest

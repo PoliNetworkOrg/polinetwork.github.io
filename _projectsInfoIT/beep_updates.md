@@ -4,5 +4,6 @@ Author: NomeAutore
 Lang: it
 Img: /img/beepupdates.jpg
 Link: polimi.it
+layout: project
 ---
 Rimani aggiornato sugli ultimi file caricati su Beep dei corsi che vuoi seguire.
