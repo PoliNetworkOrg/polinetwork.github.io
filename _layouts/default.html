@@ -41,14 +41,18 @@
 {% include navbar.html %}
 
     {{ content }}
-  
+
 <div class="footerWrapper">
   <div class="card white footerGrid">
     <div class="footerSection">
           <p>Copyright PoliNetwork</p>
     </div>
     <div class="footerSection">
-      <a href="{{ site.url }}/{{ page.OtherLanguage}}{{ page.path }}"> Switch to {{ page.OtherLanguage }}</a>
+        {% for item in site.data.languages.lang %}
+          {% if item.name != page.Lang %}
+            <a href="{{ site.url }}/{{ item.name }}{{ page.url | replace: "/it", "" | replace: "/en", ""}}"> Switch to <span class="textSecondaryColor"> {{ item.name | upcase}} </span></a>
+          {% endif %}
+        {% endfor %}
   </div>
 </div>
 

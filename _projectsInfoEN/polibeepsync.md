@@ -1,8 +1,9 @@
 ---
 Title: PoliBeepSync
 Author: NomeAutore
-Lang: EN
+Lang: en
 Img: /img/PoliBeePsync.svg
 Link: polimi.it
+layout: projectTest
 ---
 Automated PoliMi BeeP folders download.

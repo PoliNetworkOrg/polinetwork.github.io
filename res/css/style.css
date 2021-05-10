@@ -394,7 +394,6 @@ input[type=radio] {
   margin-top: auto;
 }
 
-
 .textAccentColor{
   color: var(--accenttext);
 }
@@ -408,6 +407,9 @@ input[type=radio] {
 .struttura h4{
   margin-top: 1.5em;
 }
+.textSecondaryColor{
+  color: var(--green);
+}
 
 /*Cards Projects layout */
 .project-img{
@@ -420,6 +422,12 @@ input[type=radio] {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.projectsPadding{
+  margin-top: 50px;
+}
+.topCardProjects{
+  min-height: auto !important;
 }
 .project-content{
   overflow: hidden;

@@ -1,7 +1,7 @@
 ---
 Title: Convertitore Orario PoliMi
 Author: NomeAutore
-Lang: IT
+Lang: it
 Img: /img/clock.png
 Link: polimi.it
 ---

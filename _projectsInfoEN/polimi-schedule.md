@@ -1,7 +1,7 @@
 ---
 Title: PoliMi schedule converter
 Author: NomeAutore
-Lang: EN
+Lang: en
 Img: /img/time.png
 Link: polimi.it
 ---
