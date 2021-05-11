@@ -21,7 +21,7 @@
     --green:#03DAC6;
     --greenhover: rgb(37, 177, 170);
     --orange:rgb(252, 157, 120);
-    --orangehover:rgb(252, 157, 120);
+    --orangehover:#f47e17;
     --searchHover: #dddddd;
 }
 [data-theme=dark]{
