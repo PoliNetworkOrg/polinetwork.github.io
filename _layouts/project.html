@@ -20,13 +20,24 @@ show_backToHome: true
               <div class="card white horizontalcardswrapper guides">
                 <div class="titleanddeskCard">
                   <div class="cardTitleAndDescription">
-                    <h2> {{ item.title }} </h2>
+                    <h2> {{ item.title }}
+                      {% for img in item.img %}
+                        <img style="width: 40px !important;" src="{{ img }}"></img>
+                      {% endfor %}
+                    </h2>
                     <p> {{ item.desc }} </p>
                   </div>
                 </div>
+                  {% if item.isLink != false %}
                   <div class="expandable">
                     <div class="card green clickable horizontalcardsbutton"><a href="{{ item.link }}" class="textAccentColor cardLink"> {{ item.title }} </a></div>
-                </div>
+                  </div>
+                  {% endif %}
+                  {% if item.isLink == false %}
+                  <div>
+                    <div class="card green horizontalcardsbutton textAccentColor"><div class="textCenter">{{ item.title }}</div></div>
+                  </div>
+                  {% endif %}
               </div>
             {% endif %}
           {% endfor %}

@@ -430,6 +430,9 @@ input[type=radio] {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.textCenter{
+  text-align: center;
+}
 .projectsPadding{
   margin-top: 50px;
 }
