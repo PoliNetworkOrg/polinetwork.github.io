@@ -12,6 +12,26 @@ projects:
   - Title: PoliBeepSync
     items:
       - title: Windows
+        lang: it
+        desc: Scarica il file .exe
+        link: https://github.com/Jacotsu/polibeepsync/releases/latest
+        img: /img/win.png
+      - title: Mac OS
+        lang: it
+        desc: sudo pip3 install polibeepsync
+        isLink: false
+        img: /img/mac.png
+      - title: Arch Linux
+        lang: it
+        desc: yay -S polibeepsync
+        isLink: false
+        img: /img/arch.svg
+      - title: Altre distro
+        lang: it
+        desc: Seguite il readme dal source o provate "sudo pip3 install polibeepsync"
+        isLink: false
+        img: /img/linux.png
+      - title: Windows
         lang: en
         desc: Download .exe file
         link: https://github.com/Jacotsu/polibeepsync/releases/latest
@@ -28,6 +48,6 @@ projects:
         img: /img/arch.svg
       - title: Altre distro
         lang: en
-        desc: Seguite il readme dal source o provate "sudo pip3 install polibeepsync"
+        desc: Follow the "readme.md" from source code or try "sudo pip3 install polibeepsync"
         isLink: false
         img: /img/linux.png
