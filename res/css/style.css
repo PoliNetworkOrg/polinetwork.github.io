@@ -419,6 +419,19 @@ input[type=radio] {
 }
 
 /*Cards Projects layout */
+.horizontalProjects {
+    display: flex;
+    /*grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    */
+    flex-wrap: wrap;
+}
+
+.projectCard{
+flex: 1 0 calc(33% - 20px);
+overflow: hidden;
+}
+
 .project-img{
     margin-left: auto;
     margin-right: auto;
@@ -429,9 +442,6 @@ input[type=radio] {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-.textCenter{
-  text-align: center;
 }
 .projectsPadding{
   margin-top: 50px;
@@ -479,6 +489,10 @@ input[type=radio] {
   .columnTwo {
       grid-template-columns: 1fr 1fr;
   }
+  .projectCard{
+  flex: 1 0 calc(50% - 20px);
+  overflow: hidden;
+  }
 }
 
 @media only screen and (max-width: 640px) {
@@ -487,6 +501,10 @@ input[type=radio] {
   }
   .columnTwo {
       grid-template-columns: 1fr;
+  }
+  .projectCard{
+  flex: 1 0 calc(100% - 20px);
+  overflow: hidden;
   }
 }
 
