@@ -49,5 +49,4 @@ projects:
       - title: Altre distro
         lang: en
         desc: Follow the "readme.md" from source code or try "sudo pip3 install polibeepsync"
-        isLink: false
         img: /img/linux.png

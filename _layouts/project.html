@@ -14,10 +14,10 @@ show_backToHome: true
     </div>
     {% for project in site.data.projectsInfo.projects.projects %}
       {% if project.Title == page.Title %}
-        <div class="horizontal section">
+        <div class="horizontalProjects section">
           {% for item in project.items %}
             {% if item.lang == page.Lang %}
-              <div class="card white horizontalcardswrapper guides">
+              <div class="card white horizontalcardswrapper guides projectCard">
                 <div class="titleanddeskCard">
                   <div class="cardTitleAndDescription">
                     <h2> {{ item.title }}
