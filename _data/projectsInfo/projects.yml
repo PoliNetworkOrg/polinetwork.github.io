@@ -1,21 +1,33 @@
 projects:
+  - Title: Esempio
+    items:
+      - title: Item 1
+        lang: it
+        desc: Descrizione
+        link: polimi.it
+      - title: Item 1
+        lang: it
+        desc: Descrizione
+        link: polimi.it
   - Title: PoliBeepSync
     items:
-      - title: Windows X
+      - title: Windows
         lang: en
-        descrip: Download .exe file
+        desc: Download .exe file
         link: https://github.com/Jacotsu/polibeepsync/releases/latest
-      - title: Windows Y
-        lang: it
-        descrip: Download .exe file
-        link: https://github.com/Jacotsu/polibeepsync/releases/latest
-  - Title: PoliBeepSync2
-    items:
-      - title: Windows X
-        lang: it
-        descrip: Download .exe file
-        link: https://github.com/Jacotsu/polibeepsync/releases/latest
-      - title: Windows Y
+        img: /img/win.png
+      - title: Mac OS
         lang: en
-        descrip: Download .exe file
-        link: https://github.com/Jacotsu/polibeepsync/releases/latest
+        desc: sudo pip3 install polibeepsync
+        isLink: false
+        img: /img/mac.png
+      - title: Arch Linux
+        lang: en
+        desc: yay -S polibeepsync
+        isLink: false
+        img: /img/arch.svg
+      - title: Altre distro
+        lang: en
+        desc: Seguite il readme dal source o provate "sudo pip3 install polibeepsync"
+        isLink: false
+        img: /img/linux.png
