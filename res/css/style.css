@@ -427,6 +427,11 @@ input[type=radio] {
     flex-wrap: wrap;
 }
 
+.projectLink{
+  width: 200px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
 .projectCard{
 flex: 1 0 calc(33% - 20px);
 overflow: hidden;
