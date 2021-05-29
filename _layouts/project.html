@@ -13,27 +13,51 @@ show_backToHome: true
         </div>
     </div>
     {% for project in site.data.projectsInfo.projects.projects %}
-      {% if project.Title == page.Title %}
+      {% if project.Title == page.title %}
+      {% if project.divided == true %}
+        {% for divider in project.dividers %}
+          {% if divider.lang == page.Lang %}
+            <hr>
+            <p class="projectDividerText">
+              {{divider.name}}
+            <hr>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
         <div class="horizontalProjects section">
           {% for item in project.items %}
-            {% if item.lang == page.Lang %}
-              <div class="card white horizontalcardswrapper guides projectCard">
-                <div class="titleanddeskCard">
-                  <div class="cardTitleAndDescription">
-                    <h2> {{ item.title }}
-                      {% for img in item.img %}
-                        <img style="width: 40px !important;" src="{{ img }}"></img>
-                      {% endfor %}
-                    </h2>
-                    <p> {{ item.desc }} </p>
+            {% if item.redirect == true %}
+                <meta http-equiv="refresh" content="time; URL={{ item.link }}" />
+            {% endif %}
+            {% if item.redirect != true %}
+              {% if item.lang == page.Lang %}
+                <div class="card white horizontalcardswrapper guides projectCard">
+                  <div class="titleanddeskCard">
+                    <div class="cardTitleAndDescription">
+                      <h2> {{ item.title }}
+                        {% for img in item.img %}
+                          <img style="width: 40px !important;" src="{{ img }}"></img>
+                        {% endfor %}
+                      </h2>
+                      <p> {{ item.desc }} </p>
+                    </div>
                   </div>
+                    {% if item.isLink != false %}
+                      {% if item.multiple_buttons != true %}
+                        <div class="expandable">
+                          <div class="card green clickable horizontalcardsbutton projectLink"><a href="{{ item.link }}" class="textAccentColor cardLink"> {{ item.title }} </a></div>
+                        </div>
+                      {% endif %}
+                      {% if item.multiple_buttons == true %}
+                        <div class="expandable">
+                        {% for button in item.buttons %}
+                          <div class="card green clickable horizontalcardsbutton projectLink"><a href="{{ button.link }}" class="textAccentColor cardLink"> {{ button.title }} </a></div>
+                        {% endfor %}
+                        </div>
+                      {% endif %}
+                    {% endif %}
                 </div>
-                  {% if item.isLink != false %}
-                  <div class="expandable">
-                    <div class="card green clickable horizontalcardsbutton projectLink"><a href="{{ item.link }}" class="textAccentColor cardLink"> {{ item.title }} </a></div>
-                  </div>
-                  {% endif %}
-              </div>
+              {% endif %}
             {% endif %}
           {% endfor %}
         </div>

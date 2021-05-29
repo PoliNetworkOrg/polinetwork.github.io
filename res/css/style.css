@@ -133,6 +133,7 @@
 .expandable{
   display: grid;
   align-content: end;
+  grid-auto-flow: column;
 }
 .horizontalcardsbutton{
   bottom: 0px;
@@ -425,6 +426,10 @@ input[type=radio] {
     grid-template-rows: auto;
     */
     flex-wrap: wrap;
+}
+.projectDividerText{
+  font-size: 1em;
+  text-align: center;
 }
 
 .projectLink{

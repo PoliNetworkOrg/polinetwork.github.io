@@ -6,10 +6,16 @@ projects:
         desc: Descrizione
         link: polimi.it
       - title: Item 1
-        lang: it
-        desc: Descrizione
-        link: polimi.it
-  - Title: PoliBeepSync
+        lang: en
+        desc: Description
+        link: polimi.it/en/
+        multiple_buttons: true
+        buttons:
+        - title: Vai al source di PoliDL GUI
+          link: https://github.com/yuyu-19/PoliDL-GUI
+        - title: Vai al source di PoliDL GUI
+          link: https://github.com/yuyu-19/PoliDL-GUI
+  - Title: Polibeepsync
     items:
       - title: Windows
         lang: it
@@ -50,3 +56,127 @@ projects:
         lang: en
         desc: Follow the "readme.md" from source code or try "sudo pip3 install polibeepsync"
         img: /img/linux.png
+  - Title: Convertitoreorario
+    items:
+      - link: https://bebora.github.io/polimi-schedule-js/
+        redirect: true
+  - Title: Beep_updates
+    items:
+      - link: https://github.com/fillics/beep_updates
+        redirect: true
+  - Title: Polimi Schedule
+    items:
+      - link: https://github.com/jacopo-j/polimi-schedule
+        redirect: true
+  - Title: Tdemerger
+    items:
+      - link: https://github.com/federicomor/tdemerger
+        redirect: true
+  - Title: Polinetworkbot
+    items:
+      - link: https://github.com/PoliNetwork/PoliNetworkBot_CSharp
+        redirect: true
+  - Title: Questo_sito
+    items:
+      - link: https://github.com/PoliNetwork/polinetwork.github.io
+        redirect: true
+  - Title: Webexdownloader
+    items:
+      - link: https://github.com/jacopo-j/webxdownloader
+        redirect: true
+  - Title: Polidl
+    items:
+      - title: PoliDL - Cisco Webex & Microsoft Stream - Con Interfaccia Grafica Windows
+        lang: it
+        desc: Scarica, con interfaccia grafica, per Windows, i video da Cisco Webex e/o Microsoft Stream! <br> Seguite il readme della pagina del source
+        link: https://github.com/yuyu-19/PoliDL-GUI
+        img: /img/win.png
+        multiple_buttons: true
+        buttons:
+        - title: Vai al source di PoliDL GUI
+          link: https://github.com/yuyu-19/PoliDL-GUI
+      - title: PoliDL - Cisco Webex & Microsoft Stream - With graphical user interface Windows
+        lang: en
+        desc: Download, with graphical user interface, for Windows, videos from Cisco Webex and/or Microsoft Stream! <br> Follow the readme from source's page
+        link: https://github.com/yuyu-19/PoliDL-GUI
+        img: /img/win.png
+        multiple_buttons: true
+        buttons:
+        - title: Vai al source di PoliDL GUI
+          link: https://github.com/yuyu-19/PoliDL-GUI
+  - Title: Polidl
+    divided: true
+    dividers:
+      - name: Versione per terminale solo per "Cisco Webex"
+        lang: it
+      - name: Versione per terminale solo per "Cisco Webex"
+        lang: en
+    items:
+      - title: Windows
+        lang: it
+        desc: Download .exe file
+        link: https://github.com/Jacotsu/polibeepsync/releases/latest
+        img: /img/win.png
+      - title: Windows
+        lang: en
+        desc: Download .exe file
+        link: https://github.com/Jacotsu/polibeepsync/releases/latest
+        img: /img/win.png
+      - title: Windows
+        lang: it
+        desc: Download .exe file
+        link: https://github.com/Jacotsu/polibeepsync/releases/latest
+        img: /img/win.png
+      - title: Windows
+        lang: en
+        desc: Download .exe file
+        link: https://github.com/Jacotsu/polibeepsync/releases/latest
+        img: /img/win.png
+      - title: Windows
+        lang: it
+        desc: Download .exe file
+        link: https://github.com/Jacotsu/polibeepsync/releases/latest
+        img: /img/win.png
+      - title: Windows
+        lang: en
+        desc: Download .exe file
+        link: https://github.com/Jacotsu/polibeepsync/releases/latest
+        img: /img/win.png
+  - Title: Polidl
+    divided: true
+    dividers:
+      - name: Versione per terminale solo per "Microsoft Stream"
+        lang: it
+      - name: Versione per terminale solo per "Microsoft Stream"
+        lang: en
+    items:
+      - title: Windows
+        lang: it
+        desc: Download .exe file
+        link: https://github.com/Jacotsu/polibeepsync/releases/latest
+        img: /img/win.png
+      - title: Windows
+        lang: en
+        desc: Download .exe file
+        link: https://github.com/Jacotsu/polibeepsync/releases/latest
+        img: /img/win.png
+      - title: Windows
+        lang: it
+        desc: Download .exe file
+        link: https://github.com/Jacotsu/polibeepsync/releases/latest
+        img: /img/win.png
+      - title: Windows
+        lang: en
+        desc: Download .exe file
+        link: https://github.com/Jacotsu/polibeepsync/releases/latest
+        img: /img/win.png
+      - title: Windows
+        lang: it
+        desc: Download .exe file
+        link: https://github.com/Jacotsu/polibeepsync/releases/latest
+        img: /img/win.png
+      - title: Windows
+        lang: en
+        desc: Download .exe file
+        link: https://github.com/Jacotsu/polibeepsync/releases/latest
+        img: /img/win.png
