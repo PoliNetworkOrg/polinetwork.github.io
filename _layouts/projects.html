@@ -6,14 +6,14 @@ layout: default
     <div class="wrapper">
         <div class="projectsWrapper projectsPadding">
 {% for project in site.projectsInfoIT %}
-{% if project.Lang == page.Lang %}
-  {% include projectCard.html %}
-{% endif %}
+  {% if project.Lang == page.Lang %}
+    {% include projectCard.html %}
+  {% endif %}
 {% endfor %}
 {% for project in site.projectsInfoEN %}
-{% if project.Lang == page.Lang %}
-  {% include projectCard.html %}
-{% endif %}
+  {% if project.Lang == page.Lang %}
+    {% include projectCard.html %}
+  {% endif %}
 {% endfor %}
 
 </div>
