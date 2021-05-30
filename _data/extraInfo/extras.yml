@@ -1,0 +1,17 @@
+extras:
+  - Title: Esempio
+    items:
+      - title: Item 1
+        lang: it
+        desc: Descrizione
+        link: polimi.it
+      - title: Item 1
+        lang: en
+        desc: Description
+        link: polimi.it/en/
+        multiple_buttons: true
+        buttons:
+        - title: Vai al source di PoliDL GUI
+          link: https://github.com/yuyu-19/PoliDL-GUI
+        - title: Vai al source di PoliDL GUI
+          link: https://github.com/yuyu-19/PoliDL-GUI

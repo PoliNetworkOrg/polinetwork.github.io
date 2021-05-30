@@ -1,5 +1,6 @@
 <div class="card project white horizontalcardswrapper prjectClickable">
-  <a href=" {{project.url}}">
+  {% if project.redirect == true %} <a href=" {{project.link}}"> {% endif %}
+  {% if project.redirect != true %} <a href=" {{project.url}}"> {% endif %}
     <div class="image-container-projects">
       <img class="project-img" src="{{ project.Img }}">
     </div>
