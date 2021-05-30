@@ -3,7 +3,8 @@ Title: WebXDownloader
 Author: NomeAutore
 Lang: it
 Img: /img/WebXDownloader.png
-Link: polimi.it
 layout: project
+link: https://github.com/jacopo-j/webxdownloader
+redirect: true
 ---
 Browser extension to download Webex meeting recordings
