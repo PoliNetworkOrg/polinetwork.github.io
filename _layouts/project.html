@@ -27,7 +27,7 @@ show_backToHome: true
         <div class="horizontalProjects section">
           {% for item in project.items %}
             {% if item.redirect == true %}
-                <meta http-equiv="refresh" content="time; URL={{ item.link }}" />
+                <meta http-equiv="refresh" content="0; url={{ item.link }}" />
             {% endif %}
             {% if item.redirect != true %}
               {% if item.lang == page.Lang %}
