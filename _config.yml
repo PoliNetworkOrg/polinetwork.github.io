@@ -5,3 +5,9 @@ collections:
   projectsInfoEN:
     output: true
     permalink: /en/projects/:name/
+  extraInfoIT:
+    output: true
+    permalink: /it/extra/:name/
+  extraInfoEN:
+    output: true
+    permalink: /en/extra/:name/
