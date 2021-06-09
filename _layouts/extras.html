@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<body>
+    <div class="wrapper">
+        <div class="projectsWrapper projectsPadding">
+{% for project in site.extraInfoIT %}
+  {% if project.Lang == page.Lang %}
+    {% include projectCard.html %}
+  {% endif %}
+{% endfor %}
+{% for project in site.extraInfoEN %}
+  {% if project.Lang == page.Lang %}
+    {% include projectCard.html %}
+  {% endif %}
+{% endfor %}
+
+</div>
