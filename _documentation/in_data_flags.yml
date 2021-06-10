@@ -1,0 +1,60 @@
+projects: # file for the "inside" of each project or extra
+  - Title: Esempio # description for file "Esempio.md"
+    items: # Each item in the list items is a tile
+      - title: Item 1 # Main title
+        lang: it # This tile is only generated in the files with matching lang
+        desc: Descrizione # description
+        link: polimi.it # link of the button
+      - title: Item 1
+        lang: en
+        desc: Description
+        link: polimi.it/en/
+        multiple_buttons: true #advanced flag, means that in this tile there will be more than 1 button, the description is inside the buttons list
+        buttons:
+        - title: Vai al source di PoliDL GUI # name on the button
+          link: https://github.com/yuyu-19/PoliDL-GUI # link of the button
+        - title: Vai al source di PoliDL GUI
+          link: https://github.com/yuyu-19/PoliDL-GUI
+  - Title: Convertitoreorario
+    items:
+      - link: https://bebora.github.io/polimi-schedule-js/
+        redirect: true # this flag generates a instant redirect in the file, basically skipping the page. It should go with the redirect = true in the file flag
+########
+##
+##  It is possible to use more than 1 item for each project, in this case this is a shorter
+##  version of the Polidl description. As you can see in the output page, there are 3 horizontal rows
+##  and each of them is filled with the elements specified inside the items list
+##  to divide them, use the flag divided.
+##
+########
+  - Title: Polidl # first horizontal section
+    items:
+      - title: PoliDL - Cisco Webex & Microsoft Stream - Con Interfaccia Grafica Windows
+        lang: it
+        desc: Scarica, con interfaccia grafica, per Windows, i video da Cisco Webex e/o Microsoft Stream! <br> Seguite il readme della pagina del source
+        link: https://github.com/yuyu-19/PoliDL-GUI
+        img: /img/win.png
+        multiple_buttons: true
+        buttons:
+        - title: Vai al source di PoliDL GUI
+          link: https://github.com/yuyu-19/PoliDL-GUI
+  - Title: Polidl # horizontal section n.2
+    divided: true # specifies a horizontal double line, one for each language
+    dividers:
+      - name: Versione per terminale solo per "Microsoft Stream"
+        lang: it
+      - name: Versione per terminale solo per "Microsoft Stream"
+        lang: en
+    items: # items contained in this horizontal section
+      - title: Windows
+        lang: it
+        desc: Download .exe file
+        link: https://github.com/Jacotsu/polibeepsync/releases/latest
+        img: /img/win.png
+  - Title: Polidl # another horizontal section, an so on
+    divided: true
+    dividers:
+      - name: Versione per terminale solo per "Cisco Webex"
+        lang: it
+      - name: Versione per terminale solo per "Cisco Webex"
+        lang: en
