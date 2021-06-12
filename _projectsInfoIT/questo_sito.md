@@ -1,5 +1,5 @@
 ---
-Title: Questo Sito
+title: Questo Sito
 Author: NomeAutore
 Lang: it
 Img: /res/images/polinetwork.png

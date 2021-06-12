@@ -1,5 +1,5 @@
 ---
-Title: PoliMi schedule converter
+title: PoliMi schedule converter
 Author: NomeAutore
 Lang: en
 Img: /img/time.png

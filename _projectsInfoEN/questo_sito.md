@@ -1,5 +1,5 @@
 ---
-Title: This Site
+title: This Site
 Author: NomeAutore
 Lang: en
 Img: /res/images/polinetwork.png

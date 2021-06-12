@@ -1,5 +1,5 @@
 ---
-Title: beep_helper
+title: beep_helper
 Author: NomeAutore
 Lang: en
 Img: /img/beepupdates.jpg

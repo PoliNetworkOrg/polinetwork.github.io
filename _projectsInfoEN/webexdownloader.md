@@ -1,5 +1,5 @@
 ---
-Title: WebXDownloader
+title: WebXDownloader
 Author: NomeAutore
 Lang: en
 Img: /img/WebXDownloader.png

@@ -1,5 +1,5 @@
 ---
-Title: PoliBeepSync
+title: PoliBeepSync
 Author: NomeAutore
 Lang: it
 Img: /img/PoliBeePsync.svg
