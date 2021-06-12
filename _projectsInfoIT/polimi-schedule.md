@@ -1,5 +1,5 @@
 ---
-Title: Polimi-schedule
+title: Polimi-schedule
 Author: NomeAutore
 Lang: it
 Img: /img/time.png

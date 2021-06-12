@@ -1,5 +1,5 @@
 ---
-Title: PoliDL
+title: PoliDL
 Author: NomeAutore
 Lang: en
 Img: /img/downloader.png

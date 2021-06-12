@@ -1,5 +1,5 @@
 ---
-Title: TdeMerger
+title: TdeMerger
 Author: NomeAutore
 Lang: en
 Img: /img/tdemerger.jpeg

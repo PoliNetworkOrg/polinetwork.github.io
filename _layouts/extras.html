@@ -3,17 +3,62 @@ layout: default
 ---
 
 <body>
-    <div class="wrapper">
-        <div class="projectsWrapper projectsPadding">
-{% for project in site.extraInfoIT %}
-  {% if project.Lang == page.Lang %}
-    {% include projectCard.html %}
-  {% endif %}
-{% endfor %}
-{% for project in site.extraInfoEN %}
-  {% if project.Lang == page.Lang %}
-    {% include projectCard.html %}
-  {% endif %}
-{% endfor %}
-
-</div>
+    <div class="wrapper projectsPadding">
+      <div class="horizontal section">
+          <div class="card white horizontalcardswrapper extra prjectClickable">
+            <a href="/{{page.Lang}}/extra/spotted/">
+              <div class="titleanddeskCard">
+                <div class="cardTitleAndDescription extraTopSectionText">
+                  <img src="/img/polimispotted.png" style="width: 45px;">
+                  <h2>{{ page.LSpottedTitle }}</h2>
+                  <p>{{ page.LSpottedText }}</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="card white horizontalcardswrapper extra prjectClickable">
+            <a href="/{{page.Lang}}/extra/polimimemes/">
+              <div class="titleanddeskCard">
+                  <div class="cardTitleAndDescription extraTopSectionText">
+                    <img src="/img/polimimemes.png" style="width: 45px;">
+                    <h2>{{ page.LPolimiMemesTitle }}</h2>
+                    <p>{{ page.LPolimiMemesText }}</p>
+                  </div>
+              </div>
+            </a>
+          </div>
+          <div class="card white horizontalcardswrapper extra prjectClickable">
+            <a href="/{{page.Lang}}/extra/studentipolimi/">
+              <div class="titleanddeskCard">
+                <div class="cardTitleAndDescription extraTopSectionText">
+                  <img src="/img/studentipolimi.png" style="width: 45px;">
+                  <h2>{{ page.LStudentiPolimiTitle }}</h2>
+                  <p>{{ page.LStudentiPolimiText }}</p>
+                </div>
+              </div>
+            </a>
+          </div>
+      </div>
+      <div class="card white horizontalcardswrapper extra prjectClickable">
+        <a href="/{{page.Lang}}/extra/assoc/">
+          <div class="titleanddeskCard">
+            <div class="cardTitleAndDescription extraTopSectionWide">
+              <img src="/img/assoc.png" style="width: 45px;">
+              <h2>{{ page.LAssocTitle }}</h2>
+              <p>{{ page.LAssocText }}</p>
+            </div>
+          </div>
+        </a>
+      </div>
+        <div class="projectsWrapper">
+          {% for project in site.extraInfoIT %}
+            {% if project.Lang == page.Lang %}
+              {% include projectCard.html %}
+            {% endif %}
+          {% endfor %}
+          {% for project in site.extraInfoEN %}
+            {% if project.Lang == page.Lang %}
+              {% include projectCard.html %}
+            {% endif %}
+          {% endfor %}
+      </div>
