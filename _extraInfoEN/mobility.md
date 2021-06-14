@@ -1,7 +1,7 @@
 ---
-title: Students in search of home
+title: International mobility for study
 Lang: en
 Img: /img/mobilita.jpg
 layout: extra
 ---
-Looking for a house in Milan?
+International mobility for study
