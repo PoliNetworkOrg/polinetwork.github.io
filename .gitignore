@@ -3,5 +3,7 @@ node_modules
 .idea/
 _site/
 .sass-cache/
+.vs/
+.forestry/
 .jekyll-cache/
 .jekyll-metadata
