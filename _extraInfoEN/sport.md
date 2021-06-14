@@ -4,4 +4,4 @@ Lang: en
 Img: /img/4.png
 layout: extra
 ---
-Sportivi del Polimi!
+Facebook group for sports enthusiasts!

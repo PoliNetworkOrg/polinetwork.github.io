@@ -1,5 +1,5 @@
 ---
-title: PoliNetwork Criptovalute
+title: PoliNetwork Cryptocurrencies
 Lang: en
 Img: /img/cripto.png
 layout: extra
