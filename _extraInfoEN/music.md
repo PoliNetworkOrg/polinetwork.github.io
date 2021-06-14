@@ -6,4 +6,4 @@ layout: extra
 link: https://t.me/joinchat/AFY9TVMxQSzPqauDuy0zKA
 redirect: true
 ---
-Ti piace la musica? Questo è il posto giusto!
+Do you like music? This is the right place!
