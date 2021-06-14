@@ -6,4 +6,4 @@ layout: extra
 link: https://t.me/joinchat/LclXl0ji9OC9BQzJk3cwoA
 redirect: true
 ---
-Lo scopo di questo gruppo è quello di parlare tra appassionati di Streetwear e tutto ciò che ne concerne
+The purpose of this group is to let you chat with other Streetwear fans about anything related to it

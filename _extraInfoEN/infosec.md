@@ -6,4 +6,4 @@ layout: extra
 link: https://t.me/joinchat/USeSRyfefoBFU4CZ
 redirect: true
 ---
-Sicurezza informatica e tante altre cose complicate
+Cybersecurity and many other complicated things

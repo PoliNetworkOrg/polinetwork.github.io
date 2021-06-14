@@ -6,4 +6,4 @@ layout: extra
 link: https://discord.gg/Fp7ZHcC
 redirect: true
 ---
-Per gli amanti di discord, il nostro network ha il suo server
+For discord lovers, our network has its own server

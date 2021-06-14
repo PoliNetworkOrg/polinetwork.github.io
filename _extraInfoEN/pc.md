@@ -1,9 +1,9 @@
 ---
-title: Consigli per acquisto PC
+title: Advice on buying a PC
 Lang: en
 Img: /img/pc.png
 layout: extra
 link: https://t.me/joinchat/LclXl02QS1Fsvp2SmfR00A
 redirect: true
 ---
-Ottieni consigli per l'acquisto del PC adatto a te
+Get advice on buying the right PC for you
