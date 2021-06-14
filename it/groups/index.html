@@ -2,52 +2,53 @@
 layout: default
 Lang: it
 title: Gruppi
+
 ---
-    <div class="wrapper projectsPadding">
+<div class="wrapper projectsPadding">
         <div class="card white">
-            <h1>Find your group!</h1>
-            <h3>Name</h3>
+            <h1>Trova il tuo gruppo!</h1>
+            <h3>Nome</h3>
             <input type="search" name="name" class="question" id="searchBar" required autocomplete="off" data-limit="-1"
                 placeholder="Search a course" />
-            <h3>Year of subscription:</h3>
+            <h3>Anno di iscrizione:</h3>
             <select id="searchYearInput">
                 <option value="2020/2021">2020/2021</option>
                 <option value="2019/2020">2019/2020</option>
                 <option value="2018/2019">2018/2019</option>
                 <option value="2017/2018">2017/2018</option>
             </select>
-            <h3>Course Level</h3>
+            <h3>Grado</h3>
             <div class="radiocontainer horizontal equalspace">
                 <div class="card white slim clickable" checked="true">
                     <input type="radio" checked="true" name="triennale_o_magistrale" id="triennale_o_magistrale_all">
-                    <p>All</p>
+                    <p>Tutti</p>
                 </div>
                 <div class="card white slim clickable">
                     <input type="radio" name="triennale_o_magistrale" id="triennale_o_magistrale_triennale">
-                    <p>Bachelor</p>
+                    <p>Triennale</p>
                 </div>
                 <div class="card white slim clickable">
                     <input type="radio" name="triennale_o_magistrale" id="triennale_o_magistrale_magistrale">
-                    <p>Master</p>
+                    <p>Magistrale</p>
                 </div>
                 <div class="card white slim clickable">
                     <input type="radio" name="triennale_o_magistrale" id="triennale_o_magistrale_unico">
-                    <p>Single Cycle</p>
+                    <p>A Ciclo Unico</p>
                 </div>
             </div>
-            <h3>Group Type</h3>
+            <h3>Tipo</h3>
             <div class="radiocontainer horizontal equalspace">
                 <div class="card white slim clickable" checked="true">
                     <input type="radio" name="tipo_gruppo" id="tipo_gruppo_a" value="A" checked="true">
-                    <p>All</p>
+                    <p>Tutti</p>
                 </div>
                 <div class="card white slim clickable">
                     <input type="radio" name="tipo_gruppo" id="tipo_gruppo_s" value="S">
-                    <p>School</p>
+                    <p>Facoltà</p>
                 </div>
                 <div class="card white slim clickable">
                     <input type="radio" name="tipo_gruppo" id="tipo_gruppo_c" value="C">
-                    <p>Course</p>
+                    <p>Corso</p>
                 </div>
                 <div class="card white slim clickable">
                     <input type="radio" name="tipo_gruppo" id="tipo_gruppo_e" value="E">
@@ -55,20 +56,20 @@ title: Gruppi
                 </div>
             </div>
             <div class="spaced">
-                <h3>Results</h3>
+                <h3>Risultati</h3>
                 <div id="loading_search">
-                    Please Wait...
+                    Attendere prego...
                 </div>
                 <div id="error_search">
-                    No results yet!
+                    Ancora nessun risultato!
                 </div>
                 <ul id="searchResult" class="hide" style="list-style: none;padding-left: 0px;">
 
                 </ul>
             </div>
             <div class="spaced">
-                If the search tool is not working for you (or a link is broken), please <a
-                    href="https://m.me/PolitecnicoDiMilanoNetwork/">Report us the problem! Click here!</a>
+                Se lo strumento di ricerca non funziona (o un link non è raggiungibile), per favore <a
+                    href="https://m.me/PolitecnicoDiMilanoNetwork/">Segnalaci il problema! Clicca qui!</a>
             </div>
         </div>
     </div>
