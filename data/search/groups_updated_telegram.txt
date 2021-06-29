@@ -1,0 +1,1405 @@
+Success: S
+IdLink: TdYQWLM2ybQXGhUR
+NewLink: https://t.me/joinchat/dY_oQaXe-OtkYjlk
+Nome: Ambient and data Intelligence TRACK MAGISTRALE
+
+Success: S
+IdLink: UfiBv0BDTO8aseh0
+NewLink: https://t.me/joinchat/bqPXGhYfZa4zZmI0
+Nome: Artificial Intelligence and Machine Learning TRACK MAGISTRALE
+
+Success: S
+IdLink: LclXl1Mq9_UkfdBxM3qroA
+NewLink: https://t.me/joinchat/TT7JB8LElro4ODI0
+Nome: BASI DI DATI
+
+Success: S
+IdLink: VfcFmae1V2msGNLb
+NewLink: https://t.me/joinchat/2GHqfUe9laE3MmNk
+Nome: Big Data and Data Science TRACK MAGISTRALE
+
+Success: S
+IdLink: SHWhKMOMe_BTMXIG
+NewLink: https://t.me/joinchat/85VJLWJA1Xk0ODBk
+Nome: Bioinformatics and e-health TRACK MAGISTRALE
+
+Success: S
+IdLink: S6TgGHO1CQamTyHT
+NewLink: https://t.me/joinchat/WU9GS04zJrFkNzY8
+Nome: Building andArchitectural Engineering MAGISTRALE
+
+Success: S
+IdLink: S6TgGOG2uexAeRYY
+NewLink: https://t.me/joinchat/i4F_I4fy3nNjYmFk
+Nome: Building andArchitectural Engineering MAGISTRALE
+
+Success: N
+IdLink: LclXl1ati-Ahocs1Duni3w
+NewLink: [null]
+Nome: Consiglio degli Admin - PoliNetwork
+
+Success: N
+IdLink: LclXl0dsEBPicdScltmUnQ
+NewLink: [null]
+Nome: DINAMICA DEI SISTEMI COMPLESSI
+
+Success: S
+IdLink: TQzQFKr05EWlkcwV
+NewLink: https://t.me/joinchat/b6ORIoTGgSsyNWM8
+Nome: DISCRETE DYNAMICAL MODELS
+
+Success: N
+IdLink: LclXl1NzCwm_rwZXmMzmnA
+NewLink: [null]
+Nome: DISPOSITIVI PER LA TRASMISSIONE DELL'INFORMAZIONE
+
+Success: N
+IdLink: LclXl1kI5XemgiiJK0yhEg
+NewLink: [null]
+Nome: ECONOMIA DEI SERVIZI E DELLE RETI I
+
+Success: S
+IdLink: LclXl0W_ir0ChPDBy9Wl2g
+NewLink: https://t.me/joinchat/FJ5KungMajJlY2I0
+Nome: FONDAMENTI DI AUTOMATICA
+
+Success: N
+IdLink: LclXl1GOb6p5L9P_M_OXXw
+NewLink: [null]
+Nome: FONDAMENTI DI COMUNICAZIONI E INTERNET FONDAMENTI DI
+
+Success: S
+IdLink: WVJNFomDSjOLyHAY
+NewLink: https://t.me/joinchat/FCSGVa6lS7c1OTQy
+Nome: FONDAMENTI DI ELABORAZIONE NUMERICA DEI SEGNALI
+
+Success: N
+IdLink: LclXl069E6b14DgmJua9Gg
+NewLink: [null]
+Nome: FUNDAMENTALS OF MULTIMEDIA SIGNAL PROCESSING
+
+Success: N
+IdLink: LclXlxl7P-zWCxOANfkbdA
+NewLink: [null]
+Nome: Gruppo test bot
+
+Success: S
+IdLink: Sxh0Nx46gVg2x0oC
+NewLink: https://t.me/joinchat/QKYWISWLmu4yYmU0
+Nome: HYPERMEDIA APPLICATIONS (WEB AND MULTIMEDIA)
+
+Success: N
+IdLink: LclXl1gEDqVNtoOskINrWg
+NewLink: [null]
+Nome: Image Analysis and Computer Vision
+
+Success: S
+IdLink: UB1YVQJVYxGcjGX3
+NewLink: https://t.me/joinchat/JrbptYH36kpkODI8
+Nome: Ingegneria dei Sistemi Edilizi MAGISTRALE Ingegneria dei Sistemi Edilizi
+
+Success: S
+IdLink: UB1YVdJiDNNocqsR
+NewLink: https://t.me/joinchat/Q9vybrexAu0wNDA8
+Nome: Ingegneria dei Sistemi Edilizi MAGISTRALE Ingegneria dei Sistemi Edilizi
+
+Success: S
+IdLink: TNSsl1lueA-7wjBf
+NewLink: https://t.me/joinchat/I5ThnhUxLaNlMjM0
+Nome: Interactive Applications TRACK MAGISTRALE
+
+Success: S
+IdLink: UngPvDJVFKmBtMjT
+NewLink: https://t.me/joinchat/o2UVIbve58dkNWRk
+Nome: KNOWLEDGE ENGINEERING
+
+Success: N
+IdLink: LclXl1Mwo4b_8pHv1YkodA
+NewLink: [null]
+Nome: Lo scaglione dell’ultima fila
+
+Success: N
+IdLink: LclXl0gfH0Sjm6raQYT4lw
+NewLink: [null]
+Nome: NETWORK SECURITY AND CRYPTOGRAPHY Network Security and Criptography NETWORK SECURITY AND CRYPTOGRAPHY
+
+Success: N
+IdLink: LclXl1D5zATuYKLlay9gDA
+NewLink: [null]
+Nome: ONDE ELETTROMAGNETICHE E MEZZI TRASMISSIVI
+
+Success: N
+IdLink: LclXl0mgNmKWDkmbssdNQQ
+NewLink: [null]
+Nome: PROBABILITÀ E STATISTICA PER L'INFORMATICA
+
+Success: N
+IdLink: LclXl04xtRBJaymQiIGMnw
+NewLink: [null]
+Nome: PROVA FINALE (PROGETTO DI RETI LOGICHE)
+
+Success: S
+IdLink: URCpF4BSdQyfObgu
+NewLink: https://t.me/joinchat/esRY9Qop6MQ5MmM0
+Nome: Pervasive Systems TRACK MAGISTRALE
+
+Success: S
+IdLink: U1x6URxj-AapU4vQ
+NewLink: https://t.me/joinchat/2_il7-6k__1iZTM0
+Nome: ROBOTICS
+
+Success: S
+IdLink: Ui9IIX8ZHuros-Q0
+NewLink: https://t.me/joinchat/D39TJHfrUMc2Y2Iy
+Nome: SISTEMI DI COMUNICAZIONE
+
+Success: S
+IdLink: TDffVIN4Dpe4gWCT
+NewLink: https://t.me/joinchat/s7tWA-05KsViNTJk
+Nome: Software engineering for Complex Systems TRACK MAGISTRALE
+
+Success: N
+IdLink: LclXl0fgE5tVLWNu_OrRiA
+NewLink: [null]
+Nome: TECNOLOGIA MECCANICA E QUALITA' [C.I.]
+
+Success: N
+IdLink: LclXl0uX3PorbRzT9VHdRA
+NewLink: [null]
+Nome: TECNOLOGIE DIGITALI 1 WORKSHOP 1
+
+Success: N
+IdLink: LclXl0_WuZmqJomeCttSTA
+NewLink: [null]
+Nome: TIROCINIO (ING. INFORMATICA)
+
+Success: N
+IdLink: LclXlxnJpq1gGcFHFEuKEQ
+NewLink: [null]
+Nome: Test bot poliassoc
+
+Success: N
+IdLink: 4JelJe5cJL03MWJk
+NewLink: [null]
+Nome: ciao :)
+
+Success: N
+IdLink: Vzlx1DZ1-Ov1Xh1S
+NewLink: [null]
+Nome: gruppo test
+
+Success: S
+IdLink: R_JhFaCZ7tTqNIHx
+NewLink: https://t.me/joinchat/fH4fCFGLDEgyOTZk
+Nome: Elettronica
+
+Success: S
+IdLink: AAAAAEIgvZmmFY7IdaDDng
+NewLink: https://t.me/joinchat/GJXk7PgnnZMyMjJk
+Nome: Informatica
+
+Success: S
+IdLink: AAAAAEIgvZmmFY7IdaDDng
+NewLink: https://t.me/joinchat/4s-rnLrjd3xiNWZk
+Nome: Informatica
+
+Success: S
+IdLink: RtP03CKwn2ky2dzA
+NewLink: https://t.me/joinchat/Acwi2igkm_QwOWE0
+Nome: Nucleare
+
+Success: N
+IdLink: PoliExtra
+NewLink: [null]
+Nome: Per gruppi &quot;esterni&quot; vedasi PoliExtra, clicca qui A DESTRA
+
+Success: S
+IdLink: FNGD_0uk4BhgOSB7C81drA
+NewLink: https://t.me/joinchat/g5wNiwk8X-NkNTg0
+Nome: Building and Architectural Engineering
+
+Success: S
+IdLink: LclXl0rr8rz99kS-RLNEgw
+NewLink: https://t.me/joinchat/FVNlJ146Q6I0ZWI0
+Nome: Civil Engineering for Risk Mitigation
+
+Success: N
+IdLink: FNGD_0LtgPjoVa36Z2QsQw
+NewLink: [null]
+Nome: Design & Engineering - Progetto e ingegnerizzazione del prodotto industriale
+
+Success: N
+IdLink: LclXl0QmBka5Qo4TFKFXwQ
+NewLink: [null]
+Nome: Design del Prodotto Industriale
+
+Success: S
+IdLink: LclXl1CeuogUHYVu3DmoCg
+NewLink: https://t.me/joinchat/JyDNffYH0vFmZmM0
+Nome: Design della Comunicazione
+
+Success: N
+IdLink: [EMPTY]
+NewLink: [null]
+Nome: Digital and Interaction Design
+
+Success: N
+IdLink: FNGD_0J_pKYQPc97eq1toQ
+NewLink: [null]
+Nome: Gruppo generale
+
+Success: N
+IdLink: UOmZEnucqevw_9lb
+NewLink: [null]
+Nome: Ingegneria Aerospaziale 2018-2019
+
+Success: S
+IdLink: FNGD_06bewA86Rgdv-QkWA
+NewLink: https://t.me/joinchat/NN2byo1QnlAxY2Y0
+Nome: Ingegneria Biomedica
+
+Success: S
+IdLink: LclXl0OBIhzEv9Ibs7opxg
+NewLink: https://t.me/joinchat/Tdy9XIgWxo04Njc8
+Nome: Ingegneria Chimica
+
+Success: N
+IdLink: FNGD_0O3QffTWGN1F3iLzQ
+NewLink: [null]
+Nome: Ingegneria Edile - Architettura (Corso a ciclo unico)
+
+Success: S
+IdLink: FNGD_z7bIq1FQY52HFWhqQ
+NewLink: https://t.me/joinchat/sqrnBsCPRrFlMWY0
+Nome: Ingegneria Elettrica
+
+Success: S
+IdLink: FNGD_0R4OYkJZxGuwlcEuA
+NewLink: https://t.me/joinchat/-h_Yw0l7_axhYTY0
+Nome: Ingegneria Elettronica
+
+Success: S
+IdLink: FNGD_z_bEwXxh5raD0gqgg
+NewLink: https://t.me/joinchat/eSggPL3t_IE3MmQ8
+Nome: Ingegneria Energetica
+
+Success: S
+IdLink: FNGD_0wRkuGGDAjlyVTa3w
+NewLink: https://t.me/joinchat/o81UYwJa-eY2ZGQ0
+Nome: Ingegneria Gestionale
+
+Success: S
+IdLink: FNGD_0VLZ7dVLLelk5TW3A
+NewLink: https://t.me/joinchat/1nwRvexcIApkODdk
+Nome: Ingegneria Gestionale
+
+Success: S
+IdLink: LclXl0cnBPVlutk5xu3a2A
+NewLink: https://t.me/joinchat/KHkMk9SZQIg0MmE0
+Nome: Ingegneria Informatica
+
+Success: S
+IdLink: FNGD_0GpRUc3JsDEeu5Omw
+NewLink: https://t.me/joinchat/5iK1qRcigqE5MGM0
+Nome: Ingegneria Meccanica
+
+Success: S
+IdLink: FNGD_0GpRUc3JsDEeu5Omw
+NewLink: https://t.me/joinchat/Np12jf3n-UU1YTNk
+Nome: Ingegneria Meccanica
+
+Success: S
+IdLink: LclXl1AdWFV55xmFWTsk8Q
+NewLink: https://t.me/joinchat/UI2xJSeodAU1N2M0
+Nome: Ingegneria dei Sistemi Edilizi
+
+Success: S
+IdLink: FNGD_0WmhHpOS_GNwjFOCg
+NewLink: https://t.me/joinchat/1JvckGL1UHIzMGQ0
+Nome: Ingegneria dell'Automazione
+
+Success: S
+IdLink: LclXl0xvBiWvVCHs-Vu_5w
+NewLink: https://t.me/joinchat/fePZRbd7IMplNmU0
+Nome: Ingegneria della Prevenzione e della Sicurezza nell'industria di processo
+
+Success: S
+IdLink: FNGD_0KNa2X038QMGK1rKg
+NewLink: https://t.me/joinchat/KBe-L-4dPloxOWM0
+Nome: Ingegneria per l'Ambiente e il Territorio
+
+Success: S
+IdLink: LclXl0VHaRo1-HztvCB9ZQ
+NewLink: https://t.me/joinchat/NU0magNN5SJhMjI0
+Nome: Ingegneria per l'Ambiente e il Territorio - Environmental and Land Planning Engineering
+
+Success: S
+IdLink: LclXl01YiUE-vQksY8OSTQ
+NewLink: https://t.me/joinchat/Q2g6pteiMLo2OGQ0
+Nome: Integrated Product Design
+
+Success: S
+IdLink: LclXl0XYw2lxxEBiPYvqzg
+NewLink: https://t.me/joinchat/3MjQLFOREvZmNWRk
+Nome: Landscape Architecture Land Landscape Heritage
+
+Success: S
+IdLink: LclXl0ZfXU22rYBjZ9bOag
+NewLink: https://t.me/joinchat/mM15OWoL3dU3MWU8
+Nome: Music & Acoustic Engineering
+
+Success: N
+IdLink: PoliExtra
+NewLink: [null]
+Nome: Per gruppi &quot;esterni&quot; vedasi PoliExtra, clicca qui A DESTRA
+
+Success: S
+IdLink: FNGD_0Lv1_M8UJ7E_JAwBQ
+NewLink: https://t.me/joinchat/YGHrii1w2XtmZTk8
+Nome: Progettazione dell'Architettura
+
+Success: S
+IdLink: FNGD_0Lv1_M8UJ7E_JAwBQ
+NewLink: https://t.me/joinchat/Ydz_FioBETwxZmU0
+Nome: Progettazione dell'Architettura
+
+Success: S
+IdLink: FNGD_0Lv1_M8UJ7E_JAwBQ
+NewLink: https://t.me/joinchat/9PxpdzVVHDE0ZWNk
+Nome: Progettazione dell'Architettura
+
+Success: N
+IdLink: FNGD_0ReljmRiDQyopax8Q
+NewLink: [null]
+Nome: Urbanistica: Città Ambiente Paesaggio
+
+Success: S
+IdLink: FNGD_0YtuPDR-NSoZcXGhA
+NewLink: https://t.me/joinchat/nu_5okJbLoVkMjRk
+Nome: AUTOMAZIONE INDUSTRIALE
+
+Success: S
+IdLink: FNGD_0ZmGvaGJOSa6o7waw
+NewLink: https://t.me/joinchat/gAFIIbN4v4MzNjZk
+Nome: Architectural Design and History - Progettazione Architettonica e Storia
+
+Success: S
+IdLink: FNGD_1IJ91KLXQSfs9IKxQ
+NewLink: https://t.me/joinchat/LaMLN8i6XZhjZGZk
+Nome: Architettura - Architettura delle Costruzioni
+
+Success: S
+IdLink: FNGD_06PNXEMoN8A3w4g0w
+NewLink: https://t.me/joinchat/bEfT92MSkRUwNjg0
+Nome: Architettura e Disegno Urbano - Architecture and Urban Design
+
+Success: S
+IdLink: FNGD_0hGh8oip3KxUyG3MQ
+NewLink: https://t.me/joinchat/3JhPNLDzr69mMzVk
+Nome: Architettura-Ambiente Costruito-Interni- Architecture-Built Environment-Interiors
+
+Success: S
+IdLink: FNGD_0NzRZZ1cEk5Ely9vw
+NewLink: https://t.me/joinchat/cpaSrZK9E240MzQ0
+Nome: Automation and Control Engineering - Ingegneria dell'Automazione
+
+Success: S
+IdLink: FNGD_0-UI8tp1Zdhk6aD2Q
+NewLink: https://t.me/joinchat/aLl_styL140yYmQ0
+Nome: Biomedical Engineering - Ingegneria Biomedica
+
+Success: S
+IdLink: FNGD_0TY4QZWqryk-n6q1w
+NewLink: https://t.me/joinchat/ITpmCVRiUWMyMzFk
+Nome: Building and Architectural Engineering
+
+Success: S
+IdLink: FNGD_0uk4BhgOSB7C81drA
+NewLink: https://t.me/joinchat/-zdEL_qJfFQ0ZDlk
+Nome: Building and Architectural Engineering
+
+Success: S
+IdLink: LclXl1B_Wsg9YQCU_42anA
+NewLink: https://t.me/joinchat/QR7VROzkq79mYmU8
+Nome: Chemical Engineering - Ingegneria Chimica
+
+Success: S
+IdLink: FNGD_0rr8rylp5G7DN07Rg
+NewLink: https://t.me/joinchat/YQDqDaVeuFljNGI0
+Nome: Civil Engineering for Risk Mitigation
+
+Success: S
+IdLink: FNGD_0S-KV2az9KUquMgxg
+NewLink: https://t.me/joinchat/Eu5v-McWyGoyNTFk
+Nome: Computer Science and Engineering - Ingegneria Informatica
+
+Success: N
+IdLink: FNGD_0LtgPjoVa36Z2QsQw
+NewLink: [null]
+Nome: Design & Engineering - Progetto e ingegnerizzazione del prodotto industriale
+
+Success: S
+IdLink: LclXl0LnsxiERSt6gwsO-w
+NewLink: https://t.me/joinchat/NuaxsnmZK8pkY2Y8
+Nome: Design degli Interni
+
+Success: N
+IdLink: FNGD_0QmBkbnaQcsF7bOfg
+NewLink: [null]
+Nome: Design del Prodotto Industriale
+
+Success: S
+IdLink: FNGD_1CeuohFFXq2S4h2RA
+NewLink: https://t.me/joinchat/YPHLe9WJYVFiYzlk
+Nome: Design della Comunicazione
+
+Success: S
+IdLink: FNGD_0RCCLAztsLSEvrCfg
+NewLink: https://t.me/joinchat/mhPrBBOneJllNmY0
+Nome: Design della Comunicazione
+
+Success: S
+IdLink: FNGD_0K-mWdVg8tHqZm4yw
+NewLink: https://t.me/joinchat/D1HpDbfO7xI2NGZk
+Nome: Design della Moda
+
+Success: S
+IdLink: FNGD_0TdNs1kHHOS4KqxMQ
+NewLink: https://t.me/joinchat/HHy2dQ_sljYwZWQ0
+Nome: Design for the Fashion System - Design per il sistema Moda
+
+Success: N
+IdLink: FNGD_0zyL5rtdV5F4Dacog
+NewLink: [null]
+Nome: Digital and Interaction Design
+
+Success: S
+IdLink: FNGD_0Tev6wBrgyz6VaWaQ
+NewLink: https://t.me/joinchat/vlh7hbMGHN01MzI0
+Nome: Electrical Engineering - Ingegneria Elettrica
+
+Success: S
+IdLink: FNGD_0fyYRUFMbOdohMP_Q
+NewLink: https://t.me/joinchat/b6M6eyRVmGszMzBk
+Nome: Electronics Engineering - Ingegneria Elettronica
+
+Success: S
+IdLink: FNGD_0najzBpRnEpCMl2Cg
+NewLink: https://t.me/joinchat/e6xdJu1u20w5ZDI0
+Nome: Engineering Physics - Ingegneria Fisica
+
+Success: S
+IdLink: FNGD_0bbu1YiDlkUkiDfYA
+NewLink: https://t.me/joinchat/aFfEK8498HYwZGVk
+Nome: Geoinformatics Engineering - Ingegneria Geoinformatica
+
+Success: N
+IdLink: PoliGruppo
+NewLink: [null]
+Nome: Gruppo generale
+
+Success: S
+IdLink: FNGD_06bewA86Rgdv-QkWA
+NewLink: https://t.me/joinchat/9F2ZV4vSlB05ODZk
+Nome: Ingegneria Biomedica
+
+Success: S
+IdLink: FNGD_0KnsKLoudaP6zz8bA
+NewLink: https://t.me/joinchat/UVMVxqoLaVlmMDA0
+Nome: Ingegneria Civile
+
+Success: S
+IdLink: LclXl1N87tNgeIG13lwCHg
+NewLink: https://t.me/joinchat/BK2oYQpMLvVlM2Vk
+Nome: Ingegneria Civile - Civil Engineering
+
+Success: S
+IdLink: FNGD_1NmGT1pFb111iVoQw
+NewLink: https://t.me/joinchat/nNiiWwlPPqo0OGU0
+Nome: Ingegneria Civile per la mitigazione del rischio
+
+Success: N
+IdLink: FNGD_0O3QffTWGN1F3iLzQ
+NewLink: [null]
+Nome: Ingegneria Edile - Architettura (Corso a ciclo unico)
+
+Success: S
+IdLink: FNGD_z7bIq3q_ij3TBOBsA
+NewLink: https://t.me/joinchat/jYMpihIOl3czYzI8
+Nome: Ingegneria Elettrica
+
+Success: S
+IdLink: FNGD_0R4OYmddrFsGHw37w
+NewLink: https://t.me/joinchat/rVDijZbX2P8wOTA0
+Nome: Ingegneria Elettronica
+
+Success: S
+IdLink: FNGD_z_bEwUWy77fdw5dCQ
+NewLink: https://t.me/joinchat/FfhPcHjxKw41NTJk
+Nome: Ingegneria Energetica
+
+Success: S
+IdLink: FNGD_03zDndw2-aNSuBKTA
+NewLink: https://t.me/joinchat/uomeD7KvQJ9iY2E0
+Nome: Ingegneria Fisica
+
+Success: S
+IdLink: FNGD_0wRkuE4cfoKa3am8Q
+NewLink: https://t.me/joinchat/gWDfoSifRmZkMWE0
+Nome: Ingegneria Gestionale
+
+Success: S
+IdLink: FNGD_0VLZ7chKraXQk8-tg
+NewLink: https://t.me/joinchat/8xG5cA40M4hjYWM0
+Nome: Ingegneria Gestionale
+
+Success: S
+IdLink: LclXl0jxpwVfwaBpxkn3dg
+NewLink: https://t.me/joinchat/BiQfeyCRNx5jOTNk
+Nome: Ingegneria Informatica
+
+Success: S
+IdLink: FNGD_0PLDCVN6DwzWPpDWA
+NewLink: https://t.me/joinchat/XtlWn8d0Bi41NzJk
+Nome: Ingegneria Matematica
+
+Success: S
+IdLink: FNGD_0GpRUc3JsDEeu5Omw
+NewLink: https://t.me/joinchat/ODzlNY6WUGpkYWE0
+Nome: Ingegneria Meccanica
+
+Success: S
+IdLink: FNGD_0GpRUc3JsDEeu5Omw
+NewLink: https://t.me/joinchat/A_rz5oUo91BiNjRk
+Nome: Ingegneria Meccanica
+
+Success: S
+IdLink: FNGD_0MRrTDLoQ8oXnwO6w
+NewLink: https://t.me/joinchat/0HzNTaKgUEQxZGI0
+Nome: Ingegneria dei Materiali e delle Nanotecnologie
+
+Success: S
+IdLink: FNGD_1AdWFWUg_FKjbDDGA
+NewLink: https://t.me/joinchat/FNr7U9hqeac5ZDBk
+Nome: Ingegneria dei Sistemi Edilizi
+
+Success: S
+IdLink: FNGD_0WmhHpfIii9DLke5g
+NewLink: https://t.me/joinchat/DtNBCGpG5jM3YmI0
+Nome: Ingegneria dell'Automazione
+
+Success: S
+IdLink: FNGD_0xvBiXbcqNNKd484Q
+NewLink: https://t.me/joinchat/RqyWSwE9bow2NGU8
+Nome: Ingegneria della Prevenzione e della Sicurezza nell'industria di processo
+
+Success: S
+IdLink: LclXl1P0OC5slU3ryzSEsQ
+NewLink: https://t.me/joinchat/i16My8-t_qA3NjI0
+Nome: Ingegneria per l'Ambiente e il Territorio
+
+Success: S
+IdLink: FNGD_0VHaRpuyh6V69qHvw
+NewLink: https://t.me/joinchat/InGSlsiA3iRiOWQ0
+Nome: Ingegneria per l'Ambiente e il Territorio - Environmental and Land Planning Engineering
+
+Success: S
+IdLink: FNGD_01YiUF7KajSwivwWw
+NewLink: https://t.me/joinchat/8A76vkRv-4IyMDM0
+Nome: Integrated Product Design
+
+Success: S
+IdLink: LclXl1YUDx3P9C7yEvW_tQ
+NewLink: https://t.me/joinchat/ouzhTeci8tY1Nzhk
+Nome: Interior and Spatial Design
+
+Success: S
+IdLink: FNGD_0XYw2m8uNlMCzHM5A
+NewLink: https://t.me/joinchat/ZPA5jWkDyPNlNzdk
+Nome: Landscape Architecture Land Landscape Heritage
+
+Success: S
+IdLink: FNGD_06MBi1LxVlmBQJl3Q
+NewLink: https://t.me/joinchat/YV4ewKIJ2JgzOTA0
+Nome: Management Engineering - Ingegneria Gestionale
+
+Success: S
+IdLink: FNGD_1IiCD76KKYSy1CczQ
+NewLink: https://t.me/joinchat/iQty_lVi4HFmOGY0
+Nome: Management of Built Environment - Gestione del Costruito
+
+Success: S
+IdLink: FNGD_098pv__chsPMsn35w
+NewLink: https://t.me/joinchat/9ucmA1dp2sgzNWE0
+Nome: Materials Engineering and Nanotechnology - Ingegneria dei Materiali e delle Nanotecnologie
+
+Success: S
+IdLink: FNGD_0idUO3AMzsqu9KSaw
+NewLink: https://t.me/joinchat/a5iySg4Kg2ozNTNk
+Nome: Mathematical Engineering - Ingegneria Matematica
+
+Success: S
+IdLink: LclXl0cXknqCFCnnAX_RaA
+NewLink: https://t.me/joinchat/EWPzHFlQ7242Y2Zk
+Nome: Mechanical Engineering - Ingegneria Meccanica
+
+Success: S
+IdLink: FNGD_0ZfXU3ePztw_o7v8w
+NewLink: https://t.me/joinchat/YNdOhs30lio2NWNk
+Nome: Music & Acoustic Engineering
+
+Success: S
+IdLink: FNGD_0bT9NyBZmSFti4bcg
+NewLink: https://t.me/joinchat/fIqw-V3vfnpmNGY0
+Nome: Nuclear Engineering - Ingegneria Nucleare
+
+Success: N
+IdLink: PoliExtra
+NewLink: [null]
+Nome: Per gruppi &quot;esterni&quot; vedasi PoliExtra, clicca qui A DESTRA
+
+Success: N
+IdLink: FNGD_068k94mabWq6Ovhew
+NewLink: [null]
+Nome: Process and service design
+
+Success: S
+IdLink: FNGD_0KlMeEqPBwXsZ8sXQ
+NewLink: https://t.me/joinchat/QjUW223o9gNmN2Q0
+Nome: Product Service System Design - Design per il sistema prodotto Servizio
+
+Success: S
+IdLink: FNGD_0Lv1_M8UJ7E_JAwBQ
+NewLink: https://t.me/joinchat/jy2-WHUAocIwOTBk
+Nome: Progettazione dell'Architettura
+
+Success: S
+IdLink: FNGD_0Lv1_M8UJ7E_JAwBQ
+NewLink: https://t.me/joinchat/tr5LbDNS9xRiZTA0
+Nome: Progettazione dell'Architettura
+
+Success: S
+IdLink: FNGD_0Lv1_M8UJ7E_JAwBQ
+NewLink: https://t.me/joinchat/Gv3YoUEHQWU0YjJk
+Nome: Progettazione dell'Architettura
+
+Success: S
+IdLink: FNGD_0oCTkjb0Ln0ZnrFtw
+NewLink: https://t.me/joinchat/x9rnPrgmGTw5Yzc0
+Nome: Space Engineering - Ingegneria Spaziale
+
+Success: S
+IdLink: FNGD_0cpEf0DR6qgEaHQ1g
+NewLink: https://t.me/joinchat/bPKSVL259-kzM2M0
+Nome: Sustainable Architecture and Landscape Design - Architettura Sostenibile e Progetto del Paesaggio
+
+Success: S
+IdLink: FNGD_0m5QrRgJe1Q53dBIA
+NewLink: https://t.me/joinchat/rRuD6Bo23Ic2YTA0
+Nome: Urban Planning and Policy Design - Pianificazione Urbana e Politiche Territoriali
+
+Success: N
+IdLink: FNGD_0ReljlJ3wvJLuzwcw
+NewLink: [null]
+Nome: Urbanistica: Città Ambiente Paesaggio
+
+Success: S
+IdLink: LclXl0ZmGvafiltB3AJm6A
+NewLink: https://t.me/joinchat/Eclu4oqM3cRlMGE0
+Nome: Architectural Design and History - Progettazione Architettonica e Storia
+
+Success: S
+IdLink: LclXl1IJ91I6nKUlMzxEOg
+NewLink: https://t.me/joinchat/yHtOVQRklXc2MjVk
+Nome: Architettura - Architettura delle Costruzioni
+
+Success: S
+IdLink: LclXl06PNXEREYol6h6xew
+NewLink: https://t.me/joinchat/_0Qbyk3xxW5lZTJk
+Nome: Architettura e Disegno Urbano - Architecture and Urban Design
+
+Success: S
+IdLink: LclXl07Nwnzf7XCQYGhglQ
+NewLink: https://t.me/joinchat/7onQn0URo6pmZmQ0
+Nome: Architettura-Ambiente Costruito-Interni- Architecture-Built Environment-Interiors
+
+Success: S
+IdLink: FNGD_0NzRZYj8s4bea8B6A
+NewLink: https://t.me/joinchat/yoV2msK6zF0xMTdk
+Nome: Automation and Control Engineering - Ingegneria dell'Automazione
+
+Success: S
+IdLink: LclXl0-UI8vDrqBwJRNS9A
+NewLink: https://t.me/joinchat/8GbD19Zj6PE1NDc0
+Nome: Biomedical Engineering - Ingegneria Biomedica
+
+Success: S
+IdLink: FNGD_0TY4QbgJLT0aE4iOA
+NewLink: https://t.me/joinchat/72kSH_oo1M9jMDA0
+Nome: Building andArchitectural Engineering
+
+Success: S
+IdLink: FNGD_0uk4BgesPjp8ufXrg
+NewLink: https://t.me/joinchat/f-zQHZEncswxNzE0
+Nome: Building andArchitectural Engineering
+
+Success: S
+IdLink: FNGD_0rr8rw-CHenef9_-Q
+NewLink: https://t.me/joinchat/IRk4cCwrF5c4ZGI0
+Nome: Civil Engineering for Risk Mitigation
+
+Success: S
+IdLink: LclXl0S-KV2UeD-0upD0lA
+NewLink: https://t.me/joinchat/CZeX3DQ0QGY0ZGVk
+Nome: Computer Science and Engineering - Ingegneria Informatica
+
+Success: N
+IdLink: FNGD_0LtgPj5YEY5vhSzww
+NewLink: [null]
+Nome: Design & Engineering - Progetto e ingegnerizzazione del prodotto industriale
+
+Success: S
+IdLink: FNGD_0LnsxgsumWvlkRzzQ
+NewLink: https://t.me/joinchat/uYwkxpq1JSdjMDI8
+Nome: Design degli Interni
+
+Success: N
+IdLink: FNGD_0QmBkbnaQcsF7bOfg
+NewLink: [null]
+Nome: Design del Prodotto Industriale
+
+Success: S
+IdLink: FNGD_1CeuohFFXq2S4h2RA
+NewLink: https://t.me/joinchat/mbVIb_EmxWZiY2I8
+Nome: Design della Comunicazione
+
+Success: S
+IdLink: FNGD_0RCCLAztsLSEvrCfg
+NewLink: https://t.me/joinchat/O17v-XIyV9M3MGM8
+Nome: Design della Comunicazione
+
+Success: S
+IdLink: FNGD_0K-mWdVg8tHqZm4yw
+NewLink: https://t.me/joinchat/-NLI6ofSk0M4MjY0
+Nome: Design della Moda
+
+Success: S
+IdLink: LclXl0TdNs2FxeyWiKNVRQ
+NewLink: https://t.me/joinchat/YvJ93znD1HJiYThk
+Nome: Design for the Fashion System - Design per il sistema Moda
+
+Success: N
+IdLink: FNGD_0zyL5pxr_3JMj26dQ
+NewLink: [null]
+Nome: Digital and Interaction Design MAGISTRALE Digital and Interaction Design
+
+Success: S
+IdLink: LclXl0Tev6xZxkgniaczDg
+NewLink: https://t.me/joinchat/bHfg7ZkBpAk3MjY0
+Nome: Electrical Engineering - Ingegneria Elettrica
+
+Success: S
+IdLink: LclXl0fyYRUUP2HA65ZhTQ
+NewLink: https://t.me/joinchat/uVA0Q_u5PeowYWE0
+Nome: Electronics Engineering - Ingegneria Elettronica
+
+Success: S
+IdLink: LclXl0najzAynyScy0ZCew
+NewLink: https://t.me/joinchat/CtPzfH_St7VmY2U0
+Nome: Engineering Physics - Ingegneria Fisica
+
+Success: S
+IdLink: LclXl0bbu1ZPOwwAQefdqQ
+NewLink: https://t.me/joinchat/ntetAt8467A3ZTM0
+Nome: Geoinformatics Engineering - Ingegneria Geoinformatica
+
+Success: N
+IdLink: PoliGruppo
+NewLink: [null]
+Nome: Gruppo generaleTelegram
+
+Success: N
+IdLink: FNGD_1ZRDqqhZqDG7FF0Ew
+NewLink: [null]
+Nome: Ingegneria Aerospaziale 20-21
+
+Success: S
+IdLink: FNGD_06bewA86Rgdv-QkWA
+NewLink: https://t.me/joinchat/GGA0bX80kKo5NmJk
+Nome: Ingegneria Biomedica
+
+Success: S
+IdLink: LclXl0KnsKK0aCEqqx6DBw
+NewLink: https://t.me/joinchat/jNRDMBuV25AzZWNk
+Nome: Ingegneria Civile
+
+Success: S
+IdLink: LclXl1K6vpBAVMyf8mmdjA
+NewLink: https://t.me/joinchat/Msrk9H4tlnZlMzBk
+Nome: Ingegneria Civile - Civil Engineering
+
+Success: S
+IdLink: FNGD_1NmGT0-3DnV7TdljA
+NewLink: https://t.me/joinchat/hre0LzXDbFY2NmY0
+Nome: Ingegneria Civile per la mitigazione del rischio
+
+Success: N
+IdLink: FNGD_0O3QfflrGbKxr3Z4Q
+NewLink: [null]
+Nome: Ingegneria Edile - Architettura (Corso a ciclo unico)
+
+Success: N
+IdLink: FNGD_0OmMa35yy89WUtDLA
+NewLink: [null]
+Nome: Ingegneria Edile edelle Costruzioni
+
+Success: S
+IdLink: FNGD_z7bIq3q_ij3TBOBsA
+NewLink: https://t.me/joinchat/963if-ZEQaljNzlk
+Nome: Ingegneria Elettrica
+
+Success: S
+IdLink: FNGD_0R4OYmddrFsGHw37w
+NewLink: https://t.me/joinchat/JMSimmKoUs8wYWRk
+Nome: Ingegneria Elettronica
+
+Success: S
+IdLink: FNGD_z_bEwUWy77fdw5dCQ
+NewLink: https://t.me/joinchat/7y0bQB7FLpRiODBk
+Nome: Ingegneria Energetica
+
+Success: S
+IdLink: FNGD_03zDndw2-aNSuBKTA
+NewLink: https://t.me/joinchat/IZihMd34ybY2Y2E8
+Nome: Ingegneria Fisica
+
+Success: S
+IdLink: FNGD_0wRkuE4cfoKa3am8Q
+NewLink: https://t.me/joinchat/5hpna12vEDJiZWE0
+Nome: Ingegneria Gestionale
+
+Success: S
+IdLink: FNGD_0VLZ7chKraXQk8-tg
+NewLink: https://t.me/joinchat/PBxpmcNprV0yZDFk
+Nome: Ingegneria Gestionale
+
+Success: S
+IdLink: AFY9TUjxpwWpETqcN2IjRA
+NewLink: https://t.me/joinchat/enG5AhsI6xUyODhk
+Nome: Ingegneria Informatica
+
+Success: S
+IdLink: AFY9TUjxpwWpETqcN2IjRA
+NewLink: https://t.me/joinchat/YKnVIDo82kFjZjhk
+Nome: Ingegneria Informatica
+
+Success: S
+IdLink: LclXl0PLDCWN-Nd7ZucUrw
+NewLink: https://t.me/joinchat/qJQHbh5kapJkYjg0
+Nome: Ingegneria Matematica
+
+Success: S
+IdLink: FNGD_0GpRUc3JsDEeu5Omw
+NewLink: https://t.me/joinchat/3ixnMIjZOq8zMzY0
+Nome: Ingegneria Meccanica
+
+Success: S
+IdLink: FNGD_0GpRUc3JsDEeu5Omw
+NewLink: https://t.me/joinchat/3vCKZmRTGKIxMDQ8
+Nome: Ingegneria Meccanica
+
+Success: S
+IdLink: LclXl0MRrTDRi8sjFF76PA
+NewLink: https://t.me/joinchat/bhddgdmIjd40ZDBk
+Nome: Ingegneria dei Materiali e delle Nanotecnologie
+
+Success: S
+IdLink: FNGD_1AdWFUhtdXZtiQnEA
+NewLink: https://t.me/joinchat/ANzrF6b1l7Q1NDZk
+Nome: Ingegneria dei Sistemi Edilizi
+
+Success: S
+IdLink: FNGD_0PW1YA5q4BTAy0YfA
+NewLink: https://t.me/joinchat/8twMFGPljD8zM2U0
+Nome: Ingegneria dell'Automazione
+
+Success: S
+IdLink: FNGD_0xvBiXWhrME7EHeGg
+NewLink: https://t.me/joinchat/wBztdlo3YGM1NTA0
+Nome: Ingegneria della Prevenzione e della Sicurezza nell'industria di processo
+
+Success: S
+IdLink: LclXl0RxBr-nLsc12zzuzQ
+NewLink: https://t.me/joinchat/lJX3AMUbMSA5OTZk
+Nome: Ingegneria della Produzione Industriale
+
+Success: S
+IdLink: FNGD_xdC8fUBMXBlNFqiKA
+NewLink: https://t.me/joinchat/t3scfvCsDUs2MTU0
+Nome: Ingegneria per l'Ambiente e il Territorio
+
+Success: S
+IdLink: FNGD_0VHaRr7tb-g2a-uyw
+NewLink: https://t.me/joinchat/ZdWxTgXQUX5hNzM0
+Nome: Ingegneria per l'Ambiente e il Territorio - Environmental and Land Planning Engineering
+
+Success: S
+IdLink: FNGD_01YiUGk6Ax1MdQvow
+NewLink: https://t.me/joinchat/eUEA8XwRol1hNmE0
+Nome: Integrated Product Design
+
+Success: S
+IdLink: VhQPHSkRWhfpmHl8
+NewLink: https://t.me/joinchat/GLZRU4-5jL9kNGVk
+Nome: Interior and Spatial Design
+
+Success: S
+IdLink: FNGD_0XYw2nKXn8A_K8m9g
+NewLink: https://t.me/joinchat/84360q6pp3AwNWI0
+Nome: Landscape Architecture Land Landscape Heritage
+
+Success: S
+IdLink: LclXl06MBi0HtNv6RCXFyg
+NewLink: https://t.me/joinchat/tEwMqTGGN7o0ZWNk
+Nome: Management Engineering - Ingegneria Gestionale
+
+Success: S
+IdLink: LclXl1IiCD7go6TYFc1rgA
+NewLink: https://t.me/joinchat/ApeNXUQeh083MmE0
+Nome: Management of Built Environment - Gestione del Costruito
+
+Success: S
+IdLink: LclXl098pv8MaPj9SoPzxQ
+NewLink: https://t.me/joinchat/RdODZ1F8xS84Yzlk
+Nome: Materials Engineering and Nanotechnology - Ingegneria dei Materiali e delle Nanotecnologie
+
+Success: S
+IdLink: LclXl0idUO1yDJ3MT8O4zQ
+NewLink: https://t.me/joinchat/MAoTWt_vb0RhMmI0
+Nome: Mathematical Engineering - Ingegneria Matematica
+
+Success: S
+IdLink: LclXl0sDTz-XnAfDERapyA
+NewLink: https://t.me/joinchat/1LSdLBzSHecwMDJk
+Nome: Mechanical Engineering - Ingegneria Meccanica
+
+Success: S
+IdLink: VGfUSnWxwk29ZzY6
+NewLink: https://t.me/joinchat/7HdeXt87WA8zOGQ0
+Nome: Mobility Engineering
+
+Success: S
+IdLink: FNGD_0ZfXU3ePztw_o7v8w
+NewLink: https://t.me/joinchat/THK0Ft1squQyNWI0
+Nome: Music & Acoustic Engineering
+
+Success: S
+IdLink: LclXl0bT9Nz6N8eHD7yO0Q
+NewLink: https://t.me/joinchat/4QqWxmkMg3tjODM0
+Nome: Nuclear Engineering - Ingegneria Nucleare
+
+Success: N
+IdLink: FNGD_0Lv1_M8UJ7E_JAwBQ
+NewLink: [null]
+Nome: Progettazionedell'Architettura
+
+Success: N
+IdLink: FNGD_0Lv1_M8UJ7E_JAwBQ
+NewLink: [null]
+Nome: Progettazionedell'Architettura
+
+Success: N
+IdLink: FNGD_0Lv1_M8UJ7E_JAwBQ
+NewLink: [null]
+Nome: Progettazionedell'Architettura
+
+Success: S
+IdLink: LclXl0cpEf1ylR4JGS8GEw
+NewLink: https://t.me/joinchat/4xNdDhJmY7AzODBk
+Nome: Sustainable Architecture and Landscape Design - Architettura Sostenibile e Progetto del Paesaggio
+
+Success: S
+IdLink: LclXl0m5QrT1YiF1ZA6urQ
+NewLink: https://t.me/joinchat/6VB1gZQ15c5iYzA0
+Nome: Urban Planning and Policy Design - Pianificazione Urbana e Politiche Territoriali
+
+Success: N
+IdLink: FNGD_0ReljlJ3wvJLuzwcw
+NewLink: [null]
+Nome: Urbanistica: Citt?? Ambiente Paesaggio
+
+Success: S
+IdLink: FNGD_0ZmGva3pZTaJVXovA
+NewLink: https://t.me/joinchat/Mu__fC9ehR82MWRk
+Nome: Architectural Design and History - Progettazione Architettonica e Storia
+
+Success: S
+IdLink: FNGD_1IJ91IBH7n1bwlllQ
+NewLink: https://t.me/joinchat/LuGaisWcF2UwYTQ0
+Nome: Architettura - Architettura delle Costruzioni
+
+Success: S
+IdLink: FNGD_06PNXEMoN8A3w4g0w
+NewLink: https://t.me/joinchat/6EzHr-6c-4FkYmI0
+Nome: Architettura e Disegno Urbano - Architecture and Urban Design
+
+Success: S
+IdLink: FNGD_07NwnztY2nw2s2Scg
+NewLink: https://t.me/joinchat/fLAYeViruoQyOGY0
+Nome: Architettura-Ambiente Costruito-Interni- Architecture-Built Environment-Interiors
+
+Success: S
+IdLink: FNGD_0NzRZYj8s4bea8B6A
+NewLink: https://t.me/joinchat/VbjSu6Gy6kM5Zjc0
+Nome: Automation and Control Engineering - Ingegneria dell'Automazione
+
+Success: S
+IdLink: FNGD_0-UI8tp1Zdhk6aD2Q
+NewLink: https://t.me/joinchat/8ZU30PkG8OthZWM0
+Nome: Biomedical Engineering - Ingegneria Biomedica
+
+Success: S
+IdLink: FNGD_0TY4QbgJLT0aE4iOA
+NewLink: https://t.me/joinchat/5kjzOpnY1Iw2NTY0
+Nome: Building andArchitectural Engineering
+
+Success: S
+IdLink: FNGD_0uk4BgesPjp8ufXrg
+NewLink: https://t.me/joinchat/zSZiVbYu6QRhZjNk
+Nome: Building andArchitectural Engineering
+
+Success: S
+IdLink: LclXl1B_WsjhkY87ScSTZA
+NewLink: https://t.me/joinchat/S8Ot00CIaHNjMDg0
+Nome: Chemical Engineering - Ingegneria Chimica
+
+Success: S
+IdLink: FNGD_0rr8rw-CHenef9_-Q
+NewLink: https://t.me/joinchat/Vaneif4nhFpiNzQ0
+Nome: Civil Engineering for Risk Mitigation
+
+Success: S
+IdLink: FNGD_0S-KV2az9KUquMgxg
+NewLink: https://t.me/joinchat/TjPsLtN4HHUzNmI8
+Nome: Computer Science and Engineering - Ingegneria Informatica
+
+Success: N
+IdLink: FNGD_0LtgPj5YEY5vhSzww
+NewLink: [null]
+Nome: Design & Engineering - Progetto e ingegnerizzazione del prodotto industriale
+
+Success: S
+IdLink: FNGD_0LnsxgsumWvlkRzzQ
+NewLink: https://t.me/joinchat/3NsdgUP5R980ZjFk
+Nome: Design degli Interni
+
+Success: N
+IdLink: FNGD_0QmBkbnaQcsF7bOfg
+NewLink: [null]
+Nome: Design del Prodotto Industriale
+
+Success: S
+IdLink: FNGD_1CeuohFFXq2S4h2RA
+NewLink: https://t.me/joinchat/IRvIM5WlDmk5ZDA0
+Nome: Design della Comunicazione
+
+Success: S
+IdLink: FNGD_0RCCLAztsLSEvrCfg
+NewLink: https://t.me/joinchat/08ThIDMZ1hVkZWVk
+Nome: Design della Comunicazione
+
+Success: S
+IdLink: FNGD_0K-mWdVg8tHqZm4yw
+NewLink: https://t.me/joinchat/nWgOSDSapqJkYzFk
+Nome: Design della Moda
+
+Success: S
+IdLink: FNGD_0TdNs1kHHOS4KqxMQ
+NewLink: https://t.me/joinchat/pHtjd_HjdpswOGM0
+Nome: Design for the Fashion System - Design per il sistema Moda
+
+Success: N
+IdLink: FNGD_0zyL5pxr_3JMj26dQ
+NewLink: [null]
+Nome: Digital and Interaction Design
+
+Success: S
+IdLink: FNGD_0Tev6xqR5UE9u870g
+NewLink: https://t.me/joinchat/wMNu_WG_ZssyODQ0
+Nome: Electrical Engineering - Ingegneria Elettrica
+
+Success: S
+IdLink: FNGD_0fyYRWsqw54DR7O5A
+NewLink: https://t.me/joinchat/Q8sS6Rvw3LE0M2M8
+Nome: Electronics Engineering - Ingegneria Elettronica
+
+Success: S
+IdLink: FNGD_02YhQ-Wmt4X1bJEqw
+NewLink: https://t.me/joinchat/bfvrRX3-dS0xYTlk
+Nome: Energy Engineering - Ingegneria Energetica
+
+Success: S
+IdLink: LclXl0cpUwj3ib08DDxGbQ
+NewLink: https://t.me/joinchat/xwWcGFs02RFmODhk
+Nome: Energy Engineering - Ingegneria Energetica
+
+Success: S
+IdLink: FNGD_0najzCHWSNwl4OlIg
+NewLink: https://t.me/joinchat/-zwLwQXnSuJlOTg0
+Nome: Engineering Physics - Ingegneria Fisica
+
+Success: S
+IdLink: FNGD_0bbu1ascxQNiEzULg
+NewLink: https://t.me/joinchat/Jb0oYkCnPmY0MzZk
+Nome: Geoinformatics Engineering - Ingegneria Geoinformatica
+
+Success: N
+IdLink: PoliGruppo
+NewLink: [null]
+Nome: Gruppo generaleTelegram
+
+Success: S
+IdLink: FNGD_1ZRDqqhZqDG7FF0Ew
+NewLink: https://t.me/joinchat/gKlhYQ9ZQPs3OGNk
+Nome: Ingegneria Aerospaziale
+
+Success: S
+IdLink: FNGD_06bewA86Rgdv-QkWA
+NewLink: https://t.me/joinchat/OpVVlxgsfVljNzE0
+Nome: Ingegneria Biomedica
+
+Success: S
+IdLink: FNGD_0OBIhw6jzQOuuxC_Q
+NewLink: https://t.me/joinchat/fx9lNuyLsDFjNDk0
+Nome: Ingegneria Chimica
+
+Success: S
+IdLink: FNGD_0KnsKLoudaP6zz8bA
+NewLink: https://t.me/joinchat/KrIQPwlSqillYjI0
+Nome: Ingegneria Civile
+
+Success: S
+IdLink: FNGD_1K6vpAYrRc60AckJQ
+NewLink: https://t.me/joinchat/R-4iDOadjH01ZjU8
+Nome: Ingegneria Civile - Civil Engineering
+
+Success: S
+IdLink: FNGD_1NmGT0-3DnV7TdljA
+NewLink: https://t.me/joinchat/KC1xUs4IlHJjNWVk
+Nome: Ingegneria Civile per la mitigazione del rischio
+
+Success: N
+IdLink: FNGD_0O3QfflrGbKxr3Z4Q
+NewLink: [null]
+Nome: Ingegneria Edile - Architettura (Corso a ciclo unico)
+
+Success: N
+IdLink: FNGD_0OmMa35yy89WUtDLA
+NewLink: [null]
+Nome: Ingegneria Edile edelle Costruzioni
+
+Success: S
+IdLink: FNGD_z7bIq3q_ij3TBOBsA
+NewLink: https://t.me/joinchat/kEoqxBQH1jo0MjU0
+Nome: Ingegneria Elettrica
+
+Success: S
+IdLink: FNGD_0R4OYmddrFsGHw37w
+NewLink: https://t.me/joinchat/VMiBewhqUplmN2E0
+Nome: Ingegneria Elettronica
+
+Success: S
+IdLink: FNGD_z_bEwUWy77fdw5dCQ
+NewLink: https://t.me/joinchat/O6ZVteznFxhhZjZk
+Nome: Ingegneria Energetica
+
+Success: S
+IdLink: FNGD_03zDndw2-aNSuBKTA
+NewLink: https://t.me/joinchat/KSszN-S8hoE0NjQ8
+Nome: Ingegneria Fisica
+
+Success: S
+IdLink: FNGD_0wRkuE4cfoKa3am8Q
+NewLink: https://t.me/joinchat/bixB0kTwsjs0ODZk
+Nome: Ingegneria Gestionale
+
+Success: S
+IdLink: FNGD_0VLZ7chKraXQk8-tg
+NewLink: https://t.me/joinchat/u1FjdejNXP82ZTNk
+Nome: Ingegneria Gestionale
+
+Success: N
+IdLink: AFY9TUjxpwWpETqcN2IjRA
+NewLink: [null]
+Nome: Ingegneria Informatica GENERALE
+
+Success: N
+IdLink: AFY9TUjxpwWpETqcN2IjRA
+NewLink: [null]
+Nome: Ingegneria Informatica GENERALE
+
+Success: S
+IdLink: FNGD_0PLDCVN6DwzWPpDWA
+NewLink: https://t.me/joinchat/3IQol-ZqDjIxZjE0
+Nome: Ingegneria Matematica
+
+Success: S
+IdLink: FNGD_0GpRUc3JsDEeu5Omw
+NewLink: https://t.me/joinchat/1ZhtQ-CUpzkwY2E0
+Nome: Ingegneria Meccanica
+
+Success: S
+IdLink: FNGD_0GpRUc3JsDEeu5Omw
+NewLink: https://t.me/joinchat/-iKpfs-tYYRhZDQ0
+Nome: Ingegneria Meccanica
+
+Success: S
+IdLink: FNGD_0MRrTDLoQ8oXnwO6w
+NewLink: https://t.me/joinchat/4_Ej99xaptZmMTg0
+Nome: Ingegneria dei Materiali e delle Nanotecnologie
+
+Success: S
+IdLink: FNGD_1AdWFUhtdXZtiQnEA
+NewLink: https://t.me/joinchat/XLJApCL-ubg4NGJk
+Nome: Ingegneria dei Sistemi Edilizi
+
+Success: S
+IdLink: FNGD_0PW1YA5q4BTAy0YfA
+NewLink: https://t.me/joinchat/qupA3QUD4102YWE0
+Nome: Ingegneria dell'Automazione
+
+Success: S
+IdLink: FNGD_0xvBiXWhrME7EHeGg
+NewLink: https://t.me/joinchat/-g4eHnrqY105NzY0
+Nome: Ingegneria della Prevenzione e della Sicurezza nell'industria di processo
+
+Success: S
+IdLink: FNGD_0RxBr_84chniRAvyA
+NewLink: https://t.me/joinchat/t2ay4DhtG64zMGRk
+Nome: Ingegneria della Produzione Industriale
+
+Success: S
+IdLink: FNGD_xdC8fUBMXBlNFqiKA
+NewLink: https://t.me/joinchat/JleupLZouBswMWRk
+Nome: Ingegneria per l'Ambiente e il Territorio
+
+Success: S
+IdLink: FNGD_0VHaRr7tb-g2a-uyw
+NewLink: https://t.me/joinchat/Cmt3q7fJP39iNDk8
+Nome: Ingegneria per l'Ambiente e il Territorio - Environmental and Land Planning Engineering
+
+Success: N
+IdLink: FNGD_01YiUGk6Ax1MdQvow
+NewLink: [null]
+Nome: Integrated Product Design Product Service System Design - Design per il sistema prodotto Servizio
+
+Success: S
+IdLink: VhQPHcOjOFrILE0w
+NewLink: https://t.me/joinchat/gofQF4mhSok0OTY0
+Nome: Interior and Spatial Design
+
+Success: S
+IdLink: FNGD_0XYw2nKXn8A_K8m9g
+NewLink: https://t.me/joinchat/ZpYr6EPHzotlZjY0
+Nome: Landscape Architecture Land Landscape Heritage
+
+Success: S
+IdLink: FNGD_06MBi1LxVlmBQJl3Q
+NewLink: https://t.me/joinchat/9O3ldYX5ihs4NzRk
+Nome: Management Engineering - Ingegneria Gestionale
+
+Success: S
+IdLink: FNGD_1IiCD4XTy9QqbAwvg
+NewLink: https://t.me/joinchat/RV9I3mih03A2Njdk
+Nome: Management of Built Environment - Gestione del Costruito
+
+Success: S
+IdLink: FNGD_098pv8vZmn17AaFqA
+NewLink: https://t.me/joinchat/i9Z25Ky4b5RjYmFk
+Nome: Materials Engineering and Nanotechnology - Ingegneria dei Materiali e delle Nanotecnologie
+
+Success: S
+IdLink: FNGD_0idUO3AMzsqu9KSaw
+NewLink: https://t.me/joinchat/m8Ie4T4bxfNkZjM0
+Nome: Mathematical Engineering - Ingegneria Matematica
+
+Success: S
+IdLink: FNGD_0sDTz-2La-pQ4X51Q
+NewLink: https://t.me/joinchat/RrIL8NsDiphmYzM0
+Nome: Mechanical Engineering - Ingegneria Meccanica
+
+Success: S
+IdLink: LclXl0cXknob3BbtCqHJ3w
+NewLink: https://t.me/joinchat/BZ4aE99-dOA4MzE0
+Nome: Mechanical Engineering - Ingegneria Meccanica
+
+Success: S
+IdLink: FNGD_1Rn1Er8ygZ0-fHoyw
+NewLink: https://t.me/joinchat/VLQkyU9irC5kOTU0
+Nome: Mobility Engineering
+
+Success: S
+IdLink: FNGD_0ZfXU3ePztw_o7v8w
+NewLink: https://t.me/joinchat/eAIBQdCod_BiOWI0
+Nome: Music & Acoustic Engineering
+
+Success: S
+IdLink: FNGD_0bT9Nxo7IzBd2SQBg
+NewLink: https://t.me/joinchat/mlspMGz5b2BiNTVk
+Nome: Nuclear Engineering - Ingegneria Nucleare
+
+Success: S
+IdLink: FNGD_0voenZLfecFdbigSw
+NewLink: https://t.me/joinchat/wCBzE66XgCZlYzM0
+Nome: ONLINE
+
+Success: N
+IdLink: [EMPTY]
+NewLink: [null]
+Nome: Polimi International Students 2021/2022
+
+Success: S
+IdLink: LclXl0mXyHWylPEH0KZ4Zw
+NewLink: https://t.me/joinchat/DRVKtg0f0vA1MWM0
+Nome: Polimi Matricole 2021/2022
+
+Success: N
+IdLink: FNGD_0Lv1_M8UJ7E_JAwBQ
+NewLink: [null]
+Nome: Progettazionedell'Architettura
+
+Success: N
+IdLink: FNGD_0Lv1_M8UJ7E_JAwBQ
+NewLink: [null]
+Nome: Progettazionedell'Architettura
+
+Success: N
+IdLink: FNGD_0Lv1_M8UJ7E_JAwBQ
+NewLink: [null]
+Nome: Progettazionedell'Architettura
+
+Success: S
+IdLink: SgJOSHILTSqhAF5C
+NewLink: https://t.me/joinchat/Wb1t4azMJJI1N2I8
+Nome: Space Engineering - Ingegneria Spaziale
+
+Success: S
+IdLink: FNGD_0cpEf3Ir0BOnFdTnA
+NewLink: https://t.me/joinchat/bI3ArxmBccBkMzJk
+Nome: Sustainable Architecture and Landscape Design - Architettura Sostenibile e Progetto del Paesaggio
+
+Success: S
+IdLink: LclXl1LJp1eCEVY2AALohA
+NewLink: https://t.me/joinchat/_ru9Zga_qJhkZTg0
+Nome: Telecommunication Engineering - Ingegneria delle Telecomunicazioni
+
+Success: S
+IdLink: FNGD_0m5QrTb0NI69Cpnhw
+NewLink: https://t.me/joinchat/Z2gHbIqPqYFlMzhk
+Nome: Urban Planning and Policy Design - Pianificazione Urbana e Politiche Territoriali
+
+Success: N
+IdLink: FNGD_0ReljlJ3wvJLuzwcw
+NewLink: [null]
+Nome: Urbanistica: Città Ambiente Paesaggio
+
