@@ -187,6 +187,22 @@ function genHtml(data){
 	
 }
 
+function compareType(a,b){
+	switch(a.type)
+	{
+		case "G":
+			return -1;
+	}
+
+	switch(b.type)
+	{
+		case "G":
+			return 1;
+	}
+
+	return 0;
+}
+
 function showSearchResults(data){
   document.getElementById("searchResult").innerHTML = "";
   document.getElementById("error_search").innerHTML = "";
@@ -201,7 +217,8 @@ function showSearchResults(data){
 		return unique;
 	},[]);
 		  
-	data = data3.slice(0, 10)
+	data = data3.sort((a,b) => compareType(a,b))
+		  .slice(0, 20)
 		  .sort((a, b) => a.class.toLowerCase().localeCompare(b.class))
 		  .map(applyMapping)
 		  .map(genHtml)
