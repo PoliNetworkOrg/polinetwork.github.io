@@ -22,6 +22,14 @@ function updateSearch(){
 	else if ($('#triennale_o_magistrale_unico').is(':checked'))
 		degree = 'LU';
 
+	var piattaforma = null;
+		if ($('#scegli_piattaforma_wa').is(':checked'))
+			piattaforma = 'WA';
+		else if ($('#scegli_piattaforma_fb').is(':checked'))
+			piattaforma = 'FB';
+		else if ($('#scegli_piattaforma_tg').is(':checked'))
+			piattaforma = 'TG';
+
 	window.worker.postMessage({
 		op_id: "",
 		op_type: "search",
@@ -32,6 +40,7 @@ function updateSearch(){
 				type: type,
 				degree: degree,
 				linkfunzionante: "Y",
+				platform: piattaforma
 			},
 			join: "AND",
 			limit: -1
@@ -48,6 +57,11 @@ function parseSearchResponse(data){
 		document.getElementById("triennale_o_magistrale_magistrale").onchange = updateSearch;
 		document.getElementById("triennale_o_magistrale_unico").onchange = updateSearch;
 		document.getElementById("triennale_o_magistrale_all").onchange = updateSearch;
+
+		document.getElementById("scegli_piattaforma_all").onchange = updateSearch;
+		document.getElementById("scegli_piattaforma_wa").onchange = updateSearch;
+		document.getElementById("scegli_piattaforma_fb").onchange = updateSearch;
+		document.getElementById("scegli_piattaforma_tg").onchange = updateSearch;
 		
 		document.getElementById("tipo_gruppo_s").onchange = updateSearch;
 		document.getElementById("tipo_gruppo_c").onchange = updateSearch;
@@ -60,6 +74,11 @@ function parseSearchResponse(data){
 		document.getElementById("triennale_o_magistrale_magistrale").disabled = false;
 		document.getElementById("triennale_o_magistrale_unico").disabled = false;
 		document.getElementById("triennale_o_magistrale_all").disabled = false;
+
+		document.getElementById("tipo_gruppo_s").disabled = false;
+		document.getElementById("tipo_gruppo_c").disabled = false;
+		document.getElementById("tipo_gruppo_e").disabled = false;
+		document.getElementById("tipo_gruppo_a").disabled = false;
 		
 		document.getElementById("tipo_gruppo_s").disabled = false;
 		document.getElementById("tipo_gruppo_c").disabled = false;
@@ -86,6 +105,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	document.getElementById("triennale_o_magistrale_magistrale").disabled = true;
 	document.getElementById("triennale_o_magistrale_unico").disabled = true;
 	document.getElementById("triennale_o_magistrale_all").disabled = true;
+
+	document.getElementById("scegli_piattaforma_all").disabled = true;
+	document.getElementById("scegli_piattaforma_wa").disabled = true;
+	document.getElementById("scegli_piattaforma_fb").disabled = true;
+	document.getElementById("scegli_piattaforma_tg").disabled = true;
 	
 	document.getElementById("tipo_gruppo_s").disabled = true;
 	document.getElementById("tipo_gruppo_c").disabled = true;
