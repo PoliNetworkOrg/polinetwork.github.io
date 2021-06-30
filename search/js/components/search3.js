@@ -220,6 +220,7 @@ function showSearchResults(data){
 	data = data3.sort((a,b) => compareType(a,b))
 		  .slice(0, 20)
 		  .sort((a, b) => a.class.toLowerCase().localeCompare(b.class))
+		  .sort((a,b) => compareType(a,b))
 		  .map(applyMapping)
 		  .map(genHtml)
 		  .join("");
