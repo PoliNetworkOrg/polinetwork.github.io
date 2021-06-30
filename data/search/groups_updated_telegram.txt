@@ -41,20 +41,14 @@ PermanentId: null
 Nome: Algoritmi e principi dell''informatica
 
 Success: S
-IdLink: LclXl03WEFhvyxHs643zVA
-NewLink: https://t.me/joinchat/4yDckjCXMQliNDZk
-PermanentId: -1001305874520
-Nome: Ambient and data Intelligence TRACK MAGISTRALE
-
-Success: S
 IdLink: TdYQWLM2ybQXGhUR
-NewLink: https://t.me/joinchat/Wb3bG8flrwNkZmI0
+NewLink: https://t.me/joinchat/01ohxXxYXU44ZmJk
 PermanentId: -1001305874520
 Nome: Ambient and data Intelligence TRACK MAGISTRALE
 
 Success: S
 IdLink: oiPNyGIulhkxZWVk
-NewLink: https://t.me/joinchat/fNicnWhU56RiOTM0
+NewLink: https://t.me/joinchat/_MBZ04cdJEVhYjA0
 PermanentId: -1001305874520
 Nome: Ambient and data Intelligence TRACK MAGISTRALE
 
@@ -65,20 +59,14 @@ PermanentId: -482720020
 Nome: Antennas
 
 Success: S
-IdLink: LclXl1H4gb_IlRYci4Ezag
-NewLink: https://t.me/joinchat/VkCtjAFKlLlhMGY0
-PermanentId: -1001375240639
-Nome: Artificial Intelligence and Machine Learning TRACK MAGISTRALE
-
-Success: S
 IdLink: UfiBv0BDTO8aseh0
-NewLink: https://t.me/joinchat/Fe9syqfnRRZkZDU8
+NewLink: https://t.me/joinchat/ojxtfeHEafo4MjY0
 PermanentId: -1001375240639
 Nome: Artificial Intelligence and Machine Learning TRACK MAGISTRALE
 
 Success: S
 IdLink: bqPXGhYfZa4zZmI0
-NewLink: https://t.me/joinchat/A_UCc-PkIJgyMzI0
+NewLink: https://t.me/joinchat/YLJdRwyrqKcyMTBk
 PermanentId: -1001375240639
 Nome: Artificial Intelligence and Machine Learning TRACK MAGISTRALE
 
@@ -96,7 +84,7 @@ Nome: Automation and Control Engineering - Ingegneria dell''Automazione
 
 Success: S
 IdLink: xTorQ3tr9slkYzhk
-NewLink: https://t.me/joinchat/E1o9dJIqRmYzMDg0
+NewLink: https://t.me/joinchat/E5sK-msNwBZkMTJk
 PermanentId: -1001334114901
 Nome: BASI DI DATI ~ P-ZZZ
 
@@ -108,37 +96,31 @@ Nome: BLOCKCHAIN AND DISTRIBUTED LEDGER TECHNOLOGIES: PRINCIPLES, APPLICATIONS, 
 
 Success: S
 IdLink: VfcFmae1V2msGNLb
-NewLink: https://t.me/joinchat/HwQEcf7GNwE5YzM0
+NewLink: https://t.me/joinchat/76IoCR33CJs0M2Jk
 PermanentId: -1001442252185
 Nome: Big Data and Data Science TRACK MAGISTRALE
 
 Success: S
 IdLink: SHWhKMOMe_BTMXIG
-NewLink: https://t.me/joinchat/_FiYC9kzyBMzZTU0
+NewLink: https://t.me/joinchat/e3GMiPSphbJjYTQ0
 PermanentId: -1001215668520
 Nome: Bioinformatics and e-health TRACK MAGISTRALE
 
 Success: S
-IdLink: S6TgGOG2uexAeRYY
-NewLink: https://t.me/joinchat/9NEwtnZa-u80OGZk
-PermanentId: -1001269096472
-Nome: Building andArchitectural Engineering MAGISTRALE
-
-Success: S
 IdLink: efqPuLmDmEthMzRk
-NewLink: https://t.me/joinchat/8jnCRM1SnXsyMDE0
+NewLink: https://t.me/joinchat/FGnUC_EEbnpjOTVk
 PermanentId: -1001269096472
 Nome: Building andArchitectural Engineering MAGISTRALE
 
 Success: S
 IdLink: VzFscIuYUtk6sJIP
-NewLink: https://t.me/joinchat/R670PjdKtkFmYmRk
+NewLink: https://t.me/joinchat/R1zBKuqagZUyZjI0
 PermanentId: -1001462856816
 Nome: Business informatics, analytics and intelligence TRACK MAGISTRALE
 
 Success: S
 IdLink: zWE2EG2PPzI5YjRk
-NewLink: https://t.me/joinchat/BuAiXf6__PtkNWQ0
+NewLink: https://t.me/joinchat/ncJBMdCQ1kQyZTFk
 PermanentId: -1001462856816
 Nome: Business informatics, analytics and intelligence TRACK MAGISTRALE
 
@@ -162,25 +144,19 @@ Nome: Corso di Tedesco
 
 Success: S
 IdLink: TyA-yFjYmLm8TuTF
-NewLink: https://t.me/joinchat/fMbSoYOeJH85NGFk
+NewLink: https://t.me/joinchat/-9oBjiA8c5EzMTU0
 PermanentId: -1001327513288
 Nome: Cyber Risk MAGISTRALE Polimi Bocconi
 
 Success: S
 IdLink: TyA-yOO79zTSfa-u
-NewLink: https://t.me/joinchat/Os9s4tq6V74zYWE0
+NewLink: https://t.me/joinchat/9OHsdWvUZJRkNjdk
 PermanentId: -1001327513288
 Nome: Cyber Risk MAGISTRALE Polimi Bocconi
 
 Success: S
-IdLink: RyHMV16n-fFXvE51
-NewLink: https://t.me/joinchat/Xz_20JccFmM0ZTFk
-PermanentId: -1001193397335
-Nome: Cybersecurity Track Magistrale
-
-Success: S
 IdLink: zhRfaCvIJ-piNTM8
-NewLink: https://t.me/joinchat/C_s6SoHblIdlZjI0
+NewLink: https://t.me/joinchat/aG7AwcwI0DExNzg0
 PermanentId: -1001193397335
 Nome: Cybersecurity Track Magistrale
 
@@ -294,7 +270,7 @@ Nome: FISICA SPERIMENTALE
 
 Success: S
 IdLink: LclXl0W_ir0ChPDBy9Wl2g
-NewLink: https://t.me/joinchat/HcpdlvYO-DQ1Yzg0
+NewLink: https://t.me/joinchat/VBc5943rn79iZWZk
 PermanentId: -1001170180797
 Nome: FONDAMENTI DI AUTOMATICA
 
@@ -306,7 +282,7 @@ Nome: FONDAMENTI DI COMUNICAZIONI E INTERNET FONDAMENTI DI
 
 Success: S
 IdLink: WVJNFomDSjOLyHAY
-NewLink: https://t.me/joinchat/E_wGWWLY0ng2ZGEy
+NewLink: https://t.me/joinchat/rh9wb-_mb-xkMGVi
 PermanentId: -1001498565910
 Nome: FONDAMENTI DI ELABORAZIONE NUMERICA DEI SEGNALI
 
@@ -402,7 +378,7 @@ Nome: HUMAN-COMPUTER INTERACTION FOR AI (HCI4AI)
 
 Success: S
 IdLink: 3l9BvPqnLSlkZGVk
-NewLink: https://t.me/joinchat/V_Y65qsn6Do2NjU0
+NewLink: https://t.me/joinchat/zwRAwPLAlBE1NWZk
 PermanentId: -1001259893815
 Nome: Hypermedia applications (web and multimedia) [ENG]
 
@@ -425,32 +401,26 @@ PermanentId: -480837868
 Nome: IMPRESA E DECISIONI STRATEGICHE
 
 Success: S
-IdLink: UB1YVQiNBrJmOQa1
-NewLink: https://t.me/joinchat/_v4dq5o-dRs1MzI0
-PermanentId: -1001344100437
-Nome: Ingegneria dei Sistemi Edilizi MAGISTRALE Ingegneria dei Sistemi Edilizi
-
-Success: S
 IdLink: UB1YVdJiDNNocqsR
-NewLink: https://t.me/joinchat/CV5uPjZBpNBmMDM0
+NewLink: https://t.me/joinchat/LrX60fEQ7ck1Yzg0
 PermanentId: -1001344100437
 Nome: Ingegneria dei Sistemi Edilizi MAGISTRALE Ingegneria dei Sistemi Edilizi
 
 Success: S
 IdLink: XpsX_j9nzepmZjdk
-NewLink: https://t.me/joinchat/JsnQA1mQmWhkYjM8
+NewLink: https://t.me/joinchat/53m_s5e-i-M4OWVk
 PermanentId: -1001344100437
 Nome: Ingegneria dei Sistemi Edilizi MAGISTRALE Ingegneria dei Sistemi Edilizi
 
 Success: S
 IdLink: YqdqcchcA4IwMDk0
-NewLink: https://t.me/joinchat/6cEZvBqq-XA0MWRk
+NewLink: https://t.me/joinchat/SSGG6zDd-ZA2NWU0
 PermanentId: -1001344100437
 Nome: Ingegneria dei Sistemi Edilizi MAGISTRALE Ingegneria dei Sistemi Edilizi
 
 Success: S
 IdLink: nkhnw0WmlZA4YTlk
-NewLink: https://t.me/joinchat/qHtTGXg6OO5lZjlk
+NewLink: https://t.me/joinchat/nFb45IzBiTBlOTdk
 PermanentId: -1001344100437
 Nome: Ingegneria dei Sistemi Edilizi MAGISTRALE Ingegneria dei Sistemi Edilizi
 
@@ -462,61 +432,49 @@ Nome: Ingegneria della Prevenzione e della Sicurezza nell''industria di processo
 
 Success: S
 IdLink: LclXl0i9jSyGqSdE_NMzXg
-NewLink: https://t.me/joinchat/9Cf0Tr3EfDYyYWIy
+NewLink: https://t.me/joinchat/cLopqo0x9PtlNDE6
 PermanentId: -1001220381996
 Nome: Ingegneria delle Telecomunicazioni TRIENNALE
 
 Success: S
 IdLink: SL2NLD7zZ7IF8dMC
-NewLink: https://t.me/joinchat/7RHnYIWu5LlmYWVi
+NewLink: https://t.me/joinchat/1HEDDattggxmZTgy
 PermanentId: -1001220381996
 Nome: Ingegneria delle Telecomunicazioni TRIENNALE
 
 Success: S
 IdLink: vxXLIK5A7hIyYmE6
-NewLink: https://t.me/joinchat/Vol8I2NYJj9iYjUy
+NewLink: https://t.me/joinchat/UkDWETMxfzEyNWQy
 PermanentId: -1001220381996
 Nome: Ingegneria delle Telecomunicazioni TRIENNALE
 
 Success: S
-IdLink: _qAe_Dt0jRI0NDNk
-NewLink: https://t.me/joinchat/0kTxI8MHaz5kNDlk
-PermanentId: -1001297647937
-Nome: Integrated Product Design MAGISTRALE Integrated Product Design
-
-Success: S
-IdLink: LclXl0zUrJfrLj2Jt4topw
-NewLink: https://t.me/joinchat/TSKVFv32BJ1kMmM0
-PermanentId: -1001289006231
-Nome: Interactive Applications TRACK MAGISTRALE
-
-Success: S
 IdLink: TNSsl1lueA-7wjBf
-NewLink: https://t.me/joinchat/etCJGJvWneNmNDg0
+NewLink: https://t.me/joinchat/Mv6O3mJOMMZlZDBk
 PermanentId: -1001289006231
 Nome: Interactive Applications TRACK MAGISTRALE
 
 Success: S
 IdLink: Wf8BQH2tVg4yNzk0
-NewLink: https://t.me/joinchat/5ZZucO6Xukc4MDk0
+NewLink: https://t.me/joinchat/ajwIMw2SGZ1iZTVk
 PermanentId: -1001289006231
 Nome: Interactive Applications TRACK MAGISTRALE
 
 Success: S
 IdLink: UoNZcl2opMN-ROVi
-NewLink: https://t.me/joinchat/kAKliyY_rtkxY2Jk
+NewLink: https://t.me/joinchat/V5Qv0DBUNlRiYWVk
 PermanentId: -1001384339826
 Nome: Internet engineering TRACK MAGISTRALE
 
 Success: S
 IdLink: rFuktKVNrTllZTk8
-NewLink: https://t.me/joinchat/-gHa8PXoipMzYjI0
+NewLink: https://t.me/joinchat/rFCv3o8S0uw4NDdk
 PermanentId: -1001384339826
 Nome: Internet engineering TRACK MAGISTRALE
 
 Success: S
 IdLink: LclXl1J4D7z2UClaire9TQ
-NewLink: https://t.me/joinchat/28ikst8S2dRlMDFk
+NewLink: https://t.me/joinchat/N-MYWm98M543OGJk
 PermanentId: -1001383600060
 Nome: Knowledge engineering [ENG]
 
@@ -525,12 +483,6 @@ IdLink: HKIvT_8zgGAyOWNk
 NewLink: [null]
 PermanentId: -574664956
 Nome: LEARNING SPARSE REPRESENTATIONS FOR IMAGE AND SIGNAL MODELING
-
-Success: S
-IdLink: dUQyOqXIJWI5M2Vk
-NewLink: https://t.me/joinchat/V5wxtOz2B0I3Yzlk
-PermanentId: -1001171833705
-Nome: Landscape Architecture Land Landscape Heritage MAGISTRALE Landscape Architecture Land Landscape Heritage
 
 Success: N
 IdLink: LclXl1Mwo4b_8pHv1YkodA
@@ -654,7 +606,7 @@ Nome: MAE - VAV - Vibration Analysis and Vibroacoustics
 
 Success: S
 IdLink: TH6OXWuyB6Rvh9Zh
-NewLink: https://t.me/joinchat/d6lrBT0njpg1Yzc0
+NewLink: https://t.me/joinchat/zYSU3QDIPppkZmQ0
 PermanentId: -1001283362397
 Nome: Machine Learning
 
@@ -743,20 +695,14 @@ PermanentId: -498279693
 Nome: PST - Philosophy of Science and Technology
 
 Success: S
-IdLink: LclXl1EQqRezig5k38NkZw
-NewLink: https://t.me/joinchat/KtK_I950dUhmMjM0
-PermanentId: -1001360046359
-Nome: Pervasive Systems TRACK MAGISTRALE
-
-Success: S
 IdLink: URCpF4BSdQyfObgu
-NewLink: https://t.me/joinchat/TWMqICOV4CFmMTk0
+NewLink: https://t.me/joinchat/UT4YYAsu0543OTQ0
 PermanentId: -1001360046359
 Nome: Pervasive Systems TRACK MAGISTRALE
 
 Success: S
 IdLink: nzWv6h5aqCBmNWQ8
-NewLink: https://t.me/joinchat/42N7J9cmv_hhOTI0
+NewLink: https://t.me/joinchat/_0bwRNYWL09mYTg8
 PermanentId: -1001360046359
 Nome: Pervasive Systems TRACK MAGISTRALE
 
@@ -816,19 +762,19 @@ Nome: Radio and Optical Wave Propagation
 
 Success: S
 IdLink: 6LRZJu03Oow5ZDI0
-NewLink: https://t.me/joinchat/9KgqdeOCXUg4ZTBk
+NewLink: https://t.me/joinchat/5yKcpi1_ip8xODhk
 PermanentId: -1001398569553
 Nome: Robotics [ENG]
 
 Success: S
 IdLink: R0N_P5yppJAGili6
-NewLink: https://t.me/joinchat/GRjk6BTI3hllZTg8
+NewLink: https://t.me/joinchat/sIAhy1-GQOAwODg0
 PermanentId: -1001195605823
 Nome: Robotics and Vision TRACK MAGISTRALE
 
 Success: S
 IdLink: vlKVw8UGCso5ZjFk
-NewLink: https://t.me/joinchat/-oglupm7nftkM2I0
+NewLink: https://t.me/joinchat/_wuhGVygwLgxNjZk
 PermanentId: -1001195605823
 Nome: Robotics and Vision TRACK MAGISTRALE
 
@@ -851,14 +797,8 @@ PermanentId: null
 Nome: Sistemi Informativi (per il settore dell''informazione)
 
 Success: S
-IdLink: TDffVIN4Dpe4gWCT
-NewLink: https://t.me/joinchat/PPDS-Ja1iLNkNzBk
-PermanentId: -1001278730068
-Nome: Software engineering for Complex Systems TRACK MAGISTRALE
-
-Success: S
 IdLink: s7tWA-05KsViNTJk
-NewLink: https://t.me/joinchat/Kbx6LiIP5V43ZGU0
+NewLink: https://t.me/joinchat/l_TGHGvm7OQ5ZTY0
 PermanentId: -1001278730068
 Nome: Software engineering for Complex Systems TRACK MAGISTRALE
 
@@ -948,13 +888,13 @@ Nome: gruppo test
 
 Success: S
 IdLink: LclXl0YtuPA8tMCIgVAQyA
-NewLink: https://t.me/joinchat/h_JukOdB0B8yMmNk
+NewLink: https://t.me/joinchat/8-V731YzWHM1ZmM0
 PermanentId: -1001177401584
 Nome: Automazione industriale Automazione
 
 Success: S
 IdLink: R_JhFaCZ7tTqNIHx
-NewLink: https://t.me/joinchat/j1-AEELXboA2NDZk
+NewLink: https://t.me/joinchat/yEhXvsMfk-EwZDRk
 PermanentId: -1001316683601
 Nome: Elettronica
 
@@ -966,13 +906,13 @@ Nome: INFORMATICA
 
 Success: S
 IdLink: AAAAAEIgvZmmFY7IdaDDng
-NewLink: https://t.me/joinchat/E0XCOjxJ7BU5MjJk
+NewLink: https://t.me/joinchat/DJtLEPIdGWpkNjBk
 PermanentId: -1001183830567
 Nome: Informatica
 
 Success: S
 IdLink: AAAAAEIgvZmmFY7IdaDDng
-NewLink: https://t.me/joinchat/99FTd9r15MEzNzNk
+NewLink: https://t.me/joinchat/_9vETcjqnX5iNzNk
 PermanentId: -1001183830567
 Nome: Informatica
 
@@ -984,13 +924,13 @@ Nome: Per gruppi &quot;esterni&quot; vedasi PoliExtra, clicca qui A DESTRA
 
 Success: S
 IdLink: FNGD_0uk4BhgOSB7C81drA
-NewLink: https://t.me/joinchat/LOgrMXjqXTJkODU0
+NewLink: https://t.me/joinchat/-cBr4fBH9cJhNjI8
 PermanentId: -1001269096472
 Nome: Building and Architectural Engineering
 
 Success: S
 IdLink: LclXl0rr8rz99kS-RLNEgw
-NewLink: https://t.me/joinchat/OEaVzZ3Uy700NzZk
+NewLink: https://t.me/joinchat/uwgp8vRNdLUxZjI8
 PermanentId: -1001256977084
 Nome: Civil Engineering for Risk Mitigation
 
@@ -1008,7 +948,7 @@ Nome: Design del Prodotto Industriale
 
 Success: S
 IdLink: LclXl1CeuogUHYVu3DmoCg
-NewLink: https://t.me/joinchat/PAeM0TDUJ2ljNDBk
+NewLink: https://t.me/joinchat/tcHVVBhgACw0MDU8
 PermanentId: -1001145178288
 Nome: Design della Comunicazione
 
@@ -1032,7 +972,7 @@ Nome: Ingegneria Aerospaziale 2018-2019
 
 Success: S
 IdLink: FNGD_06bewA86Rgdv-QkWA
-NewLink: https://t.me/joinchat/xATi_Yf7cQIyNmU0
+NewLink: https://t.me/joinchat/BU4Zr6BW8vlmMjA0
 PermanentId: -1001335108555
 Nome: Ingegneria Biomedica
 
@@ -1044,91 +984,91 @@ Nome: Ingegneria Edile - Architettura (Corso a ciclo unico)
 
 Success: S
 IdLink: FNGD_z7bIq1FQY52HFWhqQ
-NewLink: https://t.me/joinchat/jyhhHIRARVtjNWI0
+NewLink: https://t.me/joinchat/hrCVU7SxzmllYTk0
 PermanentId: -1001155448748
 Nome: Ingegneria Elettrica
 
 Success: S
 IdLink: FNGD_0R4OYkJZxGuwlcEuA
-NewLink: https://t.me/joinchat/oZGyFKeRZIk5OWI0
+NewLink: https://t.me/joinchat/meJ8OAUbgxIyZTY0
 PermanentId: -1001207066901
 Nome: Ingegneria Elettronica
 
 Success: S
 IdLink: FNGD_0VLZ7dVLLelk5TW3A
-NewLink: https://t.me/joinchat/xDdTqp7Ao9NiNjc8
+NewLink: https://t.me/joinchat/bO03x2fEwtVmMTY0
 PermanentId: -1001317799469
 Nome: Ingegneria Gestionale
 
 Success: S
 IdLink: LclXl0cnBPVlutk5xu3a2A
-NewLink: https://t.me/joinchat/WuPKAvyojX05YWNk
+NewLink: https://t.me/joinchat/8uCCGBE6NKFhOGNk
 PermanentId: -1001304117297
 Nome: Ingegneria Informatica
 
 Success: S
 IdLink: FNGD_0GpRUc3JsDEeu5Omw
-NewLink: https://t.me/joinchat/VuzfDHrIH-o2ODk0
+NewLink: https://t.me/joinchat/l5V9f_0ujRIzNzI0
 PermanentId: -1001258508095
 Nome: Ingegneria Meccanica
 
 Success: S
 IdLink: LclXl1AdWFV55xmFWTsk8Q
-NewLink: https://t.me/joinchat/1-dwRqUXXyIzNmZk
+NewLink: https://t.me/joinchat/KGs4-6oy2DthODZk
 PermanentId: -1001344100437
 Nome: Ingegneria dei Sistemi Edilizi
 
 Success: S
 IdLink: FNGD_0WmhHpOS_GNwjFOCg
-NewLink: https://t.me/joinchat/M5uKt2vYkDVjZDZk
+NewLink: https://t.me/joinchat/dajEWnn5Um84NWFk
 PermanentId: -1001131627926
 Nome: Ingegneria dell'Automazione
 
 Success: S
 IdLink: LclXl0xvBiWvVCHs-Vu_5w
-NewLink: https://t.me/joinchat/1atUJdayfTUwZjFk
+NewLink: https://t.me/joinchat/3QhLPm-oRIwyNzg0
 PermanentId: -1001282344485
 Nome: Ingegneria della Prevenzione e della Sicurezza nell'industria di processo
 
 Success: S
 IdLink: FNGD_0KNa2X038QMGK1rKg
-NewLink: https://t.me/joinchat/sCMWd7QYs5s4NGFk
+NewLink: https://t.me/joinchat/Pv74tSi3bYVmYjNk
 PermanentId: -1001162307866
 Nome: Ingegneria per l'Ambiente e il Territorio
 
 Success: S
 IdLink: LclXl0VHaRo1-HztvCB9ZQ
-NewLink: https://t.me/joinchat/T9HQNO959EUwM2Y0
+NewLink: https://t.me/joinchat/ZLzbFYfdUqBjMWE8
 PermanentId: -1001162307866
 Nome: Ingegneria per l'Ambiente e il Territorio - Environmental and Land Planning Engineering
 
 Success: S
 IdLink: LclXl01YiUE-vQksY8OSTQ
-NewLink: https://t.me/joinchat/OKlJ0ZKRfmdjY2Y0
+NewLink: https://t.me/joinchat/vgnRZwUo3WU3NWY0
 PermanentId: -1001297647937
 Nome: Integrated Product Design
 
 Success: S
 IdLink: LclXl0XYw2lxxEBiPYvqzg
-NewLink: https://t.me/joinchat/aNJd5WGI8JdjOGY0
+NewLink: https://t.me/joinchat/iwmrLDLPc3dmYzk0
 PermanentId: -1001171833705
 Nome: Landscape Architecture Land Landscape Heritage
 
 Success: S
 IdLink: LclXl06MBi1R_SlgjbcWNg
-NewLink: https://t.me/joinchat/9xhGjlcpaOtjNTk0
+NewLink: https://t.me/joinchat/Osr1hbQL_j85YjE0
 PermanentId: -1001317799469
 Nome: Management Engineering - Ingegneria Gestionale
 
 Success: S
 IdLink: LclXl0ZfXU22rYBjZ9bOag
-NewLink: https://t.me/joinchat/eOZSun2yxy5jOTA8
+NewLink: https://t.me/joinchat/IlEocuqQJeBjYmM0
 PermanentId: -1001180654925
 Nome: Music & Acoustic Engineering
 
 Success: S
 IdLink: LclXl0bT9NxG8WeDgqWcWw
-NewLink: https://t.me/joinchat/XOkVykIZdhFhMGZk
+NewLink: https://t.me/joinchat/xKPfKIDwqHc3YmFk
 PermanentId: -1001188295900
 Nome: Nuclear Engineering - Ingegneria Nucleare
 
@@ -1140,19 +1080,19 @@ Nome: Per gruppi &quot;esterni&quot; vedasi PoliExtra, clicca qui A DESTRA
 
 Success: S
 IdLink: FNGD_0Lv1_M8UJ7E_JAwBQ
-NewLink: https://t.me/joinchat/hyKLoq9FcutlMmI0
+NewLink: https://t.me/joinchat/UVfpcp6I-9RiM2U0
 PermanentId: -1001123014643
 Nome: Progettazione dell'Architettura
 
 Success: S
 IdLink: FNGD_0Lv1_M8UJ7E_JAwBQ
-NewLink: https://t.me/joinchat/WsPVQ4HXbsY3OWE8
+NewLink: https://t.me/joinchat/x3CK3pZpEkhlMjc0
 PermanentId: -1001123014643
 Nome: Progettazione dell'Architettura
 
 Success: S
 IdLink: FNGD_0Lv1_M8UJ7E_JAwBQ
-NewLink: https://t.me/joinchat/pZ2MNM80l0wyYjhk
+NewLink: https://t.me/joinchat/T6ciVmcAfCY2NjRk
 PermanentId: -1001123014643
 Nome: Progettazione dell'Architettura
 
@@ -1164,13 +1104,13 @@ Nome: Urbanistica: Città Ambiente Paesaggio
 
 Success: S
 IdLink: FNGD_0YtuPDR-NSoZcXGhA
-NewLink: https://t.me/joinchat/Vem9YKMOV5czNzJk
+NewLink: https://t.me/joinchat/qR849YHhdN5lMzZk
 PermanentId: -1001177401584
 Nome: AUTOMAZIONE INDUSTRIALE
 
 Success: S
 IdLink: FNGD_0zMMJnBmjvc8qnONg
-NewLink: https://t.me/joinchat/W6u4ijf8pZs4NDhk
+NewLink: https://t.me/joinchat/FDqcP80mUx9mZmZk
 PermanentId: -1001288450201
 Nome: Aeronautical Engineering - Ingegneria Aeronautica
 
@@ -1182,67 +1122,67 @@ Nome: Aeronautical Engineering - Ingegneria Aeronautica 19-20
 
 Success: S
 IdLink: FNGD_0ZmGvaGJOSa6o7waw
-NewLink: https://t.me/joinchat/PE-ShIOaQkk5N2E0
+NewLink: https://t.me/joinchat/44sbsLTIUpk3NTk0
 PermanentId: -1001181096694
 Nome: Architectural Design and History - Progettazione Architettonica e Storia
 
 Success: S
 IdLink: FNGD_1IJ91KLXQSfs9IKxQ
-NewLink: https://t.me/joinchat/YC9ocNsciEs1OGU0
+NewLink: https://t.me/joinchat/A7Oz2DvbEylmZDE0
 PermanentId: -1001376384850
 Nome: Architettura - Architettura delle Costruzioni
 
 Success: S
 IdLink: FNGD_06PNXEMoN8A3w4g0w
-NewLink: https://t.me/joinchat/6SyJ-i5HaGtjM2I0
+NewLink: https://t.me/joinchat/mXWNmc-Knig4NDc8
 PermanentId: -1001318008177
 Nome: Architettura e Disegno Urbano - Architecture and Urban Design
 
 Success: S
 IdLink: FNGD_0hGh8oip3KxUyG3MQ
-NewLink: https://t.me/joinchat/fUJWqBzH3wZhOTNk
+NewLink: https://t.me/joinchat/HcAb_Vk3kkM1YzFk
 PermanentId: -1001322107516
 Nome: Architettura-Ambiente Costruito-Interni- Architecture-Built Environment-Interiors
 
 Success: S
 IdLink: FNGD_0NzRZZ1cEk5Ely9vw
-NewLink: https://t.me/joinchat/lr_R605zI_tiNTI8
+NewLink: https://t.me/joinchat/LPgRVyYe6rsxZTQ0
 PermanentId: -1001131627926
 Nome: Automation and Control Engineering - Ingegneria dell'Automazione
 
 Success: S
 IdLink: FNGD_0-UI8tp1Zdhk6aD2Q
-NewLink: https://t.me/joinchat/64el0YOyYa05OTBk
+NewLink: https://t.me/joinchat/h6S7s1MKSHsyYTE0
 PermanentId: -1001335108555
 Nome: Biomedical Engineering - Ingegneria Biomedica
 
 Success: S
 IdLink: FNGD_0TY4QZWqryk-n6q1w
-NewLink: https://t.me/joinchat/Ggx31Jx8Q640NGNk
+NewLink: https://t.me/joinchat/cF5WG1uXrqhlNTVk
 PermanentId: -1001269096472
 Nome: Building and Architectural Engineering
 
 Success: S
 IdLink: FNGD_0uk4BhgOSB7C81drA
-NewLink: https://t.me/joinchat/19yDgv7NKAgyOTZk
+NewLink: https://t.me/joinchat/5RwWR8s9Db82OGU0
 PermanentId: -1001269096472
 Nome: Building and Architectural Engineering
 
 Success: S
 IdLink: LclXl1B_Wsg9YQCU_42anA
-NewLink: https://t.me/joinchat/GNawq6geNiIyMmFk
+NewLink: https://t.me/joinchat/n7zMSXE8XIdjMGRk
 PermanentId: -1001331800590
 Nome: Chemical Engineering - Ingegneria Chimica
 
 Success: S
 IdLink: FNGD_0rr8rylp5G7DN07Rg
-NewLink: https://t.me/joinchat/8aSSEBpFAChiNWZk
+NewLink: https://t.me/joinchat/s0zuEFWBOfU0MjM0
 PermanentId: -1001256977084
 Nome: Civil Engineering for Risk Mitigation
 
 Success: S
 IdLink: FNGD_0S-KV2az9KUquMgxg
-NewLink: https://t.me/joinchat/irIoLwebyZI5N2M8
+NewLink: https://t.me/joinchat/hO7TiNCSh2Y3ZDU0
 PermanentId: -1001153313117
 Nome: Computer Science and Engineering - Ingegneria Informatica
 
@@ -1254,7 +1194,7 @@ Nome: Design & Engineering - Progetto e ingegnerizzazione del prodotto industria
 
 Success: S
 IdLink: LclXl0LnsxiERSt6gwsO-w
-NewLink: https://t.me/joinchat/2-LsoW3xdUM3MGI0
+NewLink: https://t.me/joinchat/UmgHcUaYInllYmQ0
 PermanentId: -1001122480920
 Nome: Design degli Interni
 
@@ -1266,25 +1206,25 @@ Nome: Design del Prodotto Industriale
 
 Success: S
 IdLink: FNGD_1CeuohFFXq2S4h2RA
-NewLink: https://t.me/joinchat/g_MMmqr3BvdjOTJk
+NewLink: https://t.me/joinchat/PMe6iXowAlA4MGM0
 PermanentId: -1001145178288
 Nome: Design della Comunicazione
 
 Success: S
 IdLink: FNGD_0RCCLAztsLSEvrCfg
-NewLink: https://t.me/joinchat/exILlPeQZl03ZmFk
+NewLink: https://t.me/joinchat/paX_NNoPKMdiNmZk
 PermanentId: -1001145178288
 Nome: Design della Comunicazione
 
 Success: S
 IdLink: FNGD_0K-mWdVg8tHqZm4yw
-NewLink: https://t.me/joinchat/l4VWQIdHdK43OWI8
+NewLink: https://t.me/joinchat/NsKsJryot5M0MWFk
 PermanentId: -1001119787367
 Nome: Design della Moda
 
 Success: S
 IdLink: FNGD_0TdNs1kHHOS4KqxMQ
-NewLink: https://t.me/joinchat/oran9kTFxng1OGNk
+NewLink: https://t.me/joinchat/FoEJnJAWgTsyOThk
 PermanentId: -1001155348173
 Nome: Design for the Fashion System - Design per il sistema Moda
 
@@ -1296,31 +1236,31 @@ Nome: Digital and Interaction Design
 
 Success: S
 IdLink: FNGD_0Tev6wBrgyz6VaWaQ
-NewLink: https://t.me/joinchat/B-QAIJDmqBU4NmQ8
+NewLink: https://t.me/joinchat/3n3f4vf0VekyNzc0
 PermanentId: -1001155448748
 Nome: Electrical Engineering - Ingegneria Elettrica
 
 Success: S
 IdLink: FNGD_0fyYRUFMbOdohMP_Q
-NewLink: https://t.me/joinchat/FXoqt5cl3VZmOWQ0
+NewLink: https://t.me/joinchat/fuGl6dpkVSJmZjBk
 PermanentId: -1001207066901
 Nome: Electronics Engineering - Ingegneria Elettronica
 
 Success: S
 IdLink: LclXl0cpUwgxV44ASGXtVQ
-NewLink: https://t.me/joinchat/eSZlBBdCo1FmZmNk
+NewLink: https://t.me/joinchat/8mNJswz03bJmODQ0
 PermanentId: -1001301841167
 Nome: Energy Engineering - Ingegneria Energetica
 
 Success: S
 IdLink: FNGD_0najzBpRnEpCMl2Cg
-NewLink: https://t.me/joinchat/ylwffb0BDwY1Y2E0
+NewLink: https://t.me/joinchat/yFoOLLOG7iUwOTVk
 PermanentId: -1001239060272
 Nome: Engineering Physics - Ingegneria Fisica
 
 Success: S
 IdLink: FNGD_0bbu1YiDlkUkiDfYA
-NewLink: https://t.me/joinchat/LYJRDMlWO3M2MDA0
+NewLink: https://t.me/joinchat/-er-36pTsyVmMjJk
 PermanentId: -1001188805462
 Nome: Geoinformatics Engineering - Ingegneria Geoinformatica
 
@@ -1332,25 +1272,25 @@ Nome: Gruppo generale
 
 Success: S
 IdLink: FNGD_06bewA86Rgdv-QkWA
-NewLink: https://t.me/joinchat/UegekBrX_N5hOTM0
+NewLink: https://t.me/joinchat/oFpWCeWKyJo1NGNk
 PermanentId: -1001335108555
 Nome: Ingegneria Biomedica
 
 Success: S
 IdLink: FNGD_0KnsKLoudaP6zz8bA
-NewLink: https://t.me/joinchat/_iy8GxmEIRw0Mjk0
+NewLink: https://t.me/joinchat/p3ImpzSh99AxMjJk
 PermanentId: -1001118285986
 Nome: Ingegneria Civile
 
 Success: S
 IdLink: LclXl1N87tNgeIG13lwCHg
-NewLink: https://t.me/joinchat/GMiEGWR8pJFkMDdk
+NewLink: https://t.me/joinchat/XJBWpWlaTgo3MTA0
 PermanentId: -1001387970192
 Nome: Ingegneria Civile - Civil Engineering
 
 Success: S
 IdLink: FNGD_1NmGT1pFb111iVoQw
-NewLink: https://t.me/joinchat/dhPXix5T_acwYTA0
+NewLink: https://t.me/joinchat/n5ZkucBXzYoyZDI8
 PermanentId: -1001399200061
 Nome: Ingegneria Civile per la mitigazione del rischio
 
@@ -1362,151 +1302,151 @@ Nome: Ingegneria Edile - Architettura (Corso a ciclo unico)
 
 Success: S
 IdLink: FNGD_z7bIq3q_ij3TBOBsA
-NewLink: https://t.me/joinchat/UACgaC0-dVVlMWQ0
+NewLink: https://t.me/joinchat/9RWDtoArPm84MDU0
 PermanentId: -1001155448748
 Nome: Ingegneria Elettrica
 
 Success: S
 IdLink: FNGD_0R4OYmddrFsGHw37w
-NewLink: https://t.me/joinchat/dFbuigUiiKdiOGM0
+NewLink: https://t.me/joinchat/rMuwO8Q3Ywk0MjE0
 PermanentId: -1001207066901
 Nome: Ingegneria Elettronica
 
 Success: S
 IdLink: FNGD_z_bEwUWy77fdw5dCQ
-NewLink: https://t.me/joinchat/SYyOVT2P_egyOTdk
+NewLink: https://t.me/joinchat/A8EPJwinDG1hMGQ0
 PermanentId: -1001301841167
 Nome: Ingegneria Energetica
 
 Success: S
 IdLink: FNGD_03zDndw2-aNSuBKTA
-NewLink: https://t.me/joinchat/DL6-HMkuj_c5NDE8
+NewLink: https://t.me/joinchat/nHMMQ9nTVo0wZDVk
 PermanentId: -1001239060272
 Nome: Ingegneria Fisica
 
 Success: S
 IdLink: FNGD_0wRkuE4cfoKa3am8Q
-NewLink: https://t.me/joinchat/44duD__IIU4xNzhk
+NewLink: https://t.me/joinchat/S_touL9490hlYTlk
 PermanentId: -1001317799469
 Nome: Ingegneria Gestionale
 
 Success: S
 IdLink: FNGD_0VLZ7chKraXQk8-tg
-NewLink: https://t.me/joinchat/4bhuT8B9JI8xZjc8
+NewLink: https://t.me/joinchat/7fuSCarc_DcwZTA0
 PermanentId: -1001317799469
 Nome: Ingegneria Gestionale
 
 Success: S
 IdLink: LclXl0jxpwVfwaBpxkn3dg
-NewLink: https://t.me/joinchat/S9gAy44BVeI3NGU0
+NewLink: https://t.me/joinchat/8P7U9NLBuy5kNGE0
 PermanentId: -1001304117297
 Nome: Ingegneria Informatica
 
 Success: S
 IdLink: FNGD_0PLDCVN6DwzWPpDWA
-NewLink: https://t.me/joinchat/A5Ll8h8fo-IwNGVk
+NewLink: https://t.me/joinchat/ToOfwjk_y9o4Y2Y0
 PermanentId: -1001137380389
 Nome: Ingegneria Matematica
 
 Success: S
 IdLink: FNGD_0GpRUc3JsDEeu5Omw
-NewLink: https://t.me/joinchat/6pA1ynFmLIA4YzQ0
+NewLink: https://t.me/joinchat/OVCY5c5zPkhlMzBk
 PermanentId: -1001258508095
 Nome: Ingegneria Meccanica
 
 Success: S
 IdLink: FNGD_0GpRUc3JsDEeu5Omw
-NewLink: https://t.me/joinchat/u2Nf1E1KV6c3MTBk
+NewLink: https://t.me/joinchat/0-wPHRgbMKZkNTM0
 PermanentId: -1001258508095
 Nome: Ingegneria Meccanica
 
 Success: S
 IdLink: FNGD_0MRrTDLoQ8oXnwO6w
-NewLink: https://t.me/joinchat/phcnkLMRVHwwMTg8
+NewLink: https://t.me/joinchat/X1qZ-5FT_CU4MGU0
 PermanentId: -1001125231920
 Nome: Ingegneria dei Materiali e delle Nanotecnologie
 
 Success: S
 IdLink: FNGD_1AdWFWUg_FKjbDDGA
-NewLink: https://t.me/joinchat/_SwFYFN5YDA1OGI0
+NewLink: https://t.me/joinchat/M6EsvECaiXo2MDZk
 PermanentId: -1001344100437
 Nome: Ingegneria dei Sistemi Edilizi
 
 Success: S
 IdLink: FNGD_0WmhHpfIii9DLke5g
-NewLink: https://t.me/joinchat/TxfHpfHm57ZlMzZk
+NewLink: https://t.me/joinchat/l7nMzRfS5mhiMDk8
 PermanentId: -1001131627926
 Nome: Ingegneria dell'Automazione
 
 Success: S
 IdLink: FNGD_0xvBiXbcqNNKd484Q
-NewLink: https://t.me/joinchat/Hjf7AS0sWuVjNzJk
+NewLink: https://t.me/joinchat/xKXVlXaUFJYwMDJk
 PermanentId: -1001282344485
 Nome: Ingegneria della Prevenzione e della Sicurezza nell'industria di processo
 
 Success: S
 IdLink: LclXl1P0OC5slU3ryzSEsQ
-NewLink: https://t.me/joinchat/EVbb_A5aBapmZmRk
+NewLink: https://t.me/joinchat/-dEjbiEXlIxkYjhk
 PermanentId: -1001162307866
 Nome: Ingegneria per l'Ambiente e il Territorio
 
 Success: S
 IdLink: FNGD_0VHaRpuyh6V69qHvw
-NewLink: https://t.me/joinchat/9CQYU6BQYN83Njg8
+NewLink: https://t.me/joinchat/PD4g5NFKB900MzI0
 PermanentId: -1001162307866
 Nome: Ingegneria per l'Ambiente e il Territorio - Environmental and Land Planning Engineering
 
 Success: S
 IdLink: FNGD_01YiUF7KajSwivwWw
-NewLink: https://t.me/joinchat/OvPEcIEAEDc4ZjE0
+NewLink: https://t.me/joinchat/eZ3LoI3Yh1tiNTc8
 PermanentId: -1001297647937
 Nome: Integrated Product Design
 
 Success: S
 IdLink: FNGD_0XYw2m8uNlMCzHM5A
-NewLink: https://t.me/joinchat/pariclMaw8A2NmE8
+NewLink: https://t.me/joinchat/6swF7lBtmTkwZmRk
 PermanentId: -1001171833705
 Nome: Landscape Architecture Land Landscape Heritage
 
 Success: S
 IdLink: FNGD_06MBi1LxVlmBQJl3Q
-NewLink: https://t.me/joinchat/bLlYXGiOHVRkMTM0
+NewLink: https://t.me/joinchat/Lm1wWs-ljtFiMjY0
 PermanentId: -1001317799469
 Nome: Management Engineering - Ingegneria Gestionale
 
 Success: S
 IdLink: FNGD_1IiCD76KKYSy1CczQ
-NewLink: https://t.me/joinchat/O32436XzMwwwMWZk
+NewLink: https://t.me/joinchat/Rw9pm1Itu3Y2YTQ0
 PermanentId: -1001377962046
 Nome: Management of Built Environment - Gestione del Costruito
 
 Success: S
 IdLink: FNGD_098pv__chsPMsn35w
-NewLink: https://t.me/joinchat/4yajdwhwBLU5ZjY8
+NewLink: https://t.me/joinchat/Kif1kpymTKRjODY8
 PermanentId: -1001333569279
 Nome: Materials Engineering and Nanotechnology - Ingegneria dei Materiali e delle Nanotecnologie
 
 Success: S
 IdLink: FNGD_0idUO3AMzsqu9KSaw
-NewLink: https://t.me/joinchat/dwMXy4AD9nczN2Q0
+NewLink: https://t.me/joinchat/-y5Zr-7M85UzNGFk
 PermanentId: -1001218269421
 Nome: Mathematical Engineering - Ingegneria Matematica
 
 Success: S
 IdLink: LclXl0cXknqCFCnnAX_RaA
-NewLink: https://t.me/joinchat/MNydVTSQAaIzZmE0
+NewLink: https://t.me/joinchat/Ct3bSb_uM7UyNThk
 PermanentId: -1001258508095
 Nome: Mechanical Engineering - Ingegneria Meccanica
 
 Success: S
 IdLink: FNGD_0ZfXU3ePztw_o7v8w
-NewLink: https://t.me/joinchat/d3dhY1yUiBI4N2I8
+NewLink: https://t.me/joinchat/Lcq1yGdKgeIzNjU0
 PermanentId: -1001180654925
 Nome: Music & Acoustic Engineering
 
 Success: S
 IdLink: FNGD_0bT9NyBZmSFti4bcg
-NewLink: https://t.me/joinchat/VJ4s680hQaJiM2E0
+NewLink: https://t.me/joinchat/Wjeap3F9Ewo3ZGVk
 PermanentId: -1001188295900
 Nome: Nuclear Engineering - Ingegneria Nucleare
 
@@ -1524,49 +1464,49 @@ Nome: Process and service design
 
 Success: S
 IdLink: FNGD_0KlMeEqPBwXsZ8sXQ
-NewLink: https://t.me/joinchat/ZRJUQ9KyauFjOTI0
+NewLink: https://t.me/joinchat/s7LN2c_KiARkZDk0
 PermanentId: -1001320981470
 Nome: Product Service System Design - Design per il sistema prodotto Servizio
 
 Success: S
 IdLink: FNGD_0Lv1_M8UJ7E_JAwBQ
-NewLink: https://t.me/joinchat/Mbw-cmwYjBtlYzQ0
+NewLink: https://t.me/joinchat/c8stdgPehS42MTA0
 PermanentId: -1001123014643
 Nome: Progettazione dell'Architettura
 
 Success: S
 IdLink: FNGD_0Lv1_M8UJ7E_JAwBQ
-NewLink: https://t.me/joinchat/Pc8IYbxT1oE4NjY0
+NewLink: https://t.me/joinchat/2z7VrKK2we81MGQ0
 PermanentId: -1001123014643
 Nome: Progettazione dell'Architettura
 
 Success: S
 IdLink: FNGD_0Lv1_M8UJ7E_JAwBQ
-NewLink: https://t.me/joinchat/fNXrb9jw9nE3ODk8
+NewLink: https://t.me/joinchat/WWlVjTKlbf42YzE8
 PermanentId: -1001123014643
 Nome: Progettazione dell'Architettura
 
 Success: S
 IdLink: FNGD_0oCTkjb0Ln0ZnrFtw
-NewLink: https://t.me/joinchat/XNhha5aX-tI1NTE0
+NewLink: https://t.me/joinchat/0qIfLJTnr3tmOGQ0
 PermanentId: -1001241665096
 Nome: Space Engineering - Ingegneria Spaziale
 
 Success: S
 IdLink: FNGD_0cpEf0DR6qgEaHQ1g
-NewLink: https://t.me/joinchat/Q5JVxqdganxkMGI0
+NewLink: https://t.me/joinchat/NbKIVmjEHNBkYzM0
 PermanentId: -1001193873917
 Nome: Sustainable Architecture and Landscape Design - Architettura Sostenibile e Progetto del Paesaggio
 
 Success: S
 IdLink: TejGzLXznnCVBjfi
-NewLink: https://t.me/joinchat/FVsM_rdrHCNiZDFk
+NewLink: https://t.me/joinchat/PYHrZzFdcrRkMGZk
 PermanentId: -1001307100876
 Nome: Telecommunication Engineering - Ingegneria delle Telecomunicazioni
 
 Success: S
 IdLink: FNGD_0m5QrRgJe1Q53dBIA
-NewLink: https://t.me/joinchat/fS1XYlm3P5gzYmNk
+NewLink: https://t.me/joinchat/jUhARHweZxE3NzI0
 PermanentId: -1001236878004
 Nome: Urban Planning and Policy Design - Pianificazione Urbana e Politiche Territoriali
 
@@ -1578,73 +1518,73 @@ Nome: Urbanistica: Città Ambiente Paesaggio
 
 Success: S
 IdLink: LclXl0zMMJloJFU4PddYzQ
-NewLink: https://t.me/joinchat/Y5Xpgw67n6BmODlk
+NewLink: https://t.me/joinchat/7T8tuVZep2wzNWI0
 PermanentId: -1001288450201
 Nome: Aeronautical Engineering - Ingegneria Aeronautica
 
 Success: S
 IdLink: LclXl0ZmGvafiltB3AJm6A
-NewLink: https://t.me/joinchat/GevQmDKrL-RlMTA0
+NewLink: https://t.me/joinchat/4k4DgiUwjfcxNWZk
 PermanentId: -1001181096694
 Nome: Architectural Design and History - Progettazione Architettonica e Storia
 
 Success: S
 IdLink: LclXl1IJ91I6nKUlMzxEOg
-NewLink: https://t.me/joinchat/XcI4bKlZNvw0Mzlk
+NewLink: https://t.me/joinchat/uv-i-HyHEVplZDc0
 PermanentId: -1001376384850
 Nome: Architettura - Architettura delle Costruzioni
 
 Success: S
 IdLink: LclXl06PNXEREYol6h6xew
-NewLink: https://t.me/joinchat/fEL145IC-DwwNzc0
+NewLink: https://t.me/joinchat/ZKclT-QS33k3Njc0
 PermanentId: -1001318008177
 Nome: Architettura e Disegno Urbano - Architecture and Urban Design
 
 Success: S
 IdLink: LclXl07Nwnzf7XCQYGhglQ
-NewLink: https://t.me/joinchat/sXtuG3lop-M5NWU8
+NewLink: https://t.me/joinchat/rGQPbtlyi7RhMGJk
 PermanentId: -1001322107516
 Nome: Architettura-Ambiente Costruito-Interni- Architecture-Built Environment-Interiors
 
 Success: S
 IdLink: FNGD_0NzRZYj8s4bea8B6A
-NewLink: https://t.me/joinchat/__9IEN8HPiNlY2U0
+NewLink: https://t.me/joinchat/g05LJ3U3zbgxMmU0
 PermanentId: -1001131627926
 Nome: Automation and Control Engineering - Ingegneria dell'Automazione
 
 Success: S
 IdLink: LclXl0-UI8vDrqBwJRNS9A
-NewLink: https://t.me/joinchat/Xvgzdb5FIJtjZjdk
+NewLink: https://t.me/joinchat/hfAZ3dqEH8NkNDk8
 PermanentId: -1001335108555
 Nome: Biomedical Engineering - Ingegneria Biomedica
 
 Success: S
 IdLink: FNGD_0TY4QbgJLT0aE4iOA
-NewLink: https://t.me/joinchat/WE1rG1JOup40N2Vk
+NewLink: https://t.me/joinchat/b2qyrreyCrZhOTA0
 PermanentId: -1001269096472
 Nome: Building andArchitectural Engineering
 
 Success: S
 IdLink: FNGD_0uk4BgesPjp8ufXrg
-NewLink: https://t.me/joinchat/8IGrwyQo46g0M2Jk
+NewLink: https://t.me/joinchat/CwZpnQd3RUNhMjdk
 PermanentId: -1001269096472
 Nome: Building andArchitectural Engineering
 
 Success: S
 IdLink: LclXl09hqg6cGSq6dFN-DA
-NewLink: https://t.me/joinchat/l_lx0B_tb-E0ZTlk
+NewLink: https://t.me/joinchat/rTIAX_Q2Hvk2MWI8
 PermanentId: -1001350523592
 Nome: Chemical Engineering - Ingegneria Chimica
 
 Success: S
 IdLink: FNGD_0rr8rw-CHenef9_-Q
-NewLink: https://t.me/joinchat/8Md-aYlHw9JhOWFk
+NewLink: https://t.me/joinchat/R_5g5g9RSzVhOTg0
 PermanentId: -1001256977084
 Nome: Civil Engineering for Risk Mitigation
 
 Success: S
 IdLink: LclXl0S-KV2UeD-0upD0lA
-NewLink: https://t.me/joinchat/TU6989HCjH1lZjQ0
+NewLink: https://t.me/joinchat/rhQfk-Gcj-82MTI0
 PermanentId: -1001153313117
 Nome: Computer Science and Engineering - Ingegneria Informatica
 
@@ -1656,7 +1596,7 @@ Nome: Design & Engineering - Progetto e ingegnerizzazione del prodotto industria
 
 Success: S
 IdLink: FNGD_0LnsxgsumWvlkRzzQ
-NewLink: https://t.me/joinchat/jHRO9mTZiJ9jNGI0
+NewLink: https://t.me/joinchat/9q5HomPBoutlYzE0
 PermanentId: -1001122480920
 Nome: Design degli Interni
 
@@ -1668,25 +1608,25 @@ Nome: Design del Prodotto Industriale
 
 Success: S
 IdLink: FNGD_1CeuohFFXq2S4h2RA
-NewLink: https://t.me/joinchat/bdgoJlUxWHA2MjU0
+NewLink: https://t.me/joinchat/UwF-8KMPgf83ZGM0
 PermanentId: -1001145178288
 Nome: Design della Comunicazione
 
 Success: S
 IdLink: FNGD_0RCCLAztsLSEvrCfg
-NewLink: https://t.me/joinchat/1bOeop1NXEk3NWM0
+NewLink: https://t.me/joinchat/mrywVlYVC7E1ODQ0
 PermanentId: -1001145178288
 Nome: Design della Comunicazione
 
 Success: S
 IdLink: FNGD_0K-mWdVg8tHqZm4yw
-NewLink: https://t.me/joinchat/K8cx-_kdcmE2MjQ0
+NewLink: https://t.me/joinchat/G_3-AgT37aUwZDhk
 PermanentId: -1001119787367
 Nome: Design della Moda
 
 Success: S
 IdLink: LclXl0TdNs2FxeyWiKNVRQ
-NewLink: https://t.me/joinchat/QHT4Ri0GFeM4NWM0
+NewLink: https://t.me/joinchat/KsAwv2VepTAzZjk0
 PermanentId: -1001155348173
 Nome: Design for the Fashion System - Design per il sistema Moda
 
@@ -1698,37 +1638,37 @@ Nome: Digital and Interaction Design MAGISTRALE Digital and Interaction Design
 
 Success: S
 IdLink: LclXl0Tev6xZxkgniaczDg
-NewLink: https://t.me/joinchat/XU36yz1b8DExMWI0
+NewLink: https://t.me/joinchat/Xlc6kZwGZXNlNjZk
 PermanentId: -1001155448748
 Nome: Electrical Engineering - Ingegneria Elettrica
 
 Success: S
 IdLink: LclXl0fyYRUUP2HA65ZhTQ
-NewLink: https://t.me/joinchat/SofgQiSEsTRiZDNk
+NewLink: https://t.me/joinchat/91ggIt09hDdjNjA0
 PermanentId: -1001207066901
 Nome: Electronics Engineering - Ingegneria Elettronica
 
 Success: S
 IdLink: LclXl0cpUwj3ib08DDxGbQ
-NewLink: https://t.me/joinchat/2HE-2-cjTdliMDE0
+NewLink: https://t.me/joinchat/AmP4HoUVIglmYzc0
 PermanentId: -1001301841167
 Nome: Energy Engineering - Ingegneria Energetica
 
 Success: S
 IdLink: LclXl02YhQ8Y9AILCDMPRg
-NewLink: https://t.me/joinchat/J4aJHkLfu-hlNjFk
+NewLink: https://t.me/joinchat/p_0NDfijCSQyNTA0
 PermanentId: -1001301841167
 Nome: Energy Engineering - Ingegneria Energetica
 
 Success: S
 IdLink: LclXl0najzAynyScy0ZCew
-NewLink: https://t.me/joinchat/mMYK7y8z6CBjNGU8
+NewLink: https://t.me/joinchat/melk3YFbuIJlMzA0
 PermanentId: -1001239060272
 Nome: Engineering Physics - Ingegneria Fisica
 
 Success: S
 IdLink: LclXl0bbu1ZPOwwAQefdqQ
-NewLink: https://t.me/joinchat/JQcqxGAhSig2ZmFk
+NewLink: https://t.me/joinchat/-XuBFi6juLQxZWU8
 PermanentId: -1001188805462
 Nome: Geoinformatics Engineering - Ingegneria Geoinformatica
 
@@ -1752,31 +1692,31 @@ Nome: Ingegneria Aerospaziale 20-21
 
 Success: S
 IdLink: FNGD_06bewA86Rgdv-QkWA
-NewLink: https://t.me/joinchat/AHmOpBLd7PUzODU0
+NewLink: https://t.me/joinchat/K1OGBB2HwCkxYmZk
 PermanentId: -1001335108555
 Nome: Ingegneria Biomedica
 
 Success: S
 IdLink: LclXl0OBIhyeP5zpNja5Fw
-NewLink: https://t.me/joinchat/g-Gl4LYb76BmYzM0
+NewLink: https://t.me/joinchat/RyyCBOGtITRhMTI0
 PermanentId: -1001331800590
 Nome: Ingegneria Chimica
 
 Success: S
 IdLink: LclXl0KnsKK0aCEqqx6DBw
-NewLink: https://t.me/joinchat/weA1ZZw6-4RlMGI0
+NewLink: https://t.me/joinchat/F4yosudnjr0zNWE8
 PermanentId: -1001118285986
 Nome: Ingegneria Civile
 
 Success: S
 IdLink: LclXl1K6vpBAVMyf8mmdjA
-NewLink: https://t.me/joinchat/I9DcsKCC3Sc0NjY0
+NewLink: https://t.me/joinchat/7_7lrcBOsmcwYmRk
 PermanentId: -1001387970192
 Nome: Ingegneria Civile - Civil Engineering
 
 Success: S
 IdLink: FNGD_1NmGT0-3DnV7TdljA
-NewLink: https://t.me/joinchat/o7SDzKtO7z84Nzhk
+NewLink: https://t.me/joinchat/zZJxfYzFpp5iNTZk
 PermanentId: -1001399200061
 Nome: Ingegneria Civile per la mitigazione del rischio
 
@@ -1794,127 +1734,127 @@ Nome: Ingegneria Edile edelle Costruzioni
 
 Success: S
 IdLink: FNGD_z7bIq3q_ij3TBOBsA
-NewLink: https://t.me/joinchat/vTDrHpln5qg2NjU8
+NewLink: https://t.me/joinchat/rG9X6BJ1QsFiNTNk
 PermanentId: -1001155448748
 Nome: Ingegneria Elettrica
 
 Success: S
 IdLink: FNGD_0R4OYmddrFsGHw37w
-NewLink: https://t.me/joinchat/P3GqPaw2mMM5NGFk
+NewLink: https://t.me/joinchat/aWaVIQcSZ1w0ZmNk
 PermanentId: -1001207066901
 Nome: Ingegneria Elettronica
 
 Success: S
 IdLink: FNGD_z_bEwUWy77fdw5dCQ
-NewLink: https://t.me/joinchat/9Mzw8mp_YixkOGZk
+NewLink: https://t.me/joinchat/WTdBnIavFpM3N2Fk
 PermanentId: -1001301841167
 Nome: Ingegneria Energetica
 
 Success: S
 IdLink: FNGD_03zDndw2-aNSuBKTA
-NewLink: https://t.me/joinchat/x9PuVgw6ZaVmZmY0
+NewLink: https://t.me/joinchat/O_NtcgCokoplMGQ0
 PermanentId: -1001239060272
 Nome: Ingegneria Fisica
 
 Success: S
 IdLink: FNGD_0wRkuE4cfoKa3am8Q
-NewLink: https://t.me/joinchat/OsrypRAv51kxNWI8
+NewLink: https://t.me/joinchat/gm5MP-FhXo80N2Nk
 PermanentId: -1001317799469
 Nome: Ingegneria Gestionale
 
 Success: S
 IdLink: FNGD_0VLZ7chKraXQk8-tg
-NewLink: https://t.me/joinchat/W5haZWrzzcAxZjhk
+NewLink: https://t.me/joinchat/Rh0dPW8ioAliYzA8
 PermanentId: -1001317799469
 Nome: Ingegneria Gestionale
 
 Success: S
 IdLink: AFY9TUjxpwWpETqcN2IjRA
-NewLink: https://t.me/joinchat/qjD3NVxCCT5lOGY0
+NewLink: https://t.me/joinchat/j6d0v_FmBVk4M2Vk
 PermanentId: -1001304117297
 Nome: Ingegneria Informatica
 
 Success: S
 IdLink: AFY9TUjxpwWpETqcN2IjRA
-NewLink: https://t.me/joinchat/9vcMCFeAuCtjMjA0
+NewLink: https://t.me/joinchat/eral-aNKaCI0Mjhk
 PermanentId: -1001304117297
 Nome: Ingegneria Informatica
 
 Success: S
 IdLink: LclXl0PLDCWN-Nd7ZucUrw
-NewLink: https://t.me/joinchat/95et9urV8ZI2Nzg8
+NewLink: https://t.me/joinchat/FDvO603gv1Y5YmM0
 PermanentId: -1001137380389
 Nome: Ingegneria Matematica
 
 Success: S
 IdLink: FNGD_0GpRUc3JsDEeu5Omw
-NewLink: https://t.me/joinchat/z8BkJjWR2QgwY2Zk
+NewLink: https://t.me/joinchat/Udn8DcydTGI1MmM0
 PermanentId: -1001258508095
 Nome: Ingegneria Meccanica
 
 Success: S
 IdLink: FNGD_0GpRUc3JsDEeu5Omw
-NewLink: https://t.me/joinchat/SDwLub6qUM9jM2Q0
+NewLink: https://t.me/joinchat/sgD1QFb0-9wwMDA0
 PermanentId: -1001258508095
 Nome: Ingegneria Meccanica
 
 Success: S
 IdLink: LclXl0MRrTDRi8sjFF76PA
-NewLink: https://t.me/joinchat/f1q0Xo26CQMyMzI0
+NewLink: https://t.me/joinchat/2_CRSKgq8aBmMTFk
 PermanentId: -1001125231920
 Nome: Ingegneria dei Materiali e delle Nanotecnologie
 
 Success: S
 IdLink: FNGD_1AdWFUhtdXZtiQnEA
-NewLink: https://t.me/joinchat/WQKyrd5co8k0MDc0
+NewLink: https://t.me/joinchat/3K6re9d6eNY1Zjdk
 PermanentId: -1001344100437
 Nome: Ingegneria dei Sistemi Edilizi
 
 Success: S
 IdLink: FNGD_0PW1YA5q4BTAy0YfA
-NewLink: https://t.me/joinchat/ot-QZm5xSZE4NGI0
+NewLink: https://t.me/joinchat/6Ck9twZLBXk2ZWVk
 PermanentId: -1001131627926
 Nome: Ingegneria dell'Automazione
 
 Success: S
 IdLink: FNGD_0xvBiXWhrME7EHeGg
-NewLink: https://t.me/joinchat/lrxxcjgb5n5lZTNk
+NewLink: https://t.me/joinchat/iNfpvTigoFgwYjNk
 PermanentId: -1001282344485
 Nome: Ingegneria della Prevenzione e della Sicurezza nell'industria di processo
 
 Success: S
 IdLink: LclXl0RxBr-nLsc12zzuzQ
-NewLink: https://t.me/joinchat/Bygyxag-P9ozYWVk
+NewLink: https://t.me/joinchat/62s8P2i3UdI2YmVk
 PermanentId: -1001148257983
 Nome: Ingegneria della Produzione Industriale
 
 Success: S
 IdLink: FNGD_xdC8fUBMXBlNFqiKA
-NewLink: https://t.me/joinchat/mcre96QyW8szNjY0
+NewLink: https://t.me/joinchat/XF8QzK55M6ZlYjZk
 PermanentId: -1001162307866
 Nome: Ingegneria per l'Ambiente e il Territorio
 
 Success: S
 IdLink: FNGD_0VHaRr7tb-g2a-uyw
-NewLink: https://t.me/joinchat/ndXdmEK0a5xjYTE0
+NewLink: https://t.me/joinchat/z73oviGwIIFjZDM0
 PermanentId: -1001162307866
 Nome: Ingegneria per l'Ambiente e il Territorio - Environmental and Land Planning Engineering
 
 Success: S
 IdLink: FNGD_01YiUGk6Ax1MdQvow
-NewLink: https://t.me/joinchat/4qMIU_q4slw4Njlk
+NewLink: https://t.me/joinchat/9gCnXOZo9bQ0NWY0
 PermanentId: -1001297647937
 Nome: Integrated Product Design
 
 Success: S
 IdLink: LclXl1YUDx1Ew2LZkzgx2Q
-NewLink: https://t.me/joinchat/sHzf3ZvwuuVkYmZk
+NewLink: https://t.me/joinchat/CFFyVFvhKUwwMGY0
 PermanentId: -1001444155165
 Nome: Interior and Spatial Design
 
 Success: S
 IdLink: FNGD_0XYw2nKXn8A_K8m9g
-NewLink: https://t.me/joinchat/sVHpGN0WF8swODg0
+NewLink: https://t.me/joinchat/KLX7T6fS-mAyZmM8
 PermanentId: -1001171833705
 Nome: Landscape Architecture Land Landscape Heritage
 
@@ -1926,61 +1866,61 @@ Nome: Leonardo* intende che i primi anni dei corsi in questione sono temporaneam
 
 Success: S
 IdLink: LclXl06MBi0HtNv6RCXFyg
-NewLink: https://t.me/joinchat/tGtR8TcqXFhhMmRk
+NewLink: https://t.me/joinchat/YQi-AfYmn2o2ZjY0
 PermanentId: -1001317799469
 Nome: Management Engineering - Ingegneria Gestionale
 
 Success: S
 IdLink: LclXl1IiCD7go6TYFc1rgA
-NewLink: https://t.me/joinchat/NEOxSWEHWCJkYTk0
+NewLink: https://t.me/joinchat/gSRgOTDNqk8wZjI0
 PermanentId: -1001377962046
 Nome: Management of Built Environment - Gestione del Costruito
 
 Success: S
 IdLink: LclXl098pv8MaPj9SoPzxQ
-NewLink: https://t.me/joinchat/vjrbvY-6B802YTc0
+NewLink: https://t.me/joinchat/-u3JUNyYbGIxNTg0
 PermanentId: -1001333569279
 Nome: Materials Engineering and Nanotechnology - Ingegneria dei Materiali e delle Nanotecnologie
 
 Success: S
 IdLink: LclXl0idUO1yDJ3MT8O4zQ
-NewLink: https://t.me/joinchat/lSy5HPBt-f00OWI0
+NewLink: https://t.me/joinchat/bp_erWGx_zMyZDc0
 PermanentId: -1001218269421
 Nome: Mathematical Engineering - Ingegneria Matematica
 
 Success: S
 IdLink: LclXl0sDTz-XnAfDERapyA
-NewLink: https://t.me/joinchat/j8AXfvs5wUQ4ZTg8
+NewLink: https://t.me/joinchat/elyac1-9YcJlOWM0
 PermanentId: -1001258508095
 Nome: Mechanical Engineering - Ingegneria Meccanica
 
 Success: S
 IdLink: LclXl0cXknob3BbtCqHJ3w
-NewLink: https://t.me/joinchat/rB3vZB6tph1kYTE0
+NewLink: https://t.me/joinchat/nPHrGEfJNuAzMzE0
 PermanentId: -1001258508095
 Nome: Mechanical Engineering - Ingegneria Meccanica
 
 Success: S
 IdLink: FgKXvmPOKGM1MGNk
-NewLink: https://t.me/joinchat/_Cmu0eirdxA0ODBk
+NewLink: https://t.me/joinchat/oL8r_41UxFNjM2Nk
 PermanentId: -1001416090698
 Nome: Mobility Engineering
 
 Success: S
 IdLink: FNGD_0ZfXU3ePztw_o7v8w
-NewLink: https://t.me/joinchat/0W7PbcNY2HhmZDc0
+NewLink: https://t.me/joinchat/l4eXagP4EABmYzdk
 PermanentId: -1001180654925
 Nome: Music & Acoustic Engineering
 
 Success: S
 IdLink: LclXl0bT9Nz6N8eHD7yO0Q
-NewLink: https://t.me/joinchat/lT5npWzAxRJiYzRk
+NewLink: https://t.me/joinchat/tBhzs-IonjA4NzI0
 PermanentId: -1001188295900
 Nome: Nuclear Engineering - Ingegneria Nucleare
 
 Success: S
 IdLink: GK8mtaN91JIxZWRk
-NewLink: https://t.me/joinchat/i3gOWS0y-f8yYTU0
+NewLink: https://t.me/joinchat/xqakUsM6sxE3NzU8
 PermanentId: -1001273526902
 Nome: ONLINE
 
@@ -2004,25 +1944,25 @@ Nome: Progettazionedell'Architettura
 
 Success: S
 IdLink: LclXl0oCTkj_N6iy-0Ynrw
-NewLink: https://t.me/joinchat/xAEGoWALR7k5NGE0
+NewLink: https://t.me/joinchat/NH74f-flo4A0MWNk
 PermanentId: -1001241665096
 Nome: Space Engineering - Ingegneria Spaziale
 
 Success: S
 IdLink: LclXl0cpEf1ylR4JGS8GEw
-NewLink: https://t.me/joinchat/Rll7mOdA41gxNDQ0
+NewLink: https://t.me/joinchat/1ocK-yULuCE1NTNk
 PermanentId: -1001193873917
 Nome: Sustainable Architecture and Landscape Design - Architettura Sostenibile e Progetto del Paesaggio
 
 Success: S
 IdLink: LclXl1LJp1eCEVY2AALohA
-NewLink: https://t.me/joinchat/EimrR_687P1iMWM0
+NewLink: https://t.me/joinchat/gjAw3ihzGzw2M2E0
 PermanentId: -1001388947287
 Nome: Telecommunication Engineering - Ingegneria delle Telecomunicazioni
 
 Success: S
 IdLink: LclXl0m5QrT1YiF1ZA6urQ
-NewLink: https://t.me/joinchat/NbCOG6uyFhNhODQ0
+NewLink: https://t.me/joinchat/nuk59e9InykxNWE0
 PermanentId: -1001236878004
 Nome: Urban Planning and Policy Design - Pianificazione Urbana e Politiche Territoriali
 
@@ -2034,73 +1974,73 @@ Nome: Urbanistica: Citt?? Ambiente Paesaggio
 
 Success: S
 IdLink: USWALhHXvon9pxeO
-NewLink: https://t.me/joinchat/KAF8QbYnBYQxODQ0
+NewLink: https://t.me/joinchat/1o4LbI4pKcczODI0
 PermanentId: -1001361412142
 Nome: Wireless Internet
 
 Success: S
 IdLink: COsG3EzMMJnYvAZk_UvcTQ
-NewLink: https://t.me/joinchat/P5eaWspDn1IzMzA8
+NewLink: https://t.me/joinchat/-DsAsD_BCDg4YTI0
 PermanentId: -1001288450201
 Nome: Aeronautical Engineering - Ingegneria Aeronautica
 
 Success: S
 IdLink: FNGD_0ZmGva3pZTaJVXovA
-NewLink: https://t.me/joinchat/504Xq8E3GXdiYWY0
+NewLink: https://t.me/joinchat/XdZZ81Zqug1hZGFk
 PermanentId: -1001181096694
 Nome: Architectural Design and History - Progettazione Architettonica e Storia
 
 Success: S
 IdLink: FNGD_1IJ91IBH7n1bwlllQ
-NewLink: https://t.me/joinchat/u-lFbiCwJ3RhOWM0
+NewLink: https://t.me/joinchat/WB9OuDzws5hkZjNk
 PermanentId: -1001376384850
 Nome: Architettura - Architettura delle Costruzioni
 
 Success: S
 IdLink: FNGD_06PNXEMoN8A3w4g0w
-NewLink: https://t.me/joinchat/6ursBKiDwKA4MGVk
+NewLink: https://t.me/joinchat/qVILmUUtMUhiZWY0
 PermanentId: -1001318008177
 Nome: Architettura e Disegno Urbano - Architecture and Urban Design
 
 Success: S
 IdLink: FNGD_07NwnztY2nw2s2Scg
-NewLink: https://t.me/joinchat/TgvXMJMRcghiN2Y0
+NewLink: https://t.me/joinchat/kRI2QqiYYEU5NDA8
 PermanentId: -1001322107516
 Nome: Architettura-Ambiente Costruito-Interni- Architecture-Built Environment-Interiors
 
 Success: S
 IdLink: FNGD_0NzRZYj8s4bea8B6A
-NewLink: https://t.me/joinchat/f594RJHIYVBmNTY0
+NewLink: https://t.me/joinchat/mtJGPS8gXcIxZjY0
 PermanentId: -1001131627926
 Nome: Automation and Control Engineering - Ingegneria dell'Automazione
 
 Success: S
 IdLink: FNGD_0-UI8tp1Zdhk6aD2Q
-NewLink: https://t.me/joinchat/YejJuEbHFRs1NWU0
+NewLink: https://t.me/joinchat/g9S659EVoXsxMDU8
 PermanentId: -1001335108555
 Nome: Biomedical Engineering - Ingegneria Biomedica
 
 Success: S
 IdLink: FNGD_0TY4QbgJLT0aE4iOA
-NewLink: https://t.me/joinchat/d2Rpbf-M9CpkNDVk
+NewLink: https://t.me/joinchat/pWyyf_YZ0LAxNDU8
 PermanentId: -1001269096472
 Nome: Building andArchitectural Engineering
 
 Success: S
 IdLink: FNGD_0uk4BgesPjp8ufXrg
-NewLink: https://t.me/joinchat/vHC7-57acwQ3MDdk
+NewLink: https://t.me/joinchat/5qi9wkfbSnNjODRk
 PermanentId: -1001269096472
 Nome: Building andArchitectural Engineering
 
 Success: S
 IdLink: FNGD_0rr8rw-CHenef9_-Q
-NewLink: https://t.me/joinchat/C2OIiBmoLglhMzU0
+NewLink: https://t.me/joinchat/xWCxID-jGmFhNjg0
 PermanentId: -1001256977084
 Nome: Civil Engineering for Risk Mitigation
 
 Success: S
 IdLink: FNGD_0S-KV2az9KUquMgxg
-NewLink: https://t.me/joinchat/X7BC6FZbN8Y5MjBk
+NewLink: https://t.me/joinchat/oabmXL-2OHM4OTY0
 PermanentId: -1001153313117
 Nome: Computer Science and Engineering - Ingegneria Informatica
 
@@ -2112,7 +2052,7 @@ Nome: Design & Engineering - Progetto e ingegnerizzazione del prodotto industria
 
 Success: S
 IdLink: FNGD_0LnsxgsumWvlkRzzQ
-NewLink: https://t.me/joinchat/oEfBNudsuqxmODI0
+NewLink: https://t.me/joinchat/O83hEUw7ePZhMjBk
 PermanentId: -1001122480920
 Nome: Design degli Interni
 
@@ -2124,25 +2064,25 @@ Nome: Design del Prodotto Industriale
 
 Success: S
 IdLink: FNGD_1CeuohFFXq2S4h2RA
-NewLink: https://t.me/joinchat/Ux7HTmMNIKcyYzFk
+NewLink: https://t.me/joinchat/JZ-KZJuvOKEzYzFk
 PermanentId: -1001145178288
 Nome: Design della Comunicazione
 
 Success: S
 IdLink: FNGD_0RCCLAztsLSEvrCfg
-NewLink: https://t.me/joinchat/zq-3OgK8Lj45Yjdk
+NewLink: https://t.me/joinchat/AV5EaHxf_os3MmM0
 PermanentId: -1001145178288
 Nome: Design della Comunicazione
 
 Success: S
 IdLink: FNGD_0K-mWdVg8tHqZm4yw
-NewLink: https://t.me/joinchat/4xDKrdec7rIzNGY0
+NewLink: https://t.me/joinchat/zjV1KsvuSrI2MGE0
 PermanentId: -1001119787367
 Nome: Design della Moda
 
 Success: S
 IdLink: FNGD_0TdNs1kHHOS4KqxMQ
-NewLink: https://t.me/joinchat/L02hd_K_klE0ZDU0
+NewLink: https://t.me/joinchat/jA_1v1l2KRNkYzVk
 PermanentId: -1001155348173
 Nome: Design for the Fashion System - Design per il sistema Moda
 
@@ -2154,31 +2094,31 @@ Nome: Digital and Interaction Design
 
 Success: S
 IdLink: FNGD_0Tev6xqR5UE9u870g
-NewLink: https://t.me/joinchat/j2ZM1aBNLKI0ZGJk
+NewLink: https://t.me/joinchat/dcZ39b1jKTtmZDI0
 PermanentId: -1001155448748
 Nome: Electrical Engineering - Ingegneria Elettrica
 
 Success: S
 IdLink: FNGD_0fyYRWsqw54DR7O5A
-NewLink: https://t.me/joinchat/z89R2gjgLk1jNWY0
+NewLink: https://t.me/joinchat/9XJPei152NZkMjJk
 PermanentId: -1001207066901
 Nome: Electronics Engineering - Ingegneria Elettronica
 
 Success: S
 IdLink: 9UDEOnmHwdkzZDdk
-NewLink: https://t.me/joinchat/M7sZ9Z1Q75dlODQ0
+NewLink: https://t.me/joinchat/CfylssXFmPwxMmZk
 PermanentId: -1001193890568
 Nome: Energy Engineering - Ingegneria Energetica
 
 Success: S
 IdLink: FNGD_0najzCHWSNwl4OlIg
-NewLink: https://t.me/joinchat/Pk-p0-SRBwhhZjI8
+NewLink: https://t.me/joinchat/xY8N3fL4LzMwMGRk
 PermanentId: -1001239060272
 Nome: Engineering Physics - Ingegneria Fisica
 
 Success: S
 IdLink: FNGD_0bbu1ascxQNiEzULg
-NewLink: https://t.me/joinchat/r1nthHWZ_u82NmNk
+NewLink: https://t.me/joinchat/T8XUjbVyO3ljNmQ0
 PermanentId: -1001188805462
 Nome: Geoinformatics Engineering - Ingegneria Geoinformatica
 
@@ -2196,37 +2136,37 @@ Nome: Gruppo telegram matricole 2021/2022
 
 Success: S
 IdLink: FNGD_1ZRDqqhZqDG7FF0Ew
-NewLink: https://t.me/joinchat/bKWIC9z1HUYyMTI0
+NewLink: https://t.me/joinchat/sE-G3PsGEGtkMjI0
 PermanentId: -1001357486354
 Nome: Ingegneria Aerospaziale
 
 Success: S
 IdLink: FNGD_06bewA86Rgdv-QkWA
-NewLink: https://t.me/joinchat/z45WfgQgWbgxOGQ0
+NewLink: https://t.me/joinchat/ihwevkJk3fM4Y2Rk
 PermanentId: -1001335108555
 Nome: Ingegneria Biomedica
 
 Success: S
 IdLink: FNGD_0OBIhw6jzQOuuxC_Q
-NewLink: https://t.me/joinchat/FMFZyUA5WkNlZmM8
+NewLink: https://t.me/joinchat/GKCwQGTHisJlNjdk
 PermanentId: -1001331800590
 Nome: Ingegneria Chimica
 
 Success: S
 IdLink: FNGD_0KnsKLoudaP6zz8bA
-NewLink: https://t.me/joinchat/7BLcRQIbdAdkZWM8
+NewLink: https://t.me/joinchat/BROCMBuFMXpkM2Y0
 PermanentId: -1001118285986
 Nome: Ingegneria Civile
 
 Success: S
 IdLink: FNGD_1K6vpAYrRc60AckJQ
-NewLink: https://t.me/joinchat/JJX404gAZbhlMTI0
+NewLink: https://t.me/joinchat/G17LfRiZGK1hMDBk
 PermanentId: -1001387970192
 Nome: Ingegneria Civile - Civil Engineering
 
 Success: S
 IdLink: FNGD_1NmGT0-3DnV7TdljA
-NewLink: https://t.me/joinchat/vx6tXcx1RIA1YTA0
+NewLink: https://t.me/joinchat/tnv6ny1Zn_wzNjE0
 PermanentId: -1001399200061
 Nome: Ingegneria Civile per la mitigazione del rischio
 
@@ -2244,37 +2184,37 @@ Nome: Ingegneria Edile edelle Costruzioni
 
 Success: S
 IdLink: FNGD_z7bIq3q_ij3TBOBsA
-NewLink: https://t.me/joinchat/TO50sFN7taFiZDk0
+NewLink: https://t.me/joinchat/3ikcR9Z7VjIyMjQ0
 PermanentId: -1001155448748
 Nome: Ingegneria Elettrica
 
 Success: S
 IdLink: FNGD_0R4OYmddrFsGHw37w
-NewLink: https://t.me/joinchat/F0dfiEBizek3ZDVk
+NewLink: https://t.me/joinchat/40wB3MbAA4IzODBk
 PermanentId: -1001207066901
 Nome: Ingegneria Elettronica
 
 Success: S
 IdLink: FNGD_z_bEwUWy77fdw5dCQ
-NewLink: https://t.me/joinchat/g-ZFfS0ez-ljOTc0
+NewLink: https://t.me/joinchat/I9x367tyjd5jYTQ0
 PermanentId: -1001301841167
 Nome: Ingegneria Energetica
 
 Success: S
 IdLink: FNGD_03zDndw2-aNSuBKTA
-NewLink: https://t.me/joinchat/B4_OVAgPy4RhODZk
+NewLink: https://t.me/joinchat/CQAUuODC4z1mMDY0
 PermanentId: -1001239060272
 Nome: Ingegneria Fisica
 
 Success: S
 IdLink: FNGD_0wRkuE4cfoKa3am8Q
-NewLink: https://t.me/joinchat/rVq4uDz2akw5MTE0
+NewLink: https://t.me/joinchat/ZMNwAqv9Vm8xZjZk
 PermanentId: -1001317799469
 Nome: Ingegneria Gestionale
 
 Success: S
 IdLink: FNGD_0VLZ7chKraXQk8-tg
-NewLink: https://t.me/joinchat/ix8vIiOVu3swNjI0
+NewLink: https://t.me/joinchat/kOuAKABdtjZlMmVk
 PermanentId: -1001317799469
 Nome: Ingegneria Gestionale
 
@@ -2292,61 +2232,61 @@ Nome: Ingegneria Informatica GENERALE
 
 Success: S
 IdLink: FNGD_0PLDCVN6DwzWPpDWA
-NewLink: https://t.me/joinchat/B9OR0Uq6u9Y1MThk
+NewLink: https://t.me/joinchat/P3nUKd-A_Sk0Njg0
 PermanentId: -1001137380389
 Nome: Ingegneria Matematica
 
 Success: S
 IdLink: FNGD_0GpRUc3JsDEeu5Omw
-NewLink: https://t.me/joinchat/b9dne2NZ77k5OWFk
+NewLink: https://t.me/joinchat/wzV4Rl0wMOE3NGE0
 PermanentId: -1001258508095
 Nome: Ingegneria Meccanica
 
 Success: S
 IdLink: FNGD_0GpRUc3JsDEeu5Omw
-NewLink: https://t.me/joinchat/sLmtmuR-2Xs4OTdk
+NewLink: https://t.me/joinchat/qb8mSgDoD1hmZGE0
 PermanentId: -1001258508095
 Nome: Ingegneria Meccanica
 
 Success: S
 IdLink: FNGD_0MRrTDLoQ8oXnwO6w
-NewLink: https://t.me/joinchat/abbSl2SSZlw3ZmY0
+NewLink: https://t.me/joinchat/TGHIc1YFMCRkNmU8
 PermanentId: -1001125231920
 Nome: Ingegneria dei Materiali e delle Nanotecnologie
 
 Success: S
 IdLink: FNGD_1AdWFUhtdXZtiQnEA
-NewLink: https://t.me/joinchat/xPRyUhhIwZQ3N2Q0
+NewLink: https://t.me/joinchat/tCc1WZYsBSE4M2M0
 PermanentId: -1001344100437
 Nome: Ingegneria dei Sistemi Edilizi
 
 Success: S
 IdLink: FNGD_0PW1YA5q4BTAy0YfA
-NewLink: https://t.me/joinchat/zhNzZe8HS3RkZDFk
+NewLink: https://t.me/joinchat/TzU8h89ktJNjMDI0
 PermanentId: -1001131627926
 Nome: Ingegneria dell'Automazione
 
 Success: S
 IdLink: FNGD_0xvBiXWhrME7EHeGg
-NewLink: https://t.me/joinchat/Fau1hdvY_uYxYjBk
+NewLink: https://t.me/joinchat/2gvYLkaM62Y2MmU0
 PermanentId: -1001282344485
 Nome: Ingegneria della Prevenzione e della Sicurezza nell'industria di processo
 
 Success: S
 IdLink: FNGD_0RxBr_84chniRAvyA
-NewLink: https://t.me/joinchat/GRONDEhQh39iMDY0
+NewLink: https://t.me/joinchat/9_Bc2XC8XwdiMjI8
 PermanentId: -1001148257983
 Nome: Ingegneria della Produzione Industriale
 
 Success: S
 IdLink: FNGD_xdC8fUBMXBlNFqiKA
-NewLink: https://t.me/joinchat/IPoF_n9g8IdkZjA0
+NewLink: https://t.me/joinchat/-w9WaQ-mNAUxMmZk
 PermanentId: -1001162307866
 Nome: Ingegneria per l'Ambiente e il Territorio
 
 Success: S
 IdLink: FNGD_0VHaRr7tb-g2a-uyw
-NewLink: https://t.me/joinchat/68QZL8EMLgQ4Y2Y0
+NewLink: https://t.me/joinchat/n6uly7ZdO1Q5Nzg8
 PermanentId: -1001162307866
 Nome: Ingegneria per l'Ambiente e il Territorio - Environmental and Land Planning Engineering
 
@@ -2358,67 +2298,67 @@ Nome: Integrated Product Design Product Service System Design - Design per il si
 
 Success: S
 IdLink: VWHRMMyC_P02ODU0
-NewLink: https://t.me/joinchat/xEy63nc4GGZlM2Rk
+NewLink: https://t.me/joinchat/GgWfQmwEXatlNzc0
 PermanentId: -1001444155165
 Nome: Interior and Spatial Design
 
 Success: S
 IdLink: FNGD_0XYw2nKXn8A_K8m9g
-NewLink: https://t.me/joinchat/ND4e_p2jktdiMTM0
+NewLink: https://t.me/joinchat/l0o2ZiddCMdjYTk0
 PermanentId: -1001171833705
 Nome: Landscape Architecture Land Landscape Heritage
 
 Success: S
 IdLink: FNGD_06MBi1LxVlmBQJl3Q
-NewLink: https://t.me/joinchat/9cVCJW5N-_U0NDU0
+NewLink: https://t.me/joinchat/eHbvsPLjCeg3Nzg8
 PermanentId: -1001317799469
 Nome: Management Engineering - Ingegneria Gestionale
 
 Success: S
 IdLink: FNGD_1IiCD4XTy9QqbAwvg
-NewLink: https://t.me/joinchat/UiuqQPwe8yc4ZmY0
+NewLink: https://t.me/joinchat/rGBsS8Hz0VgzNWE0
 PermanentId: -1001377962046
 Nome: Management of Built Environment - Gestione del Costruito
 
 Success: S
 IdLink: FNGD_098pv8vZmn17AaFqA
-NewLink: https://t.me/joinchat/Hkd49FIgHsxhMjA0
+NewLink: https://t.me/joinchat/zl0HbzWGgQMwODQ8
 PermanentId: -1001333569279
 Nome: Materials Engineering and Nanotechnology - Ingegneria dei Materiali e delle Nanotecnologie
 
 Success: S
 IdLink: FNGD_0idUO3AMzsqu9KSaw
-NewLink: https://t.me/joinchat/9blUOAX5hV00YTFk
+NewLink: https://t.me/joinchat/GvNuoUZaZWllMmM0
 PermanentId: -1001218269421
 Nome: Mathematical Engineering - Ingegneria Matematica
 
 Success: S
 IdLink: ML0LE_TOJ9cwZDRk
-NewLink: https://t.me/joinchat/Dj13wAHVYB81N2E0
+NewLink: https://t.me/joinchat/-y0TukHAHcQwOTA0
 PermanentId: -1001192727162
 Nome: Mechanical Engineering - Ingegneria Meccanica
 
 Success: S
 IdLink: FNGD_1Rn1Er8ygZ0-fHoyw
-NewLink: https://t.me/joinchat/ay12shnfiQdjOWI0
+NewLink: https://t.me/joinchat/ZZhkmWKC8V45NzQ0
 PermanentId: -1001416090698
 Nome: Mobility Engineering
 
 Success: S
 IdLink: FNGD_0ZfXU3ePztw_o7v8w
-NewLink: https://t.me/joinchat/7t8XtNp6OMEwNzU8
+NewLink: https://t.me/joinchat/rjCMimUfMoFjOWU8
 PermanentId: -1001180654925
 Nome: Music & Acoustic Engineering
 
 Success: S
 IdLink: FNGD_0bT9Nxo7IzBd2SQBg
-NewLink: https://t.me/joinchat/bELimV4nIwkzZjRk
+NewLink: https://t.me/joinchat/QHbw6Ikab1I3MmI0
 PermanentId: -1001188295900
 Nome: Nuclear Engineering - Ingegneria Nucleare
 
 Success: S
 IdLink: FNGD_0voenZLfecFdbigSw
-NewLink: https://t.me/joinchat/Pu3suOU5_jk3NGM0
+NewLink: https://t.me/joinchat/jTXYVZQuilBmNmQ0
 PermanentId: -1001273526902
 Nome: ONLINE
 
@@ -2448,19 +2388,19 @@ Nome: Progettazionedell'Architettura
 
 Success: S
 IdLink: SgJOSHILTSqhAF5C
-NewLink: https://t.me/joinchat/pARCitIoKZQ4ZWE0
+NewLink: https://t.me/joinchat/J-UXlanfVjUyZTI0
 PermanentId: -1001241665096
 Nome: Space Engineering - Ingegneria Spaziale
 
 Success: S
 IdLink: FNGD_0cpEf3Ir0BOnFdTnA
-NewLink: https://t.me/joinchat/YFTn6rKCMuY4YmJk
+NewLink: https://t.me/joinchat/SltNc4115lg4YzI0
 PermanentId: -1001193873917
 Nome: Sustainable Architecture and Landscape Design - Architettura Sostenibile e Progetto del Paesaggio
 
 Success: S
 IdLink: FNGD_0m5QrTb0NI69Cpnhw
-NewLink: https://t.me/joinchat/l_EFxOIuE1g5ZGM8
+NewLink: https://t.me/joinchat/oF7mCFCo295jNWY0
 PermanentId: -1001236878004
 Nome: Urban Planning and Policy Design - Pianificazione Urbana e Politiche Territoriali
 
