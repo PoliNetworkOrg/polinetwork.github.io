@@ -75,10 +75,10 @@ function parseSearchResponse(data){
 		document.getElementById("triennale_o_magistrale_unico").disabled = false;
 		document.getElementById("triennale_o_magistrale_all").disabled = false;
 
-		document.getElementById("tipo_gruppo_s").disabled = false;
-		document.getElementById("tipo_gruppo_c").disabled = false;
-		document.getElementById("tipo_gruppo_e").disabled = false;
-		document.getElementById("tipo_gruppo_a").disabled = false;
+		document.getElementById("scegli_piattaforma_all").disabled = false;
+		document.getElementById("scegli_piattaforma_wa").disabled = false;
+		document.getElementById("scegli_piattaforma_fb").disabled = false;
+		document.getElementById("scegli_piattaforma_tg").disabled = false;
 		
 		document.getElementById("tipo_gruppo_s").disabled = false;
 		document.getElementById("tipo_gruppo_c").disabled = false;
