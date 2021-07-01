@@ -166,10 +166,17 @@
                 opacity: 1;
             }
         }
+        
+        .container2 {
+            margin-left: calc(4vw + 0.01rem + 0px);
+            margin-right: calc(4vw + 0.01rem + 0px);
+            padding-left: calc(0px);
+            padding-right: calc(0px);
+        }
     </style>
 </head>
 
-<body id="page-top" style="padding-top: 2rem;padding-left: calc(0.5rem + 10px);padding-right: calc(0.5rem + 10px);">
+<body id="page-top" style="padding-top: 2rem;padding-left:0px; padding-right: 0px;">
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="padding-top: 4px;padding-bottom: 4px;">
@@ -186,33 +193,34 @@
     </nav>
 
     <!-- Page Content -->
-    <div class="container-fluid p-0">
+    <div class="container2">
+        <div class="container-fluid p-0">
 
-        <div class="my-auto">
-            <br /><br />
-            <div class="resume-item d-flex flex-column flex-md-row">
-                <div class="resume-content mr-auto">
-                    <h3 class="mb-0">Specifici di un corso di laurea</h3>
-                    <div class="subheading mb-3" style="">Entra nel tuo gruppo!</div>
-                    <div id="ricerca" style="border: 1px solid;padding-top: 10px;padding-left: 10px;padding-right: 10px;padding-bottom: 20px;border-radius: 15px;display:inline-block;width:100%;border-color: #000c;;max-width: 900px;">
-                        <div style="display:inline-block;width:100%;">
-                            <div style="padding-top: 5px;">
-                                <label for="nme" style="margin-bottom:0px;"><span style="display: block;border: none;color: #3B3B3B;">&nbsp;🔍 Cerca un corso di laurea:</span></label>
-                                <div style=" border-bottom: 2px solid;">
-                                    <!--
+            <div class="my-auto">
+                <br /><br />
+                <div class="resume-item d-flex flex-column flex-md-row">
+                    <div class="resume-content" style="width:100%; margin-right: calc(25vw); max-width: calc(27rem + 120px + 12vw);">
+                        <h3 class="mb-0">Specifici di un corso di laurea</h3>
+                        <div class="subheading mb-3" style="">Entra nel tuo gruppo!</div>
+                        <div id="ricerca" style="border: 1px solid;padding-top: 10px;padding-left: 10px;padding-right: 10px;padding-bottom: 20px;border-radius: 15px;display:inline-block;width:100%;border-color: #000c;;max-width: 900px;">
+                            <div style="display:inline-block;width:100%;">
+                                <div style="padding-top: 5px;">
+                                    <label for="nme" style="margin-bottom:0px;"><span style="display: block;border: none;color: #3B3B3B;">&nbsp;🔍 Cerca un corso di laurea:</span></label>
+                                    <div style=" border-bottom: 2px solid;">
+                                        <!--
 									TODO: sistemare style per l'input sottostante
 									style="width: 100%;line-height:display: block;padding: 5px;border: none;font-size: 17px;"
 									line-height non è settato e l'errore di sintassi non setta le proprietà successive: display, padding, border, font-size.
 									momentaneamente sistemato rimuovendo l'errore sintattico (non so a che valore avevate intenzione di settare line-height)
 								-->
-                                    <input type="search" name="name" class="question" style="width: 100%;display: block;padding: 5px;border: none;font-size: 17px;" id="searchBar" required autocomplete="off" data-limit="-1" placeholder="Inserisci il tuo corso di laurea (es. Informatica)"
-                                    />
+                                        <input type="search" name="name" class="question" style="width: 100%;display: block;padding: 5px;border: none;font-size: 17px;" id="searchBar" required autocomplete="off" data-limit="-1" placeholder="Inserisci il tuo corso di laurea (es. Informatica)"
+                                        />
+                                    </div>
                                 </div>
-                            </div>
-                            <div style="padding-top:15px;">
-                                <i style="border: solid;border-color: #0009;border-width: 0 3px 3px 0;display: inline-block;padding: 3px;transform: rotate(45deg);-webkit-transform:rotate(45deg);position:relative;top:27px;right:-95%;z-index:-10;"></i>
-                                <span style="position: relative;left: -10px;color:#3B3B3B;">Anno di ingresso:</span><br />
-                                <select style="width: 100%;margin-bottom: 8px;-moz-appearance: none;-webkit-appearance: none;appearance: none;color: #868e96;font-weight: bold;font-size: 0.95rem;background-color: #fff0;" id="searchYearInput">
+                                <div style="padding-top:15px;">
+                                    <i style="border: solid;border-color: #0009;border-width: 0 3px 3px 0;display: inline-block;padding: 3px;transform: rotate(45deg);-webkit-transform:rotate(45deg);position:relative;top:27px;right:-95%;z-index:-10;"></i>
+                                    <span style="position: relative;left: -10px;color:#3B3B3B;">Anno di ingresso:</span><br />
+                                    <select style="width: 100%;margin-bottom: 8px;-moz-appearance: none;-webkit-appearance: none;appearance: none;color: #868e96;font-weight: bold;font-size: 0.95rem;background-color: #fff0;" id="searchYearInput">
 								<option value="2021/2022">2021/2022</option>
 								<option value="2020/2021">2020/2021</option>
 								<option value="2019/2020">2019/2020</option>
@@ -220,208 +228,209 @@
 								<option value="2017/2018">2017/2018</option>
 								<option value="2017/2018">Precedenti</option>
 							</select>
-                            </div>
-                            <div style="padding-top: 5px;">
-                                <span style="color:#3B3B3B;position: relative;top: -1px;">Grado:</span>
-                                <div>
-                                    <table>
-                                        <tr>
-                                            <td>
-                                                <input type="radio" name="triennale_o_magistrale" id="triennale_o_magistrale_all" value="all" checked="checked"> [tutti]&nbsp;&nbsp;
-                                            </td>
-                                            <td>
-                                                <input type="radio" name="triennale_o_magistrale" id="triennale_o_magistrale_triennale" value="triennale"> Triennale&nbsp;&nbsp;
-                                            </td>
-                                            <td>
-                                                <input type="radio" name="triennale_o_magistrale" id="triennale_o_magistrale_magistrale" value="magistrale"> Magistrale&nbsp;&nbsp;
-                                            </td>
-                                            <td>
-                                                <input type="radio" name="triennale_o_magistrale" id="triennale_o_magistrale_unico" value="unico"> Ciclo unico
-                                            </td>
-                                        </tr>
-                                    </table>
+                                </div>
+                                <div style="padding-top: 5px;">
+                                    <span style="color:#3B3B3B;position: relative;top: -1px;">Grado:</span>
+                                    <div>
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    <input type="radio" name="triennale_o_magistrale" id="triennale_o_magistrale_all" value="all" checked="checked"> [tutti]&nbsp;&nbsp;
+                                                </td>
+                                                <td>
+                                                    <input type="radio" name="triennale_o_magistrale" id="triennale_o_magistrale_triennale" value="triennale"> Triennale&nbsp;&nbsp;
+                                                </td>
+                                                <td>
+                                                    <input type="radio" name="triennale_o_magistrale" id="triennale_o_magistrale_magistrale" value="magistrale"> Magistrale&nbsp;&nbsp;
+                                                </td>
+                                                <td>
+                                                    <input type="radio" name="triennale_o_magistrale" id="triennale_o_magistrale_unico" value="unico"> Ciclo unico
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div style="padding-top: 5px;">
+                                    <span style="color:#3B3B3B;position: relative;top: -1px;">Tipo:</span>
+                                    <div>
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    <input type="radio" name="tipo_gruppo" id="tipo_gruppo_a" value="A" checked="checked"> [tutti]&nbsp;&nbsp;
+                                                </td>
+                                                <td>
+                                                    <input type="radio" name="tipo_gruppo" id="tipo_gruppo_s" value="S"> Scolastico&nbsp;&nbsp;
+                                                </td>
+                                                <td>
+                                                    <input type="radio" name="tipo_gruppo" id="tipo_gruppo_c" value="C"> Corso (esame)&nbsp;&nbsp;
+                                                </td>
+                                                <td>
+                                                    <input type="radio" name="tipo_gruppo" id="tipo_gruppo_e" value="E"> Extra
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div style="padding-top: 5px;">
+                                    <span style="color:#3B3B3B;position: relative;top: -1px;">Piattaforma:</span>
+                                    <div>
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    <input type="radio" name="scegli_piattaforma" id="scegli_piattaforma_all" value="all" checked="checked"> [tutte]&nbsp;&nbsp;
+                                                </td>
+                                                <td>
+                                                    <input type="radio" name="scegli_piattaforma" id="scegli_piattaforma_wa" value="WA"> Whatsapp&nbsp;&nbsp;
+                                                </td>
+                                                <td>
+                                                    <input type="radio" name="scegli_piattaforma" id="scegli_piattaforma_fb" value="FB"> Facebook&nbsp;&nbsp;
+                                                </td>
+                                                <td>
+                                                    <input type="radio" name="scegli_piattaforma" id="scegli_piattaforma_tg" value="TG"> Telegram
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
                                 </div>
                             </div>
-                            <div style="padding-top: 5px;">
-                                <span style="color:#3B3B3B;position: relative;top: -1px;">Tipo:</span>
-                                <div>
-                                    <table>
-                                        <tr>
-                                            <td>
-                                                <input type="radio" name="tipo_gruppo" id="tipo_gruppo_a" value="A" checked="checked"> [tutti]&nbsp;&nbsp;
-                                            </td>
-                                            <td>
-                                                <input type="radio" name="tipo_gruppo" id="tipo_gruppo_s" value="S"> Scolastico&nbsp;&nbsp;
-                                            </td>
-                                            <td>
-                                                <input type="radio" name="tipo_gruppo" id="tipo_gruppo_c" value="C"> Corso (esame)&nbsp;&nbsp;
-                                            </td>
-                                            <td>
-                                                <input type="radio" name="tipo_gruppo" id="tipo_gruppo_e" value="E"> Extra
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </div>
+                            <hr>
+                            <div id="loading_search" style="padding-left: 20px;color: #8a2727;font-weight: bold; text-decoration: underline;font-style: italic;">
+                                Attendi...
                             </div>
-                            <div style="padding-top: 5px;">
-                                <span style="color:#3B3B3B;position: relative;top: -1px;">Piattaforma:</span>
-                                <div>
-                                    <table>
-                                        <tr>
-                                            <td>
-                                                <input type="radio" name="scegli_piattaforma" id="scegli_piattaforma_all" value="all" checked="checked"> [tutte]&nbsp;&nbsp;
-                                            </td>
-                                            <td>
-                                                <input type="radio" name="scegli_piattaforma" id="scegli_piattaforma_wa" value="WA"> Whatsapp&nbsp;&nbsp;
-                                            </td>
-                                            <td>
-                                                <input type="radio" name="scegli_piattaforma" id="scegli_piattaforma_fb" value="FB"> Facebook&nbsp;&nbsp;
-                                            </td>
-                                            <td>
-                                                <input type="radio" name="scegli_piattaforma" id="scegli_piattaforma_tg" value="TG"> Telegram
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </div>
+                            <div id="error_search" style="padding-left: 20px;color: #8a2727;text-decoration: underline;font-style: italic;">
+                                Ancora nessun risultato!
                             </div>
-                        </div>
-                        <hr>
-                        <div id="loading_search" style="padding-left: 20px;color: #8a2727;font-weight: bold; text-decoration: underline;font-style: italic;">
-                            Attendi...
-                        </div>
-                        <div id="error_search" style="padding-left: 20px;color: #8a2727;text-decoration: underline;font-style: italic;">
-                            Ancora nessun risultato!
-                        </div>
-                        <ul id="searchResult" class="hide" style="list-style: none;padding-left: 0px;">
+                            <ul id="searchResult" class="hide" style="list-style: none;padding-left: 0px;">
 
-                        </ul>
+                            </ul>
+                        </div>
+                        <br />
+                        <br /> La ricerca non funziona? Un link non è funzionante?<br /><a href="https://m.me/PolitecnicoDiMilanoNetwork/">Segnalaci il problema! Clicca qui!</a><br />
                     </div>
-                    <br />
-                    <br /> La ricerca non funziona? Un link non è funzionante? <a href="https://m.me/PolitecnicoDiMilanoNetwork/">Segnalaci il problema! Clicca qui!</a><br />
+                </div>
+
+                <div class="resume-item d-flex flex-column flex-md-row">
+                    <div class="resume-content mr-auto">
+                        <h3 class="mb-0"><br />Extra 🧩</h3>
+                        <div class="subheading mb-3">Gruppi non scolastici</div>
+                        <p>Una serie di gruppi tutti da scoprire: <a href="./../../it/extra/index.html">LINK</a></p>
+                    </div>
+                </div>
+
+            </div>
+
+            <br /> <br />
+
+            <div class="resume-content mr-auto">
+                <h3 class="mb-0">Generali</h3>
+                <div class="subheading mb-3">Gruppi misti per tutti gli studenti</div>
+                <div style="padding-left: 0px;max-width:570px;width:100%;">
+                    <table style="max-width:570px;width:100%;">
+                        <tr>
+                            <td style="width:50%;padding-left:7px;padding-right:7px;">
+                                <p style="margin-bottom:0.5rem;">
+                                    <a href="https://www.facebook.com/groups/matricole20172018polimi/">
+                                        <table>
+                                            <tr>
+                                                <td style="padding-right:7px;">
+                                                    <a href="https://www.facebook.com/groups/matricole20172018polimi/">
+                                                        <img style="width:35px;padding-top:5px;" src="../../img/fb.svg" />
+                                                    </a>
+                                                </td>
+                                                <td>
+                                                    <a href="https://www.facebook.com/groups/matricole20172018polimi/">
+                                                        <span style="top: 2px;position: relative;">Generale:<br />Tutti gli studenti</span>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </a>
+                                </p>
+                            </td>
+                            <td style="width:50%;padding-left:7px;padding-right:7px;">
+                                <p style="margin-bottom:0.5rem">
+                                    <a href="https://t.me/PoliGruppo">
+                                        <table>
+                                            <tr>
+                                                <td style="padding-right:7px;">
+                                                    <a href="https://t.me/PoliGruppo">
+                                                        <img style="width:35px;padding-top:5px;" src="../../img/tg.svg" />
+                                                    </a>
+                                                </td>
+                                                <td>
+                                                    <a href="https://t.me/PoliGruppo">
+                                                        <span style="top: 2px;position: relative;">Generale:<br />Tutti gli studenti</span>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </a>
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
                 </div>
             </div>
+
+            <br /><br />
+
+
+            <div class="resume-content mr-auto">
+                <h3 class="mb-0">Geolocalizzati per polo universitario</h3>
+                <div class="subheading mb-3"></div>
+                <div style="padding-left: 0px;width:100%;">
+                    <div style="width:100%;">
+                        <div style="width:50%;padding-left:7px;padding-right:7px;">
+                            <p style="margin-bottom:0.5rem;">
+                                <a href="https://t.me/PoliComo">							
+						Como
+					</a>,
+                                <a href="https://t.me/PoliCremona">							
+						Cremona
+					</a>,
+                                <a href="https://t.me/PoliLecco">							
+						Lecco
+					</a>,
+                                <a href="https://t.me/PoliMantova">							
+						Mantova
+					</a>,
+                                <a href="https://t.me/PoliBovisa">							
+						Bovisa
+					</a>,
+                                <a href="https://t.me/PoliLeonardo">							
+						Leonardo
+					</a>,
+                                <a href="https://t.me/PoliPiacenza">							
+						Piacenza
+					</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <br /><br />
 
             <div class="resume-item d-flex flex-column flex-md-row">
                 <div class="resume-content mr-auto">
-                    <h3 class="mb-0"><br />Extra 🧩</h3>
-                    <div class="subheading mb-3">Gruppi non scolastici</div>
-                    <p>Una serie di gruppi tutti da scoprire: <a href="./../../it/extra/index.html">LINK</a></p>
+                    <h3 class="mb-0">Regole 📝</h3>
+                    <div class="mb-3 subheading">Le regole dei vari gruppi si trovano <a href="./../../it/rules/index.html">QUI</a></div>
+
+                    <p style="margin-top:15px;">Vi invitiamo a rispettarle</p>
                 </div>
             </div>
 
-        </div>
 
-        <br /> <br />
 
-        <div class="resume-content mr-auto">
-            <h3 class="mb-0">Generali</h3>
-            <div class="subheading mb-3">Gruppi misti per tutti gli studenti</div>
-            <div style="padding-left: 0px;max-width:570px;width:100%;">
-                <table style="max-width:570px;width:100%;">
-                    <tr>
-                        <td style="width:50%;padding-left:7px;padding-right:7px;">
-                            <p style="margin-bottom:0.5rem;">
-                                <a href="https://www.facebook.com/groups/matricole20172018polimi/">
-                                    <table>
-                                        <tr>
-                                            <td style="padding-right:7px;">
-                                                <a href="https://www.facebook.com/groups/matricole20172018polimi/">
-                                                    <img style="width:35px;padding-top:5px;" src="../../img/fb.svg" />
-                                                </a>
-                                            </td>
-                                            <td>
-                                                <a href="https://www.facebook.com/groups/matricole20172018polimi/">
-                                                    <span style="top: 2px;position: relative;">Generale:<br />Tutti gli studenti</span>
-                                                </a>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </a>
-                            </p>
-                        </td>
-                        <td style="width:50%;padding-left:7px;padding-right:7px;">
-                            <p style="margin-bottom:0.5rem">
-                                <a href="https://t.me/PoliGruppo">
-                                    <table>
-                                        <tr>
-                                            <td style="padding-right:7px;">
-                                                <a href="https://t.me/PoliGruppo">
-                                                    <img style="width:35px;padding-top:5px;" src="../../img/tg.svg" />
-                                                </a>
-                                            </td>
-                                            <td>
-                                                <a href="https://t.me/PoliGruppo">
-                                                    <span style="top: 2px;position: relative;">Generale:<br />Tutti gli studenti</span>
-                                                </a>
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </a>
-                            </p>
-                        </td>
-                    </tr>
-                </table>
+
+
+            <div style="padding: 15px;text-align: center;font-size: 0.8rem;">
+                Questo sito non è affiliato al Politecnico di Milano.
             </div>
+
+
         </div>
-
-        <br /><br />
-
-
-        <div class="resume-content mr-auto">
-            <h3 class="mb-0">Geolocalizzati per polo universitario</h3>
-            <div class="subheading mb-3"></div>
-            <div style="padding-left: 0px;width:100%;">
-                <div style="width:100%;">
-                    <div style="width:50%;padding-left:7px;padding-right:7px;">
-                        <p style="margin-bottom:0.5rem;">
-                            <a href="https://t.me/PoliComo">							
-						Como
-					</a>,
-                            <a href="https://t.me/PoliCremona">							
-						Cremona
-					</a>,
-                            <a href="https://t.me/PoliLecco">							
-						Lecco
-					</a>,
-                            <a href="https://t.me/PoliMantova">							
-						Mantova
-					</a>,
-                            <a href="https://t.me/PoliBovisa">							
-						Bovisa
-					</a>,
-                            <a href="https://t.me/PoliLeonardo">							
-						Leonardo
-					</a>,
-                            <a href="https://t.me/PoliPiacenza">							
-						Piacenza
-					</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <br /><br />
-
-        <div class="resume-item d-flex flex-column flex-md-row">
-            <div class="resume-content mr-auto">
-                <h3 class="mb-0">Regole 📝</h3>
-                <div class="mb-3 subheading">Le regole dei vari gruppi si trovano <a href="./../../it/rules/index.html">QUI</a></div>
-
-                <p style="margin-top:15px;">Vi invitiamo a rispettarle</p>
-            </div>
-        </div>
-
-
-
-
-
-        <div style="padding: 15px;text-align: center;font-size: 0.8rem;">
-            Questo sito non è affiliato al Politecnico di Milano.
-        </div>
-
-
     </div>
 
     <!-- Bootstrap core JavaScript -->
