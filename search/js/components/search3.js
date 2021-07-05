@@ -246,8 +246,8 @@ function showSearchResults(data){
 	var anno = $("#searchYearInput").val();
 	if (anno == "?/?")
 	{
-		for (var i=0; i< data3.size; i++){
-			for (var j=0; j< data3.size; j++){
+		for (var i=0; i< data3.length; i++){
+			for (var j=0; j< data3.length; j++){
 				if (i != j){
 					if (data3[i].class ==data3[j].class && data3[i].platform == data3[j].platform)
 					{
