@@ -242,7 +242,23 @@ function showSearchResults(data){
 		}
 		return unique;
 	},[]);
-		  
+	
+	var anno = $("#searchYearInput").val();
+	if (anno == "?/?")
+	{
+		for (var i=0; i< data3.size; i++){
+			for (var j=0; j< data3.size; j++){
+				if (i != j){
+					if (data3[i].class ==data3[j].class && data3[i].platform == data3[j].platform)
+					{
+						data3.splice(j,1);
+						j--;
+					}
+				}
+			}
+		}
+	}
+
 	data = data3.sort((a,b) => compareType(a,b))
 		  .slice(0, 20)
 		  .sort((a, b) => a.class.toLowerCase().localeCompare(b.class))
