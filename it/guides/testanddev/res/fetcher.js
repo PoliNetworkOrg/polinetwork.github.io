@@ -21,7 +21,7 @@ fetch(window.location.pathname.split('/').pop().split('.')[0] + '.txt')
     lines = data.split('\n')
     lines = lines.map(line => line.replace('\r', ''))
     l = lines.length
-    doc = '<body><div class="wrapper"><h2><span class="accent">./</span>Polinetwork_Guides<span class="accent">/</span>Info<span class="accent">/</span></h2><div class="title"><h1>'
+    doc = '<body><div class="wrapper"><h2><span class="accent">./</span>PoliNetwork_Guides<span class="accent">/</span>Info<span class="accent">/</span></h2><div class="title"><h1>'
     document.title = lines[0]
     doc += lines[0]
     doc += '</h1></div>'
@@ -66,7 +66,7 @@ fetch(window.location.pathname.split('/').pop().split('.')[0] + '.txt')
             doc += '</div>'
         } // end of course
     } // end of courseS
-    doc += '<div class="footer">Un\'iniziativa Polinetwork. Trova altro su <span class="accent"><a href="https://polinetwork.github.io">polinetwork.github.io</a></span>'
+    doc += '<div class="footer">Un\'iniziativa PoliNetwork. Trova altro su <span class="accent"><a href="https://polinetwork.github.io">polinetwork.github.io</a></span>'
     doc += '<br>Per commenti o suggerimenti contatta @EliaMaggioni o @LuigiFusco su Telegram</div>'
     document.body.innerHTML = doc
 }).catch(e => alert('Error parsing the file, please contact an admin! ' + e))
