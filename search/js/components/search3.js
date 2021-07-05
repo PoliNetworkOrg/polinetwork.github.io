@@ -1,202 +1,204 @@
-function updateSearch(){
-	var cls = new RegExp(
-		document.getElementById("searchBar").value
-			.split(" ")
-			.map(item => "(" + item + ")(.)*")
-			.join("")
-	, "gi");
+function updateSearch() {
+    var cls = new RegExp(
+        document.getElementById("searchBar").value
+        .split(" ")
+        .map(item => "(" + item + ")(.)*")
+        .join(""), "gi");
 
-	var type = null;
-	if ($('#tipo_gruppo_s').is(':checked'))
-		type = 'S';
-	else if ($('#tipo_gruppo_e').is(':checked'))
-		type = 'E';
-	else if ($('#tipo_gruppo_c').is(':checked'))
-		type = 'C';
+    var type = null;
+    if ($('#tipo_gruppo_s').is(':checked'))
+        type = 'S';
+    else if ($('#tipo_gruppo_e').is(':checked'))
+        type = 'E';
+    else if ($('#tipo_gruppo_c').is(':checked'))
+        type = 'C';
 
-	var degree = null;
-	if ($('#triennale_o_magistrale_triennale').is(':checked'))
-		degree = 'LT';
-	else if ($('#triennale_o_magistrale_magistrale').is(':checked'))
-		degree = 'LM';
-	else if ($('#triennale_o_magistrale_unico').is(':checked'))
-		degree = 'LU';
+    var degree = null;
+    if ($('#triennale_o_magistrale_triennale').is(':checked'))
+        degree = 'LT';
+    else if ($('#triennale_o_magistrale_magistrale').is(':checked'))
+        degree = 'LM';
+    else if ($('#triennale_o_magistrale_unico').is(':checked'))
+        degree = 'LU';
 
-	var piattaforma = null;
-		if ($('#scegli_piattaforma_wa').is(':checked'))
-			piattaforma = 'WA';
-		else if ($('#scegli_piattaforma_fb').is(':checked'))
-			piattaforma = 'FB';
-		else if ($('#scegli_piattaforma_tg').is(':checked'))
-			piattaforma = 'TG';
+    var piattaforma = null;
+    if ($('#scegli_piattaforma_wa').is(':checked'))
+        piattaforma = 'WA';
+    else if ($('#scegli_piattaforma_fb').is(':checked'))
+        piattaforma = 'FB';
+    else if ($('#scegli_piattaforma_tg').is(':checked'))
+        piattaforma = 'TG';
 
-	window.worker.postMessage({
-		op_id: "",
-		op_type: "search",
-		data: {
-			query: {
-				class: cls,
-				year: $("#searchYearInput").val(),
-				type: type,
-				degree: degree,
-				linkfunzionante: "Y",
-				platform: piattaforma
-			},
-			join: "AND",
-			limit: -1
-		}
-	});
+
+    var anno = $("#searchYearInput").val();
+    if (anno == "?/?")
+        anno = null;
+
+
+    window.worker.postMessage({
+        op_id: "",
+        op_type: "search",
+        data: {
+            query: {
+                class: cls,
+                year: anno,
+                type: type,
+                degree: degree,
+                linkfunzionante: "Y",
+                platform: piattaforma
+            },
+            join: "AND",
+            limit: -1
+        }
+    });
 }
 
-function parseSearchResponse(data){
-	data = data.data;
-	if (data.op_type === "preload"){
-		document.getElementById("searchBar").onkeyup = updateSearch;
-		document.getElementById("searchYearInput").onchange = updateSearch;
-		document.getElementById("triennale_o_magistrale_triennale").onchange = updateSearch;
-		document.getElementById("triennale_o_magistrale_magistrale").onchange = updateSearch;
-		document.getElementById("triennale_o_magistrale_unico").onchange = updateSearch;
-		document.getElementById("triennale_o_magistrale_all").onchange = updateSearch;
+function parseSearchResponse(data) {
+    data = data.data;
+    if (data.op_type === "preload") {
+        document.getElementById("searchBar").onkeyup = updateSearch;
+        document.getElementById("searchYearInput").onchange = updateSearch;
+        document.getElementById("triennale_o_magistrale_triennale").onchange = updateSearch;
+        document.getElementById("triennale_o_magistrale_magistrale").onchange = updateSearch;
+        document.getElementById("triennale_o_magistrale_unico").onchange = updateSearch;
+        document.getElementById("triennale_o_magistrale_all").onchange = updateSearch;
 
-		document.getElementById("scegli_piattaforma_all").onchange = updateSearch;
-		document.getElementById("scegli_piattaforma_wa").onchange = updateSearch;
-		document.getElementById("scegli_piattaforma_fb").onchange = updateSearch;
-		document.getElementById("scegli_piattaforma_tg").onchange = updateSearch;
-		
-		document.getElementById("tipo_gruppo_s").onchange = updateSearch;
-		document.getElementById("tipo_gruppo_c").onchange = updateSearch;
-		document.getElementById("tipo_gruppo_e").onchange = updateSearch;
-		document.getElementById("tipo_gruppo_a").onchange = updateSearch;
+        document.getElementById("scegli_piattaforma_all").onchange = updateSearch;
+        document.getElementById("scegli_piattaforma_wa").onchange = updateSearch;
+        document.getElementById("scegli_piattaforma_fb").onchange = updateSearch;
+        document.getElementById("scegli_piattaforma_tg").onchange = updateSearch;
 
-		document.getElementById("searchBar").disabled = false;
-		document.getElementById("searchYearInput").disabled = false;
-		document.getElementById("triennale_o_magistrale_triennale").disabled = false;
-		document.getElementById("triennale_o_magistrale_magistrale").disabled = false;
-		document.getElementById("triennale_o_magistrale_unico").disabled = false;
-		document.getElementById("triennale_o_magistrale_all").disabled = false;
+        document.getElementById("tipo_gruppo_s").onchange = updateSearch;
+        document.getElementById("tipo_gruppo_c").onchange = updateSearch;
+        document.getElementById("tipo_gruppo_e").onchange = updateSearch;
+        document.getElementById("tipo_gruppo_a").onchange = updateSearch;
 
-		document.getElementById("scegli_piattaforma_all").disabled = false;
-		document.getElementById("scegli_piattaforma_wa").disabled = false;
-		document.getElementById("scegli_piattaforma_fb").disabled = false;
-		document.getElementById("scegli_piattaforma_tg").disabled = false;
-		
-		document.getElementById("tipo_gruppo_s").disabled = false;
-		document.getElementById("tipo_gruppo_c").disabled = false;
-		document.getElementById("tipo_gruppo_e").disabled = false;
-		document.getElementById("tipo_gruppo_a").disabled = false;
+        document.getElementById("searchBar").disabled = false;
+        document.getElementById("searchYearInput").disabled = false;
+        document.getElementById("triennale_o_magistrale_triennale").disabled = false;
+        document.getElementById("triennale_o_magistrale_magistrale").disabled = false;
+        document.getElementById("triennale_o_magistrale_unico").disabled = false;
+        document.getElementById("triennale_o_magistrale_all").disabled = false;
 
-		document.getElementById("loading_search").classList.add("hide");
-		document.getElementById("error_search").classList.remove("hide");
-		document.getElementById("searchResult").classList.remove("hide");
-	}
-	else {
-		showSearchResults(data.data);
-	}
+        document.getElementById("scegli_piattaforma_all").disabled = false;
+        document.getElementById("scegli_piattaforma_wa").disabled = false;
+        document.getElementById("scegli_piattaforma_fb").disabled = false;
+        document.getElementById("scegli_piattaforma_tg").disabled = false;
+
+        document.getElementById("tipo_gruppo_s").disabled = false;
+        document.getElementById("tipo_gruppo_c").disabled = false;
+        document.getElementById("tipo_gruppo_e").disabled = false;
+        document.getElementById("tipo_gruppo_a").disabled = false;
+
+        document.getElementById("loading_search").classList.add("hide");
+        document.getElementById("error_search").classList.remove("hide");
+        document.getElementById("searchResult").classList.remove("hide");
+    } else {
+        showSearchResults(data.data);
+    }
 }
 
 document.addEventListener("DOMContentLoaded", function(event) {
-	document.getElementById("loading_search").classList.remove("hide");
-	document.getElementById("error_search").classList.add("hide");
-	document.getElementById("searchResult").classList.add("hide");
+    document.getElementById("loading_search").classList.remove("hide");
+    document.getElementById("error_search").classList.add("hide");
+    document.getElementById("searchResult").classList.add("hide");
 
-	document.getElementById("searchBar").disabled = true;
-	document.getElementById("searchYearInput").disabled = true;
-	document.getElementById("triennale_o_magistrale_triennale").disabled = true;
-	document.getElementById("triennale_o_magistrale_magistrale").disabled = true;
-	document.getElementById("triennale_o_magistrale_unico").disabled = true;
-	document.getElementById("triennale_o_magistrale_all").disabled = true;
+    document.getElementById("searchBar").disabled = true;
+    document.getElementById("searchYearInput").disabled = true;
+    document.getElementById("triennale_o_magistrale_triennale").disabled = true;
+    document.getElementById("triennale_o_magistrale_magistrale").disabled = true;
+    document.getElementById("triennale_o_magistrale_unico").disabled = true;
+    document.getElementById("triennale_o_magistrale_all").disabled = true;
 
-	document.getElementById("scegli_piattaforma_all").disabled = true;
-	document.getElementById("scegli_piattaforma_wa").disabled = true;
-	document.getElementById("scegli_piattaforma_fb").disabled = true;
-	document.getElementById("scegli_piattaforma_tg").disabled = true;
-	
-	document.getElementById("tipo_gruppo_s").disabled = true;
-	document.getElementById("tipo_gruppo_c").disabled = true;
-	document.getElementById("tipo_gruppo_e").disabled = true;
-	document.getElementById("tipo_gruppo_a").disabled = true;
+    document.getElementById("scegli_piattaforma_all").disabled = true;
+    document.getElementById("scegli_piattaforma_wa").disabled = true;
+    document.getElementById("scegli_piattaforma_fb").disabled = true;
+    document.getElementById("scegli_piattaforma_tg").disabled = true;
 
-	window.worker = new Worker('/js/workers/search_new.js');
-	window.worker.postMessage({
-		op_id: "warmup",
-		op_type: "preload",
-		data: null
-	});
-	window.worker.onmessage = parseSearchResponse;
+    document.getElementById("tipo_gruppo_s").disabled = true;
+    document.getElementById("tipo_gruppo_c").disabled = true;
+    document.getElementById("tipo_gruppo_e").disabled = true;
+    document.getElementById("tipo_gruppo_a").disabled = true;
+
+    window.worker = new Worker('/js/workers/search_new.js');
+    window.worker.postMessage({
+        op_id: "warmup",
+        op_type: "preload",
+        data: null
+    });
+    window.worker.onmessage = parseSearchResponse;
 });
 
 
 var entityMap = {
-  '&': '&amp;',
-  '<': '&lt;',
-  '>': '&gt;',
-  '"': '&quot;',
-  "'": '&#39;',
-  '/': '&#x2F;',
-  '`': '&#x60;',
-  '=': '&#x3D;'
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    '"': '&quot;',
+    "'": '&#39;',
+    '/': '&#x2F;',
+    '`': '&#x60;',
+    '=': '&#x3D;'
 };
 
-function escapeHtml (string) {
-  return String(string).replace(/[&<>"'`=\/]/g, s => entityMap[s]);
+function escapeHtml(string) {
+    return String(string).replace(/[&<>"'`=\/]/g, s => entityMap[s]);
 }
 
 const mapping = {
-	language: {
-		"ITA": "it_flag",
-		"IT": "it_flag",
-		"ENG": "en_flag",
-		"EN": "en_flag",
-		"__default__": ""
-	},
-	platform: {
-		"TG" : {
-			"link_pre": "https://t.me/joinchat/",
-			"link_post": "",
-			"img": "tg"
-		},
-		"FB" : {
-			"link_pre": "https://www.facebook.com/groups/",
-			"link_post": "",
-			"img": "fb"
-		},
-		"WA" : {
-			"link_pre": "https://chat.whatsapp.com/",
-			"link_post": "",
-			"img": "wa"
-		},
-		"__default__": {
-			"link_pre": "",
-			"link_post": "",
-			"img": ""
-		}
-	}
+    language: {
+        "ITA": "it_flag",
+        "IT": "it_flag",
+        "ENG": "en_flag",
+        "EN": "en_flag",
+        "__default__": ""
+    },
+    platform: {
+        "TG": {
+            "link_pre": "https://t.me/joinchat/",
+            "link_post": "",
+            "img": "tg"
+        },
+        "FB": {
+            "link_pre": "https://www.facebook.com/groups/",
+            "link_post": "",
+            "img": "fb"
+        },
+        "WA": {
+            "link_pre": "https://chat.whatsapp.com/",
+            "link_post": "",
+            "img": "wa"
+        },
+        "__default__": {
+            "link_pre": "",
+            "link_post": "",
+            "img": ""
+        }
+    }
 }
 
-function applyMapping(item){
-	for (key in mapping){
-		if (item[key]){
-			if (mapping[key][item[key]] !== undefined){
-				item[key] = mapping[key][item[key]];
-			}
-			else {
-				item[key] = mapping[key]["__default__"];
-			}
-		}
-	}
+function applyMapping(item) {
+    for (key in mapping) {
+        if (item[key]) {
+            if (mapping[key][item[key]] !== undefined) {
+                item[key] = mapping[key][item[key]];
+            } else {
+                item[key] = mapping[key]["__default__"];
+            }
+        }
+    }
 
-	return item;
+    return item;
 }
 
-function genHtml(data){
-	var d = `
+function genHtml(data) {
+    var d = `
 		<li>
 			<a href="${data.platform.link_pre}${data.id_link}${data.platform.link_post}">
 				<img style="width:18px;" src="../../img/${data.platform.img}.svg" />`;
-				
-		if (data.tipo!="C")
-		{
-			d = d + `${(data.office?`&nbsp[${data.office}]`:``)}`;
+
+    if (data.tipo != "C") {
+        d = d + `${(data.office?`&nbsp[${data.office}]`:``)}`;
 			d = d +`&nbsp`;
 		}
 		d = d + `${escapeHtml(data.class)}&nbsp`;
