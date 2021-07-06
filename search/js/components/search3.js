@@ -246,6 +246,13 @@ function getResultsString(dictDati){
 
     var size = Object.keys(dictDati).length;
 
+    for (var key in dictDati){
+        if (!dictDati[key])
+        {
+            delete dictDati[key];
+        }
+    }
+
     if (size == 0)
         return "";
     
