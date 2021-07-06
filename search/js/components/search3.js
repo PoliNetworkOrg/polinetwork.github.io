@@ -253,6 +253,9 @@ function showSearchResults(data){
 
 			for (var j=0; j< data3.length; j++){
 
+                if (i<0)
+				i =0;
+
 				if (j<0)
 					j =0;
 
