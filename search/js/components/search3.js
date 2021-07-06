@@ -260,7 +260,7 @@ function getResultsString(dictDati, dictNomi){
     var i = 0;
     for (var key in dictDati){
         r += "<div>";
-        r += "<p>";
+        r += "<p style='margin-bottom: 0px;'>";
         r += dictNomi[key];
         r += "</p>";
         r += dictDati[key];
