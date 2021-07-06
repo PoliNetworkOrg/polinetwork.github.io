@@ -247,12 +247,64 @@ function showSearchResults(data){
 	if (anno == "?/?")
 	{
 		for (var i=0; i< data3.length; i++){
+
+			if (i<0)
+				i =0;
+
 			for (var j=0; j< data3.length; j++){
+
+				if (j<0)
+					j =0;
+
 				if (i != j){
 					if (data3[i].class ==data3[j].class && data3[i].platform == data3[j].platform)
 					{
-						data3.splice(j,1);
-						j--;
+						if (data3[i].year == data3[j].year)
+						{
+							data3.splice(j,1);
+							i--;
+							j--;
+						}
+						else if (data3[i].year == "?/?")
+						{
+							data3.splice(i,1);
+							i--;
+							j--;
+						}
+						else if (data3[j].year == "?/?")
+						{
+							data3.splice(j,1);
+							i--;
+							j--;
+						}
+						else 
+						{
+							var yi = data3[i].year.split("/");
+							var yj = data3[j].year.split("/");
+							
+							var yin = parseInt(yi);
+							var yjn = parseInt(yj);
+
+							if (yin == yjn)
+							{
+								data3.splice(j,1);
+								i--;
+								j--;
+							}
+							else if (yin > yjn)
+							{
+								data3.splice(j,1);
+								i--;
+								j--;
+							}
+							else if (yin < yjn)
+							{
+								data3.splice(i,1);
+								i--;
+								j--;
+							}
+
+						}
 					}
 				}
 			}
