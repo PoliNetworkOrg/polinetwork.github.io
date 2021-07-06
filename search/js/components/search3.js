@@ -229,6 +229,20 @@ function compareType(a,b){
 	return 0;
 }
 
+function checkGenerali(item){
+    if (item.type == "G")
+        return true;
+
+    return false;
+}
+
+function checkNonGenerali(item){
+    if (item.type == "G")
+        return false;
+
+    return true;
+}
+
 function showSearchResults(data){
   document.getElementById("searchResult").innerHTML = "";
   document.getElementById("error_search").innerHTML = "";
@@ -314,8 +328,18 @@ function showSearchResults(data){
 	}
 
 	data = data3.sort((a,b) => compareType(a,b))
-		  .slice(0, 20)
-		  .sort((a, b) => a.class.toLowerCase().localeCompare(b.class))
+		  .slice(0, 20);
+
+    dataGenerali = data.filter(checkGenerali);
+    dataNonGenerali = data.filter(checkNonGenerali);
+
+    dataGenerali = dataGenerali.sort((a, b) => a.class.toLowerCase().localeCompare(b.class))
+		  .sort((a,b) => compareType(a,b))
+		  .map(applyMapping)
+		  .map(genHtml)
+		  .join("");
+
+    dataNonGenerali = dataNonGenerali.sort((a, b) => a.class.toLowerCase().localeCompare(b.class))
 		  .sort((a,b) => compareType(a,b))
 		  .map(applyMapping)
 		  .map(genHtml)
@@ -328,6 +352,6 @@ function showSearchResults(data){
     document.getElementById("error_search").innerHTML = "Nessun risultato!";
   }
   else {
-    document.getElementById("searchResult").innerHTML = data;
+    document.getElementById("searchResult").innerHTML = "<div>" + dataGenerali + "</div> <br /> <hr /> <br /> <div>" + dataNonGenerali  + "</div>";
   }
 }
