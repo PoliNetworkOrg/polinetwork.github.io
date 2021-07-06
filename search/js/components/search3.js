@@ -242,7 +242,7 @@ function checkFiltroTipo(tipo, negate_false){
     }
 }
 
-function getResultsString(dictDati){
+function getResultsString(dictDati, dictNomi){
 
     for (var key in dictDati){
         if (!dictDati[key])
@@ -260,6 +260,9 @@ function getResultsString(dictDati){
     var i = 0;
     for (var key in dictDati){
         r += "<div>";
+        r += "<p>";
+        r += dictNomi[key];
+        r += "</p>";
         r += dictDati[key];
         r += "</div>";
         if (i != size -1){ //non è ultimo
@@ -364,6 +367,14 @@ function showSearchResults(data){
     dictDati["G"] = data.filter(checkFiltroTipo("G", true));
     dictDati["!G"] = data.filter(checkFiltroTipo("G", false));
 
+    dictNomi = {};
+    dictNomi["G"] = "Generale";
+    dictNomi["E"] = "Extra";
+    dictNomi["!G"] = "Altro";
+    dictNomi["S"] = "Scolastico";
+    dictNomi["C"] = "Corso (esame)";
+
+ 
     for(var key in dictDati) {
         dictDati[key] = dictDati[key].sort((a, b) => a.class.toLowerCase().localeCompare(b.class))
         .sort((a,b) => compareType(a,b))
@@ -380,7 +391,7 @@ function showSearchResults(data){
   }
   else {
         
-        results = getResultsString(dictDati);
+        results = getResultsString(dictDati, dictNomi);
         document.getElementById("searchResult").innerHTML = results;
 
     }
