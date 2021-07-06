@@ -229,19 +229,19 @@ function compareType(a,b){
 	return 0;
 }
 
-function checkGenerali(item){
-    if (item.type == "G")
-        return true;
-
-    return false;
+function checkFiltroTipo(tipo, negate_false){
+    return function(item){
+        if (negate_false)
+        {
+            return item.type == tipo;  
+        }
+        else
+        {
+            return item.type != tipo;
+        }
+    }
 }
 
-function checkNonGenerali(item){
-    if (item.type == "G")
-        return false;
-
-    return true;
-}
 
 function showSearchResults(data){
   document.getElementById("searchResult").innerHTML = "";
@@ -330,8 +330,8 @@ function showSearchResults(data){
 	data = data3.sort((a,b) => compareType(a,b))
 		  .slice(0, 20);
 
-    dataGenerali = data.filter(checkGenerali);
-    dataNonGenerali = data.filter(checkNonGenerali);
+    dataGenerali = data.filter(checkFiltroTipo("G", true));
+    dataNonGenerali = data.filter(checkFiltroTipo("G", false));
 
     dataGenerali = dataGenerali.sort((a, b) => a.class.toLowerCase().localeCompare(b.class))
 		  .sort((a,b) => compareType(a,b))
