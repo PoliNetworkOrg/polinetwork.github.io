@@ -282,8 +282,8 @@ function showSearchResults(data){
 							var yi = data3[i].year.split("/");
 							var yj = data3[j].year.split("/");
 							
-							var yin = parseInt(yi);
-							var yjn = parseInt(yj);
+							var yin = parseInt(yi[0]);
+							var yjn = parseInt(yj[0]);
 
 							if (yin == yjn)
 							{
