@@ -365,7 +365,9 @@ function showSearchResults(data){
     var dictDati = {};
     
     dictDati["G"] = data.filter(checkFiltroTipo("G", true));
-    dictDati["!G"] = data.filter(checkFiltroTipo("G", false));
+    dictDati["S"] = data.filter(checkFiltroTipo("S", true));
+    dictDati["C"] = data.filter(checkFiltroTipo("C", true));
+    dictDati["E"] = data.filter(checkFiltroTipo("E", true));
 
     dictNomi = {};
     dictNomi["G"] = "Generale";
