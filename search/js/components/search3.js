@@ -303,7 +303,6 @@ function showSearchResults(data){
 								i--;
 								j--;
 							}
-
 						}
 					}
 				}
