@@ -352,6 +352,18 @@ function showSearchResults(data){
     document.getElementById("error_search").innerHTML = "Nessun risultato!";
   }
   else {
-    document.getElementById("searchResult").innerHTML = "<div>" + dataGenerali + "</div> <br /> <hr /> <br /> <div>" + dataNonGenerali  + "</div>";
-  }
+        if (dataGenerali && dataNonGenerali)
+        {
+            document.getElementById("searchResult").innerHTML = "<div>" + dataGenerali + "</div>   <hr />   <div>" + dataNonGenerali  + "</div>";
+        }
+        else if (dataGenerali)
+        {
+            document.getElementById("searchResult").innerHTML = "<div>" + dataGenerali + "</div>";
+ 
+        }
+        else if (dataNonGenerali)
+        {
+            document.getElementById("searchResult").innerHTML = "<div>" + dataNonGenerali + "</div>";
+        }
+    }
 }
