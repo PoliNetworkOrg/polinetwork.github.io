@@ -242,6 +242,28 @@ function checkFiltroTipo(tipo, negate_false){
     }
 }
 
+function getResultsString(dictDati){
+
+    var size = Object.keys(dictDati).length;
+
+    if (size == 0)
+        return "";
+    
+    var r = "";
+    var i = 0;
+    for (var key in dictDati){
+        r += "<div>";
+        r += dictDati[key];
+        r += "</div>";
+        if (i != size -1){ //non è ultimo
+            r += "<hr />";
+        }
+
+        i++;
+    }
+
+    return r;
+}
 
 function showSearchResults(data){
   document.getElementById("searchResult").innerHTML = "";
@@ -330,20 +352,18 @@ function showSearchResults(data){
 	data = data3.sort((a,b) => compareType(a,b))
 		  .slice(0, 20);
 
-    dataGenerali = data.filter(checkFiltroTipo("G", true));
-    dataNonGenerali = data.filter(checkFiltroTipo("G", false));
+    var dictDati = {};
+    
+    dictDati["G"] = data.filter(checkFiltroTipo("G", true));
+    dictDati["!G"] = data.filter(checkFiltroTipo("G", false));
 
-    dataGenerali = dataGenerali.sort((a, b) => a.class.toLowerCase().localeCompare(b.class))
-		  .sort((a,b) => compareType(a,b))
-		  .map(applyMapping)
-		  .map(genHtml)
-		  .join("");
-
-    dataNonGenerali = dataNonGenerali.sort((a, b) => a.class.toLowerCase().localeCompare(b.class))
-		  .sort((a,b) => compareType(a,b))
-		  .map(applyMapping)
-		  .map(genHtml)
-		  .join("");
+    for(var key in dictDati) {
+        dictDati[key] = dictDati[key].sort((a, b) => a.class.toLowerCase().localeCompare(b.class))
+        .sort((a,b) => compareType(a,b))
+        .map(applyMapping)
+        .map(genHtml)
+        .join("");
+    }
 
   if (document.getElementById('searchBar') && (document.getElementById('searchBar').value === "")){
     document.getElementById("error_search").innerHTML = "Non hai scritto il nome di nessun corso!";
@@ -352,18 +372,9 @@ function showSearchResults(data){
     document.getElementById("error_search").innerHTML = "Nessun risultato!";
   }
   else {
-        if (dataGenerali && dataNonGenerali)
-        {
-            document.getElementById("searchResult").innerHTML = "<div>" + dataGenerali + "</div>   <hr />   <div>" + dataNonGenerali  + "</div>";
-        }
-        else if (dataGenerali)
-        {
-            document.getElementById("searchResult").innerHTML = "<div>" + dataGenerali + "</div>";
- 
-        }
-        else if (dataNonGenerali)
-        {
-            document.getElementById("searchResult").innerHTML = "<div>" + dataNonGenerali + "</div>";
-        }
+        
+        results = getResultsString(dictDati);
+        document.getElementById("searchResult").innerHTML = results;
+
     }
 }
