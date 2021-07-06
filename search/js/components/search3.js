@@ -244,14 +244,14 @@ function checkFiltroTipo(tipo, negate_false){
 
 function getResultsString(dictDati){
 
-    var size = Object.keys(dictDati).length;
-
     for (var key in dictDati){
         if (!dictDati[key])
         {
             delete dictDati[key];
         }
     }
+
+    var size = Object.keys(dictDati).length;
 
     if (size == 0)
         return "";
