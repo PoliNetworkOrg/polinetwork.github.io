@@ -169,6 +169,11 @@ const mapping = {
             "link_post": "",
             "img": "wa"
         },
+        "IG": {
+            "link_pre": "https://instagram.com/",
+            "link_post": "",
+            "img": "ig"
+        },
         "__default__": {
             "link_pre": "",
             "link_post": "",
