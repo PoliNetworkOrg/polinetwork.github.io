@@ -13,7 +13,14 @@ show_backToHome: true
         </div>
     </div>
     {% for project in site.data.extraInfo.extras.extras %}
-      {% if project.Title == page.title %}
+      {% assign upcaseTitleProject = project.Title | upcase %}
+      {% assign pageName = page.path | split: "/" | last | split: "." | first | upcase %}
+      {% comment %}
+        -for debug purposes!-
+        {{upcaseTitleProject }} == {{ page.path | split: "/" | last | split: "." | first | upcase }} <br>
+      {% endcomment %}
+      {% assign upcaseTitlePage = page.title | upcase %}
+      {% if upcaseTitleProject == pageName %}
       {% if project.divided == true %}
         {% for divider in project.dividers %}
           {% if divider.lang == page.Lang %}
