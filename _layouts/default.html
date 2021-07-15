@@ -43,26 +43,30 @@
     {{ content }}
 
 <div class="footerWrapper">
-  <div class="card white footerGrid">
-    <div class="footerSection">
-          <p><a href="/" class="polinetworkRedirect">Copyright PoliNetwork</a></p>
-    </div>
-    <div class="footerSection">
-        {% for item in site.data.languages.lang %}
-          {% if item.name != page.Lang %}
+    <div class="card white footerGrid">
+        <div class="footerSection">
+            <p><a href="/" class="polinetworkRedirect">Copyright &copy; <script>document.write(new Date().getFullYear())</script> PoliNetwork</a></p>
+        </div>
+        <div class="footerSection">
+            {% for item in site.data.languages.lang %}
+            {% if item.name != page.Lang and item.name == "it" %}
+            <a href="{{ site.url }}/{{ item.name }}{{ page.url | replace: "/it", "" | replace: "/en", ""}}"> Passa a <span class="textSecondaryColor"> {{ item.name | upcase}} </span></a>
+            {% endif %}
+            {% if item.name != page.Lang and item.name == "en" %}
             <a href="{{ site.url }}/{{ item.name }}{{ page.url | replace: "/it", "" | replace: "/en", ""}}"> Switch to <span class="textSecondaryColor"> {{ item.name | upcase}} </span></a>
-          {% endif %}
-        {% endfor %}
-  </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
 </div>
 
     <script>
-    if (dark_theme == 1){
-      document.getElementById("darkmodeinputID").checked = true;
-      document.getElementById("darkmodeinputID2").checked = true;
-      document.getElementById("darkmode").innerHTML = "Disable_Dark_Mode"
-      document.getElementById("darkmode2").innerHTML = "Disable_Dark_Mode"
-    }
+        if (dark_theme == 1) {
+            document.getElementById("darkmodeinputID").checked = true;
+            document.getElementById("darkmodeinputID2").checked = true;
+            document.getElementById("darkmode").innerHTML = "Disable Dark Mode"
+            document.getElementById("darkmode2").innerHTML = "Disable Dark Mode"
+        }
     </script>
     <script src="/res/js/javas.js"></script>
 
