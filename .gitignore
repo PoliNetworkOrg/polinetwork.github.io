@@ -7,3 +7,5 @@ _site/
 .forestry/
 .jekyll-cache/
 .jekyll-metadata
+Gemfile.lock
+Gemfile.lock.*
