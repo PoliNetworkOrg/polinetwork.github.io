@@ -1,7 +1,7 @@
 ---
-title: Mobilita' internazionale per lo studio
+title: Mobilit&agrave; internazionale per lo studio
 Lang: it
 Img: /img/mobilita.jpg
 layout: extra
 ---
-Mobilita' internazionale per lo studio
+Mobilit&agrave; internazionale per lo studio
