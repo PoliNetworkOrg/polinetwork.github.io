@@ -84,7 +84,7 @@ projects:
     items:
       - link: https://github.com/jacopo-j/webxdownloader
         redirect: true
-  - Title: Polidl
+  - Title: polidl
     items:
       - title: PoliDL - Cisco Webex & Microsoft Stream - Con Interfaccia Grafica Windows
         lang: it

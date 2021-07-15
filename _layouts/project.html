@@ -13,17 +13,19 @@ show_backToHome: true
         </div>
     </div>
     {% for project in site.data.projectsInfo.projects.projects %}
-      {% if project.Title == page.title %}
-      {% if project.divided == true %}
-        {% for divider in project.dividers %}
-          {% if divider.lang == page.Lang %}
-            <hr>
-            <p class="projectDividerText">
-              {{divider.name}}
-            <hr>
+    {% assign upcaseTitleProject = project.Title | upcase %}
+    {% assign upcaseTitlePage = page.title | upcase %}
+        {% if upcaseTitleProject == upcaseTitlePage %}
+          {% if project.divided == true %}
+            {% for divider in project.dividers %}
+              {% if divider.lang == page.Lang %}
+                <hr>
+                <p class="projectDividerText">
+                  {{divider.name}}
+                <hr>
+              {% endif %}
+            {% endfor %}
           {% endif %}
-        {% endfor %}
-      {% endif %}
         <div class="horizontalProjects section">
           {% for item in project.items %}
             {% if item.redirect == true %}
