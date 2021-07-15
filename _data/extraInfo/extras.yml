@@ -15,3 +15,7 @@ extras:
           link: https://github.com/yuyu-19/PoliDL-GUI
         - title: Vai al source di PoliDL GUI
           link: https://github.com/yuyu-19/PoliDL-GUI
+  - Title: animemanga
+    items:
+      - link: https://bebora.github.io/polimi-schedule-js/
+        redirect: true
