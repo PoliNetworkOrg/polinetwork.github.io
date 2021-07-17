@@ -13,6 +13,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css"
           rel="stylesheet" />
 
+    <title> PoliNetwork - {{ page.title }} </title>
     <link rel="stylesheet" type="text/css" href="/res/css/style.css">
     <link rel="stylesheet" type="text/css" href="/res/css/stylenavbar.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -22,7 +23,7 @@
 
     <script>
         var dark_theme = 0;
-        if (window.matchMedia('{prefers-color-scheme: dark}')) {
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
             document.documentElement.setAttribute('data-theme', 'dark');
             dark_theme = 1;
         } else {
