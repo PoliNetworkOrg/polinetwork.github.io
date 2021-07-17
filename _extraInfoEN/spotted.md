@@ -1,0 +1,7 @@
+---
+title: Polimi Spotted
+Lang: en
+Img: /img/polimispotted.png
+layout: extra
+---
+The Spotted pages are like notice boards to report and make public the declarations of love or lightning strikes, or to express hatred towards an annoying neighbor or to report something funny

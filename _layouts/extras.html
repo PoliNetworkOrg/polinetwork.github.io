@@ -50,15 +50,15 @@ layout: default
           </div>
         </a>
       </div>
-        <div class="projectsWrapper">
+      <div class="projectsWrapper">
           {% for project in site.extraInfoIT %}
-            {% if project.Lang == page.Lang %}
-              {% include projectCard.html %}
-            {% endif %}
+          {% if project.Lang == page.Lang and project.title != "Polimi Spotted" and project.title != "Polimi Memes" and project.title != "Studenti Polimi" %}
+          {% include projectCard.html %}
+          {% endif %}
           {% endfor %}
           {% for project in site.extraInfoEN %}
-            {% if project.Lang == page.Lang %}
-              {% include projectCard.html %}
-            {% endif %}
+          {% if project.Lang == page.Lang and project.title != "Polimi Spotted" and project.title != "Polimi Memes" and project.title != "Studenti Polimi" %}
+          {% include projectCard.html %}
+          {% endif %}
           {% endfor %}
       </div>
