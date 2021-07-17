@@ -15,6 +15,82 @@
           link: https://github.com/yuyu-19/PoliDL-GUI
         - title: Vai al source di PoliDL GUI
           link: https://github.com/yuyu-19/PoliDL-GUI
+  - Title: spotted
+    items:
+      - title: Facebook
+        lang: it
+        desc: I post anonimi sono pubblicati qui
+        link: https://www.facebook.com/pg/PolimiSpotted/
+        img: /img/fb.svg
+      - title: Facebook
+        lang: en
+        desc: Anonymous posts are published here
+        link: https://www.facebook.com/pg/PolimiSpotted/
+        img: /img/fb.svg
+      - title: Instagram
+        lang: it
+        desc: Meme e storie "alla spotted"
+        link: https://www.instagram.com/spotted_polimi/
+        img: /img/ig.svg
+      - title: Instagram
+        lang: en
+        desc: Memes and stories in "spotted style"
+        link: https://www.instagram.com/spotted_polimi/
+        img: /img/ig.svg
+      - title: Telegram
+        lang: it
+        desc: Feed con i post di fb
+        link: https://t.me/polimispotted
+        img: /img/tg.svg
+      - title: Telegram
+        lang: en
+        desc: Facebook's post feed
+        link: https://t.me/polimispotted
+        img: /img/tg.svg
+  - Title: polimimemes
+    items:
+      - title: Facebook
+        lang: it
+        desc: Post dal feed di instagram
+        link: https://www.facebook.com/polimimemes/
+        img: /img/fb.svg
+      - title: Facebook
+        lang: en
+        desc: Instagram's post feed
+        link: https://www.facebook.com/polimimemes/
+        img: /img/fb.svg
+      - title: Instagram
+        lang: it
+        desc: Profilo principale
+        link: https://www.instagram.com/polimi_memes/
+        img: /img/ig.svg
+      - title: Instagram
+        lang: en
+        desc: Main profile
+        link: https://www.instagram.com/polimi_memes/
+        img: /img/ig.svg
+      - title: Telegram
+        lang: it
+        desc: Feed con i post di fb
+        link: https://t.me/polimimemes/
+        img: /img/tg.svg
+      - title: Telegram
+        lang: en
+        desc: Canale telegram
+        link: https://t.me/polimimemes/
+        img: /img/tg.svg
+  - Title: studentipolimi
+    items:
+      - title: Instagram
+        lang: it
+        desc: Profilo principale
+        link: https://www.instagram.com/studenti.polimi/
+        img: /img/ig.svg
+      - title: Instagram
+        lang: en
+        desc: Main profile
+        link: https://www.instagram.com/studenti.polimi/
+        img: /img/ig.svg
   - Title: animemanga
     items:
       - link: https://t.me/joinchat/AFY9TUesBa6BVmXHaXf3wQ
@@ -37,52 +113,52 @@
         lang: it
         desc: Il gruppo principale dove parlare di gaming in generale. Vi sono anche info su sconti & key
         link: https://t.me/joinchat/CBUGAkOxR-_OZ_dJQTnSyw
-        img: /img/gamers.jpg
+        img: /img/3.jpg
       - title: Main group
         lang: en
         desc: The main group where to talk about gaming in general. There are also info on discounts & keys
         link: https://t.me/joinchat/CBUGAkOxR-_OZ_dJQTnSyw
-        img: /img/gamers.jpg
+        img: /img/3.jpg
       - title: League of Legends
         lang: it
         desc: Per gli appassionati di uno dei giochi MOBA più famosi al mondo
         link: https://t.me/joinchat/AFY9TVNSPdqo74GzwCSkQQ
-        img: /img/gamers.jpg
+        img: /img/7.jpg
       - title: League of Legends
         lang: en
         desc: For fans of this worldfamous MOBA game"
         link: https://t.me/joinchat/AFY9TVNSPdqo74GzwCSkQQ
-        img: /img/gamers.jpg
+        img: /img/7.jpg
       - title: Overwatch
         lang: it
         desc: Gruppo per giocatori di Overwatch
         link: https://t.me/joinchat/Cu8I5kiLbFGzXOE8-biRVg
-        img: /img/gamers.jpg
+        img: /img/20.jpg
       - title: Overwatch
         lang: en
         desc: Group for Overwatch players
         link: https://t.me/joinchat/Cu8I5kiLbFGzXOE8-biRVg
-        img: /img/gamers.jpg
+        img: /img/20.jpg
       - title: Discord
         lang: it
         desc: Il discord di PoliNetwork è anche per i gamers!
         link: https://discord.gg/Fp7ZHcC
-        img: /img/gamers.jpg
+        img: /img/di.svg
       - title: Discord
         lang: en
         desc: The PoliNetwork discord is also for gamers!
         link: https://discord.gg/Fp7ZHcC
-        img: /img/gamers.jpg
+        img: /img/di.svg
       - title: Giochi telegram nativi
         lang: it
         desc: Sì, telegram ha anche dei giochi "nativi"
         link: https://telegram.me/joinchat/EQKd7EAOxRAzFdUxuFmoow
-        img: /img/gamers.jpg
+        img: /img/10.jpg
       - title: Native telegram games
         lang: en
         desc: Yes, Telegram also has "native" games
         link: https://telegram.me/joinchat/EQKd7EAOxRAzFdUxuFmoow
-        img: /img/gamers.jpg
+        img: /img/10.jpg
   - Title: house
     items:
       - title: Facebook
@@ -219,3 +295,35 @@
     items:
       - link: https://t.me/joinchat/LclXl0gOWoUCf67O6nwnnQ
         redirect: true
+  - Title: hsa
+    items:
+      - title: Instagram
+        lang: it
+        desc: Pagina Instagram
+        link: https://www.instagram.com/hubofstudentactivities/
+        img: /img/ig.svg
+      - title: Instagram
+        lang: en
+        desc: Instagram Page
+        link: https://www.instagram.com/hubofstudentactivities/
+        img: /img/ig.svg
+      - title: Telegram
+        lang: it
+        desc: Canale telegram
+        link: https://t.me/polimiactivities
+        img: /img/tg.svg
+      - title: Telegram
+        lang: en
+        desc: Telegram channel
+        link: https://t.me/polimiactivities
+        img: /img/tg.svg
+      - title: Tutto il resto
+        lang: it
+        desc: Tutte le altre piattaforme dove siamo presenti
+        link: https://linktr.ee/hubofstudentactivities
+        img: /img/web.svg
+      - title: Everything else
+        lang: en
+        desc: Every other platform we're on
+        link: https://linktr.ee/hubofstudentactivities
+        img: /img/web.svg
