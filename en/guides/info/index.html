@@ -10,21 +10,7 @@ path: /guides/info/
     <div style="margin-top: 50px;"></div>
     <div class="wrapper">
         <div class="learnmoreWrapper">
-            <div class="card project white horizontalcardswrapper prjectClickable">
-              <a href="./corsi2.html">
-                <div class="project-content">
-                    <h2>Second year guides</h2>
-                    <p>Click here to open the guide (IT)</p>
-                </div>
-                </a>
-            </div>
-            <div class="card project white horizontalcardswrapper prjectClickable">
-              <a href="./corsi3.html">
-                <div class="project-content">
-                    <h2>Third year guides</h2>
-                    <p>Click here to open the guide (IT)</p>
-                </div>
-              </a>
-            </div>
+          {% include bigbutton.html url="./corsi2.html" title="Second year guides" desc="Click here to open the guide (IT)" %}
+          {% include bigbutton.html url="./corsi3.html" title="Third year guides" desc="Click here to open the guide (IT)" %}      
         </div>
       </div>

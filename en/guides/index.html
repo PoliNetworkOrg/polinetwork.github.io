@@ -10,21 +10,7 @@ path: /guides/
     <div style="margin-top: 50px;"></div>
     <div class="wrapper">
         <div class="learnmoreWrapper">
-            <div class="card project white horizontalcardswrapper prjectClickable">
-              <a href="./info/">
-                <div class="project-content">
-                    <h2>Eng. of Computing Systems</h2>
-                    <p>Click here to open all the guides available.</p>
-                </div>
-                </a>
-            </div>
-            <div class="card project white horizontalcardswrapper prjectClickable">
-              <a href="./aes/">
-                <div class="project-content">
-                    <h2>Aerospace Eng.</h2>
-                    <p>Click here to open all the guides available.</p>
-                </div>
-              </a>
-            </div>
+            {% include bigbutton.html url="./info/" title="Eng. of Computing Systems" desc="Click here to open all the guides available." %}
+            {% include bigbutton.html url="./aes/" title="Aerospace Eng." desc="Click here to open all the guides available." %}
         </div>
       </div>

@@ -10,21 +10,7 @@ path: "/guides/"
         <div style="margin-top: 50px;"></div>
         <div class="wrapper">
             <div class="learnmoreWrapper">
-                <div class="card project white horizontalcardswrapper prjectClickable">
-                  <a href="./info/">
-                    <div class="project-content">
-                        <h2>Informatica</h2>
-                        <p>Clicca per avere tutte le guide disponibili.</p>
-                    </div>
-                    </a>
-                </div>
-                <div class="card project white horizontalcardswrapper prjectClickable">
-                  <a href="./aes/">
-                    <div class="project-content">
-                        <h2>Aerospaziale</h2>
-                        <p>Clicca per avere tutte le guide disponibili.</p>
-                    </div>
-                  </a>
-                </div>
+              {% include bigbutton.html url="./info/" title="Informatica" desc="Clicca per avere tutte le guide disponibili." %}
+              {% include bigbutton.html url="./aes/" title="Aerospaziale" desc="Clicca per avere tutte le guide disponibili." %}
             </div>
           </div>
