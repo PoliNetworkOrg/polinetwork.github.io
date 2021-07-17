@@ -22,7 +22,6 @@ show_backToHome: true
           ## page.path takes the last part of the url (it/extra/house.md), splits by "/", gets the last ("house.md"), then splits by "." and takes
           ## the first part to remove ".md"
         {% endcomment %}
-        {% assign upcaseTitlePage = page.title | upcase %}
         {% if upcaseTitleProject == pageName %}
           {% if project.divided == true %}
             {% for divider in project.dividers %}
