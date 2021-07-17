@@ -1,3 +1,15 @@
+/* BIG BUTTON */
+
+.cardButton{
+  margin: 10px;
+  overflow: hidden;
+  border-radius: 1em;
+}
+
+.bigButtonLink{
+  padding: 1em 2em;
+}
+
 /* search  */
 
 /* ASSOC */

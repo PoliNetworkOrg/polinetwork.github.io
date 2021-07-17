@@ -5,37 +5,17 @@ layout: default
     <div style="margin-top: 50px;"></div>
     <div class="wrapper">
         <div class="columnTwo">
-            <div class="card project white horizontalcardswrapper prjectClickable">
-              <a href="./about_us/">
-                <div class="project-content">
-                    <h2>{{ page.card1title }}</h2>
-                    <p> {{ page.card1description }}</p>
-                </div>
-                </a>
-            </div>
-            <div class="card project white horizontalcardswrapper prjectClickable">
-              <a href="./principles/">
-                <div class="project-content">
-                  <h2>{{ page.card2title }}</h2>
-                  <p> {{ page.card2description }}</p>
-                </div>
-              </a>
-            </div>
-            <div class="card project white horizontalcardswrapper prjectClickable">
-              <a href="./structure/">
-                <div class="project-content">
-                  <h2>{{ page.card3title }}</h2>
-                  <p> {{ page.card3description }}</p>
-                </div>
-              </a>
-            </div>
-            <div class="card project white horizontalcardswrapper prjectClickable">
-              <a href="../rules/">
-                <div class="project-content">
-                  <h2>{{ page.card4title }}</h2>
-                  <p> {{ page.card4description }}</p>
-                </div>
-              </a>
-            </div>
+            {% capture VARcard1title %} {{ page.card1title }} {% endcapture %}
+            {% capture VARcard2title %} {{ page.card2title }} {% endcapture %}
+            {% capture VARcard3title %} {{ page.card3title }} {% endcapture %}
+            {% capture VARcard4title %} {{ page.card4title }} {% endcapture %}
+            {% capture VARcard1description %} {{ page.card1description }} {% endcapture %}
+            {% capture VARcard2description %} {{ page.card2description }} {% endcapture %}
+            {% capture VARcard3description %} {{ page.card3description }} {% endcapture %}
+            {% capture VARcard4description %} {{ page.card4description }} {% endcapture %}
+            {% include bigbutton.html url="./about_us/" title=VARcard1title desc=VARcard1description %}
+            {% include bigbutton.html url="./principles/" title=VARcard2title desc=VARcard2description %}
+            {% include bigbutton.html url="./structure/" title=VARcard3title desc=VARcard3description %}
+            {% include bigbutton.html url="../rules/" title=VARcard4title desc=VARcard4description %}
         </div>
       </div>
