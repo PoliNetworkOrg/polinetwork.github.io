@@ -1,0 +1,48 @@
+{% for associazione in site.data.assoc.assoc %}
+  {% for language in associazione.items %}
+    {% if language.lang == include.language and associazione.Title == include.title %}
+      {% assign modulo = language.buttons.size | modulo: 3 %}
+      {% if modulo == 0 %}
+        <div class="expandableButtonMatrix">
+          {% for button in language.buttons %}
+              <div class="card green clickable horizontalcardsbutton projectLink"><a href="{{ button.link }}" class="textAccentColor cardLink"> {{ button.title }} </a></div>
+          {% endfor %}
+        </div>
+      {% else %}
+      {% assign i = 0 %}
+      {% assign printable = language.buttons.size | minus:modulo  %}
+        <div class="expandableButtonMatrix">
+          {% for button in language.buttons %}
+            {% if i < printable %}
+              <div class="card green clickable horizontalcardsbutton projectLink"><a href="{{ button.link }}" class="textAccentColor cardLink"> {{ button.title }} </a></div>
+              {% assign i = i | plus:1 %}
+            {% endif %}
+          {% endfor %}
+          {% if modulo == 1 %}
+            <div class="gridBy1">
+              {% assign e = 0 %}
+              {% for button in language.buttons %}
+                  {% if i >= printable and e >= i %}
+                    <div class="card green clickable horizontalcardsbutton projectLink"><a href="{{ button.link }}" class="textAccentColor cardLink"> {{ button.title }} </a></div>
+                    {% assign i = i | plus:1 %}
+                  {% endif %}
+                  {% assign e = e | plus:1 %}
+              {% endfor %}
+            </div>
+          {% elsif modulo == 2 %}
+          <div class="gridBy2">
+            {% assign e = 0 %}
+            {% for button in language.buttons %}
+                {% if i >= printable and e >= i %}
+                  <div class="card green clickable horizontalcardsbutton projectLink"><a href="{{ button.link }}" class="textAccentColor cardLink"> {{ button.title }} </a></div>
+                  {% assign i = i | plus:1 %}
+                {% endif %}
+                {% assign e = e | plus:1 %}
+            {% endfor %}
+          </div>
+          {% endif %}
+        </div>
+      {%endif%}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
