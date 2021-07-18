@@ -36,7 +36,9 @@ title {
   padding: 3px;
   transition: all 0.4s ease;
   font-size: 1.3em;
-  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .containerFA{

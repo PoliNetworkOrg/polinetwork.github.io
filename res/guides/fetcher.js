@@ -38,7 +38,7 @@ fetch(window.location.pathname.split('/').pop().split('.')[0] + '.txt')
     while (i < l) {
         // if a new course is beginning
         if (lines[i++].slice(0, 3) === '###') {
-            doc += '<div class="course"><div class="collapsible"><h3>' + lines[i-1].slice(3) + '</h3>' + '<div class="containerFA"><i class="fa fa-angle-down"></i></div></div>' + '<div class="content">'
+            doc += '<div class="course"><div class="collapsible"><div class="containerFA"><i class="fa fa-angle-down"></i></div><h3>' + lines[i-1].slice(3) + '</h3>' + '</div>' + '<div class="content">'
             while (i < l && (lines[i].slice(0, 8) === 'TELEGRAM' || lines[i].slice(0, 8) === 'MANIFEST'))
                 if (lines[i++].slice(0, 8) === 'TELEGRAM')
                     doc += '<a href="' + lines[i-1].slice(8) + '"><img class="telegram" src="/res/guides/telegram.webp"></a>'
