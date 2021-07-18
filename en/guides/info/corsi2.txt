@@ -52,7 +52,7 @@ L'esame e' facile, tipicamente la meta' delle domande  facili, alcune domande di
 ###Misure
 TELEGRAM https://t.me/joinchat/QhL-k0uUwZIxVoQf
 MANIFEST https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=743827&polij_device_category=DESKTOP&__pj0=0&__pj1=aa02ffbdbc2d57f38b6d1994f9607964
-Nota: Docente cambiato
+Nota: Docente cambiato l'anno 2020
 
 Un esame abbastanza semplice anche se a volte può risultare
 noiosissimo. Il tema centrale è quello della misurazione, quali sono
