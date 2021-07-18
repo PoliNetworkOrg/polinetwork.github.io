@@ -1,8 +1,13 @@
+@font-face {
+  font-family: futura;
+  src: url(futuram.ttf);
+}
+
 html {
     background-color: #242424;
     color: white;
     line-height: 1.4;
-    font-family: 'Crimson Text', serif;
+    font-family: futura;
     text-align: justify;
 }
 
