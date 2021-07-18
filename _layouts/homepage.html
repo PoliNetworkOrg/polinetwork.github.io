@@ -1,118 +1,259 @@
 ---
 layout: default
 ---
+
 <body>
-<div>
+  <div>
     <!--        <div class="ptitlesub">-->
     <!--            -->
     <!--        </div>-->
     <div id="topTitle">
-        <div class="titlecontainer">
-            <p class="Titolone titlecentered"> {{ page.LTitolone }}</p>
-        </div>
-        <div class="devsite-header-billboard-search">
+      <div class="titlecontainer">
+        <p class="Titolone titlecentered"> {{ page.LTitolone }}</p>
+      </div>
+      <div class="devsite-header-billboard-search">
 
-                <div class="input-group rounded">
-                    <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" id="searchBarID"
-                           aria-describedby="search-addon" class="searchBox"/>
-                    <span class="input-group-text border-0" id="search-addon">
-                        <i class="fas fa-search"></i>
-                      </span>
-                      <div class="searchResults" id ="searchContainerID">
-                        <div class="searchBox" id="searchResultsID">
+        <div class="input-group rounded">
+          <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" id="searchBarID"
+            aria-describedby="search-addon" class="searchBox" />
+          <span class="input-group-text border-0" id="search-addon">
+            <i class="fas fa-search"></i>
+          </span>
+          <div class="searchResults" id="searchContainerID">
+            <div class="searchBox" id="searchResultsID">
 
-                        </div>
-                      </div>
             </div>
-
+          </div>
         </div>
+
+      </div>
 
     </div>
-</div>
-<div class="wrapper">
+  </div>
+  <div class="wrapper">
     <div class="card white section sign">
-        <div class="topCard">
-            <div class="centerGrid logo"><img class="image-container main" src="/res/images/polinetwork.png"></div>
-            <div class="centerGrid firmaNetwork">
-                <h1><span class="highlight">P</span>oli<span class="highlight">N</span>etwork</h1>
-                <p>{{ page.Lmotto }}</p>
-            </div>
+      <div class="topCard">
+        <div class="centerGrid logo"><img class="image-container main" src="/res/images/polinetwork.png"></div>
+        <div class="centerGrid firmaNetwork">
+          <h1><span class="highlight">P</span>oli<span class="highlight">N</span>etwork</h1>
+          <p>{{ page.Lmotto }}</p>
         </div>
+      </div>
     </div>
     <div class="card white section">
       <div class="cardTitleAndDescription">
         <h2>{{ page.LgroupsTitle }}</h2>
         <p>{{ page.LgroupsText }}</p>
       </div>
-        <div class="horizontalSocial">
-            <div class="card white clickable"
-                 onclick="location.href='https://www.facebook.com/groups/matricole20172018polimi/'">
-                <div class="image-container big"><img src="../res/images/facebook.svg"></div>
-                <p class="pcenter">{{ page.LFacebookTitle }}</p>
-            </div>
-            <div class="card white clickable" onclick="location.href='https://t.me/PoliGruppo'">
-                <div class="image-container big"><img src="../res/images/telegram.png"></div>
-                <p class="pcenter">{{ page.LTelegramTitle }}</p>
-            </div>
+      <div class="horizontalSocial">
+        <div class="card white clickable"
+          onclick="location.href='https://www.facebook.com/groups/matricole20172018polimi/'">
+          <div class="image-container big"><img src="../res/images/facebook.svg"></div>
+          <p class="pcenter">{{ page.LFacebookTitle }}</p>
         </div>
-        <div class="columnTwo">
-          <div class="card textAccentColor green clickable courses" onclick="location.href='./groups/'">
-              <p class="pcenter">{{ page.LAllCoursesTitle }}</p>
-          </div>
-          <div class="card textAccentColor green clickable groups" onclick="location.href='./extra/'">
-              <p class="pcenter">{{ page.LExtraTitle }}</p>
-          </div>
-          <div class="card textAccentColor orange clickable rules" onclick="location.href='./rules/'">
-              <p class="pcenter">{{ page.LRules }}</p>
-          </div>
-          <div class="card textAccentColor orange clickable rules" onclick="location.href='https://gitlab.com/polinetwork/everything'">
-              <p class="pcenter">{{ page.LMaterials }}</p>
-          </div>
+        <div class="card white clickable" onclick="location.href='https://t.me/PoliGruppo'">
+          <div class="image-container big"><img src="../res/images/telegram.png"></div>
+          <p class="pcenter">{{ page.LTelegramTitle }}</p>
         </div>
-        <div class="spaced">
-            <br/>
+      </div>
+      <div class="columnTwo">
+        <div class="card textAccentColor green clickable courses" onclick="location.href='./groups/'">
+          <p class="pcenter">{{ page.LAllCoursesTitle }}</p>
         </div>
+        <div class="card textAccentColor green clickable groups" onclick="location.href='./extra/'">
+          <p class="pcenter">{{ page.LExtraTitle }}</p>
+        </div>
+        <div class="card textAccentColor orange clickable rules" onclick="location.href='./rules/'">
+          <p class="pcenter">{{ page.LRules }}</p>
+        </div>
+        <div class="card textAccentColor orange clickable rules"
+          onclick="location.href='https://gitlab.com/polinetwork/everything'">
+          <p class="pcenter">{{ page.LMaterials }}</p>
+        </div>
+      </div>
+      <div class="spaced">
+        <br />
+      </div>
     </div>
     <div class="horizontal section">
-        <div class="card white horizontalcardswrapper guides">
-          <div class="titleanddeskCard">
-            <div class="cardTitleAndDescription">
-              <h2>{{ page.LGuidesTitle }}</h2>
-              <p>{{ page.LGuidesText }}</p>
-            </div>
-          </div>
-            <div class="expandable">
-              <div class="card green clickable horizontalcardsbutton" onclick="location.href='./guides/'"><p class="textAccentColor cardLink">{{ page.LGuidesButton }}</p></div>
+      <div class="card white horizontalcardswrapper guides">
+        <div class="titleanddeskCard">
+          <div class="cardTitleAndDescription">
+            <h2>{{ page.LGuidesTitle }}</h2>
+            <p>{{ page.LGuidesText }}</p>
           </div>
         </div>
-        <div class="card white horizontalcardswrapper projects">
-          <div class="titleanddeskCard">
-              <div class="cardTitleAndDescription">
-                <h2>{{ page.LProjectsTitle }}</h2>
-                <p>{{ page.LProjectsText }}</p>
-              </div>
+        <div class="expandable">
+          <div class="card green clickable horizontalcardsbutton" onclick="location.href='./guides/'">
+            <p class="textAccentColor cardLink">{{ page.LGuidesButton }}</p>
           </div>
-            <div class="expandable">
-              <div class="card green clickable horizontalcardsbutton" onclick="location.href='./projects/'"><p class="textAccentColor cardLink">{{ page.LProjectsButton }}</p></div>
-            </div>
         </div>
-        <div class="card white horizontalcardswrapper info">
-          <div class="titleanddeskCard">
-            <div class="cardTitleAndDescription">
-              <h2>{{ page.LInfoTitle }}</h2>
-              <p>{{ page.LInfoText }}</p>
-            </div>
+      </div>
+      <div class="card white horizontalcardswrapper projects">
+        <div class="titleanddeskCard">
+          <div class="cardTitleAndDescription">
+            <h2>{{ page.LProjectsTitle }}</h2>
+            <p>{{ page.LProjectsText }}</p>
           </div>
-            <div class="expandable">
-              <div class="card green clickable horizontalcardsbutton" onclick="location.href='./learnmore/'"><p class="textAccentColor cardLink">{{ page.LInfoButton }}</p></div>
-            </div>
         </div>
+        <div class="expandable">
+          <div class="card green clickable horizontalcardsbutton" onclick="location.href='./projects/'">
+            <p class="textAccentColor cardLink">{{ page.LProjectsButton }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="card white horizontalcardswrapper info">
+        <div class="titleanddeskCard">
+          <div class="cardTitleAndDescription">
+            <h2>{{ page.LInfoTitle }}</h2>
+            <p>{{ page.LInfoText }}</p>
+          </div>
+        </div>
+        <div class="expandable">
+          <div class="card green clickable horizontalcardsbutton" onclick="location.href='./learnmore/'">
+            <p class="textAccentColor cardLink">{{ page.LInfoButton }}</p>
+          </div>
+        </div>
+      </div>
     </div>
-</div>
-</body>
+  </div>
+  <script src="search.js"></script>
+        <script>
+
+            var entityMap = {
+                '&': '&amp;',
+                '<': '&lt;',
+                '>': '&gt;',
+                '"': '&quot;',
+                "'": '&#39;',
+                '/': '&#x2F;',
+                '`': '&#x60;',
+                '=': '&#x3D;'
+            };
+
+            function escapeHtml(string) {
+                return String(string).replace(/[&<>"'`=\/]/g, s => entityMap[s]);
+            }
+
+            const mapping = {
+                language: {
+                    "ITA": "it_flag",
+                    "IT": "it_flag",
+                    "ENG": "en_flag",
+                    "EN": "en_flag",
+                    "__default__": ""
+                },
+                platform: {
+                    "TG": {
+                        "link_pre": "https://t.me/joinchat/",
+                        "link_post": "",
+                        "img": "tg"
+                    },
+                    "FB": {
+                        "link_pre": "https://www.facebook.com/groups/",
+                        "link_post": "",
+                        "img": "fb"
+                    },
+                    "WA": {
+                        "link_pre": "https://chat.whatsapp.com/",
+                        "link_post": "",
+                        "img": "wa"
+                    },
+                    "__default__": {
+                        "link_pre": "",
+                        "link_post": "",
+                        "img": ""
+                    }
+                }
+            }
+
+            function applyMapping(item) {
+                for (key in mapping) {
+                    if (item[key]) {
+                        if (mapping[key][item[key]] !== undefined) {
+                            item[key] = mapping[key][item[key]];
+                        }
+                        else {
+                            item[key] = mapping[key]["__default__"];
+                        }
+                    }
+                }
+
+                return item;
+            }
 
 
-    <script>
+            function genHtml(data) {
+                var d = `
+		<div class="result">
+			<div class="resultContainer">
+					<a class="resultLink" href="${data.platform.link_pre}${data.id_link}${data.platform.link_post}">
+						<img style="width:18px;" src="/img/${data.platform.img}.svg" />`;
+
+                if (data.tipo != "C") {
+                    d += `${(data.office ? `&nbsp[${data.office}]` : ``)}`;
+                    d += `&nbsp`;
+                }
+                d += `${escapeHtml(data.class)}&nbsp`;
+
+                if (data.language) {
+                    d += `<img style="width:18px;" src="/img/${data.language}.png" />`;
+                }
+                d += `</a></div></div>`;
+
+                return d;
+
+            }
+
+
+            document.addEventListener('DOMContentLoaded', _ => {
+                Search.init();
+
+                document.querySelectorAll('input[type="search"]').forEach(el => {
+                    const result_div = document.getElementById("searchResultsID");
+
+                    el.addEventListener('keyup', _ => {
+                        Search.search({ class: el.value}, 20)
+                            .then(data => {
+                                if (data.length == 0) {
+                                    result_div.innerHTML = '<div class=\"result\"><div class="resultContainer"><a class="noResults" href="\https://t.me/PoliGruppo">There are no suggestions for your query. <i>Try asking here</i></a></div></div>';
+                                }
+                                else {
+                                    result_div.innerHTML = data
+                                        .map(applyMapping)
+                                        .map(genHtml)
+                                        .join('');
+                                }
+
+                                activateResultsDiv();
+                            })
+                            .catch(e => {
+                                el.setAttribute('disable', true);
+                                el.setAttribute('placeholder', 'Search Broke Down :(');
+                                console.error(e);
+                            });
+                    })
+                })
+            });
+
+
+            function activateResultsDiv() {
+                var bar = document.getElementById("searchBarID");
+                var container = document.getElementById("searchContainerID");
+                if (bar.value.length > 0) {
+                    if (!container.classList.contains("searchResultsActive")) {
+                        container.classList.add("searchResultsActive");
+                    }
+                } else {
+                    if (container.classList.contains("searchResultsActive")) {
+                        container.classList.remove("searchResultsActive");
+                    }
+                }
+            }
+
+
+        </script>
+  <!-- <script>
         function generaHTMLrisultato(item) {
           item = applyMapping(item);
           return genHtml(item);
@@ -165,4 +306,5 @@ layout: default
                 });
             });
         });
-    </script>
+    </script> -->
+</body>
