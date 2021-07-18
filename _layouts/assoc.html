@@ -12,14 +12,15 @@ show_backToHome: true
   {% for language in associazione.items %}
     {% if language.lang == page.Lang %}
         <div class="topAssocCard">
-            <img class="imageassoc" src="{{ language.image }}">
+            <img class="imageassoc" src="{{ associazione.image }}">
             <div class="assocName">
-              <div class="assocText"><p>{{ language.title }}</p>
+              <div class="assocText"><p>{{ associazione.Title }}</p>
               </div>
             </div>
           <p class="assocDesc">
             {{ language.desc }}
           </p>
+          {% include buttonmatrix.html language=language.lang title=associazione.Title %}
         </div>
         <div class="assocDivider"></div>
     {% endif %}

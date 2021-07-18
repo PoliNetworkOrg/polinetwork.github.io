@@ -10,6 +10,35 @@
   padding: 1em 2em;
 }
 
+/* BUTTON MATRIX */
+
+.gridBy2{
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  width: 70%;
+  margin:auto;
+}
+
+.gridBy1{
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.expandableButtonMatrix{
+  display: grid;
+  align-content: end;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  padding-bottom: 20px;
+}
+
 /* search  */
 
 /* ASSOC */
