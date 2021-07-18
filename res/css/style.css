@@ -12,6 +12,15 @@
 
 /* BUTTON MATRIX */
 
+.cardPaddingButtonMatrix{
+  padding-left: 10px !Important;
+  padding-right: 10px !Important;
+}
+
+.buttonMatrixImage{
+  width: 15px;
+}
+
 .gridBy2{
   display: grid;
   grid-column-start: 1;
@@ -37,6 +46,49 @@
   grid-column-start: 1;
   grid-column-end: 3;
   padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 920px){
+  .expandableButtonMatrix{
+    grid-template-columns: 1fr 1fr;
+  }
+  .gridBy2{
+    grid-row-start: 1;
+    grid-column-end: 3;
+    width: 100%;
+  }
+  .gridBy1{
+    grid-column-end: unset;
+    grid-column-start: unset;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .expandableButtonMatrix{
+    grid-template-columns: 1fr;
+  }
+  .gridBy2{
+    grid-row-start: unset;
+    grid-column-end: unset;
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+  .gridBy1{
+    grid-column-end: unset;
+    grid-column-start: unset;
+  }
+  .imageassoc{
+    margin-left: auto !Important;
+    margin-right: auto !Important;
+  }
+  .assocText {
+    padding: 0 10px 0 10px !Important;
+    font-size: 1.1em !Important;
+  }
+  .assocText p{
+    font-size: 1.1em !Important;
+    text-align: center;
+  }
 }
 
 /* search  */
@@ -456,7 +508,6 @@ input[type=radio] {
 
 .far{
   color: var(--colortitle);
-  size: 1em;
 }
 
 /* Dropdown Button */
