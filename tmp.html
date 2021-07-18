@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet" />
+
+    <title> PoliNetwork - Home </title>
+    <link rel="stylesheet" type="text/css" href="/res/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/res/css/stylenavbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <script src="/res/js/search/bootstrap.js"></script>
+
+    <script src="/res/js/search/search3.js"></script> -->
+
+    <script>
+        var dark_theme = 0;
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.documentElement.setAttribute('data-theme', 'dark');
+            dark_theme = 1;
+        } else {
+            document.documentElement.setAttribute('data-theme', 'light');
+        }
+    </script>
+
+</head>
+< header>
+    <div class="topbar">
+
+        <div class="" id="titlecentered">
+            <div class="containerTop">
+                <div class="containertitle">
+                    <p class="ptitle"><b> PoliNetwork</b></p>
+                </div>
+                <div id="navigation" class="containertitle ml12">
+                    <p class="slidernavbar"> -&nbsp; Home</p>
+                </div>
+            </div>
+        </div>
+        <div class="darkButton">
+            <div class="switchdiv switchdiva">
+                <p id="darkmode">Enable Dark Mode</p>
+            </div>
+            <div class="switchdiv switchdivb"><label class="theme-switch switch"> <input id="darkmodeinputID"
+                        type="checkbox"> <span class="slider round"></span> </label></div>
+            <div class="dropdown">
+                <button class="dropbtn"><i class="fa fa-bars"></i></button>
+                <div class="dropdown-content">
+                    <div class="ptitlesubcontainer">
+                        <div class="switchdivb">
+                            <p id="darkmode2">Enable Dark Mode</p>
+                        </div>
+                        <div class="switchdivb"><label class="theme-switchb switch"> <input id="darkmodeinputID2"
+                                    type="checkbox"> <span class="slider round"></span> </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </header>
+
+
+    <body>
+        <div>
+            <!--        <div class="ptitlesub">-->
+            <!--            -->
+            <!--        </div>-->
+            <div id="topTitle">
+                <div class="titlecontainer">
+                    <p class="Titolone titlecentered"> Find your group!</p>
+                </div>
+                <div class="devsite-header-billboard-search">
+
+                    <div class="input-group rounded">
+                        <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+                            id="searchBarID" aria-describedby="search-addon" class="searchBox" />
+                        <span class="input-group-text border-0" id="search-addon">
+                            <i class="fas fa-search"></i>
+                        </span>
+                        <div class="searchResults" id="searchContainerID">
+                            <div class="searchBox" id="searchResultsID">
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="card white section sign">
+                <div class="topCard">
+                    <div class="centerGrid logo"><img class="image-container main" src="/res/images/polinetwork.png">
+                    </div>
+                    <div class="centerGrid firmaNetwork">
+                        <h1><span class="highlight">P</span>oli<span class="highlight">N</span>etwork</h1>
+                        <p>A Network of students, for students</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card white section">
+                <div class="cardTitleAndDescription">
+                    <h2>Groups</h2>
+                    <p>The main effort of the Network is creating and maintaining groups of students on Telegram and
+                        Facebook, providing support and answering to university related questions</p>
+                </div>
+                <div class="horizontalSocial">
+                    <div class="card white clickable"
+                        onclick="location.href='https://www.facebook.com/groups/matricole20172018polimi/'">
+                        <div class="image-container big"><img src="../res/images/facebook.svg"></div>
+                        <p class="pcenter">General Facebook group</p>
+                    </div>
+                    <div class="card white clickable" onclick="location.href='https://t.me/PoliGruppo'">
+                        <div class="image-container big"><img src="../res/images/telegram.png"></div>
+                        <p class="pcenter">General Telegram group</p>
+                    </div>
+                </div>
+                <div class="columnTwo">
+                    <div class="card textAccentColor green clickable courses" onclick="location.href='./groups/'">
+                        <p class="pcenter">Groups of all courses</p>
+                    </div>
+                    <div class="card textAccentColor green clickable groups" onclick="location.href='./extra/'">
+                        <p class="pcenter">Extra groups</p>
+                    </div>
+                    <div class="card textAccentColor orange clickable rules" onclick="location.href='./rules/'">
+                        <p class="pcenter">Rules</p>
+                    </div>
+                    <div class="card textAccentColor orange clickable rules"
+                        onclick="location.href='https://gitlab.com/polinetwork/everything'">
+                        <p class="pcenter">Notes and Materials</p>
+                    </div>
+                </div>
+                <div class="spaced">
+                    <br />
+                </div>
+            </div>
+            <div class="horizontal section">
+                <div class="card white horizontalcardswrapper guides">
+                    <div class="titleanddeskCard">
+                        <div class="cardTitleAndDescription">
+                            <h2>Guides</h2>
+                            <p>A collection of guides built by the members of the Network</p>
+                        </div>
+                    </div>
+                    <div class="expandable">
+                        <div class="card green clickable horizontalcardsbutton" onclick="location.href='./guides/'">
+                            <p class="textAccentColor cardLink">Guides</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card white horizontalcardswrapper projects">
+                    <div class="titleanddeskCard">
+                        <div class="cardTitleAndDescription">
+                            <h2>Projects</h2>
+                            <p>Projects created and maintained by us or our colleagues</p>
+                        </div>
+                    </div>
+                    <div class="expandable">
+                        <div class="card green clickable horizontalcardsbutton" onclick="location.href='./projects/'">
+                            <p class="textAccentColor cardLink">Projects</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card white horizontalcardswrapper info">
+                    <div class="titleanddeskCard">
+                        <div class="cardTitleAndDescription">
+                            <h2>Info</h2>
+                            <p>Find out more about who we are and what we do</p>
+                        </div>
+                    </div>
+                    <div class="expandable">
+                        <div class="card green clickable horizontalcardsbutton" onclick="location.href='./learnmore/'">
+                            <p class="textAccentColor cardLink">Learn more</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="search.js"></script>
+        <script>
+
+            var entityMap = {
+                '&': '&amp;',
+                '<': '&lt;',
+                '>': '&gt;',
+                '"': '&quot;',
+                "'": '&#39;',
+                '/': '&#x2F;',
+                '`': '&#x60;',
+                '=': '&#x3D;'
+            };
+
+            function escapeHtml(string) {
+                return String(string).replace(/[&<>"'`=\/]/g, s => entityMap[s]);
+            }
+
+            const mapping = {
+                language: {
+                    "ITA": "it_flag",
+                    "IT": "it_flag",
+                    "ENG": "en_flag",
+                    "EN": "en_flag",
+                    "__default__": ""
+                },
+                platform: {
+                    "TG": {
+                        "link_pre": "https://t.me/joinchat/",
+                        "link_post": "",
+                        "img": "tg"
+                    },
+                    "FB": {
+                        "link_pre": "https://www.facebook.com/groups/",
+                        "link_post": "",
+                        "img": "fb"
+                    },
+                    "WA": {
+                        "link_pre": "https://chat.whatsapp.com/",
+                        "link_post": "",
+                        "img": "wa"
+                    },
+                    "__default__": {
+                        "link_pre": "",
+                        "link_post": "",
+                        "img": ""
+                    }
+                }
+            }
+
+            function applyMapping(item) {
+                for (key in mapping) {
+                    if (item[key]) {
+                        if (mapping[key][item[key]] !== undefined) {
+                            item[key] = mapping[key][item[key]];
+                        }
+                        else {
+                            item[key] = mapping[key]["__default__"];
+                        }
+                    }
+                }
+
+                return item;
+            }
+
+
+            function genHtml(data) {
+                var d = `
+		<div class="result">
+			<div class="resultContainer">
+					<a class="resultLink" href="${data.platform.link_pre}${data.id_link}${data.platform.link_post}">
+						<img style="width:18px;" src="/img/${data.platform.img}.svg" />`;
+
+                if (data.tipo != "C") {
+                    d += `${(data.office ? `&nbsp[${data.office}]` : ``)}`;
+                    d += `&nbsp`;
+                }
+                d += `${escapeHtml(data.class)}&nbsp`;
+
+                if (data.language) {
+                    d += `<img style="width:18px;" src="/img/${data.language}.png" />`;
+                }
+                d += `</a></div></div>`;
+
+                return d;
+
+            }
+
+
+            document.addEventListener('DOMContentLoaded', _ => {
+                Search.init();
+
+                document.querySelectorAll('input[type="search"]').forEach(el => {
+                    const result_div = document.getElementById("searchResultsID");
+
+                    el.addEventListener('keyup', _ => {
+                        Search.search({ class: el.value}, 20)
+                            .then(data => {
+                                if (data.length == 0) {
+                                    result_div.innerHTML = '<div class=\"result\"><div class="resultContainer"><a class="noResults" href="\https://t.me/PoliGruppo">There are no suggestions for your query. <i>Try asking here</i></a></div></div>';
+                                }
+                                else {
+                                    result_div.innerHTML = data
+                                        .map(applyMapping)
+                                        .map(genHtml)
+                                        .join('');
+                                }
+
+                                activateResultsDiv();
+                            })
+                            .catch(e => {
+                                el.setAttribute('disable', true);
+                                el.setAttribute('placeholder', 'Search Broke Down :(');
+                                console.error(e);
+                            });
+                    })
+                })
+            });
+
+
+            function activateResultsDiv() {
+                var bar = document.getElementById("searchBarID");
+                var container = document.getElementById("searchContainerID");
+                if (bar.value.length > 0) {
+                    if (!container.classList.contains("searchResultsActive")) {
+                        container.classList.add("searchResultsActive");
+                    }
+                } else {
+                    if (container.classList.contains("searchResultsActive")) {
+                        container.classList.remove("searchResultsActive");
+                    }
+                }
+            }
+
+
+        </script>
+    </body>
+
+    <!-- 
+    <script>
+        function generaHTMLrisultato(item) {
+          item = applyMapping(item);
+          return genHtml(item);
+        }
+
+        function  generaHTMLnoresults(){
+          var doc = document.getElementById("searchResultsID");
+          doc.innerHTML = '<div class=\"result\"><div class="resultContainer"><a class="noResults" href="\https://t.me/PoliGruppo">There are no suggestions for your query. <i>Try asking here</i></a></div></div>';
+        }
+
+        function activateResultsDiv(){
+          var bar = document.getElementById("searchBarID");
+          var container = document.getElementById("searchContainerID");
+          if (bar.value.length > 0){
+            if (!container.classList.contains("searchResultsActive")){
+              container.classList.add("searchResultsActive");
+            }
+          } else {
+            if (container.classList.contains("searchResultsActive")){
+              container.classList.remove("searchResultsActive");
+            }
+          }
+        }
+
+        document.addEventListener('DOMContentLoaded', _ => {            // Esegui quando il DOM e' pronto
+            els = document.querySelectorAll('input[type="search"]');    // Seleziona tutti gli input di tipo search
+            Array.from(els).forEach(el => {                             // Per ogni input di tipo search...
+                el.addEventListener('keyup', _ => {                     // Aggiungi un listener che scatta ogni volta che schiacci un tasto sulla tastiera
+                    activateResultsDiv();
+                    doSearch({                                          // Esegui le search con questa funzione
+                        limit: 50,                                      // Limite di risultati per la ricerca
+                        join: "AND",                                    // Tipo di join
+                        query: {                                        // Ogni proprieta' viene mappata nelle proprieta' degli oggetti del json
+                            class: el.value
+                        }},
+                    data => {
+                      var doc = document.getElementById("searchResultsID");
+                      console.log("res", data);
+                      doc.innerHTML = "";
+                      data.forEach((item, i) => {
+                        doc.innerHTML += generaHTMLrisultato(item);
+                      });
+                      if(doc.innerHTML.length == 0){
+                        generaHTMLnoresults();
+                      }
+
+                    }
+                  );                  // Callback in cui passare i risultati di ricerca
+
+                });
+            });
+        });
+    </script>
+ -->
+
+    <div class="footerWrapper">
+        <div class="card white footerGrid">
+            <div class="footerSection">
+                <p>
+                    <a href="/" class="polinetworkRedirect">Copyright &copy;
+                        <script>document.write(new Date().getFullYear())</script> PoliNetwork
+                    </a>
+                </p>
+            </div>
+            <div class="footerSection">
+
+
+
+                <a href="https://polinetworkdev.github.io/it/"> Passa a <span class="textSecondaryColor"> IT </span></a>
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        if (dark_theme == 1) {
+            document.getElementById("darkmodeinputID").checked = true;
+            document.getElementById("darkmodeinputID2").checked = true;
+        }
+    </script>
+
+
+    <script>
+        if (dark_theme == 1) {
+            document.getElementById("darkmode").innerHTML = "Disable Dark Mode"
+            document.getElementById("darkmode2").innerHTML = "Disable Dark Mode"
+        }
+    </script>
+    <script src="/res/js/dark_mode/javas_en.js"></script>
+
+
+
+</html>

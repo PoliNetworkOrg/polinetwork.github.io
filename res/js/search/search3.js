@@ -147,16 +147,16 @@ function genHtml(data){
 
 				if (data.tipo!="C")
 				{
-					d = d + `${(data.office?`&nbsp[${data.office}]`:``)}`;
-					d = d +`&nbsp`;
+					d += `${(data.office?`&nbsp[${data.office}]`:``)}`;
+					d += `&nbsp`;
 				}
-				d = d + `${escapeHtml(data.class)}&nbsp`;
+				d += `${escapeHtml(data.class)}&nbsp`;
 
 				if (data.language)
 				{
-					d = d + `<img style="width:18px;" src="/img/${data.language}.png" />`;
+					d += `<img style="width:18px;" src="/img/${data.language}.png" />`;
 				}
-				d = d + `</a></div></div>`;
+				d += `</a></div></div>`;
 
 	return d;
 
