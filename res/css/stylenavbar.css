@@ -491,7 +491,7 @@ body,html{
     hyphens: auto;
     text-align: left;
     transition:.3s;
-    margin:0
+    margin:0;
     overflow-x: hidden;
     font-weight: 60 !Important;
 }
