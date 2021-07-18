@@ -4,7 +4,7 @@ Questa guida è stata redatta dagli admin di Ingegneria Informatica del PoliNetw
 Cliccate sul nome del corso per aprirne la pagina e leggere il programma dettagliato.
 
 ###BIOINFORMATICS ALGORITHMS
-TELEGRAM https://t.me/joinchat/SYH2bcCemecUZiZA
+TELEGRAM https://t.me/joinchat/4rBQHamFbWRkYmM0
 MANIFEST https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=744529&polij_device_category=DESKTOP&__pj0=0&__pj1=9e3441292d61f42e8f252763f3c37183
 A primo impatto il nome potrebbe trarre in inganno, infatti molti credono che questo corso
 tratti prevalentemente argomenti di biologia e che quindi siano richieste conoscenze
@@ -134,7 +134,7 @@ utilizzate sono abbastanza datate offre un'ottima base per capire quelle più mo
 Fraternali è un ottimo professore.
 
 ###SOFTWARE DEFINED NETWORKING
-TELEGRAM https://t.me/joinchat/QhbEaLmNUETzNdfr
+TELEGRAM https://t.me/joinchat/dTa-Xd2SJSxhNTlk
 MANIFEST https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=691339&polij_device_category=DESKTOP&__pj0=0&__pj1=b32d9a733d99f06fae7d08905ec155d5
 Indubbiamente è un corso pensato maggiormente per i telecom, ma super fattibile per
 chiunque abbia rudimenti di internet e reti (esame che tutti noi abbiamo fatto al primo
@@ -155,7 +155,7 @@ esercizi (a meno di qualche variazione) sono sempre gli stessi e una volta capit
 meccanismo si fanno con tranquillità. Quindi lo consiglio.
 
 ###AUTOMAZIONE INDUSTRIALE
-TELEGRAM https://t.me/joinchat/Ri248OkMNyWNsYSW
+TELEGRAM https://t.me/joinchat/qR849YHhdN5lMzZk
 MANIFEST https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=617878&polij_device_category=DESKTOP&__pj0=0&__pj1=586e63f78dd1f0ce7a02946955f35892
 La materia è abbastanza interessante, in particolare la seconda parte del corso. La prima è
 molto meccanica e può invece risultare noiosa. Il professore è chiaro e l’esercitatore molto
@@ -193,7 +193,7 @@ esame troppo complesso per i cfu che offre ma senza perdere lo stimolo allo stud
 dal poco interesse.
 
 ###KNOWLEDGE ENGINEERING
-TELEGRAM https://t.me/joinchat/UngPvH-7huj-jin4
+TELEGRAM https://t.me/joinchat/N-MYWm98M543OGJk
 MANIFEST https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=667271&polij_device_category=DESKTOP&__pj0=0&__pj1=1467dab57c0890853f6b321e760cd297
 Il corso è interessante, l'esame non è difficilissimo, purtroppo zero coordinazione tra i due
 insegnanti che gestiscono le due metà del corso, e mentre il professore principale era
@@ -215,7 +215,7 @@ techniques. I say this because the preparation and experience of Prof. Colombett
 amazing and it's definitely something worth experiencing.
 
 ###ROBOTICS
-TELEGRAM https://t.me/joinchat/U1x6USuzBdbdGgUW
+TELEGRAM https://t.me/joinchat/5yKcpi1_ip8xODhk
 MANIFEST https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=667653&polij_device_category=DESKTOP&__pj0=0&__pj1=a1b3fb0de8d506ddc89e80beb9d5228d
 Corso molto interessante, forse più di quanto appare dalla sua presentazione sul piano
 studi. Ho avuto l'impressione che tanta gente lo scarti a priori pensando che si tratti di un
@@ -277,7 +277,7 @@ La mia opinione è complessivamente positiva, sia per quanto riguarda gli argome
 modo in cui sono stati spiegati, che il taglio generale del corso.
 
 ###SICUREZZA DELLE RETI
-TELEGRAM https://t.me/joinchat/WN46PhUFZ4CxSiB2
+TELEGRAM https://t.me/joinchat/rQE1tluBZzgxMDE0
 MANIFEST https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=712674&polij_device_category=DESKTOP&__pj0=0&__pj1=d3ed0e0e341de91a0c53fbe462fca676
 Il nome del corso è magari leggermente fuorviante, il contenuto è teoria dei numeri e
 protocolli di comunicazione sicura. Il professore è simpatico e spiega bene, il corso
@@ -338,7 +338,7 @@ sono molto completi e chiari. Inoltre, se c'è la possibilità, consiglio di seg
 risultano molto interessanti.
 
 ###PROGETTO DI INGEGNERIA INFORMATICA
-TELEGRAM https://t.me/joinchat/LclXl027QDEBUo1m_fSghA
+TELEGRAM https://t.me/joinchat/eral-aNKaCI0Mjhk
 MANIFEST https://pii.dei.polimi.it/
 In generale le valutazioni sono molto alte e il lavoro assegnato rientra ampiamente nei 5
 CFU. Consigliato per chi abbia voglia di fare qualcosa di più pratico come corso.
@@ -413,7 +413,7 @@ interessante perché e' possibile svolgere qualcosa di molto pratico in confront
 corsi, c'e' molta possibilità di scelta ed e' possibile ambire a voti alti
 
 ###TIROCINIO
-TELEGRAM https://t.me/joinchat/LclXl0_WuZnSsECAPP-Ihw
+TELEGRAM https://t.me/joinchat/aK-LU6MQxeplMDg0
 Esperienza che va fatta obbligatoriamente se pensate dopo la triennale di lavorare o di proseguire i vostri percorsi di studio all'estero, ma è molto consigliabile anche in caso rimaniate al Politecnico a mio parere. Fare un tirocinio significa imparare cosa vuol dire far parte di un'azienda, ragionare sui problemi, portare a termine gli obiettivi e rispettare le scadenze che ti danno i tuoi superiori. È un'anticipazione di quello che sarà la tua vita futura, dunque vale la pena di fare questa esperienza il prima possibile per poter capire davvero cosa significa lavorare in ambito informatico. È anche molto utile perché sviluppa un grande senso di responsabilità riguardo agli impegni lavorativi e migliora la tua capacità di lavorare in gruppo e di comunicare con gli altri membri dell'azienda. Bisogna anche avere coscienza nella scelta dell'azienda dove fare il tirocinio: fare tanti colloqui con le numerose aziende che il careeer service mette a disposizione e valutare la più adatta a voi sia rispetto ai tuoi interessi che rispetto alla professionalità che essi ti mostrano. Non scegliere un'azienda a caso ma rifletti con coscienza, perché quando inizierai il tirocinio dovrai dedicarti appieno ad esso quindi dovrai essere convinto di voler lavorare proprio in quella determinata azienda.
 
 Il tirocinio in un'azienda è perfetto per chi vuole mettere in pratica cose già imparate durante gli anni del Poli e arricchirsi con altre che vengono apprese direttamente "sul campo" grazie alle guide del proprio tutor. Oltre a ciò, è una grande opportunità per chi vuole avviarsi al lavoro, infatti l'azienda dove si esegue il tirocinio alla fine di esso può darti la possibilità di proseguirlo indipendentemente dal Politecnico e/o assumerti.<br>
