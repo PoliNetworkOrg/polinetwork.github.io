@@ -15,12 +15,60 @@ title {
     padding: 0px 0px 20px 0px;
 }
 
+.courseExpandable {
+  cursor: pointer;
+  outline: none;
+}
+
+.collapsible:hover{
+  /* muovi un pò*/
+}
+
+.active i{
+  transform: rotate(180deg);
+}
+
+.collapsible i:hover{
+  cursor: pointer;
+}
+
+.collapsible i {
+  padding: 3px;
+  transition: all 0.4s ease;
+  font-size: 1.3em;
+  margin-left: 10px;
+}
+
+.containerFA{
+  justify-content: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  align-items: center;
+  display: flex;
+  transition: all 0.4s ease;
+}
+
+.collapsible{
+  display: flex;
+}
+
+.active:after {
+}
+
+.content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
 .accent {
     color: #BB86FC;
 }
 
 .subtitle {
     font-size: 1.1em;
+    margin-bottom: 20px
 }
 
 .wrapper {
@@ -31,15 +79,20 @@ title {
     padding: 20px 20px;
 }
 
+.course h3:hover{
+  cursor: pointer;
+}
+
 .course h3 {
     color: #03DAC5;
     font-size: 1.8em;
     text-align: left;
-    margin-bottom: 0.5em;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .course {
-    margin-top: 32px;
 }
 
 .comment {
