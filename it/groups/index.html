@@ -26,7 +26,7 @@ title: Gruppi
                   <form>
                     <input type="radio" name="year" value="all" checked='checked'>
                     <label for="choice-yes">Tutti</label>
-                    <input type="radio" name="year" value="22">
+                    <input type="radio" name="year" value="21">
                     <label for="choice-yes">2021/2022</label>
                     <input type="radio" name="year" value="20">
                     <label for="choice-yes">2020/2019</label>
@@ -43,11 +43,11 @@ title: Gruppi
                   <form>
                     <input type="radio" name="degree" value="all" checked='checked'>
                     <label for="choice-yes">Tutte</label>
-                    <input type="radio" name="degree" value="Bachelor">
+                    <input type="radio" name="degree" value="bachelor">
                     <label for="choice-yes">Triennale</label>
-                    <input type="radio" name="degree" value="Master">
+                    <input type="radio" name="degree" value="master">
                     <label for="choice-no">Magistrale</label>
-                    <input type="radio" name="degree" value="SingleC">
+                    <input type="radio" name="degree" value="singleC">
                     <label for="choice-no">Ciclo unico</label>
                   </form>
                 </div>
@@ -100,27 +100,96 @@ title: Gruppi
     <script>
 
         const params = document.querySelectorAll('input[type="radio"]');
-        let queryOverheadYear = '';
-        let queryOverheadDegree = '';
-        let queryOverheadGroup = '';
-        let queryOverheadPlatform = '';
-        let queryOverheadLanguage = '';
         for (i = 0; i < params.length; i++) {
           params[i].addEventListener("click", function() { updateSearch(this)})
         };
 
         function updateSearch(param) {
-          alert(param.value + " : " + param.name)
-          if(param.name = "language"){
-            if(param.value = "ita")
-              queryOverheadLanguage = ', "language":"ITA"';
-            else if(param.value = "eng")
-              queryOverheadLanguage = ', "language":"ENG"';
-            else
-              queryOverheadLanguage = '';
-          }
-          alert(queryOverheadLanguage)
+          switch(param.name){
+            case "year":
+              switch(param.value){
+                case "21":
+                  queryOverheadYear=", year: '2021/2022' ";
+                break;
+                case "20":
+                  queryOverheadYear=", year: '2020/2021' ";
+                break;
+                case "19":
+                  queryOverheadYear=", year: '2019/2020' ";
+                break;
+                case "18":
+                  queryOverheadYear=", year: '2018/2019' ";
+                break;
+                default:
+                  queryOverheadYear=""
+              }
+            break;
+            case "degree":
+              switch(param.value){
+                case "bachelor":
+                  queryOverheadDegree=", degree: 'LT' ";
+                break;
+                case "master":
+                  queryOverheadDegree=", degree: 'LM' ";
+                break;
+                case "singleC":
+                  queryOverheadDegree=", degree: 'LU' ";
+                break;
+                default:
+                  queryOverheadDegree="";
+              }
+            break;
+            case "group":
+              switch(param.value){
+                case "school":
+                  queryOverheadGroup=", type: 'S' ";
+                break;
+                case "course":
+                  queryOverheadDegree=", type: 'C' ";
+                break;
+                case "extra":
+                  queryOverheadDegree=", type: 'E' ";
+                break;
+                default:
+                  queryOverheadDegree="";
+              }
+            break;
+            case "platform":
+              switch(param.value){
+                case "whatsapp":
+                  queryOverheadPlatform=", platform: 'WA' ";
+                break;
+                case "facebook":
+                  queryOverheadPlatform=", platform: 'FB' ";
+                break;
+                case "telegram":
+                  queryOverheadPlatform=", platform: 'TG' ";
+                break;
+                default:
+                  queryOverheadPlatform="";
+              }
+            break;
+          case "language":
+            switch(param.value){
+              case "ita":
+                queryOverheadLanguage = ", language: 'ITA' ";
+              break;
+              case "eng":
+                queryOverheadLanguage = ", language: 'ENG' ";
+              break;
+              default:
+                queryOverheadLanguage="";
+            }
+            break;
+          default:
+            queryOverheadYear = '';
+            queryOverheadDegree = '';
+            queryOverheadGroup = '';
+            queryOverheadPlatform = '';
+            queryOverheadLanguage = '';
         }
+          alert("year: " + queryOverheadYear + "- Platform: " + queryOverheadPlatform +"- Degree :" + queryOverheadDegree + "- Language:" + queryOverheadLanguage + "- Group:" + queryOverheadGroup);
+      }
 
 
     </script>
