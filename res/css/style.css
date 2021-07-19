@@ -447,27 +447,6 @@ input, select {
     font-size: 1em;
 }
 
-input[type=search], select {
-    width: 100%;
-    padding: 16px 20px;
-    border: none;
-    border-radius: 4px;
-    background-color: #cce5e9;
-}
-
-input[type=radio] {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-    height: 0;
-    width: 0;
-}
-
-.card[checked=true], .card[checked=true]:hover {
-    background-color: rgb(0, 127, 177);
-    color: white;
-}
-
 .flexgroup {
     display: flex;
     flex-wrap: wrap;
