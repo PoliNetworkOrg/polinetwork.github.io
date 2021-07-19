@@ -9,6 +9,12 @@ var entityMap = {
     '=': '&#x3D;'
 };
 
+let queryOverheadYear = '';
+let queryOverheadDegree = '';
+let queryOverheadGroup = '';
+let queryOverheadPlatform = '';
+let queryOverheadLanguage = '';
+
 function escapeHtml(string) {
     return String(string).replace(/[&<>"'`=\/]/g, s => entityMap[s]);
 }
@@ -91,7 +97,9 @@ document.addEventListener('DOMContentLoaded', _ => {
         const result_div = document.getElementById("searchResultsID");
 
         el.addEventListener('keyup', _ => {
-            Search.search({ class: el.value}, 20)
+          alert(el.value + queryOverheadYear + queryOverheadDegree + queryOverheadGroup + queryOverheadPlatform + queryOverheadLanguage);
+          //alert({class: el.value + queryOverheadYear + queryOverheadDegree + queryOverheadGroup + queryOverheadPlatform + queryOverheadLanguage});
+            Search.search({ class: el.value + queryOverheadYear + queryOverheadDegree + queryOverheadGroup + queryOverheadPlatform + queryOverheadLanguage } , 20)
                 .then(data => {
                     if (data.length == 0) {
                         result_div.innerHTML = '<div class=\"result\"><div class="resultContainer"><a class="noResults" href="\https://t.me/PoliGruppo">There are no suggestions for your query. <i>Try asking here</i></a></div></div>';
