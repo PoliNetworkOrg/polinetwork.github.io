@@ -25,7 +25,6 @@ const mapping = {
         "IT": "it_flag",
         "ENG": "en_flag",
         "EN": "en_flag",
-        "__default__": ""
     },
     platform: {
         "TG": {
@@ -42,23 +41,16 @@ const mapping = {
             "link_pre": "https://chat.whatsapp.com/",
             "link_post": "",
             "img": "wa"
-        },
-        "__default__": {
-            "link_pre": "",
-            "link_post": "",
-            "img": ""
         }
     }
 }
 
 function applyMapping(item) {
     for (key in mapping) {
-        if (item[key] && ( item[key] ==="TG" || item[key] ==="FB" || item[key] ==="TG") || item[key] ==="__default__" ) {
+        //if (item[key] && ( item[key] ==="TG" || item[key] ==="FB" || item[key] ==="TG") || item[key] ==="__default__" ) {
+        if (item[key]){
             if (mapping[key][item[key]] !== undefined) {
                 item[key] = mapping[key][item[key]];
-            }
-            else {
-                item[key] = mapping[key]["__default__"];
             }
         }
     }
