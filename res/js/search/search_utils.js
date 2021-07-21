@@ -53,7 +53,7 @@ const mapping = {
 
 function applyMapping(item) {
     for (key in mapping) {
-        if (item[key]) {
+        if (item[key] && ( item[key] ==="TG" || item[key] ==="FB" || item[key] ==="TG") || item[key] ==="__default__" ) {
             if (mapping[key][item[key]] !== undefined) {
                 item[key] = mapping[key][item[key]];
             }
@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', _ => {
         const result_div = document.getElementById("searchResultsID");
 
         el.addEventListener('keyup', _ => {
-          alert(el.value + queryOverheadYear + queryOverheadDegree + queryOverheadGroup + queryOverheadPlatform + queryOverheadLanguage);
+          //alert(el.value + queryOverheadYear + queryOverheadDegree + queryOverheadGroup + queryOverheadPlatform + queryOverheadLanguage);
           //alert({class: el.value + queryOverheadYear + queryOverheadDegree + queryOverheadGroup + queryOverheadPlatform + queryOverheadLanguage});
             Search.search({ class: el.value + queryOverheadYear + queryOverheadDegree + queryOverheadGroup + queryOverheadPlatform + queryOverheadLanguage } , 20)
                 .then(data => {
