@@ -100,6 +100,52 @@
 
 /* search  */
 
+.buttonGrid span{
+  padding-top: 10px;
+}
+
+.buttonGrid{
+  grid-template-columns: 1fr 5fr;
+  width 100%;
+  display: grid;
+  padding-top: 10px;
+}
+
+.buttonGrid form{
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  display: grid;
+  padding-top: 10px;
+}
+
+.buttonGrid input{
+  width: 13.2px;
+}
+
+.searchTypeDivider{
+    margin-bottom: 0;
+    padding-left: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .buttonGrid form{
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    padding-top: 10px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .buttonGrid form{
+    grid-template-columns: 1fr;
+    display: grid;
+    padding-top: 10px;
+  }
+  .buttonGrid{
+    grid-template-columns: 1fr 1fr;
+    width 100%;
+    display: grid;
+    padding-top: 10px;
+  }
+}
 /* ASSOC */
 
 .assocFooter {
