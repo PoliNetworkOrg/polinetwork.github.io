@@ -280,7 +280,7 @@
                     const result_div = document.getElementById("searchResultsID");
 
                     el.addEventListener('keyup', _ => {
-                        Search.search({ class: el.value, platform: 'TG'}, 20)    // se tutto va bene ora dovrebbe filtrare solo il 2021
+                        Search.search({ class: el.value}, 20)    // se tutto va bene ora dovrebbe filtrare solo il 2021
                             .then(data => {
                                 console.log(data);
                                 if (data.length == 0) {
@@ -296,6 +296,7 @@
                                 activateResultsDiv();
                             })
                             .catch(e => {
+                                alert(e);
                                 el.setAttribute('disable', true);
                                 el.setAttribute('placeholder', 'Search Broke Down :(');
                                 console.error(e);

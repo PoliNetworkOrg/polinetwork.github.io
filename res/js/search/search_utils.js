@@ -25,6 +25,7 @@ const mapping = {
         "IT": "it_flag",
         "ENG": "en_flag",
         "EN": "en_flag",
+        "ITA-ENG": "en_flag",
     },
     platform: {
         "TG": {
@@ -81,6 +82,25 @@ function genHtml(data) {
 
 }
 
+function searchParamMapper(query) {
+    let toReturnQuery = {class: query};
+    if(queryOverheadYear !== ''){
+        toReturnQuery.year = queryOverheadYear;
+    }
+    if(queryOverheadDegree !== ''){
+        toReturnQuery.degree = queryOverheadDegree;
+    }
+    if(queryOverheadGroup !== ''){
+        toReturnQuery.type = queryOverheadGroup;
+    }
+    if(queryOverheadPlatform !== ''){
+        toReturnQuery.platform = queryOverheadPlatform;
+    }
+    if(queryOverheadLanguage !== ''){
+        toReturnQuery.language = queryOverheadLanguage;
+    }
+    return toReturnQuery
+}
 
 document.addEventListener('DOMContentLoaded', _ => {
     Search.init();
@@ -91,9 +111,10 @@ document.addEventListener('DOMContentLoaded', _ => {
         el.addEventListener('keyup', _ => {
           //alert(el.value + queryOverheadYear + queryOverheadDegree + queryOverheadGroup + queryOverheadPlatform + queryOverheadLanguage);
           //alert({class: el.value + queryOverheadYear + queryOverheadDegree + queryOverheadGroup + queryOverheadPlatform + queryOverheadLanguage});
-            Search.search({ class: el.value + queryOverheadYear + queryOverheadDegree + queryOverheadGroup + queryOverheadPlatform + queryOverheadLanguage } , 20)
+            //Search.search({ class: el.value + queryOverheadYear + queryOverheadDegree + queryOverheadGroup + queryOverheadPlatform + queryOverheadLanguage } , 20)
+            Search.search(searchParamMapper(el.value) , 20)
                 .then(data => {
-                    if (data.length == 0) {
+                    if (data.length === 0) {
                         result_div.innerHTML = '<div class=\"result\"><div class="resultContainer"><a class="noResults" href="\https://t.me/PoliGruppo">There are no suggestions for your query. <i>Try asking here</i></a></div></div>';
                     }
                     else {
@@ -106,8 +127,6 @@ document.addEventListener('DOMContentLoaded', _ => {
                     activateResultsDiv();
                 })
                 .catch(e => {
-                    el.setAttribute('disable', true);
-                    el.setAttribute('placeholder', 'Search Broke Down :(');
                     console.error(e);
                 });
         })
