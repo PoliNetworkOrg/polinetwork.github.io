@@ -3,8 +3,8 @@ layout: default
 ---
 <div class="wrapper projectsPadding">
   <div class="card white">
-    <h1>Trova il tuo gruppo!</h1>
-    <h3>Nome</h3>
+    <h1>{{ page.Ltitle }}</h1>
+    <h3> {{ page.Lname }}</h3>
     <div class="input-group rounded">
       <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" id="searchBarID"
              aria-describedby="search-addon" class="searchBox" />
@@ -14,12 +14,12 @@ layout: default
     </div>
     <div class="paramsGrid">
       <div class="buttonGrid">
-        <span>Anno di ingresso:</span>
+        <span> {{ page.Lyear }}: </span>
         <div>
           <form>
             <div class="selectionGroup">
               <input type="radio" name="year" value="all" checked='checked'>
-              <label>Tutti</label>
+              <label> {{ page.LAllyear }} </label>
             </div>
             <div class="selectionGroup">
               <input type="radio" name="year" value="21">
@@ -41,43 +41,43 @@ layout: default
         </div>
       </div>
       <div class="buttonGrid">
-        <span>Tipo di laurea:</span>
+        <span> {{ page.LDeg }}: </span>
         <div>
           <form>
             <div class="selectionGroup">
               <input type="radio" name="degree" value="all" checked='checked'>
-              <label>Tutte</label>
+              <label> {{ page.LAllDeg }} </label>
             </div>
             <div class="selectionGroup">
               <input type="radio" name="degree" value="bachelor">
-              <label>Triennale</label>
+              <label> {{ page.LBach }} </label>
             </div>
             <div class="selectionGroup">
               <input type="radio" name="degree" value="master">
-              <label>Magistrale</label>
+              <label> {{ page.LMag }} </label>
             </div>
             <div class="selectionGroup">
               <input type="radio" name="degree" value="singleC">
-              <label>Ciclo unico</label>
+              <label> {{ page.LSC }} </label>
             </div>
           </form>
         </div>
       </div>
       <div class="buttonGrid">
-        <span>Tipo di gruppo:</span>
+        <span> {{ page.LType }}: </span>
         <div>
           <form>
             <div class="selectionGroup">
             <input type="radio" name="group" value="all" checked='checked'>
-            <label>Tutti</label>
+            <label>{{ page.LType }}</label>
             </div>
             <div class="selectionGroup">
             <input type="radio" name="group" value="school">
-            <label>Scuola</label>
+            <label>{{ page.LSc }}</label>
             </div>
             <div class="selectionGroup">
             <input type="radio" name="group" value="course">
-            <label>Course (exam)</label>
+            <label>{{ page.LCourse }}</label>
             </div>
             <div class="selectionGroup">
             <input type="radio" name="group" value="extra">
@@ -87,12 +87,12 @@ layout: default
         </div>
       </div>
       <div class="buttonGrid">
-        <span>Piattaforma:</span>
+        <span>{{ page.LPlat }}:</span>
         <div>
           <form>
             <div class="selectionGroup">
             <input type="radio" name="platform" value="all" checked='checked'>
-            <label>Tutte</label>
+            <label>{{ page.LAllPlat }}</label>
             </div>
             <div class="selectionGroup">
             <input type="radio" name="platform" value="whatsapp">
@@ -110,12 +110,12 @@ layout: default
         </div>
       </div>
       <div class="buttonGrid">
-        <span>Lingua:</span>
+        <span>{{ page.LLanguage }}:</span>
         <div>
           <form>
             <div class="selectionGroup">
             <input type="radio" name="language" value="all" checked='checked'>
-            <label>Tutte</label>
+            <label>{{ page.LAllLang }}</label>
             </div>
             <div class="selectionGroup">
             <input type="radio" name="language" value="ita">
