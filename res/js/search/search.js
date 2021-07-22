@@ -1,15 +1,15 @@
+---
+---
 class Search {
-    static URL = '/groups.json';
+    static URL = '/data/search/groups18.json';
     static CHUNK = 50;
     static LIMIT = 10;
     static _data = null;
 
     static async init() {
-        let tmp = await fetch(Search.URL);
-        tmp = await tmp.json();
+        let tmp = await {{ site.data.groups | jsonify }};
         Search._data = tmp['index_data']
             .filter(item => item['linkfunzionante'] === 'Y');
-
         return true;
     }
 
