@@ -1,0 +1,9 @@
+{% for objectss in site.data.groups %}
+  {% for objects in objectss %}
+    {% for object in objects %}
+      {% if object.class == include.link and object.platform == include.platform and object.linkfunzionante == "Y" %}
+        https://t.me/joinchat/{{object.id_link}}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+{% endfor %}
