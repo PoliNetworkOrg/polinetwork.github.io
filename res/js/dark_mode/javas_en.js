@@ -14,13 +14,13 @@ const toggleSwitchb = document.querySelector('.theme-switchb input[type="checkbo
   function switchTheme(e) {
     if (e.target.checked) {
         document.documentElement.setAttribute('data-theme', 'dark');
-        document.getElementById("darkmode").innerHTML = "Disable Dark Mode"
-        document.getElementById("darkmode2").innerHTML = "Disable Dark Mode"
+        document.getElementById("darkmode").innerHTML = "Disable&nbspDark&nbspMode"
+        document.getElementById("darkmode2").innerHTML = "Disable&nbspDark&nbspMode"
     }
     else {
         document.documentElement.setAttribute('data-theme', 'light');
-        document.getElementById("darkmode").innerHTML = "Enable Dark Mode"
-        document.getElementById("darkmode2").innerHTML = "Enable Dark Mode"
+        document.getElementById("darkmode").innerHTML = "Enable&nbspDark&nbspMode"
+        document.getElementById("darkmode2").innerHTML = "Enable&nbspDark&nbspMode"
     }
   }
 
