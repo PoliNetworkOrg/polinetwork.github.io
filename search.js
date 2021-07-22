@@ -5,10 +5,6 @@ class Search {
     static _data = null;
 
     static async init() {
-        if (Search._data !== null) {
-            return true;
-        }
-
         let tmp = await fetch(Search.URL);
         tmp = await tmp.json();
         Search._data = tmp['index_data']
@@ -18,13 +14,7 @@ class Search {
     }
 
     static async search(query, limit) {
-        if (limit === undefined) {
-            limit = this.LIMIT;
-        }
-
-        if (Search._data === null) {
-            await Search.init();
-        }
+        await Search.init();
 
         let i = 0;
         let toReturn = [];
@@ -45,6 +35,7 @@ class Search {
     }
 
     static _filter(query, data) {
+        Object.keys(query).map(key => console.log("key: " + key + " , data: " + data[key] + " , query: " + query[key]));
         return Object.keys(query)
             .map(key => data[key] === null || query[key] === null || (data[key].match(query[key]) !== null))
             .reduce((acc, item) => acc && item, true);

@@ -204,6 +204,11 @@
   display: block !important;
 }
 
+.searchResultsGeneralPage{
+    display: none;
+    transition-delay: .2s;
+}
+
 .searchResults{
   display: none;
   max-height: calc(100vh - 255px);
