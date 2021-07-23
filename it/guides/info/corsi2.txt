@@ -1,6 +1,8 @@
+---
+---
 Corsi II a.a.
 
-Questa guida è stata redatta dagli admin di Ingegneria Informatica del Polinetwork, raccogliendo opinioni di diversi studenti che hanno frequentato il corso. Ogni paragrafetto è un'opinione.
+Questa guida è stata redatta dagli admin di Ingegneria Informatica del PoliNetwork, raccogliendo opinioni di diversi studenti che hanno frequentato il corso. Ogni paragrafetto è un'opinione.
 Cliccate sul nome del corso per aprirne la pagina e leggere il programma dettagliato.
 Essendo, il secondo anno, in comune con Telecomunicazioni, è qui che,
 sulla base delle scelte tra i vari esami si decide quale percorso
@@ -50,7 +52,7 @@ La prof Barbera e' molto tranquilla, pur essendo stato l'anno scorso il suo prim
 L'esame e' facile, tipicamente la meta' delle domande  facili, alcune domande di media difficolta, e poche domande molto impegnative.
 
 ###Misure
-TELEGRAM https://t.me/joinchat/QhL-k0uUwZIxVoQf
+TELEGRAM https://t.me/joinchat/bNxkPWQRdzM2M2Fk
 MANIFEST https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=743827&polij_device_category=DESKTOP&__pj0=0&__pj1=aa02ffbdbc2d57f38b6d1994f9607964
 Nota: Docente cambiato
 
@@ -78,7 +80,7 @@ bianco o comunque fai ridere, ti boccia e ti fa fare il salto d'appello.
 Scelto principalmente come corso leggero alternativo a chimica. Tratta principalmente di teoria della misura e di strumenti di misurazione, quindi introduce alla statistica e all'elettronica. Gli argomenti sono belli se vi interessate un minimo di elettronica e volete saperne di più su voltmetri e multimetri, ma la parte sulla misurazione può risultare noiosa. Una cosa positiva del corso è che introduce argomenti che poi si ritrovano in probabilità e statistica, fondamenti di automatica ed elettronica (distribuzioni, campionamenti, DAC, ADC). Nota positivissima sono gli esami: sono praticamente tutti uguali e ci sono tante tracce degli anni passati disponibili.
 
 ###Onde elettromagnetiche e mezzi trasmissivi
-TELEGRAM https://t.me/joinchat/LclXl1D5zASzZXWEBzYEBA
+TELEGRAM https://t.me/joinchat/Ci_iteH-8DxiMmU8
 MANIFEST https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=743818&polij_device_category=DESKTOP&__pj0=0&__pj1=c4165f7c668d0063a0915f3724e44cbf
 Corso a mio parere interessante. Personalmente odio la parte di
 elettromagnetismo, ma in questo corso è ridotta davvero all’osso e
@@ -173,7 +175,7 @@ Ho seguito il corso con la professoressa Epifani, trovo che il corso sia molto i
 Riguardo all'esame posso dire che è onesto, non è cambiato da quando era in presenza, ed è 3/4 esercizi ed 1/4 teoria, non fatevi fuorviare comunque, questo esame non si passa facendo esercizi. Riguardo la conoscenza delle dimostrazioni, quelle richieste sono un numero relativamente piccolo e tutte abbastanza banali.
 La professoressa è chiara fintanto che lo studente è ben preparato sulla lezione prima, soprattutto quando inizia la seconda parte, in caso contrario saranno arabo.
 
-###Informazione e Stima (Per Ingegneria Informatica)
+###INFORMAZIONE E STIMA (PER INGEGNERIA INFORMATICA)
 TELEGRAM https://t.me/joinchat/S-wUNggKWFyTKfUE
 MANIFEST https://www4.ceda.polimi.it/manifesti/manifesti/controller/ManifestoPublic.do?EVN_DETTAGLIO_RIGA_MANIFESTO=evento&aa=2019&k_cf=225&k_corso_la=358&k_indir=IT1&codDescr=054304&lang=IT&semestre=2&anno_corso=2&idItemOfferta=141820&idRiga=240363
 Il corso di informazione e stima mi è piaciuto un sacco perchè tratta di argomenti interessanti, le lezioni sono ben strutturate e il professore (Barletta Luca) è veramente in gamba.

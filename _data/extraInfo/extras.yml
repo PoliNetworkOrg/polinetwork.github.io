@@ -106,6 +106,7 @@
   - Title: dsu
     items:
       - link: DSU (borse di studio e residenze)
+        platform: TG
         redirect: true
   - Title: games
     items:
@@ -183,7 +184,8 @@
         img: /img/tg.svg
   - Title: infosec
     items:
-      - link: https://t.me/joinchat/USeSRyfefoBFU4CZ
+      - link: InfoSec
+        platform: TG
         redirect: true
   - Title: jobs
     items:
