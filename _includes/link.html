@@ -1,16 +1,17 @@
-{% assign i = 0 %}
-{% for objectss in site.data.groups %}
-  {% for objects in objectss %}
-    {% for object in objects %}
-      {% assign linkStrip = include.link | strip %}
-      {% assign platformStrip = include.platform | strip %}
-      {% if object.class == linkStrip and object.platform == platformStrip and object.linkfunzionante == "Y" and i < 1 %}
-        {% assign i = i | plus:1 %}
-        https://t.me/joinchat/{{object.id_link}}
-      {% endif %}
-    {% endfor %}
-  {% endfor %}
-{% endfor %}
-{% if i == 0 %}
-  {{ include.link }}
+{%- assign i = 0 -%}
+{%- for objectss in site.data.groups -%}
+  {%- for objects in objectss -%}
+    {%- for object in objects -%}
+      {%- assign linkStrip = include.link | strip -%}
+      {%- assign platformStrip = include.platform | strip -%}
+      {%- if object.class == linkStrip and object.platform == platformStrip and object.linkfunzionante == "Y" and i < 1 -%}
+        {%- assign i = i | plus:1 -%}
+        {%- capture VARlink -%}https://t.me/joinchat/{{object.id_link}}{% endcapture %}
+        {{- VARlink | strip -}}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endfor -%}
+{%- endfor -%}
+{%- if i == 0 -%}
+  {{- include.link -}}
 {% endif %}
