@@ -1,6 +1,12 @@
 <div class="card project white horizontalcardswrapper prjectClickable">
-  {% if project.redirect == true %} <a href=" {{project.link}}"> {% endif %}
-  {% if project.redirect != true %} <a href=" {{project.url}}"> {% endif %}
+  {% if project.redirect == true %}
+    {% capture VARlink %} {{project.link}}  {% endcapture %}
+    {% capture VARplatform %} {{project.platform}} {% endcapture %}
+    <a href="{%include link.html link=VARlink platform=VARplatform %}">
+  {% endif %}
+  {% if project.redirect != true %}
+    <a href=" {{project.url}}">
+  {% endif %}
     <div class="image-container-projects">
       <img class="project-img" src="{{ project.Img }}">
     </div>

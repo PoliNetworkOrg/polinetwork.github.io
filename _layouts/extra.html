@@ -36,8 +36,10 @@ show_backToHome: true
         <div class="horizontalProjects section">
           {% for item in project.items %}
             {% if item.redirect == true %}
-                <meta http-equiv="refresh" content="0; url={{ page.link }}" />
-                <p><a href="{{ page.link }}" class="textSecondaryColor">Redirect</a></p>
+              {% capture VARlink %} {{page.link}}  {% endcapture %}
+              {% capture VARplatform %} {{page.platform}} {% endcapture %}
+              <meta http-equiv="refresh" content="0; url={%include link.html link=VARlink platform=VARplatform %}" />
+              <p><a href="{{ page.link }}" class="textSecondaryColor">Redirect</a></p>
             {% endif %}
             {% if item.redirect != true %}
               {% if item.lang == page.Lang %}
@@ -55,13 +57,17 @@ show_backToHome: true
                     {% if item.isLink != false %}
                       {% if item.multiple_buttons != true %}
                         <div class="expandable">
-                          <div class="card green clickable horizontalcardsbutton projectLink"><a href="{{ item.link }}" class="textAccentColor cardLink"> {{ item.title }} </a></div>
+                          {% capture VARlink %} {{item.link}}  {% endcapture %}
+                          {% capture VARplatform %} {{item.platform}} {% endcapture %}
+                          <div class="card green clickable horizontalcardsbutton projectLink"><a href="{%include link.html link=VARlink platform=VARplatform %}" class="textAccentColor cardLink"> {{ item.title }} </a></div>
                         </div>
                       {% endif %}
                       {% if item.multiple_buttons == true %}
                         <div class="expandable">
                         {% for button in item.buttons %}
-                          <div class="card green clickable horizontalcardsbutton projectLink"><a href="{{ button.link }}" class="textAccentColor cardLink"> {{ button.title }} </a></div>
+                          {% capture VARlink %} {{button.link}}  {% endcapture %}
+                          {% capture VARplatform %} buttonitem.platform}} {% endcapture %}
+                          <div class="card green clickable horizontalcardsbutton projectLink"><a href="{%include link.html link=VARlink platform=VARplatform %}" class="textAccentColor cardLink"> {{ button.title }} </a></div>
                         {% endfor %}
                         </div>
                       {% endif %}
