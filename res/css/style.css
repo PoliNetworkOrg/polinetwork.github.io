@@ -5,19 +5,26 @@
   grid-template-rows: 5fr 3fr;
   min-height: 250px;
 }
+
 .materiallogo{
   text-align: center;
   height: 50px;
   display: flex;
   font-size: 6.5em;
 }
+
 .materialsImage-container{
-  
   margin: auto;
 }
+
+.materiallogopergamena{
+  font-size: 6em;
+}
+
 .materialsIcon{
   margin: auto;
 }
+
 .materialsText{
   padding-bottom: 20px;
   font-size: 1.9em;

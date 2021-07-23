@@ -9,3 +9,4 @@ _site/
 .jekyll-metadata
 Gemfile.lock
 Gemfile.lock.*
+*Zone.Identifier
