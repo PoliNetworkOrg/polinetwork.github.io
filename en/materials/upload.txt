@@ -1,0 +1,23 @@
+Upload
+
+Questa guida è stata redatta dagli admin di Ingegneria Informatica del Polinetwork, raccogliendo opinioni di diversi studenti che hanno frequentato il corso. Ogni paragrafetto è un'opinione.
+Cliccate sul nome del corso per aprirne la pagina e leggere il programma dettagliato.
+Essendo, il secondo anno, in comune con Telecomunicazioni, è qui che,
+sulla base delle scelte tra i vari esami si decide quale percorso
+intraprendere tra i due. In particolare, nel primo semestre è presente, nel
+piano, un gruppo da 10CFU da comporre nel seguente modo a seconda
+del percorso scelto : <br>
+<span class="accent">Informatica:</span> LOGICA E ALGEBRA (5CFU) + (uno a scelta tra
+CHIMICA GENERALE, ONDE ELETTROMAGNETICHE E MEZZI
+TRASMISSIVI e MISURE) (5CFU)<br>
+<span class="accent">Telecomunicazioni:</span> ELETTROMAGNETISMO (10CFU)
+
+###Come caricare bla bla
+TELEGRAM https://t.me/PoliMaterial_bot
+MANIFEST https://gitlab.com/polinetwork/
+
+###Dove vanno i file bla bla
+
+###Copyright
+
+###Altro?
