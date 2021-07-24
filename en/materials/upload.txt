@@ -1,4 +1,4 @@
-Corsi II a.a.
+Upload
 
 Questa guida è stata redatta dagli admin di Ingegneria Informatica del Polinetwork, raccogliendo opinioni di diversi studenti che hanno frequentato il corso. Ogni paragrafetto è un'opinione.
 Cliccate sul nome del corso per aprirne la pagina e leggere il programma dettagliato.
@@ -12,39 +12,12 @@ CHIMICA GENERALE, ONDE ELETTROMAGNETICHE E MEZZI
 TRASMISSIVI e MISURE) (5CFU)<br>
 <span class="accent">Telecomunicazioni:</span> ELETTROMAGNETISMO (10CFU)
 
-###Chimica Generale
-TELEGRAM https://t.me/joinchat/FJ-QR09hqg4kc-iWFD4aKg
-MANIFEST https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=743816&polij_device_category=DESKTOP&__pj0=0&__pj1=68b6719d84b413a948a708d25a90bc93
-N.B. Questo corso permette di accedere alla magistrale in CS (al Polimi) senza dover svolgere Fisica Tecnica al secondo semestre del terzo anno, quindi è <b>caldamente </b>consigliato.
+###Come caricare bla bla
+TELEGRAM https://t.me/PoliMaterial_bot
+MANIFEST https://gitlab.com/polinetwork/
 
-È un esame che tratta tutti argomenti già visti in qualsiasi liceo
-scientifico, quindi, per chi venisse da questa scuola è ultra-
-consigliato. Per chi non venisse da questa scuola lo consiglio lo
-stesso in quanto, tra i tre corsi a scelta, è il giusto trade-off tra
-semplicità e utilità per il prosieguo del percorso. Essere a
-conoscenza di questi argomenti facilita la comprensione del
-funzionamento di alcuni componenti elettronici trattati nell'esame
-"fondamenti di elettronica", e aiuta tantissimo nello studio della
-materia "Fisica Tecnica" a scelta del terzo anno. Esame nel
-complesso standard (tra i tre a scelta il più semplice).
+###Dove vanno i file bla bla
 
-Corso a mio parere inutile per il percorso di studi e per di più
-gestito male male da una prof disorganizzata: lezioni super noiose
-con la prof che leggeva parola per parola le slides. Un aspetto
-positivo del corso e dell'esame è sicuramente la sua grande facilità,
-soprattutto per chi aveva già studiato al liceo la chimica di base, per
-cui è estremamente consigliato a chi vuole avere un ottimo risultato
-con pochissimo sforzo. È l'unico dei tre corsi a scelta con la
-possibilità di fare le prove in Itinere, quindi questo può essere un
-altro buon motivo per sceglierlo, ma a livello di interesse e utilità
-questo corso non è per nulla paragonabile agli altri corsi a scelta, in
-particolare ad onde.
+###Copyright
 
-Nel semestre in cui bisogna pensare ad Analisi Matematica 2 avere
-una materia che risulta troppo piena di intoppi, perlopiù inutili, non
-ha granché senso. Chimica è la scelta giusta per chi vuole
-semplificarsi la vita.
-
-Non decidete mai di scegliere il corso di chimica per cio che avete studiato al liceo: il programma fino al quarto liceo scientifico e'  <30% del programma totale dell'esame! Le lezioni non sono fondamentali dalla parte dei contenuti, capita che la prof spieghi letteralmente cio che e' scritto sulle slide. Per quanto riguarda il corso, riprende dalla base tutti i concetti fondamentali, aggiungendo alla parte 'iniziale' gia vista a scuola molti dettagli. Dopo alcune lezioni sulla funzione d'onda inizia la trattazione di gas reali, gas ideali, termodinamica chimica, equilibrio chimico ed elettrochimica.
-La prof Barbera e' molto tranquilla, pur essendo stato l'anno scorso il suo primo anno da docente, a parte ogni tanto tempi abissali per le correzioni.
-L'esame e' facile, tipicamente la meta' delle domande  facili, alcune domande di media difficolta, e poche domande molto impegnative.
+###Altro?
