@@ -4,6 +4,22 @@
   display: grid;
   grid-template-rows: 5fr 3fr;
   min-height: 250px;
+  border: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.materialtopCard:hover{
+  background-color: var(--tabbackground);
+  cursor: pointer;
+}
+
+.materialtopCard:hover .materialsText{
+  padding-top: 5px;
+}
+
+.materialtopCard:hover .materialsIcon{
+  padding-bottom: 10px;
 }
 
 .materiallogo{
@@ -23,13 +39,15 @@
 
 .materialsIcon{
   margin: auto;
+  color: var(--maintext);
 }
 
 .materialsText{
-  padding-bottom: 20px;
   font-size: 1.9em;
-  font-weight: lighter;
+  font-weight: 400;
   text-align: center;
+  transition: 0.3s;
+  padding-bottom: 20px;
 }
 
 /* BIG BUTTON */
