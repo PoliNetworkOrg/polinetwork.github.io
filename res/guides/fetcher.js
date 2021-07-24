@@ -15,14 +15,21 @@ any number of empty lines can go between different courses
 the symbol '###' is dedicated to course title, USING IT ELSEWERE BREAKS EVERYTHING (not really but you get the point)
 HTML can be embedded in the comments, yay! (please do not hackerino thks)
 */
-fetch(window.location.pathname.split('/').pop().split('.')[0] + '.txt')
+let filelocation = window.location.pathname;
+if(filelocation.slice(-1) == "/"){
+  window.location.href = "/" + filelocation.slice(1,-1) + ".html";
+}
+fetch(filelocation.split('/').pop().split('.')[0] + '.txt')
 .then(res => res.text())
 .then(data => {
     lines = data.split('\n')
     lines = lines.map(line => line.replace('\r', ''))
     l = lines.length
     path = window.location.pathname.split('/');
-    doc = '<body><div class="wrapper"><h2>.<span class="accent">/</span><a class="" href="/">Polinetwork</a><span class="accent">/</span><a class="" href="../">Guides</a><span class="accent">/</span><a class="" href="./">' + capitalizeFirstLetter(path[3]) + '</a><span class="accent">/</span></h2><div class="title"><h1>'
+    if(path.length > 4)
+      doc = '<body><div class="wrapper"><h2>.<span class="accent">/</span><a class="" href="/">Polinetwork</a><span class="accent">/</span><a class="" href="../">' + capitalizeFirstLetter(path[2]) + '</a><span class="accent">/</span><a class="" href="./">' + capitalizeFirstLetter(path[3]) + '</a><span class="accent">/</span></h2><div class="title"><h1>'
+    if(path.length > 3)
+      doc = '<body><div class="wrapper"><h2>.<span class="accent">/</span><a class="" href="/">Polinetwork</a><span class="accent">/</span><a class="" href="../">' + capitalizeFirstLetter(path[2]) + '</a><span class="accent">/</span></h2><div class="title"><h1>'
     document.title = lines[0]
     doc += lines[0]
     doc += '</h1></div>'
@@ -62,8 +69,16 @@ fetch(window.location.pathname.split('/').pop().split('.')[0] + '.txt')
             doc += '</div>'
         } // end of course
     } // end of courseS
-    doc += '<div class="footer">Un\'iniziativa Polinetwork. Trova altro su <span class="accent"><a href="https://polinetwork.github.io">polinetwork.github.io</a></span>'
-    doc += '<br>Per commenti o suggerimenti contatta @EliaMaggioni o @LuigiFusco su Telegram</div>'
+    let oppositeLangPath = window.location.pathname.split('/').slice(2,window.location.pathname.length).join("/");
+    if (window.location.pathname.split('/')[1] == "it"){
+      doc += '<div class="footer">Un\'iniziativa Polinetwork. Trova altro su <span class="accent"><a href="https://polinetwork.github.io">polinetwork.github.io</a></span>'
+      doc += '<br>Per commenti o suggerimenti contatta <a href="https://t.me/eliamaggioni" class="accent">@EliaMaggioni</a> o <a href="https://t.me/LuigiFusco" class="accent">@LuigiFusco</a> su Telegram</div>'
+      doc += '<div"><span class="accent"><a href="/en/' + oppositeLangPath + '">Switch to EN</a></span></div>'
+    } else {
+      doc += '<div class="footer">A Polinetwork initiative. Find more at <span class="accent"><a href="https://polinetwork.github.io">polinetwork.github.io</a></span>'
+      doc += '<br>For comments or suggestions contact <a href="https://t.me/eliamaggioni" class="accent">@EliaMaggioni</a> or <a href="https://t.me/LuigiFusco" class="accent">@LuigiFusco</a> on Telegram</div>'
+      doc += '<div"><span class="accent"><a href="/it/' + oppositeLangPath + '">Switch to IT</a></span></div>'
+    }
     document.body.innerHTML = doc
 
     // buttons to expand sections
