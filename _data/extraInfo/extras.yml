@@ -93,11 +93,34 @@
         img: /img/ig.svg
   - Title: animemanga
     items:
-      - link: https://t.me/joinchat/AFY9TUesBa6BVmXHaXf3wQ
-        redirect: true
+      - title: Gruppo Anime & Manga
+        lang: it
+        desc:
+        link: Poli Anime & Manga
+        platform: TG
+        img: /img/tg.svg
+      - title: Anime & Manga group
+        lang: en
+        desc:
+        link: Poli Anime & Manga
+        platform: TG
+        img: /img/tg.svg
+      - title: Gruppo Anime & Manga NSFW
+        lang: it
+        desc:
+        link: Poli Anime & Manga NSFW 🙈
+        platform: TG
+        img: /img/tg.svg
+      - title: Anime & Manga NSFW group
+        lang: en
+        desc:
+        link: Poli Anime & Manga NSFW 🙈
+        platform: TG
+        img: /img/tg.svg
   - Title: crypto
     items:
-      - link: https://t.me/joinchat/LclXl064WZlBLKdB5i3t3g
+      - link: PoliNetwork Criptovalute
+        platform: TG
         redirect: true
   - Title: discord
     items:
@@ -123,22 +146,26 @@
       - title: League of Legends
         lang: it
         desc: Per gli appassionati di uno dei giochi MOBA più famosi al mondo
-        link: https://t.me/joinchat/AFY9TVNSPdqo74GzwCSkQQ
+        link: League of Legends Polimi
+        platform: TG
         img: /img/7.jpg
       - title: League of Legends
         lang: en
-        desc: For fans of this worldfamous MOBA game"
-        link: https://t.me/joinchat/AFY9TVNSPdqo74GzwCSkQQ
+        desc: For fans of this worldfamous MOBA game
+        link: League of Legends Polimi
+        platform: TG
         img: /img/7.jpg
       - title: Overwatch
         lang: it
         desc: Gruppo per giocatori di Overwatch
-        link: https://t.me/joinchat/Cu8I5kiLbFGzXOE8-biRVg
+        link: Overwatch
+        platform: TG
         img: /img/20.jpg
       - title: Overwatch
         lang: en
         desc: Group for Overwatch players
-        link: https://t.me/joinchat/Cu8I5kiLbFGzXOE8-biRVg
+        link: Overwatch
+        platform: TG
         img: /img/20.jpg
       - title: Discord
         lang: it
@@ -175,12 +202,14 @@
       - title: Telegram
         lang: it
         desc:
-        link: https://t.me/joinchat/_mrgZ9gRmKA0NjU0
+        link: Case Alloggi PoliNetwork 🏠
+        platform: TG
         img: /img/tg.svg
       - title: Telegram
         lang: en
         desc:
-        link: https://t.me/joinchat/_mrgZ9gRmKA0NjU0
+        link: Case Alloggi PoliNetwork 🏠
+        platform: TG
         img: /img/tg.svg
   - Title: infosec
     items:
@@ -189,7 +218,8 @@
         redirect: true
   - Title: jobs
     items:
-      - link: https://t.me/polioffertelavoro/6
+      - link: Poli Jobs - Offerte Lavoro PoliNetwork
+        platform: TG
         redirect: true
   - Title: mobility
     items:
@@ -206,16 +236,19 @@
       - title: Telegram
         lang: it
         desc:
-        link: https://t.me/joinchat/LclXl0cnLiUTPS8qwv_CaQ
+        link: Mobilità internazione per lo studio Polimi
+        platform: TG
         img: /img/tg.svg
       - title: Telegram
         lang: en
         desc:
-        link: https://t.me/joinchat/LclXl0cnLiUTPS8qwv_CaQ
+        link: Mobilità internazione per lo studio Polimi
+        platform: TG
         img: /img/tg.svg
   - Title: music
     items:
-      - link: https://t.me/joinchat/AFY9TVMxQSzPqauDuy0zKA
+      - link: Musica - PoliNetwork
+        platform: TG
         redirect: true
   - Title: news
     items:
@@ -226,12 +259,14 @@
       - title: PoliCazzeggio Moderato
         lang: it
         desc: Questo, dei gruppi di discussione, è quello con più regole
-        link: https://t.me/joinchat/AFY9TUPnRFGLz_KL96fQvQ
+        link: 「 PoliCazzeggio 」
+        platform: TG
         img: /img/tg.svg
       - title: PoliCazzeggio "Moderato"
         lang: en
         desc: This, of discussion groups, is the one with the most rules
-        link: https://t.me/joinchat/AFY9TUPnRFGLz_KL96fQvQ
+        link: 「 PoliCazzeggio 」
+        platform: TG
         img: /img/tg.svg
       - title: PoliCazzeggio Spinto
         lang: it
@@ -245,19 +280,22 @@
         img: /img/tg.svg
   - Title: pc
     items:
-      - link: https://t.me/joinchat/LclXl02QS1Fsvp2SmfR00A
+      - link: Consigli per acquisto PC - PoliNetwork
+        platform: TG
         redirect: true
   - Title: photosvideos
     items:
-      - link: https://t.me/joinchat/LclXl0-TvnFo4p3p506lXA
+      - link: Fotografia & Videomaking [Polimi]
+        platform: TG
         redirect: true
   - Title: polibook
     items:
-      - link: https://t.me/PoliBook
+      - link: Poli Book
+        platform: TG
         redirect: true
   - Title: politics
     items:
-      - link: https://t.me/joinchat/LclXl03xe3AeEwBj1iuWVg
+      - link: https://t.me/joinchat/TfF7cFNPAnTPFRp3
         redirect: true
   - Title: reddit
     items:
@@ -265,9 +303,10 @@
         redirect: true
   - Title: repetitions
     items:
-      - link: https://t.me/joinchat/LclXl1kiV7MwXPJ5ofQk6g
+      - link: Gruppo ripetizioni PoliNetwork
+        platform: TG
         redirect: true
-  - Title: mobility
+  - Title: sport
     items:
       - title: Facebook
         lang: it
@@ -282,20 +321,24 @@
       - title: Telegram
         lang: it
         desc: Vi siete mai chiesti se qualcuno vuol venire ad un evento sportivo con voi? O vi serve un quinto giocatore per calcetto? O cercate una compagnia per andare a correre? Il gruppo nasce per soddisfare questi bisogni. Good training 💪
-        link: https://t.me/joinchat/ThXqaFlKDWI__KHo
+        link: Sport Milano
+        platform: TG
         img: /img/tg.svg
       - title: Telegram
         lang: en
         desc: Have you ever wondered if someone wanted to come to a sporting event with you? Do you need a fifth player for five-a-side football? Are you looking for somebody to go running with? The group is born to satisfy these needs. Good training 💪
-        link: https://t.me/joinchat/ThXqaFlKDWI__KHo
+        link: Sport Milano
+        platform: TG
         img: /img/tg.svg
   - Title: streetwear
     items:
-      - link: https://t.me/joinchat/LclXl0ji9OC9BQzJk3cwoA
+      - link: Polimi Streetwear Club
+        platform: TG
         redirect: true
   - Title: studyplan
     items:
-      - link: https://t.me/joinchat/LclXl0gOWoUCf67O6nwnnQ
+      - link: Piano di studi - Consigli - PoliNetwork
+        platform: TG
         redirect: true
   - Title: hsa
     items:
