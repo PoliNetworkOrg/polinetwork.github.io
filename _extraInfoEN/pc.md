@@ -3,7 +3,8 @@ title: Advice on buying a PC
 Lang: en
 Img: /img/pc.png
 layout: extra
-link: https://t.me/joinchat/LclXl02QS1Fsvp2SmfR00A
+link: Consigli per acquisto PC - PoliNetwork
+platform: TG
 redirect: true
 ---
 Get advice on buying the right PC for you
