@@ -17,7 +17,7 @@ jobs:
     - name: Run aggiorna_graduatorie.py
       run: python3 ./aggiorna_graduatorie.py "$(git rev-parse --show-toplevel)"
     - name: Create commit
-      run: git commit -am "$(TZ= printf 'update graduatorie: %(%c)T')"
+      run: "git commit -am \"$(TZ= printf 'update graduatorie: %(%c)T')\""
     - name: Push to master
       uses: ad-m/github-push-action@master
       with:
