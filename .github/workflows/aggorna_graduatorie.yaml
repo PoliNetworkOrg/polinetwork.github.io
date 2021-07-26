@@ -1,0 +1,25 @@
+name: Aggiorna graduatorie
+
+on:
+  schedule:
+  - cron: "00 12 * * *"
+
+jobs:
+  aggiorna_graduatorie:
+    runs-on: ubuntu-20.04
+    steps:
+    - name: Install dependencies
+      run: sudo apt-get install bash coreutils curl git python3
+    - name: Get GraduatorieScript
+      run: curl -Lo aggiorna_graduatorie.py https://raw.githubusercontent.com/PoliNetwork/GraduatorieScript/main/main.py
+    - name: Pull repository
+      uses: actions/checkout@v2
+    - name: Run aggiorna_graduatorie.py
+      run: python3 ./aggiorna_graduatorie.py "$(git rev-parse --show-toplevel)"
+    - name: Create commit
+      run: git commit -am "$(TZ= printf 'update graduatorie: %(%c)T')"
+    - name: Push to master
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: master
