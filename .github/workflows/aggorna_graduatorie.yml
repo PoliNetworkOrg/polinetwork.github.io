@@ -8,10 +8,10 @@ jobs:
     steps:
     - name: Install dependencies
       run: sudo apt-get install bash coreutils curl git python3
-    - name: Get GraduatorieScript
-      run: curl -Lo aggiorna_graduatorie.py https://raw.githubusercontent.com/PoliNetwork/GraduatorieScript/main/main.py
     - name: Pull repository
       uses: actions/checkout@v2
+    - name: Get GraduatorieScript
+      run: curl -Lo aggiorna_graduatorie.py https://raw.githubusercontent.com/PoliNetwork/GraduatorieScript/main/main.py
     - name: Run aggiorna_graduatorie.py
       run: python3 ./aggiorna_graduatorie.py "$(git rev-parse --show-toplevel)"
     - name: Create commit
