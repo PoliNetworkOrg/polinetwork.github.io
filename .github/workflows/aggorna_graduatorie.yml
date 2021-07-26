@@ -1,8 +1,6 @@
 name: Aggiorna graduatorie
 
-on:
-  schedule:
-  - cron:  "35 3 * * *"
+on: [ push, pull_request ]
 
 jobs:
   aggiorna_graduatorie:
