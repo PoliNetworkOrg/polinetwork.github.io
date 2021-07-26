@@ -2,7 +2,7 @@ name: Aggiorna graduatorie
 
 on:
   schedule:
-  - cron: "00 12 * * *"
+  - cron:  "35 3 * * *"
 
 jobs:
   aggiorna_graduatorie:
