@@ -16,8 +16,8 @@ jobs:
       run: curl -Lo aggiorna_graduatorie.py https://raw.githubusercontent.com/PoliNetwork/GraduatorieScript/main/main.py
     - name: Run aggiorna_graduatorie.py
       run: |
-        #python3 ./aggiorna_graduatorie.py "$(git rev-parse --show-toplevel)"
-        TZ= printf '%(%c)T\n' > test_file.txt
+        python3 ./aggiorna_graduatorie.py "$(git rev-parse --show-toplevel)"
+        #TZ= printf '%(%c)T\n' > test_file.txt
     - name: Create commit
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
