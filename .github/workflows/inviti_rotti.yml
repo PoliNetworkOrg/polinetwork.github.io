@@ -1,6 +1,9 @@
 name: Controlla presenza di inviti telegram rotti.
 
-on: [ push, pull_request ]
+on:
+  pull_request:
+  push:
+  workflow_dispatch:
 
 jobs:
   check_inviti_rotti:
