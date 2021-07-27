@@ -3,3 +3,7 @@ node_modules
 .idea/
 
 data/search/groups.bin
+
+inviti_rotti.bash
+
+aggiorna_graduatorie.py
