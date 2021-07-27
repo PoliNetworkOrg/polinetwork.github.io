@@ -9,7 +9,7 @@ jobs:
     - name: Install dependencies
       run: |
         sudo apt-get install bash coreutils curl git python3
-        pip install beautifulsoup
+        sudo pip3 install beautifulsoup4
     - name: Pull repository
       uses: actions/checkout@v2
     - name: Get GraduatorieScript
