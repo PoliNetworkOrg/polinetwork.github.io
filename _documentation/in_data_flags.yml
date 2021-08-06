@@ -22,12 +22,12 @@ projects: # file for the "inside" of each project or extra
 ########
 ##
 ##  It is possible to use more than 1 item for each project, in this case this is a shorter
-##  version of the Polidl description. As you can see in the output page, there are 3 horizontal rows
+##  version of the PoliDL description. As you can see in the output page, there are 3 horizontal rows
 ##  and each of them is filled with the elements specified inside the items list
 ##  to divide them, use the flag divided.
 ##
 ########
-  - Title: Polidl # first horizontal section
+  - Title: PoliDL # first horizontal section
     items:
       - title: PoliDL - Cisco Webex & Microsoft Stream - Con Interfaccia Grafica Windows
         lang: it
@@ -38,7 +38,7 @@ projects: # file for the "inside" of each project or extra
         buttons:
         - title: Vai al source di PoliDL GUI
           link: https://github.com/yuyu-19/PoliDL-GUI
-  - Title: Polidl # horizontal section n.2
+  - Title: PoliDL # horizontal section n.2
     divided: true # specifies a horizontal double line, one for each language
     dividers:
       - name: Versione per terminale solo per "Microsoft Stream"
@@ -51,7 +51,7 @@ projects: # file for the "inside" of each project or extra
         desc: Download .exe file
         link: https://github.com/Jacotsu/polibeepsync/releases/latest
         img: /img/win.png
-  - Title: Polidl # another horizontal section, an so on
+  - Title: PoliDL # another horizontal section, an so on
     divided: true
     dividers:
       - name: Versione per terminale solo per "Cisco Webex"

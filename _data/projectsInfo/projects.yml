@@ -104,7 +104,7 @@ projects:
         buttons:
         - title: Vai al source di PoliDL GUI
           link: https://github.com/yuyu-19/PoliDL-GUI
-  - Title: Polidl
+  - Title: PoliDL
     divided: true
     dividers:
       - name: Versione per terminale solo per "Cisco Webex"
@@ -142,7 +142,7 @@ projects:
         desc: Download .exe file
         link: https://github.com/Jacotsu/polibeepsync/releases/latest
         img: /img/win.png
-  - Title: Polidl
+  - Title: PoliDL
     divided: true
     dividers:
       - name: Versione per terminale solo per "Microsoft Stream"
