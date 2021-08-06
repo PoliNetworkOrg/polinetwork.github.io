@@ -1,6 +1,6 @@
 Ingegneria Informatica - Magistrale
 
-Questa guida è stata redatta dagli admin di Ingegneria Informatica del Polinetwork, raccogliendo opinioni di diversi studenti che hanno frequentato il Corso. Ogni paragrafo è un'opinione.
+Questa guida è stata redatta dagli admin di Ingegneria Informatica del PoliNetwork, raccogliendo opinioni di diversi studenti che hanno frequentato il Corso. Ogni paragrafo è un'opinione.
 
 ### Artificial Neural Networks and Deep Learning
 TELEGRAM https://telegram.org/

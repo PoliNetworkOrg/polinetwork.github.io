@@ -1,6 +1,6 @@
 Corsi II a.a.
 
-Questa guida è stata redatta dagli admin di Ingegneria Informatica del Polinetwork, raccogliendo opinioni di diversi studenti che hanno frequentato il corso. Ogni paragrafetto è un'opinione.
+Questa guida è stata redatta dagli admin di Ingegneria Informatica del PoliNetwork, raccogliendo opinioni di diversi studenti che hanno frequentato il corso. Ogni paragrafetto è un'opinione.
 Cliccate sul nome del corso per aprirne la pagina e leggere il programma dettagliato.
 Essendo, il secondo anno, in comune con Telecomunicazioni, è qui che,
 sulla base delle scelte tra i vari esami si decide quale percorso

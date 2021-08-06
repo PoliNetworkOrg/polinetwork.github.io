@@ -72,7 +72,7 @@ projects:
     items:
       - link: https://github.com/federicomor/tdemerger
         redirect: true
-  - Title: Polinetworkbot
+  - Title: PoliNetworkbot
     items:
       - link: https://github.com/PoliNetwork/PoliNetworkBot_CSharp
         redirect: true
