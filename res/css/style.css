@@ -416,6 +416,11 @@
     padding-bottom: 2px;
 }
 
+.yellow{
+    background-color: #f4c32b;
+    color: var(--maintext);
+}
+
 .cardLink {
     margin: auto;
 }
@@ -467,12 +472,12 @@ li {
 }
 
 .highlight {
-    color: rgb(35, 153, 147);
+    color: #0a4d89ff;
 }
 
 .green {
     background-color: var(--green);
-    color: white;
+    color: var(--mainbackground);
 }
 
 .green.clickable:hover {
@@ -481,7 +486,7 @@ li {
 
 .orange {
     background-color: var(--orange);
-    color: white;
+    color: var(--mainbackground);
 }
 
 .orange.clickable:hover {
