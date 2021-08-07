@@ -2,12 +2,14 @@
 layout: default
 show_backToHome: true
 ---
+
 <div class="wrapper projectsPadding">
   <div class="card white section sign">
+    <div id="shuffleInside">
 {% for associazione in site.data.assoc.assoc %}
   {% for language in associazione.items %}
     {% if language.lang == page.Lang %}
-        <div class="topAssocCard">
+        <div class="topAssocCard assocDivider">
             <img class="imageassoc" src="{{ associazione.image }}">
             <div class="assocName">
               <div class="assocText"><p>{{ associazione.Title }}</p>
@@ -18,10 +20,10 @@ show_backToHome: true
           </p>
           {% include buttonmatrix.html language=language.lang title=associazione.Title %}
         </div>
-        <div class="assocDivider"></div>
     {% endif %}
   {% endfor %}
 {% endfor %}
+  </div>
   {% if page.Lang == "it" %}
     <p class="assocDesc assocFooter"> Sei in contattato con un'associazione, iscritta all'albo, non in questo elenco?
 Vorresti che apparisse in questa lista? Scrivici! </p>
