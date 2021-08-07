@@ -31,9 +31,11 @@
             document.documentElement.setAttribute('data-theme', 'light');
         }
     </script>
-
+    <script src="/res/js/shuffle.js"></script> <!-- Auto shuffle of child elements of the class named "shuffleInside" -->
+    <script>
+      shuffle("shuffleInside");
+    </script>
 </head>
-ciao
 {% include navbar.html %}
 
 {{ content }}
