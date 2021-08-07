@@ -19,43 +19,76 @@ projects:
     items:
       - title: Windows
         lang: it
-        desc: Scarica il file .exe
-        link: https://github.com/Jacotsu/polibeepsync/releases/latest
+        desc: Apri il file .exe e installalo
+        link: https://github.com/Jacotsu/polibeepsync/releases/latest/download/PoliBeePsync.exe
         img: /img/win.png
+        multiple_buttons: true
+        buttons:
+        - title: Scarica il file .exe
+          link: https://github.com/Jacotsu/polibeepsync/releases/latest/download/PoliBeePsync.exe
       - title: Mac OS
         lang: it
-        desc: sudo pip3 install polibeepsync
-        isLink: false
+        desc: Copia il file .app.zip nella cartella Applicazioni, fai CMD + Tasto Destro sull'icona e clicca su apri
+        Link: https://github.com/Jacotsu/polibeepsync/releases/latest/download/PoliBeePsync.app.zip
         img: /img/mac.png
+        multiple_buttons: true
+        buttons:
+        - title: Scarica il file .app.zip
+          link: https://github.com/Jacotsu/polibeepsync/releases/latest/download/PoliBeePsync.app.zip
       - title: Arch Linux
         lang: it
         desc: yay -S polibeepsync
-        isLink: false
+        Link: https://github.com/Jacotsu/polibeepsync/
         img: /img/arch.svg
+        multiple_buttons: true
+        buttons:
+        - title: Vai al source
+          link: https://github.com/Jacotsu/polibeepsync/
       - title: Altre distro
         lang: it
         desc: Seguite il readme dal source o provate "sudo pip3 install polibeepsync"
-        isLink: false
+        Link: https://github.com/Jacotsu/polibeepsync/
         img: /img/linux.png
+        multiple_buttons: true
+        buttons:
+        - title: Vai al source
+          link: https://github.com/Jacotsu/polibeepsync/
       - title: Windows
         lang: en
-        desc: Download .exe file
-        link: https://github.com/Jacotsu/polibeepsync/releases/latest
+        desc: Open the .exe file and install it
+        link: https://github.com/Jacotsu/polibeepsync/releases/latest/download/PoliBeePsync.exe
         img: /img/win.png
+        multiple_buttons: true
+        buttons:
+        - title: Download the .exe file
+          link: https://github.com/Jacotsu/polibeepsync/releases/latest/download/PoliBeePsync.exe
       - title: Mac OS
         lang: en
-        desc: sudo pip3 install polibeepsync
-        isLink: false
+        desc: Download the .app.zip file and then drag it to the Applications folder, CTRL + Right click polibeepsync's icon and click open
+        Link: https://github.com/Jacotsu/polibeepsync/releases/latest/download/PoliBeePsync.app.zip
         img: /img/mac.png
+        multiple_buttons: true
+        buttons:
+        - title: Download the .app.zip file
+          link: https://github.com/Jacotsu/polibeepsync/releases/latest/download/PoliBeePsync.app.zip
       - title: Arch Linux
         lang: en
         desc: yay -S polibeepsync
-        isLink: false
+        Link: https://github.com/Jacotsu/polibeepsync/
         img: /img/arch.svg
-      - title: Altre distro
+        multiple_buttons: true
+        buttons:
+        - title: See source
+          link: https://github.com/Jacotsu/polibeepsync/
+      - title: Other distros
         lang: en
-        desc: Follow the "readme.md" from source code or try "sudo pip3 install polibeepsync"
+        desc: Follow the readme from source or try "sudo pip3 install polibeepsync"
+        Link: https://github.com/Jacotsu/polibeepsync/
         img: /img/linux.png
+        multiple_buttons: true
+        buttons:
+        - title: See source
+          link: https://github.com/Jacotsu/polibeepsync/
   - Title: Convertitoreorario
     items:
       - link: https://bebora.github.io/polimi-schedule-js/
@@ -72,17 +105,25 @@ projects:
     items:
       - link: https://github.com/federicomor/tdemerger
         redirect: true
-  - Title: PoliNetworkbot
+  - Title: Polinetworkbot
     items:
-      - link: https://github.com/PoliNetwork/PoliNetworkBot_CSharp
+      - link: https://github.com/PoliNetworkOrg/PoliNetworkBot_CSharp
         redirect: true
   - Title: Questo_sito
     items:
       - link: https://github.com/PoliNetwork/polinetwork.github.io
         redirect: true
+  - Title: webexhelper
+    items:
+      - link: https://github.com/SamanFekri/CiscoWebexHelper
+        redirect: true
   - Title: Webexdownloader
     items:
       - link: https://github.com/jacopo-j/webxdownloader
+        redirect: true
+  - Title: webexlauncher
+    items:
+      - link: https://github.com/stignarnia/Webex-Launcher-Auto
         redirect: true
   - Title: polidl
     items:
@@ -104,79 +145,55 @@ projects:
         buttons:
         - title: Vai al source di PoliDL GUI
           link: https://github.com/yuyu-19/PoliDL-GUI
-  - Title: PoliDL
+  - Title: Polidl
     divided: true
     dividers:
       - name: Versione per terminale solo per "Cisco Webex"
         lang: it
-      - name: Versione per terminale solo per "Cisco Webex"
+      - name: Command line version, only for "Cisco Webex"
         lang: en
     items:
-      - title: Windows
+      - title: Tutti gli OS
         lang: it
-        desc: Download .exe file
-        link: https://github.com/Jacotsu/polibeepsync/releases/latest
-        img: /img/win.png
-      - title: Windows
+        desc: Seguite il readme dal source
+        link: https://github.com/sup3rgiu/PoliWebex
+        img: /img/os_agnostic.png
+        multiple_buttons: true
+        buttons:
+        - title: Vai al source di PoliWebex
+          link: https://github.com/sup3rgiu/PoliWebex
+      - title: Every OS
         lang: en
-        desc: Download .exe file
-        link: https://github.com/Jacotsu/polibeepsync/releases/latest
-        img: /img/win.png
-      - title: Windows
-        lang: it
-        desc: Download .exe file
-        link: https://github.com/Jacotsu/polibeepsync/releases/latest
-        img: /img/win.png
-      - title: Windows
-        lang: en
-        desc: Download .exe file
-        link: https://github.com/Jacotsu/polibeepsync/releases/latest
-        img: /img/win.png
-      - title: Windows
-        lang: it
-        desc: Download .exe file
-        link: https://github.com/Jacotsu/polibeepsync/releases/latest
-        img: /img/win.png
-      - title: Windows
-        lang: en
-        desc: Download .exe file
-        link: https://github.com/Jacotsu/polibeepsync/releases/latest
-        img: /img/win.png
-  - Title: PoliDL
+        desc: Follow the "readme.md" from source code
+        link: https://github.com/sup3rgiu/PoliWebex
+        img: /img/os_agnostic.png
+        multiple_buttons: true
+        buttons:
+        - title: Vai al source di PoliWebex
+          link: https://github.com/sup3rgiu/PoliWebex
+  - Title: Polidl
     divided: true
     dividers:
       - name: Versione per terminale solo per "Microsoft Stream"
         lang: it
-      - name: Versione per terminale solo per "Microsoft Stream"
+      - name: Command line version, only for "Microsoft Stream"
         lang: en
     items:
-      - title: Windows
+      - title: Tutti gli OS
         lang: it
-        desc: Download .exe file
-        link: https://github.com/Jacotsu/polibeepsync/releases/latest
-        img: /img/win.png
-      - title: Windows
+        desc: Seguite il readme dal source
+        link: https://github.com/sup3rgiu/PoliDown
+        img: /img/os_agnostic.png
+        multiple_buttons: true
+        buttons:
+        - title: Vai al source di PoliDown
+          link: https://github.com/sup3rgiu/PoliDown
+      - title: Every OS
         lang: en
-        desc: Download .exe file
-        link: https://github.com/Jacotsu/polibeepsync/releases/latest
-        img: /img/win.png
-      - title: Windows
-        lang: it
-        desc: Download .exe file
-        link: https://github.com/Jacotsu/polibeepsync/releases/latest
-        img: /img/win.png
-      - title: Windows
-        lang: en
-        desc: Download .exe file
-        link: https://github.com/Jacotsu/polibeepsync/releases/latest
-        img: /img/win.png
-      - title: Windows
-        lang: it
-        desc: Download .exe file
-        link: https://github.com/Jacotsu/polibeepsync/releases/latest
-        img: /img/win.png
-      - title: Windows
-        lang: en
-        desc: Download .exe file
-        link: https://github.com/Jacotsu/polibeepsync/releases/latest
-        img: /img/win.png
+        desc: Follow the "readme.md" from source code
+        link: https://github.com/sup3rgiu/PoliDown
+        img: /img/os_agnostic.png
+        multiple_buttons: true
+        buttons:
+        - title: Vai al source di PoliDown
+          link: https://github.com/sup3rgiu/PoliDown
