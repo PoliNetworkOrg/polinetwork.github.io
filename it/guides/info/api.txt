@@ -121,7 +121,7 @@ E infine con gli stessi flag che vengono usati per i test privati, che sono scri
 
     Le istruzioni di change sono SEMPRE corrette, non serve preoccuparsi.
 
-    Per qualsiasi istruzione è sempre vero che gli indici non sono negativi e che ind1 < ind2;
+    Per qualsiasi istruzione è sempre vero che gli indici non sono negativi e che ind1 &lt; ind2;
  </li>
 </ul>
 
@@ -146,7 +146,7 @@ E infine con gli stessi flag che vengono usati per i test privati, che sono scri
 
     Per utilizzare i generatori basta generare il file di input, proprio come quello che trovate sul sito, e da terminale avviare l'eseguibile in questo modo:
 
-    <code><pre>./nomeEseguibile.out < nomeInput.txt<code><pre>
+    <code><pre>./nomeEseguibile.out &lt; nomeInput.txt<code><pre>
 
     Una volta finita l'esecuzione nei vari test generati ci saranno anche gli output corretti che dovranno essere confrontati con l'output generato dal tuo programma sul terminale.
 
@@ -171,7 +171,7 @@ Su <b>Windows</b> esiste invece il comando fc che funziona quasi allo stesso mod
 Warning: lo spazio è considerato come carattere, quindi diff dirà che due righe sono diverse soltanto a causa di uno spazio in più alla fine di una delle due righe. Per eliminare questo inconveniente si può usare questo tag dopo il comando diff:
 
 <code><pre>-Z, --ignore-trailing-space
-                  ignore white space at line end<code><pre>
+                  ignore white space at line end</pre></code>
 
 
 Come scarico Valgrind? A cosa serve?
