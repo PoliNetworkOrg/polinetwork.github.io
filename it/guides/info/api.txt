@@ -31,6 +31,7 @@ Oltre a questo, un motivo per finire appena possibile il progetto è che se non 
 La valutazione dei prof avviene in questo modo: Viene fatto eseguire l'ultimo file inviato di ogni test. Per questo motivo è <b>NECESSARIO</b> che tutti gli ultimi file inviati in ogni test siano identici. <b>La scadenza è il 12 settembre</b>, appena scatta la mezzanotte.
 </li>
 <li><b>[2020-2021]</b> Ci sono 3 batterie di test. La prima <b>UpTo18</b> sono 6 test per arrivare al 18, se non viene passato anche solo un test di questa il progetto sarà considerato come non superato. La seconda è <b>UpTo30</b> permette di arrivare alla valutazione massima di 30, 6 test ognuno vale 2 punti; infine l'ultima <b>CumLaude</b> permette di arrivare fino alla lode.
+La valutazione dei prof avviene in questo modo: Viene fatto eseguire l'ultimo file inviato di ogni test. Per questo motivo è <b>NECESSARIO</b> che tutti gli ultimi file inviati in ogni test siano identici. <b>La scadenza è il 7 settembre</b>, appena scatta la mezzanotte.
 </li>
 </ul>
 
@@ -90,41 +91,53 @@ E infine con gli stessi flag che vengono usati per i test privati, che sono scri
 
 
 ### Particolarità dei test
+<ul>
+  <li> <b>[2019-2020]</b>: 
+    <ul>
+        <li>WriteOnly: fa solo change e print, non sovrascrive mai le righe (quindi ci saranno solo istruzioni del tipo 1,3c   4,9c   10, 15c  e così via</li>
 
-WriteOnly: fa solo change e print, non sovrascrive mai le righe (quindi ci saranno solo istruzioni del tipo 1,3c   4,9c   10, 15c  e così via
+        <li>BulkReads: fa solo change e print, questa volta sovrascrive le righe (posso quindi avere 1,3c   2,3c  3,3c di fila)</li>
 
-BulkReads: fa solo change e print, questa volta sovrascrive le righe (posso quindi avere 1,3c   2,3c  3,3c di fila)
+        <li>TimeForAChange: fa change, print e delete. Non ci sono undo e redo.</li>
 
-TimeForAChange: fa change, print e delete. Non ci sono undo e redo.
-
-RollingBack: fa una serie di operazioni (change, print, delete) e alla fine ci sono una sequenza di undo, redo e print. Dopo le undo e redo non ci sono mai change o delete. La quantità di operazioni c/d/p che vengono eseguite prima delle u/r/p alla fine sono più o meno analoghe a quelle che vengono eseguite da TimeForAChange.
-
-Altri test: WIP
+        <li>RollingBack: fa una serie di operazioni (change, print, delete) e alla fine ci sono una sequenza di undo, redo e print. Dopo le undo e redo non ci sono mai change o delete. La quantità di operazioni c/d/p che vengono eseguite prima delle u/r/p alla fine sono più o meno analoghe a quelle che vengono eseguite da TimeForAChange.</li>
+    </ul>
+  </li>
+</ul>
 
 
 
 ### Particolarità delle istruzioni
 
-Le istruzioni "particolari" da gestire sono 0,0p (che deve stampare un punto) - 0,0d (che non deve fare niente ma deve essere considerata per le undo e redo).
+<ul>
+  <li> <b>[2019-2020]</b>: 
+  Le istruzioni "particolari" da gestire sono 0,0p (che deve stampare un punto) - 0,0d (che non deve fare niente ma deve essere considerata per le undo e redo).
 
-Dai test di vari utenti sembrano non esserci istruzioni 0,Xd dove X è un numero diverso da 0, ma consiglio di aggiungere questo if in più per poter stare tranquilli.
+  Dai test di vari utenti sembrano non esserci istruzioni 0,Xd dove X è un numero diverso da 0, ma consiglio di aggiungere questo if in più per poter stare tranquilli.
 
-Le istruzioni di change sono SEMPRE corrette, non serve preoccuparsi.
+  Le istruzioni di change sono SEMPRE corrette, non serve preoccuparsi.
 
-Per qualsiasi istruzione è sempre vero che gli indici non sono negativi e che ind1 < ind2;
+  Per qualsiasi istruzione è sempre vero che gli indici non sono negativi e che ind1 < ind2;
+ </li>
+<ul>
 
 
 
 ### Cosa sono i test pubblici? Dove li trovo?
 
+<ul>
+  <li> <b>[2019-2020]</b>: 
 I test pubblici sono dei test il cui contenuto può essere visualizzato a priori. Per questo motivo è bene utilizzarli per scovare i problemi nel proprio codice. Inoltre ,in ogni test privato, il subtask 1 contiene i test pubblici che seppur diano 0 punti devono essere obbligatoriamente passati. Quindi, se per caso dovessi prendere 3/5 punti ma non passassi il subtask 1, è come se prendessi 00punti in tutto il test.
 
 Per provare i test pubblici basta andare sul sito del progetto e cliccare nella colonnina a sinistra sull’ultima voce Testing. Tra le voci da inserire nei vari test ci sono Suite e Input. Suite non è altro che il nomeTuoFile.c mentre Input è il file che si trova in ogni test sotto la voce Descrizione -> Allegati. Nello zip da scaricare trovate sia l’input che l’output corretto che potrete confrontare con l’output generato a fine esecuzione nella sezione Testing. In alternativa puoi trovare i tests pubblici nella cartella mega nei Links Utili in fondo a questa pagina.
+ </li>
+<ul>
 
 
 
 ### Dove trovo altri test per verificare la correttezza del mio programma?
-
+<ul>
+  <li> <b>[2019-2020]</b>: 
 Alcuni colleghi hanno programmato dei generatori di test che potete trovare nei media del gruppo o in fondo a questa pagina nella sezione Links Utili.
 
 Per utilizzare i generatori basta generare il file di input, proprio come quello che trovate sul sito, e da terminale avviare l'eseguibile in questo modo:
@@ -134,6 +147,8 @@ Per utilizzare i generatori basta generare il file di input, proprio come quello
 Una volta finita l'esecuzione nei vari test generati ci saranno anche gli output corretti che dovranno essere confrontati con l'output generato dal tuo programma sul terminale.
 
 Warning: l'eseguibile e il file di input dovranno essere nella stessa cartella/percorso.
+ </li>
+<ul>
 
 
 
@@ -176,11 +191,11 @@ Sì, non è detto che sia compatibile con la tua versione di OS X poiché è anc
 
 ### Cosa è GDB e a cosa serve?
 
-GDB è il debugger del sistema operativo GNU e serve per analizzare lo stato dei processi del tuo programma. Per capire come utilizzarlo si può fare riferimento a questa semplice guida: https://www.tutorialspoint.com/gnu_debugger/gdb_quick_guide
+GDB è il debugger del sistema operativo GNU e serve per analizzare lo stato dei processi del tuo programma. Per capire come utilizzarlo si può fare riferimento a questa semplice guida: <a href="https://www.tutorialspoint.com/gnu_debugger/gdb_quick_guide">https://www.tutorialspoint.com/gnu_debugger/gdb_quick_guide</a>
 
 E’ molto utile, se non d’obbligo, debuggare per capire che valori assumono le variabili durante l’esecuzione.
 
-GDB è integrato in CLion che è un IDE fatto molto bene e che può essere richiesto gratuitamente dagli studenti tramite questo link: https://www.jetbrains.com/shop/eform/students
+GDB è integrato in CLion che è un IDE fatto molto bene e che può essere richiesto gratuitamente dagli studenti tramite questo link: <a href="https://www.jetbrains.com/shop/eform/students">https://www.jetbrains.com/shop/eform/students</a>
 
 Oltre a CLion anche VSCode ha GDB integrato.
 
