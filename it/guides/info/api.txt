@@ -123,7 +123,7 @@ E infine con gli stessi flag che vengono usati per i test privati, che sono scri
 
     Per qualsiasi istruzione è sempre vero che gli indici non sono negativi e che ind1 < ind2;
  </li>
-<ul>
+</ul>
 
 
 
@@ -135,7 +135,7 @@ E infine con gli stessi flag che vengono usati per i test privati, che sono scri
 
     Per provare i test pubblici basta andare sul sito del progetto e cliccare nella colonnina a sinistra sull’ultima voce Testing. Tra le voci da inserire nei vari test ci sono Suite e Input. Suite non è altro che il nomeTuoFile.c mentre Input è il file che si trova in ogni test sotto la voce Descrizione -> Allegati. Nello zip da scaricare trovate sia l’input che l’output corretto che potrete confrontare con l’output generato a fine esecuzione nella sezione Testing. In alternativa puoi trovare i tests pubblici nella cartella mega nei Links Utili in fondo a questa pagina.
  </li>
-<ul>
+</ul>
 
 
 
@@ -152,7 +152,7 @@ E infine con gli stessi flag che vengono usati per i test privati, che sono scri
 
     Warning: l'eseguibile e il file di input dovranno essere nella stessa cartella/percorso.
  </li>
-<ul>
+</ul>
 
 
 
