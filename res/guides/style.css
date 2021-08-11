@@ -3,6 +3,17 @@
   src: url(Futurabook.ttf);
 }
 
+code {
+  display: block;
+  background: #303030;
+  white-space: pre;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: scroll;
+  max-width: 100%;
+  min-width: 100px;
+  padding: 0;
+}
+
 html {
     background-color: #242424;
     color: white;
