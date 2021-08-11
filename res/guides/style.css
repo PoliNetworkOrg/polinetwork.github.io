@@ -1,3 +1,7 @@
+:root {
+  color-scheme: dark;
+}
+
 @font-face {
   font-family: futura;
   src: url(Futurabook.ttf);
