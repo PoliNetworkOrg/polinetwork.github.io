@@ -28,7 +28,6 @@ Oltre a questo, un motivo per finire appena possibile il progetto è che se non 
 <ul>
   <li><b>[2019-2020]</b> 
     Ogni test ha 4 subtasks. Per arrivare a 18 bisogna passare obbligatoriamente tutti i subtasks 1 e 2 di ogni test. Infatti i subtasks 2 valgono 3 punti ciascuno e poiché ci sono 6 test più il 7 della lode si avranno 3*6 = 18 punti. Gli altri subtasks (3 e 4) di ogni test possono far incrementare il voto fino a 30. Per la lode bisogna passare il test “Lode”. Se si dovesse passare il test Lode senza gli altri 30 punti non si aggiungerebbe nessun punto al voto finale. Non serve passare Tutorial.
-
     La valutazione dei prof avviene in questo modo: Viene fatto eseguire l'ultimo file inviato di ogni test. Per questo motivo è <b>NECESSARIO</b> che tutti gli ultimi file inviati in ogni test siano identici. <b>La scadenza è il 12 settembre</b>, appena scatta la mezzanotte.
   </li>
   <li><b>[2020-2021]</b> 
@@ -40,7 +39,7 @@ Oltre a questo, un motivo per finire appena possibile il progetto è che se non 
 
 ### Come sottopongo la soluzione?
 
-Per provare a inviare la tua soluzione basta caricare il <code>nomeTuoFile.c</code> in ogni test. Per vedere il risultato di tutti i subtasks dovrai utilizzare il token.
+Per provare a inviare la tua soluzione basta caricare il <b>nomeTuoFile.c</b> in ogni test. Per vedere il risultato di tutti i subtasks dovrai utilizzare il token.
 
 
 
@@ -54,7 +53,8 @@ Utilizzare le funzioni sulle slides non è considerato plagio. Anche utilizzare 
 
 Le librerie che si possono utilizzare sono tutte quelle presenti nella libreria standard. Sono quindi comprese: string.h, stdbool.h, ctype.h ecc. L'unica libreria che non è possibile utilizzare è threads.h che permette l'implementazione di mutex e altri segnali per la programmazione parallela.
 
-Per vedere nel dettaglio tutte le librerie standard fare riferimento qui: <a href="https://it.wikibooks.org/wiki/C/Appendice/Librerie_standard">https://it.wikibooks.org/wiki/C/Appendice/Librerie_standard</a>
+Per vedere nel dettaglio tutte le librerie standard fare riferimento qui: 
+<a href="https://it.wikibooks.org/wiki/C/Appendice/Librerie_standard">https://it.wikibooks.org/wiki/C/Appendice/Librerie_standard</a>
 
 
 
@@ -97,11 +97,8 @@ E infine con gli stessi flag che vengono usati per i test privati, che sono scri
   <li> <b>[2019-2020]</b>: 
     <ul>
         <li>WriteOnly: fa solo change e print, non sovrascrive mai le righe (quindi ci saranno solo istruzioni del tipo 1,3c   4,9c   10, 15c  e così via</li>
-
         <li>BulkReads: fa solo change e print, questa volta sovrascrive le righe (posso quindi avere 1,3c   2,3c  3,3c di fila)</li>
-
         <li>TimeForAChange: fa change, print e delete. Non ci sono undo e redo.</li>
-
         <li>RollingBack: fa una serie di operazioni (change, print, delete) e alla fine ci sono una sequenza di undo, redo e print. Dopo le undo e redo non ci sono mai change o delete. La quantità di operazioni c/d/p che vengono eseguite prima delle u/r/p alla fine sono più o meno analoghe a quelle che vengono eseguite da TimeForAChange.</li>
     </ul>
   </li>
@@ -116,11 +113,8 @@ E infine con gli stessi flag che vengono usati per i test privati, che sono scri
 <ul>
   <li> <b>[2019-2020]</b>: 
     Le istruzioni "particolari" da gestire sono 0,0p (che deve stampare un punto) - 0,0d (che non deve fare niente ma deve essere considerata per le undo e redo).
-
     Dai test di vari utenti sembrano non esserci istruzioni 0,Xd dove X è un numero diverso da 0, ma consiglio di aggiungere questo if in più per poter stare tranquilli.
-
     Le istruzioni di change sono SEMPRE corrette, non serve preoccuparsi.
-
     Per qualsiasi istruzione è sempre vero che gli indici non sono negativi e che ind1 &lt; ind2;
  </li>
 </ul>
@@ -132,9 +126,8 @@ E infine con gli stessi flag che vengono usati per i test privati, che sono scri
 <ul>
   <li> <b>[2019-2020]</b>: 
     I test pubblici sono dei test il cui contenuto può essere visualizzato a priori. Per questo motivo è bene utilizzarli per scovare i problemi nel proprio codice. Inoltre ,in ogni test privato, il subtask 1 contiene i test pubblici che seppur diano 0 punti devono essere obbligatoriamente passati. Quindi, se per caso dovessi prendere 3/5 punti ma non passassi il subtask 1, è come se prendessi 00punti in tutto il test.
-
     Per provare i test pubblici basta andare sul sito del progetto e cliccare nella colonnina a sinistra sull’ultima voce Testing. Tra le voci da inserire nei vari test ci sono Suite e Input. Suite non è altro che il nomeTuoFile.c mentre Input è il file che si trova in ogni test sotto la voce Descrizione -> Allegati. Nello zip da scaricare trovate sia l’input che l’output corretto che potrete confrontare con l’output generato a fine esecuzione nella sezione Testing. In alternativa puoi trovare i tests pubblici nella cartella mega nei Links Utili in fondo a questa pagina.
- </li>
+  </li>
 </ul>
 
 
@@ -143,14 +136,10 @@ E infine con gli stessi flag che vengono usati per i test privati, che sono scri
 <ul>
   <li> <b>[2019-2020]</b>: 
     Alcuni colleghi hanno programmato dei generatori di test che potete trovare nei media del gruppo o in fondo a questa pagina nella sezione Links Utili.
-
     Per utilizzare i generatori basta generare il file di input, proprio come quello che trovate sul sito, e da terminale avviare l'eseguibile in questo modo:
-
     <pre><code>./nomeEseguibile.out &lt; nomeInput.txt</code></pre>
-
     Una volta finita l'esecuzione nei vari test generati ci saranno anche gli output corretti che dovranno essere confrontati con l'output generato dal tuo programma sul terminale.
-
-    Warning: l'eseguibile e il file di input dovranno essere nella stessa cartella/percorso.
+    <i>Warning</i>: l'eseguibile e il file di input dovranno essere nella stessa cartella/percorso.
  </li>
 </ul>
 
@@ -243,6 +232,8 @@ Alcuni ragazzi hanno migliorato le prestazioni del loro programma sostituendo fg
 
 ### Links utili
 
-Gruppo telegram del progetto: <a href="https://t.me/joinchat/AFY9TUkc3ApfmmOH60DbEw">https://t.me/joinchat/AFY9TUkc3ApfmmOH60DbEw</a>
+Gruppo telegram del progetto: 
+<a href="https://t.me/joinchat/AFY9TUkc3ApfmmOH60DbEw">https://t.me/joinchat/AFY9TUkc3ApfmmOH60DbEw</a>
 
-<b>[2019/2020]</b> Generatore di test di @Leosxe: <a href="https://t.me/joinchat/AFY9TUkc3ApfmmOH60DbEw">https://github.com/Leosxe/ProgettoAPI2020_GeneratoreTest</a>
+<b>[2019/2020]</b> Generatore di test di @Leosxe: 
+<a href="https://t.me/joinchat/AFY9TUkc3ApfmmOH60DbEw">https://github.com/Leosxe/ProgettoAPI2020_GeneratoreTest</a>
