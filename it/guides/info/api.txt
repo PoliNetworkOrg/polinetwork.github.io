@@ -103,12 +103,12 @@ E infine con gli stessi flag che vengono usati per i test privati, che sono scri
   </li>
   <li> <b>[2020-2021]</b>:
     <ul>
-        <li><b>Normal</b>:2^20 + 2^18 + 2^17 grafi, piccoli e con topK(numero di grafi da stampare) piccolo</li>
-        <li><b>Normal Big</b>:2^8 grafi e sono grandi e anche topk è grande</li>
-        <li><b>Normal Big + TopK</b>:2^8 grafi, grandi e topk grande moltiplicato per 16, e hanno i pesi in ordine decrescente</li>
-        <li><b>Dijstra</b>:27 + 26 + 2^5 grafi, tanti, ma topk piccolo</li>
-        <li><b>Insert</b>:inserimento in lista, 220 + 218 grafi, piccoli, topk molto grande, decrescente</li>
-        <li><b>Insert+</b>:Insert ma con 216 + 214 + 2^13 grafi</li>
+        <li><b>Normal</b>: 2^20 + 2^18 + 2^17 grafi, piccoli e con topK(numero di grafi da stampare) piccolo</li>
+        <li><b>Normal Big</b>: 2^8 grafi e sono grandi e anche topk è grande</li>
+        <li><b>Normal Big + TopK</b>: 2^8 grafi, grandi e topk grande moltiplicato per 16, e hanno i pesi in ordine decrescente</li>
+        <li><b>Dijstra</b>: 27 + 26 + 2^5 grafi, tanti, ma topk piccolo</li>
+        <li><b>Insert</b>: inserimento in lista, 220 + 218 grafi, piccoli, topk molto grande, decrescente</li>
+        <li><b>Insert+</b>: Insert ma con 216 + 214 + 2^13 grafi</li>
     </ul>
   </li>
 </ul>
