@@ -87,7 +87,14 @@ In genere, prima di cercare i test privati, è bene verificare i test pubblici u
 
 E infine con gli stessi flag che vengono usati per i test privati, che sono scritti nella sezione "Descrizione" di ogni test, ad esempio
 
+<b>[2019-2020]</b>
+
 <pre><code>gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o timeforachange timeforachange.c -lm</code></pre>
+
+<b>[2020-2021]</b>
+
+<pre><code>gcc -DEVAL -std=gnu11 -Wall -Werror -O2 -g3 -o normal normal.c -lm</code></pre>
+
 
 
 
