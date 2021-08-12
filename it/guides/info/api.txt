@@ -52,6 +52,7 @@ Utilizzare le funzioni sulle slides non è considerato plagio. Anche utilizzare 
 Le librerie che si possono utilizzare sono tutte quelle presenti nella libreria standard. Sono quindi comprese: string.h, stdbool.h, ctype.h ecc. L'unica libreria che non è possibile utilizzare è threads.h che permette l'implementazione di mutex e altri segnali per la programmazione parallela.
 
 Per vedere nel dettaglio tutte le librerie standard fare riferimento qui: 
+
 <a href="https://it.wikibooks.org/wiki/C/Appendice/Librerie_standard">https://it.wikibooks.org/wiki/C/Appendice/Librerie_standard</a>
 
 
