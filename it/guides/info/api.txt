@@ -154,7 +154,7 @@ E infine con gli stessi flag che vengono usati per i test privati, che sono scri
     Una volta finita l'esecuzione nei vari test generati ci saranno anche gli output corretti che dovranno essere confrontati con l'output generato dal tuo programma sul terminale.
     <i>Warning</i>: l'eseguibile e il file di input dovranno essere nella stessa cartella/percorso.
  </li>
-   <li> <b>[2020-2021]</b>: Messo a disposizione da parte dei tutor, disponibile al seguente <a href="">indirizzo</a>.
+   <li> <b>[2020-2021]</b>: Generatore di test messo a disposizione da parte dei tutor, disponibile al seguente <a href="">indirizzo</a>.
    </li>
 </ul>
 
