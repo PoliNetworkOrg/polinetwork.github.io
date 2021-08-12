@@ -93,7 +93,7 @@ E infine con gli stessi flag che vengono usati per i test privati, che sono scri
 
 <b>[2020-2021]</b>
 
-<pre><code>gcc -DEVAL -std=gnu11 -Wall -Werror -O2 -g3 -o normal normal.c -lm</code></pre>
+<pre><code>gcc -DEVAL -std=gnu11 -Wall -Werror -O2 -g3 -static -s -o normal normal.c -lm</code></pre>
 
 
 
