@@ -96,15 +96,28 @@ E infine con gli stessi flag che vengono usati per i test privati, che sono scri
 <ul>
   <li> <b>[2019-2020]</b>: 
     <ul>
-        <li>WriteOnly: fa solo change e print, non sovrascrive mai le righe (quindi ci saranno solo istruzioni del tipo 1,3c   4,9c   10, 15c  e così via</li>
-        <li>BulkReads: fa solo change e print, questa volta sovrascrive le righe (posso quindi avere 1,3c   2,3c  3,3c di fila)</li>
-        <li>TimeForAChange: fa change, print e delete. Non ci sono undo e redo.</li>
-        <li>RollingBack: fa una serie di operazioni (change, print, delete) e alla fine ci sono una sequenza di undo, redo e print. Dopo le undo e redo non ci sono mai change o delete. La quantità di operazioni c/d/p che vengono eseguite prima delle u/r/p alla fine sono più o meno analoghe a quelle che vengono eseguite da TimeForAChange.</li>
+        <li><b>WriteOnly</b>: fa solo change e print, non sovrascrive mai le righe (quindi ci saranno solo istruzioni del tipo 1,3c   4,9c   10, 15c  e così via</li>
+        <li><b>BulkReads</b>: fa solo change e print, questa volta sovrascrive le righe (posso quindi avere 1,3c   2,3c  3,3c di fila)</li>
+        <li><b>TimeForAChange</b>: fa change, print e delete. Non ci sono undo e redo.</li>
+        <li><b>RollingBack</b>: fa una serie di operazioni (change, print, delete) e alla fine ci sono una sequenza di undo, redo e print. Dopo le undo e redo non ci sono mai change o delete. La quantità di operazioni c/d/p che vengono eseguite prima delle u/r/p alla fine sono più o meno analoghe a quelle che vengono eseguite da TimeForAChange.</li>
     </ul>
   </li>
   <li> <b>[2020-2021]</b>:
+    <ul>
+        <li><b>Normal</b>:2^20 + 2^18 + 2^17 grafi, piccoli e con topK(numero di grafi da stampare) piccolo</li>
+        <li><b>Normal Big</b>:2^8 grafi e sono grandi e anche topk è grande</li>
+        <li><b>Normal Big + TopK</b>:2^8 grafi, grandi e topk grande moltiplicato per 16, e hanno i pesi in ordine decrescente</li>
+        <li><b>Dijstra</b>:27 + 26 + 2^5 grafi, tanti, ma topk piccolo</li>
+        <li><b>Insert</b>:inserimento in lista, 220 + 218 grafi, piccoli, topk molto grande, decrescente</li>
+        <li><b>Insert+</b>:Insert ma con 216 + 214 + 2^13 grafi</li>
+    </ul>
   </li>
 </ul>
+
+
+
+
+
 
 
 
