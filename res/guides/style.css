@@ -85,9 +85,9 @@ title {
 }
 
 
-a {
-    color: #BB86FC;
-}
+
+
+
 
 .accent {
     color: #BB86FC;
@@ -133,7 +133,7 @@ a {
 }
 
 a {
-  color: inherit;
+  color: #BB86FC;
   text-decoration: inherit;
 }
 
