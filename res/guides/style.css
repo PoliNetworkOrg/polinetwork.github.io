@@ -84,6 +84,11 @@ title {
   transition: max-height 0.3s ease-out;
 }
 
+
+a {
+    color: #BB86FC;
+}
+
 .accent {
     color: #BB86FC;
 }
