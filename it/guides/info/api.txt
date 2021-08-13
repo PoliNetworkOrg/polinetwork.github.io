@@ -100,11 +100,17 @@ E infine con gli stessi flag che vengono usati per i test privati, che sono scri
 
 Mettere all'interno del file CmakeLists.txt la seguente configurazione:
 
-<pre><code>cmake_minimum_required(VERSION <cmake_version>)
+<pre>
+cmake_minimum_required(VERSION <cmake_version>)
+
 project(API2021 C)
+
 set(CMAKE_C_STANDARD 11)
+
 set (CMAKE_C_FLAGS "${CMAKE_C_FLAGS} <compiler_flags>")
-add_executable(output <file.c>)</code></pre>
+
+add_executable(output <file.c>)
+</pre>
 
 Sostituendo le variabili tra <> (comprese le stesse) con le vostre, per vedere la propria versione di CLion (se diversa da quella di deafault), aprire un terminale e digitare:
 
