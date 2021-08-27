@@ -1,21 +1,25 @@
 /* MATERIALS */
 
+.materialFontColor{
+  color: var(--accent);
+}
+
 .materialtopCard{
   display: grid;
   grid-template-rows: 5fr 3fr;
   min-height: 250px;
   border: none;
   color: white;
-  transition: 0.3s;
+  transition: 0.1s;
 }
 
 .materialtopCard:hover{
-  background-color: var(--tabbackground);
+  background-color: var(--materialsbackground);
   cursor: pointer;
 }
 
 .materialtopCard:hover .materialsText{
-  padding-top: 5px;
+  padding-top: 10px;
 }
 
 .materialtopCard:hover .materialsIcon{
@@ -31,10 +35,6 @@
 
 .materialsImage-container{
   margin: auto;
-}
-
-.materiallogopergamena{
-  font-size: 6em;
 }
 
 .materialsIcon{

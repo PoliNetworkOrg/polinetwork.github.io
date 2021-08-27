@@ -1,0 +1,50 @@
+courses:
+  - icon: fab fa-skyatlas
+    link:
+    titles:
+      - title: Informatica
+        language: it
+      - title: Computer Eng
+        language: en
+  - icon:
+    link:
+    titles:
+      - title: Aerospaziale
+        language: it
+      - title: Aerospace
+        language: en
+  - icon:
+    link:
+    titles:
+      - title: Elettronica
+        language: it
+      - title: Electronics
+        language: en
+  - icon:
+    link:
+    titles:
+      - title: Materiali e Nanotecnologie
+        language: it
+      - title: MatNano
+        language: en
+  - icon:
+    link:
+    titles:
+      - title: Mobility Eng
+        language: it
+      - title: Mobility Eng
+        language: en
+  - icon:
+    link:
+    titles:
+      - title: Automazione
+        language: it
+      - title: Automation
+        language: en
+  - icon:
+    link:
+    titles:
+      - title: Chimica
+        language: it
+      - title: Chemical
+        language: en

@@ -59,6 +59,31 @@ function applyMapping(item) {
     return item;
 }
 
+function search(el) {
+  //alert(el.value + queryOverheadYear + queryOverheadDegree + queryOverheadGroup + queryOverheadPlatform + queryOverheadLanguage);
+  //alert({class: el.value + queryOverheadYear + queryOverheadDegree + queryOverheadGroup + queryOverheadPlatform + queryOverheadLanguage});
+    //Search.search({ class: el.value + queryOverheadYear + queryOverheadDegree + queryOverheadGroup + queryOverheadPlatform + queryOverheadLanguage } , 20)
+    Search.search(searchParamMapper(el.value) , 20)
+        .then(data => {
+            if (data.length === 0) {
+                result_div.innerHTML = '<div class=\"result\"><div class="resultContainer"><a class="noResults" href="\https://t.me/PoliGruppo">There are no suggestions for your query. <i>Try asking here</i></a></div></div>';
+            }
+            else {
+                /*result_div.innerHTML = data
+                    .map(applyMapping)
+                    .map(genHtml)
+                    .join('');
+
+                 */
+                showSearchResults(data)
+            }
+
+            activateResultsDiv();
+        })
+        .catch(e => {
+            console.error(e);
+        });
+}
 
 function searchParamMapper(query) {
     let toReturnQuery = {class: query};
@@ -85,32 +110,11 @@ document.addEventListener('DOMContentLoaded', _ => {
 
     document.querySelectorAll('input[type="search"]').forEach(el => {
         const result_div = document.getElementById("searchResultsID");
-
-        el.addEventListener('keyup', _ => {
-          //alert(el.value + queryOverheadYear + queryOverheadDegree + queryOverheadGroup + queryOverheadPlatform + queryOverheadLanguage);
-          //alert({class: el.value + queryOverheadYear + queryOverheadDegree + queryOverheadGroup + queryOverheadPlatform + queryOverheadLanguage});
-            //Search.search({ class: el.value + queryOverheadYear + queryOverheadDegree + queryOverheadGroup + queryOverheadPlatform + queryOverheadLanguage } , 20)
-            Search.search(searchParamMapper(el.value) , 20)
-                .then(data => {
-                    if (data.length === 0) {
-                        result_div.innerHTML = '<div class=\"result\"><div class="resultContainer"><a class="noResults" href="\https://t.me/PoliGruppo">There are no suggestions for your query. <i>Try asking here</i></a></div></div>';
-                    }
-                    else {
-                        /*result_div.innerHTML = data
-                            .map(applyMapping)
-                            .map(genHtml)
-                            .join('');
-
-                         */
-                        showSearchResults(data)
-                    }
-
-                    activateResultsDiv();
-                })
-                .catch(e => {
-                    console.error(e);
-                });
-        })
+        el.addEventListener('keyup', _ => search(el))
+        const params = document.querySelectorAll('input[type="radio"]');
+        for (i = 0; i < params.length; i++) {
+          params[i].addEventListener("click", _ => search(el));
+        };
     })
 });
 
