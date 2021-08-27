@@ -1,23 +1,41 @@
 Upload
 
-Questa guida è stata redatta dagli admin di Ingegneria Informatica del PoliNetwork, raccogliendo opinioni di diversi studenti che hanno frequentato il corso. Ogni paragrafetto è un'opinione.
-Cliccate sul nome del corso per aprirne la pagina e leggere il programma dettagliato.
-Essendo, il secondo anno, in comune con Telecomunicazioni, è qui che,
-sulla base delle scelte tra i vari esami si decide quale percorso
-intraprendere tra i due. In particolare, nel primo semestre è presente, nel
-piano, un gruppo da 10CFU da comporre nel seguente modo a seconda
-del percorso scelto : <br>
-<span class="accent">Informatica:</span> LOGICA E ALGEBRA (5CFU) + (uno a scelta tra
-CHIMICA GENERALE, ONDE ELETTROMAGNETICHE E MEZZI
-TRASMISSIVI e MISURE) (5CFU)<br>
-<span class="accent">Telecomunicazioni:</span> ELETTROMAGNETISMO (10CFU)
+This guide was compiled by <a class="accent" href="https://t.me/eliamaggioni">@EliaMaggioni</a> to help you in the use of <a class="accent" href="https://t.me/PoliMaterial_bot">t.me/PoliMaterial_bot</a>.<br>
+The bot allows you to upload material directly into your course's GitLab folder to help your current and future colleagues.
+Uploading course-related material makes it easier for the future.<br>.
+Find all available courses <a class="accent" href="./view/">here</a>
 
-###Come caricare bla bla
+###How do I upload the material?
 TELEGRAM https://t.me/PoliMaterial_bot
 MANIFEST https://gitlab.com/polinetwork/
+To upload material, navigate the folders to your course of study using the buttons offered by the bot. Then select the year and navigate to the desired folder.
+When you've reached the point you want, click the "🆗 Current Folder" button.<br>
+At this point the bot is ready to accept your files, upload one or multiple files.<br>
+A notification will be sent to you when the files are uploaded, please wait 2 to 20 minutes before reporting a malfunction.
 
-###Dove vanno i file bla bla
+Please note, due to Telegram limitations, the maximum uploadable capacity is 20MB. We are working to increase it. In this case you will get an error message saying that
+that the bot can't upload the file, however an admin will take care of it by hand. Keep in mind that the time will be longer.
+
+###Where do the files go?
+MANIFEST https://gitlab.com/polinetwork/
+All files uploaded and approved by an admin end up in the GitLab folder selected during upload.<br>.
+You can find them all in the link above or in the <a href="./view" class="accent"> view</a> section.
+
+###How does approval work?
+Once you submit the file and receive confirmation from the bot, an admin will review the file to make sure it can be uploaded to the indicated location.<br>.
+If the verification is successful, the material will be approved, you will be notified by the bot and the material will appear in the course folder without your further actions.<br>
+If the verification fails, the material will be discarded. In case you have a non-hidden account, you will be contacted by the admin to inform you of the reasons, which can also be trivial as having the wrong upload folder.
 
 ###Copyright
+PoliNetwork and its admins do not assume any responsibility for the uploaded material, in fact it is the user's responsibility to upload free copyright material within the platform.
+Copyright free material inside the platform.
+The admins who approve the files will undertake to discard obviously pirated material such as photocopied books and texts.
+PoliNetwork provides only the platform and the uploading system, the contents are the sole responsibility of those who have uploaded them.
+<br> PoliNetwork provides only the platform and the uploading system, the contents within it are the sole responsibility of those who have uploaded them, who may at any time ask for removal through Pull Request on GitLab or by contacting one of the admins of your course.
 
-###Altro?
+Polinetwork assumes no responsibility and does not endorse, support or guarantee expressly or implicitly the completeness, truthfulness, accuracy or reliability of any of the content or those associated with it.
+
+You must not upload any copyrighted or copyrighted files in any form to PoliNetwork's GitLab repositories.
+
+
+Translated with www.DeepL.com/Translator (free version)
