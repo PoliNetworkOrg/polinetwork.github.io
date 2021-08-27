@@ -25,6 +25,7 @@
     --accent2:#f4c32b;
     --highlight: #1156ae;
     --searchHover: #dddddd;
+    --materialsbackground: #FFFFFF;
 }
 [data-theme=dark]{
     --tabbackground:#262626;
@@ -54,6 +55,7 @@
     --accent2hover:#BB8600;
     --highlight: #1156ae;
     --searchHover: #545454;
+    --materialsbackground: #161616;
 }
 
 navbar{

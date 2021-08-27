@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<body>
+    <div style="margin-top: 50px;"></div>
+    <div class="wrapper">
+        <div class="columnTwo">
+          {% for course in site.data.materialCourses.courses %}
+            {% for language in course.titles %}
+              {% if language.language == page.Lang %}
+                {% include hugebutton.html title=language.title icon=course.icon link=course.link %}
+              {% endif %}
+            {%endfor%}
+          {%endfor%}
+        </div>
+      </div>
