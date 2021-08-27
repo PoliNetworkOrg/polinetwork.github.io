@@ -1,41 +1,38 @@
 Upload
 
-This guide was compiled by <a class="accent" href="https://t.me/eliamaggioni">@EliaMaggioni</a> to help you in the use of <a class="accent" href="https://t.me/PoliMaterial_bot">t.me/PoliMaterial_bot</a>.<br>
-The bot allows you to upload material directly into your course's GitLab folder to help your current and future colleagues.
-Uploading course-related material makes it easier for the future.<br>.
-Find all available courses <a class="accent" href="./view/">here</a>
+Questa guida è stata redatta da <a class="accent" href="https://t.me/eliamaggioni">@EliaMaggioni</a> per aiutarvi nell'uso di <a class="accent" href="https://t.me/PoliMaterial_bot">t.me/PoliMaterial_bot</a>.<br>
+Il bot permette di caricare il materiale direttamente nella cartella GitLab del vostro corso di studi, per aiutare i vostri colleghi attuali e futuri.
+Caricare materiale inerente al corso lo rende più facile per chi lo seguirà dopo di te<br>
+Trovate tutti i corsi disponibili <a class="accent" href="./view/">qui</a>
 
-###How do I upload the material?
+###Come faccio a caricare il materiale?
 TELEGRAM https://t.me/PoliMaterial_bot
 MANIFEST https://gitlab.com/polinetwork/
-To upload material, navigate the folders to your course of study using the buttons offered by the bot. Then select the year and navigate to the desired folder.
-When you've reached the point you want, click the "🆗 Current Folder" button.<br>
-At this point the bot is ready to accept your files, upload one or multiple files.<br>
-A notification will be sent to you when the files are uploaded, please wait 2 to 20 minutes before reporting a malfunction.
+Per caricare il materiale, naviga le cartelle fino al tuo corso di studi tramite i tasti offerti dal bot. Seleziona poi l'anno e naviga fino alla cartella desiderata.
+Quando hai raggiunto il punto da te desiderato, clicca il tasto "🆗 Cartella Corrente".<br>
+A questo punto il bot è pronto per accettare i tuoi file, caricane uno o multipli.<br>
+Ti sarà inviata una notifica quando i file saranno caricati, attendi dai 2 a 20 minuti prima di segnalare un malfunzionamento.
 
-Please note, due to Telegram limitations, the maximum uploadable capacity is 20MB. We are working to increase it. In this case you will get an error message saying that
-that the bot can't upload the file, however an admin will take care of it by hand. Keep in mind that the time will be longer.
+Nota bene, per limitazioni di Telegram, la capacità massima caricabile è 20MB. Stiamo lavorando per aumentarla. In questo caso ti sarà inviato un messaggio di errore segnalandoti
+che il bot non può caricare il file, tuttavia un admin se ne occuperà a mano. Tieni in considerazione che i tempi saranno più lunghi.
 
-###Where do the files go?
+###Dove vanno a finire i file?
 MANIFEST https://gitlab.com/polinetwork/
-All files uploaded and approved by an admin end up in the GitLab folder selected during upload.<br>.
-You can find them all in the link above or in the <a href="./view" class="accent"> view</a> section.
+Tutti i file caricati ed approvati da un admin finiscono nella cartella GitLab selezionata in fase di caricamento.<br>
+Le trovi tutte nel link qui sopra o nella sezione <a href="./view" class="accent"> visualizza</a>.
 
-###How does approval work?
-Once you submit the file and receive confirmation from the bot, an admin will review the file to make sure it can be uploaded to the indicated location.<br>.
-If the verification is successful, the material will be approved, you will be notified by the bot and the material will appear in the course folder without your further actions.<br>
-If the verification fails, the material will be discarded. In case you have a non-hidden account, you will be contacted by the admin to inform you of the reasons, which can also be trivial as having the wrong upload folder.
+###Come funziona l'approvazione?
+Una volta inviato il file e ricevuta conferma dal bot, un admin visionerà il file per assicurarsi che possa essere caricato nella posizione indicata.<br>
+Se la verifica va a buon fine, il materiale sarà approvato, ti verrà inviata una notifica dal bot ed il materiale comparirà nella cartella del corso senza tue ulteriori azioni.<br>
+Se la verifica fallisce, il materiale sarà scartato. Nel caso tu abbia un account non nascosto, verrai contattato dall'admin per informarti delle motivazioni, che possono essere anche banali come aver sbagliato cartella di caricamento.
 
 ###Copyright
-PoliNetwork and its admins do not assume any responsibility for the uploaded material, in fact it is the user's responsibility to upload free copyright material within the platform.
-Copyright free material inside the platform.
-The admins who approve the files will undertake to discard obviously pirated material such as photocopied books and texts.
-PoliNetwork provides only the platform and the uploading system, the contents are the sole responsibility of those who have uploaded them.
-<br> PoliNetwork provides only the platform and the uploading system, the contents within it are the sole responsibility of those who have uploaded them, who may at any time ask for removal through Pull Request on GitLab or by contacting one of the admins of your course.
+PoliNetwork e i suoi admin non si assimono nessuna responsabilità del materiale caricato, infatti è responsabilità dell'utente caricare materiale
+Copyright free all'interno della piattaforma.<br>
+Gli admin che approvano i file si impegneranno a scartare materiale evidentemente piratato quali libri fotocopiati e testi.<br>
+PoliNetwork fornisce esclusivamente la piattaforma e il sistema di caricamento, i contenuti al suo interno sono responsabilità unicamente
+di coloro li hanno caricati, che possono in qualsiasi momento chiederne la rimozione tramite Pull Request su GitLab o contattando uno degli admin del proprio corso.
 
-Polinetwork assumes no responsibility and does not endorse, support or guarantee expressly or implicitly the completeness, truthfulness, accuracy or reliability of any of the content or those associated with it.
+Polinetwork non si assume alcuna responsabilità e non approva, sostiene o garantisce espressamente o implicitamente la completezza, la veridicità, l'accuratezza o l'affidabilità di nessuno dei contenuti o di quelli ad esso associati.
 
-You must not upload any copyrighted or copyrighted files in any form to PoliNetwork's GitLab repositories.
-
-
-Translated with www.DeepL.com/Translator (free version)
+Non devi caricare nessun file di protetto da copyright o diritti di autore in qualsiasi forma sulle repository GitLab di PoliNetwork.
