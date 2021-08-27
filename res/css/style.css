@@ -267,7 +267,7 @@
 
 .struttura h2 {
     padding-top: 20px;
-    color: var(--green);
+    color: var(--accent);
 }
 
 .noCenter h1 {
@@ -276,7 +276,7 @@
 
 .struttura h1 {
     padding-top: 20px;
-    color: var(--green);
+    color: var(--accent);
     text-align: center;
 }
 
@@ -285,19 +285,19 @@
 }
 
 .struttura h3 {
-    color: var(--orange);
+    color: var(--accent1);
 }
 
 .struttura a {
-    color: var(--green);
+    color: var(--accent);
 }
 
 .struttura h4 {
-    color: var(--orange);
+    color: var(--accent1);
 }
 
 .AccentRules {
-    color: var(--green) !Important;
+    color: var(--accent) !Important;
 }
 
 .plainRules {
@@ -416,11 +416,6 @@
     padding-bottom: 2px;
 }
 
-.yellow{
-    background-color: #f4c32b;
-    color: var(--maintext);
-}
-
 .cardLink {
     margin: auto;
 }
@@ -472,26 +467,34 @@ li {
 }
 
 .highlight {
-    color: #0a4d89ff;
+    color: var(--highlight);
 }
 
-.green {
-    background-color: var(--green);
+.accent {
+    background-color: var(--accent);
     color: var(--mainbackground);
 }
 
-.green.clickable:hover {
-    background-color: var(--greenhover);
+.accent.clickable:hover {
+    background-color: var(--accenthover);
 }
 
-.orange {
-    background-color: var(--orange);
+.accent1 {
+    background-color: var(--accent1);
     color: var(--mainbackground);
 }
 
-.orange.clickable:hover {
-    background-color: var(--orangehover);
+.accent1.clickable:hover {
+    background-color: var(--accent1hover);
+}
 
+.accent2{
+    background-color:  var(--accent2);
+    color: var(--mainbackground);
+}
+
+.accent2.clickable:hover{
+    background-color:  var(--accent2hover);
 }
 
 .button:hover {
@@ -677,7 +680,7 @@ input, select {
 }
 
 .textSecondaryColor {
-    color: var(--green);
+    color: var(--accent);
 }
 
 .footerSection p {
@@ -863,12 +866,6 @@ input, select {
 
 }
 
-.cardLink {
-}
-
-.cardLink:hover {
-    color: var(--accenttext);
-}
 
 .horizontalSocial {
     display: grid;
