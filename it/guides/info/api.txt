@@ -204,7 +204,7 @@ Warning: lo spazio è considerato come carattere, quindi diff dirà che due righ
                   ignore white space at line end</code></pre>
 
 
-Come scarico Valgrind? A cosa serve?
+### Come scarico Valgrind? A cosa serve?
 
 Valgrind è un tool che serve per monitorare la memoria utilizzata dal tuo programma. E’ molto utile per scovare i cosiddetti leaks, ovvero quando viene perso completamente il riferimento (puntatore) e non è più possibile fare la free su un determinato oggetto. Per evitare di sforare i limiti di memoria dei vari test conviene utilizzare fin da subito Valgrind.
 
