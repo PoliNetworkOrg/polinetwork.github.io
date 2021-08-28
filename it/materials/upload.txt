@@ -26,6 +26,10 @@ Una volta inviato il file e ricevuta conferma dal bot, un admin visionerà il fi
 Se la verifica va a buon fine, il materiale sarà approvato, ti verrà inviata una notifica dal bot ed il materiale comparirà nella cartella del corso senza tue ulteriori azioni.<br>
 Se la verifica fallisce, il materiale sarà scartato. Nel caso tu abbia un account non nascosto, verrai contattato dall'admin per informarti delle motivazioni, che possono essere anche banali come aver sbagliato cartella di caricamento.
 
+###Il mio corso non è presente, come mai?
+Non tutti i corsi sono presenti perché non tutti i capi admin hanno aderito al progetto. Se vuoi collaborare con noi per rendere PoliMaterial disponibile
+nel tuo corso di studi, puoi invitare il tuo capo admin a contattarci (per sapere chi è il tuo capo admin, consulta <a class="accent" href="../learnmore/about_us/">questa pagina</a>) o se hai del materiale con cui vorresti inizializzare la cartella, contattaci tu stesso!
+
 ###Copyright
 PoliNetwork e i suoi admin non si assimono nessuna responsabilità del materiale caricato, infatti è responsabilità dell'utente caricare materiale
 Copyright free all'interno della piattaforma.<br>

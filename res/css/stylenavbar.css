@@ -26,6 +26,8 @@
     --highlight: #1156ae;
     --searchHover: #dddddd;
     --materialsbackground: #FFFFFF;
+    --assocButtonColor: #FFFFFF;
+    --assocButtonHover: #FFFFFF;
 }
 [data-theme=dark]{
     --tabbackground:#262626;
@@ -56,6 +58,8 @@
     --highlight: #1156ae;
     --searchHover: #545454;
     --materialsbackground: #161616;
+    --assocButtonColor: #EFEFEF;
+    --assocButtonHover: #D7D7D7;
 }
 
 navbar{

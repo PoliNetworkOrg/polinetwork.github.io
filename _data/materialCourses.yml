@@ -1,48 +1,48 @@
 courses:
   - icon: fab fa-skyatlas
-    link:
+    link: https://gitlab.com/polinetwork/info
     titles:
       - title: Informatica
         language: it
       - title: Computer Eng
         language: en
   - icon:
-    link:
+    link: https://gitlab.com/polinetwork/AES
     titles:
       - title: Aerospaziale
         language: it
       - title: Aerospace
         language: en
   - icon:
-    link:
+    link: https://gitlab.com/polinetwork/elettronica
     titles:
       - title: Elettronica
         language: it
       - title: Electronics
         language: en
   - icon:
-    link:
+    link: https://gitlab.com/polinetwork/matnano
     titles:
       - title: Materiali e Nanotecnologie
         language: it
       - title: MatNano
         language: en
   - icon:
-    link:
+    link: https://gitlab.com/polinetwork/mobilityMD
     titles:
       - title: Mobility Eng
         language: it
       - title: Mobility Eng
         language: en
   - icon:
-    link:
+    link: https://gitlab.com/polinetwork/automazione
     titles:
       - title: Automazione
         language: it
       - title: Automation
         language: en
   - icon:
-    link:
+    link: https://gitlab.com/polinetwork/chimica
     titles:
       - title: Chimica
         language: it
