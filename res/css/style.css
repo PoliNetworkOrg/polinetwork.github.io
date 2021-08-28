@@ -200,6 +200,25 @@
 }
 /* ASSOC */
 
+.accentWhite{
+  background-color: var(--assocButtonColor);
+  color: #5f6368;
+  border: 1px solid;
+  border-color: var(--maintext);
+}
+
+.accentWhite:hover{
+  background-color: var(--assocButtonHover);
+}
+
+.accentWhiteText:hover{
+  color: #5f6368;
+}
+
+.accentWhiteText{
+  color: #5f6368;
+}
+
 .assocFooter {
     text-align: center;
     padding: 20px 20px 20px 20px;
