@@ -28,6 +28,8 @@
     --materialsbackground: #FFFFFF;
     --assocButtonColor: #FFFFFF;
     --assocButtonHover: #FFFFFF;
+    --displayLightToggle: none;
+    --displayNightToggle: flex;
 }
 [data-theme=dark]{
     --tabbackground:#262626;
@@ -60,11 +62,42 @@
     --materialsbackground: #161616;
     --assocButtonColor: #EFEFEF;
     --assocButtonHover: #D7D7D7;
+    --displayNightToggle: none;
+    --displayLightToggle: flex;
+}
+
+.dark--hidden{
+  display: var(--displayNightToggle) !important;
+
+}
+
+.light--hidden{
+  display: var(--displayLightToggle) !important;
 }
 
 navbar{
     background:rgba(0,0,0,0)
 }
+.navbarIcon{
+  padding: 0 10px 0 10px;
+  font-size: 1.2em;
+}
+.color-mode__btn {
+    color: var(--maintext);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    margin: auto;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1;
+    cursor: pointer;
+    background: none;
+    border: none;
+    border-radius: 50px;
+}
+
 .navbarBig{
     z-index:5;
     position: relative;
@@ -614,7 +647,6 @@ input:checked+.slider:before{
 }
 
 .dropdown{
-    padding-left:20px;
     pointer-events: all;
 }
 
@@ -705,5 +737,8 @@ input:checked+.slider:before{
     }
     .switchdiv{
         display:none
+    }
+    .desktopToggler{
+        display:none !important;
     }
 }

@@ -938,6 +938,7 @@ input, select {
 
 .footerWrapper {
     padding-top: 20px;
+    padding-bottom: 25px;
     max-width: 900px;
     margin: 0 auto;
 }
