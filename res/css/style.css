@@ -60,6 +60,18 @@
 
 .bigButtonLink {
     padding: 1em 2em;
+    display: flex;
+}
+
+.bigButtonIcon{
+  margin: auto;
+  font-size: 3em;
+  padding-right: 1em;
+}
+
+.bigButtonText{
+  display: inline-block;
+  width: 80%;
 }
 
 /* BUTTON MATRIX */
