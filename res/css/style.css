@@ -1,7 +1,7 @@
 /* MATERIALS */
 
 .materialFontColor{
-  color: var(--accent);
+  color: var(--maintext);
 }
 
 .materialtopCard{
@@ -39,7 +39,7 @@
 
 .materialsIcon{
   margin: auto;
-  color: var(--maintext);
+  color: var(--accent1);
 }
 
 .materialsText{
