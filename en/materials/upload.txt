@@ -26,6 +26,12 @@ Once you submit the file and receive confirmation from the bot, an admin will re
 If the verification is successful, the material will be approved, you will be notified by the bot and the material will appear in the course folder without further actions from you.<br>
 If the verification fails, the material will be discarded. In case you have a non-hidden account, you will be contacted by the admin to inform you of the reasons, which can also be trivial as having selected the wrong upload folder.
 
+
+###My course is not present, how come?
+Not all courses are present because not all chief admins have joined the project. If you want to collaborate with us to make PoliMaterial available
+in your course, you can invite your head admin to contact us (to find out who your head admin is, see <a class="accent" href="../learnmore/about_us/">this page</a>) or if you have material you'd like to initialize the folder with, contact us yourself!
+
+
 ###Copyright
 PoliNetwork and its admins do not assume any responsibility for the uploaded material, in fact it is the user's responsibility to upload copyright free material within the platform.
 The admin who approve the files will undertake to discard obviously pirated material such as photocopied books and texts.
