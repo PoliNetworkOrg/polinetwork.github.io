@@ -18,10 +18,23 @@ layout: default
 
 <script>
 
+  let params = (new URL(document.location)).searchParams;
+  let bug = params.get("bug");
+  let bugActive = false
+  let iconsR = document.getElementsByClassName("materialsRicon");
+  let iconsF = document.getElementsByClassName("materialsFicon");
+  
+  if(bug != null && bug == "true"){
+    bugMode();
+  }
+
   function bugMode(){
-    for (var i = 0; i < iconsR.length; i++) {
-      iconsR[i].classList.add("hidden");
-      iconsF[i].classList.remove("hidden");
+    if(bugActive == false){
+      for (var i = 0; i < iconsR.length; i++) {
+        bugActive = true;
+        iconsR[i].classList.add("hidden");
+        iconsF[i].classList.remove("hidden");
+      }
     }
   }
 
@@ -29,10 +42,9 @@ layout: default
     return Math.floor(Math.random() * max);
   }
 
-  let iconsR = document.getElementsByClassName("materialsRicon");
-  let iconsF = document.getElementsByClassName("materialsFicon");
   if(getRandomInt(20) == 0){
     bugMode();
+    document.getElementById("materialsBug").classList.add("hidden");
   }
 
   document.getElementById("materialsBug").addEventListener('click', activateBugMode, false);
