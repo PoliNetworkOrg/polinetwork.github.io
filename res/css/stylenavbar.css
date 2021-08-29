@@ -646,7 +646,7 @@ input:checked+.slider:before{
     border-radius:50%
 }
 
-.dropdown{
+.mobileNightMode{
     pointer-events: all;
 }
 
@@ -656,7 +656,7 @@ input:checked+.slider:before{
     margin-bottom: 0;
 }
 @media screen and (min-width: 1000px){
-    .dropdown{
+    .mobileNightMode{
         display:none;
     }
 }
