@@ -8,6 +8,9 @@ body{
   color: var(--maintext);
 }
 
+.materialsFicon{
+  pointer-events:none;
+}
 
 .materialtopCard{
   display: grid;
@@ -120,6 +123,7 @@ body{
   left: 0;
   right: 0;
   text-align: center;
+  z-index: 1
 }
 
 .hugeButtonOverflow{
