@@ -60,7 +60,7 @@
 }
 
 .materialsBug:hover{
-  cursor: none;
+  cursor: grab;
 }
 
 .materialsIcon{
