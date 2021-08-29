@@ -30,6 +30,7 @@
     --assocButtonHover: #FFFFFF;
     --displayLightToggle: none;
     --displayNightToggle: flex;
+    --bugColor: #FFFFFF
 }
 [data-theme=dark]{
     --tabbackground:#262626;
@@ -64,6 +65,7 @@
     --assocButtonHover: #D7D7D7;
     --displayNightToggle: none;
     --displayLightToggle: flex;
+    --bugColor: #161616;
 }
 
 .dark--hidden{
