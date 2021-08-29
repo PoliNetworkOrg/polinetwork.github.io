@@ -8,6 +8,7 @@ courses:
       - title: Computer Eng
         language: en
   - icon: fas fa-rocket
+    ficon: fas fa-broom
     link: https://gitlab.com/polinetwork/AES
     titles:
       - title: Aerospaziale
@@ -15,6 +16,7 @@ courses:
       - title: Aerospace
         language: en
   - icon: fas fa-microchip
+    ficon: fas fa-plug
     link: https://gitlab.com/polinetwork/elettronica
     titles:
       - title: Elettronica
@@ -22,6 +24,7 @@ courses:
       - title: Electronics
         language: en
   - icon: fas fa-atom
+    ficon: fab fa-pied-piper-alt
     link: https://gitlab.com/polinetwork/matnano
     titles:
       - title: MatNano
@@ -29,6 +32,7 @@ courses:
       - title: MatNano
         language: en
   - icon: fas fa-subway
+    ficon: fas fa-car-crash
     link: https://gitlab.com/polinetwork/mobilityMD
     titles:
       - title: Mobility Eng
@@ -36,6 +40,7 @@ courses:
       - title: Mobility Eng
         language: en
   - icon: fas fa-cogs
+    ficon: fas fa-head-side-mask
     link: https://gitlab.com/polinetwork/automazione
     titles:
       - title: Automazione
@@ -43,6 +48,7 @@ courses:
       - title: Automation
         language: en
   - icon: fas fa-vials
+    ficon: fas fa-biohazard
     link: https://gitlab.com/polinetwork/chimica
     titles:
       - title: Chimica
