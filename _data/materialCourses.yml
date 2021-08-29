@@ -23,7 +23,7 @@ courses:
   - icon: fas fa-atom
     link: https://gitlab.com/polinetwork/matnano
     titles:
-      - title: Materiali e Nanotecnologie
+      - title: MatNano
         language: it
       - title: MatNano
         language: en
