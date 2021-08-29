@@ -45,8 +45,24 @@
 
 .RUNNN{
   animation:
-    x 2s linear,
-    y 2s cubic-bezier(.1,.46,.99,.6);
+    x-bug 2s linear,
+    y-bug 2s cubic-bezier(.1,.46,.99,.6);
+  animation-fill-mode: forwards;
+}
+
+.materialPlane{
+  font-size: 4em;
+  position: absolute;
+  left:120vw;
+  color: var(--maintext);
+  transform: rotate(180deg);
+  z-index: 10;
+}
+
+.FLYYY{
+  animation:
+    x-plane 2s linear,
+    y-plane 2s cubic-bezier(.67,.05,.44,.76);
   animation-fill-mode: forwards;
 }
 
@@ -86,7 +102,25 @@
   padding-bottom: 20px;
 }
 
-@keyframes x {
+@keyframes x-plane {
+  20%{
+    left:120vw;
+  }
+   to {
+     left:-20vw;
+   }
+}
+
+@keyframes y-plane {
+  20%{
+    top:15vw;
+  }
+   to {
+     top:30vw;
+   }
+}
+
+@keyframes x-bug {
   from {
     transform: rotate(180deg);
   }
@@ -99,7 +133,7 @@
      transform: rotate(160deg);
    }
 }
-@keyframes y {
+@keyframes y-bug {
   20%{
     top:60px;
   }
