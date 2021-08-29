@@ -1,5 +1,6 @@
 courses:
   - icon: fas fa-server
+    ficon: fab fa-galactic-senate
     link: https://gitlab.com/polinetwork/info
     titles:
       - title: Informatica

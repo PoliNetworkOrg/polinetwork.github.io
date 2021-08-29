@@ -2,15 +2,30 @@
 layout: default
 ---
 <body>
+  <i class="fas fa-bug materialsBug"></i>
     <div style="margin-top: 50px;"></div>
     <div class="wrapper">
         <div class="columnTwo">
           {% for course in site.data.materialCourses.courses %}
             {% for language in course.titles %}
               {% if language.language == page.Lang %}
-                {% include hugebutton.html title=language.title icon=course.icon link=course.link %}
+                {% include hugebutton.html title=language.title icon=course.icon link=course.link ficon=course.ficon %}
               {% endif %}
             {%endfor%}
           {%endfor%}
         </div>
       </div>
+
+<script>
+  function getRandomInt(max) {
+  return Math.floor(Math.random() * max);
+  }
+  let iconsR = document.getElementsByClassName("materialsRicon");
+  let iconsF = document.getElementsByClassName("materialsFicon");
+  if(getRandomInt(20) == 0){
+    for (var i = 0; i < iconsR.length; i++) {
+      iconsR[i].classList.add("hidden");
+      iconsF[i].classList.remove("hidden");
+    }
+  }
+</script>

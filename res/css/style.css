@@ -12,6 +12,7 @@
   border: none;
   color: white;
   transition: 0.1s;
+  border-radius: 1em;
 }
 
 .materialtopCard:hover{
@@ -38,6 +39,18 @@
   margin: auto;
 }
 
+.hidden{
+  display: none;
+}
+
+.materialsBug{
+  font-size: 2em;
+  position: absolute;
+  top:60px;
+  right:10px;
+  color: var(--tabbackground);
+}
+
 .materialsIcon{
   margin: auto;
   color: var(--maintext);
@@ -47,7 +60,6 @@
   left: 0;
   right: 0;
   text-align: center;
-  z-index: 10;
 }
 
 .hugeButtonOverflow{
