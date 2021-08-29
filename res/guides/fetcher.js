@@ -28,8 +28,8 @@ fetch(filelocation.split('/').pop().split('.')[0] + '.txt')
     path = window.location.pathname.split('/');
     if(path.length > 4)
       doc = '<body><div class="wrapper"><h2>.<span class="accent">/</span><a class="" href="/">PoliNetwork</a><span class="accent">/</span><a class="" href="../">' + capitalizeFirstLetter(path[2]) + '</a><span class="accent">/</span><a class="" href="./">' + capitalizeFirstLetter(path[3]) + '</a><span class="accent">/</span></h2><div class="title"><h1>'
-    if(path.length > 3)
-      doc = '<body><div class="wrapper"><h2>.<span class="accent">/</span><a class="" href="/">PoliNetwork</a><span class="accent">/</span><a class="" href="../">' + capitalizeFirstLetter(path[2]) + '</a><span class="accent">/</span></h2><div class="title"><h1>'
+    else if(path.length > 3)
+      doc = '<body><div class="wrapper"><h2>.<span class="accent">/</span><a class="" href="/">PoliNetwork</a><span class="accent">/</span><a class="" href="./">' + capitalizeFirstLetter(path[2]) + '</a><span class="accent">/</span></h2><div class="title"><h1>'
     document.title = lines[0]
     doc += lines[0]
     doc += '</h1></div>'

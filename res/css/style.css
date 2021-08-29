@@ -108,6 +108,12 @@
    }
 }
 
+@media screen and (max-width: 1000px){
+    .materialsBug{
+          display:none;
+    }
+}
+
 /* BIG BUTTON */
 
 .cardButton {
