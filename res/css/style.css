@@ -55,7 +55,7 @@
   position: absolute;
   top:60px;
   right:10px;
-  color: var(--tabbackground);
+  color: var(--bugColor);
   transform: rotate(180deg);
 }
 
