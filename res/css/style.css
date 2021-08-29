@@ -54,13 +54,32 @@ body{
   animation-fill-mode: forwards;
 }
 
-.materialPlane{
+.materialsPNimg{
+  width: 3em;
+}
+
+.materialsPN{
+  position: absolute;
+  left:120vw;
+  color: var(--maintext);
+  z-index: 10;
+}
+
+.materialsPlane{
   font-size: 4em;
   position: absolute;
   left:120vw;
   color: var(--maintext);
   transform: rotate(180deg);
   z-index: 10;
+}
+
+.FLYYY--plane{
+  animation:
+    x-plane 2s linear,
+    y-plane 2s cubic-bezier(.67,.05,.44,.76);
+  animation-fill-mode: forwards;
+  animation-delay: 0.3s;
 }
 
 .FLYYY{
