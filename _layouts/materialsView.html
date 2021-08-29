@@ -25,6 +25,7 @@ layout: default
   let bugActive = false
   let iconsR = document.getElementsByClassName("materialsRicon");
   let iconsF = document.getElementsByClassName("materialsFicon");
+  document.getElementById("materialsBug").addEventListener('click', activateBugMode, false);
 
   if(bug != null && bug == "true"){
     document.getElementById("materialsBug").classList.add("hidden");
@@ -37,6 +38,9 @@ layout: default
         bugActive = true;
         iconsR[i].classList.add("hidden");
         iconsF[i].classList.remove("hidden");
+        //iconsF[i].addEventListener('hover', function(){
+        //    moveIcon(iconsF[i]);
+        //}, false);
       }
       document.getElementById("materialsPlane").classList.add("FLYYY--plane");
       document.getElementById("materialsPN").classList.add("FLYYY");
@@ -51,8 +55,6 @@ layout: default
     bugMode();
     document.getElementById("materialsBug").classList.add("hidden");
   }
-
-  document.getElementById("materialsBug").addEventListener('click', activateBugMode, false);
 
   function activateBugMode(){
     document.getElementById("materialsBug").classList.add("RUNNN");
