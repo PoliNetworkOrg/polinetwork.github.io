@@ -2,7 +2,7 @@
 layout: default
 ---
 <body>
-  <i class="fas fa-bug materialsBug" id="materialsBug"></i>
+  <i class="fas fa-bug materialsBug shake" id="materialsBug"></i>
   <i class="fas fa-fighter-jet materialsPlane" id="materialsPlane"></i>
   <div class="materialsPN" id="materialsPN"><img src="/res/images/polinetwork.png" alt="PoliNetwork" class="materialsPNimg"></div>
     <div style="margin-top: 50px;"></div>
@@ -27,6 +27,7 @@ layout: default
   let iconsF = document.getElementsByClassName("materialsFicon");
 
   if(bug != null && bug == "true"){
+    document.getElementById("materialsBug").classList.add("hidden");
     bugMode();
   }
 
@@ -55,6 +56,7 @@ layout: default
 
   function activateBugMode(){
     document.getElementById("materialsBug").classList.add("RUNNN");
+    document.getElementById("materialsBug").classList.remove("shake");
     bugMode()
   }
 
