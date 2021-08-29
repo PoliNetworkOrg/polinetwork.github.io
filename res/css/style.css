@@ -1,4 +1,5 @@
 body{
+  position: relative;
 }
 
 /* MATERIALS */
@@ -901,7 +902,7 @@ input, select {
 }
 
 .projectsPadding {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .topCardProjects {
