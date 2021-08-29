@@ -3,8 +3,8 @@ layout: default
 ---
 <body>
   <i class="fas fa-bug materialsBug" id="materialsBug"></i>
-  <i class="fas fa-fighter-jet materialsPlane FLYYY--plane"></i>
-  <div class="materialsPN FLYYY"><img src="/res/images/polinetwork.png" alt="PoliNetwork" class="materialsPNimg"></div>
+  <i class="fas fa-fighter-jet materialsPlane" id="materialsPlane"></i>
+  <div class="materialsPN" id="materialsPN"><img src="/res/images/polinetwork.png" alt="PoliNetwork" class="materialsPNimg"></div>
     <div style="margin-top: 50px;"></div>
     <div class="wrapper">
         <div class="columnTwo">
@@ -37,6 +37,8 @@ layout: default
         iconsR[i].classList.add("hidden");
         iconsF[i].classList.remove("hidden");
       }
+      document.getElementById("materialsPlane").classList.add("FLYYY--plane");
+      document.getElementById("materialsPN").classList.add("FLYYY");
     }
   }
 

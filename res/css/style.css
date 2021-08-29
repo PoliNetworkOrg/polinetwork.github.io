@@ -76,16 +76,16 @@ body{
 
 .FLYYY--plane{
   animation:
-    x-plane 2s linear,
-    y-plane 2s cubic-bezier(.67,.05,.44,.76);
+    x-plane 2.5s linear,
+    y-plane 2.5s cubic-bezier(.67,.05,.44,.76);
   animation-fill-mode: forwards;
   animation-delay: 0.3s;
 }
 
 .FLYYY{
   animation:
-    x-plane 2s linear,
-    y-plane 2s cubic-bezier(.67,.05,.44,.76);
+    x-plane 2.5s linear,
+    y-plane 2.5s cubic-bezier(.67,.05,.44,.76);
   animation-fill-mode: forwards;
 }
 
