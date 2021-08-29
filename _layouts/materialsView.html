@@ -2,7 +2,7 @@
 layout: default
 ---
 <body>
-  <i class="fas fa-bug materialsBug"></i>
+  <i class="fas fa-bug materialsBug" id="materialsBug"></i>
     <div style="margin-top: 50px;"></div>
     <div class="wrapper">
         <div class="columnTwo">
@@ -17,15 +17,29 @@ layout: default
       </div>
 
 <script>
-  function getRandomInt(max) {
-  return Math.floor(Math.random() * max);
-  }
-  let iconsR = document.getElementsByClassName("materialsRicon");
-  let iconsF = document.getElementsByClassName("materialsFicon");
-  if(getRandomInt(20) == 0){
+
+  function bugMode(){
     for (var i = 0; i < iconsR.length; i++) {
       iconsR[i].classList.add("hidden");
       iconsF[i].classList.remove("hidden");
     }
   }
+
+  function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
+  }
+
+  let iconsR = document.getElementsByClassName("materialsRicon");
+  let iconsF = document.getElementsByClassName("materialsFicon");
+  if(getRandomInt(20) == 0){
+    bugMode();
+  }
+
+  document.getElementById("materialsBug").addEventListener('click', activateBugMode, false);
+
+  function activateBugMode(){
+    document.getElementById("materialsBug").classList.add("RUNNN");
+    bugMode()
+  }
+
 </script>

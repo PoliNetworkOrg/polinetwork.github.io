@@ -43,12 +43,24 @@
   display: none;
 }
 
+.RUNNN{
+  animation:
+    x 2s linear,
+    y 2s cubic-bezier(.1,.46,.99,.6);
+  animation-fill-mode: forwards;
+}
+
 .materialsBug{
   font-size: 2em;
   position: absolute;
   top:60px;
   right:10px;
   color: var(--tabbackground);
+  transform: rotate(180deg);
+}
+
+.materialsBug:hover{
+  cursor: none;
 }
 
 .materialsIcon{
@@ -72,6 +84,28 @@
   text-align: center;
   transition: 0.3s;
   padding-bottom: 20px;
+}
+
+@keyframes x {
+  from {
+    transform: rotate(180deg);
+  }
+  20% {
+    transform: rotate(160deg);
+    right:10px;
+  }
+   to {
+     right:-40px;
+     transform: rotate(160deg);
+   }
+}
+@keyframes y {
+  20%{
+    top:60px;
+  }
+   to {
+     top:90px;
+   }
 }
 
 /* BIG BUTTON */
