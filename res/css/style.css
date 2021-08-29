@@ -4,6 +4,7 @@
   color: var(--maintext);
 }
 
+
 .materialtopCard{
   display: grid;
   grid-template-rows: 5fr 3fr;
@@ -39,7 +40,18 @@
 
 .materialsIcon{
   margin: auto;
-  color: var(--accent1);
+  color: var(--maintext);
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 10;
+}
+
+.hugeButtonOverflow{
+  overflow:visible !important;
 }
 
 .materialsText{
