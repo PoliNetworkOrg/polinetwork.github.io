@@ -39,36 +39,19 @@
             {% endif %}
             <i class="navbarIcon fas fa-moon"></i>
           </button>
-          <div class="dropdown">
-              <button class="dropbtn"><i class="fa fa-bars"></i></button>
-              <div class="dropdown-content">
-                  <div class="ptitlesubcontainer">
-                    <button
-                        class="color-mode__btn light--hidden"
-                        aria-label="Toggle light mode"
-                        id="darkmodeinputID">
-                        {% if page.Lang == "en" %}
-                        Toggle&nbspLight&nbspMode
-                        {% endif %}
-                        {% if page.Lang == "it" %}
-                        Abilita&nbspLight&nbspMode
-                        {% endif %}
-                        <i class="navbarIcon fas fa-sun"></i>
-                      </button>
-                      <button
-                        class="color-mode__btn dark--hidden"
-                        aria-label="Toggle dark mode"
-                        id="darkmodeinputID2">
-                        {% if page.Lang == "en" %}
-                        Toggle&nbspDark&nbspMode
-                        {% endif %}
-                        {% if page.Lang == "it" %}
-                        Abilita&nbspDark&nbspMode
-                        {% endif %}
-                        <i class="navbarIcon fas fa-moon"></i>
-                      </button>
-                  </div>
-              </div>
+          <div class="mobileNightMode">
+            <button
+                class="color-mode__btn light--hidden"
+                aria-label="Toggle light mode"
+                id="darkmodeinputID">
+                <i class="navbarIcon fas fa-sun"></i>
+              </button>
+              <button
+                class="color-mode__btn dark--hidden"
+                aria-label="Toggle dark mode"
+                id="darkmodeinputID2">
+                <i class="navbarIcon fas fa-moon"></i>
+              </button>
           </div>
         <!--
         <div class="darkButton">
