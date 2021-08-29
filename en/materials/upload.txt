@@ -2,7 +2,7 @@ Upload
 
 This guide was compiled by <a class="accent" href="https://t.me/eliamaggioni">@EliaMaggioni</a> to help you in the use of <a class="accent" href="https://t.me/PoliMaterial_bot">t.me/PoliMaterial_bot</a>.<br>
 The bot allows you to upload material directly into your course's GitLab folder to help your current and future colleagues.
-Uploading course-related material makes it easier for those who will take it after you<br>.
+Uploading course-related material makes it easier for those who will take it after you.<br>
 Find all available courses <a class="accent" href="./view/">here</a>
 
 ###How do I upload materials?
