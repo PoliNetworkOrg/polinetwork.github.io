@@ -35,7 +35,7 @@
 [data-theme=dark]{
     --tabbackground:#171717;
     --mainbackground:#121212;
-    --maintext:#e1e1ff;
+    --maintext:#c4c4c4;
     --accenttext: #121212;
     --colortitle:white;
     --colordarktext:#57a3ea;
@@ -51,11 +51,11 @@
     --calcagnocolor:#f1f3f4;
     --calcagnotesto:#121212;
     --whiteclickable:#1d1d1d;
-    --whitehover:#4e4e4ef8;
+    --whitehover:#1f1f1f;
     --accent:#EEDCB8;
-    --accenthover: #B37610;
+    --accenthover: #E6D0A6;
     --accent1:#4B8C7D;
-    --accent1hover: #57a3ea;
+    --accent1hover: #3F7468;
     --accent2:#BB86FC;
     --accent2hover:#BB8600;
     --highlight: #1156ae;
@@ -521,13 +521,7 @@ header{
   grid-column: 3;
   margin-left: 0px !important;
 }
-#card{
-    border-radius:3px;
-    -webkit-box-shadow:0 1px 2px 0 rgba(60,64,67,.3),0 2px 6px 2px rgba(60,64,67,.15);
-    box-shadow:0 1px 2px 0 rgba(60,64,67,.3),0 2px 6px 2px rgba(60,64,67,.15);
-    vertical-align:top;
-    margin-bottom:40px
-}
+
 body,html{
     background-color:var(--mainbackground);
     color:var(--maintext);
