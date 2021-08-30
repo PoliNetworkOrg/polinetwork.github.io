@@ -457,7 +457,8 @@ header{
     grid-template-columns: 1fr 2fr 1fr;
     width:100%;
     box-shadow:var(--shadow);
-    border-bottom:var(--borderbottom)
+    border-bottom:var(--borderbottom);
+    margin-top: -36px;
 }
 
 .darkButton{
