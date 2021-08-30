@@ -1058,6 +1058,11 @@ input, select {
 }
 
 /* Cards homepage layout */
+
+.pageMotto{
+  margin: 1em 0;
+}
+
 .horizontal {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
