@@ -33,7 +33,7 @@
     --bugColor: #FFFFFF
 }
 [data-theme=dark]{
-    --tabbackground:#262626;
+    --tabbackground:#171717;
     --mainbackground:#121212;
     --maintext:#e1e1ff;
     --accenttext: #121212;
@@ -50,11 +50,11 @@
     --linkcolor:#03DDCB;
     --calcagnocolor:#f1f3f4;
     --calcagnotesto:#121212;
-    --whiteclickable:#313131;
+    --whiteclickable:#1d1d1d;
     --whitehover:#4e4e4ef8;
-    --accent:#FFA000;
+    --accent:#EEDCB8;
     --accenthover: #B37610;
-    --accent1:#6bb4f8;
+    --accent1:#4B8C7D;
     --accent1hover: #57a3ea;
     --accent2:#BB86FC;
     --accent2hover:#BB8600;
