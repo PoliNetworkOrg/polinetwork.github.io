@@ -24,7 +24,7 @@ courses:
       - title: Electronics
         language: en
   - icon: fas fa-atom
-    ficon: fab fa-pied-piper-alt
+    ficon: fas fa-hat-wizard
     link: https://gitlab.com/polinetwork/matnano
     titles:
       - title: MatNano
