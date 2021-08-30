@@ -1070,6 +1070,9 @@ input, select {
 
 }
 
+.fa-sun{
+  color: var(--accent);
+}
 
 .horizontalSocial {
     display: grid;
