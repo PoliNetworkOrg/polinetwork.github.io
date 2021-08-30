@@ -701,7 +701,7 @@ li {
 }
 
 .card {
-    border-radius: 1em;
+    border-radius: 0.5em;
     padding: 1em 2em;
 }
 
@@ -1221,5 +1221,9 @@ input, select {
 
     .topCard {
         grid-template-columns: 1fr;
+    }
+
+    .card{
+      padding: 1em 1em;
     }
 }
