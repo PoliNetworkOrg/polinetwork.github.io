@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+	<link rel="icon" href="../../../img/icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Elezioni Polimi by PoliNetwork</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../css/heroic-features.css" rel="stylesheet">
+    <script src="../../../elezioni/jquery-3.6.0.min.js"></script>
+
+    <script>
+    $(function(){
+        $("#senatoSvoltastudenti").load("./../../../elezioni/frame/senato/svoltastudenti.html");
+        $("#cdaSvoltastudenti").load("./../../../elezioni/frame/cda/svoltastudenti.html");
+
+        $("#senatoListaaperta").load("./../../../elezioni/frame/senato/listaaperta.html");
+        $("#cdaListaaperta").load("./../../../elezioni/frame/cda/listaaperta.html");
+
+        $("#senatoTernasinistrorsa").load("./../../../elezioni/frame/senato/ternasinistrorsa.html");
+        $("#cdaTernasinistrorsa").load("./../../../elezioni/frame/cda/ternasinistrorsa.html");
+
+        $("#senatoStudentiindipendenti").load("./../../../elezioni/frame/senato/studentiindipendenti.html");
+        $("#cdaStudentiindipendenti").load("./../../../elezioni/frame/cda/studentiindipendenti.html");
+    });
+  </script>
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="../../index.html"><img src="../../../img/icon.png" style="width:calc(20px + 0.1rem);"><span>&nbsp;PoliNetwork</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../../elezioni/index.html">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../../elezioni/senatocda/index.html">Senato & CdA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../../elezioni/scuole/index.html">Scuole</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../../elezioni/ccs/index.html">CCS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../../elezioni/contatti/index.html">Contatti</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Page Content -->
+<div class="container">
+
+    <!-- Jumbotron Header -->
+    <header class="jumbotron my-4 testoCentrale">
+        <div style="text-align:center;">
+            <h2>Elezioni rappresentanti degli studenti</h2>
+            <br/>
+            <h4>Senato</h4>
+            <p class="lead"><blockquote>
+            IL SENATO INDIRIZZA E PROGRAMMA LO
+            SVILUPPO DELL’ATENEO, CON
+            PARTICOLARE RIGUARDO ALLA
+            DIDATTICA E ALLA RICERCA, E VIGILA
+            SUL FUNZIONAMENTO COMPLESSIVO
+            DELL'ISTITUZIONE.</blockquote></p>
+
+            <h4 style="padding-top:5px;">Consiglio di Amministrazione</h4>
+            <p class="lead"><blockquote>
+            IL CONSIGLIO DI AMMINISTRAZIONE
+            DEFINISCE LA PROGRAMMAZIONE
+            ECONOMICA DI LUNGO PERIODO
+            SULLA BASE DELLE PROPOSTE
+            E DEI PARERI DEL SENATO ACCADEMICO.</blockquote></p>
+
+        </div>
+
+
+    </header>
+
+    <!-- Page Features -->
+    <div class="row text-center" id="listeContainer">
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <a href="./../svoltastudenti/index.html">
+            <div class="card h-100">
+                <div class="listTile" style="width: 100%;">
+                    <figure class="cap-left" style="width: 100%;">
+                            <img class="imageList" src="../../../img/logo-svolta_hor.png" alt="">
+                        <ul class="candidateTable">
+                            <li>
+                                <h2>Senato</h2>
+                                <div id="senatoSvoltastudenti"></div>
+                            </li>
+                            <br />
+                            <li>
+                                <h2>CdA</h2>
+                                <div id="cdaSvoltastudenti"></div>
+                            </li>
+                        </ul>
+                    </figure>
+                </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+            <a href="./../listaaperta/index.html">
+                <div class="card h-100">
+                    <div class="listTile" style="width: 100%;">
+                        <figure class="cap-left" style="width: 100%;">
+                            <img class="imageList" src="../../../img/logo-listaaperta_hor.png" alt="">
+                            <ul class="candidateTable">
+                                <li>
+                                    <h2>Senato</h2>
+                                    <div id="senatoListaaperta"></div>
+                                </li>
+                                <br />
+                                <li>
+                                    <h2>CdA</h2>
+                                    <div id="cdaListaaperta"></div>
+                                </li>
+                            </ul>
+                        </figure>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+		  <div class="col-lg-3 col-md-6 mb-4">
+			<a href="./../ternasinistrorsa/index.html">
+				<div class="card h-100">
+				  <div class="listTile" style="width: 100%;">
+					<figure class="cap-left" style="width: 100%;">
+					  <img class="imageList" src="../../../img/logo-terna_hor.png" alt="">
+            <ul class="candidateTable">
+                <li>
+                    <h2>Senato</h2>
+                    <div id="senatoTernasinistrorsa"></div>
+                </li>
+                <br />
+                <li>
+                    <h2>CdA</h2>
+                    <div id="cdaTernasinistrorsa"></div>
+                </li>
+            </ul>
+					</figure>
+				  </div>
+				</div>
+			</a>
+		  </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+            <a href="./../studentiindipendenti/index.html">
+                <div class="card h-100">
+                    <div class="listTile" style="width: 100%;">
+                        <figure class="cap-left" style="width: 100%;">
+                            <img class="imageList" src="../../../img/logo-sip_hor.png" alt="">
+                            <ul class="candidateTable">
+                                <li>
+                                    <h2>Senato</h2>
+                                    <div id="senatoStudentiindipendenti"></div>
+                                </li>
+                                <br />
+                                <li>
+                                    <h2>CdA</h2>
+                                    <div id="cdaStudentiindipendenti"></div>
+                                </li>
+                            </ul>
+                        </figure>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+			<script>
+				for (var j=0; j<5; j++)
+				{
+					var ul =  document.getElementById("listeContainer");
+					for (var i = ul.children.length; i >= 0; i--) {
+						ul.appendChild(ul.children[Math.random() * i | 0]);
+					}
+				}
+
+			</script>
+
+    </div>
+    <!-- /.row -->
+
+</div>
+<!-- /.container -->
+<!-- Footer -->
+<footer class="py-5 bg-dark" style="padding-top:1rem !important;padding-bottom:2rem !important;">
+    <div class="container">
+      <p class="m-0 text-center">Copyright &copy; <a href="../../index.html">PoliNetwork</a></p>
+    </div>
+    <!-- /.container -->
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="../vendor/jquery/jquery.min.js"></script>
+<script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+.intestazione {
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: center;
+	padding: .5em 0 .5em 0; 
+	clear: both;
+}
+.titolo {
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	padding: 1.5em 0 .5em 0; 
+	clear: both;
+}
+.navbar {
+	position: absolute;
+}
+.navbar a {
+	display:block;
+}
+.nota_centrale {
+	text-align:center; 
+}
+.TableDati.indice {
+	font-size: 1.1em;
+	margin-top: 2em;
+}
+.Dati1.corso {
+	font-weight: bold;
+}
+.Dati1.alignleft {
+	text-align: left;
+}
+.TableDati thead tr th {
+	border-bottom: 2px solid #d5dfe4;
+}
+.TableDati tbody tr:hover td {
+	background-color:#fff68f !important;
+}
+li {
+	margin-bottom: .5em;
+}
