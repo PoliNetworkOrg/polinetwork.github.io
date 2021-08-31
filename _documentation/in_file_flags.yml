@@ -1,0 +1,7 @@
+Title: Convertitore Orario PoliMi # Title shown in the card and in the navbar
+Author: NomeAutore # useless for now
+Lang: it # language of this page, it must be the same as all the others in the folder
+Img: /img/clock.png # image of the card
+layout: project
+link: https://bebora.github.io/polimi-schedule-js/
+redirect: true # only specify this if you want an instant redirect to the link above when you click on the tile, otherwhise leave those 2 parameters to false or not specified

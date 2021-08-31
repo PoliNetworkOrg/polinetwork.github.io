@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<body>
+    <div style="margin-top: 50px;"></div>
+    <div class="wrapper">
+        <div class="columnTwo">
+          {% capture upload %} {{ page.upload }} {% endcapture %}
+          {% capture view %} {{ page.view }} {% endcapture %}
+          {% include hugebutton.html title=upload icon="fab fa-skyatlas" link="upload.html" %}
+          {% include hugebutton.html title=view icon="fas fa-scroll" link="./view/" %}
+        </div>
+      </div>

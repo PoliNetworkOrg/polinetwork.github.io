@@ -1,0 +1,57 @@
+courses:
+  - icon: fas fa-server
+    ficon: fab fa-galactic-senate
+    link: https://gitlab.com/polinetwork/info
+    titles:
+      - title: Informatica
+        language: it
+      - title: Computer Eng
+        language: en
+  - icon: fas fa-rocket
+    ficon: fas fa-broom
+    link: https://gitlab.com/polinetwork/AES
+    titles:
+      - title: Aerospaziale
+        language: it
+      - title: Aerospace
+        language: en
+  - icon: fas fa-microchip
+    ficon: fas fa-plug
+    link: https://gitlab.com/polinetwork/elettronica
+    titles:
+      - title: Elettronica
+        language: it
+      - title: Electronics
+        language: en
+  - icon: fas fa-atom
+    ficon: fas fa-hat-wizard
+    link: https://gitlab.com/polinetwork/matnano
+    titles:
+      - title: MatNano
+        language: it
+      - title: MatNano
+        language: en
+  - icon: fas fa-subway
+    ficon: fas fa-car-crash
+    link: https://gitlab.com/polinetwork/mobilityMD
+    titles:
+      - title: Mobility Eng
+        language: it
+      - title: Mobility Eng
+        language: en
+  - icon: fas fa-cogs
+    ficon: fas fa-head-side-mask
+    link: https://gitlab.com/polinetwork/automazione
+    titles:
+      - title: Automazione
+        language: it
+      - title: Automation
+        language: en
+  - icon: fas fa-vials
+    ficon: fas fa-biohazard
+    link: https://gitlab.com/polinetwork/chimica
+    titles:
+      - title: Chimica
+        language: it
+      - title: Chemical
+        language: en

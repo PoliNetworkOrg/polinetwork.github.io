@@ -1,0 +1,82 @@
+---
+layout: default
+show_backToHome: true
+---
+<div class="wrapper projectsPadding">
+    <div class="card white section">
+        <div class="topCard topCardProjects">
+            <div class="centerGrid logo"><img class="image-container main" src="{{page.Img}}"></div>
+            <div class="centerGrid firmaNetwork">
+                <h1><span class="highlight"> {{ page.Title }}</h1>
+                <p>{{ content }}</p>
+            </div>
+        </div>
+    </div>
+    {% for project in site.data.extraInfo.extras.extras %}
+      {% assign upcaseTitleProject = project.Title | upcase %}
+      {% assign pageName = page.path | split: "/" | last | split: "." | first | upcase %}
+      {% comment %}
+        -for debug purposes!-
+        {{upcaseTitleProject }} == {{ page.path | split: "/" | last | split: "." | first | upcase }} <br>
+        ## sample url: http://127.0.0.1:4000/it/extra/house/
+        ## page.path takes the last part of the url (it/extra/house.md), splits by "/", gets the last ("house.md"), then splits by "." and takes
+        ## the first part to remove ".md"
+      {% endcomment %}
+      {% if upcaseTitleProject == pageName %}
+      {% if project.divided == true %}
+        {% for divider in project.dividers %}
+          {% if divider.lang == page.Lang %}
+            <hr>
+            <p class="projectDividerText">
+              {{divider.name}}
+            <hr>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+        <div class="horizontalProjects section">
+          {% for item in project.items %}
+            {% if item.redirect == true %}
+              {% capture VARlink %} {{page.link}}  {% endcapture %}
+              {% capture VARplatform %} {{page.platform}} {% endcapture %}
+              <meta http-equiv="refresh" content="0; url={%include link.html link=VARlink platform=VARplatform %}" />
+              <p><a href="{{ page.link }}" class="textSecondaryColor">Redirect</a></p>
+            {% endif %}
+            {% if item.redirect != true %}
+              {% if item.lang == page.Lang %}
+                <div class="card white horizontalcardswrapper guides projectCard">
+                  <div class="titleanddeskCard">
+                    <div class="cardTitleAndDescription">
+                      <h2> {{ item.title }}
+                        {% for img in item.img %}
+                          <img style="width: 40px !important;" src="{{ img }}"></img>
+                        {% endfor %}
+                      </h2>
+                      <p> {{ item.desc }} </p>
+                    </div>
+                  </div>
+                    {% if item.isLink != false %}
+                      {% if item.multiple_buttons != true %}
+                        <div class="expandable">
+                          {% capture VARlink %} {{item.link}}  {% endcapture %}
+                          {% capture VARplatform %} {{item.platform}} {% endcapture %}
+                          <div class="card accentWhite clickable horizontalcardsbutton projectLink"><a href="{%include link.html link=VARlink platform=VARplatform %}" class="accentWhiteText cardLink"> {{ item.title }} </a></div>
+                        </div>
+                      {% endif %}
+                      {% if item.multiple_buttons == true %}
+                        <div class="expandable">
+                        {% for button in item.buttons %}
+                          {% capture VARlink %} {{button.link}}  {% endcapture %}
+                          {% capture VARplatform %} buttonitem.platform}} {% endcapture %}
+                          <div class="card accentWhite clickable horizontalcardsbutton projectLink"><a href="{%include link.html link=VARlink platform=VARplatform %}" class="accentWhiteText cardLink"> {{ button.title }} </a></div>
+                        {% endfor %}
+                        </div>
+                      {% endif %}
+                    {% endif %}
+                </div>
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% endfor %}
+</div>

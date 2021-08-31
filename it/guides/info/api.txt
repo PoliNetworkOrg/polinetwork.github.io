@@ -1,0 +1,280 @@
+FAQ PROGETTO API 2020/2021
+S0NN1 August 8, 2021<br>
+<a href="https://gitlab.com/polinetwork/info2y/-/blob/master/Progetto%20API/Progetto%2020-21/suitegen.py" class="accent"> Generatore di test sviluppato dai tutor</a>
+
+### Versioni
+
+<ul>
+  <li><b>[2018/2019]</b> Mirko De Vita, Kien Tuong Truong, David, Simone, Raymark</li>
+  <li><b>[2019-2020]</b> @bigr </li>
+  <li><b>[2020/2021]</b> @Sonni </li>
+</ul>
+
+
+### Setup e Troubleshooting CLion per Windows 10
+
+LINK: <a href="https://nicolosonnino.it/clion-guide/">https://nicolosonnino.it/clion-guide/</a>
+
+### Perché impegnarsi in questo progetto se vale soltanto 1 CFU?
+
+Come al solito, il voto fa media con tutti gli altri voti. La vera differenza è che conta per l’incremento sul voto di laurea finale. La formula da utilizzare per l’incremento è 1 + M/6 dove M è la media ponderata dei progetti di API(1 CFU), Reti Logiche(1 CFU) e Ingegneria del Software(3 CFU). I tre progetti sostituiscono quindi la cosiddetta Tesi finale e garantiscono un incremento che va da 4 a 6 punti sul voto di laurea (media*11/3).
+
+Oltre a questo, un motivo per finire appena possibile il progetto è che se non si dovesse riuscire a terminare entro la scadenza allora bisognerebbe rifare il prossimo progetto (quindi completamente nuovo) del prossimo anno accademico. Siccome il progetto di ingegneria del software richiede molto più tempo conviene non avere anche quello di API.
+
+<b>[2020-2021]</b> È stato aggiunto un appello per la sessione di Febbraio solo per i laureandi di quella sessione.
+
+
+
+### Come viene deciso il voto?
+<ul>
+  <li><b>[2019-2020]</b>
+    Ogni test ha 4 subtasks. Per arrivare a 18 bisogna passare obbligatoriamente tutti i subtasks 1 e 2 di ogni test. Infatti i subtasks 2 valgono 3 punti ciascuno e poiché ci sono 6 test più il 7 della lode si avranno 3*6 = 18 punti. Gli altri subtasks (3 e 4) di ogni test possono far incrementare il voto fino a 30. Per la lode bisogna passare il test “Lode”. Se si dovesse passare il test Lode senza gli altri 30 punti non si aggiungerebbe nessun punto al voto finale. Non serve passare Tutorial.
+    La valutazione dei prof avviene in questo modo: Viene fatto eseguire l'ultimo file inviato di ogni test. Per questo motivo è <b>NECESSARIO</b> che tutti gli ultimi file inviati in ogni test siano identici. <b>La scadenza è il 12 settembre</b>, appena scatta la mezzanotte.
+  </li>
+  <li><b>[2020-2021]</b>
+    Ci sono 3 batterie di test. La prima <b>UpTo18</b> sono 6 test per arrivare al 18, se non viene passato anche solo un test di questa il progetto sarà considerato come non superato. La seconda è <b>UpTo30</b> permette di arrivare alla valutazione massima di 30, 6 test ognuno vale 2 punti; infine l'ultima <b>CumLaude</b> permette di arrivare fino alla lode.
+    La valutazione dei prof avviene in questo modo: Viene fatto eseguire l'ultimo file inviato di ogni test. Per questo motivo è <b>NECESSARIO</b> che tutti gli ultimi file inviati in ogni test siano identici. <b>La scadenza è il 7 settembre</b>, appena scatta la mezzanotte.
+  </li>
+</ul>
+
+
+### Come sottopongo la soluzione?
+
+Per provare a inviare la tua soluzione basta caricare il <b>nomeTuoFile.c</b> in ogni test. Per vedere il risultato di tutti i subtasks dovrai utilizzare il token.
+
+
+
+### Questione anti-plagio
+
+Utilizzare le funzioni sulle slides non è considerato plagio. Anche utilizzare le funzioni di hash note che si trovano su internet non è considerato plagio. Tutto ciò è stato confermato più volte dai tutor o dai prof.
+
+
+
+###Quali librerie posso utilizzare?
+
+Le librerie che si possono utilizzare sono tutte quelle presenti nella libreria standard. Sono quindi comprese: string.h, stdbool.h, ctype.h ecc. L'unica libreria che non è possibile utilizzare è threads.h che permette l'implementazione di mutex e altri segnali per la programmazione parallela.
+
+Per vedere nel dettaglio tutte le librerie standard fare riferimento qui:
+
+<a href="https://it.wikibooks.org/wiki/C/Appendice/Librerie_standard">https://it.wikibooks.org/wiki/C/Appendice/Librerie_standard</a>
+
+
+
+### Quale struttura devo utilizzare?/ Non so da dove iniziare
+
+Questa domanda non può avere risposta per due motivi. Il primo è di carattere “etico”, infatti il progetto consiste per buona parte nel pensare individualmente la struttura da utilizzare. Il secondo motivo è legato al plagio,poiché difficilmente qualcuno condividerà la propria implementazione.
+
+I consigli di chi ha già finito il progetto sono: prendersi qualche giorno per pensare alla complessità delle operazioni (es. aggiungere una relazione quanto costa? O(n), O(logn) ecc.) e fare qualche esempio con carta e penna.
+
+Se programmando salta fuori che la soluzione è troppo difficile da implementare o inadeguata si può discutere sul gruppo del perché, ma comunque a vostro rischio e pericolo (plagio).
+
+
+
+### Dove trovo i limiti di memoria e tempo per ogni test?
+
+Nel sito del progetto e nella sezione panoramica che si trova sulla colonna a sinistra trovi i limiti per ogni test. Questi limiti fanno riferimento all’ultimo subtask che è sempre quello più oneroso. Potrebbe succedere che i subtasks precedenti violino questi limiti (caso molto estremo).
+
+
+
+### Cosa significa Execution killed (could be triggered by violating memory limits)?
+
+Questo errore è abbastanza generico ma ci sono due categorie in cui può rientrare. La prima è se realmente vengono superati i limiti di memoria. Per capirlo basta andare nella panoramica, guardare il limite e confrontarlo con la memoria registrata nel subtask. Se quest’ultimo numero supera il limite imposto allora non si può stabilire di quanto viene superato, in quanto una volta superato il limite il server blocca l’esecuzione.
+
+La seconda categoria, che è la più generale, è quella in cui il tuo programma genera un segmentation fault. Ovvero nel caso in cui si accedano zone di memoria non consentite. Per esempio quando si cerca di accedere il contenuto di un puntatore inizializzato a NULL.
+
+In genere, prima di cercare i test privati, è bene verificare i test pubblici usando prima Valgrind e poi compilandolo con
+
+<code>gcc filedicodice.c -fsanitize=address -g -o nomeeseguibile.out</code>
+
+E infine con gli stessi flag che vengono usati per i test privati, che sono scritti nella sezione "Descrizione" di ogni test, ad esempio
+
+<b>[2019-2020]</b>
+
+<pre><code>gcc -DEVAL -std=gnu11 -O2 -pipe -static -s -o timeforachange timeforachange.c -lm</code></pre>
+
+<b>[2020-2021]</b>
+
+<pre><code>gcc -DEVAL -std=gnu11 -Wall -Werror -O2 -g3 -static -s -o normal normal.c -lm</code></pre>
+
+
+### Come configuro CLion perchè abbia gli stessi flags del compilatore?
+
+Mettere all'interno del file CmakeLists.txt la seguente configurazione:
+
+<pre>
+  <div>
+  cmake_minimum_required(VERSION &lt;cmake_version&gt;)<br>
+  project(API2021 C)<br>
+  set(CMAKE_C_STANDARD 11)<br>
+  set (CMAKE_C_FLAGS "${CMAKE_C_FLAGS} &lt;compiler_flags&gt;")<br>
+  add executable(output &lt;file.c&gt;)
+  </div>
+</pre>
+
+Sostituendo le variabili tra &lt;&gt; (comprese le stesse) con le vostre, per vedere la propria versione di CLion (se diversa da quella di deafault), aprire un terminale e digitare:
+
+<pre><code>cmake -version</code></pre>
+
+
+
+
+### Particolarità dei test
+<ul>
+  <li> <b>[2019-2020]</b>:
+    <ul>
+        <li><b>WriteOnly</b>: fa solo change e print, non sovrascrive mai le righe (quindi ci saranno solo istruzioni del tipo 1,3c   4,9c   10, 15c  e così via</li>
+        <li><b>BulkReads</b>: fa solo change e print, questa volta sovrascrive le righe (posso quindi avere 1,3c   2,3c  3,3c di fila)</li>
+        <li><b>TimeForAChange</b>: fa change, print e delete. Non ci sono undo e redo.</li>
+        <li><b>RollingBack</b>: fa una serie di operazioni (change, print, delete) e alla fine ci sono una sequenza di undo, redo e print. Dopo le undo e redo non ci sono mai change o delete. La quantità di operazioni c/d/p che vengono eseguite prima delle u/r/p alla fine sono più o meno analoghe a quelle che vengono eseguite da TimeForAChange.</li>
+    </ul>
+  </li>
+  <li> <b>[2020-2021]</b>:
+    <ul>
+        <li><b>Normal</b>: 2^20 + 2^18 + 2^17 grafi, piccoli e con topK(numero di grafi da stampare) piccolo</li>
+        <li><b>Normal Big</b>: 2^8 grafi e sono grandi e anche topk è grande</li>
+        <li><b>Normal Big + TopK</b>: 2^8 grafi, grandi e topk grande moltiplicato per 16, e hanno i pesi in ordine decrescente</li>
+        <li><b>Dijstra</b>: 2^7 + 2^6 + 2^5 grafi, tanti, ma topk piccolo</li>
+        <li><b>Insert</b>: inserimento in lista, 2^20 + 2^18 grafi, piccoli, topk molto grande, decrescente</li>
+        <li><b>Insert+</b>: Insert ma con 2^16 + 2^14 + 2^13 grafi</li>
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+
+
+
+### Particolarità delle istruzioni
+
+<ul>
+  <li> <b>[2019-2020]</b>:
+    Le istruzioni "particolari" da gestire sono 0,0p (che deve stampare un punto) - 0,0d (che non deve fare niente ma deve essere considerata per le undo e redo).
+    Dai test di vari utenti sembrano non esserci istruzioni 0,Xd dove X è un numero diverso da 0, ma consiglio di aggiungere questo if in più per poter stare tranquilli.
+    Le istruzioni di change sono SEMPRE corrette, non serve preoccuparsi.
+    Per qualsiasi istruzione è sempre vero che gli indici non sono negativi e che ind1 &lt; ind2;
+ </li>
+</ul>
+
+
+
+### Cosa sono i test pubblici? Dove li trovo?
+
+<ul>
+  <li> <b>[2019-2020]</b>:
+    I test pubblici sono dei test il cui contenuto può essere visualizzato a priori. Per questo motivo è bene utilizzarli per scovare i problemi nel proprio codice. Inoltre ,in ogni test privato, il subtask 1 contiene i test pubblici che seppur diano 0 punti devono essere obbligatoriamente passati. Quindi, se per caso dovessi prendere 3/5 punti ma non passassi il subtask 1, è come se prendessi 00punti in tutto il test.
+    Per provare i test pubblici basta andare sul sito del progetto e cliccare nella colonnina a sinistra sull’ultima voce Testing. Tra le voci da inserire nei vari test ci sono Suite e Input. Suite non è altro che il nomeTuoFile.c mentre Input è il file che si trova in ogni test sotto la voce Descrizione -> Allegati. Nello zip da scaricare trovate sia l’input che l’output corretto che potrete confrontare con l’output generato a fine esecuzione nella sezione Testing. In alternativa puoi trovare i tests pubblici nella cartella mega nei Links Utili in fondo a questa pagina.
+  </li>
+</ul>
+
+
+
+### Dove trovo altri test per verificare la correttezza del mio programma?
+<ul>
+  <li> <b>[2019-2020]</b>:
+    Alcuni colleghi hanno programmato dei generatori di test che potete trovare nei media del gruppo o in fondo a questa pagina nella sezione Links Utili.
+    Per utilizzare i generatori basta generare il file di input, proprio come quello che trovate sul sito, e da terminale avviare l'eseguibile in questo modo:
+    <pre><code>./nomeEseguibile.out &lt; nomeInput.txt</code></pre>
+    Una volta finita l'esecuzione nei vari test generati ci saranno anche gli output corretti che dovranno essere confrontati con l'output generato dal tuo programma sul terminale.
+    <i>Warning</i>: l'eseguibile e il file di input dovranno essere nella stessa cartella/percorso.
+ </li>
+   <li> <b>[2020-2021]</b>: Generatore di test messo a disposizione da parte dei tutor, disponibile al seguente <a href="">indirizzo</a>.
+   </li>
+</ul>
+
+
+
+### Come confronto se due file sono uguali?
+
+Per confrontare il contenuto di due file di testo ci sono diversi modi a seconda del sistema operativo.
+
+Su <b>Linux e OS X</b> esiste il comando diff su terminale. Per usarlo basta eseguire:
+
+<pre><code>diff primoFile.txt secondoFile.txt</code></pre>
+
+Se il comando termina senza nessun output vuol dire che i file sono identici, altrimenti l’output indicherà quali sono le differenze tra i due file e quindi di quali righe si sta parlando. Per capire meglio il funzionamento si può fare riferimento qui: <a href="https://www.computerhope.com/unix/udiff.htm">https://www.computerhope.com/unix/udiff.htm</a>.
+
+Su <b>Windows</b> esiste invece il comando fc che funziona quasi allo stesso modo. Qui trovate una breve spiegazione: <a href="https://www.howtogeek.com/206123/how-to-use-fc-file-compare-from-the-windows-command-prompt/">https://www.howtogeek.com/206123/how-to-use-fc-file-compare-from-the-windows-command-prompt/</a>
+
+Warning: lo spazio è considerato come carattere, quindi diff dirà che due righe sono diverse soltanto a causa di uno spazio in più alla fine di una delle due righe. Per eliminare questo inconveniente si può usare questo tag dopo il comando diff:
+
+<pre><code>-Z, --ignore-trailing-space
+                  ignore white space at line end</code></pre>
+
+
+### Come scarico Valgrind? A cosa serve?
+
+Valgrind è un tool che serve per monitorare la memoria utilizzata dal tuo programma. E’ molto utile per scovare i cosiddetti leaks, ovvero quando viene perso completamente il riferimento (puntatore) e non è più possibile fare la free su un determinato oggetto. Per evitare di sforare i limiti di memoria dei vari test conviene utilizzare fin da subito Valgrind.
+
+Per installare Valgrind tramite linea di comando su Linux basta fare:
+
+<pre><code>sudo apt install valgrind</code></pre>
+
+Una guida particolarmente utile la trovi qui: <a href="https://stackoverflow.com/questions/5134891/how-do-i-use-valgrind-to-find-memory-leaks" >https://stackoverflow.com/questions/5134891/how-do-i-use-valgrind-to-find-memory-leaks</a>
+
+
+
+### Esiste Valgrind su Mac?
+
+Sì, non è detto che sia compatibile con la tua versione di OS X poiché è ancora sperimentale. Per installarlo prova questi comandi da terminale:
+
+<pre><code>sudo brew install --HEAD       https://raw.githubusercontent.com/sowson/valgrind/master/valgrind.rb</code></pre>
+
+
+### Cosa è GDB e a cosa serve?
+
+GDB è il debugger del sistema operativo GNU e serve per analizzare lo stato dei processi del tuo programma. Per capire come utilizzarlo si può fare riferimento a questa semplice guida: <a href="https://www.tutorialspoint.com/gnu_debugger/gdb_quick_guide">https://www.tutorialspoint.com/gnu_debugger/gdb_quick_guide</a>
+
+E’ molto utile, se non d’obbligo, debuggare per capire che valori assumono le variabili durante l’esecuzione.
+
+GDB è integrato in CLion che è un IDE fatto molto bene e che può essere richiesto gratuitamente dagli studenti tramite questo link: <a href="https://www.jetbrains.com/shop/eform/students">https://www.jetbrains.com/shop/eform/students</a>
+
+Oltre a CLion anche VSCode ha GDB integrato.
+
+
+
+### Cosa è Callgrind e a cosa serve?
+
+Callgrind è un tool che fa parte di valgrind e serve per capire quale funzione del programma impiega più tempo/memoria. Per utilizzarlo basta chiamare valgrind settando il flag --tool=callgrind, a fine esecuzione verrà generato un file con il resoconto nel percorso dell’eseguibile. Per vedere graficamente il resoconto basta chiamare da terminale:
+
+<pre><code>kcachegrind nomefileoutputcallgrind</code></pre>
+
+Breve guida scritta da SUPERGIU:
+
+La prima colonna "Incl." ti dice quanto tempo occupa quella funzione, sottofunzioni incluse. "Self" invece ti dice quanto tempo occupa solo la funzione in questione senza tenere conto delle sottochiamate. Quindi se c'è una grande differenza tra le due colonne vuol dire che le sottofunzioni  sono quelle che occupano più tempo oppure costano poco ma sono chiamate molte volte. Poi se clicchi sulla funzione che ti interessa ti dice quanto tempo occupano le singole sottofunzioni che chiami all'intero di quella funzione.
+
+
+
+### Considerazioni varie sull’input
+
+L’input è sempre corretto nei test, quindi non c’è bisogno di controllare la correttezza.
+
+Tra ogni argomento c’è un solo spazio e nei nomi ci sono solo lettere e underscore.
+
+La lunghezza massima di ogni comando è di massimo 100 caratteri (probabilmente anche meno).
+
+
+
+### Considerazioni generali su come leggere l'input
+
+L'operazione di fscanf è lenta e potrebbe creare problemi di tempo, i tutor hanno consigliato di usare fgets:
+
+Per leggere l'input con fgets:
+
+<pre><code>fgets(char*, SIZE, stdin);</code></pre>
+
+Questo accorgimento potrebbe velocizzare non di poco anche gli altri test.
+
+Alcuni ragazzi hanno migliorato le prestazioni del loro programma sostituendo fgets con getc_unlocked. Nel caso abbiate problemi di performance, si consiglia di profilare con callgrind il proprio programma e vedere dove è che state usando molto tempo.
+
+
+
+### Links utili
+
+Gruppo telegram del progetto:
+<a href="https://t.me/joinchat/AFY9TUkc3ApfmmOH60DbEw">https://t.me/joinchat/AFY9TUkc3ApfmmOH60DbEw</a>
+
+<b>[2019/2020]</b> Generatore di test di @Leosxe:
+<a href="https://t.me/joinchat/AFY9TUkc3ApfmmOH60DbEw">https://github.com/Leosxe/ProgettoAPI2020_GeneratoreTest</a>

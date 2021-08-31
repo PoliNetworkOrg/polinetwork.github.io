@@ -1,0 +1,42 @@
+Upload
+
+This guide was compiled by <a class="accent" href="https://t.me/eliamaggioni">@EliaMaggioni</a> to help you in the use of <a class="accent" href="https://t.me/PoliMaterial_bot">t.me/PoliMaterial_bot</a>.<br>
+The bot allows you to upload material directly into your course's GitLab folder to help your current and future colleagues.
+Uploading course-related material makes it easier for those who will take it after you.<br>
+Find all available courses <a class="accent" href="./view/">here</a>
+
+###How do I upload materials?
+TELEGRAM https://t.me/PoliMaterial_bot
+MANIFEST https://gitlab.com/polinetwork/
+To upload materials, navigate the folders to your course of study using the buttons offered by the bot. Then select the year and navigate to the desired folder.
+When you've reached the point you want, click the "🆗 Cartella Corrente" button.<br>
+At this point the bot is ready to accept your files, upload one or multiple documents.<br>
+A notification will be sent to you when the files are uploaded, please wait 2 to 20 minutes before reporting a malfunction.
+
+Due to Telegram limitations, the maximum uploadable capacity is 20MB. We are working to increase it. In this case you will get an error message saying that
+that the bot can't upload the file, however an admin will take care of it by hand. Keep in mind that the waiting time will be longer.
+
+###Where do the files go?
+MANIFEST https://gitlab.com/polinetwork/
+All files uploaded and approved by an admin end up in the GitLab folder selected.<br>.
+You can find them all in the link above or in the <a href="./view" class="accent"> view</a> section.
+
+###How does approval work?
+Once you submit the file and receive confirmation from the bot, an admin will review the file to make sure it can be uploaded to the indicated location.<br>
+If the verification is successful, the material will be approved, you will be notified by the bot and the material will appear in the course folder without further actions from you.<br>
+If the verification fails, the material will be discarded. In case you have a non-hidden account, you will be contacted by the admin to inform you of the reasons, which can also be trivial as having selected the wrong upload folder.
+
+
+###My course is not present, how come?
+Not all courses are present because not all chief admins have joined the project. If you want to collaborate with us to make PoliMaterial available
+in your course, you can invite your head admin to contact us (to find out who your head admin is, see <a class="accent" href="../learnmore/about_us/">this page</a>) or if you have material you'd like to initialize the folder with, contact us yourself!
+
+
+###Copyright
+PoliNetwork and its admins do not assume any responsibility for the uploaded material, in fact it is the user's responsibility to upload copyright free material within the platform.
+The admin who approve the files will undertake to discard obviously pirated material such as photocopied books and texts.
+<br> PoliNetwork provides only the platform and the uploading system, the contents within are the sole responsibility of those who have uploaded them, who may at any time ask for removal through Pull Request on GitLab or by contacting one of the admins of your course.
+
+Polinetwork takes no responsibility for and we do not expressly or implicitly endorse, support, or guarantee the completeness, truthfulness, accuracy, or reliability of any of the content on this repository or any of the ones associated to it.
+
+You mustn't upload any copyright protected or in any other author protection form cover file on this repository or any of the ones associated to it.

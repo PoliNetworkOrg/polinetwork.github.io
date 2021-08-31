@@ -1,0 +1,217 @@
+Corsi II a.a.
+
+Questa guida è stata redatta dagli admin di Ingegneria Informatica del PoliNetwork, raccogliendo opinioni di diversi studenti che hanno frequentato il corso. Ogni paragrafetto è un'opinione.
+Cliccate sul nome del corso per aprirne la pagina e leggere il programma dettagliato.
+Essendo, il secondo anno, in comune con Telecomunicazioni, è qui che,
+sulla base delle scelte tra i vari esami si decide quale percorso
+intraprendere tra i due. In particolare, nel primo semestre è presente, nel
+piano, un gruppo da 10CFU da comporre nel seguente modo a seconda
+del percorso scelto : <br>
+<span class="accent">Informatica:</span> LOGICA E ALGEBRA (5CFU) + (uno a scelta tra
+CHIMICA GENERALE, ONDE ELETTROMAGNETICHE E MEZZI
+TRASMISSIVI e MISURE) (5CFU)<br>
+<span class="accent">Telecomunicazioni:</span> ELETTROMAGNETISMO (10CFU)
+
+###Chimica Generale
+TELEGRAM https://t.me/joinchat/FJ-QR09hqg4kc-iWFD4aKg
+MANIFEST https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=743816&polij_device_category=DESKTOP&__pj0=0&__pj1=68b6719d84b413a948a708d25a90bc93
+N.B. Questo corso permette di accedere alla magistrale in CS (al Polimi) senza dover svolgere Fisica Tecnica al secondo semestre del terzo anno, quindi è <b>caldamente </b>consigliato.
+
+È un esame che tratta tutti argomenti già visti in qualsiasi liceo
+scientifico, quindi, per chi venisse da questa scuola è ultra-
+consigliato. Per chi non venisse da questa scuola lo consiglio lo
+stesso in quanto, tra i tre corsi a scelta, è il giusto trade-off tra
+semplicità e utilità per il prosieguo del percorso. Essere a
+conoscenza di questi argomenti facilita la comprensione del
+funzionamento di alcuni componenti elettronici trattati nell'esame
+"fondamenti di elettronica", e aiuta tantissimo nello studio della
+materia "Fisica Tecnica" a scelta del terzo anno. Esame nel
+complesso standard (tra i tre a scelta il più semplice).
+
+Corso a mio parere inutile per il percorso di studi e per di più
+gestito male male da una prof disorganizzata: lezioni super noiose
+con la prof che leggeva parola per parola le slides. Un aspetto
+positivo del corso e dell'esame è sicuramente la sua grande facilità,
+soprattutto per chi aveva già studiato al liceo la chimica di base, per
+cui è estremamente consigliato a chi vuole avere un ottimo risultato
+con pochissimo sforzo. È l'unico dei tre corsi a scelta con la
+possibilità di fare le prove in Itinere, quindi questo può essere un
+altro buon motivo per sceglierlo, ma a livello di interesse e utilità
+questo corso non è per nulla paragonabile agli altri corsi a scelta, in
+particolare ad onde.
+
+Nel semestre in cui bisogna pensare ad Analisi Matematica 2 avere
+una materia che risulta troppo piena di intoppi, perlopiù inutili, non
+ha granché senso. Chimica è la scelta giusta per chi vuole
+semplificarsi la vita.
+
+Non decidete mai di scegliere il corso di chimica per cio che avete studiato al liceo: il programma fino al quarto liceo scientifico e'  <30% del programma totale dell'esame! Le lezioni non sono fondamentali dalla parte dei contenuti, capita che la prof spieghi letteralmente cio che e' scritto sulle slide. Per quanto riguarda il corso, riprende dalla base tutti i concetti fondamentali, aggiungendo alla parte 'iniziale' gia vista a scuola molti dettagli. Dopo alcune lezioni sulla funzione d'onda inizia la trattazione di gas reali, gas ideali, termodinamica chimica, equilibrio chimico ed elettrochimica.
+La prof Barbera e' molto tranquilla, pur essendo stato l'anno scorso il suo primo anno da docente, a parte ogni tanto tempi abissali per le correzioni.
+L'esame e' facile, tipicamente la meta' delle domande  facili, alcune domande di media difficolta, e poche domande molto impegnative.
+
+###Misure
+TELEGRAM https://t.me/joinchat/QhL-k0uUwZIxVoQf
+MANIFEST https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=743827&polij_device_category=DESKTOP&__pj0=0&__pj1=aa02ffbdbc2d57f38b6d1994f9607964
+Nota: Docente cambiato l'anno 2020
+
+Un esame abbastanza semplice anche se a volte può risultare
+noiosissimo. Il tema centrale è quello della misurazione, quali sono
+gli errori che si incontrano e quali strumenti si usano. L'ho scelto
+perché era qualcosa di nuovo per me (al contrario di chimica) e non
+me ne sono pentito. La prima parte del programma è forse la più
+interessante, della seconda la teoria l'ho trovata più ostica e
+spiegata un po' in fretta.
+
+Corso: E' un esame su argomenti troppo "specifici" che al 99.5%
+non serviranno a nulla a una persona che ha scelto ingegneria
+informatica. Lezioni molto noiose, fatte tra l'altro su delle slide blu
+che irritano la vista perché il prof è daltonico. Esame: Ci sono
+tantissime cose che negli esercizi vengono date per scontate ma
+che non lo sono. Punto a sfavore: c'è il pretest, 10 domande di cui
+almeno 6 se vuoi avere possibilità di passare l'esame. Di base è
+abbastanza semplice (salvo quest'anno che con gli esami online ha
+messo cose fuori dal programma perché altrimenti sarebbe risultato
+troppo facile a detta sua). Ancora peggio del pretest c'è l'obbligo di
+non fare schifo in un nessun esercizio, perché se ne lasci uno in
+bianco o comunque fai ridere, ti boccia e ti fa fare il salto d'appello.
+
+Scelto principalmente come corso leggero alternativo a chimica. Tratta principalmente di teoria della misura e di strumenti di misurazione, quindi introduce alla statistica e all'elettronica. Gli argomenti sono belli se vi interessate un minimo di elettronica e volete saperne di più su voltmetri e multimetri, ma la parte sulla misurazione può risultare noiosa. Una cosa positiva del corso è che introduce argomenti che poi si ritrovano in probabilità e statistica, fondamenti di automatica ed elettronica (distribuzioni, campionamenti, DAC, ADC). Nota positivissima sono gli esami: sono praticamente tutti uguali e ci sono tante tracce degli anni passati disponibili.
+
+###Onde elettromagnetiche e mezzi trasmissivi
+TELEGRAM https://t.me/joinchat/LclXl1D5zASzZXWEBzYEBA
+MANIFEST https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=743818&polij_device_category=DESKTOP&__pj0=0&__pj1=c4165f7c668d0063a0915f3724e44cbf
+Corso a mio parere interessante. Personalmente odio la parte di
+elettromagnetismo, ma in questo corso è ridotta davvero all’osso e
+il prof è comunque bravissimo nello spiegare quel poco che c’è
+sull’argomento. Più interessante invece la parte di mezzi. Morichetti
+come professore è super disponibile, alla mano e molto chiaro. Usa
+fare un contest ogni anno in cui regala cioccolatini ai vincitori
+settimanali dei quiz (mai banali) che lascia su beep, per chi vuole
+provarli. Nel complesso la materia è forse un po’ più pesante dei 5
+CFU dichiarati però se siete studiosi sarà facile ottenere un voto
+alto, contando che all’esame (open book, niente formule da
+ricordare a memoria) il massimo voto è di circa 37-38 punti. Gli
+esercizi solitamente non sono standard però se vi siete allenati sugli
+esercizi del suo libro non sarà difficile affrontare quelli dell’esame.
+Per chi prende un voto appena sufficiente (mi sembra) o sopra il 28-
+29 è richiesto un orale obbligatorio. Per quanto riguarda i voti > 28-
+29, specie se avete preso quasi il massimo, si tratta più di una
+formalità (personalmente non mi è stato chiesto niente). Ma ho saputo anche di casi appena sopra il 30 in cui invece sono state
+fatte domande, seppure il voto è rimasto 30 anche senza un orale
+eccellente (ma niente lode in questo caso). Aggiungo che lui ha
+scritto un libro di teoria e un eserciziario sul corso. A mio avviso
+sono entrambi fondamentali. Quello di teoria vi darà un grande
+aiuto nella comprensione dato che c’è scritto quello che dice a
+lezione con spunti e chiarimenti, mentre l’eserciziario è necessario
+per esercitarsi per l’esame (su beep non carica tutti gli esami
+precedenti da quel che ricordo). In più questi libri possono essere
+portati all’esame, quindi sono molto utili.
+
+È un corso molto da telecomunicazioni ma che permette di capire il
+funzionamento delle trasmissioni per avere una visione più
+generale. Un po’ sproporzionato rispetto ai 5 crediti ma ne vale la
+pena. Il professore è bravissimo e molto simpatico, se siete in pari
+con gli esami e vi interessano gli argomenti non ve ne pentirete,
+uno dei corsi che mi è piaciuto di più del secondo anno.
+
+Ritengo il corso molto interessante, sia per via degli argomenti che grazie al professore che ci mette una passione che si
+vede raramente. Dal punto di vista di un ingegnere informatico trovo
+che accresca alla conoscenza di un argomento che già si affronta in modo
+approssimativo nel corso di fondamenti di internet, dando però una trattazione
+più completa ed esaustiva ma sempre cercando di non appesantire troppo un corso
+che cerca (male) di stare in 5 CFU.<br> Soprattutto nelle prime lezioni può sembrare
+un mattone ma passata la prima parte di sviluppo delle parti teoriche si passa ad applicazioni
+molto interessanti (comunicazione tra parabole, transizioni di onde in fluidi differenti, comunicazioni a mezzo di rame
+e fibre ottiche).
+
+###Logica e Algebra
+TELEGRAM https://t.me/joinchat/Ap9460QnTXtWz4MzC76eOg
+MANIFEST https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=743821&polij_device_category=DESKTOP&__pj0=0&__pj1=af9070671e60abc2cf7e7ea9e4d053ad
+Corso stupendo che spiega argomenti fondamentali secondo me.
+La parte di logica è quasi immediata da capire, quella di algebra
+richiede un po' di memoria, un problema arginato dalla possibilità
+(almeno quando ho dato io l'esame) di portare un formulario. Tutto
+sommato un esame semplice e indolore. Ho avuto Rodaro e l'unica
+pecca sono le lezioni: le ho trovate a dir poco soporifere e quasi
+superflue poiché nelle esercitazioni (di Frigeri) veniva ripresa
+sufficentemente bene la teoria.
+
+Corso fondamentale nel percorso di un informatico. Nel complesso
+non è per niente difficile se si è appassionati agli argomenti. I prof
+sono quasi tutti preparati. Se si ha l'onore di avere comeesercitatore Frigeri si può anche seguire solo lui e studiare il resto
+dal libro. La teoria è pochissima e quasi tutta sul libro scritto dai
+prof appositamente per il corso (consigliato). All'esame è consentito
+portare un formulario, ma per la semplicità degli esercizi non è
+neanche troppo utile. Come ho già detto, è un corso che un
+informatico non può non fare (utilissimo anche come base per API
+del secondo semestre).
+
+Senza dubbio un corso che getta le basi per molti a venire, primo (ma non unico) API. Non si tratta di un corso particolarmente difficile,
+anzi forse uno degli unici che rientra nei 5 CFU, però l'ho trovato
+uno dei corsi più noiosi dei primi due anni, vuoi per gli argomenti poco interessanti, vuoi per le lezioni
+che si dilungavano su dimostrazioni da venti minuti (non richieste in esame) e definizioni a prima vista difficili senza
+le quali il resto della lezione era incomprensibile. La professoressa Adami, seppur si mostrasse preparata e le lezioni ben fatte, non è
+riuscita (nel mio caso e in molti altri con cui ho parlato) a fare appassionare alla materia. Inoltre il suo esercitatore Mauri si
+è sempre mostrato poco incline a spiegazioni e le sue esercitazioni si riducevano spesso alla classe che guardava il docente mentre
+svolgeva l'esercizio. Se potessi dare un consiglio al mè passato sarebbe di non andare a lezione e studiare da me gli argomenti
+usando le dispense molto complete fornite dalla Prof.
+
+###Probabilità e Statistica
+TELEGRAM https://t.me/joinchat/SaA2YhG3yx9swIAO
+MANIFEST https://www4.ceda.polimi.it/manifesti/manifesti/controller/ManifestoPublic.do?EVN_DETTAGLIO_RIGA_MANIFESTO=evento&aa=2020&k_cf=225&k_corso_la=358&k_indir=IT1&codDescr=099319&lang=IT&semestre=2&anno_corso=2&idItemOfferta=150399&idRiga=257652
+Ho seguito il corso di Probabilità e Statistica con la docente Ladelli. Il corso è tra i più organizzati che abbia seguito, la docente spiega veloce ma è chiarissima, tutte le cose necessarie per comprendere il corso vengono spiegate dettagliatamente a lezione. Le esercitazioni sono precise e a livello dei temi d'esame. Il materiale didattico è sufficiente anche senza l'acquisto del libro. Il corso è decisamente indicato per gli studenti di Ingegneria informatica rispetto all'altro corso: probabilità e statistica vengono trattate dal punto di vista matematico e vengono fornite quelle basi necessarie per comprendere argomenti successivi.
+
+Ho frequentato Probabilità e Statistica nel 2019 con la Professoressa Ladelli, esercitatore Boella. Il corso mi è piaciuto tantissimo, probabilmente uno dei migliori della triennale e ben organizzato. Il materiale è sufficiente sia per esercitarsi che per studiare la teoria. Nel complesso è un corso molto matematico che getta basi necessarie alla comprensione di moltissimi altri argomenti (basti pensare a tutto il ramo Machine Learning, basato tutto sulla Statistica). Consiglio questo corso a chiunque abbia voglia, in futuro, di cimentarsi in rami dell'informatica più teorici e matematici.
+
+Ho seguito il corso di Probabilità e Statistica tenuto dalla Prof.ssa Ladelli nell’ a.a 2018/2019.
+Il corso inizia con la parte di Probabilità che inizialmente può risultare di difficile comprensione ma è fondamentale per capire gli argomenti successivi. Gli esercizi non hanno uno stampo teorico, perché tramite storie o giochi di carte mirano a insegnare la combinatoria per esprimere eventi.
+Questa parte è anche la più divertente del corso, l’esercitatole Boella ha saputo farla apprezzare lasciando sempre esercizi nuovi a fine lezione per nulla scontati.
+La seconda parte inizia con l’introduzione delle variabili aleatorie e finisce con i test d’ipotesi che sono indubbiamente la parte meno divertente del corso, infatti la Prof.ssa ha utilizzato delle slides per spiegarla e quindi è pesata di più agli studenti.
+Grazie a questo corso ho iniziato ad apprezzare la materia che poi si è rivelata molto utile per comprendere concetti di corsi inerenti al Machine Learning.
+
+Ho seguito il corso con la professoressa Epifani, trovo che il corso sia molto incentrato sulla teoria che lo rende abbastanza pesante. È però doveroso dire che il corso getta delle basi solide di probabilità e di statistica che si rendono molto utili se non fondamentali in molti ambiti lavorativi futuri quali ad esempio data science, machine learning e AI. Per questo motivo non posso che consigliarlo a praticamente tutti gli informatici che vogliono proseguire gli studi in questi ambiti, non è strettamente obbligatorio ma sono basi che dovrete acquisire comunque, in un modo o nell'altro.
+Riguardo all'esame posso dire che è onesto, non è cambiato da quando era in presenza, ed è 3/4 esercizi ed 1/4 teoria, non fatevi fuorviare comunque, questo esame non si passa facendo esercizi. Riguardo la conoscenza delle dimostrazioni, quelle richieste sono un numero relativamente piccolo e tutte abbastanza banali.
+La professoressa è chiara fintanto che lo studente è ben preparato sulla lezione prima, soprattutto quando inizia la seconda parte, in caso contrario saranno arabo.
+
+###INFORMAZIONE E STIMA (PER INGEGNERIA INFORMATICA)
+TELEGRAM https://t.me/joinchat/S-wUNggKWFyTKfUE
+MANIFEST https://www4.ceda.polimi.it/manifesti/manifesti/controller/ManifestoPublic.do?EVN_DETTAGLIO_RIGA_MANIFESTO=evento&aa=2019&k_cf=225&k_corso_la=358&k_indir=IT1&codDescr=054304&lang=IT&semestre=2&anno_corso=2&idItemOfferta=141820&idRiga=240363
+Il corso di informazione e stima mi è piaciuto un sacco perchè tratta di argomenti interessanti, le lezioni sono ben strutturate e il professore (Barletta Luca) è veramente in gamba.
+In confronto a probabilità e stastica la differenza è che il corso ha un approccio ingegneristico, infatti è un corso abbastanza pratico e all'esame ci sono solo esercizi, ovviamente la teoria è comunque importante, ma non serve ricordarsi a memoria teoremi/dimostrazioni. Ci sono comunque degli argomenti abbastanza ostici, ma nulla di improponibile.
+Una delle cose più belle del corso è che tutte le lezioni, le esercitazioni e i laboratori sono svolti direttamente dal professore. Inoltre il professore è sempre disponibile per dubbi/domande ed è buono con le correzioni degli esami.
+
+Prof: Il prof Barletta è molto competente, simpatico e chiaro nelle spiegazioni. A volte introduce gli argomenti in modo un po' criptico, ma riesce comunque a fare passare il concetto fondamentale.
+Le esercitazioni sono tenute dallo stesso professore e sono costituite da alcuni esercizi di difficoltà crescente.
+Esame: L'esame è coerente con gli esercizi visti a lezione. È composto da 6 (o forse 7) esercizi che coprono tutti gli argomenti visti a lezione, uno dei quali può non essere svolto. Le valutazioni sono solitamente buone e le correzioni non troppo pignole.
+
+Il corso di informazione e stima è diviso in due parti: la prima riguarda lo studio della probabilità e statistica “classiche” e la seconda, appunto, di informazione e stima.
+Complessivamente ho apprezzato le lezioni perché ben bilanciate tra teoria e pratica; ogni pezzo di teoria è accompagnato da un esempio che aiuta a fissare le idee.
+La parte più interessante del corso è la seconda, infatti vengono usati gli argomenti della prima parte per stimare fenomeni aleatori, spesso finalizzati al mondo ingegneristico. Per esempio si stima dato un canale dati quanto sia affidabile oppure come stimare alcuni tipi di integrali non elementari. L’ultima parte del corso, quella dedicata all’informazione, si occupa invece dei concetti di entropia dell’informazione come lo spazio minimo necessario per memorizzare un certo tipo di dato in memoria conoscendone alcune sue caratteristiche.
+Nell’insieme quello che inizia come un normale corso di probabilità sposta poco a poco l’attenzione su questioni pratiche dell’ingegneria dell’informazione.
+Il prof risulta preparato e non annoia particolarmente quando spiega, anche perché si aiuta spesso con disegni e grafici che chiariscono le formule.
+L’esame è composto da 6 problemi come quelli visti a lezione ed esercitazione, dati questi problemi è possibile sceglierne 5. È inoltre consentito l’uso di un foglio A4 riempito a piacere.
+
+###Informazione e Stima vs Probabilità e Statistica
+
+Parlando con una professoressa di PSI sono emerse alcune considerazioni: </br>
+PSI è un corso metodologico i cui contenuti sono stati scelti per la
+loro rilevanza in un corso di probabilità e statistica per ingegneri e
+sono stati concordati con il CCS di Ingegneria Informatica, in quanto
+utili in corsi della laurea magistrale. Il corso è inoltre molto
+apprezzato anche all'estero, è infatti frequente che studenti
+intenzionati a partecipare  in programmi di laurea di secondo livello
+in atenei non italiani chiedano una lettera di raccomandazione (molto
+più spesso che in altri corsi di studio dove insegno materie simili).
+Certamente il corso è molto utile per studi magistrali nell'ambito di Artificial
+Intelligence o  Machine Learning  o Data Science,  proprio per il suo approccio
+modellistico/metodologico. PSI fornisce inoltre delle basi solide per
+un nuovo corso di statistica bayesiana presente nel nuovo track di AI
+che verrà attivato nel breve termine.</br>
+Di seguito una breve comparazione tra i due corsi riguardo ai contenuti: </br>
+- Nel corso di PSI  è presente una parte non trascurabile di inferenza
+statistica: non solo la teoria della stima puntuale, ma anche la stima
+intervallare (necessaria per valutare accuratezza e precisione della
+stima, per esempio), oltre alla verifica di ipotesi; la parte di inferenza statistica è limitata nel corso di IS. </br>
+- Di contro, nel corso di PSI non è presente la teoria dell'informazione, tipicamente usata dai  telecomunicazionisti,
+riguarda infatti "l'analisi e l'elaborazione su base matematica dei fenomeni relativi alla misurazione e alla trasmissione di informazioni
+su un canale fisico di comunicazione".
