@@ -107,7 +107,7 @@ Mettere all'interno del file CmakeLists.txt la seguente configurazione:
   project(API2021 C)<br>
   set(CMAKE_C_STANDARD 11)<br>
   set (CMAKE_C_FLAGS "${CMAKE_C_FLAGS} &lt;compiler_flags&gt;")<br>
-  add executable(output &lt;file.c&gt;)
+  add_executable(output &lt;file.c&gt;)
   </div>
 </pre>
 
