@@ -1,0 +1,3332 @@
+[
+  {
+    "name": "en-gulpfile",
+    "path": "/en/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\gulpfile.js",
+    "chunkName": "pages/en/gulpfile"
+  },
+  {
+    "name": "it-gulpfile",
+    "path": "/it/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\gulpfile.js",
+    "chunkName": "pages/it/gulpfile"
+  },
+  {
+    "name": "en-about_us-gulpfile",
+    "path": "/en/about_us/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\about_us\\\\gulpfile.js",
+    "chunkName": "pages/en/about_us/gulpfile"
+  },
+  {
+    "name": "en-assoc-gulpfile",
+    "path": "/en/assoc/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\assoc\\\\gulpfile.js",
+    "chunkName": "pages/en/assoc/gulpfile"
+  },
+  {
+    "name": "en-extra-gulpfile",
+    "path": "/en/extra/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\gulpfile.js",
+    "chunkName": "pages/en/extra/gulpfile"
+  },
+  {
+    "name": "en-js-resume",
+    "path": "/en/js/resume",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\js\\\\resume.js",
+    "chunkName": "pages/en/js/resume"
+  },
+  {
+    "name": "en-js-resume.min",
+    "path": "/en/js/resume.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\js\\\\resume.min.js",
+    "chunkName": "pages/en/js/resume.min"
+  },
+  {
+    "name": "en-objectives-gulpfile",
+    "path": "/en/objectives/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\objectives\\\\gulpfile.js",
+    "chunkName": "pages/en/objectives/gulpfile"
+  },
+  {
+    "name": "en-projects-gulpfile",
+    "path": "/en/projects/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\gulpfile.js",
+    "chunkName": "pages/en/projects/gulpfile"
+  },
+  {
+    "name": "en-rules-gulpfile",
+    "path": "/en/rules/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\rules\\\\gulpfile.js",
+    "chunkName": "pages/en/rules/gulpfile"
+  },
+  {
+    "name": "en-struttura-gulpfile",
+    "path": "/en/struttura/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\struttura\\\\gulpfile.js",
+    "chunkName": "pages/en/struttura/gulpfile"
+  },
+  {
+    "name": "en-welcome-gulpfile",
+    "path": "/en/welcome/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\welcome\\\\gulpfile.js",
+    "chunkName": "pages/en/welcome/gulpfile"
+  },
+  {
+    "name": "it-about_us-gulpfile",
+    "path": "/it/about_us/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\about_us\\\\gulpfile.js",
+    "chunkName": "pages/it/about_us/gulpfile"
+  },
+  {
+    "name": "it-assoc-gulpfile",
+    "path": "/it/assoc/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\assoc\\\\gulpfile.js",
+    "chunkName": "pages/it/assoc/gulpfile"
+  },
+  {
+    "name": "it-elezioni-gulpfile",
+    "path": "/it/elezioni/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\elezioni\\\\gulpfile.js",
+    "chunkName": "pages/it/elezioni/gulpfile"
+  },
+  {
+    "name": "it-extra-gulpfile",
+    "path": "/it/extra/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\gulpfile.js",
+    "chunkName": "pages/it/extra/gulpfile"
+  },
+  {
+    "name": "it-js-resume",
+    "path": "/it/js/resume",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\js\\\\resume.js",
+    "chunkName": "pages/it/js/resume"
+  },
+  {
+    "name": "it-js-resume.min",
+    "path": "/it/js/resume.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\js\\\\resume.min.js",
+    "chunkName": "pages/it/js/resume.min"
+  },
+  {
+    "name": "it-objectives-gulpfile",
+    "path": "/it/objectives/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\objectives\\\\gulpfile.js",
+    "chunkName": "pages/it/objectives/gulpfile"
+  },
+  {
+    "name": "it-projects-gulpfile",
+    "path": "/it/projects/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\gulpfile.js",
+    "chunkName": "pages/it/projects/gulpfile"
+  },
+  {
+    "name": "it-rules-gulpfile",
+    "path": "/it/rules/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\rules\\\\gulpfile.js",
+    "chunkName": "pages/it/rules/gulpfile"
+  },
+  {
+    "name": "it-struttura-gulpfile",
+    "path": "/it/struttura/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\struttura\\\\gulpfile.js",
+    "chunkName": "pages/it/struttura/gulpfile"
+  },
+  {
+    "name": "it-welcome-gulpfile",
+    "path": "/it/welcome/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\welcome\\\\gulpfile.js",
+    "chunkName": "pages/it/welcome/gulpfile"
+  },
+  {
+    "name": "en-extra-esn-gulpfile",
+    "path": "/en/extra/esn/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\esn\\\\gulpfile.js",
+    "chunkName": "pages/en/extra/esn/gulpfile"
+  },
+  {
+    "name": "en-extra-gaming-gulpfile",
+    "path": "/en/extra/gaming/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\gaming\\\\gulpfile.js",
+    "chunkName": "pages/en/extra/gaming/gulpfile"
+  },
+  {
+    "name": "en-extra-house-gulpfile",
+    "path": "/en/extra/house/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\house\\\\gulpfile.js",
+    "chunkName": "pages/en/extra/house/gulpfile"
+  },
+  {
+    "name": "en-extra-mobility-gulpfile",
+    "path": "/en/extra/mobility/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\mobility\\\\gulpfile.js",
+    "chunkName": "pages/en/extra/mobility/gulpfile"
+  },
+  {
+    "name": "en-extra-ot-gulpfile",
+    "path": "/en/extra/ot/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\ot\\\\gulpfile.js",
+    "chunkName": "pages/en/extra/ot/gulpfile"
+  },
+  {
+    "name": "en-extra-poliedro-gulpfile",
+    "path": "/en/extra/poliedro/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\poliedro\\\\gulpfile.js",
+    "chunkName": "pages/en/extra/poliedro/gulpfile"
+  },
+  {
+    "name": "en-extra-polimimemes-gulpfile",
+    "path": "/en/extra/polimimemes/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\polimimemes\\\\gulpfile.js",
+    "chunkName": "pages/en/extra/polimimemes/gulpfile"
+  },
+  {
+    "name": "en-extra-polimispotted-gulpfile",
+    "path": "/en/extra/polimispotted/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\polimispotted\\\\gulpfile.js",
+    "chunkName": "pages/en/extra/polimispotted/gulpfile"
+  },
+  {
+    "name": "en-extra-sport-gulpfile",
+    "path": "/en/extra/sport/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\sport\\\\gulpfile.js",
+    "chunkName": "pages/en/extra/sport/gulpfile"
+  },
+  {
+    "name": "en-extra-studentipolimi-gulpfile",
+    "path": "/en/extra/studentipolimi/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\studentipolimi\\\\gulpfile.js",
+    "chunkName": "pages/en/extra/studentipolimi/gulpfile"
+  },
+  {
+    "name": "en-guides-webex-gulpfile",
+    "path": "/en/guides/webex/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\guides\\\\webex\\\\gulpfile.js",
+    "chunkName": "pages/en/guides/webex/gulpfile"
+  },
+  {
+    "name": "en-projects-aulepolimibot-gulpfile",
+    "path": "/en/projects/aulepolimibot/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\aulepolimibot\\\\gulpfile.js",
+    "chunkName": "pages/en/projects/aulepolimibot/gulpfile"
+  },
+  {
+    "name": "en-projects-beepdrive-gulpfile",
+    "path": "/en/projects/beepdrive/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\beepdrive\\\\gulpfile.js",
+    "chunkName": "pages/en/projects/beepdrive/gulpfile"
+  },
+  {
+    "name": "en-projects-polibeepsync-gulpfile",
+    "path": "/en/projects/polibeepsync/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\polibeepsync\\\\gulpfile.js",
+    "chunkName": "pages/en/projects/polibeepsync/gulpfile"
+  },
+  {
+    "name": "en-projects-polidl-gulpfile",
+    "path": "/en/projects/polidl/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\polidl\\\\gulpfile.js",
+    "chunkName": "pages/en/projects/polidl/gulpfile"
+  },
+  {
+    "name": "en-projects-polidown-gulpfile",
+    "path": "/en/projects/polidown/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\polidown\\\\gulpfile.js",
+    "chunkName": "pages/en/projects/polidown/gulpfile"
+  },
+  {
+    "name": "en-projects-tdemerger-gulpfile",
+    "path": "/en/projects/tdemerger/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\tdemerger\\\\gulpfile.js",
+    "chunkName": "pages/en/projects/tdemerger/gulpfile"
+  },
+  {
+    "name": "en-projects-webexhelper-gulpfile",
+    "path": "/en/projects/webexhelper/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\webexhelper\\\\gulpfile.js",
+    "chunkName": "pages/en/projects/webexhelper/gulpfile"
+  },
+  {
+    "name": "en-vendor-jquery-easing-jquery.easing",
+    "path": "/en/vendor/jquery-easing/jquery.easing",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\vendor\\\\jquery-easing\\\\jquery.easing.js",
+    "chunkName": "pages/en/vendor/jquery-easing/jquery.easing"
+  },
+  {
+    "name": "en-vendor-jquery-easing-jquery.easing.compatibility",
+    "path": "/en/vendor/jquery-easing/jquery.easing.compatibility",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\vendor\\\\jquery-easing\\\\jquery.easing.compatibility.js",
+    "chunkName": "pages/en/vendor/jquery-easing/jquery.easing.compatibility"
+  },
+  {
+    "name": "en-vendor-jquery-easing-jquery.easing.min",
+    "path": "/en/vendor/jquery-easing/jquery.easing.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\vendor\\\\jquery-easing\\\\jquery.easing.min.js",
+    "chunkName": "pages/en/vendor/jquery-easing/jquery.easing.min"
+  },
+  {
+    "name": "en-vendor-jquery-jquery",
+    "path": "/en/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/en/vendor/jquery/jquery"
+  },
+  {
+    "name": "en-vendor-jquery-jquery.min",
+    "path": "/en/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/en/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "en-vendor-jquery-jquery.slim",
+    "path": "/en/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/en/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "en-vendor-jquery-jquery.slim.min",
+    "path": "/en/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/en/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "it-extra-esn-gulpfile",
+    "path": "/it/extra/esn/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\esn\\\\gulpfile.js",
+    "chunkName": "pages/it/extra/esn/gulpfile"
+  },
+  {
+    "name": "it-extra-gaming-gulpfile",
+    "path": "/it/extra/gaming/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\gaming\\\\gulpfile.js",
+    "chunkName": "pages/it/extra/gaming/gulpfile"
+  },
+  {
+    "name": "it-extra-house-gulpfile",
+    "path": "/it/extra/house/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\house\\\\gulpfile.js",
+    "chunkName": "pages/it/extra/house/gulpfile"
+  },
+  {
+    "name": "it-extra-mobility-gulpfile",
+    "path": "/it/extra/mobility/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\mobility\\\\gulpfile.js",
+    "chunkName": "pages/it/extra/mobility/gulpfile"
+  },
+  {
+    "name": "it-extra-ot-gulpfile",
+    "path": "/it/extra/ot/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\ot\\\\gulpfile.js",
+    "chunkName": "pages/it/extra/ot/gulpfile"
+  },
+  {
+    "name": "it-extra-poliedro-gulpfile",
+    "path": "/it/extra/poliedro/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\poliedro\\\\gulpfile.js",
+    "chunkName": "pages/it/extra/poliedro/gulpfile"
+  },
+  {
+    "name": "it-extra-polimimemes-gulpfile",
+    "path": "/it/extra/polimimemes/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\polimimemes\\\\gulpfile.js",
+    "chunkName": "pages/it/extra/polimimemes/gulpfile"
+  },
+  {
+    "name": "it-extra-polimispotted-gulpfile",
+    "path": "/it/extra/polimispotted/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\polimispotted\\\\gulpfile.js",
+    "chunkName": "pages/it/extra/polimispotted/gulpfile"
+  },
+  {
+    "name": "it-extra-sport-gulpfile",
+    "path": "/it/extra/sport/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\sport\\\\gulpfile.js",
+    "chunkName": "pages/it/extra/sport/gulpfile"
+  },
+  {
+    "name": "it-extra-studentipolimi-gulpfile",
+    "path": "/it/extra/studentipolimi/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\studentipolimi\\\\gulpfile.js",
+    "chunkName": "pages/it/extra/studentipolimi/gulpfile"
+  },
+  {
+    "name": "it-guides-webex-gulpfile",
+    "path": "/it/guides/webex/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\guides\\\\webex\\\\gulpfile.js",
+    "chunkName": "pages/it/guides/webex/gulpfile"
+  },
+  {
+    "name": "it-projects-aulepolimibot-gulpfile",
+    "path": "/it/projects/aulepolimibot/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\aulepolimibot\\\\gulpfile.js",
+    "chunkName": "pages/it/projects/aulepolimibot/gulpfile"
+  },
+  {
+    "name": "it-projects-beepdrive-gulpfile",
+    "path": "/it/projects/beepdrive/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\beepdrive\\\\gulpfile.js",
+    "chunkName": "pages/it/projects/beepdrive/gulpfile"
+  },
+  {
+    "name": "it-projects-polibeepsync-gulpfile",
+    "path": "/it/projects/polibeepsync/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\polibeepsync\\\\gulpfile.js",
+    "chunkName": "pages/it/projects/polibeepsync/gulpfile"
+  },
+  {
+    "name": "it-projects-polidl-gulpfile",
+    "path": "/it/projects/polidl/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\polidl\\\\gulpfile.js",
+    "chunkName": "pages/it/projects/polidl/gulpfile"
+  },
+  {
+    "name": "it-projects-polidown-gulpfile",
+    "path": "/it/projects/polidown/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\polidown\\\\gulpfile.js",
+    "chunkName": "pages/it/projects/polidown/gulpfile"
+  },
+  {
+    "name": "it-projects-tdemerger-gulpfile",
+    "path": "/it/projects/tdemerger/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\tdemerger\\\\gulpfile.js",
+    "chunkName": "pages/it/projects/tdemerger/gulpfile"
+  },
+  {
+    "name": "it-projects-webexhelper-gulpfile",
+    "path": "/it/projects/webexhelper/gulpfile",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\webexhelper\\\\gulpfile.js",
+    "chunkName": "pages/it/projects/webexhelper/gulpfile"
+  },
+  {
+    "name": "it-vendor-jquery-easing-jquery.easing",
+    "path": "/it/vendor/jquery-easing/jquery.easing",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\vendor\\\\jquery-easing\\\\jquery.easing.js",
+    "chunkName": "pages/it/vendor/jquery-easing/jquery.easing"
+  },
+  {
+    "name": "it-vendor-jquery-easing-jquery.easing.compatibility",
+    "path": "/it/vendor/jquery-easing/jquery.easing.compatibility",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\vendor\\\\jquery-easing\\\\jquery.easing.compatibility.js",
+    "chunkName": "pages/it/vendor/jquery-easing/jquery.easing.compatibility"
+  },
+  {
+    "name": "it-vendor-jquery-easing-jquery.easing.min",
+    "path": "/it/vendor/jquery-easing/jquery.easing.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\vendor\\\\jquery-easing\\\\jquery.easing.min.js",
+    "chunkName": "pages/it/vendor/jquery-easing/jquery.easing.min"
+  },
+  {
+    "name": "it-vendor-jquery-jquery",
+    "path": "/it/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/it/vendor/jquery/jquery"
+  },
+  {
+    "name": "it-vendor-jquery-jquery.min",
+    "path": "/it/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/it/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "it-vendor-jquery-jquery.slim",
+    "path": "/it/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/it/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "it-vendor-jquery-jquery.slim.min",
+    "path": "/it/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/it/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "en-about_us-vendor-jquery-jquery",
+    "path": "/en/about_us/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\about_us\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/en/about_us/vendor/jquery/jquery"
+  },
+  {
+    "name": "en-about_us-vendor-jquery-jquery.min",
+    "path": "/en/about_us/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\about_us\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/en/about_us/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "en-about_us-vendor-jquery-jquery.slim",
+    "path": "/en/about_us/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\about_us\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/en/about_us/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "en-about_us-vendor-jquery-jquery.slim.min",
+    "path": "/en/about_us/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\about_us\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/en/about_us/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "en-assoc-vendor-jquery-jquery",
+    "path": "/en/assoc/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\assoc\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/en/assoc/vendor/jquery/jquery"
+  },
+  {
+    "name": "en-assoc-vendor-jquery-jquery.min",
+    "path": "/en/assoc/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\assoc\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/en/assoc/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "en-assoc-vendor-jquery-jquery.slim",
+    "path": "/en/assoc/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\assoc\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/en/assoc/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "en-assoc-vendor-jquery-jquery.slim.min",
+    "path": "/en/assoc/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\assoc\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/en/assoc/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "en-extra-vendor-jquery-jquery",
+    "path": "/en/extra/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/en/extra/vendor/jquery/jquery"
+  },
+  {
+    "name": "en-extra-vendor-jquery-jquery.min",
+    "path": "/en/extra/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/en/extra/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "en-extra-vendor-jquery-jquery.slim",
+    "path": "/en/extra/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/en/extra/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "en-extra-vendor-jquery-jquery.slim.min",
+    "path": "/en/extra/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/en/extra/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "en-guides-webex-js-stylish-portfolio",
+    "path": "/en/guides/webex/js/stylish-portfolio",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\guides\\\\webex\\\\js\\\\stylish-portfolio.js",
+    "chunkName": "pages/en/guides/webex/js/stylish-portfolio"
+  },
+  {
+    "name": "en-guides-webex-js-stylish-portfolio.min",
+    "path": "/en/guides/webex/js/stylish-portfolio.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\guides\\\\webex\\\\js\\\\stylish-portfolio.min.js",
+    "chunkName": "pages/en/guides/webex/js/stylish-portfolio.min"
+  },
+  {
+    "name": "en-objectives-vendor-jquery-jquery",
+    "path": "/en/objectives/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\objectives\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/en/objectives/vendor/jquery/jquery"
+  },
+  {
+    "name": "en-objectives-vendor-jquery-jquery.min",
+    "path": "/en/objectives/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\objectives\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/en/objectives/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "en-objectives-vendor-jquery-jquery.slim",
+    "path": "/en/objectives/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\objectives\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/en/objectives/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "en-objectives-vendor-jquery-jquery.slim.min",
+    "path": "/en/objectives/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\objectives\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/en/objectives/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "en-projects-vendor-jquery-jquery",
+    "path": "/en/projects/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/en/projects/vendor/jquery/jquery"
+  },
+  {
+    "name": "en-projects-vendor-jquery-jquery.min",
+    "path": "/en/projects/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/en/projects/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "en-projects-vendor-jquery-jquery.slim",
+    "path": "/en/projects/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/en/projects/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "en-projects-vendor-jquery-jquery.slim.min",
+    "path": "/en/projects/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/en/projects/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "en-rules-vendor-jquery-jquery",
+    "path": "/en/rules/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\rules\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/en/rules/vendor/jquery/jquery"
+  },
+  {
+    "name": "en-rules-vendor-jquery-jquery.min",
+    "path": "/en/rules/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\rules\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/en/rules/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "en-rules-vendor-jquery-jquery.slim",
+    "path": "/en/rules/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\rules\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/en/rules/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "en-rules-vendor-jquery-jquery.slim.min",
+    "path": "/en/rules/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\rules\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/en/rules/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "en-struttura-vendor-jquery-jquery",
+    "path": "/en/struttura/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\struttura\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/en/struttura/vendor/jquery/jquery"
+  },
+  {
+    "name": "en-struttura-vendor-jquery-jquery.min",
+    "path": "/en/struttura/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\struttura\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/en/struttura/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "en-struttura-vendor-jquery-jquery.slim",
+    "path": "/en/struttura/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\struttura\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/en/struttura/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "en-struttura-vendor-jquery-jquery.slim.min",
+    "path": "/en/struttura/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\struttura\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/en/struttura/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "en-vendor-bootstrap-js-bootstrap",
+    "path": "/en/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/en/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "en-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/en/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/en/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "en-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/en/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/en/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "en-vendor-bootstrap-js-bootstrap.min",
+    "path": "/en/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/en/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "en-vendor-fontawesome-free-js-all",
+    "path": "/en/vendor/fontawesome-free/js/all",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\vendor\\\\fontawesome-free\\\\js\\\\all.js",
+    "chunkName": "pages/en/vendor/fontawesome-free/js/all"
+  },
+  {
+    "name": "en-vendor-fontawesome-free-js-all.min",
+    "path": "/en/vendor/fontawesome-free/js/all.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\vendor\\\\fontawesome-free\\\\js\\\\all.min.js",
+    "chunkName": "pages/en/vendor/fontawesome-free/js/all.min"
+  },
+  {
+    "name": "en-vendor-fontawesome-free-js-brands",
+    "path": "/en/vendor/fontawesome-free/js/brands",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\vendor\\\\fontawesome-free\\\\js\\\\brands.js",
+    "chunkName": "pages/en/vendor/fontawesome-free/js/brands"
+  },
+  {
+    "name": "en-vendor-fontawesome-free-js-brands.min",
+    "path": "/en/vendor/fontawesome-free/js/brands.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\vendor\\\\fontawesome-free\\\\js\\\\brands.min.js",
+    "chunkName": "pages/en/vendor/fontawesome-free/js/brands.min"
+  },
+  {
+    "name": "en-vendor-fontawesome-free-js-fontawesome",
+    "path": "/en/vendor/fontawesome-free/js/fontawesome",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\vendor\\\\fontawesome-free\\\\js\\\\fontawesome.js",
+    "chunkName": "pages/en/vendor/fontawesome-free/js/fontawesome"
+  },
+  {
+    "name": "en-vendor-fontawesome-free-js-fontawesome.min",
+    "path": "/en/vendor/fontawesome-free/js/fontawesome.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\vendor\\\\fontawesome-free\\\\js\\\\fontawesome.min.js",
+    "chunkName": "pages/en/vendor/fontawesome-free/js/fontawesome.min"
+  },
+  {
+    "name": "en-vendor-fontawesome-free-js-regular",
+    "path": "/en/vendor/fontawesome-free/js/regular",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\vendor\\\\fontawesome-free\\\\js\\\\regular.js",
+    "chunkName": "pages/en/vendor/fontawesome-free/js/regular"
+  },
+  {
+    "name": "en-vendor-fontawesome-free-js-regular.min",
+    "path": "/en/vendor/fontawesome-free/js/regular.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\vendor\\\\fontawesome-free\\\\js\\\\regular.min.js",
+    "chunkName": "pages/en/vendor/fontawesome-free/js/regular.min"
+  },
+  {
+    "name": "en-vendor-fontawesome-free-js-solid",
+    "path": "/en/vendor/fontawesome-free/js/solid",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\vendor\\\\fontawesome-free\\\\js\\\\solid.js",
+    "chunkName": "pages/en/vendor/fontawesome-free/js/solid"
+  },
+  {
+    "name": "en-vendor-fontawesome-free-js-solid.min",
+    "path": "/en/vendor/fontawesome-free/js/solid.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\vendor\\\\fontawesome-free\\\\js\\\\solid.min.js",
+    "chunkName": "pages/en/vendor/fontawesome-free/js/solid.min"
+  },
+  {
+    "name": "en-vendor-fontawesome-free-js-v4-shims",
+    "path": "/en/vendor/fontawesome-free/js/v4-shims",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\vendor\\\\fontawesome-free\\\\js\\\\v4-shims.js",
+    "chunkName": "pages/en/vendor/fontawesome-free/js/v4-shims"
+  },
+  {
+    "name": "en-vendor-fontawesome-free-js-v4-shims.min",
+    "path": "/en/vendor/fontawesome-free/js/v4-shims.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\vendor\\\\fontawesome-free\\\\js\\\\v4-shims.min.js",
+    "chunkName": "pages/en/vendor/fontawesome-free/js/v4-shims.min"
+  },
+  {
+    "name": "en-welcome-vendor-jquery-jquery",
+    "path": "/en/welcome/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\welcome\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/en/welcome/vendor/jquery/jquery"
+  },
+  {
+    "name": "en-welcome-vendor-jquery-jquery.min",
+    "path": "/en/welcome/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\welcome\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/en/welcome/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "en-welcome-vendor-jquery-jquery.slim",
+    "path": "/en/welcome/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\welcome\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/en/welcome/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "en-welcome-vendor-jquery-jquery.slim.min",
+    "path": "/en/welcome/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\welcome\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/en/welcome/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "it-about_us-vendor-jquery-jquery",
+    "path": "/it/about_us/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\about_us\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/it/about_us/vendor/jquery/jquery"
+  },
+  {
+    "name": "it-about_us-vendor-jquery-jquery.min",
+    "path": "/it/about_us/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\about_us\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/it/about_us/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "it-about_us-vendor-jquery-jquery.slim",
+    "path": "/it/about_us/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\about_us\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/it/about_us/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "it-about_us-vendor-jquery-jquery.slim.min",
+    "path": "/it/about_us/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\about_us\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/it/about_us/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "it-assoc-vendor-jquery-jquery",
+    "path": "/it/assoc/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\assoc\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/it/assoc/vendor/jquery/jquery"
+  },
+  {
+    "name": "it-assoc-vendor-jquery-jquery.min",
+    "path": "/it/assoc/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\assoc\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/it/assoc/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "it-assoc-vendor-jquery-jquery.slim",
+    "path": "/it/assoc/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\assoc\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/it/assoc/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "it-assoc-vendor-jquery-jquery.slim.min",
+    "path": "/it/assoc/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\assoc\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/it/assoc/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "it-elezioni-listaaperta-js-bootstrap.min",
+    "path": "/it/elezioni/listaaperta/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\elezioni\\\\listaaperta\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/it/elezioni/listaaperta/js/bootstrap.min"
+  },
+  {
+    "name": "it-elezioni-listaaperta-js-jquery.min",
+    "path": "/it/elezioni/listaaperta/js/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\elezioni\\\\listaaperta\\\\js\\\\jquery.min.js",
+    "chunkName": "pages/it/elezioni/listaaperta/js/jquery.min"
+  },
+  {
+    "name": "it-elezioni-listaaperta-js-wow.min",
+    "path": "/it/elezioni/listaaperta/js/wow.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\elezioni\\\\listaaperta\\\\js\\\\wow.min.js",
+    "chunkName": "pages/it/elezioni/listaaperta/js/wow.min"
+  },
+  {
+    "name": "it-elezioni-studentiindipendenti-js-bootstrap.min",
+    "path": "/it/elezioni/studentiindipendenti/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\elezioni\\\\studentiindipendenti\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/it/elezioni/studentiindipendenti/js/bootstrap.min"
+  },
+  {
+    "name": "it-elezioni-studentiindipendenti-js-jquery.min",
+    "path": "/it/elezioni/studentiindipendenti/js/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\elezioni\\\\studentiindipendenti\\\\js\\\\jquery.min.js",
+    "chunkName": "pages/it/elezioni/studentiindipendenti/js/jquery.min"
+  },
+  {
+    "name": "it-elezioni-studentiindipendenti-js-wow.min",
+    "path": "/it/elezioni/studentiindipendenti/js/wow.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\elezioni\\\\studentiindipendenti\\\\js\\\\wow.min.js",
+    "chunkName": "pages/it/elezioni/studentiindipendenti/js/wow.min"
+  },
+  {
+    "name": "it-elezioni-svoltastudenti-js-bootstrap.min",
+    "path": "/it/elezioni/svoltastudenti/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\elezioni\\\\svoltastudenti\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/it/elezioni/svoltastudenti/js/bootstrap.min"
+  },
+  {
+    "name": "it-elezioni-svoltastudenti-js-jquery.min",
+    "path": "/it/elezioni/svoltastudenti/js/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\elezioni\\\\svoltastudenti\\\\js\\\\jquery.min.js",
+    "chunkName": "pages/it/elezioni/svoltastudenti/js/jquery.min"
+  },
+  {
+    "name": "it-elezioni-svoltastudenti-js-wow.min",
+    "path": "/it/elezioni/svoltastudenti/js/wow.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\elezioni\\\\svoltastudenti\\\\js\\\\wow.min.js",
+    "chunkName": "pages/it/elezioni/svoltastudenti/js/wow.min"
+  },
+  {
+    "name": "it-elezioni-ternasinistrorsa-js-bootstrap.min",
+    "path": "/it/elezioni/ternasinistrorsa/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\elezioni\\\\ternasinistrorsa\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/it/elezioni/ternasinistrorsa/js/bootstrap.min"
+  },
+  {
+    "name": "it-elezioni-ternasinistrorsa-js-jquery.min",
+    "path": "/it/elezioni/ternasinistrorsa/js/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\elezioni\\\\ternasinistrorsa\\\\js\\\\jquery.min.js",
+    "chunkName": "pages/it/elezioni/ternasinistrorsa/js/jquery.min"
+  },
+  {
+    "name": "it-elezioni-ternasinistrorsa-js-wow.min",
+    "path": "/it/elezioni/ternasinistrorsa/js/wow.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\elezioni\\\\ternasinistrorsa\\\\js\\\\wow.min.js",
+    "chunkName": "pages/it/elezioni/ternasinistrorsa/js/wow.min"
+  },
+  {
+    "name": "it-elezioni-vendor-jquery-jquery",
+    "path": "/it/elezioni/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\elezioni\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/it/elezioni/vendor/jquery/jquery"
+  },
+  {
+    "name": "it-elezioni-vendor-jquery-jquery.min",
+    "path": "/it/elezioni/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\elezioni\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/it/elezioni/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "it-elezioni-vendor-jquery-jquery.slim",
+    "path": "/it/elezioni/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\elezioni\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/it/elezioni/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "it-elezioni-vendor-jquery-jquery.slim.min",
+    "path": "/it/elezioni/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\elezioni\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/it/elezioni/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "it-extra-vendor-jquery-jquery",
+    "path": "/it/extra/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/it/extra/vendor/jquery/jquery"
+  },
+  {
+    "name": "it-extra-vendor-jquery-jquery.min",
+    "path": "/it/extra/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/it/extra/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "it-extra-vendor-jquery-jquery.slim",
+    "path": "/it/extra/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/it/extra/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "it-extra-vendor-jquery-jquery.slim.min",
+    "path": "/it/extra/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/it/extra/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "it-guides-aes-res-fetcher",
+    "path": "/it/guides/aes/res/fetcher",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\guides\\\\aes\\\\res\\\\fetcher.js",
+    "chunkName": "pages/it/guides/aes/res/fetcher"
+  },
+  {
+    "name": "it-guides-info-res-fetcher",
+    "path": "/it/guides/info/res/fetcher",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\guides\\\\info\\\\res\\\\fetcher.js",
+    "chunkName": "pages/it/guides/info/res/fetcher"
+  },
+  {
+    "name": "it-guides-testanddev-res-fetcher",
+    "path": "/it/guides/testanddev/res/fetcher",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\guides\\\\testanddev\\\\res\\\\fetcher.js",
+    "chunkName": "pages/it/guides/testanddev/res/fetcher"
+  },
+  {
+    "name": "it-guides-webex-js-stylish-portfolio",
+    "path": "/it/guides/webex/js/stylish-portfolio",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\guides\\\\webex\\\\js\\\\stylish-portfolio.js",
+    "chunkName": "pages/it/guides/webex/js/stylish-portfolio"
+  },
+  {
+    "name": "it-guides-webex-js-stylish-portfolio.min",
+    "path": "/it/guides/webex/js/stylish-portfolio.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\guides\\\\webex\\\\js\\\\stylish-portfolio.min.js",
+    "chunkName": "pages/it/guides/webex/js/stylish-portfolio.min"
+  },
+  {
+    "name": "it-objectives-vendor-jquery-jquery",
+    "path": "/it/objectives/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\objectives\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/it/objectives/vendor/jquery/jquery"
+  },
+  {
+    "name": "it-objectives-vendor-jquery-jquery.min",
+    "path": "/it/objectives/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\objectives\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/it/objectives/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "it-objectives-vendor-jquery-jquery.slim",
+    "path": "/it/objectives/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\objectives\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/it/objectives/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "it-objectives-vendor-jquery-jquery.slim.min",
+    "path": "/it/objectives/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\objectives\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/it/objectives/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "it-projects-vendor-jquery-jquery",
+    "path": "/it/projects/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/it/projects/vendor/jquery/jquery"
+  },
+  {
+    "name": "it-projects-vendor-jquery-jquery.min",
+    "path": "/it/projects/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/it/projects/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "it-projects-vendor-jquery-jquery.slim",
+    "path": "/it/projects/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/it/projects/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "it-projects-vendor-jquery-jquery.slim.min",
+    "path": "/it/projects/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/it/projects/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "it-rules-vendor-jquery-jquery",
+    "path": "/it/rules/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\rules\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/it/rules/vendor/jquery/jquery"
+  },
+  {
+    "name": "it-rules-vendor-jquery-jquery.min",
+    "path": "/it/rules/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\rules\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/it/rules/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "it-rules-vendor-jquery-jquery.slim",
+    "path": "/it/rules/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\rules\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/it/rules/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "it-rules-vendor-jquery-jquery.slim.min",
+    "path": "/it/rules/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\rules\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/it/rules/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "it-struttura-vendor-jquery-jquery",
+    "path": "/it/struttura/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\struttura\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/it/struttura/vendor/jquery/jquery"
+  },
+  {
+    "name": "it-struttura-vendor-jquery-jquery.min",
+    "path": "/it/struttura/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\struttura\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/it/struttura/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "it-struttura-vendor-jquery-jquery.slim",
+    "path": "/it/struttura/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\struttura\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/it/struttura/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "it-struttura-vendor-jquery-jquery.slim.min",
+    "path": "/it/struttura/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\struttura\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/it/struttura/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "it-vendor-bootstrap-js-bootstrap",
+    "path": "/it/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/it/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "it-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/it/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/it/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "it-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/it/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/it/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "it-vendor-bootstrap-js-bootstrap.min",
+    "path": "/it/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/it/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "it-vendor-fontawesome-free-js-all",
+    "path": "/it/vendor/fontawesome-free/js/all",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\vendor\\\\fontawesome-free\\\\js\\\\all.js",
+    "chunkName": "pages/it/vendor/fontawesome-free/js/all"
+  },
+  {
+    "name": "it-vendor-fontawesome-free-js-all.min",
+    "path": "/it/vendor/fontawesome-free/js/all.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\vendor\\\\fontawesome-free\\\\js\\\\all.min.js",
+    "chunkName": "pages/it/vendor/fontawesome-free/js/all.min"
+  },
+  {
+    "name": "it-vendor-fontawesome-free-js-brands",
+    "path": "/it/vendor/fontawesome-free/js/brands",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\vendor\\\\fontawesome-free\\\\js\\\\brands.js",
+    "chunkName": "pages/it/vendor/fontawesome-free/js/brands"
+  },
+  {
+    "name": "it-vendor-fontawesome-free-js-brands.min",
+    "path": "/it/vendor/fontawesome-free/js/brands.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\vendor\\\\fontawesome-free\\\\js\\\\brands.min.js",
+    "chunkName": "pages/it/vendor/fontawesome-free/js/brands.min"
+  },
+  {
+    "name": "it-vendor-fontawesome-free-js-fontawesome",
+    "path": "/it/vendor/fontawesome-free/js/fontawesome",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\vendor\\\\fontawesome-free\\\\js\\\\fontawesome.js",
+    "chunkName": "pages/it/vendor/fontawesome-free/js/fontawesome"
+  },
+  {
+    "name": "it-vendor-fontawesome-free-js-fontawesome.min",
+    "path": "/it/vendor/fontawesome-free/js/fontawesome.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\vendor\\\\fontawesome-free\\\\js\\\\fontawesome.min.js",
+    "chunkName": "pages/it/vendor/fontawesome-free/js/fontawesome.min"
+  },
+  {
+    "name": "it-vendor-fontawesome-free-js-regular",
+    "path": "/it/vendor/fontawesome-free/js/regular",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\vendor\\\\fontawesome-free\\\\js\\\\regular.js",
+    "chunkName": "pages/it/vendor/fontawesome-free/js/regular"
+  },
+  {
+    "name": "it-vendor-fontawesome-free-js-regular.min",
+    "path": "/it/vendor/fontawesome-free/js/regular.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\vendor\\\\fontawesome-free\\\\js\\\\regular.min.js",
+    "chunkName": "pages/it/vendor/fontawesome-free/js/regular.min"
+  },
+  {
+    "name": "it-vendor-fontawesome-free-js-solid",
+    "path": "/it/vendor/fontawesome-free/js/solid",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\vendor\\\\fontawesome-free\\\\js\\\\solid.js",
+    "chunkName": "pages/it/vendor/fontawesome-free/js/solid"
+  },
+  {
+    "name": "it-vendor-fontawesome-free-js-solid.min",
+    "path": "/it/vendor/fontawesome-free/js/solid.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\vendor\\\\fontawesome-free\\\\js\\\\solid.min.js",
+    "chunkName": "pages/it/vendor/fontawesome-free/js/solid.min"
+  },
+  {
+    "name": "it-vendor-fontawesome-free-js-v4-shims",
+    "path": "/it/vendor/fontawesome-free/js/v4-shims",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\vendor\\\\fontawesome-free\\\\js\\\\v4-shims.js",
+    "chunkName": "pages/it/vendor/fontawesome-free/js/v4-shims"
+  },
+  {
+    "name": "it-vendor-fontawesome-free-js-v4-shims.min",
+    "path": "/it/vendor/fontawesome-free/js/v4-shims.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\vendor\\\\fontawesome-free\\\\js\\\\v4-shims.min.js",
+    "chunkName": "pages/it/vendor/fontawesome-free/js/v4-shims.min"
+  },
+  {
+    "name": "it-welcome-vendor-jquery-jquery",
+    "path": "/it/welcome/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\welcome\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/it/welcome/vendor/jquery/jquery"
+  },
+  {
+    "name": "it-welcome-vendor-jquery-jquery.min",
+    "path": "/it/welcome/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\welcome\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/it/welcome/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "it-welcome-vendor-jquery-jquery.slim",
+    "path": "/it/welcome/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\welcome\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/it/welcome/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "it-welcome-vendor-jquery-jquery.slim.min",
+    "path": "/it/welcome/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\welcome\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/it/welcome/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "en-about_us-vendor-bootstrap-js-bootstrap",
+    "path": "/en/about_us/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\about_us\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/en/about_us/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "en-about_us-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/en/about_us/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\about_us\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/en/about_us/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "en-about_us-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/en/about_us/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\about_us\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/en/about_us/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "en-about_us-vendor-bootstrap-js-bootstrap.min",
+    "path": "/en/about_us/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\about_us\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/en/about_us/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "en-assoc-vendor-bootstrap-js-bootstrap",
+    "path": "/en/assoc/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\assoc\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/en/assoc/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "en-assoc-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/en/assoc/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\assoc\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/en/assoc/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "en-assoc-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/en/assoc/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\assoc\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/en/assoc/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "en-assoc-vendor-bootstrap-js-bootstrap.min",
+    "path": "/en/assoc/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\assoc\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/en/assoc/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "en-extra-esn-vendor-jquery-jquery",
+    "path": "/en/extra/esn/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\esn\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/en/extra/esn/vendor/jquery/jquery"
+  },
+  {
+    "name": "en-extra-esn-vendor-jquery-jquery.min",
+    "path": "/en/extra/esn/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\esn\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/en/extra/esn/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "en-extra-esn-vendor-jquery-jquery.slim",
+    "path": "/en/extra/esn/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\esn\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/en/extra/esn/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "en-extra-esn-vendor-jquery-jquery.slim.min",
+    "path": "/en/extra/esn/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\esn\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/en/extra/esn/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "en-extra-gaming-vendor-jquery-jquery",
+    "path": "/en/extra/gaming/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\gaming\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/en/extra/gaming/vendor/jquery/jquery"
+  },
+  {
+    "name": "en-extra-gaming-vendor-jquery-jquery.min",
+    "path": "/en/extra/gaming/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\gaming\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/en/extra/gaming/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "en-extra-gaming-vendor-jquery-jquery.slim",
+    "path": "/en/extra/gaming/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\gaming\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/en/extra/gaming/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "en-extra-gaming-vendor-jquery-jquery.slim.min",
+    "path": "/en/extra/gaming/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\gaming\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/en/extra/gaming/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "en-extra-house-vendor-jquery-jquery",
+    "path": "/en/extra/house/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\house\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/en/extra/house/vendor/jquery/jquery"
+  },
+  {
+    "name": "en-extra-house-vendor-jquery-jquery.min",
+    "path": "/en/extra/house/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\house\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/en/extra/house/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "en-extra-house-vendor-jquery-jquery.slim",
+    "path": "/en/extra/house/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\house\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/en/extra/house/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "en-extra-house-vendor-jquery-jquery.slim.min",
+    "path": "/en/extra/house/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\house\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/en/extra/house/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "en-extra-mobility-vendor-jquery-jquery",
+    "path": "/en/extra/mobility/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\mobility\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/en/extra/mobility/vendor/jquery/jquery"
+  },
+  {
+    "name": "en-extra-mobility-vendor-jquery-jquery.min",
+    "path": "/en/extra/mobility/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\mobility\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/en/extra/mobility/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "en-extra-mobility-vendor-jquery-jquery.slim",
+    "path": "/en/extra/mobility/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\mobility\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/en/extra/mobility/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "en-extra-mobility-vendor-jquery-jquery.slim.min",
+    "path": "/en/extra/mobility/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\mobility\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/en/extra/mobility/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "en-extra-ot-vendor-jquery-jquery",
+    "path": "/en/extra/ot/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\ot\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/en/extra/ot/vendor/jquery/jquery"
+  },
+  {
+    "name": "en-extra-ot-vendor-jquery-jquery.min",
+    "path": "/en/extra/ot/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\ot\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/en/extra/ot/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "en-extra-ot-vendor-jquery-jquery.slim",
+    "path": "/en/extra/ot/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\ot\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/en/extra/ot/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "en-extra-ot-vendor-jquery-jquery.slim.min",
+    "path": "/en/extra/ot/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\ot\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/en/extra/ot/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "en-extra-poliedro-vendor-jquery-jquery",
+    "path": "/en/extra/poliedro/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\poliedro\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/en/extra/poliedro/vendor/jquery/jquery"
+  },
+  {
+    "name": "en-extra-poliedro-vendor-jquery-jquery.min",
+    "path": "/en/extra/poliedro/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\poliedro\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/en/extra/poliedro/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "en-extra-poliedro-vendor-jquery-jquery.slim",
+    "path": "/en/extra/poliedro/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\poliedro\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/en/extra/poliedro/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "en-extra-poliedro-vendor-jquery-jquery.slim.min",
+    "path": "/en/extra/poliedro/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\poliedro\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/en/extra/poliedro/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "en-extra-polimimemes-vendor-jquery-jquery",
+    "path": "/en/extra/polimimemes/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\polimimemes\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/en/extra/polimimemes/vendor/jquery/jquery"
+  },
+  {
+    "name": "en-extra-polimimemes-vendor-jquery-jquery.min",
+    "path": "/en/extra/polimimemes/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\polimimemes\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/en/extra/polimimemes/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "en-extra-polimimemes-vendor-jquery-jquery.slim",
+    "path": "/en/extra/polimimemes/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\polimimemes\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/en/extra/polimimemes/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "en-extra-polimimemes-vendor-jquery-jquery.slim.min",
+    "path": "/en/extra/polimimemes/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\polimimemes\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/en/extra/polimimemes/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "en-extra-polimispotted-vendor-jquery-jquery",
+    "path": "/en/extra/polimispotted/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\polimispotted\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/en/extra/polimispotted/vendor/jquery/jquery"
+  },
+  {
+    "name": "en-extra-polimispotted-vendor-jquery-jquery.min",
+    "path": "/en/extra/polimispotted/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\polimispotted\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/en/extra/polimispotted/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "en-extra-polimispotted-vendor-jquery-jquery.slim",
+    "path": "/en/extra/polimispotted/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\polimispotted\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/en/extra/polimispotted/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "en-extra-polimispotted-vendor-jquery-jquery.slim.min",
+    "path": "/en/extra/polimispotted/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\polimispotted\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/en/extra/polimispotted/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "en-extra-sport-vendor-jquery-jquery",
+    "path": "/en/extra/sport/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\sport\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/en/extra/sport/vendor/jquery/jquery"
+  },
+  {
+    "name": "en-extra-sport-vendor-jquery-jquery.min",
+    "path": "/en/extra/sport/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\sport\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/en/extra/sport/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "en-extra-sport-vendor-jquery-jquery.slim",
+    "path": "/en/extra/sport/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\sport\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/en/extra/sport/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "en-extra-sport-vendor-jquery-jquery.slim.min",
+    "path": "/en/extra/sport/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\sport\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/en/extra/sport/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "en-extra-studentipolimi-vendor-jquery-jquery",
+    "path": "/en/extra/studentipolimi/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\studentipolimi\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/en/extra/studentipolimi/vendor/jquery/jquery"
+  },
+  {
+    "name": "en-extra-studentipolimi-vendor-jquery-jquery.min",
+    "path": "/en/extra/studentipolimi/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\studentipolimi\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/en/extra/studentipolimi/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "en-extra-studentipolimi-vendor-jquery-jquery.slim",
+    "path": "/en/extra/studentipolimi/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\studentipolimi\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/en/extra/studentipolimi/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "en-extra-studentipolimi-vendor-jquery-jquery.slim.min",
+    "path": "/en/extra/studentipolimi/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\studentipolimi\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/en/extra/studentipolimi/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "en-extra-vendor-bootstrap-js-bootstrap",
+    "path": "/en/extra/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/en/extra/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "en-extra-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/en/extra/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/en/extra/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "en-extra-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/en/extra/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/en/extra/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "en-extra-vendor-bootstrap-js-bootstrap.min",
+    "path": "/en/extra/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/en/extra/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "en-guides-webex-vendor-jquery-easing-jquery.easing",
+    "path": "/en/guides/webex/vendor/jquery-easing/jquery.easing",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\guides\\\\webex\\\\vendor\\\\jquery-easing\\\\jquery.easing.js",
+    "chunkName": "pages/en/guides/webex/vendor/jquery-easing/jquery.easing"
+  },
+  {
+    "name": "en-guides-webex-vendor-jquery-easing-jquery.easing.compatibility",
+    "path": "/en/guides/webex/vendor/jquery-easing/jquery.easing.compatibility",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\guides\\\\webex\\\\vendor\\\\jquery-easing\\\\jquery.easing.compatibility.js",
+    "chunkName": "pages/en/guides/webex/vendor/jquery-easing/jquery.easing.compatibility"
+  },
+  {
+    "name": "en-guides-webex-vendor-jquery-easing-jquery.easing.min",
+    "path": "/en/guides/webex/vendor/jquery-easing/jquery.easing.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\guides\\\\webex\\\\vendor\\\\jquery-easing\\\\jquery.easing.min.js",
+    "chunkName": "pages/en/guides/webex/vendor/jquery-easing/jquery.easing.min"
+  },
+  {
+    "name": "en-guides-webex-vendor-jquery-jquery",
+    "path": "/en/guides/webex/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\guides\\\\webex\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/en/guides/webex/vendor/jquery/jquery"
+  },
+  {
+    "name": "en-guides-webex-vendor-jquery-jquery.min",
+    "path": "/en/guides/webex/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\guides\\\\webex\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/en/guides/webex/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "en-guides-webex-vendor-jquery-jquery.slim",
+    "path": "/en/guides/webex/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\guides\\\\webex\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/en/guides/webex/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "en-guides-webex-vendor-jquery-jquery.slim.min",
+    "path": "/en/guides/webex/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\guides\\\\webex\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/en/guides/webex/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "en-objectives-vendor-bootstrap-js-bootstrap",
+    "path": "/en/objectives/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\objectives\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/en/objectives/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "en-objectives-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/en/objectives/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\objectives\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/en/objectives/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "en-objectives-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/en/objectives/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\objectives\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/en/objectives/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "en-objectives-vendor-bootstrap-js-bootstrap.min",
+    "path": "/en/objectives/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\objectives\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/en/objectives/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "en-projects-aulepolimibot-vendor-jquery-jquery",
+    "path": "/en/projects/aulepolimibot/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\aulepolimibot\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/en/projects/aulepolimibot/vendor/jquery/jquery"
+  },
+  {
+    "name": "en-projects-aulepolimibot-vendor-jquery-jquery.min",
+    "path": "/en/projects/aulepolimibot/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\aulepolimibot\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/en/projects/aulepolimibot/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "en-projects-aulepolimibot-vendor-jquery-jquery.slim",
+    "path": "/en/projects/aulepolimibot/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\aulepolimibot\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/en/projects/aulepolimibot/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "en-projects-aulepolimibot-vendor-jquery-jquery.slim.min",
+    "path": "/en/projects/aulepolimibot/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\aulepolimibot\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/en/projects/aulepolimibot/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "en-projects-beepdrive-vendor-jquery-jquery",
+    "path": "/en/projects/beepdrive/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\beepdrive\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/en/projects/beepdrive/vendor/jquery/jquery"
+  },
+  {
+    "name": "en-projects-beepdrive-vendor-jquery-jquery.min",
+    "path": "/en/projects/beepdrive/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\beepdrive\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/en/projects/beepdrive/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "en-projects-beepdrive-vendor-jquery-jquery.slim",
+    "path": "/en/projects/beepdrive/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\beepdrive\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/en/projects/beepdrive/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "en-projects-beepdrive-vendor-jquery-jquery.slim.min",
+    "path": "/en/projects/beepdrive/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\beepdrive\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/en/projects/beepdrive/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "en-projects-polibeepsync-vendor-jquery-jquery",
+    "path": "/en/projects/polibeepsync/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\polibeepsync\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/en/projects/polibeepsync/vendor/jquery/jquery"
+  },
+  {
+    "name": "en-projects-polibeepsync-vendor-jquery-jquery.min",
+    "path": "/en/projects/polibeepsync/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\polibeepsync\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/en/projects/polibeepsync/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "en-projects-polibeepsync-vendor-jquery-jquery.slim",
+    "path": "/en/projects/polibeepsync/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\polibeepsync\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/en/projects/polibeepsync/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "en-projects-polibeepsync-vendor-jquery-jquery.slim.min",
+    "path": "/en/projects/polibeepsync/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\polibeepsync\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/en/projects/polibeepsync/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "en-projects-polidl-vendor-jquery-jquery",
+    "path": "/en/projects/polidl/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\polidl\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/en/projects/polidl/vendor/jquery/jquery"
+  },
+  {
+    "name": "en-projects-polidl-vendor-jquery-jquery.min",
+    "path": "/en/projects/polidl/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\polidl\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/en/projects/polidl/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "en-projects-polidl-vendor-jquery-jquery.slim",
+    "path": "/en/projects/polidl/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\polidl\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/en/projects/polidl/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "en-projects-polidl-vendor-jquery-jquery.slim.min",
+    "path": "/en/projects/polidl/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\polidl\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/en/projects/polidl/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "en-projects-polidown-vendor-jquery-jquery",
+    "path": "/en/projects/polidown/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\polidown\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/en/projects/polidown/vendor/jquery/jquery"
+  },
+  {
+    "name": "en-projects-polidown-vendor-jquery-jquery.min",
+    "path": "/en/projects/polidown/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\polidown\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/en/projects/polidown/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "en-projects-polidown-vendor-jquery-jquery.slim",
+    "path": "/en/projects/polidown/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\polidown\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/en/projects/polidown/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "en-projects-polidown-vendor-jquery-jquery.slim.min",
+    "path": "/en/projects/polidown/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\polidown\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/en/projects/polidown/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "en-projects-tdemerger-vendor-jquery-jquery",
+    "path": "/en/projects/tdemerger/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\tdemerger\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/en/projects/tdemerger/vendor/jquery/jquery"
+  },
+  {
+    "name": "en-projects-tdemerger-vendor-jquery-jquery.min",
+    "path": "/en/projects/tdemerger/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\tdemerger\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/en/projects/tdemerger/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "en-projects-tdemerger-vendor-jquery-jquery.slim",
+    "path": "/en/projects/tdemerger/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\tdemerger\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/en/projects/tdemerger/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "en-projects-tdemerger-vendor-jquery-jquery.slim.min",
+    "path": "/en/projects/tdemerger/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\tdemerger\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/en/projects/tdemerger/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "en-projects-vendor-bootstrap-js-bootstrap",
+    "path": "/en/projects/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/en/projects/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "en-projects-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/en/projects/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/en/projects/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "en-projects-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/en/projects/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/en/projects/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "en-projects-vendor-bootstrap-js-bootstrap.min",
+    "path": "/en/projects/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/en/projects/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "en-projects-webexhelper-vendor-jquery-jquery",
+    "path": "/en/projects/webexhelper/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\webexhelper\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/en/projects/webexhelper/vendor/jquery/jquery"
+  },
+  {
+    "name": "en-projects-webexhelper-vendor-jquery-jquery.min",
+    "path": "/en/projects/webexhelper/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\webexhelper\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/en/projects/webexhelper/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "en-projects-webexhelper-vendor-jquery-jquery.slim",
+    "path": "/en/projects/webexhelper/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\webexhelper\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/en/projects/webexhelper/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "en-projects-webexhelper-vendor-jquery-jquery.slim.min",
+    "path": "/en/projects/webexhelper/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\webexhelper\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/en/projects/webexhelper/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "en-rules-vendor-bootstrap-js-bootstrap",
+    "path": "/en/rules/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\rules\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/en/rules/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "en-rules-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/en/rules/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\rules\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/en/rules/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "en-rules-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/en/rules/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\rules\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/en/rules/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "en-rules-vendor-bootstrap-js-bootstrap.min",
+    "path": "/en/rules/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\rules\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/en/rules/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "en-struttura-vendor-bootstrap-js-bootstrap",
+    "path": "/en/struttura/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\struttura\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/en/struttura/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "en-struttura-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/en/struttura/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\struttura\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/en/struttura/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "en-struttura-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/en/struttura/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\struttura\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/en/struttura/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "en-struttura-vendor-bootstrap-js-bootstrap.min",
+    "path": "/en/struttura/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\struttura\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/en/struttura/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "en-welcome-vendor-bootstrap-js-bootstrap",
+    "path": "/en/welcome/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\welcome\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/en/welcome/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "en-welcome-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/en/welcome/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\welcome\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/en/welcome/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "en-welcome-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/en/welcome/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\welcome\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/en/welcome/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "en-welcome-vendor-bootstrap-js-bootstrap.min",
+    "path": "/en/welcome/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\welcome\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/en/welcome/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "it-about_us-vendor-bootstrap-js-bootstrap",
+    "path": "/it/about_us/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\about_us\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/it/about_us/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "it-about_us-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/it/about_us/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\about_us\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/it/about_us/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "it-about_us-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/it/about_us/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\about_us\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/it/about_us/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "it-about_us-vendor-bootstrap-js-bootstrap.min",
+    "path": "/it/about_us/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\about_us\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/it/about_us/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "it-assoc-vendor-bootstrap-js-bootstrap",
+    "path": "/it/assoc/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\assoc\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/it/assoc/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "it-assoc-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/it/assoc/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\assoc\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/it/assoc/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "it-assoc-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/it/assoc/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\assoc\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/it/assoc/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "it-assoc-vendor-bootstrap-js-bootstrap.min",
+    "path": "/it/assoc/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\assoc\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/it/assoc/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "it-elezioni-vendor-bootstrap-js-bootstrap",
+    "path": "/it/elezioni/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\elezioni\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/it/elezioni/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "it-elezioni-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/it/elezioni/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\elezioni\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/it/elezioni/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "it-elezioni-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/it/elezioni/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\elezioni\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/it/elezioni/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "it-elezioni-vendor-bootstrap-js-bootstrap.min",
+    "path": "/it/elezioni/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\elezioni\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/it/elezioni/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "it-extra-esn-vendor-jquery-jquery",
+    "path": "/it/extra/esn/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\esn\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/it/extra/esn/vendor/jquery/jquery"
+  },
+  {
+    "name": "it-extra-esn-vendor-jquery-jquery.min",
+    "path": "/it/extra/esn/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\esn\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/it/extra/esn/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "it-extra-esn-vendor-jquery-jquery.slim",
+    "path": "/it/extra/esn/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\esn\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/it/extra/esn/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "it-extra-esn-vendor-jquery-jquery.slim.min",
+    "path": "/it/extra/esn/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\esn\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/it/extra/esn/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "it-extra-gaming-vendor-jquery-jquery",
+    "path": "/it/extra/gaming/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\gaming\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/it/extra/gaming/vendor/jquery/jquery"
+  },
+  {
+    "name": "it-extra-gaming-vendor-jquery-jquery.min",
+    "path": "/it/extra/gaming/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\gaming\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/it/extra/gaming/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "it-extra-gaming-vendor-jquery-jquery.slim",
+    "path": "/it/extra/gaming/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\gaming\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/it/extra/gaming/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "it-extra-gaming-vendor-jquery-jquery.slim.min",
+    "path": "/it/extra/gaming/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\gaming\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/it/extra/gaming/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "it-extra-house-vendor-jquery-jquery",
+    "path": "/it/extra/house/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\house\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/it/extra/house/vendor/jquery/jquery"
+  },
+  {
+    "name": "it-extra-house-vendor-jquery-jquery.min",
+    "path": "/it/extra/house/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\house\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/it/extra/house/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "it-extra-house-vendor-jquery-jquery.slim",
+    "path": "/it/extra/house/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\house\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/it/extra/house/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "it-extra-house-vendor-jquery-jquery.slim.min",
+    "path": "/it/extra/house/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\house\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/it/extra/house/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "it-extra-mobility-vendor-jquery-jquery",
+    "path": "/it/extra/mobility/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\mobility\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/it/extra/mobility/vendor/jquery/jquery"
+  },
+  {
+    "name": "it-extra-mobility-vendor-jquery-jquery.min",
+    "path": "/it/extra/mobility/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\mobility\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/it/extra/mobility/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "it-extra-mobility-vendor-jquery-jquery.slim",
+    "path": "/it/extra/mobility/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\mobility\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/it/extra/mobility/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "it-extra-mobility-vendor-jquery-jquery.slim.min",
+    "path": "/it/extra/mobility/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\mobility\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/it/extra/mobility/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "it-extra-ot-vendor-jquery-jquery",
+    "path": "/it/extra/ot/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\ot\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/it/extra/ot/vendor/jquery/jquery"
+  },
+  {
+    "name": "it-extra-ot-vendor-jquery-jquery.min",
+    "path": "/it/extra/ot/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\ot\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/it/extra/ot/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "it-extra-ot-vendor-jquery-jquery.slim",
+    "path": "/it/extra/ot/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\ot\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/it/extra/ot/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "it-extra-ot-vendor-jquery-jquery.slim.min",
+    "path": "/it/extra/ot/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\ot\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/it/extra/ot/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "it-extra-poliedro-vendor-jquery-jquery",
+    "path": "/it/extra/poliedro/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\poliedro\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/it/extra/poliedro/vendor/jquery/jquery"
+  },
+  {
+    "name": "it-extra-poliedro-vendor-jquery-jquery.min",
+    "path": "/it/extra/poliedro/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\poliedro\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/it/extra/poliedro/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "it-extra-poliedro-vendor-jquery-jquery.slim",
+    "path": "/it/extra/poliedro/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\poliedro\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/it/extra/poliedro/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "it-extra-poliedro-vendor-jquery-jquery.slim.min",
+    "path": "/it/extra/poliedro/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\poliedro\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/it/extra/poliedro/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "it-extra-polimimemes-vendor-jquery-jquery",
+    "path": "/it/extra/polimimemes/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\polimimemes\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/it/extra/polimimemes/vendor/jquery/jquery"
+  },
+  {
+    "name": "it-extra-polimimemes-vendor-jquery-jquery.min",
+    "path": "/it/extra/polimimemes/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\polimimemes\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/it/extra/polimimemes/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "it-extra-polimimemes-vendor-jquery-jquery.slim",
+    "path": "/it/extra/polimimemes/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\polimimemes\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/it/extra/polimimemes/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "it-extra-polimimemes-vendor-jquery-jquery.slim.min",
+    "path": "/it/extra/polimimemes/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\polimimemes\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/it/extra/polimimemes/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "it-extra-polimispotted-vendor-jquery-jquery",
+    "path": "/it/extra/polimispotted/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\polimispotted\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/it/extra/polimispotted/vendor/jquery/jquery"
+  },
+  {
+    "name": "it-extra-polimispotted-vendor-jquery-jquery.min",
+    "path": "/it/extra/polimispotted/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\polimispotted\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/it/extra/polimispotted/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "it-extra-polimispotted-vendor-jquery-jquery.slim",
+    "path": "/it/extra/polimispotted/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\polimispotted\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/it/extra/polimispotted/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "it-extra-polimispotted-vendor-jquery-jquery.slim.min",
+    "path": "/it/extra/polimispotted/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\polimispotted\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/it/extra/polimispotted/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "it-extra-sport-vendor-jquery-jquery",
+    "path": "/it/extra/sport/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\sport\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/it/extra/sport/vendor/jquery/jquery"
+  },
+  {
+    "name": "it-extra-sport-vendor-jquery-jquery.min",
+    "path": "/it/extra/sport/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\sport\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/it/extra/sport/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "it-extra-sport-vendor-jquery-jquery.slim",
+    "path": "/it/extra/sport/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\sport\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/it/extra/sport/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "it-extra-sport-vendor-jquery-jquery.slim.min",
+    "path": "/it/extra/sport/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\sport\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/it/extra/sport/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "it-extra-studentipolimi-vendor-jquery-jquery",
+    "path": "/it/extra/studentipolimi/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\studentipolimi\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/it/extra/studentipolimi/vendor/jquery/jquery"
+  },
+  {
+    "name": "it-extra-studentipolimi-vendor-jquery-jquery.min",
+    "path": "/it/extra/studentipolimi/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\studentipolimi\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/it/extra/studentipolimi/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "it-extra-studentipolimi-vendor-jquery-jquery.slim",
+    "path": "/it/extra/studentipolimi/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\studentipolimi\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/it/extra/studentipolimi/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "it-extra-studentipolimi-vendor-jquery-jquery.slim.min",
+    "path": "/it/extra/studentipolimi/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\studentipolimi\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/it/extra/studentipolimi/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "it-extra-vendor-bootstrap-js-bootstrap",
+    "path": "/it/extra/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/it/extra/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "it-extra-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/it/extra/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/it/extra/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "it-extra-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/it/extra/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/it/extra/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "it-extra-vendor-bootstrap-js-bootstrap.min",
+    "path": "/it/extra/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/it/extra/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "it-guides-webex-vendor-jquery-easing-jquery.easing",
+    "path": "/it/guides/webex/vendor/jquery-easing/jquery.easing",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\guides\\\\webex\\\\vendor\\\\jquery-easing\\\\jquery.easing.js",
+    "chunkName": "pages/it/guides/webex/vendor/jquery-easing/jquery.easing"
+  },
+  {
+    "name": "it-guides-webex-vendor-jquery-easing-jquery.easing.compatibility",
+    "path": "/it/guides/webex/vendor/jquery-easing/jquery.easing.compatibility",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\guides\\\\webex\\\\vendor\\\\jquery-easing\\\\jquery.easing.compatibility.js",
+    "chunkName": "pages/it/guides/webex/vendor/jquery-easing/jquery.easing.compatibility"
+  },
+  {
+    "name": "it-guides-webex-vendor-jquery-easing-jquery.easing.min",
+    "path": "/it/guides/webex/vendor/jquery-easing/jquery.easing.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\guides\\\\webex\\\\vendor\\\\jquery-easing\\\\jquery.easing.min.js",
+    "chunkName": "pages/it/guides/webex/vendor/jquery-easing/jquery.easing.min"
+  },
+  {
+    "name": "it-guides-webex-vendor-jquery-jquery",
+    "path": "/it/guides/webex/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\guides\\\\webex\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/it/guides/webex/vendor/jquery/jquery"
+  },
+  {
+    "name": "it-guides-webex-vendor-jquery-jquery.min",
+    "path": "/it/guides/webex/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\guides\\\\webex\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/it/guides/webex/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "it-guides-webex-vendor-jquery-jquery.slim",
+    "path": "/it/guides/webex/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\guides\\\\webex\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/it/guides/webex/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "it-guides-webex-vendor-jquery-jquery.slim.min",
+    "path": "/it/guides/webex/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\guides\\\\webex\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/it/guides/webex/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "it-objectives-vendor-bootstrap-js-bootstrap",
+    "path": "/it/objectives/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\objectives\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/it/objectives/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "it-objectives-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/it/objectives/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\objectives\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/it/objectives/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "it-objectives-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/it/objectives/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\objectives\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/it/objectives/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "it-objectives-vendor-bootstrap-js-bootstrap.min",
+    "path": "/it/objectives/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\objectives\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/it/objectives/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "it-projects-aulepolimibot-vendor-jquery-jquery",
+    "path": "/it/projects/aulepolimibot/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\aulepolimibot\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/it/projects/aulepolimibot/vendor/jquery/jquery"
+  },
+  {
+    "name": "it-projects-aulepolimibot-vendor-jquery-jquery.min",
+    "path": "/it/projects/aulepolimibot/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\aulepolimibot\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/it/projects/aulepolimibot/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "it-projects-aulepolimibot-vendor-jquery-jquery.slim",
+    "path": "/it/projects/aulepolimibot/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\aulepolimibot\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/it/projects/aulepolimibot/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "it-projects-aulepolimibot-vendor-jquery-jquery.slim.min",
+    "path": "/it/projects/aulepolimibot/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\aulepolimibot\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/it/projects/aulepolimibot/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "it-projects-beepdrive-vendor-jquery-jquery",
+    "path": "/it/projects/beepdrive/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\beepdrive\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/it/projects/beepdrive/vendor/jquery/jquery"
+  },
+  {
+    "name": "it-projects-beepdrive-vendor-jquery-jquery.min",
+    "path": "/it/projects/beepdrive/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\beepdrive\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/it/projects/beepdrive/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "it-projects-beepdrive-vendor-jquery-jquery.slim",
+    "path": "/it/projects/beepdrive/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\beepdrive\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/it/projects/beepdrive/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "it-projects-beepdrive-vendor-jquery-jquery.slim.min",
+    "path": "/it/projects/beepdrive/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\beepdrive\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/it/projects/beepdrive/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "it-projects-polibeepsync-vendor-jquery-jquery",
+    "path": "/it/projects/polibeepsync/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\polibeepsync\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/it/projects/polibeepsync/vendor/jquery/jquery"
+  },
+  {
+    "name": "it-projects-polibeepsync-vendor-jquery-jquery.min",
+    "path": "/it/projects/polibeepsync/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\polibeepsync\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/it/projects/polibeepsync/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "it-projects-polibeepsync-vendor-jquery-jquery.slim",
+    "path": "/it/projects/polibeepsync/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\polibeepsync\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/it/projects/polibeepsync/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "it-projects-polibeepsync-vendor-jquery-jquery.slim.min",
+    "path": "/it/projects/polibeepsync/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\polibeepsync\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/it/projects/polibeepsync/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "it-projects-polidl-vendor-jquery-jquery",
+    "path": "/it/projects/polidl/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\polidl\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/it/projects/polidl/vendor/jquery/jquery"
+  },
+  {
+    "name": "it-projects-polidl-vendor-jquery-jquery.min",
+    "path": "/it/projects/polidl/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\polidl\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/it/projects/polidl/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "it-projects-polidl-vendor-jquery-jquery.slim",
+    "path": "/it/projects/polidl/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\polidl\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/it/projects/polidl/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "it-projects-polidl-vendor-jquery-jquery.slim.min",
+    "path": "/it/projects/polidl/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\polidl\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/it/projects/polidl/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "it-projects-polidown-vendor-jquery-jquery",
+    "path": "/it/projects/polidown/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\polidown\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/it/projects/polidown/vendor/jquery/jquery"
+  },
+  {
+    "name": "it-projects-polidown-vendor-jquery-jquery.min",
+    "path": "/it/projects/polidown/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\polidown\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/it/projects/polidown/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "it-projects-polidown-vendor-jquery-jquery.slim",
+    "path": "/it/projects/polidown/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\polidown\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/it/projects/polidown/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "it-projects-polidown-vendor-jquery-jquery.slim.min",
+    "path": "/it/projects/polidown/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\polidown\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/it/projects/polidown/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "it-projects-tdemerger-vendor-jquery-jquery",
+    "path": "/it/projects/tdemerger/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\tdemerger\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/it/projects/tdemerger/vendor/jquery/jquery"
+  },
+  {
+    "name": "it-projects-tdemerger-vendor-jquery-jquery.min",
+    "path": "/it/projects/tdemerger/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\tdemerger\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/it/projects/tdemerger/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "it-projects-tdemerger-vendor-jquery-jquery.slim",
+    "path": "/it/projects/tdemerger/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\tdemerger\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/it/projects/tdemerger/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "it-projects-tdemerger-vendor-jquery-jquery.slim.min",
+    "path": "/it/projects/tdemerger/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\tdemerger\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/it/projects/tdemerger/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "it-projects-vendor-bootstrap-js-bootstrap",
+    "path": "/it/projects/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/it/projects/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "it-projects-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/it/projects/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/it/projects/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "it-projects-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/it/projects/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/it/projects/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "it-projects-vendor-bootstrap-js-bootstrap.min",
+    "path": "/it/projects/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/it/projects/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "it-projects-webexhelper-vendor-jquery-jquery",
+    "path": "/it/projects/webexhelper/vendor/jquery/jquery",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\webexhelper\\\\vendor\\\\jquery\\\\jquery.js",
+    "chunkName": "pages/it/projects/webexhelper/vendor/jquery/jquery"
+  },
+  {
+    "name": "it-projects-webexhelper-vendor-jquery-jquery.min",
+    "path": "/it/projects/webexhelper/vendor/jquery/jquery.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\webexhelper\\\\vendor\\\\jquery\\\\jquery.min.js",
+    "chunkName": "pages/it/projects/webexhelper/vendor/jquery/jquery.min"
+  },
+  {
+    "name": "it-projects-webexhelper-vendor-jquery-jquery.slim",
+    "path": "/it/projects/webexhelper/vendor/jquery/jquery.slim",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\webexhelper\\\\vendor\\\\jquery\\\\jquery.slim.js",
+    "chunkName": "pages/it/projects/webexhelper/vendor/jquery/jquery.slim"
+  },
+  {
+    "name": "it-projects-webexhelper-vendor-jquery-jquery.slim.min",
+    "path": "/it/projects/webexhelper/vendor/jquery/jquery.slim.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\webexhelper\\\\vendor\\\\jquery\\\\jquery.slim.min.js",
+    "chunkName": "pages/it/projects/webexhelper/vendor/jquery/jquery.slim.min"
+  },
+  {
+    "name": "it-rules-vendor-bootstrap-js-bootstrap",
+    "path": "/it/rules/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\rules\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/it/rules/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "it-rules-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/it/rules/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\rules\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/it/rules/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "it-rules-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/it/rules/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\rules\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/it/rules/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "it-rules-vendor-bootstrap-js-bootstrap.min",
+    "path": "/it/rules/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\rules\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/it/rules/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "it-struttura-vendor-bootstrap-js-bootstrap",
+    "path": "/it/struttura/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\struttura\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/it/struttura/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "it-struttura-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/it/struttura/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\struttura\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/it/struttura/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "it-struttura-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/it/struttura/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\struttura\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/it/struttura/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "it-struttura-vendor-bootstrap-js-bootstrap.min",
+    "path": "/it/struttura/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\struttura\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/it/struttura/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "it-welcome-vendor-bootstrap-js-bootstrap",
+    "path": "/it/welcome/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\welcome\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/it/welcome/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "it-welcome-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/it/welcome/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\welcome\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/it/welcome/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "it-welcome-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/it/welcome/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\welcome\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/it/welcome/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "it-welcome-vendor-bootstrap-js-bootstrap.min",
+    "path": "/it/welcome/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\welcome\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/it/welcome/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "en-extra-esn-vendor-bootstrap-js-bootstrap",
+    "path": "/en/extra/esn/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\esn\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/en/extra/esn/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "en-extra-esn-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/en/extra/esn/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\esn\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/en/extra/esn/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "en-extra-esn-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/en/extra/esn/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\esn\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/en/extra/esn/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "en-extra-esn-vendor-bootstrap-js-bootstrap.min",
+    "path": "/en/extra/esn/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\esn\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/en/extra/esn/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "en-extra-gaming-vendor-bootstrap-js-bootstrap",
+    "path": "/en/extra/gaming/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\gaming\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/en/extra/gaming/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "en-extra-gaming-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/en/extra/gaming/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\gaming\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/en/extra/gaming/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "en-extra-gaming-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/en/extra/gaming/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\gaming\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/en/extra/gaming/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "en-extra-gaming-vendor-bootstrap-js-bootstrap.min",
+    "path": "/en/extra/gaming/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\gaming\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/en/extra/gaming/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "en-extra-house-vendor-bootstrap-js-bootstrap",
+    "path": "/en/extra/house/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\house\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/en/extra/house/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "en-extra-house-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/en/extra/house/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\house\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/en/extra/house/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "en-extra-house-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/en/extra/house/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\house\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/en/extra/house/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "en-extra-house-vendor-bootstrap-js-bootstrap.min",
+    "path": "/en/extra/house/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\house\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/en/extra/house/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "en-extra-mobility-vendor-bootstrap-js-bootstrap",
+    "path": "/en/extra/mobility/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\mobility\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/en/extra/mobility/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "en-extra-mobility-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/en/extra/mobility/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\mobility\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/en/extra/mobility/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "en-extra-mobility-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/en/extra/mobility/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\mobility\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/en/extra/mobility/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "en-extra-mobility-vendor-bootstrap-js-bootstrap.min",
+    "path": "/en/extra/mobility/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\mobility\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/en/extra/mobility/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "en-extra-ot-vendor-bootstrap-js-bootstrap",
+    "path": "/en/extra/ot/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\ot\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/en/extra/ot/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "en-extra-ot-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/en/extra/ot/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\ot\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/en/extra/ot/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "en-extra-ot-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/en/extra/ot/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\ot\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/en/extra/ot/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "en-extra-ot-vendor-bootstrap-js-bootstrap.min",
+    "path": "/en/extra/ot/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\ot\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/en/extra/ot/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "en-extra-poliedro-vendor-bootstrap-js-bootstrap",
+    "path": "/en/extra/poliedro/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\poliedro\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/en/extra/poliedro/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "en-extra-poliedro-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/en/extra/poliedro/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\poliedro\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/en/extra/poliedro/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "en-extra-poliedro-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/en/extra/poliedro/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\poliedro\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/en/extra/poliedro/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "en-extra-poliedro-vendor-bootstrap-js-bootstrap.min",
+    "path": "/en/extra/poliedro/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\poliedro\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/en/extra/poliedro/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "en-extra-polimimemes-vendor-bootstrap-js-bootstrap",
+    "path": "/en/extra/polimimemes/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\polimimemes\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/en/extra/polimimemes/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "en-extra-polimimemes-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/en/extra/polimimemes/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\polimimemes\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/en/extra/polimimemes/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "en-extra-polimimemes-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/en/extra/polimimemes/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\polimimemes\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/en/extra/polimimemes/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "en-extra-polimimemes-vendor-bootstrap-js-bootstrap.min",
+    "path": "/en/extra/polimimemes/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\polimimemes\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/en/extra/polimimemes/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "en-extra-polimispotted-vendor-bootstrap-js-bootstrap",
+    "path": "/en/extra/polimispotted/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\polimispotted\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/en/extra/polimispotted/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "en-extra-polimispotted-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/en/extra/polimispotted/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\polimispotted\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/en/extra/polimispotted/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "en-extra-polimispotted-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/en/extra/polimispotted/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\polimispotted\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/en/extra/polimispotted/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "en-extra-polimispotted-vendor-bootstrap-js-bootstrap.min",
+    "path": "/en/extra/polimispotted/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\polimispotted\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/en/extra/polimispotted/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "en-extra-sport-vendor-bootstrap-js-bootstrap",
+    "path": "/en/extra/sport/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\sport\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/en/extra/sport/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "en-extra-sport-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/en/extra/sport/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\sport\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/en/extra/sport/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "en-extra-sport-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/en/extra/sport/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\sport\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/en/extra/sport/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "en-extra-sport-vendor-bootstrap-js-bootstrap.min",
+    "path": "/en/extra/sport/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\sport\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/en/extra/sport/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "en-extra-studentipolimi-vendor-bootstrap-js-bootstrap",
+    "path": "/en/extra/studentipolimi/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\studentipolimi\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/en/extra/studentipolimi/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "en-extra-studentipolimi-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/en/extra/studentipolimi/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\studentipolimi\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/en/extra/studentipolimi/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "en-extra-studentipolimi-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/en/extra/studentipolimi/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\studentipolimi\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/en/extra/studentipolimi/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "en-extra-studentipolimi-vendor-bootstrap-js-bootstrap.min",
+    "path": "/en/extra/studentipolimi/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\extra\\\\studentipolimi\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/en/extra/studentipolimi/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "en-guides-webex-vendor-bootstrap-js-bootstrap",
+    "path": "/en/guides/webex/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\guides\\\\webex\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/en/guides/webex/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "en-guides-webex-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/en/guides/webex/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\guides\\\\webex\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/en/guides/webex/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "en-guides-webex-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/en/guides/webex/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\guides\\\\webex\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/en/guides/webex/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "en-guides-webex-vendor-bootstrap-js-bootstrap.min",
+    "path": "/en/guides/webex/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\guides\\\\webex\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/en/guides/webex/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "en-projects-aulepolimibot-vendor-bootstrap-js-bootstrap",
+    "path": "/en/projects/aulepolimibot/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\aulepolimibot\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/en/projects/aulepolimibot/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "en-projects-aulepolimibot-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/en/projects/aulepolimibot/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\aulepolimibot\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/en/projects/aulepolimibot/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "en-projects-aulepolimibot-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/en/projects/aulepolimibot/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\aulepolimibot\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/en/projects/aulepolimibot/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "en-projects-aulepolimibot-vendor-bootstrap-js-bootstrap.min",
+    "path": "/en/projects/aulepolimibot/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\aulepolimibot\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/en/projects/aulepolimibot/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "en-projects-beepdrive-vendor-bootstrap-js-bootstrap",
+    "path": "/en/projects/beepdrive/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\beepdrive\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/en/projects/beepdrive/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "en-projects-beepdrive-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/en/projects/beepdrive/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\beepdrive\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/en/projects/beepdrive/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "en-projects-beepdrive-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/en/projects/beepdrive/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\beepdrive\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/en/projects/beepdrive/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "en-projects-beepdrive-vendor-bootstrap-js-bootstrap.min",
+    "path": "/en/projects/beepdrive/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\beepdrive\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/en/projects/beepdrive/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "en-projects-polibeepsync-vendor-bootstrap-js-bootstrap",
+    "path": "/en/projects/polibeepsync/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\polibeepsync\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/en/projects/polibeepsync/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "en-projects-polibeepsync-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/en/projects/polibeepsync/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\polibeepsync\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/en/projects/polibeepsync/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "en-projects-polibeepsync-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/en/projects/polibeepsync/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\polibeepsync\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/en/projects/polibeepsync/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "en-projects-polibeepsync-vendor-bootstrap-js-bootstrap.min",
+    "path": "/en/projects/polibeepsync/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\polibeepsync\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/en/projects/polibeepsync/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "en-projects-polidl-vendor-bootstrap-js-bootstrap",
+    "path": "/en/projects/polidl/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\polidl\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/en/projects/polidl/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "en-projects-polidl-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/en/projects/polidl/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\polidl\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/en/projects/polidl/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "en-projects-polidl-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/en/projects/polidl/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\polidl\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/en/projects/polidl/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "en-projects-polidl-vendor-bootstrap-js-bootstrap.min",
+    "path": "/en/projects/polidl/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\polidl\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/en/projects/polidl/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "en-projects-polidown-vendor-bootstrap-js-bootstrap",
+    "path": "/en/projects/polidown/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\polidown\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/en/projects/polidown/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "en-projects-polidown-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/en/projects/polidown/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\polidown\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/en/projects/polidown/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "en-projects-polidown-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/en/projects/polidown/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\polidown\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/en/projects/polidown/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "en-projects-polidown-vendor-bootstrap-js-bootstrap.min",
+    "path": "/en/projects/polidown/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\polidown\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/en/projects/polidown/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "en-projects-tdemerger-vendor-bootstrap-js-bootstrap",
+    "path": "/en/projects/tdemerger/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\tdemerger\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/en/projects/tdemerger/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "en-projects-tdemerger-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/en/projects/tdemerger/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\tdemerger\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/en/projects/tdemerger/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "en-projects-tdemerger-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/en/projects/tdemerger/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\tdemerger\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/en/projects/tdemerger/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "en-projects-tdemerger-vendor-bootstrap-js-bootstrap.min",
+    "path": "/en/projects/tdemerger/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\tdemerger\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/en/projects/tdemerger/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "en-projects-webexhelper-vendor-bootstrap-js-bootstrap",
+    "path": "/en/projects/webexhelper/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\webexhelper\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/en/projects/webexhelper/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "en-projects-webexhelper-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/en/projects/webexhelper/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\webexhelper\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/en/projects/webexhelper/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "en-projects-webexhelper-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/en/projects/webexhelper/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\webexhelper\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/en/projects/webexhelper/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "en-projects-webexhelper-vendor-bootstrap-js-bootstrap.min",
+    "path": "/en/projects/webexhelper/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\en\\\\projects\\\\webexhelper\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/en/projects/webexhelper/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "it-extra-esn-vendor-bootstrap-js-bootstrap",
+    "path": "/it/extra/esn/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\esn\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/it/extra/esn/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "it-extra-esn-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/it/extra/esn/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\esn\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/it/extra/esn/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "it-extra-esn-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/it/extra/esn/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\esn\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/it/extra/esn/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "it-extra-esn-vendor-bootstrap-js-bootstrap.min",
+    "path": "/it/extra/esn/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\esn\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/it/extra/esn/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "it-extra-gaming-vendor-bootstrap-js-bootstrap",
+    "path": "/it/extra/gaming/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\gaming\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/it/extra/gaming/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "it-extra-gaming-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/it/extra/gaming/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\gaming\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/it/extra/gaming/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "it-extra-gaming-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/it/extra/gaming/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\gaming\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/it/extra/gaming/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "it-extra-gaming-vendor-bootstrap-js-bootstrap.min",
+    "path": "/it/extra/gaming/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\gaming\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/it/extra/gaming/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "it-extra-house-vendor-bootstrap-js-bootstrap",
+    "path": "/it/extra/house/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\house\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/it/extra/house/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "it-extra-house-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/it/extra/house/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\house\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/it/extra/house/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "it-extra-house-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/it/extra/house/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\house\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/it/extra/house/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "it-extra-house-vendor-bootstrap-js-bootstrap.min",
+    "path": "/it/extra/house/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\house\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/it/extra/house/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "it-extra-mobility-vendor-bootstrap-js-bootstrap",
+    "path": "/it/extra/mobility/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\mobility\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/it/extra/mobility/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "it-extra-mobility-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/it/extra/mobility/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\mobility\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/it/extra/mobility/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "it-extra-mobility-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/it/extra/mobility/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\mobility\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/it/extra/mobility/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "it-extra-mobility-vendor-bootstrap-js-bootstrap.min",
+    "path": "/it/extra/mobility/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\mobility\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/it/extra/mobility/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "it-extra-ot-vendor-bootstrap-js-bootstrap",
+    "path": "/it/extra/ot/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\ot\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/it/extra/ot/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "it-extra-ot-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/it/extra/ot/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\ot\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/it/extra/ot/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "it-extra-ot-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/it/extra/ot/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\ot\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/it/extra/ot/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "it-extra-ot-vendor-bootstrap-js-bootstrap.min",
+    "path": "/it/extra/ot/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\ot\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/it/extra/ot/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "it-extra-poliedro-vendor-bootstrap-js-bootstrap",
+    "path": "/it/extra/poliedro/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\poliedro\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/it/extra/poliedro/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "it-extra-poliedro-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/it/extra/poliedro/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\poliedro\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/it/extra/poliedro/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "it-extra-poliedro-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/it/extra/poliedro/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\poliedro\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/it/extra/poliedro/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "it-extra-poliedro-vendor-bootstrap-js-bootstrap.min",
+    "path": "/it/extra/poliedro/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\poliedro\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/it/extra/poliedro/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "it-extra-polimimemes-vendor-bootstrap-js-bootstrap",
+    "path": "/it/extra/polimimemes/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\polimimemes\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/it/extra/polimimemes/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "it-extra-polimimemes-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/it/extra/polimimemes/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\polimimemes\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/it/extra/polimimemes/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "it-extra-polimimemes-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/it/extra/polimimemes/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\polimimemes\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/it/extra/polimimemes/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "it-extra-polimimemes-vendor-bootstrap-js-bootstrap.min",
+    "path": "/it/extra/polimimemes/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\polimimemes\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/it/extra/polimimemes/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "it-extra-polimispotted-vendor-bootstrap-js-bootstrap",
+    "path": "/it/extra/polimispotted/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\polimispotted\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/it/extra/polimispotted/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "it-extra-polimispotted-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/it/extra/polimispotted/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\polimispotted\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/it/extra/polimispotted/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "it-extra-polimispotted-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/it/extra/polimispotted/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\polimispotted\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/it/extra/polimispotted/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "it-extra-polimispotted-vendor-bootstrap-js-bootstrap.min",
+    "path": "/it/extra/polimispotted/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\polimispotted\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/it/extra/polimispotted/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "it-extra-sport-vendor-bootstrap-js-bootstrap",
+    "path": "/it/extra/sport/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\sport\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/it/extra/sport/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "it-extra-sport-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/it/extra/sport/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\sport\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/it/extra/sport/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "it-extra-sport-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/it/extra/sport/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\sport\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/it/extra/sport/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "it-extra-sport-vendor-bootstrap-js-bootstrap.min",
+    "path": "/it/extra/sport/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\sport\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/it/extra/sport/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "it-extra-studentipolimi-vendor-bootstrap-js-bootstrap",
+    "path": "/it/extra/studentipolimi/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\studentipolimi\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/it/extra/studentipolimi/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "it-extra-studentipolimi-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/it/extra/studentipolimi/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\studentipolimi\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/it/extra/studentipolimi/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "it-extra-studentipolimi-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/it/extra/studentipolimi/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\studentipolimi\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/it/extra/studentipolimi/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "it-extra-studentipolimi-vendor-bootstrap-js-bootstrap.min",
+    "path": "/it/extra/studentipolimi/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\extra\\\\studentipolimi\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/it/extra/studentipolimi/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "it-guides-webex-vendor-bootstrap-js-bootstrap",
+    "path": "/it/guides/webex/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\guides\\\\webex\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/it/guides/webex/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "it-guides-webex-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/it/guides/webex/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\guides\\\\webex\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/it/guides/webex/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "it-guides-webex-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/it/guides/webex/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\guides\\\\webex\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/it/guides/webex/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "it-guides-webex-vendor-bootstrap-js-bootstrap.min",
+    "path": "/it/guides/webex/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\guides\\\\webex\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/it/guides/webex/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "it-projects-aulepolimibot-vendor-bootstrap-js-bootstrap",
+    "path": "/it/projects/aulepolimibot/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\aulepolimibot\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/it/projects/aulepolimibot/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "it-projects-aulepolimibot-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/it/projects/aulepolimibot/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\aulepolimibot\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/it/projects/aulepolimibot/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "it-projects-aulepolimibot-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/it/projects/aulepolimibot/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\aulepolimibot\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/it/projects/aulepolimibot/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "it-projects-aulepolimibot-vendor-bootstrap-js-bootstrap.min",
+    "path": "/it/projects/aulepolimibot/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\aulepolimibot\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/it/projects/aulepolimibot/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "it-projects-beepdrive-vendor-bootstrap-js-bootstrap",
+    "path": "/it/projects/beepdrive/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\beepdrive\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/it/projects/beepdrive/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "it-projects-beepdrive-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/it/projects/beepdrive/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\beepdrive\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/it/projects/beepdrive/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "it-projects-beepdrive-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/it/projects/beepdrive/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\beepdrive\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/it/projects/beepdrive/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "it-projects-beepdrive-vendor-bootstrap-js-bootstrap.min",
+    "path": "/it/projects/beepdrive/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\beepdrive\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/it/projects/beepdrive/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "it-projects-polibeepsync-vendor-bootstrap-js-bootstrap",
+    "path": "/it/projects/polibeepsync/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\polibeepsync\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/it/projects/polibeepsync/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "it-projects-polibeepsync-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/it/projects/polibeepsync/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\polibeepsync\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/it/projects/polibeepsync/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "it-projects-polibeepsync-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/it/projects/polibeepsync/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\polibeepsync\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/it/projects/polibeepsync/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "it-projects-polibeepsync-vendor-bootstrap-js-bootstrap.min",
+    "path": "/it/projects/polibeepsync/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\polibeepsync\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/it/projects/polibeepsync/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "it-projects-polidl-vendor-bootstrap-js-bootstrap",
+    "path": "/it/projects/polidl/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\polidl\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/it/projects/polidl/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "it-projects-polidl-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/it/projects/polidl/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\polidl\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/it/projects/polidl/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "it-projects-polidl-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/it/projects/polidl/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\polidl\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/it/projects/polidl/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "it-projects-polidl-vendor-bootstrap-js-bootstrap.min",
+    "path": "/it/projects/polidl/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\polidl\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/it/projects/polidl/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "it-projects-polidown-vendor-bootstrap-js-bootstrap",
+    "path": "/it/projects/polidown/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\polidown\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/it/projects/polidown/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "it-projects-polidown-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/it/projects/polidown/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\polidown\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/it/projects/polidown/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "it-projects-polidown-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/it/projects/polidown/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\polidown\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/it/projects/polidown/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "it-projects-polidown-vendor-bootstrap-js-bootstrap.min",
+    "path": "/it/projects/polidown/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\polidown\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/it/projects/polidown/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "it-projects-tdemerger-vendor-bootstrap-js-bootstrap",
+    "path": "/it/projects/tdemerger/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\tdemerger\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/it/projects/tdemerger/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "it-projects-tdemerger-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/it/projects/tdemerger/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\tdemerger\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/it/projects/tdemerger/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "it-projects-tdemerger-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/it/projects/tdemerger/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\tdemerger\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/it/projects/tdemerger/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "it-projects-tdemerger-vendor-bootstrap-js-bootstrap.min",
+    "path": "/it/projects/tdemerger/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\tdemerger\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/it/projects/tdemerger/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "it-projects-webexhelper-vendor-bootstrap-js-bootstrap",
+    "path": "/it/projects/webexhelper/vendor/bootstrap/js/bootstrap",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\webexhelper\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.js",
+    "chunkName": "pages/it/projects/webexhelper/vendor/bootstrap/js/bootstrap"
+  },
+  {
+    "name": "it-projects-webexhelper-vendor-bootstrap-js-bootstrap.bundle",
+    "path": "/it/projects/webexhelper/vendor/bootstrap/js/bootstrap.bundle",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\webexhelper\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.js",
+    "chunkName": "pages/it/projects/webexhelper/vendor/bootstrap/js/bootstrap.bundle"
+  },
+  {
+    "name": "it-projects-webexhelper-vendor-bootstrap-js-bootstrap.bundle.min",
+    "path": "/it/projects/webexhelper/vendor/bootstrap/js/bootstrap.bundle.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\webexhelper\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.bundle.min.js",
+    "chunkName": "pages/it/projects/webexhelper/vendor/bootstrap/js/bootstrap.bundle.min"
+  },
+  {
+    "name": "it-projects-webexhelper-vendor-bootstrap-js-bootstrap.min",
+    "path": "/it/projects/webexhelper/vendor/bootstrap/js/bootstrap.min",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\it\\\\projects\\\\webexhelper\\\\vendor\\\\bootstrap\\\\js\\\\bootstrap.min.js",
+    "chunkName": "pages/it/projects/webexhelper/vendor/bootstrap/js/bootstrap.min"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "D:\\\\git\\\\Polimi\\\\polinetwork.github.io\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  }
+]

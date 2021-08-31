@@ -1,0 +1,18 @@
+name: Controlla presenza di inviti telegram rotti.
+
+on:
+  pull_request:
+  push:
+  workflow_dispatch:
+
+jobs:
+  check_inviti_rotti:
+    runs-on: ubuntu-20.04
+    steps:
+    - name: Install dependencies
+      run: sudo apt-get install bash coreutils curl git
+    - uses: actions/checkout@v2
+    - name: Get inviti_rotti.bash
+      run: curl -LO https://raw.githubusercontent.com/PoliNetwork/LinkValidator/master/inviti_rotti.bash
+    - name: Run inviti_rotti.bash
+      run: bash ./inviti_rotti.bash
