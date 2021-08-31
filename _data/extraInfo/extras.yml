@@ -1,0 +1,374 @@
+﻿extras:
+  - Title: Esempio
+    items:
+      - title: Item 1
+        lang: it
+        desc: Descrizione
+        link: polimi.it
+      - title: Item 1
+        lang: en
+        desc: Description
+        link: polimi.it/en/
+        multiple_buttons: true
+        buttons:
+        - title: Vai al source di PoliDL GUI
+          link: https://github.com/yuyu-19/PoliDL-GUI
+        - title: Vai al source di PoliDL GUI
+          link: https://github.com/yuyu-19/PoliDL-GUI
+  - Title: spotted
+    items:
+      - title: Facebook
+        lang: it
+        desc: I post anonimi sono pubblicati qui
+        link: https://www.facebook.com/pg/PolimiSpotted/
+        img: /img/fb.svg
+      - title: Facebook
+        lang: en
+        desc: Anonymous posts are published here
+        link: https://www.facebook.com/pg/PolimiSpotted/
+        img: /img/fb.svg
+      - title: Instagram
+        lang: it
+        desc: Meme e storie "alla spotted"
+        link: https://www.instagram.com/spotted_polimi/
+        img: /img/ig.svg
+      - title: Instagram
+        lang: en
+        desc: Memes and stories in "spotted style"
+        link: https://www.instagram.com/spotted_polimi/
+        img: /img/ig.svg
+      - title: Telegram
+        lang: it
+        desc: Feed con i post di fb
+        link: https://t.me/polimispotted
+        img: /img/tg.svg
+      - title: Telegram
+        lang: en
+        desc: Facebook's post feed
+        link: https://t.me/polimispotted
+        img: /img/tg.svg
+  - Title: polimimemes
+    items:
+      - title: Facebook
+        lang: it
+        desc: Post dal feed di instagram
+        link: https://www.facebook.com/polimimemes/
+        img: /img/fb.svg
+      - title: Facebook
+        lang: en
+        desc: Instagram's post feed
+        link: https://www.facebook.com/polimimemes/
+        img: /img/fb.svg
+      - title: Instagram
+        lang: it
+        desc: Profilo principale
+        link: https://www.instagram.com/polimi_memes/
+        img: /img/ig.svg
+      - title: Instagram
+        lang: en
+        desc: Main profile
+        link: https://www.instagram.com/polimi_memes/
+        img: /img/ig.svg
+      - title: Telegram
+        lang: it
+        desc: Feed con i post di fb
+        link: https://t.me/polimimemes/
+        img: /img/tg.svg
+      - title: Telegram
+        lang: en
+        desc: Canale telegram
+        link: https://t.me/polimimemes/
+        img: /img/tg.svg
+  - Title: studentipolimi
+    items:
+      - title: Instagram
+        lang: it
+        desc: Profilo principale
+        link: https://www.instagram.com/studenti.polimi/
+        img: /img/ig.svg
+      - title: Instagram
+        lang: en
+        desc: Main profile
+        link: https://www.instagram.com/studenti.polimi/
+        img: /img/ig.svg
+  - Title: animemanga
+    items:
+      - title: Gruppo Anime & Manga
+        lang: it
+        desc:
+        link: Poli Anime & Manga
+        platform: TG
+        img: /img/tg.svg
+      - title: Anime & Manga group
+        lang: en
+        desc:
+        link: Poli Anime & Manga
+        platform: TG
+        img: /img/tg.svg
+      - title: Gruppo Anime & Manga NSFW
+        lang: it
+        desc:
+        link: Poli Anime & Manga NSFW 🙈
+        platform: TG
+        img: /img/tg.svg
+      - title: Anime & Manga NSFW group
+        lang: en
+        desc:
+        link: Poli Anime & Manga NSFW 🙈
+        platform: TG
+        img: /img/tg.svg
+  - Title: crypto
+    items:
+      - link: PoliNetwork Criptovalute
+        platform: TG
+        redirect: true
+  - Title: discord
+    items:
+      - link: https://discord.gg/Fp7ZHcC
+        redirect: true
+  - Title: dsu
+    items:
+      - link: DSU (borse di studio e residenze)
+        platform: TG
+        redirect: true
+  - Title: games
+    items:
+      - title: Gruppo principale
+        lang: it
+        desc: Il gruppo principale dove parlare di gaming in generale. Vi sono anche info su sconti & key
+        link: https://t.me/joinchat/CBUGAkOxR-_OZ_dJQTnSyw
+        img: /img/3.jpg
+      - title: Main group
+        lang: en
+        desc: The main group where to talk about gaming in general. There are also info on discounts & keys
+        link: https://t.me/joinchat/CBUGAkOxR-_OZ_dJQTnSyw
+        img: /img/3.jpg
+      - title: League of Legends
+        lang: it
+        desc: Per gli appassionati di uno dei giochi MOBA più famosi al mondo
+        link: League of Legends Polimi
+        platform: TG
+        img: /img/7.jpg
+      - title: League of Legends
+        lang: en
+        desc: For fans of this worldfamous MOBA game
+        link: League of Legends Polimi
+        platform: TG
+        img: /img/7.jpg
+      - title: Overwatch
+        lang: it
+        desc: Gruppo per giocatori di Overwatch
+        link: Overwatch
+        platform: TG
+        img: /img/20.jpg
+      - title: Overwatch
+        lang: en
+        desc: Group for Overwatch players
+        link: Overwatch
+        platform: TG
+        img: /img/20.jpg
+      - title: Discord
+        lang: it
+        desc: Il discord di PoliNetwork è anche per i gamers!
+        link: https://discord.gg/Fp7ZHcC
+        img: /img/di.svg
+      - title: Discord
+        lang: en
+        desc: The PoliNetwork discord is also for gamers!
+        link: https://discord.gg/Fp7ZHcC
+        img: /img/di.svg
+      - title: Giochi telegram nativi
+        lang: it
+        desc: Sì, telegram ha anche dei giochi "nativi"
+        link: https://telegram.me/joinchat/EQKd7EAOxRAzFdUxuFmoow
+        img: /img/10.jpg
+      - title: Native telegram games
+        lang: en
+        desc: Yes, Telegram also has "native" games
+        link: https://telegram.me/joinchat/EQKd7EAOxRAzFdUxuFmoow
+        img: /img/10.jpg
+  - Title: house
+    items:
+      - title: Facebook
+        lang: it
+        desc:
+        link: https://www.facebook.com/groups/485727271781597
+        img: /img/fb.svg
+      - title: Facebook
+        lang: en
+        desc:
+        link: https://www.facebook.com/groups/485727271781597
+        img: /img/fb.svg
+      - title: Telegram
+        lang: it
+        desc:
+        link: Case Alloggi PoliNetwork 🏠
+        platform: TG
+        img: /img/tg.svg
+      - title: Telegram
+        lang: en
+        desc:
+        link: Case Alloggi PoliNetwork 🏠
+        platform: TG
+        img: /img/tg.svg
+  - Title: infosec
+    items:
+      - link: InfoSec
+        platform: TG
+        redirect: true
+  - Title: jobs
+    items:
+      - link: Poli Jobs - Offerte Lavoro PoliNetwork
+        platform: TG
+        redirect: true
+  - Title: mobility
+    items:
+      - title: Facebook
+        lang: it
+        desc:
+        link: https://www.facebook.com/groups/erasmuspolimi
+        img: /img/fb.svg
+      - title: Facebook
+        lang: en
+        desc:
+        link: https://www.facebook.com/groups/erasmuspolimi
+        img: /img/fb.svg
+      - title: Telegram
+        lang: it
+        desc:
+        link: Mobilità internazione per lo studio Polimi
+        platform: TG
+        img: /img/tg.svg
+      - title: Telegram
+        lang: en
+        desc:
+        link: Mobilità internazione per lo studio Polimi
+        platform: TG
+        img: /img/tg.svg
+  - Title: music
+    items:
+      - link: Musica - PoliNetwork
+        platform: TG
+        redirect: true
+  - Title: news
+    items:
+      - link: https://t.me/newspolimi
+        redirect: true
+  - Title: offtopic
+    items:
+      - title: PoliCazzeggio Moderato
+        lang: it
+        desc: Questo, dei gruppi di discussione, è quello con più regole
+        link: 「 PoliCazzeggio 」
+        platform: TG
+        img: /img/tg.svg
+      - title: PoliCazzeggio "Moderato"
+        lang: en
+        desc: This, of discussion groups, is the one with the most rules
+        link: 「 PoliCazzeggio 」
+        platform: TG
+        img: /img/tg.svg
+      - title: PoliCazzeggio Spinto
+        lang: it
+        desc: Questo, dei gruppi di discussione, è quello con meno regole
+        link: https://t.me/joinchat/LclXl0NU3vq6hsC49sdQbA
+        img: /img/tg.svg
+      - title: PoliCazzeggio "Spinto"
+        lang: en
+        desc: This, of discussion groups, is the one with the least rules
+        link: https://t.me/joinchat/LclXl0NU3vq6hsC49sdQbA
+        img: /img/tg.svg
+  - Title: pc
+    items:
+      - link: Consigli per acquisto PC - PoliNetwork
+        platform: TG
+        redirect: true
+  - Title: photosvideos
+    items:
+      - link: Fotografia & Videomaking [Polimi]
+        platform: TG
+        redirect: true
+  - Title: polibook
+    items:
+      - link: Poli Book
+        platform: TG
+        redirect: true
+  - Title: politics
+    items:
+      - link: https://t.me/joinchat/TfF7cFNPAnTPFRp3
+        redirect: true
+  - Title: reddit
+    items:
+      - link: https://www.reddit.com/r/polinetwork/
+        redirect: true
+  - Title: repetitions
+    items:
+      - link: Gruppo ripetizioni PoliNetwork
+        platform: TG
+        redirect: true
+  - Title: sport
+    items:
+      - title: Facebook
+        lang: it
+        desc: Sportivi del Polimi!
+        link: https://www.facebook.com/groups/1052190631584520/
+        img: /img/fb.svg
+      - title: Facebook
+        lang: en
+        desc: Sports' enthusiasts!
+        link: https://www.facebook.com/groups/1052190631584520/
+        img: /img/fb.svg
+      - title: Telegram
+        lang: it
+        desc: Vi siete mai chiesti se qualcuno vuol venire ad un evento sportivo con voi? O vi serve un quinto giocatore per calcetto? O cercate una compagnia per andare a correre? Il gruppo nasce per soddisfare questi bisogni. Good training 💪
+        link: Sport Milano
+        platform: TG
+        img: /img/tg.svg
+      - title: Telegram
+        lang: en
+        desc: Have you ever wondered if someone wanted to come to a sporting event with you? Do you need a fifth player for five-a-side football? Are you looking for somebody to go running with? The group is born to satisfy these needs. Good training 💪
+        link: Sport Milano
+        platform: TG
+        img: /img/tg.svg
+  - Title: streetwear
+    items:
+      - link: Polimi Streetwear Club
+        platform: TG
+        redirect: true
+  - Title: studyplan
+    items:
+      - link: Piano di studi - Consigli - PoliNetwork
+        platform: TG
+        redirect: true
+  - Title: hsa
+    items:
+      - title: Instagram
+        lang: it
+        desc: Pagina Instagram
+        link: https://www.instagram.com/hubofstudentactivities/
+        img: /img/ig.svg
+      - title: Instagram
+        lang: en
+        desc: Instagram Page
+        link: https://www.instagram.com/hubofstudentactivities/
+        img: /img/ig.svg
+      - title: Telegram
+        lang: it
+        desc: Canale telegram
+        link: https://t.me/polimiactivities
+        img: /img/tg.svg
+      - title: Telegram
+        lang: en
+        desc: Telegram channel
+        link: https://t.me/polimiactivities
+        img: /img/tg.svg
+      - title: Tutto il resto
+        lang: it
+        desc: Tutte le altre piattaforme dove siamo presenti
+        link: https://linktr.ee/hubofstudentactivities
+        img: /img/web.svg
+      - title: Everything else
+        lang: en
+        desc: Every other platform we're on
+        link: https://linktr.ee/hubofstudentactivities
+        img: /img/web.svg

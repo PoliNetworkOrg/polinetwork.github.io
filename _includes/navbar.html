@@ -1,0 +1,98 @@
+---
+---
+<header>
+    <div class="topbar">
+      {% if page.show_backToHome != false %}
+        <div class="backToHome">
+          <a href="../"><i class="far fa-arrow-alt-circle-left"></i></a>
+        </div>
+      {% endif %}
+        <div class="" id="titlecentered">
+            <div class="containerTop">
+                <div class="containertitle">
+                    <p class="ptitle"><b> PoliNetwork</b></p>
+                </div>
+                <div id="navigation" class="containertitle ml12">
+                    <p class="slidernavbar"> -&nbsp; {{ page.title }}</p>
+                </div>
+            </div>
+        </div>
+        <button
+            class="desktopToggler color-mode__btn light--hidden"
+            aria-label="Toggle light mode"
+            id="darkmodeinputID">
+            {% if page.Lang == "en" %}
+            Toggle&nbspLight&nbspMode
+            {% endif %}
+            {% if page.Lang == "it" %}
+            Abilita&nbspLight&nbspMode
+            {% endif %}
+            <i class="navbarIcon fas fa-sun"></i>
+          </button>
+          <button
+            class="desktopToggler color-mode__btn dark--hidden"
+            aria-label="Toggle dark mode"
+            id="darkmodeinputID2">
+            {% if page.Lang == "en" %}
+            Toggle&nbspDark&nbspMode
+            {% endif %}
+            {% if page.Lang == "it" %}
+            Abilita&nbspDark&nbspMode
+            {% endif %}
+            <i class="navbarIcon fas fa-moon"></i>
+          </button>
+          <div class="mobileNightMode">
+            <button
+                class="color-mode__btn light--hidden"
+                aria-label="Toggle light mode"
+                id="darkmodeinputID">
+                <i class="navbarIcon fas fa-sun"></i>
+              </button>
+              <button
+                class="color-mode__btn dark--hidden"
+                aria-label="Toggle dark mode"
+                id="darkmodeinputID2">
+                <i class="navbarIcon fas fa-moon"></i>
+              </button>
+          </div>
+        <!--
+        <div class="darkButton">
+            <div class="switchdiv switchdiva">
+                <p id="darkmode">Enable&nbspDark&nbspMode</p>
+            </div>
+            <div class="switchdiv switchdivb"><label class="theme-switch switch"> <input id="darkmodeinputID" type="checkbox"> <span
+                    class="slider round"></span> </label></div>
+            <div class="dropdown">
+                <button class="dropbtn"><i class="fa fa-bars"></i></button>
+                <div class="dropdown-content">
+                    <div class="ptitlesubcontainer">
+                        <div class="switchdivb">
+                            <p id="darkmode2">Enable&nbspDark&nbspMode</p>
+                        </div>
+                        <div class="switchdivb"><label class="theme-switchb switch"> <input id="darkmodeinputID2" type="checkbox"> <span
+                                class="slider round"></span> </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        -->
+    </div>
+</header>
+
+<script>
+
+  let buttons = document.getElementsByClassName("color-mode__btn");
+  for (var i = 0; i < buttons.length; i++) {
+    buttons[i].addEventListener('click', switchTheme, false);
+  }
+
+  function switchTheme(e) {
+      if (document.documentElement.getAttribute('data-theme') == null || document.documentElement.getAttribute('data-theme') == 'light') {
+          document.documentElement.setAttribute('data-theme', 'dark');
+      }
+      else {
+          document.documentElement.setAttribute('data-theme', 'light');
+      }
+  }
+</script>

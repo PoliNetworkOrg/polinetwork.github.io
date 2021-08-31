@@ -1,0 +1,235 @@
+---
+layout: default
+---
+<div class="wrapper projectsPadding">
+  <div class="card white">
+    <h1>{{ page.Ltitle }}</h1>
+    <h3> {{ page.Lname }}</h3>
+    <div class="input-group rounded">
+      <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" id="searchBarID"
+             aria-describedby="search-addon" class="searchBox" />
+      <span class="input-group-text border-0" id="search-addon">
+                <i class="fas fa-search"></i>
+              </span>
+    </div>
+    <div class="paramsGrid">
+      <div class="buttonGrid">
+        <span> {{ page.Lyear }}: </span>
+        <div>
+          <form>
+            <div class="selectionGroup">
+              <input type="radio" name="year" value="all" checked='checked'>
+              <label> {{ page.LAllyear }} </label>
+            </div>
+            <div class="selectionGroup">
+              <input type="radio" name="year" value="21">
+              <label>2021/2022</label>
+            </div>
+            <div class="selectionGroup">
+              <input type="radio" name="year" value="20">
+              <label>2020/2019</label>
+            </div>
+            <div class="selectionGroup">
+              <input type="radio" name="year" value="19">
+              <label>2019/2020</label>
+            </div>
+            <div class="selectionGroup">
+              <input type="radio" name="year" value="18">
+              <label>2018/2019</label>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="buttonGrid">
+        <span> {{ page.LDeg }}: </span>
+        <div>
+          <form>
+            <div class="selectionGroup">
+              <input type="radio" name="degree" value="all" checked='checked'>
+              <label> {{ page.LAllDeg }} </label>
+            </div>
+            <div class="selectionGroup">
+              <input type="radio" name="degree" value="bachelor">
+              <label> {{ page.LBach }} </label>
+            </div>
+            <div class="selectionGroup">
+              <input type="radio" name="degree" value="master">
+              <label> {{ page.LMag }} </label>
+            </div>
+            <div class="selectionGroup">
+              <input type="radio" name="degree" value="singleC">
+              <label> {{ page.LSC }} </label>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="buttonGrid">
+        <span> {{ page.LType }}: </span>
+        <div>
+          <form>
+            <div class="selectionGroup">
+              <input type="radio" name="group" value="all" checked='checked'>
+              <label>{{ page.LAllType }}</label>
+            </div>
+            <div class="selectionGroup">
+              <input type="radio" name="group" value="school">
+              <label>{{ page.LSc }}</label>
+            </div>
+            <div class="selectionGroup">
+            <input type="radio" name="group" value="course">
+            <label>{{ page.LCourse }}</label>
+            </div>
+            <div class="selectionGroup">
+            <input type="radio" name="group" value="extra">
+            <label>Extra</label>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="buttonGrid">
+        <span>{{ page.LPlat }}:</span>
+        <div>
+          <form>
+            <div class="selectionGroup">
+            <input type="radio" name="platform" value="all" checked='checked'>
+            <label>{{ page.LAllPlat }}</label>
+            </div>
+            <div class="selectionGroup">
+            <input type="radio" name="platform" value="whatsapp">
+            <label>Whatsapp</label>
+            </div>
+            <div class="selectionGroup">
+            <input type="radio" name="platform" value="facebook">
+            <label>Facebook</label>
+            </div>
+            <div class="selectionGroup">
+            <input type="radio" name="platform" value="telegram">
+            <label>Telegram</label>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="buttonGrid">
+        <span>{{ page.LLanguage }}:</span>
+        <div>
+          <form>
+            <div class="selectionGroup">
+            <input type="radio" name="language" value="all" checked='checked'>
+            <label>{{ page.LAllLang }}</label>
+            </div>
+            <div class="selectionGroup">
+            <input type="radio" name="language" value="ita">
+            <label>Ita</label>
+            </div>
+            <div class="selectionGroup">
+            <input type="radio" name="language" value="eng">
+            <label>Eng</label>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="searchResultsGeneralPage" id="searchContainerID">
+        <div class="searchBox" id="searchResultsID">
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+
+  const params = document.querySelectorAll('input[type="radio"]');
+  for (i = 0; i < params.length; i++) {
+    params[i].addEventListener("click", function() { updateSearch(this)})
+  };
+
+  function updateSearch(param) {
+    switch(param.name){
+      case "year":
+        switch(param.value){
+          case "21":
+            queryOverheadYear="2021/2022";
+            break;
+          case "20":
+            queryOverheadYear="2020/2021";
+            break;
+          case "19":
+            queryOverheadYear="2019/2020";
+            break;
+          case "18":
+            queryOverheadYear="2018/2019";
+            break;
+          default:
+            queryOverheadYear=""
+        }
+        break;
+      case "degree":
+        switch(param.value){
+          case "bachelor":
+            queryOverheadDegree="LT";
+            break;
+          case "master":
+            queryOverheadDegree="LM";
+            break;
+          case "singleC":
+            queryOverheadDegree="LU";
+            break;
+          default:
+            queryOverheadDegree="";
+        }
+        break;
+      case "group":
+        switch(param.value){
+          case "school":
+            queryOverheadGroup="S";
+            break;
+          case "course":
+            queryOverheadDegree="C";
+            break;
+          case "extra":
+            queryOverheadDegree="E";
+            break;
+          default:
+            queryOverheadDegree="";
+        }
+        break;
+      case "platform":
+        switch(param.value){
+          case "whatsapp":
+            queryOverheadPlatform="WA";
+            break;
+          case "facebook":
+            queryOverheadPlatform="FB";
+            break;
+          case "telegram":
+            queryOverheadPlatform="TG";
+            break;
+          default:
+            queryOverheadPlatform="";
+        }
+        break;
+      case "language":
+        switch(param.value){
+          case "ita":
+            queryOverheadLanguage = "ITA";
+            break;
+          case "eng":
+            queryOverheadLanguage = "ENG";
+            break;
+          default:
+            queryOverheadLanguage="";
+        }
+        break;
+      default:
+        queryOverheadYear = '';
+        queryOverheadDegree = '';
+        queryOverheadGroup = '';
+        queryOverheadPlatform = '';
+        queryOverheadLanguage = '';
+    }
+  }
+
+
+</script>
+<script src="/res/js/search/search.js"></script>
+<script src="/res/js/search/search_utils.js"></script>

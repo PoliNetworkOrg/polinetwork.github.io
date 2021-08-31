@@ -1,0 +1,13 @@
+<div class="card white section sign hugeButtonOverflow">
+  <div class="materialtopCard" onclick="location.href='{{ include.link }}'">
+    <div class="centerGrid materiallogo">
+      <i class="{{ include.icon }} materialsIcon materialsRicon" aria-hidden="true"></i>
+      {% if include.ficon.size > 0 %}
+        <i class="{{ include.ficon }} materialsIcon materialsImage-container materialsFicon hidden" aria-hidden="true"></i>
+      {% endif %}
+    </div>
+    <div class="centerGrid">
+      <h1 class="materialsText"><span class="materialFontColor">{{ include.title }}</span></h1>
+    </div>
+  </div>
+</div>

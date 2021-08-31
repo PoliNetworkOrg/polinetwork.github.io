@@ -1,0 +1,65 @@
+---
+layout: default
+---
+<body>
+  <i class="fas fa-bug materialsBug shake" id="materialsBug"></i>
+  <i class="fas fa-fighter-jet materialsPlane" id="materialsPlane"></i>
+  <div class="materialsPN" id="materialsPN"><img src="/res/images/polinetwork.png" alt="PoliNetwork" class="materialsPNimg"></div>
+    <div style="margin-top: 50px;"></div>
+    <div class="wrapper">
+        <div class="columnTwo">
+          {% for course in site.data.materialCourses.courses %}
+            {% for language in course.titles %}
+              {% if language.language == page.Lang %}
+                {% include hugebutton.html title=language.title icon=course.icon link=course.link ficon=course.ficon %}
+              {% endif %}
+            {%endfor%}
+          {%endfor%}
+        </div>
+      </div>
+
+<script>
+
+  let params = (new URL(document.location)).searchParams;
+  let bug = params.get("bug");
+  let bugActive = false
+  let iconsR = document.getElementsByClassName("materialsRicon");
+  let iconsF = document.getElementsByClassName("materialsFicon");
+  document.getElementById("materialsBug").addEventListener('click', activateBugMode, false);
+
+  if(bug != null && bug == "true"){
+    document.getElementById("materialsBug").classList.add("hidden");
+    bugMode();
+  }
+
+  function bugMode(){
+    if(bugActive == false){
+      for (var i = 0; i < iconsR.length; i++) {
+        bugActive = true;
+        iconsR[i].classList.add("hidden");
+        iconsF[i].classList.remove("hidden");
+        //iconsF[i].addEventListener('hover', function(){
+        //    moveIcon(iconsF[i]);
+        //}, false);
+      }
+      document.getElementById("materialsPlane").classList.add("FLYYY--plane");
+      document.getElementById("materialsPN").classList.add("FLYYY");
+    }
+  }
+
+  function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
+  }
+
+  if(getRandomInt(20) == 0){
+    bugMode();
+    document.getElementById("materialsBug").classList.add("hidden");
+  }
+
+  function activateBugMode(){
+    document.getElementById("materialsBug").classList.add("RUNNN");
+    document.getElementById("materialsBug").classList.remove("shake");
+    bugMode()
+  }
+
+</script>

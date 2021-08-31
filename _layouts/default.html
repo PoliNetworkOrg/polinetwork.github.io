@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+          rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+          rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css"
+          rel="stylesheet" />
+
+    <link href="/res/fontawesome/css/all.css" rel="stylesheet">
+
+    <title> PoliNetwork - {{ page.title }} </title>
+    <link rel="stylesheet" type="text/css" href="/res/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/res/css/stylenavbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- <script src="/res/js/search/search3.js"></script> -->
+
+    <script>
+        var dark_theme = 0;
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.documentElement.setAttribute('data-theme', 'dark');
+            dark_theme = 1;
+        } else {
+            document.documentElement.setAttribute('data-theme', 'light');
+        }
+    </script>
+    <script src="/res/js/shuffle.js"></script> <!-- Auto shuffle of child elements of the class named "shuffleInside" -->
+    <script>
+      shuffle("shuffleInside");
+    </script>
+</head>
+{% include navbar.html %}
+
+{{ content }}
+
+<div class="footerWrapper">
+    <div class="card white footerGrid">
+        <div class="footerSection">
+            <p>
+                <a href="/" class="polinetworkRedirect">Copyright &copy;<script>document.write(new Date().getFullYear())</script> PoliNetwork</a>
+            </p>
+        </div>
+        <div class="footerSection">
+            {% for item in site.data.languages.lang %}
+            {% if item.name != page.Lang %}
+            {% if item.name == "it" %}
+                <a href="{{ site.url }}/{{ item.name }}{{ page.url | replace: "/it", "" | replace: "/en", ""}}"> Passa a <span class="textSecondaryColor"> {{ item.name | upcase}} </span></a>
+            {% else %}
+                <a href="{{ site.url }}/{{ item.name }}{{ page.url | replace: "/it", "" | replace: "/en", ""}}"> Switch to <span class="textSecondaryColor"> {{ item.name | upcase}} </span></a>
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<!--
+<script>
+    if (dark_theme == 1) {
+        document.getElementById("darkmodeinputID").checked = true;
+        document.getElementById("darkmodeinputID2").checked = true;
+    }
+</script>
+
+{% if page.Lang == "en" %}
+<script>
+    if (dark_theme == 1) {
+        document.getElementById("darkmode").innerHTML = "Disable&nbspDark&nbspMode"
+        document.getElementById("darkmode2").innerHTML = "Disable&nbspDark&nbspMode"
+    }
+</script>
+<script src="/res/js/dark_mode/javas_en.js"></script>
+
+{% else %}
+
+<script>
+    if (dark_theme == 1) {
+        document.getElementById("darkmode").innerHTML = "Disattiva&nbspTema&nbspScuro"
+        document.getElementById("darkmode2").innerHTML = "Disattiva&nbspTema&nbspScuro"
+    }
+</script>
+<script src="/res/js/dark_mode/javas_it.js"></script>
+{% endif %}
+-->
+</html>
