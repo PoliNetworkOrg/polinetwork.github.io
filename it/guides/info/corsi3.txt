@@ -2,11 +2,11 @@
 ---
 Corsi III a.a.
 
-Questa guida è stata redatta dagli admin di Ingegneria Informatica del PoliNetwork, raccogliendo opinioni di diversi studenti che hanno frequentato il corso. Ogni paragrafetto è un'opinione.
+Questa guida è stata redatta dagli admin di Ingegneria Informatica di PoliNetwork, raccogliendo opinioni di diversi studenti che hanno frequentato il corso. Ogni paragrafetto è un'opinione.
 Cliccate sul nome del corso per aprirne la pagina e leggere il programma dettagliato.
 
 ###BIOINFORMATICS ALGORITHMS
-TELEGRAM https://t.me/joinchat/4rBQHamFbWRkYmM0
+TELEGRAM {% include link.html link="BIOINFORMATICS ALGORITHMS" platform="TG" -%}
 MANIFEST https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=744529&polij_device_category=DESKTOP&__pj0=0&__pj1=9e3441292d61f42e8f252763f3c37183
 A primo impatto il nome potrebbe trarre in inganno, infatti molti credono che questo corso
 tratti prevalentemente argomenti di biologia e che quindi siano richieste conoscenze
