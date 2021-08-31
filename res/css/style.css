@@ -1059,6 +1059,7 @@ input, select {
 
 /* Cards homepage layout */
 
+
 .pageMotto{
   margin: 1em 0;
 }
@@ -1223,7 +1224,11 @@ input, select {
         grid-template-columns: 1fr;
     }
 
-    .card{
+    .card {
       padding: 1em 1em;
+    }
+
+    .homepageLowerButton{
+      margin: 1em 2em !important;
     }
 }
