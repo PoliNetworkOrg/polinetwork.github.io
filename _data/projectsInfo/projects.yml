@@ -115,8 +115,26 @@ projects:
         redirect: true
   - Title: webexhelper
     items:
-      - link: https://github.com/SamanFekri/CiscoWebexHelper
-        redirect: true
+      - title: Chrome Extension
+        lang: it
+        desc:
+        link: https://chrome.google.com/webstore/detail/ciscowebex-helper/dncldolpngigodjmkklknhahjafjoofn/
+        img: /img/chrome.png
+      - title: Chrome Extension
+        lang: en
+        desc:
+        link: https://chrome.google.com/webstore/detail/ciscowebex-helper/dncldolpngigodjmkklknhahjafjoofn/
+        img: /img/chrome.png
+      - title: Firefox Extension
+        lang: it
+        desc:
+        link: https://addons.mozilla.org/en-US/firefox/addon/ciscowebex-helper/
+        img: /img/firefox.png
+      - title: Firefox Extension
+        lang: en
+        desc:
+        link: https://addons.mozilla.org/en-US/firefox/addon/ciscowebex-helper/
+        img: /img/firefox.png
   - Title: Webexdownloader
     items:
       - link: https://github.com/jacopo-j/webxdownloader
