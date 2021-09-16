@@ -39,4 +39,6 @@ The admin who approve the files will undertake to discard obviously pirated mate
 
 Polinetwork takes no responsibility for and we do not expressly or implicitly endorse, support, or guarantee the completeness, truthfulness, accuracy, or reliability of any of the content on this repository or any of the ones associated to it.
 
+If you find an unauthorized use of your copyrighted work on our platform, you can send us an infringement notification to email polinetwork@outlook.com
+
 You mustn't upload any copyright protected or in any other author protection form cover file on this repository or any of the ones associated to it.
