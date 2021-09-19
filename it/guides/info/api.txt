@@ -273,8 +273,8 @@ Alcuni ragazzi hanno migliorato le prestazioni del loro programma sostituendo fg
 
 ### Links utili
 
-Gruppo telegram del progetto:
-<a href="https://t.me/joinchat/AFY9TUkc3ApfmmOH60DbEw">https://t.me/joinchat/AFY9TUkc3ApfmmOH60DbEw</a>
+Gruppo telegram del progetto: <br>
+<a href="https://t.me/joinchat/SRzcChixKjKma6Zt">https://t.me/joinchat/SRzcChixKjKma6Zt</a>
 
-<b>[2019/2020]</b> Generatore di test di @Leosxe:
-<a href="https://t.me/joinchat/AFY9TUkc3ApfmmOH60DbEw">https://github.com/Leosxe/ProgettoAPI2020_GeneratoreTest</a>
+<b>[2019/2020]</b> Generatore di test di @Leosxe: <br>
+<a href="https://github.com/Leosxe/ProgettoAPI2020_GeneratoreTest">https://github.com/Leosxe/ProgettoAPI2020_GeneratoreTest</a>
