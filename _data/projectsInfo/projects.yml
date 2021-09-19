@@ -135,6 +135,16 @@ projects:
         desc:
         link: https://addons.mozilla.org/en-US/firefox/addon/ciscowebex-helper/
         img: /img/firefox.png
+      - title: Codice Open Source
+        lang: it
+        desc: Puoi trovare il codice dell'estensione qui sotto
+        link: https://github.com/PoliNetworkOrg/CiscoWebexHelper
+        img: /img/pc.svg
+      - title: Open Source Code
+        lang: en
+        desc: You can find the code in the following link
+        link: https://github.com/PoliNetworkOrg/CiscoWebexHelper
+        img: /img/pc.svg
   - Title: Webexdownloader
     items:
       - link: https://github.com/jacopo-j/webxdownloader
