@@ -117,22 +117,22 @@ projects:
     items:
       - title: Chrome Extension
         lang: it
-        desc:
+        desc: Clicca sul link sotto ed installa l'estensione
         link: https://chrome.google.com/webstore/detail/ciscowebex-helper/dncldolpngigodjmkklknhahjafjoofn/
         img: /img/chrome.png
       - title: Chrome Extension
         lang: en
-        desc:
+        desc: Click on the following link and install the extension
         link: https://chrome.google.com/webstore/detail/ciscowebex-helper/dncldolpngigodjmkklknhahjafjoofn/
         img: /img/chrome.png
       - title: Firefox Extension
         lang: it
-        desc:
+        desc: Clicca sul link sotto ed installa l'estensione
         link: https://addons.mozilla.org/en-US/firefox/addon/ciscowebex-helper/
         img: /img/firefox.png
       - title: Firefox Extension
         lang: en
-        desc:
+        desc: Click on the following link and install the extension
         link: https://addons.mozilla.org/en-US/firefox/addon/ciscowebex-helper/
         img: /img/firefox.png
       - title: Codice Open Source
