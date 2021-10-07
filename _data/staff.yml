@@ -1,0 +1,41 @@
+staff:
+  - guarantors:
+    - name:
+    - name:
+  - delegates:
+    - name: Elia Maggioni
+      role: 0 # 0 for IT, 1 for External Comm, 2 for Internal Comm, 3 for Partnership
+      nomination-date: 05-09-2019
+  - council-members:
+    - name: Raif Muhammad
+      ccs-lang:
+        - language: it
+          ccs: Responsabile admin di Ingegneria Aerospaziale
+        - language: en
+          ccs: Admin Manager of Aerospace Engineering
+  - council-listeners:
+    - name: Federico Armellini
+###### HISTORY
+  - founders:
+    - name: Federico Armellini
+    - period: 2016-2020
+    - titles-lang:
+      - language: it
+        title: Fondatore, Ideatore
+      - language: en
+        title: Founder, Creator
+  - guarantor:
+    - name: Federico Armellini
+    - period: 2016-2020
+  - history:
+    - items:
+      - titles-lang:
+        - language: it
+          title: Fondatori
+        - language: en
+          title: Founders
+        members:
+          - name: Federico Armellini
+            period: 2016-2020
+          - name: Carlo Giovani
+            period: 2016-2020
