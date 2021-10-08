@@ -13,7 +13,7 @@ path: /about_us/
       {% for item in site.data.staff.staff %}
         {% for guarantor in item.guarantors %}
             <li>
-              {% include staff_member.html name=guarantor.name role="" %}
+              {% include staff_member.html name=guarantor.name role="ruolo" period="2010-2011" %}
             </li>
         {% endfor %}
       {% endfor %}
