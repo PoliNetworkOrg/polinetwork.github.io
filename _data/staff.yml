@@ -1,7 +1,7 @@
 staff:
   - guarantors:
-    - name:
-    - name:
+    - name: Elia Maggioni
+    - name: Tecla Trifilò
   - delegates:
     - name: Elia Maggioni
       role: 0 # 0 for IT, 1 for External Comm, 2 for Internal Comm, 3 for Partnership
@@ -28,3 +28,8 @@ staff:
             period: 2016-2020
           - name: Carlo Giovani
             period: 2016-2020
+telegramNickname:
+  - name: Elia Maggioni
+    nickname: EliaMaggioni
+  - name: Tecla Trifilò
+    nickname: Teclilaa
