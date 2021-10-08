@@ -6,6 +6,26 @@ Lang: it
 path: /about_us/
 ---
 
+
+<!--
+{% include staff_member.html name=guarantor.name role="ruolo" period="2010-2011" %}
+
+both role and period are optionals
+
+period and role
+2010-2011 Elia Maggioni - ruolo
+
+only period
+2010-2011 Elia Maggioni
+
+only role
+Elia Maggioni - role
+
+no role and no period
+Elia Maggioni
+ -->
+
+
 <div class="wrapper">
   <div class="card white aboutCard struttura noCenter">
   <h1>Garanti</h1>
@@ -13,7 +33,7 @@ path: /about_us/
       {% for item in site.data.staff.staff %}
         {% for guarantor in item.guarantors %}
             <li>
-              {% include staff_member.html name=guarantor.name role="ruolo" period="2010-2011" %}
+              {% include staff_member.html name=guarantor.name %}
             </li>
         {% endfor %}
       {% endfor %}
