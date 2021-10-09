@@ -30,6 +30,7 @@ Elia Maggioni
   <div class="card white aboutCard struttura noCenter">
   	<h1>Garanti</h1>
     <ul style="text-align:left;list-style: none;padding-left: 20px;">
+      <!--
       {% for item in site.data.staff.staff %}
         {% for guarantor in item.guarantors %}
             <li>
@@ -37,26 +38,16 @@ Elia Maggioni
             </li>
         {% endfor %}
       {% endfor %}
+      -->
+      {% include staff_members.html class="guarantor" lang="it" %}
     </ul>
 	<h1>Ruoli</h1>
     <ul style="text-align:left;list-style: none;padding-left: 20px;">
-      {% for item in site.data.staff.staff %}
-        {% for delegate in item.delegates %}
-            <li>
-              {% include staff_member.html name=delegate.name %}
-            </li>
-        {% endfor %}
-      {% endfor %}
+      {% include staff_members.html class="delegate" lang="it" %}
     </ul>
 	<h1>Consiglio degli admin</h1>
     <ul style="text-align:left;list-style: none;padding-left: 20px;">
-      {% for item in site.data.staff.staff %}
-        {% for council-member in item.council-members %}
-            <li>
-              {% include staff_member.html name=council-member.name role=council-member.ccs-lang %}
-            </li>
-        {% endfor %}
-      {% endfor %}
+      {% include staff_members.html class="headadmin" lang="it" %}
     </ul>
 	<h3>Uditori</h3>
     <ul style="text-align:left;list-style: none;padding-left: 20px;">
@@ -85,6 +76,9 @@ Elia Maggioni
 			</ul>
 		{% endfor %}
 	{% endfor %}
+  --------------------------<br>
+  {% include history.html lang="it" %}
+
 
   </div>
 </div>
