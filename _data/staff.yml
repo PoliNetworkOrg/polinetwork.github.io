@@ -45,12 +45,18 @@ staff:
         #date and expiration date
       - id: c1
         nomination-date: 2019-03-23
+      - id: u0
+        nomination-date: 2020-01-01
+        expired: n
   - name: Raif Muhammad
     roles:
       - id: c0
         nomination-date: 2021-03-23
       - id: b0
         nomination-date: 2021-02-23
+      - id: u0
+        nomination-date: 2020-01-01
+        expired: y
 roles:
   - id: a
     titles:
@@ -76,6 +82,12 @@ roles:
       title: Responsabile admin di Ingegneria Aerospaziale1
     - language: en
       title: Admin Manager of Aerospace Engineering1
+  - id: u0
+    titles:
+    - language: it
+      title: Uditore
+    - language: en
+      title: Listener
 telegramNickname:
   - name: Elia Maggioni
     nickname: EliaMaggioni

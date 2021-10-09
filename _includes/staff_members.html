@@ -72,6 +72,21 @@
               {% endfor %}
             {% endif %}
           {% endfor %}
+          {% if ID contains 'u' %}
+            {% if include.expired == 'y' %}
+              {% if role.expired == 'y' %}
+                <li>
+                  {% include staff_member.html name=staff-member.name %}
+                </li>
+              {% endif %}
+            {% else %}
+              {% if role.expired != 'y' %}
+                <li>
+                  {% include staff_member.html name=staff-member.name %}
+                </li>
+              {% endif %}
+            {% endif %}
+          {% endif %}
         {% endif %}
       {% endif %}
     {% endfor %}
