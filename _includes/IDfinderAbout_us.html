@@ -1,0 +1,10 @@
+{%- assign class = include.class | strip | downcase -%}
+{% if class == "guarantor" %}
+  a
+{% endif %}
+{% if class == "headadmin" %}
+  c
+{% endif %}
+{% if class == "delegate" %}
+  b
+{% endif %}
