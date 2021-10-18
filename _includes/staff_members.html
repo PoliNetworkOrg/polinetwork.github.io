@@ -10,19 +10,20 @@
     {% capture expiration %}{{ role.nomination-date | date: "%e" }} {{ role.nomination-date | date: "%b" }} {{ role.nomination-date | date: "%Y" | plus: 1 }}{% endcapture %}
     {% capture expiration %}{{expiration | date: "%s"}}{% endcapture %}
     {% capture now %}{{now | date: "%s"}}{% endcapture %}
+    {% capture expiration-date %}{{ role.expiration-date | date: "%s"}}{% endcapture %}
     {% for roleID in role.id %}
       {% if roleID contains ID %}
         {% if ID contains 'a' %}
           {% if include.expired == 'y' %}
-            {% if role.expired == 'y' %}
+            {% if role.expiration-date != nil and expiration-date <= now %}
               <li>
-                {% include staff_member.html name=staff-member.name %}
+                {% include staff_member.html lang=include.lang lang=include.lang name=staff-member.name role=lang.title expiration-date=expiration-date nomination-date=role.nomination-date -%}
               </li>
             {% endif %}
           {% else %}
-            {% if role.expired != 'y' %}
+            {% if role.expiration-date == nil or expiration-date >= now %}
               <li>
-                {% include staff_member.html name=staff-member.name %}
+                {% include staff_member.html lang=include.lang name=staff-member.name role=lang.title expiration-date=expiration-date nomination-date=role.nomination-date -%}
               </li>
             {% endif %}
           {% endif %}
@@ -33,15 +34,15 @@
               {% for lang in item.titles %}
                 {% if lang.language == include.lang %}
                   {% if include.expired == 'y' %}
-                    {% if now >= expiration %}
+                    {% if now >= expiration or role.expiration-date != nil and expiration-date <= now %}
                       <li>
-                        {% include staff_member.html name=staff-member.name role=lang.title -%}, expiration-date: {{expiration | date:"%e %b %Y"}}
+                        {% include staff_member.html lang=include.lang name=staff-member.name role=lang.title expiration=expiration expiration-date=expiration-date nomination-date=role.nomination-date -%}
                       </li>
                     {% endif %}
                   {% else %}
-                    {% if now < expiration %}
+                    {% if now < expiration and role.expiration-date == nil or expiration-date >= now %}
                       <li>
-                        {% include staff_member.html name=staff-member.name role=lang.title -%}, expiration-date: {{expiration | date:"%e %b %Y"}}
+                        {% include staff_member.html lang=include.lang name=staff-member.name role=lang.title expiration=expiration expiration-date=expiration-date nomination-date=role.nomination-date -%}
                       </li>
                     {% endif %}
                   {% endif %}
@@ -56,35 +57,35 @@
               {% for lang in item.titles %}
                 {% if lang.language == include.lang %}
                   {% if include.expired == 'y' %}
-                    {% if now >= expiration %}
+                    {% if now >= expiration or role.expiration-date != nil and expiration-date <= now %}
                       <li>
-                        {% include staff_member.html name=staff-member.name role=lang.title -%}, expiration-date: {{expiration | date:"%e %b %Y"}}
+                        {% include staff_member.html lang=include.lang name=staff-member.name role=lang.title expiration=expiration expiration-date=expiration-date nomination-date=role.nomination-date -%}
                       </li>
                     {% endif %}
                   {% else %}
-                    {% if now < expiration %}
-                      <li>
-                        {% include staff_member.html name=staff-member.name role=lang.title -%}, expiration-date: {{expiration | date:"%e %b %Y"}}
-                      </li>
+                    {% if now < expiration and role.expiration-date == nil or expiration-date >= now %}
+                        <li>
+                          {% include staff_member.html lang=include.lang name=staff-member.name role=lang.title expiration=expiration expiration-date=expiration-date nomination-date=role.nomination-date -%}
+                        </li>
                     {% endif %}
                   {% endif %}
                 {% endif %}
               {% endfor %}
             {% endif %}
           {% endfor %}
-          {% if ID contains 'u' %}
-            {% if include.expired == 'y' %}
-              {% if role.expired == 'y' %}
-                <li>
-                  {% include staff_member.html name=staff-member.name %}
-                </li>
-              {% endif %}
-            {% else %}
-              {% if role.expired != 'y' %}
-                <li>
-                  {% include staff_member.html name=staff-member.name %}
-                </li>
-              {% endif %}
+        {% endif %}
+        {% if ID contains 'u' %}
+          {% if include.expired == 'y' %}
+            {% if role.expiration-date != nil and expiration-date <= now %}
+              <li>
+                {% include staff_member.html lang=include.lang name=staff-member.name role=lang.title expiration-date=expiration-date nomination-date=role.nomination-date -%}
+              </li>
+            {% endif %}
+          {% else %}
+            {% if role.expiration-date == nil or expiration-date >= now %}
+              <li>
+                {% include staff_member.html lang=include.lang name=staff-member.name role=lang.title expiration-date=expiration-date nomination-date=role.nomination-date -%}
+              </li>
             {% endif %}
           {% endif %}
         {% endif %}

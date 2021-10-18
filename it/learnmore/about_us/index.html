@@ -39,41 +39,40 @@ Elia Maggioni
         {% endfor %}
       {% endfor %}
       -->
-      {% include staff_members.html class="guarantor" lang="it" %}
+      {% include staff_members.html lang=page.Lang class="guarantor" lang="it" %}
     </ul>
-	
+
 	<h1>Ruoli</h1>
     <ul style="text-align:left;list-style: none;padding-left: 20px;">
-      {% include staff_members.html class="delegate" lang="it" %}
+      {% include staff_members.html lang=page.Lang class="delegate" lang="it" %}
     </ul>
 	<h1>Consiglio degli admin</h1>
     <ul style="text-align:left;list-style: none;padding-left: 20px;">
-      {% include staff_members.html class="headadmin" lang="it" %}
+      {% include staff_members.html lang=page.Lang class="headadmin" lang="it" %}
     </ul>
 
 	<h3>Uditori</h3>
     <ul style="text-align:left;list-style: none;padding-left: 20px;">
-      {% include staff_members.html class="listener" lang="it" %}
+      {% include staff_members.html lang=page.Lang class="listener" lang="it" %}
     </ul>
 	<h1>Storia</h1>
 
-
-	{% for item in site.data.staff.staff %}
-		{% for historyItem in item.history %}
-			<h3>
-				{{ historyItem.titles }}
-			</h3>
-			<ul style="text-align:left;list-style: none;padding-left: 20px;">
-				{% for member in historyItem.members %}
-					<li>
-						{% include staff_member.html name=member.name period=member.period %}
-					</li>
-				{% endfor %}
-			</ul>
-		{% endfor %}
-	{% endfor %}
-  --------------------------<br>
-  {% include history.html lang="it" %}
+  <h3>Garanti Storici</h3>
+    <ul style="text-align:left;list-style: none;padding-left: 20px;">
+      {% include staff_members.html lang=page.Lang class="guarantor" lang="it" expired="y" %}
+    </ul>
+  <h3>Delegati Storici</h3>
+    <ul style="text-align:left;list-style: none;padding-left: 20px;">
+      {% include staff_members.html lang=page.Lang class="delegate" lang="it" expired="y" %}
+    </ul>
+  <h3>Capi Admin Storici</h3>
+    <ul style="text-align:left;list-style: none;padding-left: 20px;">
+      {% include staff_members.html lang=page.Lang class="headadmin" lang="it" expired="y" %}
+    </ul>
+  <h3>Uditori Storici</h3>
+    <ul style="text-align:left;list-style: none;padding-left: 20px;">
+      {% include staff_members.html lang=page.Lang class="listener" lang="it" expired="y" %}
+    </ul>
 
 
   </div>

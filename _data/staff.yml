@@ -1,35 +1,4 @@
 staff:
-#  - guarantors:
-#    - name: Elia Maggioni
-#    - name: Tecla Trifilò
-#  - delegates:
-#    - name: Elia Maggioni
-#      role: 0 # 0 for IT, 1 for External Comm, 2 for Internal Comm, 3 for Partnership
-#      nomination-date: 2019-09-05
-#  - council-members:
-#    - name: Raif Muhammad
-#      nomination-date: 2021-06-05
-#      ccs-lang:
-#        - language: it
-#          ccs: Responsabile admin di Ingegneria Aerospaziale
-#        - language: en
-#          ccs: Admin Manager of Aerospace Engineering
-#  - council-listeners:
-#    - name: Federico Armellini
-#    - name: Carlo Giovani
-######  HISTORY
-#  - history:
-#      - name: Founders
-#        titles:
-#          - language: it
-#            title: Fondatori
-#          - language: en
-#            title: Founders
-#        members:
-#          - name: Federico Armellini
-#            period: 2016-2020
-#          - name: Carlo Giovani
-#            period: 2016-2020
   - name: Elia Maggioni
     roles:
       - id: a
@@ -40,14 +9,15 @@ staff:
     roles:
       - id: a
         nomination-date: 2016-03-23
-        expired: y
-        #expired only necessary for guarantors (because no correleation between nomination
-        #date and expiration date
+        expiration-date: 2021-09-18
+        #expiration-date only necessary if the role expired before his natural term
       - id: c1
         nomination-date: 2019-03-23
+      - id: b0
+        nomination-date: 2021-03-23
+        expiration-date: 2021-10-15
       - id: u0
         nomination-date: 2020-01-01
-        expired: n
   - name: Raif Muhammad
     roles:
       - id: c0
@@ -56,7 +26,7 @@ staff:
         nomination-date: 2021-02-23
       - id: u0
         nomination-date: 2020-01-01
-        expired: y
+        expiration-date: 2021-09-18
 roles:
   - id: a
     titles:

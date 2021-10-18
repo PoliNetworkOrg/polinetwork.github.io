@@ -3,11 +3,45 @@
 	<img src="/img/tg.svg" style="width:15px;" />
 	&nbsp;
 </a>
-{% if include.period.size > 0 %}
+{%- if include.period.size > 0 -%}
 	{{ include.period }}
-{% endif %}
-{{ include.name }}
-{% if include.role.size > 0 %}
-	 -
-	{{ include.role }}
-{% endif %}
+{%- endif -%}
+{{ include.name }} -
+{% if include.role.size > 0 -%}
+	{{ include.role }},
+{% endif -%}
+{% capture minexpiration %}{%endcapture %}
+{% capture expiration-date %}{{include.expiration-date | strip }}{%endcapture %}
+{% capture expiration %}{{include.expiration | strip}}{%endcapture %}
+{%- if expiration-date == empty and expiration == empty -%}
+{%- elsif expiration-date != empty and expiration == empty -%}
+	{% capture minexpiration %}
+		{{ include.expiration-date }}
+	{%endcapture %}
+{%- elsif expiration-date == empty and expiration != empty -%}
+	{% capture minexpiration %}
+		{{ include.expiration }}
+	{%endcapture %}
+{%- elsif expiration-date >= expiration - %}
+	{% capture minexpiration %}
+		{{ include.expiration }}
+	{%endcapture %}
+{%- elsif expiration > expiration-date - %}
+	{% capture minexpiration %}
+		{{ include.expiration-date }}
+	{%endcapture %}
+{%- endif -%}
+{% capture minexpiration %}{{minexpiration | strip}}{%endcapture %}
+{%- if minexpiration != empty and minexpiration <= now -%}
+	{%- if include.lang == 'en' -%}
+		Since {{ include.nomination-date | date:"%b %Y" }} until {{ minexpiration | date:"%b %Y" }}
+	{%- elsif include.lang == 'it'-%}
+		Da {{ include.nomination-date | date:"%b %Y" }} a {{ minexpiration | date:"%b %Y" }}
+	{%- endif -%}
+{%- else -%}
+	{%- if include.lang == 'en' -%}
+		Appointed on {{ include.nomination-date | date:"%b %Y" }}
+	{%- elsif include.lang == 'it'-%}
+		Nominato a {{ include.nomination-date | date:"%b %Y" }}
+	{%- endif -%}
+{%- endif -%}
