@@ -1208,6 +1208,7 @@ input, select {
 
 .tutoringa{
   color: var(--maintext);
+  font-family: futura;
 }
 
 .tutoringh3{
@@ -1217,11 +1218,18 @@ input, select {
   display: inline-block;
   margin-top: 15px;
   margin-bottom: 15px;
+  font-family: futura;
 }
 
 .tutoringh1{
   font-size: 2.6em;
   text-align: center;
+  font-family: futura;
+}
+
+@font-face {
+  font-family: futura;
+  src: url("/res/guides/Futurabook.ttf");
 }
 
 @media only screen and (max-width: 800px) {
