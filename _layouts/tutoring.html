@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<div class="wrapper">
+  <div class="card white aboutCard">
+    <h1 class="tutoringh1">{{page.LBaseTitle}}</h1>
+    <div class="course"><div class="collapsible"><div class="containerFA"><i class="fa fa-angle-down"></i></div><h3 class="tutoringh3">{{page.Lline1title}}</h3></div>
+    <div class="content"><a class="tutoringa" href="{{page.Lline1content}}">{{page.Lline1content}}</a></div>
+    <div class="course"><div class="collapsible"><div class="containerFA"><i class="fa fa-angle-down"></i></div><h3 class="tutoringh3">{{page.Lline2title}}</h3></div>
+    <div class="content"><a class="tutoringa" href="{{page.Lline2content}}">{{page.Lline2content}}</a></div>
+    <div class="course"><div class="collapsible"><div class="containerFA"><i class="fa fa-angle-down"></i></div><h3 class="tutoringh3">{{page.Lline3title}}</h3></div>
+    <div class="content"><a class="tutoringa" href="{{page.Lline3content}}">{{page.Lline3content}}</a></div>
+    <div class="course"><div class="collapsible"><div class="containerFA"><i class="fa fa-angle-down"></i></div><h3 class="tutoringh3">{{page.Lline4title}}</h3></div>
+    <div class="content"><a class="tutoringa" href="{{page.Lline4content}}">{{page.Lline4content}}</a></div>
+</div></div></div></div></div></div>
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      var childNodes = this.childNodes;
+      for (var i = 0; i < childNodes.length; i++) {
+        childNodes[i].classList.toggle("active");  // <a>
+      }
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      }
+    });
+  }
+</script>

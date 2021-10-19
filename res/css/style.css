@@ -1153,6 +1153,77 @@ input, select {
 
 /* Cards homepage layout END */
 
+/* Tutoring */
+
+
+.courseExpandable {
+  cursor: pointer;
+  outline: none;
+}
+
+.collapsible:hover{
+  /* muovi un pò*/
+}
+
+.active i{
+  transform: rotate(180deg);
+}
+
+.collapsible i:hover{
+  cursor: pointer;
+}
+
+.collapsible i {
+  padding: 3px;
+  transition: all 0.4s ease;
+  font-size: 1.3em;
+  margin-right: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.containerFA{
+  justify-content: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  align-items: center;
+  display: flex;
+  transition: all 0.4s ease;
+}
+
+.collapsible{
+  display: flex;
+}
+
+.active:after {
+}
+
+.content {
+  max-height: 0;
+  font-size: 1em;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.tutoringa{
+  color: var(--maintext);
+}
+
+.tutoringh3{
+  color: #03DAC5;
+  font-size: 1.8em;
+  text-align: left;
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.tutoringh1{
+  font-size: 2.6em;
+  text-align: center;
+}
+
 @media only screen and (max-width: 800px) {
 
     .centerGrid h1 {
