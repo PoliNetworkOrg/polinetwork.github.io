@@ -1,4 +1,4 @@
-<a href="https://t.me/{%- for telegram in site.data.staff.telegramNickname -%}{% assign TGname = include.name | strip %}{% assign INname = telegram.name | strip %}{% if TGname == INname %}{{telegram.nickname}}{% endif %}{%- endfor -%}">
+<a href="https://t.me/{%- for telegram in site.data.staff.staff -%}{% assign TGname = include.name | strip %}{% assign INname = telegram.name | strip %}{% if TGname == INname %}{{telegram.nickname}}{% endif %}{%- endfor -%}">
 	&nbsp;
 	<img src="/img/tg.svg" style="width:15px;" />
 	&nbsp;
