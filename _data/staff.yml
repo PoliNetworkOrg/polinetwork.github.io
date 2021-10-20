@@ -59,14 +59,3 @@ roles:
       title: Uditore
     - language: en
       title: Listener
-telegramNickname:
-  - name: Elia Maggioni
-    nickname: EliaMaggioni
-  - name: Tecla Trifilò
-    nickname: Teclilaa
-  - name: Raif Muhammad
-    nickname: Raif9
-  - name: Federico Armellini
-    nickname: ArmeF97
-  - name: Carlo Giovani
-    nickname: CarloGiova
