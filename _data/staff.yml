@@ -1,61 +1,464 @@
+#1970-01-01 vuol dire che non so la data di inizio, 3000-01-01 vuol dire che non so quella di fine (ma so che è diversa da quella di inizio) oppure che quella di fine è passata ma la persona è ancora in carica.
 staff:
   - name: Elia Maggioni
     nickname: eliamaggioni
     roles:
       - id: a
-        nomination-date: 2021-03-23
+        nomination-date: 1970-01-01
       - id: b0
-        nomination-date: 2016-03-23
+        nomination-date: 1970-01-01
   - name: Tecla Trifilò
+    nickname: Teclilaa
     roles:
       - id: a
-        nomination-date: 2016-03-23
-        expiration-date: 2021-09-18
+        nomination-date: 1970-01-01
+        expiration-date: 3000-01-01
         #expiration-date only necessary if the role expired before his natural term
-      - id: c1
-        nomination-date: 2019-03-23
-      - id: b0
-        nomination-date: 2021-03-23
-        expiration-date: 2021-10-15
-      - id: u0
-        nomination-date: 2020-01-01
-  - name: Raif Muhammad
+      - id: b3
+        nomination-date: 1970-01-01
+        expiration-date: 1970-01-01
+  - name: Federico Armellini
+    nickname: ArmeF97
     roles:
-      - id: c0
-        nomination-date: 2021-03-23
-      - id: b0
-        nomination-date: 2021-02-23
       - id: u0
-        nomination-date: 2020-01-01
-        expiration-date: 2021-09-18
+        nomination-date: 1970-01-01
+      - id: f0
+        nomination-date: 2016-08-15
+      - id: f1
+        nomination-date: 2016-08-15
+      - id: a
+        nomination-date: 1970-01-01
+      - id: b0
+        nomination-date: 1970-01-01
+      - id: b3
+        nomination-date: 1970-01-01
+      - id: c11
+        nomination-date: 1970-01-01
+  - name: Carlo Giovani
+    nickname: CarloGiova
+    roles:
+      - id: u0
+        nomination-date: 1970-01-01
+      - id: f0
+        nomination-date: 2016-08-15
+      - id: a
+        nomination-date: 1970-01-01
+      - id: b1
+        nomination-date: 1970-01-01
+      - id: b2
+        nomination-date: 1970-01-01
+  - name: Peru Larrabeiti
+    nickname: perularrabeiti
+    roles:
+      - id: u0
+        nomination-date: 1970-01-01
+      - id: b3
+        nomination-date: 1970-01-01
+      - id: c10
+        nomination-date: 2019-10-29
+        expiration-date: 2021-04-26
+  - name: Raif Muhammad
+    nickname: raif9
+    roles:
+      - id: b3
+        nomination-date: 2021-06-09
+      - id: c0
+        nomination-date: 1970-01-01
+        expiration-date: 2022-06-05
+  - name: Fabrizio Vasconi
+    nickname: fabrizio_vasconi
+    roles:
+      - id: b2
+        nomination-date: 2021-06-09
+      - id: c10
+        nomination-date: 2021-06-04
+  - name: Diego Aldarese
+    nickname: diegoaldarese
+    roles:
+      - id: b1
+        nomination-date: 2021-06-09
+      - id: c21
+        nomination-date: 2021-05-31
+  - name: Gabriele Auriemma
+    nickname: GabrieleAur98
+    roles:
+      - id: b1
+        nomination-date: 1970-01-01
+      - id: c9
+        nomination-date: 2019-10-29
+        expiration-date: 2021-04-26
+  - name: Edoardo Corti
+    nickname: Edocorti
+    roles:
+      - id: c1
+        nomination-date: 2020-12-02
+        expiration-date: 3000-01-01
+  - name: Veronica Marrocu
+    nickname: myosotiss67
+    roles:
+      - id: c2
+        nomination-date: 2021-06-08
+  - name: Piera Candita
+    nickname: pieracandita
+    roles:
+      - id: c3
+        nomination-date: 2021-06-02
+  - name: Marco Tintori
+    nickname: MarcoTintori
+    roles:
+      - id: c4
+        nomination-date: 2019-10-29
+        expiration-date: 3000-01-01
+  - name: Letizia Bosco
+    nickname: LetiBos
+    roles:
+      - id: c5
+        nomination-date: 2019-10-29
+        expiration-date: 3000-01-01
+  - name: Matteo Vitelli
+    nickname: MatteoVitelli
+    roles:
+      - id: c6
+        nomination-date: 2019-10-29
+        expiration-date: 3000-01-01
+  - name: Gianmarco Cocchi
+    nickname: gmb98
+    roles:
+      - id: c7
+        nomination-date: 2021-05-26
+  - name: Eric Di Luca
+    nickname: dilucaeric
+    roles:
+      - id: c8
+        nomination-date: 2021-05-07
+  - name: Alessandro Baserga
+    nickname: AlessandroBaserga
+    roles:
+      - id: c9
+        nomination-date: 2021-05-24
+  - name: Marco di Gennaro
+    nickname: Marcol_8
+    roles:
+      - id: c11
+        nomination-date: 2020-09-01
+        expiration-date: 3000-01-01
+  - name: Laurens Lanzillo
+    nickname: laurens_lanzillo
+    roles:
+      - id: c12
+        nomination-date: 2019-10-29
+        expiration-date: 2022-05-31
+  - name: Andrea Corcella
+    nickname: andre_crc
+    roles:
+      - id: c13
+        nomination-date: 2021-04-29
+  - name: Riccardo Serra
+    nickname: riccardo996
+    roles:
+      - id: c14
+        nomination-date: 2019-10-29
+        expiration-date: 3000-01-01
+  - name: Giovanni Oteri
+    nickname: Gioteri
+    roles:
+      - id: c15
+        nomination-date: 2019-10-29
+        expiration-date: 2022-06-03
+  - name: Giada Martinoia
+    nickname: Giada_Martinoia
+    roles:
+      - id: c16
+        nomination-date: 2020-09-20
+        expiration-date: 3000-01-01
+  - name: Lucrezia Alparone
+    nickname: LucreziaAL
+    roles:
+      - id: c17
+        nomination-date: 2021-06-05
+  - name: Cecilia Marson
+    nickname: Ceciliamarson
+    roles:
+      - id: c18
+        nomination-date: 2020-03-16
+        expiration-date: 3000-01-01
+  - name: Bruna Lleshi
+    nickname: Brumbrown
+    roles:
+      - id: c19
+        nomination-date: 2021-05-24
+  - name: Alice Simionato
+    nickname: Alice_Simionato
+    roles:
+      - id: c20
+        nomination-date: 2021-06-05
+  - name: Luca Cattaneo
+    nickname: lucacattaneo9705
+    roles:
+      - id: c22
+        nomination-date: 2021-03-16
+  - name: Pier Ombrini
+    nickname: PierOmbrini
+    roles:
+      - id: c23
+        nomination-date: 2020-11-13
+        expiration-date: 3000-01-01
+  - name: Mirko de Vita
+    nickname: deet98
+    roles:
+      - id: c11
+        nomination-date: 2019-10-29
+        expiration-date: 2021-04-26
+  - name: Daniele di Francesco
+    nickname: DanieleDiFra
+    roles:
+      - id: c21
+        nomination-date: 2019-10-29
+        expiration-date: 2021-04-26
+  - name: Antonio Acierno
+    nickname: Antonio_Acierno
+    roles:
+      - id: c16
+        nomination-date: 2019-10-29
+        expiration-date: 2021-04-26
+  - name: Marco Leo Porro
+    nickname: Markobau
+    roles:
+      - id: c13
+        nomination-date: 2019-10-29
+        expiration-date: 2021-04-26
+  - name: Giacomo Tombolan
+    nickname: giacomotombolan
+    roles:
+      - id: c8
+        nomination-date: 2019-10-29
+        expiration-date: 3000-01-01
+  - name: Andrea Zito
+    nickname: andreakr0
+    roles:
+      - id: c3
+        nomination-date: 2019-10-29
+        expiration-date: 2021-04-26
+  - name: Alberto Fattori
+    nickname: alberto_fattori
+    roles:
+      - id: c7
+        nomination-date: 2019-10-29
+        expiration-date: 2021-04-26
+  - name: Giada Chiametti
+    nickname: dsgd_x
+    roles:
+      - id: c1
+        nomination-date: 2019-10-29
+        expiration-date: 2021-04-26
+  - name: Francesca Marra
+    nickname: Francescamarra
+    roles:
+      - id: c2
+        nomination-date: 2019-10-29
+        expiration-date: 2021-04-26
+  - name: Ramkumar Ramadoss
+    nickname: Ramkumar_Ramadoss
+    roles:
+      - id: c13
+        nomination-date: 2020-10-11
+        expiration-date: 2021-10-15
+  - name: Luca Sosta
+    nickname: LucaSosta
+    roles:
+      - id: c17
+        nomination-date: 2020-03-17
+        expiration-date: 2021-07-05
 roles:
   - id: a
     titles:
-    - language: it
-      title: Garante
-    - language: en
-      title: Guarantor
+      - language: it
+        title: Garante
+      - language: en
+        title: Guarantor
   - id: b0
     titles:
-    - language: it
-      title: Capo Tecnico
-    - language: en
-      title: IT delegate
+      - language: it
+        title: Delegato a "Gestione progetti innovativi e supporto tecnico (IT)"
+      - language: en
+        title: Delegate to management of innovative projects and technical support (IT)
+  - id: b1
+    titles:
+      - language: it
+        title: Delegato a "Eventi e patnership"
+      - language: en
+        title: Delegate to events and patnership
+  - id: b2
+    titles:
+      - language: it
+        title: Delegato a "Comunicazione esterna"
+      - language: en
+        title: Delegate to external communication
+  - id: b3
+    titles:
+      - language: it
+        title: Delegato a "Comunicazione interna e crescita"
+      - language: en
+        title: Delegate to internal communication and growth
   - id: c0
     titles:
-    - language: it
-      title: Responsabile admin di Ingegneria Aerospaziale
-    - language: en
-      title: Admin Manager of Aerospace Engineering
+      - language: it
+        title: Responsabile admin di Ingegneria Aerospaziale
+      - language: en
+        title: Admin Manager of Aerospace Engineering
   - id: c1
     titles:
-    - language: it
-      title: Responsabile admin di Ingegneria Aerospaziale1
-    - language: en
-      title: Admin Manager of Aerospace Engineering1
+      - language: it
+        title: Responsabile admin di Ingegneria Biomedica
+      - language: en
+        title: Admin Manager of Biomedical Engineering
+  - id: c2
+    titles:
+      - language: it
+        title: Responsabile admin di Ingegneria Chimica
+      - language: en
+        title: Admin Manager of Chemical Engineering
+  - id: c3
+    titles:
+      - language: it
+        title: Responsabile admin di Ingegneria Civile
+      - language: en
+        title: Admin Manager of Civil Engineering
+  - id: c4
+    titles:
+      - language: it
+        title: Responsabile admin di Design Comunicazione
+      - language: en
+        title: Admin Manager of Communication Design
+  - id: c5
+    titles:
+      - language: it
+        title: Responsabile admin di Design Moda
+      - language: en
+        title: Admin Manager of Fashion Design
+  - id: c6
+    titles:
+      - language: it
+        title: Responsabile admin di Ingegneria Edile
+      - language: en
+        title: Admin Manager of Construction Engineering
+  - id: c7
+    titles:
+      - language: it
+        title: Responsabile admin di Ingegneria Elettrica
+      - language: en
+        title: Admin Manager of Electrical Engineering
+  - id: c8
+    titles:
+      - language: it
+        title: Responsabile admin di Ingegneria Elettronica
+      - language: en
+        title: Admin Manager of Electronic Engineering
+  - id: c9
+    titles:
+      - language: it
+        title: Responsabile admin di Ingegneria Fisica
+      - language: en
+        title: Admin Manager of Physical Engineering
+  - id: c10
+    titles:
+      - language: it
+        title: Responsabile admin di Ingegneria Gestionale
+      - language: en
+        title: Admin Manager of Management Engineering
+  - id: c11
+    titles:
+      - language: it
+        title: Responsabile admin di Ingegneria Informatica
+      - language: en
+        title: Admin Manager of Computer Engineering
+  - id: c12
+    titles:
+      - language: it
+        title: Responsabile admin di Ingegneria Meccanica
+      - language: en
+        title: Admin Manager of Mechanical Engineering
+  - id: c13
+    titles:
+      - language: it
+        title: Responsabile admin di Ingegneria Telecomunicazioni
+      - language: en
+        title: Admin Manager of Telecommunications Engineering
+  - id: c14
+    titles:
+      - language: it
+        title: Responsabile admin di Design Interni
+      - language: en
+        title: Admin Manager of Interior Design
+  - id: c15
+    titles:
+      - language: it
+        title: Responsabile admin di Ingegneria Energetica
+      - language: en
+        title: Admin Manager of Energetic Engineering
+  - id: c16
+    titles:
+      - language: it
+        title: Responsabile admin di Ingegneria Materiali
+      - language: en
+        title: Admin Manager of Material Engineering
+  - id: c17
+    titles:
+      - language: it
+        title: Responsabile admin di Ingegneria Matematica
+      - language: en
+        title: Admin Manager of Mathematical Engineering
+  - id: c18
+    titles:
+      - language: it
+        title: Responsabile admin di Music & Acoustic Engineering
+      - language: en
+        title: Admin Manager of Music & Acoustic Engineering
+  - id: c19
+    titles:
+      - language: it
+        title: Responsabile admin di Management of Built Environment
+      - language: en
+        title: Admin Manager of Management of Built Environment
+  - id: c20
+    titles:
+      - language: it
+        title: Responsabile admin di Urbanistica
+      - language: en
+        title: Admin Manager of Urban planning
+  - id: c21
+    titles:
+      - language: it
+        title: Responsabile admin di Ingegneria Automazione
+      - language: en
+        title: Admin Manager of Automation Engineering
+  - id: c22
+    titles:
+      - language: it
+        title: Responsabile admin di Mobility Engineering
+      - language: en
+        title: Admin Manager of Mobility Engineering
+  - id: c23
+    titles:
+      - language: it
+        title: Responsabile admin di Nuclear Engineering
+      - language: en
+        title: Admin Manager of Nuclear Engineering
   - id: u0
     titles:
-    - language: it
-      title: Uditore
-    - language: en
-      title: Listener
+      - language: it
+        title: Uditore
+      - language: en
+        title: Listener
+  - id: f0
+    titles:
+      - language: it
+        title: Fondatore
+      - language: en
+        title: Founder
+  - id: f1
+    titles:
+      - language: it
+        title: Ideatore
+      - language: en
+        title: Creator
