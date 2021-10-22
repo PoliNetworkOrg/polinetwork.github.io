@@ -47,13 +47,13 @@ staff:
         nomination-date: 2016-08-15
       - id: a
         nomination-date: 2016-08-15
-    		expiration-date: 2020-09-14
+        expiration-date: 2020-09-14
       - id: b1
         nomination-date: 2016-08-15
-    		expiration-date: 2019-01-01
+        expiration-date: 2019-01-01
       - id: b2
         nomination-date: 2016-08-15
-    		expiration-date: 2019-01-01
+        expiration-date: 2019-01-01
   - name: Peru Larrabeiti
     nickname: perularrabeiti
     roles:
@@ -61,23 +61,23 @@ staff:
         nomination-date: 2021-04-26
       - id: b3
         nomination-date: 2019-10-31
-    		expiration-date: 2021-04-26
+        expiration-date: 2021-04-26
       - id: c10
         nomination-date: 2019-10-29
         expiration-date: 2021-04-26
   - name: Raif Muhammad
     nickname: raif9
     roles:
-  	  - id: b1
+      - id: b1
         nomination-date: 2019-10-29
-    		expiration-date: 2021-04-26
+        expiration-date: 2021-04-26
       - id: b3
         nomination-date: 2021-06-09
       - id: c0
         nomination-date: 2019-10-29
         expiration-date: 2021-04-26
       - id: c0
-    		nomination-date: 2021-06-05
+        nomination-date: 2021-06-05
         expiration-date: 2022-06-05
   - name: Fabrizio Vasconi
     nickname: fabrizio_vasconi
