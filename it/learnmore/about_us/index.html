@@ -6,39 +6,10 @@ Lang: it
 path: /about_us/
 ---
 
-
-<!--
-{% include staff_member.html name=guarantor.name role="ruolo" period="2010-2011" %}
-
-both role and period are optionals
-
-period and role
-2010-2011 Elia Maggioni - ruolo
-
-only period
-2010-2011 Elia Maggioni
-
-only role
-Elia Maggioni - role
-
-no role and no period
-Elia Maggioni
- -->
-
-
 <div class="wrapper">
   <div class="card white aboutCard struttura noCenter">
   	<h1>Garanti</h1>
     <ul style="text-align:left;list-style: none;padding-left: 20px;">
-      <!--
-      {% for item in site.data.staff.staff %}
-        {% for guarantor in item.guarantors %}
-            <li>
-              {% include staff_member.html name=guarantor.name %}
-            </li>
-        {% endfor %}
-      {% endfor %}
-      -->
       {% include staff_members.html lang=page.Lang class="guarantor" lang="it" %}
     </ul>
 
@@ -57,6 +28,11 @@ Elia Maggioni
     </ul>
 	<h1>Storia</h1>
 
+  <h3>Fondatori</h3>
+    <ul style="text-align:left;list-style: none;padding-left: 20px;">
+      {% include staff_members.html lang=page.Lang class="founder" lang="it" expired="y" %}
+      {% include staff_members.html lang=page.Lang class="founder" lang="it" expired="n" %}
+    </ul>
   <h3>Garanti Storici</h3>
     <ul style="text-align:left;list-style: none;padding-left: 20px;">
       {% include staff_members.html lang=page.Lang class="guarantor" lang="it" expired="y" %}
