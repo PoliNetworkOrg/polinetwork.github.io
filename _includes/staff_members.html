@@ -7,7 +7,7 @@
   {% endcapture %}
   {% capture ID %}{{ID | strip}}{% endcapture %}
   {% for role in staff-member.roles %}
-    {% capture expiration %}{{ role.nomination-date | date: "%e" }} {{ role.nomination-date | date: "%b" }} {{ role.nomination-date | date: "%Y" | plus: 1 }}{% endcapture %}
+    {% capture expiration %}{%- include staff_members_exp.html nomination-date=role.nomination-date -%}{% endcapture %}
     {% capture expiration %}{{expiration | date: "%s"}}{% endcapture %}
     {% capture now %}{{now | date: "%s"}}{% endcapture %}
     {% capture expiration-date %}{{ role.expiration-date | date: "%s"}}{% endcapture %}

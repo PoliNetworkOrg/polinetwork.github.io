@@ -20,11 +20,9 @@ staff:
   - name: Federico Armellini
     nickname: ArmeF97
     roles:
-      - id: u0
+      - id: u
         nomination-date: 2020-09-14
-      - id: f0
-        nomination-date: 2016-08-15
-      - id: f1
+      - id: f
         nomination-date: 2016-08-15
       - id: a
         nomination-date: 2016-08-15
@@ -41,9 +39,9 @@ staff:
   - name: Carlo Giovani
     nickname: CarloGiova
     roles:
-      - id: u0
+      - id: u
         nomination-date: 2020-09-14
-      - id: f0
+      - id: f
         nomination-date: 2016-08-15
       - id: a
         nomination-date: 2016-08-15
@@ -57,7 +55,7 @@ staff:
   - name: Peru Larrabeiti
     nickname: perularrabeiti
     roles:
-      - id: u0
+      - id: u
         nomination-date: 2021-04-26
       - id: b3
         nomination-date: 2019-10-31
@@ -223,7 +221,6 @@ staff:
     roles:
       - id: c11
         nomination-date: 2019-10-29
-        expiration-date: 2021-04-26
   - name: Daniele di Francesco
     nickname: DanieleDiFra
     roles:
@@ -459,13 +456,13 @@ roles:
         title: Responsabile admin di Nuclear Engineering
       - language: en
         title: Admin Manager of Nuclear Engineering
-  - id: u0
+  - id: u
     titles:
       - language: it
         title: Uditore
       - language: en
         title: Listener
-  - id: f0
+  - id: f
     titles:
       - language: it
         title: Fondatore
