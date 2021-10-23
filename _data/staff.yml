@@ -12,7 +12,6 @@ staff:
     roles:
       - id: a
         nomination-date: 2020-09-14
-        expiration-date: 3000-01-01
         #expiration-date only necessary if the role expired before his natural term
       - id: b3
         nomination-date: 2018-01-01
@@ -183,7 +182,6 @@ staff:
     roles:
       - id: c16
         nomination-date: 2020-09-20
-        expiration-date: 3000-01-01
   - name: Lucrezia Alparone
     nickname: LucreziaAL
     roles:
@@ -268,7 +266,6 @@ staff:
     roles:
       - id: c2
         nomination-date: 2019-10-29
-        expiration-date: 2021-04-26
   - name: Ramkumar Ramadoss
     nickname: Ramkumar_Ramadoss
     roles:

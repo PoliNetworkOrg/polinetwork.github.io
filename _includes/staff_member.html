@@ -10,6 +10,7 @@
 {% if include.role.size > 0 -%}
 	{{ include.role }},
 {% endif -%}
+<span class="nomination">
 {% capture minexpiration %}{%endcapture %}
 {% capture expiration-date %}{{include.expiration-date | strip }}{%endcapture %}
 {% capture expiration %}{{include.expiration | strip}}{%endcapture %}
@@ -36,12 +37,61 @@
 	{%- if include.lang == 'en' -%}
 		Since {{ include.nomination-date | date:"%b %Y" }} until {{ minexpiration | date:"%b %Y" }}
 	{%- elsif include.lang == 'it'-%}
-		Da {{ include.nomination-date | date:"%b %Y" }} a {{ minexpiration | date:"%b %Y" }}
+		{% assign m-minexpiration = minexpiration | date: "%-m" %}
+		{% assign m-nomination = include.nomination-date | date: "%-m" %}
+		Da
+		{% case m-nomination %}
+			{% when '1' %}Gen
+			{% when '2' %}Feb
+			{% when '3' %}Mar
+			{% when '4' %}Apr
+			{% when '5' %}Mag
+			{% when '6' %}Giu
+			{% when '7' %}Lug
+			{% when '8' %}Ago
+			{% when '9' %}Set
+			{% when '10' %}Ott
+			{% when '11' %}Nov
+			{% when '12' %}Dec
+		{% endcase %}
+		{{ include.nomination-date | date: "%Y" }} a
+		{% case m-minexpiration %}
+			{% when '1' %}Gen
+			{% when '2' %}Feb
+			{% when '3' %}Mar
+			{% when '4' %}Apr
+			{% when '5' %}Mag
+			{% when '6' %}Giu
+			{% when '7' %}Lug
+			{% when '8' %}Ago
+			{% when '9' %}Set
+			{% when '10' %}Ott
+			{% when '11' %}Nov
+			{% when '12' %}Dec
+		{% endcase %}
+		{{ minexpiration | date: "%Y" }}
 	{%- endif -%}
 {%- else -%}
 	{%- if include.lang == 'en' -%}
 		Appointed on {{ include.nomination-date | date:"%b %Y" }}
 	{%- elsif include.lang == 'it'-%}
-		Nominato a {{ include.nomination-date | date:"%b %Y" }}
+		Nominato a
+		{% assign m-nomination = include.nomination-date | date: "%-m" %}
+		{% case m-nomination %}
+			{% when '1' %}Gen
+			{% when '2' %}Feb
+			{% when '3' %}Mar
+			{% when '4' %}Apr
+			{% when '5' %}Mag
+			{% when '6' %}Giu
+			{% when '7' %}Lug
+			{% when '8' %}Ago
+			{% when '9' %}Set
+			{% when '10' %}Ott
+			{% when '11' %}Nov
+			{% when '12' %}Dec
+		{% endcase %}
+		{{ include.nomination-date | date: "%Y" }}
 	{%- endif -%}
 {%- endif -%}
+</span>

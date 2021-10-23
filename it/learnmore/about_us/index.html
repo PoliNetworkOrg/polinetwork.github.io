@@ -1,55 +1,17 @@
 ---
-layout: default
+layout: about_us
 title: Su di noi
 show_backToHome: true
 Lang: it
 path: /about_us/
+LGuarantors: Garanti
+LRoles: Ruoli
+LCouncil: Consiglio degli admin
+LVotingMem: Membri Votanti
+LListeners: Uditori
+LHistory: Storia
+LFounders: Fondatori
+LGuarantorsHistory: Garanti Storici
+LRolesHistory: Delegati Storici
+LCouncilHistory: Capi Admin Storici
 ---
-
-<div class="wrapper">
-  <div class="card white aboutCard struttura noCenter">
-  	<h1>Garanti</h1>
-    <ul style="text-align:left;list-style: none;padding-left: 20px;">
-      {% include staff_members.html lang=page.Lang class="guarantor" lang="it" %}
-    </ul>
-
-	<h1>Ruoli</h1>
-    <ul style="text-align:left;list-style: none;padding-left: 20px;">
-      {% include staff_members.html lang=page.Lang class="delegate" lang="it" %}
-    </ul>
-	<h1>Consiglio degli admin</h1>
-    <ul style="text-align:left;list-style: none;padding-left: 20px;">
-      {% include staff_members.html lang=page.Lang class="headadmin" lang="it" %}
-    </ul>
-
-	<h3>Uditori</h3>
-    <ul style="text-align:left;list-style: none;padding-left: 20px;">
-      {% include staff_members.html lang=page.Lang class="listener" lang="it" %}
-    </ul>
-	<h1>Storia</h1>
-
-  <h3>Fondatori</h3>
-    <ul style="text-align:left;list-style: none;padding-left: 20px;">
-      {% include staff_members.html lang=page.Lang class="founder" lang="it" expired="y" %}
-      {% include staff_members.html lang=page.Lang class="founder" lang="it" expired="n" %}
-    </ul>
-  <h3>Garanti Storici</h3>
-    <ul style="text-align:left;list-style: none;padding-left: 20px;">
-      {% include staff_members.html lang=page.Lang class="guarantor" lang="it" expired="y" %}
-    </ul>
-  <h3>Delegati Storici</h3>
-    <ul style="text-align:left;list-style: none;padding-left: 20px;">
-      {% include staff_members.html lang=page.Lang class="delegate" lang="it" expired="y" %}
-    </ul>
-  <h3>Capi Admin Storici</h3>
-    <ul style="text-align:left;list-style: none;padding-left: 20px;">
-      {% include staff_members.html lang=page.Lang class="headadmin" lang="it" expired="y" %}
-    </ul>
-  <h3>Uditori Storici</h3>
-    <ul style="text-align:left;list-style: none;padding-left: 20px;">
-      {% include staff_members.html lang=page.Lang class="listener" lang="it" expired="y" %}
-    </ul>
-
-
-  </div>
-</div>
