@@ -66,6 +66,7 @@ function search(el) {
     Search.search(searchParamMapper(el.value) , 20)
         .then(data => {
             if (data.length === 0) {
+                const result_div = document.getElementById("searchResultsID");
                 result_div.innerHTML = '<div class=\"result\"><div class="resultContainer"><a class="noResults" href="\https://t.me/PoliGruppo">There are no suggestions for your query. <i>Try asking here</i></a></div></div>';
             }
             else {
