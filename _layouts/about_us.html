@@ -27,6 +27,11 @@ layout: default
     <hr />
 	<h1>{{page.LHistory}}</h1>
 
+  <h3>{{page.LIdeator}}</h3>
+    <ul style="text-align:left;list-style: none;padding-left: 20px;">
+      {% include staff_members.html lang=page.Lang class="ideator" %}
+    </ul>
+
   <h3>{{page.LFounders}}</h3>
     <ul style="text-align:left;list-style: none;padding-left: 20px;">
       {% include staff_members.html lang=page.Lang class="founder" expired="y" %}

@@ -2,13 +2,13 @@
   {% if include.expired == 'y' %}
     {% if role.expiration-date != nil and expiration-date <= now %}
       <li>
-        {% include staff_member.html lang=include.lang lang=include.lang name=staff-member.name role=lang.title expiration-date=expiration-date nomination-date=role.nomination-date -%}
+        {% include staff_member.html lang=include.lang lang=include.lang name=staff-member.name role=lang.title expiration-date=expiration-date nomination-date=role.nomination-date no-appointment="true" no-appointment=include.no-appointment -%}
       </li>
     {% endif %}
   {% else %}
     {% if role.expiration-date == nil or expiration-date >= now %}
       <li>
-        {% include staff_member.html lang=include.lang name=staff-member.name role=lang.title expiration-date=expiration-date nomination-date=role.nomination-date -%}
+        {% include staff_member.html lang=include.lang name=staff-member.name role=lang.title expiration-date=expiration-date nomination-date=role.nomination-date no-appointment=include.no-appointment -%}
       </li>
     {% endif %}
   {% endif %}

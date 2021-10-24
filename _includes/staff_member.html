@@ -73,25 +73,49 @@
 	{%- endif -%}
 {%- else -%}
 	{%- if include.lang == 'en' -%}
-		Appointed on {{ include.nomination-date | date:"%b %Y" }}
+		{%- if include.no-appointment != 'true' -%}
+			Appointed on {{ include.nomination-date | date:"%b %Y" }}
+		{%- else -%}
+			Since {{ include.nomination-date | date:"%b %Y" }}
+		{%- endif -%}
 	{%- elsif include.lang == 'it'-%}
-		Nominato a
-		{% assign m-nomination = include.nomination-date | date: "%-m" %}
-		{% case m-nomination %}
-			{% when '1' %}Gen
-			{% when '2' %}Feb
-			{% when '3' %}Mar
-			{% when '4' %}Apr
-			{% when '5' %}Mag
-			{% when '6' %}Giu
-			{% when '7' %}Lug
-			{% when '8' %}Ago
-			{% when '9' %}Set
-			{% when '10' %}Ott
-			{% when '11' %}Nov
-			{% when '12' %}Dec
-		{% endcase %}
-		{{ include.nomination-date | date: "%Y" }}
+		{%- if include.no-appointment != 'true' -%}
+			Nominato a
+			{% assign m-nomination = include.nomination-date | date: "%-m" %}
+			{% case m-nomination %}
+				{% when '1' %}Gen
+				{% when '2' %}Feb
+				{% when '3' %}Mar
+				{% when '4' %}Apr
+				{% when '5' %}Mag
+				{% when '6' %}Giu
+				{% when '7' %}Lug
+				{% when '8' %}Ago
+				{% when '9' %}Set
+				{% when '10' %}Ott
+				{% when '11' %}Nov
+				{% when '12' %}Dec
+			{% endcase %}
+			{{ include.nomination-date | date: "%Y" }}
+		{%- else -%}
+			Da
+			{% assign m-nomination = include.nomination-date | date: "%-m" %}
+			{% case m-nomination %}
+				{% when '1' %}Gen
+				{% when '2' %}Feb
+				{% when '3' %}Mar
+				{% when '4' %}Apr
+				{% when '5' %}Mag
+				{% when '6' %}Giu
+				{% when '7' %}Lug
+				{% when '8' %}Ago
+				{% when '9' %}Set
+				{% when '10' %}Ott
+				{% when '11' %}Nov
+				{% when '12' %}Dec
+			{% endcase %}
+			{{ include.nomination-date | date: "%Y" }}
+		{%- endif -%}
 	{%- endif -%}
 {%- endif -%}
 </span>

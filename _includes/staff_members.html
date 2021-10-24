@@ -26,7 +26,10 @@
           {% include staff_members_builder.html no-exp="y" expired=include.expired lang=include.lang name=staff-member.name role=lang.title expiration-date=expiration-date nomination-date=role.nomination-date -%}
         {% endif %}
         {% if ID contains 'f' %}
-          {% include staff_members_builder.html no-exp="y" expired=include.expired lang=include.lang name=staff-member.name role=lang.title expiration-date=expiration-date nomination-date=role.nomination-date -%}
+          {% include staff_members_builder.html no-exp="y" expired=include.expired lang=include.lang name=staff-member.name role=lang.title expiration-date=expiration-date nomination-date=role.nomination-date no-appointment="true" -%}
+        {% endif %}
+        {% if ID contains 'i' %}
+          {% include staff_members_builder.html no-exp="y" expired=include.expired lang=include.lang name=staff-member.name role=lang.title expiration-date=expiration-date nomination-date=role.nomination-date no-appointment="true" -%}
         {% endif %}
       {% endif %}
     {% endfor %}

@@ -19,6 +19,8 @@ staff:
   - name: Federico Armellini
     nickname: ArmeF97
     roles:
+      - id: i
+        nomination-date: 2016-08-15
       - id: u
         nomination-date: 2020-09-14
       - id: f
