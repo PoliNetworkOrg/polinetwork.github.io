@@ -1,0 +1,15 @@
+{%- assign toplimit = "2020-10-24" | date: "%s" -%}
+{%- assign bottomlimit = "2018-10-24" | date: "%s" -%}
+{%- assign nomination = include.nomination-date | date: "%s" -%}
+{%- capture oldnaturalexp -%}  {{ include.nomination-date | date: "%e" }} {{ include.nomination-date | date: "%b" }} {{ include.nomination-date | date: "%Y" | plus: 2 }}{%- endcapture -%}
+{%- capture oldnaturalexp -%}{{oldnaturalexp | strip}}{%- endcapture -%}
+{%- capture oldnaturalexp -%}{{oldnaturalexp | date: "%s"}}{%- endcapture -%}
+{%- if nomination>=toplimit -%}
+  {{ include.nomination-date | date: "%e" }} {{ include.nomination-date | date: "%b" }} {{ include.nomination-date | date: "%Y" | plus: 1 }}
+{%- elsif nomination<=bottomlimit -%}
+  {{ include.nomination-date | date: "%e" }} {{ include.nomination-date | date: "%b" }} {{ include.nomination-date | date: "%Y" | plus: 2 }}
+{%- else -%}
+  {%- assign extra_portion = oldnaturalexp | minus: toplimit -%}
+  {%- assign extra_portion = extra_portion | divided_by: 2 -%}
+  {%- assign remaining = nomination | plus: toplimit | minus: nomination | plus: extra_portion -%}{{remaining | date: "%e %b %Y"}}
+{%- endif -%}

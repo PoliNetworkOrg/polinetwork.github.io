@@ -1,0 +1,121 @@
+<a href="https://t.me/{%- for telegram in site.data.staff.staff -%}{% assign TGname = include.name | strip %}{% assign INname = telegram.name | strip %}{% if TGname == INname %}{{telegram.nickname}}{% endif %}{%- endfor -%}">
+	&nbsp;
+	<img src="/img/tg.svg" style="width:15px;" />
+	&nbsp;
+</a>
+{%- if include.period.size > 0 -%}
+	{{ include.period }}
+{%- endif -%}
+{{ include.name }} -
+{% if include.role.size > 0 -%}
+	{{ include.role }},
+{% endif -%}
+<span class="nomination">
+{% capture minexpiration %}{%endcapture %}
+{% capture expiration-date %}{{include.expiration-date | strip }}{%endcapture %}
+{% capture expiration %}{{include.expiration | strip}}{%endcapture %}
+{%- if expiration-date == empty and expiration == empty -%}
+{%- elsif expiration-date != empty and expiration == empty -%}
+	{% capture minexpiration %}
+		{{ include.expiration-date }}
+	{%endcapture %}
+{%- elsif expiration-date == empty and expiration != empty -%}
+	{% capture minexpiration %}
+		{{ include.expiration }}
+	{%endcapture %}
+{%- elsif expiration-date >= expiration - %}
+	{% capture minexpiration %}
+		{{ include.expiration }}
+	{%endcapture %}
+{%- elsif expiration > expiration-date - %}
+	{% capture minexpiration %}
+		{{ include.expiration-date }}
+	{%endcapture %}
+{%- endif -%}
+{% capture minexpiration %}{{minexpiration | strip}}{%endcapture %}
+{%- if minexpiration != empty and minexpiration <= now -%}
+	{%- if include.lang == 'en' -%}
+		Since {{ include.nomination-date | date:"%b %Y" }} until {{ minexpiration | date:"%b %Y" }}
+	{%- elsif include.lang == 'it'-%}
+		{% assign m-minexpiration = minexpiration | date: "%-m" %}
+		{% assign m-nomination = include.nomination-date | date: "%-m" %}
+		Da
+		{% case m-nomination %}
+			{% when '1' %}Gen
+			{% when '2' %}Feb
+			{% when '3' %}Mar
+			{% when '4' %}Apr
+			{% when '5' %}Mag
+			{% when '6' %}Giu
+			{% when '7' %}Lug
+			{% when '8' %}Ago
+			{% when '9' %}Set
+			{% when '10' %}Ott
+			{% when '11' %}Nov
+			{% when '12' %}Dec
+		{% endcase %}
+		{{ include.nomination-date | date: "%Y" }} a
+		{% case m-minexpiration %}
+			{% when '1' %}Gen
+			{% when '2' %}Feb
+			{% when '3' %}Mar
+			{% when '4' %}Apr
+			{% when '5' %}Mag
+			{% when '6' %}Giu
+			{% when '7' %}Lug
+			{% when '8' %}Ago
+			{% when '9' %}Set
+			{% when '10' %}Ott
+			{% when '11' %}Nov
+			{% when '12' %}Dec
+		{% endcase %}
+		{{ minexpiration | date: "%Y" }}
+	{%- endif -%}
+{%- else -%}
+	{%- if include.lang == 'en' -%}
+		{%- if include.no-appointment != 'true' -%}
+			Appointed on {{ include.nomination-date | date:"%b %Y" }}
+		{%- else -%}
+			Since {{ include.nomination-date | date:"%b %Y" }}
+		{%- endif -%}
+	{%- elsif include.lang == 'it'-%}
+		{%- if include.no-appointment != 'true' -%}
+			Nominato a
+			{% assign m-nomination = include.nomination-date | date: "%-m" %}
+			{% case m-nomination %}
+				{% when '1' %}Gen
+				{% when '2' %}Feb
+				{% when '3' %}Mar
+				{% when '4' %}Apr
+				{% when '5' %}Mag
+				{% when '6' %}Giu
+				{% when '7' %}Lug
+				{% when '8' %}Ago
+				{% when '9' %}Set
+				{% when '10' %}Ott
+				{% when '11' %}Nov
+				{% when '12' %}Dec
+			{% endcase %}
+			{{ include.nomination-date | date: "%Y" }}
+		{%- else -%}
+			Da
+			{% assign m-nomination = include.nomination-date | date: "%-m" %}
+			{% case m-nomination %}
+				{% when '1' %}Gen
+				{% when '2' %}Feb
+				{% when '3' %}Mar
+				{% when '4' %}Apr
+				{% when '5' %}Mag
+				{% when '6' %}Giu
+				{% when '7' %}Lug
+				{% when '8' %}Ago
+				{% when '9' %}Set
+				{% when '10' %}Ott
+				{% when '11' %}Nov
+				{% when '12' %}Dec
+			{% endcase %}
+			{{ include.nomination-date | date: "%Y" }}
+		{%- endif -%}
+	{%- endif -%}
+{%- endif -%}
+</span>

@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+<div class="wrapper">
+  <div class="card white aboutCard struttura noCenter">
+  	<h1>{{page.LGuarantors}}</h1>
+    <ul style="text-align:left;list-style: none;padding-left: 20px;">
+      {% include staff_members.html lang=page.Lang class="guarantor" %}
+    </ul>
+
+	<h1>{{page.LRoles}}</h1>
+    <ul style="text-align:left;list-style: none;padding-left: 20px;">
+      {% include staff_members.html lang=page.Lang class="delegate" %}
+    </ul>
+	<h1>{{page.LCouncil}}</h1>
+  <h3>{{page.LVotingMem}}</h3>
+    <ul style="text-align:left;list-style: none;padding-left: 20px;">
+      {% include staff_members.html lang=page.Lang class="headadmin" %}
+    </ul>
+
+	<h3>{{page.LListeners}}</h3>
+    <ul style="text-align:left;list-style: none;padding-left: 20px;">
+      {% include staff_members.html lang=page.Lang class="listener" %}
+    </ul>
+    <br>
+    <hr />
+	<h1>{{page.LHistory}}</h1>
+
+  <h3>{{page.LIdeator}}</h3>
+    <ul style="text-align:left;list-style: none;padding-left: 20px;">
+      {% include staff_members.html lang=page.Lang class="ideator" %}
+    </ul>
+
+  <h3>{{page.LFounders}}</h3>
+    <ul style="text-align:left;list-style: none;padding-left: 20px;">
+      {% include staff_members.html lang=page.Lang class="founder" expired="y" %}
+      {% include staff_members.html lang=page.Lang class="founder" expired="n" %}
+    </ul>
+  <h3>{{page.LGuarantorsHistory}}</h3>
+    <ul style="text-align:left;list-style: none;padding-left: 20px;">
+      {% include staff_members.html lang=page.Lang class="guarantor" expired="y" %}
+    </ul>
+  <h3>{{page.LRolesHistory}}</h3>
+    <ul style="text-align:left;list-style: none;padding-left: 20px;">
+      {% include staff_members.html lang=page.Lang class="delegate" expired="y" %}
+    </ul>
+  <h3>{{page.LCouncilHistory}}</h3>
+    <ul style="text-align:left;list-style: none;padding-left: 20px;">
+      {% include staff_members.html lang=page.Lang class="headadmin" expired="y" %}
+    </ul>
+
+  </div>
+</div>

@@ -1,0 +1,19 @@
+{%- assign class = include.class | strip | downcase -%}
+{% if class == "guarantor" %}
+  a
+{% endif %}
+{% if class == "headadmin" %}
+  c
+{% endif %}
+{% if class == "delegate" %}
+  b
+{% endif %}
+{% if class == "listener" %}
+  u
+{% endif %}
+{% if class == "founder" %}
+  f
+{% endif %}
+{% if class == "ideator" %}
+  i
+{% endif %}

@@ -1,0 +1,37 @@
+{% capture expiredToggle %}{{expiredToggle | strip}}{% endcapture %}
+{% capture now %}{{ "now" | date: "%e %b %Y"}}{% endcapture %}
+{% for staff-member in site.data.staff.staff %}
+  {% capture ID %}
+    {% capture class %} {{ include.class }} {% endcapture %}
+    {%- include IDfinderAbout_us.html class=class -%}
+  {% endcapture %}
+  {% capture ID %}{{ID | strip}}{% endcapture %}
+  {% for role in staff-member.roles %}
+    {% capture expiration %}{%- include staff_members_exp.html nomination-date=role.nomination-date -%}{% endcapture %}
+    {% capture expiration %}{{expiration | date: "%s"}}{% endcapture %}
+    {% capture now %}{{now | date: "%s"}}{% endcapture %}
+    {% capture expiration-date %}{{ role.expiration-date | date: "%s"}}{% endcapture %}
+    {% for roleID in role.id %}
+      {% if roleID contains ID %}
+        {% if ID contains 'a' %}
+          {% include staff_members_builder.html no-exp="y" expired=include.expired lang=include.lang name=staff-member.name role=lang.title expiration-date=expiration-date nomination-date=role.nomination-date -%}
+        {% endif %}
+        {% if ID contains 'b' %}
+          {% include staff_members_builder.html expired=include.expired name=staff-member.name lang=include.lang role=lang.title expiration=expiration expiration-date=expiration-date nomination-date=role.nomination-date -%}
+        {% endif %}
+        {% if ID contains 'c' %}
+          {% include staff_members_builder.html expired=include.expired name=staff-member.name lang=include.lang role=lang.title expiration=expiration expiration-date=expiration-date nomination-date=role.nomination-date -%}
+        {% endif %}
+        {% if ID contains 'u' %}
+          {% include staff_members_builder.html no-exp="y" expired=include.expired lang=include.lang name=staff-member.name role=lang.title expiration-date=expiration-date nomination-date=role.nomination-date -%}
+        {% endif %}
+        {% if ID contains 'f' %}
+          {% include staff_members_builder.html no-exp="y" expired=include.expired lang=include.lang name=staff-member.name role=lang.title expiration-date=expiration-date nomination-date=role.nomination-date no-appointment="true" -%}
+        {% endif %}
+        {% if ID contains 'i' %}
+          {% include staff_members_builder.html no-exp="y" expired=include.expired lang=include.lang name=staff-member.name role=lang.title expiration-date=expiration-date nomination-date=role.nomination-date no-appointment="true" -%}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+{% endfor %}
