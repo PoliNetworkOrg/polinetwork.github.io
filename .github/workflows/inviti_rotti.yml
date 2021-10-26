@@ -13,6 +13,6 @@ jobs:
       run: sudo apt-get install bash coreutils curl git
     - uses: actions/checkout@v2
     - name: Get inviti_rotti.bash
-      run: curl -LO https://raw.githubusercontent.com/PoliNetwork/LinkValidator/master/inviti_rotti.bash
+      run: curl -LO https://raw.githubusercontent.com/PoliNetworkOrg/LinkValidator/master/inviti_rotti.bash
     - name: Run inviti_rotti.bash
       run: bash ./inviti_rotti.bash
