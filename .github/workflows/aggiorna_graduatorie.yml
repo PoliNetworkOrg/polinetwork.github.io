@@ -17,7 +17,7 @@ jobs:
     - name: Pull repository (1)
       uses: actions/checkout@v2
     - name: Get GraduatorieScript
-      run: curl -Lo aggiorna_graduatorie.py https://raw.githubusercontent.com/PoliNetwork/GraduatorieScript/main/main.py
+      run: curl -Lo aggiorna_graduatorie.py https://raw.githubusercontent.com/PoliNetworkOrg/GraduatorieScript/main/main.py
     - name: Run aggiorna_graduatorie.py
       run: python3 ./aggiorna_graduatorie.py "$(git rev-parse --show-toplevel)/graduatorie"
     - name: Create commit
