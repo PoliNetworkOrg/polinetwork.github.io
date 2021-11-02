@@ -6,7 +6,7 @@ class Search {
     static _data = null;
 
     static async init() {
-        let tmp = await {{ site.data.groupsTG | jsonify }};
+        let tmp = await {{ site.data.groupsGenerated | jsonify }};
         let tmp1 = await {{ site.data.groupsMisc | jsonify }};
         Search._data = tmp['index_data'].filter(item => item['linkfunzionante'] === 'Y');
         Search._data = Search._data.concat(tmp1['index_data']);
