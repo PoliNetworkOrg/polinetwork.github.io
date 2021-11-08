@@ -15,5 +15,15 @@ layout: default
     {% include projectCard.html %}
   {% endif %}
 {% endfor %}
-
+<hr class="projectHR">
+{% for project in site.projectsInfoIT %}
+  {% if project.Lang == page.Lang %}
+    {% include projectCard.html deprecated="y" %}
+  {% endif %}
+{% endfor %}
+{% for project in site.projectsInfoEN %}
+  {% if project.Lang == page.Lang %}
+    {% include projectCard.html deprecated="y" %}
+  {% endif %}
+{% endfor %}
 </div>

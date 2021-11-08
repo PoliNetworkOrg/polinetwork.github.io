@@ -943,6 +943,12 @@ input, select {
     flex-wrap: wrap;
 }
 
+.projectHR{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  margin: 10px;
+}
+
 .projectDividerText {
     font-size: 1em;
     text-align: center;
