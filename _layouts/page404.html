@@ -36,7 +36,7 @@ layout: default
 
   intrestingPath = intrestingPath.trim();
   var userLang = navigator.language || navigator.userLanguage;
-  if (userLang == "it-IT")
+  if (userLang.includes("it"))
   {
     if(!(intrestingPath == "" || splittedPath[3] == "it" || splittedPath[3] == "en")){
         window.location.replace("/it/" + intrestingPath);
