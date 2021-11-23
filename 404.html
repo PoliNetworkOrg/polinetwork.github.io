@@ -5,14 +5,29 @@ title: 404
 <head>
 
     <script>
-  		var userLang = navigator.language || navigator.userLanguage;
+      var oldPath = document.referrer;
+      var splittedPath = oldPath.split("/");
+      var intrestingPath = "";
+      for (let i = 3; i < splittedPath.length; i++) {
+          intrestingPath += splittedPath[i] + "/";
+      }
+      intrestingPath = intrestingPath.trim();
+      var userLang = navigator.language || navigator.userLanguage;
   		if (userLang == "it-IT")
   		{
-  			window.location.replace("/it/404.html");
+        if(intrestingPath == "" || splittedPath[2] == "it" || splittedPath[2] == "en"){
+  			     window.location.replace("/it/404.html");
+        } else {
+            window.location.replace("/it/" + intrestingPath);
+        }
   		}
   		else
   		{
-  			window.location.replace("/en/404.html");
+        if(intrestingPath == "" || splittedPath[2] == "it" || splittedPath[2] == "en"){
+             window.location.replace("/en/404.html");
+        } else {
+            window.location.replace("/en/" + intrestingPath);
+        }
   		}
     </script>
 
