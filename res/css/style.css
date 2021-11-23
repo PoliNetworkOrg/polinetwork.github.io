@@ -2,6 +2,10 @@ body{
   position: relative;
 }
 
+.page404{
+  display: none;
+}
+
 /* MATERIALS */
 
 .materialFontColor{

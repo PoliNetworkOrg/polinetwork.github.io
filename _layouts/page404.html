@@ -1,25 +1,26 @@
 ---
 layout: default
 ---
-<div id="page404"></div>
+<div class="page404" id="page404">
+  <div class="wrapper projectsPadding">
+      <div class="card white section sign">
+          <div class="topCard">
+              <div class="centerGrid logo"><img class="image-container main" src="/res/images/polinetwork.png"></div>
+              <div class="centerGrid firmaNetwork">
+                  <h1><span class="highlight">P</span>oli<span class="highlight">N</span>etwork</h1>
+                  <p>Un network di studenti, per gli studenti</p>
+              </div>
+          </div>
+      </div>
+      <div class="card white section">
+          <div class="cardTitleAndDescription">
+              <h2>La pagina che stai cercando &egrave; stata spostata o non esiste.</h2>
+              <p>Prova a partire da <a href="\">qui</a></p>
+          </div>
+      </div>
+  </div>
+</div>
 <script>
-  var page404 = '<div class="wrapper projectsPadding">' +
-      '<div class="card white section sign">' +
-          '<div class="topCard"> ' +
-              '<div class="centerGrid logo"><img class="image-container main" src="/res/images/polinetwork.png"></div>' +
-              '<div class="centerGrid firmaNetwork">' +
-                  '<h1><span class="highlight">P</span>oli<span class="highlight">N</span>etwork</h1>' +
-                  '<p>{{page.LDesc1}}</p>' +
-              '</div>' +
-          '</div>' +
-      '</div>' +
-      '<div class="card white section">' +
-          '<div class="cardTitleAndDescription">' +
-              '<h2>{{page.LDesc2}}</h2>' +
-              '<p>{{page.LStartPage}}</p>' +
-          '</div>' +
-      '</div>' +
-  '</div>';
   var oldPath = document.referrer;
   if(oldPath == undefined){
     oldPath = "";
@@ -40,7 +41,7 @@ layout: default
     if(!(intrestingPath == "" || splittedPath[3] == "it" || splittedPath[3] == "en")){
         window.location.replace("/it/" + intrestingPath);
     } else {
-      document.getElementById("page404").innerHTML = page404;
+      document.getElementById("page404").classList.remove('page404');
     }
   }
   else
@@ -48,7 +49,7 @@ layout: default
     if(!(intrestingPath == "" || splittedPath[3] == "it" || splittedPath[3] == "en")){
         window.location.replace("/en/" + intrestingPath);
     } else {
-      document.getElementById("page404").innerHTML = page404;
+      document.getElementById("page404").classList.remove('page404');
     }
   }
 </script>
