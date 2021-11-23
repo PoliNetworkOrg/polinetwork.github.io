@@ -14,7 +14,7 @@
 
     <script type="text/javascript">
   		var userLang = navigator.language || navigator.userLanguage;
-  		if (userLang == "it-IT")
+  		if (userLang.includes("it"))
   		{
   			window.location.replace("/it".concat("{{ page.dir }}"));
   		}
