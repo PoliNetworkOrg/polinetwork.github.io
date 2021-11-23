@@ -6,6 +6,9 @@ title: 404
 
     <script>
       var oldPath = document.referrer;
+      if(oldPath == undefined){
+        oldPath = "";
+      }
       var splittedPath = oldPath.split("/");
       var intrestingPath = "";
       for (let i = 3; i < splittedPath.length; i++) {
