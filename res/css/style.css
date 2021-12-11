@@ -2,6 +2,10 @@ body{
   position: relative;
 }
 
+.page404hidden{
+  display: none;
+}
+
 /* MATERIALS */
 
 .materialFontColor{
@@ -943,6 +947,12 @@ input, select {
     flex-wrap: wrap;
 }
 
+.projectHR{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  margin: 10px;
+}
+
 .projectDividerText {
     font-size: 1em;
     text-align: center;
@@ -1044,9 +1054,19 @@ input, select {
         flex: 1 0 calc(50% - 20px);
         overflow: hidden;
     }
+    .projectHR{
+      grid-column-start: 1;
+      grid-column-end: 3;
+      margin: 10px;
+    }
 }
 
 @media only screen and (max-width: 640px) {
+    .projectHR{
+      grid-column-start: 1;
+      grid-column-end: 2;
+      margin: 10px;
+    }
     .projectsWrapper {
         grid-template-columns: 1fr;
     }

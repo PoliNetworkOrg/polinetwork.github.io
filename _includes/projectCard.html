@@ -1,18 +1,43 @@
-<div class="card project white horizontalcardswrapper prjectClickable">
-  {% if project.redirect == true %}
-    {% capture VARlink %} {{project.link}}  {% endcapture %}
-    {% capture VARplatform %} {{project.platform}} {% endcapture %}
-    <a href="{%include link.html link=VARlink platform=VARplatform %}">
-  {% endif %}
-  {% if project.redirect != true %}
-    <a href=" {{project.url}}">
-  {% endif %}
-    <div class="image-container-projects">
-      <img class="project-img" src="{{ project.Img }}">
+{%- if include.deprecated == 'y' -%}
+  {%- if project.deprecated == 'y' -%}
+    <div class="card project white horizontalcardswrapper prjectClickable">
+      {% if project.redirect == true %}
+        {% capture VARlink %} {{project.link}}  {% endcapture %}
+        {% capture VARplatform %} {{project.platform}} {% endcapture %}
+        <a href="{%include link.html link=VARlink platform=VARplatform %}">
+      {% endif %}
+      {% if project.redirect != true %}
+        <a href=" {{project.url}}">
+      {% endif %}
+        <div class="image-container-projects">
+          <img class="project-img" src="{{ project.Img }}">
+        </div>
+        <div class="project-content">
+            <h2>{{ project.title }}</h2>
+            <p>{{ project.content }}</p>
+        </div>
+        </a>
     </div>
-    <div class="project-content">
-        <h2>{{ project.title }}</h2>
-        <p>{{ project.content }}</p>
+  {%- endif -%}
+{%- else -%}
+  {%- if project.deprecated != 'y' -%}
+    <div class="card project white horizontalcardswrapper prjectClickable">
+      {% if project.redirect == true %}
+        {% capture VARlink %} {{project.link}}  {% endcapture %}
+        {% capture VARplatform %} {{project.platform}} {% endcapture %}
+        <a href="{%include link.html link=VARlink platform=VARplatform %}">
+      {% endif %}
+      {% if project.redirect != true %}
+        <a href=" {{project.url}}">
+      {% endif %}
+        <div class="image-container-projects">
+          <img class="project-img" src="{{ project.Img }}">
+        </div>
+        <div class="project-content">
+            <h2>{{ project.title }}</h2>
+            <p>{{ project.content }}</p>
+        </div>
+        </a>
     </div>
-    </a>
-</div>
+  {%- endif -%}
+{%- endif -%}
