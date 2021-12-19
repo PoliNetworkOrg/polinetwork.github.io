@@ -23,7 +23,10 @@ fetch(filelocation.split('/').pop().split('.')[0] + '.txt')
 .then(res => res.text())
 .then(data => {
     lines = data.split('\n')
-    lines = lines.map(line => line.replace('\r', ''))
+    
+    lines = lines.map(line => line.replace(new RegExp("\r", "g"), ''))
+    //lines = lines.map(line => line.replace('\r', ''))
+    
     l = lines.length
     path = window.location.pathname.split('/');
     if(path.length > 4)
