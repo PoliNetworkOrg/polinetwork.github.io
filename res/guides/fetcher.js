@@ -71,11 +71,11 @@ fetch(filelocation.split('/').pop().split('.')[0] + '.txt')
     } // end of courseS
     let oppositeLangPath = window.location.pathname.split('/').slice(2,window.location.pathname.length).join("/");
     if (window.location.pathname.split('/')[1] == "it"){
-      doc += '<div class="footer">Un\'iniziativa PoliNetwork. Trova altro su <span class="accent"><a href="https://polinetwork.github.io">polinetwork.github.io</a></span>'
+      doc += '<div class="footer">Un\'iniziativa PoliNetwork. Trova altro su <span class="accent"><a href="https://polinetwork.org">polinetwork.org</a></span>'
       doc += '<br>Per commenti o suggerimenti contatta <a href="https://t.me/eliamaggioni" class="accent">@EliaMaggioni</a> o <a href="https://t.me/LuigiFusco" class="accent">@LuigiFusco</a> su Telegram</div>'
       doc += '<div"><span class="accent"><a href="/en/' + oppositeLangPath + '">Switch to EN</a></span></div>'
     } else {
-      doc += '<div class="footer">A PoliNetwork initiative. Find more at <span class="accent"><a href="https://polinetwork.github.io">polinetwork.github.io</a></span>'
+      doc += '<div class="footer">A PoliNetwork initiative. Find more at <span class="accent"><a href="https://polinetwork.org">polinetwork.org</a></span>'
       doc += '<br>For comments or suggestions contact <a href="https://t.me/eliamaggioni" class="accent">@EliaMaggioni</a> or <a href="https://t.me/LuigiFusco" class="accent">@LuigiFusco</a> on Telegram</div>'
       doc += '<div"><span class="accent"><a href="/it/' + oppositeLangPath + '">Switch to IT</a></span></div>'
     }
