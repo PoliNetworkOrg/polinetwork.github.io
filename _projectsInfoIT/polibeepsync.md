@@ -6,4 +6,4 @@ Img: /img/PoliBeePsync.svg
 layout: project
 deprecated: y
 ---
-Sincronizzatore automatico delle cartelle PoliMi BeeP per PC.
+Sincronizzatore automatico delle cartelle PoliMi BeeP per PC
