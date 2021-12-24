@@ -1171,6 +1171,12 @@ input, select {
   color: var(--maintext);
   font-size: 1.05em
 }
+.socialHomepageIcon:visited {
+  color: var(--maintext);
+}
+.socialHomepageIcon:hover {
+  color: var(--maintext);
+}
 
 .footerWrapper {
     padding-top: 20px;

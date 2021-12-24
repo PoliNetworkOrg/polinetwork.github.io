@@ -4,12 +4,15 @@ layout: default
 
 <div class="wrapper">
   <div class="card white aboutCard struttura noCenter">
+    <h2>{{page.Ltitle}}</h2>
 		<h3>
 			{{page.Lh3}} <a href="/{{page.Lang}}/learnmore/about_us/">{{page.Lclick}}</a>.
 		</h3>
 		<br />
 		<br />
-		<span>{{page.Lmail}} <a href="mailto:polinetwork@outlook.com">polinetwork@outlook.com</a></span>
+    <ul class="contactsList">
+		    <li><i class="fas fa-envelope"></i> {{page.Lmail}}: <a href="mailto:polinetwork@outlook.com">polinetwork@outlook.com</a></li>
+    </ul>
 		<br />
 		<br />
     <h4>{{page.Lsocials}}:</h4>
