@@ -1145,9 +1145,32 @@ input, select {
 .topCard {
     display: grid;
     grid-template-columns: 3fr 8fr;
+    grid-template-rows: 4fr 1fr;
     min-height: 210px;
 }
 
+.socialBanner{
+  display: flex;
+  align-items: center;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.homepagesocial{
+  align-items: center;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.socialHomepageIcon{
+  padding: 0 30px 20px 30px;
+}
+
+.socialHomepageIcon{
+  color: var(--maintext);
+  font-size: 1.05em
+}
 
 .footerWrapper {
     padding-top: 20px;
@@ -1176,6 +1199,13 @@ input, select {
 }
 
 /* Cards homepage layout END */
+
+/* Contacts */
+
+.contactsList{
+  padding-left: 0.5rem;
+  list-style-type: none;
+}
 
 /* Tutoring */
 
@@ -1303,6 +1333,10 @@ input, select {
         margin: auto;
     }
 
+    .pageMotto{
+      display: none;
+    }
+
     .logo {
         margin-top: 20px;
     }
@@ -1317,6 +1351,24 @@ input, select {
         grid-row: auto;
     }
 
+    .socialBanner{
+      grid-row: auto !important;
+      grid-column: auto !important;
+    }
+
+    .socialHomepageIcon{
+      padding: 0 !important;
+      margin: auto;
+    }
+
+    .homepagesocial{
+      display: grid !important;
+      grid-template-columns: repeat(5, 1fr);
+      width: 100%;
+      align-items: center;
+      padding: 10px 0;
+    }
+
     .info {
         grid-column-start: 1;
         grid-column-end: 1;
@@ -1325,6 +1377,7 @@ input, select {
 
     .topCard {
         grid-template-columns: 1fr;
+        grid-template-rows: auto !important;
     }
 
     .card {
