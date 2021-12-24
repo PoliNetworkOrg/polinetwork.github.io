@@ -29,19 +29,35 @@ const mapping = {
     },
     platform: {
         "TG": {
-            "link_pre": "https://t.me/joinchat/",
-            "link_post": "",
-            "img": "tg"
+            "PLUS": {
+                "link_pre": "https://t.me/",
+                "link_post": "",
+                "img": "tg"
+            },
+            "JOINCHAT": {
+                "link_pre": "https://t.me/joinchat/",
+                "link_post": "",
+                "img": "tg"
+            },
+            "UNKNOWN": {
+                "link_pre": "https://t.me/joinchat/",
+                "link_post": "",
+                "img": "tg"
+            }
         },
         "FB": {
-            "link_pre": "https://www.facebook.com/groups/",
-            "link_post": "",
-            "img": "fb"
+            "UNKNOWN": {
+                "link_pre": "https://www.facebook.com/groups/",
+                "link_post": "",
+                "img": "fb"
+            }
         },
         "WA": {
-            "link_pre": "https://chat.whatsapp.com/",
-            "link_post": "",
-            "img": "wa"
+            "UNKNOWN": {
+                "link_pre": "https://chat.whatsapp.com/",
+                "link_post": "",
+                "img": "wa"
+            }
         }
     }
 }
@@ -51,11 +67,19 @@ function applyMapping(item) {
         //if (item[key] && ( item[key] ==="TG" || item[key] ==="FB" || item[key] ==="TG") || item[key] ==="__default__" ) {
         if (item[key]){
             if (mapping[key][item[key]] !== undefined) {
-                item[key] = mapping[key][item[key]];
+                if (key === "platform") {
+                    if ("LinkType" in item && item["LinkType"] !== undefined) {
+                        item[key] = mapping[key][item[key]][item["LinkType"]];
+                    } else {
+                        item[key] = mapping[key][item[key]]["UNKNOWN"];
+                    }
+                } else {
+                    item[key] = mapping[key][item[key]];
+                }
             }
         }
     }
-
+    
     return item;
 }
 
