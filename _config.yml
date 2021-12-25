@@ -2,15 +2,9 @@ collections:
   projectsInfoIT:
     output: true
     permalink: /it/projects/:name/
-    sort_by: title
-    order:
-      - thetolproject.md
   projectsInfoEN:
     output: true
     permalink: /en/projects/:name/
-    sort_by: title
-    order:
-      - thetolproject.md
   extraInfoIT:
     output: true
     permalink: /it/extra/:name/
