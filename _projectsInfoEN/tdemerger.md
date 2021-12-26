@@ -7,4 +7,4 @@ layout: project
 link: https://github.com/federicomor/tdemerger
 redirect: true
 ---
-Script that combines exam topics / handouts / exercises in a single indexed pdf.
+Script that combines exam topics / handouts / exercises in a single indexed pdf

@@ -7,4 +7,4 @@ layout: project
 link: https://github.com/PoliNetwork/polinetwork.github.io
 redirect: true
 ---
-Il progetto di questo stesso sito.
+Il progetto di questo stesso sito
