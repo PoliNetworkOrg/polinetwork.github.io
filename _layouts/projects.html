@@ -3,27 +3,43 @@ layout: default
 ---
 
 <body>
-    <div class="wrapper">
-        <div class="projectsWrapper projectsPadding">
-{% for project in site.projectsInfoIT %}
-  {% if project.Lang == page.Lang %}
-    {% include projectCard.html %}
-  {% endif %}
-{% endfor %}
-{% for project in site.projectsInfoEN %}
-  {% if project.Lang == page.Lang %}
-    {% include projectCard.html %}
-  {% endif %}
-{% endfor %}
-<hr class="projectHR">
-{% for project in site.projectsInfoIT %}
-  {% if project.Lang == page.Lang %}
-    {% include projectCard.html deprecated="y" %}
-  {% endif %}
-{% endfor %}
-{% for project in site.projectsInfoEN %}
-  {% if project.Lang == page.Lang %}
-    {% include projectCard.html deprecated="y" %}
-  {% endif %}
-{% endfor %}
-</div>
+  <div class="wrapper">
+    <div class="projectsWrapper projectsPadding">
+      {% for project in site.projectsInfoIT %}
+        {% if project.Lang == page.Lang %}
+          {% include projectCard.html %}
+        {% endif %}
+      {% endfor %}
+      {% for project in site.projectsInfoEN %}
+        {% if project.Lang == page.Lang %}
+          {% include projectCard.html %}
+        {% endif %}
+      {% endfor %}
+    </div>
+    <div class="deprecated">
+      {% for item in site.data.languages.lang %}
+      {% if item.name != page.Lang %}
+      {% if item.name == "it" %}
+          <p>Deprecated Projects</p>
+      {% else %}
+          <p>Progetti Deprecati</p>
+      {% endif %}
+      {% endif %}
+      {% endfor %}
+    </div>
+    <div class="projectsWrapper projectsPadding">
+      <hr class="projectHR">
+      {% for project in site.projectsInfoIT %}
+        {% if project.Lang == page.Lang %}
+          {% include projectCard.html deprecated="y" %}
+        {% endif %}
+      {% endfor %}
+      {% for project in site.projectsInfoEN %}
+        {% if project.Lang == page.Lang %}
+          {% include projectCard.html deprecated="y" %}
+        {% endif %}
+      {% endfor %}
+      </hr>
+    </div>
+  </div>
+</body>
