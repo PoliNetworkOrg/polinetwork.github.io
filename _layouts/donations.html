@@ -5,7 +5,7 @@ layout: default
 <div class="wrapper">
   <div class="card white aboutCard struttura noCenter">
     <h2>{{page.Ltitle}}</h2>
-    <table>
+    <table class="tableDonations">
       <tr>
         <td class="tdDonations"><i class="fab fa-ethereum"></i> Ethereum</td>
         <td class="tdDonations">0xcA2c62159825c37BEB20B4761c0700aDd97620DF</td>
@@ -21,6 +21,14 @@ layout: default
   .tdDonations {
     text-align: center;
     border: 1px solid rgba(129, 129, 129, 0.255);
+    overflow: auto;
+    padding: 5px;
+    font-size: max(min(1rem,calc(2.5vw)),0.55rem);
+  }
+
+  .tableDonations{
+    width: 100%;
+    text-align: center;
     overflow: auto;
   }
 </style>
