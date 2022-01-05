@@ -33,6 +33,7 @@ git submodule update
 ### Avvio
 
 	cd polinetwork.github.io
+	bundle update
 	jekyll serve
 
 Il sito si raggiunge da qualsiasi browser tramite http://localhost:4000 e si aggiorna automaticamente ad ogni modifica ai file del sito.
