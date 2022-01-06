@@ -6,7 +6,9 @@ Se vuoi contribuire o usare quello che abbiamo fatto per il tuo progetto leggi [
 
 ## Le repository degli altri nostri siti
 
- - tol.polinetwork.org: https://github.com/PoliNetworkOrg/TheTOLProject
- - polinetworkelezioni.github.io: https://github.com/PoliNetworkElezioni/PoliNetworkElezioni.github.io
- - polinetworkevents.github.io: https://github.com/PoliNetworkEvents/PoliNetworkEvents.github.io
- - Polimi Rankings: https://github.com/PoliNetworkOrg/GraduatorieScript
+| Descrizione | Link | Repository |
+| ----------- | ---- | ---------- |
+| TOL | https://tol.polinetwork.org | https://github.com/PoliNetworkOrg/TheTOLProject | 
+| Elezioni | https://elections.polinetwork.org | https://github.com/PoliNetworkElezioni/PoliNetworkElezioni.github.io | 
+| Eventi | https://events.polinetwork.org | https://github.com/PoliNetworkEvents/PoliNetworkEvents.github.io | 
+| Graduatorie | https://polinetwork.org/graduatorie/ | https://github.com/PoliNetworkOrg/GraduatorieScript |
