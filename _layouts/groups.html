@@ -1,16 +1,24 @@
 ---
 layout: default
 ---
+
 <div class="wrapper projectsPadding">
   <div class="card white">
     <h1>{{ page.Ltitle }}</h1>
-    <h3> {{ page.Lname }}</h3>
+    <h3>{{ page.Lname }}</h3>
     <div class="input-group rounded">
-      <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" id="searchBarID"
-             aria-describedby="search-addon" class="searchBox" />
+      <input
+        type="search"
+        class="form-control rounded"
+        placeholder="Search"
+        aria-label="Search"
+        id="searchBarID"
+        aria-describedby="search-addon"
+        class="searchBox"
+      />
       <span class="input-group-text border-0" id="search-addon">
-                <i class="fas fa-search"></i>
-              </span>
+        <i class="fas fa-search"></i>
+      </span>
     </div>
     <div class="paramsGrid">
       <div class="buttonGrid">
@@ -18,23 +26,23 @@ layout: default
         <div>
           <form>
             <div class="selectionGroup">
-              <input type="radio" name="year" value="all" checked='checked'>
+              <input type="radio" name="year" value="all" checked="checked" />
               <label> {{ page.LAllyear }} </label>
             </div>
             <div class="selectionGroup">
-              <input type="radio" name="year" value="21">
+              <input type="radio" name="year" value="21" />
               <label>2021/2022</label>
             </div>
             <div class="selectionGroup">
-              <input type="radio" name="year" value="20">
+              <input type="radio" name="year" value="20" />
               <label>2020/2019</label>
             </div>
             <div class="selectionGroup">
-              <input type="radio" name="year" value="19">
+              <input type="radio" name="year" value="19" />
               <label>2019/2020</label>
             </div>
             <div class="selectionGroup">
-              <input type="radio" name="year" value="18">
+              <input type="radio" name="year" value="18" />
               <label>2018/2019</label>
             </div>
           </form>
@@ -45,19 +53,19 @@ layout: default
         <div>
           <form>
             <div class="selectionGroup">
-              <input type="radio" name="degree" value="all" checked='checked'>
+              <input type="radio" name="degree" value="all" checked="checked" />
               <label> {{ page.LAllDeg }} </label>
             </div>
             <div class="selectionGroup">
-              <input type="radio" name="degree" value="bachelor">
+              <input type="radio" name="degree" value="bachelor" />
               <label> {{ page.LBach }} </label>
             </div>
             <div class="selectionGroup">
-              <input type="radio" name="degree" value="master">
+              <input type="radio" name="degree" value="master" />
               <label> {{ page.LMag }} </label>
             </div>
             <div class="selectionGroup">
-              <input type="radio" name="degree" value="singleC">
+              <input type="radio" name="degree" value="singleC" />
               <label> {{ page.LSC }} </label>
             </div>
           </form>
@@ -68,20 +76,20 @@ layout: default
         <div>
           <form>
             <div class="selectionGroup">
-              <input type="radio" name="group" value="all" checked='checked'>
+              <input type="radio" name="group" value="all" checked="checked" />
               <label>{{ page.LAllType }}</label>
             </div>
             <div class="selectionGroup">
-              <input type="radio" name="group" value="school">
+              <input type="radio" name="group" value="school" />
               <label>{{ page.LSc }}</label>
             </div>
             <div class="selectionGroup">
-            <input type="radio" name="group" value="course">
-            <label>{{ page.LCourse }}</label>
+              <input type="radio" name="group" value="course" />
+              <label>{{ page.LCourse }}</label>
             </div>
             <div class="selectionGroup">
-            <input type="radio" name="group" value="extra">
-            <label>Extra</label>
+              <input type="radio" name="group" value="extra" />
+              <label>Extra</label>
             </div>
           </form>
         </div>
@@ -91,20 +99,25 @@ layout: default
         <div>
           <form>
             <div class="selectionGroup">
-            <input type="radio" name="platform" value="all" checked='checked'>
-            <label>{{ page.LAllPlat }}</label>
+              <input
+                type="radio"
+                name="platform"
+                value="all"
+                checked="checked"
+              />
+              <label>{{ page.LAllPlat }}</label>
             </div>
             <div class="selectionGroup">
-            <input type="radio" name="platform" value="whatsapp">
-            <label>Whatsapp</label>
+              <input type="radio" name="platform" value="whatsapp" />
+              <label>Whatsapp</label>
             </div>
             <div class="selectionGroup">
-            <input type="radio" name="platform" value="facebook">
-            <label>Facebook</label>
+              <input type="radio" name="platform" value="facebook" />
+              <label>Facebook</label>
             </div>
             <div class="selectionGroup">
-            <input type="radio" name="platform" value="telegram">
-            <label>Telegram</label>
+              <input type="radio" name="platform" value="telegram" />
+              <label>Telegram</label>
             </div>
           </form>
         </div>
@@ -114,102 +127,106 @@ layout: default
         <div>
           <form>
             <div class="selectionGroup">
-            <input type="radio" name="language" value="all" checked='checked'>
-            <label>{{ page.LAllLang }}</label>
+              <input
+                type="radio"
+                name="language"
+                value="all"
+                checked="checked"
+              />
+              <label>{{ page.LAllLang }}</label>
             </div>
             <div class="selectionGroup">
-            <input type="radio" name="language" value="ita">
-            <label>Ita</label>
+              <input type="radio" name="language" value="ita" />
+              <label>Ita</label>
             </div>
             <div class="selectionGroup">
-            <input type="radio" name="language" value="eng">
-            <label>Eng</label>
+              <input type="radio" name="language" value="eng" />
+              <label>Eng</label>
             </div>
           </form>
         </div>
       </div>
       <div class="searchResultsGeneralPage" id="searchContainerID">
-        <div class="searchBox" id="searchResultsID">
-
-        </div>
+        <div class="searchBox" id="searchResultsID"></div>
       </div>
     </div>
   </div>
 </div>
 <script>
-
   const params = document.querySelectorAll('input[type="radio"]');
   for (i = 0; i < params.length; i++) {
-    params[i].addEventListener("click", function() { updateSearch(this)})
-  };
+    params[i].addEventListener("click", function () {
+      updateSearch(this);
+    });
+  }
 
   function updateSearch(param) {
-    switch(param.name){
+    switch (param.name) {
       case "year":
-        switch(param.value){
+        switch (param.value) {
           case "21":
-            queryOverheadYear="2021/2022";
+            queryOverheadYear = "2021/2022";
             break;
           case "20":
-            queryOverheadYear="2020/2021";
+            queryOverheadYear = "2020/2021";
             break;
           case "19":
-            queryOverheadYear="2019/2020";
+            queryOverheadYear = "2019/2020";
             break;
           case "18":
-            queryOverheadYear="2018/2019";
+            queryOverheadYear = "2018/2019";
             break;
           default:
-            queryOverheadYear=""
+            queryOverheadYear = "";
         }
         break;
       case "degree":
-        switch(param.value){
+        switch (param.value) {
           case "bachelor":
-            queryOverheadDegree="LT";
+            queryOverheadDegree = "LT";
             break;
           case "master":
-            queryOverheadDegree="LM";
+            queryOverheadDegree = "LM";
             break;
           case "singleC":
-            queryOverheadDegree="LU";
+            queryOverheadDegree = "LU";
             break;
           default:
-            queryOverheadDegree="";
+            queryOverheadDegree = "";
         }
         break;
       case "group":
-        switch(param.value){
+        switch (param.value) {
           case "school":
-            queryOverheadGroup="S";
+            queryOverheadGroup = "S";
             break;
           case "course":
-            queryOverheadDegree="C";
+            queryOverheadDegree = "C";
             break;
           case "extra":
-            queryOverheadDegree="E";
+            queryOverheadDegree = "E";
             break;
           default:
-            queryOverheadDegree="";
+            queryOverheadDegree = "";
         }
         break;
       case "platform":
-        switch(param.value){
+        switch (param.value) {
           case "whatsapp":
-            queryOverheadPlatform="WA";
+            queryOverheadPlatform = "WA";
             break;
           case "facebook":
-            queryOverheadPlatform="FB";
+            queryOverheadPlatform = "FB";
             break;
           case "telegram":
-            queryOverheadPlatform="TG";
+            queryOverheadPlatform = "TG";
             break;
           default:
-            queryOverheadPlatform="";
+            queryOverheadPlatform = "";
         }
         break;
       case "language":
-        switch(param.value){
+        switch (param.value) {
           case "ita":
             queryOverheadLanguage = "ITA";
             break;
@@ -217,19 +234,17 @@ layout: default
             queryOverheadLanguage = "ENG";
             break;
           default:
-            queryOverheadLanguage="";
+            queryOverheadLanguage = "";
         }
         break;
       default:
-        queryOverheadYear = '';
-        queryOverheadDegree = '';
-        queryOverheadGroup = '';
-        queryOverheadPlatform = '';
-        queryOverheadLanguage = '';
+        queryOverheadYear = "";
+        queryOverheadDegree = "";
+        queryOverheadGroup = "";
+        queryOverheadPlatform = "";
+        queryOverheadLanguage = "";
     }
   }
-
-
 </script>
 <script src="/res/js/search/search.js"></script>
 <script src="/res/js/search/search_utils.js"></script>
