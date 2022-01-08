@@ -12,8 +12,8 @@ echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
 gem install jekyll bundler
 git clone https://github.com/PoliNetwork/polinetwork.github.io
+cd polinetwork.github.io
 git submodule init
-git submodule update
 ```
 
 ### Prerequisiti Windows
@@ -26,15 +26,21 @@ git submodule update
 ```
 gem install jekyll bundler webrick wdm
 git clone https://github.com/PoliNetwork/polinetwork.github.io
+cd polinetwork.github.io
 git submodule init
-git submodule update
 ```
 
 ### Avvio
 
-	cd polinetwork.github.io
-	bundle update
-	jekyll serve
+```
+cd polinetwork.github.io/_data
+git pull
+cd ..
+git pull
+git submodule update
+bundle update
+jekyll serve
+```
 
 Il sito si raggiunge da qualsiasi browser tramite http://localhost:4000 e si aggiorna automaticamente ad ogni modifica ai file del sito.
 
@@ -45,13 +51,13 @@ Il sito si raggiunge da qualsiasi browser tramite http://localhost:4000 e si agg
 Apri una finestra del terminale nella cartella `polinetwork.github.io/_data`, [richiedici](https://polinetwork.org/it/learnmore/contacts/) l'accesso in scrittura alla repository dei dati, poi:
 
 ```
-	git checkout main
-	git add .
-	git commit -m <messaggio>
-	git push
-	cd ..
-	git checkout master
-	git add .
-	git commit -m <messaggio>
+git checkout main
+git add .
+git commit -m "<messaggio>"
+git push
+cd ..
+git checkout master
+git add .
+git commit -m "<messaggio>"
 ```
 Crea un fork di questa repository sul tuo account GitHub, accedi a GitHub tramite VScode o GitKraken aggiungendo la cartella locale della repository, poi `git push <nomeutentegithub> master`. Infine, dal tuo fork, crea una Pull Request verso il nostro master.
