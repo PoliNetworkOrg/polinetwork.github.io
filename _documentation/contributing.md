@@ -39,6 +39,7 @@ cd ..
 git pull
 git submodule update
 bundle update
+gem update
 jekyll serve
 ```
 
