@@ -248,3 +248,12 @@ layout: default
 </script>
 <script src="/res/js/search/search.js"></script>
 <script src="/res/js/search/search_utils.js"></script>
+<script>
+  var url = new URL(window.location.href);
+  var searchUrlParam = url.searchParams.get("s");
+  if (searchUrlParam) {
+    var searchBar = document.getElementById("searchBarID");
+    searchBar.value = searchUrlParam;
+    search(searchBar);
+  }
+</script>
