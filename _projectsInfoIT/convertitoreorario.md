@@ -1,5 +1,5 @@
 ---
-title: Convertitore Orario PoliMi
+title: Convertitore Orario Polimi
 Author: NomeAutore
 Lang: it
 Img: /img/clock.png

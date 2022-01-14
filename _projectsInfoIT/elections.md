@@ -1,5 +1,5 @@
 ---
-title: PoliNetwork Elections Info
+title: PoliNetwork Info Elezioni
 Author: NomeAutore
 Lang: it
 Img: /img/election.png

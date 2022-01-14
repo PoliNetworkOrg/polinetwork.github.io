@@ -1,5 +1,5 @@
 ---
-title: Exam Distribution Tool
+title: Strumento Distribuzione Esami
 Author: NomeAutore
 Lang: it
 Img: /img/time-management.png
