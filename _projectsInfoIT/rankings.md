@@ -1,5 +1,5 @@
 ---
-title: Polimi Rankings
+title: Graduatorie Polimi
 Author: NomeAutore
 Lang: it
 Img: /img/ranking.png

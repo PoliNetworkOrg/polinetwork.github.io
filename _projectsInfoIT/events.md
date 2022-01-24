@@ -1,5 +1,5 @@
 ---
-title: PoliNetwork Events
+title: Eventi PoliNetwork
 Author: NomeAutore
 Lang: it
 Img: /img/party.png

@@ -1,5 +1,5 @@
 ---
-title: beep_updates
+title: BeepUpdates
 Author: NomeAutore
 Lang: it
 Img: /img/beepupdates.jpg
