@@ -1,8 +1,8 @@
 ---
-title: PoliAuthenticator
+title: PoliAuth
 Author: NomeAutore
-Lang: it
+Lang: en
 Img: /img/poliauth.png
 layout: project
 ---
-Programma ed estensione per bypassare l'accesso con SPID/CIE ai Servizi Online Polimi (leggi il README!)
+Program and browser extension to bypass SPID/CIE login to Polimi Online Services
