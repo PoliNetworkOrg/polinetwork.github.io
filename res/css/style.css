@@ -361,6 +361,10 @@ body{
     padding-left: 20px;
 }
 
+.fullWidth{
+  width: 100%
+}
+
 @media only screen and (max-width: 1000px) {
   .buttonGrid form{
     grid-template-columns: 1fr 1fr 1fr;
@@ -380,6 +384,21 @@ body{
     padding-top: 10px;
   }
 }
+/* ABOUT US */
+.about_us_ul{
+  text-align:left;
+  list-style: none;
+  padding-left: 20px;
+}
+.about_us_tr{
+  text-align: center;
+  width: 100%;
+}
+.about_us_td{
+  text-align: center;
+  width: 50%;
+}
+
 /* ASSOC */
 
 .accentWhite{
@@ -552,6 +571,16 @@ body{
     text-decoration: none;
 }
 
+.linktextformat {
+  color: var(--maintext);
+  text-decoration: none;
+}
+
+.linktextformat:hover {
+  color: var(--maintext);
+  text-decoration: none;
+}
+
 .result {
     display: block;
     outline: 0;
@@ -670,12 +699,13 @@ li {
 .highlight {
     color: var(--highlight);
 }
-
 .accent {
     background-color: var(--accent);
     color: var(--mainbackground);
 }
-
+.accentText {
+  color: var(--accent);
+}
 .accent.clickable:hover {
     background-color: var(--accenthover);
 }

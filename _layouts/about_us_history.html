@@ -8,35 +8,35 @@ layout: default
 		<h1>{{page.LHistory}}</h1>
 
 		<h3>{{page.LIdeator}}</h3>
-		<ul style="text-align:left;list-style: none;padding-left: 20px;">
+		<ul class="about_us_ul">
 			{% include staff_members.html lang=page.Lang class="ideator" %}
 		</ul>
 
 		<h3>{{page.LFounders}}</h3>
-		<ul style="text-align:left;list-style: none;padding-left: 20px;">
+		<ul class="about_us_ul">
 			{% include staff_members.html lang=page.Lang class="founder" expired="y" %}
 			{% include staff_members.html lang=page.Lang class="founder" expired="n" %}
 		</ul>
 		<h3>{{page.LGuarantorsHistory}}</h3>
-		<ul style="text-align:left;list-style: none;padding-left: 20px;">
+		<ul class="about_us_ul">
 			{% include staff_members.html lang=page.Lang class="guarantor" expired="y" %}
 		</ul>
 		<h3>{{page.LRolesHistory}}</h3>
-		<ul style="text-align:left;list-style: none;padding-left: 20px;">
+		<ul class="about_us_ul">
 			{% include staff_members.html lang=page.Lang class="delegate" expired="y" %}
 		</ul>
 		<h3>{{page.LCouncilHistory}}</h3>
-		<ul style="text-align:left;list-style: none;padding-left: 20px;">
+		<ul class="about_us_ul">
 			{% include staff_members.html lang=page.Lang class="headadmin" expired="y" %}
 		</ul>
 		<hr>
-		<table style="width:100%;">
-			<tr style="text-align: center;width: 100%;">
-				<td style="text-align: center;width: 50%;">
-					<a style="text-align: center;width: 100%;" href="./../../../learnmore/contacts/">✍ {{page.Lcontacts}}</a>
+		<table class="fullWidth accentText">
+			<tr class="about_us_tr">
+				<td class="about_us_td">
+					<a class="about_us_tr" href="/{{page.Lang}}/learnmore/contacts/"><i class="fa fa-address-book"></i>&nbsp;{{page.Lcontacts}}</a>
 				</td>
-				<td style="text-align: center;width: 50%;">
-					<a style="text-align: center;width: 100%;" href="./../../../learnmore/about_us/">🔙 Back</a>
+				<td class="about_us_td">
+					<a class="about_us_tr" href="../"><i class="fas fa-step-backward"></i> Back</a>
 				</td>
 			</tr>
 		</table>
