@@ -5,4 +5,4 @@ Lang: it
 Img: /img/webexhelperfront.png
 layout: project
 ---
-Estensioni per aggiungere comandi da tastiera a Webex Web Player e Microsoft Sharepoint
+Estensione per aggiungere comandi da tastiera ai player video di Webex e Microsoft Sharepoint

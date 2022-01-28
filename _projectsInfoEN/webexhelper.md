@@ -5,4 +5,4 @@ Lang: en
 Img: /img/webexhelperfront.png
 layout: project
 ---
-Extensions to add keyboard controls to Webex Web Player and Microsoft Sharepoint
+Extension to add keyboard controls to Webex and Microsoft Sharepoint video players

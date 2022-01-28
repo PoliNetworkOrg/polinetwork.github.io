@@ -7,4 +7,4 @@ layout: project
 link: https://github.com/jacopo-j/webxdownloader
 redirect: true
 ---
-Browser extension to download Webex meeting recordings
+Browser extension to download Webex Meetings recordings
