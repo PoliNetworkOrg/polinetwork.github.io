@@ -2,6 +2,8 @@
 
 ## Testare il sito in locale per fare modifiche
 
+Crea un fork di questa repository cliccando in alto a destra su questa pagina
+
 ### Prerequisiti Linux (Debian based, per altre distro o macOS [clicca qui](https://jekyllrb.com/docs/installation/other-linux/))
 
 ```
@@ -11,7 +13,7 @@ echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
 echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
 gem install jekyll bundler
-git clone https://github.com/PoliNetwork/polinetwork.github.io
+git clone https://github.com/<yourGitHubUsername>/polinetwork.github.io
 cd polinetwork.github.io
 git submodule init
 ```
@@ -25,21 +27,22 @@ git submodule init
 
 ```
 gem install jekyll bundler webrick wdm
-git clone https://github.com/PoliNetwork/polinetwork.github.io
+git clone https://github.com/<yourGitHubUsername>/polinetwork.github.io
 cd polinetwork.github.io
 git submodule init
 ```
 
 ### Avvio
 
+Nella pagina GitHub del tuo fork clicca `Fetch upstream`, poi `Fetch and merge` e infine, da una finestra di terminale nella cartella creata sopra:
+
 ```
-cd polinetwork.github.io/_data
 git pull
+cd _data
+git pull https://github.com/PoliNetworkOrg/polinetworkWebsiteData
 cd ..
-git pull
-git submodule update
-bundle update
 gem update
+bundle update
 jekyll serve
 ```
 

@@ -7,4 +7,4 @@ layout: project
 link: https://polinetwork.github.io/graduatorie/
 redirect: true
 ---
-Sito che salva tutte le graduatorie pubblcate dal Politecnico di Milano, anche quelle ormai cancellate dal sito ufficiale
+Sito che salva tutte le graduatorie pubblicate dal Politecnico di Milano, anche quelle ormai cancellate dal sito ufficiale
