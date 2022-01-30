@@ -59,7 +59,7 @@ show_backToHome: true
                         <div class="expandable">
                           {% capture VARlink %} {{item.link}}  {% endcapture %}
                           {% capture VARplatform %} {{item.platform}} {% endcapture %}
-                          <div class="card accentWhite clickable horizontalcardsbutton projectLink"><a href="{%include link.html link=VARlink platform=VARplatform %}" class="accentWhiteText cardLink"> {{ item.title }} </a></div>
+                          <div class="card accentWhite clickable horizontalcardsbutton projectLink" onclick="location.href='{%include link.html link=VARlink platform=VARplatform %}'"><a href="{%include link.html link=VARlink platform=VARplatform %}" class="accentWhiteText cardLink"> {{ item.title }} </a></div>
                         </div>
                       {% endif %}
                       {% if item.multiple_buttons == true %}
@@ -67,7 +67,7 @@ show_backToHome: true
                         {% for button in item.buttons %}
                           {% capture VARlink %} {{button.link}}  {% endcapture %}
                           {% capture VARplatform %} buttonitem.platform}} {% endcapture %}
-                          <div class="card accentWhite clickable horizontalcardsbutton projectLink"><a href="{%include link.html link=VARlink platform=VARplatform %}" class="accentWhiteText cardLink"> {{ button.title }} </a></div>
+                          <div class="card accentWhite clickable horizontalcardsbutton projectLink" onclick="location.href='{%include link.html link=VARlink platform=VARplatform %}'"><a href="{%include link.html link=VARlink platform=VARplatform %}" class="accentWhiteText cardLink"> {{ button.title }} </a></div>
                         {% endfor %}
                         </div>
                       {% endif %}

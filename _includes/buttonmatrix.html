@@ -5,7 +5,7 @@
       {% if modulo == 0 %}
         <div class="expandableButtonMatrix">
           {% for button in language.buttons %}
-              <div class="card cardPaddingButtonMatrix accentWhite clickable horizontalcardsbutton projectLink"><a href="{{ button.link }}" class="accentWhiteText cardLink"><img src="{{ button.img }}" class="buttonMatrixImage"> {{ button.title }} </a></div>
+              <div class="card cardPaddingButtonMatrix accentWhite clickable horizontalcardsbutton projectLink" onclick="location.href='{{ button.link }}'"><a href="{{ button.link }}" class="accentWhiteText cardLink"><img src="{{ button.img }}" class="buttonMatrixImage"> {{ button.title }} </a></div>
           {% endfor %}
         </div>
       {% else %}
@@ -14,7 +14,7 @@
         <div class="expandableButtonMatrix">
           {% for button in language.buttons %}
             {% if i < printable %}
-              <div class="card cardPaddingButtonMatrix accentWhite clickable horizontalcardsbutton projectLink"><a href="{{ button.link }}" class="accentWhiteText cardLink"><img src="{{ button.img }}" class="buttonMatrixImage"> {{ button.title }} </a></div>
+              <div class="card cardPaddingButtonMatrix accentWhite clickable horizontalcardsbutton projectLink" onclick="location.href='{{ button.link }}'"><a href="{{ button.link }}" class="accentWhiteText cardLink"><img src="{{ button.img }}" class="buttonMatrixImage"> {{ button.title }} </a></div>
               {% assign i = i | plus:1 %}
             {% endif %}
           {% endfor %}
@@ -23,7 +23,7 @@
               {% assign e = 0 %}
               {% for button in language.buttons %}
                   {% if i >= printable and e >= i %}
-                    <div class="card cardPaddingButtonMatrix accentWhite clickable horizontalcardsbutton projectLink"><a href="{{ button.link }}" class="accentWhiteText cardLink"><img src="{{ button.img }}" class="buttonMatrixImage"> {{ button.title }} </a></div>
+                    <div class="card cardPaddingButtonMatrix accentWhite clickable horizontalcardsbutton projectLink" onclick="location.href='{{ button.link }}'"><a href="{{ button.link }}" class="accentWhiteText cardLink"><img src="{{ button.img }}" class="buttonMatrixImage"> {{ button.title }} </a></div>
                     {% assign i = i | plus:1 %}
                   {% endif %}
                   {% assign e = e | plus:1 %}
@@ -34,7 +34,7 @@
             {% assign e = 0 %}
             {% for button in language.buttons %}
                 {% if i >= printable and e >= i %}
-                  <div class="card accentWhite cardPaddingButtonMatrix clickable horizontalcardsbutton projectLink"><a href="{{ button.link }}" class="accentWhiteText cardLink"><img src="{{ button.img }}" class="buttonMatrixImage"> {{ button.title }} </a></div>
+                  <div class="card accentWhite cardPaddingButtonMatrix clickable horizontalcardsbutton projectLink" onclick="location.href='{{ button.link }}'"><a href="{{ button.link }}" class="accentWhiteText cardLink"><img src="{{ button.img }}" class="buttonMatrixImage"> {{ button.title }} </a></div>
                   {% assign i = i | plus:1 %}
                 {% endif %}
                 {% assign e = e | plus:1 %}

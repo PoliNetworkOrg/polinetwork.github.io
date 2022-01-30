@@ -55,13 +55,13 @@ show_backToHome: true
                     {% if item.isLink != false %}
                       {% if item.multiple_buttons != true %}
                         <div class="expandable">
-                          <div class="card accentWhite clickable horizontalcardsbutton projectLink"><a href="{{ item.link }}" class="accentWhiteText cardLink"> {{ item.title }} </a></div>
+                          <div class="card accentWhite clickable horizontalcardsbutton projectLink" onclick="location.href='{{ item.link }}'"><a href="{{ item.link }}" class="accentWhiteText cardLink"> {{ item.title }} </a></div>
                         </div>
                       {% endif %}
                       {% if item.multiple_buttons == true %}
                         <div class="expandable">
                         {% for button in item.buttons %}
-                          <div class="card accentWhite clickable horizontalcardsbutton projectLink"><a href="{{ button.link }}" class="accentWhiteText cardLink"> {{ button.title }} </a></div>
+                          <div class="card accentWhite clickable horizontalcardsbutton projectLink" onclick="location.href='{{ item.link }}'"><a href="{{ button.link }}" class="accentWhiteText cardLink"> {{ button.title }} </a></div>
                         {% endfor %}
                         </div>
                       {% endif %}
