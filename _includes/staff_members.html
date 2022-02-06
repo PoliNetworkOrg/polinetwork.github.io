@@ -20,7 +20,7 @@
           {% include staff_members_builder.html expired=include.expired name=staff-member.name lang=include.lang role=lang.title expiration=expiration expiration-date=expiration-date nomination-date=role.nomination-date -%}
         {% endif %}
         {% if ID contains 'c' %}
-          {% include staff_members_builder.html expired=include.expired name=staff-member.name lang=include.lang role=lang.title expiration=expiration expiration-date=expiration-date nomination-date=role.nomination-date -%}
+          {% include staff_members_builder.html not-renewed=include.not-renewed expired=include.expired name=staff-member.name lang=include.lang role=lang.title expiration=expiration expiration-date=expiration-date nomination-date=role.nomination-date -%}
         {% endif %}
         {% if ID contains 'u' %}
           {% include staff_members_builder.html no-exp="y" expired=include.expired lang=include.lang name=staff-member.name role=lang.title expiration-date=expiration-date nomination-date=role.nomination-date -%}

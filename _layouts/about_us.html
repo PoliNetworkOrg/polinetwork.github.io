@@ -18,6 +18,10 @@ layout: default
 		<ul class="about_us_ul">
 			{% include staff_members.html lang=page.Lang class="headadmin" %}
 		</ul>
+		<h3>{{page.LNotRenewed}}</h3>
+		<ul class="about_us_ul">
+			{% include staff_members.html lang=page.Lang class="headadmin" not-renewed="y" %}
+		</ul>
 
 		<h3>{{page.LListeners}}</h3>
 		<ul class="about_us_ul">

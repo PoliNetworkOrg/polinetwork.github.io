@@ -2,7 +2,7 @@
   {% if include.expired == 'y' %}
     {% if role.expiration-date != nil and expiration-date <= now %}
       <li>
-        {% include staff_member.html lang=include.lang lang=include.lang name=staff-member.name role=lang.title expiration-date=expiration-date nomination-date=role.nomination-date no-appointment="true" no-appointment=include.no-appointment -%}
+        {% include staff_member.html lang=include.lang name=staff-member.name role=lang.title expiration-date=expiration-date nomination-date=role.nomination-date no-appointment="true" no-appointment=include.no-appointment -%}
       </li>
     {% endif %}
   {% else %}
@@ -13,25 +13,56 @@
     {% endif %}
   {% endif %}
 {% else %}
-{% for item in site.data.staff.roles %}
-  {% if item.id == roleID %}
-    {% for lang in item.titles %}
-      {% if lang.language == include.lang %}
-        {% if include.expired == 'y' %}
-          {% if now >= expiration or role.expiration-date != nil and expiration-date <= now %}
-            <li>
-              {% include staff_member.html lang=include.lang name=staff-member.name role=lang.title expiration=expiration expiration-date=expiration-date nomination-date=role.nomination-date -%}
-            </li>
-          {% endif %}
-        {% else %}
-          {% if now < expiration and role.expiration-date == nil or expiration-date >= now %}
-            <li>
-              {% include staff_member.html lang=include.lang name=staff-member.name role=lang.title expiration=expiration expiration-date=expiration-date nomination-date=role.nomination-date -%}
-            </li>
+  {% if include.not-renewed == 'y' %}
+    {% assign replacement = false %}
+    {% for staff1 in site.data.staff.staff %}
+      {% for staff_role in staff1.roles %}
+      {% assign roleID1 = roleID | jsonify %}
+      {% assign staff_role1 = staff_role.id | jsonify %}
+        {% if staff_role1 == roleID1 %}
+          {% capture expiration-date1 %}{%- include staff_members_exp.html nomination-date=staff_role.nomination-date -%}{% endcapture %}
+          {% capture expiration-date1 %}{{expiration-date1 | date: "%s"}}{% endcapture %}
+          {% capture expiration-date2 %}{{ staff_role.expiration-date | date: "%s"}}{% endcapture %}
+          {% if now < expiration-date1 and staff_role.expiration-date == nil or expiration-date2 > now %}
+            {% assign replacement = true %}
           {% endif %}
         {% endif %}
+      {% endfor %}
+    {% endfor %}
+    {% if replacement == false %}
+      {% for item in site.data.staff.roles %}
+        {% if item.id == roleID %}
+          {% for lang in item.titles %}
+            {% if lang.language == include.lang %}
+              <li>
+                {% include staff_member.html lang=include.lang name=staff-member.name role=lang.title expiration=expiration expiration-date=expiration-date nomination-date=role.nomination-date -%}
+              </li>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      {% endfor %}      
+    {% endif %}
+  {% else %}
+    {% for item in site.data.staff.roles %}
+      {% if item.id == roleID %}
+        {% for lang in item.titles %}
+          {% if lang.language == include.lang %}
+            {% if include.expired == 'y' %}
+              {% if now >= expiration or role.expiration-date != nil and expiration-date <= now %}
+                <li>
+                  {% include staff_member.html lang=include.lang name=staff-member.name role=lang.title expiration=expiration expiration-date=expiration-date nomination-date=role.nomination-date -%}
+                </li>
+              {% endif %}
+            {% else %}
+              {% if now < expiration and role.expiration-date == nil or expiration-date >= now %}
+                <li>
+                  {% include staff_member.html lang=include.lang name=staff-member.name role=lang.title expiration=expiration expiration-date=expiration-date nomination-date=role.nomination-date -%}
+                </li>
+              {% endif %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
       {% endif %}
     {% endfor %}
   {% endif %}
-{% endfor %}
 {% endif %}
