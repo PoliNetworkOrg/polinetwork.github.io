@@ -18,12 +18,15 @@
     {% for staff1 in site.data.staff.staff %}
       {% for staff_role in staff1.roles %}
       {% assign roleID1 = roleID | jsonify %}
-      {% assign staff_role1 = staff_role.id | jsonify %}
-        {% if staff_role1 == roleID1 %}
+      {% assign staff_roleID = staff_role.id | jsonify %}
+        {% if staff_roleID == roleID1 %}
           {% capture expiration-date1 %}{%- include staff_members_exp.html nomination-date=staff_role.nomination-date -%}{% endcapture %}
           {% capture expiration-date1 %}{{expiration-date1 | date: "%s"}}{% endcapture %}
           {% capture expiration-date2 %}{{ staff_role.expiration-date | date: "%s"}}{% endcapture %}
           {% if now < expiration-date1 and staff_role.expiration-date == nil or expiration-date2 > now %}
+            {% assign replacement = true %}
+          {% endif %}
+          {% if staff_role.nomination-date > role.nomination-date %}
             {% assign replacement = true %}
           {% endif %}
         {% endif %}
