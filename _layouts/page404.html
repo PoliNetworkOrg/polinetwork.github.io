@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="page404hidden" id="page404">
+<div class="" id="page404">
   <div class="wrapper projectsPadding">
       <div class="card white section sign">
         {% include logoBanner.html %}
@@ -14,36 +14,3 @@ layout: default
       </div>
   </div>
 </div>
-<script>
-  var oldPath = document.referrer;
-  if(oldPath == undefined){
-    oldPath = "";
-  }
-  var splittedPath = oldPath.split("/");
-  var intrestingPath = "";
-  for (let i = 3; i < splittedPath.length; i++) {
-      intrestingPath += splittedPath[i] + "/";
-  }
-  if(intrestingPath.length > 0 && intrestingPath.slice(-1) == "/"){
-    intrestingPath = intrestingPath.slice(0,-1);
-  }
-
-  intrestingPath = intrestingPath.trim();
-  var userLang = navigator.language || navigator.userLanguage;
-  if (userLang.includes("it"))
-  {
-    if(!(intrestingPath == "" || splittedPath[3] == "it" || splittedPath[3] == "en")){
-        window.location.replace("/it/" + intrestingPath);
-    } else {
-      document.getElementById("page404").classList.remove('page404hidden');
-    }
-  }
-  else
-  {
-    if(!(intrestingPath == "" || splittedPath[3] == "it" || splittedPath[3] == "en")){
-        window.location.replace("/en/" + intrestingPath);
-    } else {
-      document.getElementById("page404").classList.remove('page404hidden');
-    }
-  }
-</script>

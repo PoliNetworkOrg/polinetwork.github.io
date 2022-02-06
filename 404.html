@@ -1,19 +1,44 @@
 ---
 permalink: /404.html
-title: 404
+title: redirecting...
 ---
 <head>
-
     <script>
-  		var userLang = navigator.language || navigator.userLanguage;
-  		if (userLang.includes("it"))
-  		{
-  			window.location.replace("/it/404.html");
-  		}
-  		else
-  		{
-  			window.location.replace("/en/404.html");
-  		}
+      var oldPath = document.baseURI != undefined ? document.baseURI : document.documentURI;
+      console.log("coming from: " + oldPath)
+      if(oldPath == undefined){
+        oldPath = "";
+      }
+      var splittedPath = oldPath.split("/");
+      var startingPosition = splittedPath.indexOf("polinetwork.org") != -1 ? splittedPath.indexOf("polinetwork.org") : splittedPath.indexOf("127.0.0.1:4000");
+      var intrestingPath = "";
+      console.log(splittedPath);
+      console.log(startingPosition);
+      for (let i = (startingPosition != null ? startingPosition + 1 : 3); i < splittedPath.length; i++) {
+          intrestingPath += splittedPath[i] + "/";
+      }
+      if(intrestingPath.length > 0 && intrestingPath.slice(-1) == "/"){
+        intrestingPath = intrestingPath.slice(0,-1);
+      }
+      console.log(intrestingPath);
+      intrestingPath = intrestingPath.trim();
+      var userLang = navigator.language || navigator.userLanguage;
+      if (userLang.includes("it"))
+      {
+        if(!(intrestingPath == "" || splittedPath[3] == "it" || splittedPath[3] == "en")){
+            window.location.replace("/it/" + intrestingPath);
+        } else {
+          window.location.replace("/it/404.html");
+        }
+      }
+      else
+      {
+        if(!(intrestingPath == "" || splittedPath[3] == "it" || splittedPath[3] == "en")){
+            window.location.replace("/en/" + intrestingPath);
+        } else {
+          window.location.replace("/en/404.html");
+        }
+      }
     </script>
 
 </head>
