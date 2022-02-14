@@ -10,6 +10,4 @@ _site/
 Gemfile.lock
 Gemfile.lock.*
 *Zone.Identifier
-aggiorna_graduatorie.py
 vendor/cache/*
-
