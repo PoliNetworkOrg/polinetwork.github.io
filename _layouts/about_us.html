@@ -10,12 +10,12 @@ layout: default
 		</ul>
 
 		<h1>{{page.LRoles}}</h1>
-		<ul class="about_us_ul">
+		<ul class="about_us_ul delegates">
 			{% include staff_members.html lang=page.Lang class="delegate" %}
 		</ul>
 		<h1>{{page.LCouncil}}</h1>
 		<h3>{{page.LVotingMem}}</h3>
-		<ul class="about_us_ul">
+		<ul class="about_us_ul headadmins">
 			{% include staff_members.html lang=page.Lang class="headadmin" %}
 		</ul>
 		<h3>{{page.LNotRenewed}}</h3>
