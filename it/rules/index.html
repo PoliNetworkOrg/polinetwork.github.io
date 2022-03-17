@@ -70,22 +70,46 @@ Regole:
    <li> 04. Dobbiamo ricordarci che i gruppi sono degli Utenti: è preferibile sempre, se si vede un problema (discussioni offensive, sfottò pesanti...), provare a risolverlo a parole (segnandosi il contatto secondo la normativa privacy vigente, in caso di comportamento reiterato si verrà bannati).
    <li> 05. I rappresentanti in Consiglio di Corso di Studi (CCS), all’unanimità, possono usare i gruppi del Network del loro Corso di Studi per chiedere di inviare comunicazioni, così come ogni istituzione del Politecnico di Milano (Scuola, Presidenti del Consiglio di Corso di Studio ecc...) che ce lo chieda. Il Network si riserva la possibilità, ove riscontri che il messaggio non sia appropriato (utile per gli studenti, direttamente o indirettamente), di non accettare la pubblicazione dello stesso.
    <li> 06. Il Presidente del Consiglio degli Studenti ha il permesso di proporre di inviare comunicazioni in tutti i gruppi del Network, previo accordo con il Consiglio degli Admin per determinare le modalità di diffusione.
-   <li> 07. Le Associazioni Riconosciute dal Politecnico di Milano e i Club Dipartimentali le cui attività sono incentrate a specifici Corsi di Studio, hanno il diritto di chiedere di mandare messaggi di promozione nei gruppi di loro afferenza. Per essere ammesse alla lista, gli admin del Corso di Studio e il network devono approvare la cosa.
-   Le Associazioni Riconosciute dal Politecnico di Milano e Club Dipartimentali che possono farlo sono i seguenti:
-   <ul>
-    <li>   Club di Ingegneria Gestionale - Corsi di Studi di Ingegneria Gestionale
-    <li>    AIM - Associazione Ingegneri Matematici - Corsi di Studi di Ingegneria Matematica
-    <li>    BEA - Biomedical Engineering Association - Corsi di Studi di Ingegneria Biomedica
-    <li>    Dynamis PRC - Polimi Reparto Corse - Corso di Studi di Ingegneria Meccanica
-    <li>    Polifonia - Corso di Studi di Ingegneria dei Materiali e delle Nanotecnologie
+   <li> 07. Le Associazioni Riconosciute dal Politecnico di Milano, hanno il diritto di chiedere di mandare messaggi di promozione nei gruppi di loro afferenza. L'associazione consulta direttamente il capo admin o il delegato alla comunicazione esterna che chiederà ai capi admin interessati, il capo admin notifica in Consiglio tramite il bot:
+     <ul>
+        <li> l'approvazione del messaggio ed il messaggio stesso;</li>
+        <li> il nome dell'associazione;</li>
+        <li> il tipo [messaggio promozionale, invito ad un evento, messaggio informativo, altri (specificare)];</li>
+        <li> in che gruppi verrà inviato.</li>
     </ul>
-   <li> 08. Le Associazioni Riconosciute dal Politecnico di Milano e i Club Dipartimentali le cui attività sono incentrate a specifiche tematiche, hanno il diritto di chiedere di mandare messaggi di promozione nei gruppi di loro afferenza nei gruppi extra del network a loro legati. Per essere ammessi alla lista, è necessario contattare il responsabile Comunicazione Esterna, dopo di che seguirà la votazione del Consiglio degli Admin.
-   Le Associazioni Riconosciute dal Politecnico di Milano e Club Dipartimentali che possono farlo sono i seguenti:
-   <ul>
-    <li>      Polifonia - Gruppo musica extra del Network
-    <li>      AESport - Gruppo gaming extra del Network
-   </ul>
-   <li> 09. Non si permette la diffusione delle notizie di Associazioni Riconosciute dal Politecnico di Milano, Club Dipartimentali e Liste di Rappresentanza fatto salvo quanto scritto in questa sezione Comma 07 e 08.<br/> È consentita la pubblicazione nel sistema predisposto (@PoliAssociazioni, vedasi Sezione 2),
+    Avvenuta la comunicazione, inizia un periodo in cui ogni Consigliere, Delegato o Garante può esprimere un veto:
+    <ul> 
+    <li>Se il veto arriva ENTRO 4 ore dall'invio della notifica in Consiglio, il messaggio non viene autorizzato e viene creato un sondaggio per autorizzare l'invio del messaggio </li>
+    <li> Trascorse le 4 ore, se non sono stati posti veti, all'associazione è concesso l'invio</li>
+    <li> Se da 4 a 48h il Consiglio pone un veto verrà iniziata una votazione per determinare se il messaggio ha l'approvazione della maggioranza del Consiglio. Se il voto è negativo, per i successivi 3 mesi ogni messaggio dell'associazione deve essere approvato singolarmente in Consiglio con un sondaggio di 48h prima dell'invio e si valutano caso per caso aggiuntive azioni.</li>
+    </ul>
+    Per evitare abusi, le 4 ore scorrono solamente dalle ore 09:00 alle ore 22:00 (es. Se una richiesta perviene in Consiglio alle ore 21:00, le 4 ore scadono alle ore 12:00).<br>
+    
+    Non è possibile mandare messaggi multipli se questi non sono separati da un numero ragionevole di messaggi, indicativamente 
+    <ul> 
+      <li> 30 per i gruppi da 1 a 100 utenti</li>
+      <li> 50 per i gruppi da 100 a 2000 utenti</li>
+      <li> nessun limite per i gruppi da 2000+ utenti.</li>
+    </ul> 
+    Anche il fattore temporale è molto importante per non dare l'impressione che il gruppo sia diventato qualcosa dove avviene frequentemente spam, non vi diamo un limite preciso ma una scelta ragionevole potrebbe essere 1/3 settimane tra ogni messaggio sponsorizzato (generico), dipendentemente dal gruppo.
+    È compito del capo admin assicurarsi che questi limiti non vengano superati se non con votazione in Consiglio.<br>
+    
+    Nel caso in cui non sia nominato un capo admin, la sua funzione è svolta dal delegato alla comunicazione interna.
+    <br>
+    Nel caso di Club Dipartimentale o associazione non riconosciuta, la procedura è la seguente:
+    <ul>
+      <li> Un club dipartimentale /assoc non riconosciuta fa domanda per uno o più corsi.</li>
+      <li> Richiede l'approvazione a unanimità dei rappresentanti degli studenti in ccs in ognuno dei corsi.</li>
+      <li> In caso di esito positivo, il club avrà i permessi di poter richiedere al network l'invio di messaggi nei gruppi approvati.</li>
+      <li> Successivamente si segue la stessa procedura delle associazioni riconosciute</li>
+    </ul>
+   <li> 08. Le Associazioni Riconosciute dal Politecnico di Milano e i Club Dipartimentali le cui attività sono incentrate a specifiche tematiche, hanno il diritto di chiedere di mandare messaggi di promozione nei gruppi extra del network a loro legati. Per essere ammessi alla lista, è necessario contattare il responsabile Comunicazione Esterna.<br>
+    A questo seguirà:
+    <ul>
+      <li> Approvazione della associazione (anche non PoliMi) o club dipartimentali in CdA per il singolo gruppo </li>
+      <li> Approvazione del messaggio da parte degli admin del gruppo non facenti parte dell'organizzazione, in caso di parità l'approvazione sarà valutata a voto di maggioranza tra i garanti del Network </li>
+    </ul>
+    <li> 09. Non si permette la diffusione delle notizie di Associazioni Riconosciute dal Politecnico di Milano, Club Dipartimentali e Liste di Rappresentanza fatto salvo quanto scritto in questa sezione Comma 07 e 08.<br/> È consentita la pubblicazione nel sistema predisposto (@PoliAssociazioni, vedasi Sezione 2),
    Nel caso in cui un utente decida autonomamente di inviare notizie nel gruppo della sua realtà è permesso, dato che rientra nel dialogo tra pari ed è comprensibile che una persona trovi interessante un’iniziativa o un’informazione. Se tuttavia si vede che un messaggio di una realtà viene condiviso sistematicamente, verranno presi provvedimenti immediati nei confronti della realtà in questione.<br/>
    Le persone di una Lista di Rappresentanza che condividono un messaggio della stessa verranno declassate.<br/>
    Usare le liste di utenti dei gruppi del network per spam in privato senza consenso è, oltre a trattamento illecito dei dati, considerato da noi al pari dello spam nel gruppo stesso.<br/>
