@@ -7,4 +7,4 @@ link: Gruppo ripetizioni PoliNetwork
 platform: TG
 redirect: true
 ---
-Gruppo di ripetizioni
+Gruppo per cercare e offrire ripetizioni gestito da PoliNetwork
