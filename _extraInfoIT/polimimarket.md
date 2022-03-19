@@ -3,7 +3,7 @@ title: Il Mercatino del Polimi [BETA]
 Lang: it
 Img: /img/market.jpg
 layout: extra
-link: https://t.me/mercatinopolimi
+link: Il Mercatino del Polimi [BETA]
 platform: TG
 redirect: true
 ---
