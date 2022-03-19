@@ -3,7 +3,7 @@ title: Cucina & Cocktails
 Lang: it
 Img: /img/kitchen.jpg
 layout: extra
-link: https://t.me/joinchat/MPmxVCf9EN4xODNk
+link: https://t.me/joinchat/izAVYJycGq04MDE0
 platform: TG
 redirect: true
 ---
