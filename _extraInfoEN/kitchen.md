@@ -3,7 +3,7 @@ title: Kitchen & Cocktails
 Lang: en
 Img: /img/kitchen.jpg
 layout: extra
-link: Cucina & cocktails - PoliNetwork 🍽
+link: https://t.me/joinchat/MPmxVCf9EN4xODNk
 platform: TG
 redirect: true
 ---
