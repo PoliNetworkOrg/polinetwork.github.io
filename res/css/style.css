@@ -1017,12 +1017,12 @@ input, select {
 }
 
 .image-container-projects {
-    padding-bottom: 100%;
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-	max-width: 50vw;
-	margin: auto;
+   padding-bottom: 50%;
+   overflow: hidden;
+   position: relative;
+   width: 50%;
+   max-width: 100vw;
+   margin: auto;
 }
 
 .extra a {
