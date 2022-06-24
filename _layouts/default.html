@@ -92,15 +92,17 @@
 		</tr>
 		<tr class="pcenter fullWidth">
 			<td class="pcenter fullWidth">
-				{% for item in site.data.languages.lang %}
-				{% if item.name != page.Lang %}
-				{% if item.name == "it" %}
-				<p>This website is not affiliated to Politecnico di Milano</p>
-				{% else %}
-				<p>Questo sito non è affliliato al Politecnico di Milano</p>
-				{% endif %}
-				{% endif %}
-				{% endfor %}
+				<a href="/{{page.Lang}}/learnmore/official/" style="color: inherit;">
+					{% for item in site.data.languages.lang %}
+					{% if item.name != page.Lang %}
+					{% if item.name == "it" %}
+					<p>This website is not affiliated to Politecnico di Milano</p>
+					{% else %}
+					<p>Questo sito non è affliliato al Politecnico di Milano</p>
+					{% endif %}
+					{% endif %}
+					{% endfor %}
+				</a>
 			</td>
 		</tr>
 	</table>
