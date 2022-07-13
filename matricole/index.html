@@ -26,13 +26,17 @@
 				margin: auto;
 			}
 
+			.button99 {
+				margin: min(10px, 1vw);
+			}
+
 			.button26 {
 				margin: 10px;
 				text-align: center;
 				align-content: center;
 				align-items: center;
 				align-self: center;
-				display: flex;
+				display: ruby-base;
 				flex: 1 1 25%;
 				position: relative;
 			}
@@ -76,8 +80,18 @@
 			}
 
 			.subtext2 {
-				padding-left: calc(10px + 1vw + 2rem);
-				padding-right: calc(10px + 1vw + 2rem);
+				padding-left: min(calc(10px + 1vw + 2rem), 3vw);
+				padding-right: min(calc(10px + 1vw + 2rem), 3vw);
+				width: 100%;
+				text-align: center;
+				color: rgba(0, 0, 0, 0.589);
+				text-shadow: 1px 1px #052d3d9a;
+				font-size: calc(0.7vw + 1.1rem);
+			}
+
+			.subtext4 {
+				padding-left: 0px;
+				padding-right: 0px;
 				width: 100%;
 				text-align: center;
 				color: rgba(0, 0, 0, 0.589);
@@ -180,10 +194,13 @@
 				<br />
 				<div style="padding-top: 16px">&nbsp;</div>
 
-				<h2 class="subtext2">
-					Abbiamo l'obiettivo di costruire una rete coesa di studenti, per gli
-					studenti.
-				</h2>
+				<div style="width:100%; text-align:center;margin:auto;">
+					<h2 class="subtext4">
+						Abbiamo l'obiettivo di costruire una rete coesa di studenti,<br />
+						<span style="    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.233);
+						-webkit-text-fill-color: rgba(0, 0, 0, 0.346); text-decoration: underline;">per gli studenti</span>.
+					</h2>
+				</div>
 				<div style="padding-top: 0px">&nbsp;</div>
 				<!--
 			<div class="button30">
@@ -219,12 +236,11 @@
 										📌 Clicca qui per tutti i gruppi matricole 2021/2022</span
 									>
 								</div>
-					
 							</a>
 						</div>
 						<p>
-							I gruppi matricole 2022/2023 arrivano entro fine mese (luglio 2022), portate
-							pazienza!
+							I gruppi matricole 2022/2023 arrivano entro fine mese (luglio
+							2022), portate pazienza!
 						</p>
 					</div>
 				</div>
@@ -317,7 +333,7 @@
 						<div class="button30">
 							<div class="button26">
 								<div
-									class="btn-get-started button2 button25"
+									class="btn-get-started button2 button25 button99"
 									style="font-size: calc(16px + 1vw)"
 								>
 									<a href="https://t.me/PoliGruppo">
@@ -352,7 +368,7 @@
 					<div class="button27">
 						<div class="button26">
 							<div
-								class="btn-get-started button2 button25"
+								class="btn-get-started button2 button25 button99"
 								style="font-size: calc(16px + 1vw)"
 							>
 								<a href="https://polinetwork.github.io/it/extra/index.html">
@@ -370,7 +386,7 @@
 								</a>
 							</div>
 							<div
-								class="btn-get-started button2 button25"
+								class="btn-get-started button2 button25 button99"
 								style="font-size: calc(16px + 1vw)"
 							>
 								<a href="https://t.me/joinchat/4kO9DtAiTVM0NTU0">
@@ -388,7 +404,7 @@
 								</a>
 							</div>
 							<div
-								class="btn-get-started button2 button25"
+								class="btn-get-started button2 button25 button99"
 								style="font-size: calc(16px + 1vw)"
 							>
 								<a href="https://t.me/joinchat/b8d7Iy5gKNE3MjU0">
@@ -407,7 +423,7 @@
 							</div>
 
 							<div
-								class="btn-get-started button2 button25"
+								class="btn-get-started button2 button25 button99"
 								style="font-size: calc(16px + 1vw)"
 							>
 								<a href="https://t.me/AskPolimi">
@@ -425,7 +441,7 @@
 								</a>
 							</div>
 							<div
-								class="btn-get-started button2 button25"
+								class="btn-get-started button2 button25 button99"
 								style="font-size: calc(16px + 1vw)"
 							>
 								<a href="https://polinetwork.github.io/graduatorie/">
@@ -443,7 +459,7 @@
 								</a>
 							</div>
 							<div
-								class="btn-get-started button2 button25"
+								class="btn-get-started button2 button25 button99"
 								style="font-size: calc(16px + 1vw)"
 							>
 								<a href="https://polinetwork.github.io/it/extra/assoc/">
@@ -578,6 +594,10 @@
 					</div>
 				</div>
 			</div>
+			<div style="height: 35px;">
+				&nbsp;
+			</div>
 		</section>
+
 	</body>
 </html>
