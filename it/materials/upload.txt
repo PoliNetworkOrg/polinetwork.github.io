@@ -39,6 +39,6 @@ di coloro li hanno caricati, che possono in qualsiasi momento chiederne la rimoz
 
 Polinetwork non si assume alcuna responsabilità e non approva, sostiene o garantisce espressamente o implicitamente la completezza, la veridicità, l'accuratezza o l'affidabilità di nessuno dei contenuti o di quelli ad esso associati.
 
-Se trovi un uso non autorizzato del tuo lavoro protetto da copyright sulla nostra piattaforma, puoi inviarci una notifica di violazione alla email polinetwork@outlook.com
+Se trovi un uso non autorizzato del tuo lavoro protetto da copyright sulla nostra piattaforma, puoi inviarci una notifica di violazione alla email info@polinetwork.org
 
 Non devi caricare nessun file di protetto da copyright o diritti di autore in qualsiasi forma sulle repository GitLab di PoliNetwork.
