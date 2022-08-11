@@ -45,10 +45,10 @@
 			{% for item in site.data.languages.lang %}
 			{% if item.name != page.Lang %}
 			{% if item.name == "it" %}
-			<a href="{{ site.url }}/{{ item.name }}{{ page.url | replace: " /en", "" | replace: "/it" , "" }}"> Passa a
+			<a href="{{ site.url }}{{ page.url | replace: "/en/", "/it/"}}"> Passa a
 				<span class="textSecondaryColor"> {{ item.name | upcase}} </span></a>
 			{% else %}
-			<a href="{{ site.url }}/{{ item.name }}{{ page.url | replace: " /it", "" | replace: "/en" , "" }}"> Switch
+			<a href="{{ site.url }}{{ page.url | replace: "/it/", "/en/"}}"> Switch
 				to <span class="textSecondaryColor"> {{ item.name | upcase}} </span></a>
 			{% endif %}
 			{% endif %}
