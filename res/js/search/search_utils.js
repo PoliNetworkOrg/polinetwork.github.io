@@ -65,7 +65,7 @@ const mapping = {
 function applyMapping(item) {
     for (key in mapping) {
         //if (item[key] && ( item[key] ==="TG" || item[key] ==="FB" || item[key] ==="TG") || item[key] ==="__default__" ) {
-        if (item[key]){
+        if (item[key]) {
             if (mapping[key][item[key]] !== undefined) {
                 if (key === "platform") {
                     if ("LinkType" in item && item["LinkType"] !== undefined) {
@@ -79,52 +79,59 @@ function applyMapping(item) {
             }
         }
     }
-    
+
     return item;
 }
 
 function search(el) {
-  //alert(el.value + queryOverheadYear + queryOverheadDegree + queryOverheadGroup + queryOverheadPlatform + queryOverheadLanguage);
-  //alert({class: el.value + queryOverheadYear + queryOverheadDegree + queryOverheadGroup + queryOverheadPlatform + queryOverheadLanguage});
+    //alert(el.value + queryOverheadYear + queryOverheadDegree + queryOverheadGroup + queryOverheadPlatform + queryOverheadLanguage);
+    //alert({class: el.value + queryOverheadYear + queryOverheadDegree + queryOverheadGroup + queryOverheadPlatform + queryOverheadLanguage});
     //Search.search({ class: el.value + queryOverheadYear + queryOverheadDegree + queryOverheadGroup + queryOverheadPlatform + queryOverheadLanguage } , 20)
-    Search.search(searchParamMapper(el.value) , 20)
-        .then(data => {
-            if (data.length === 0) {
-                const result_div = document.getElementById("searchResultsID");
-                result_div.innerHTML = '<div class=\"result\"><div class="resultContainer"><a class="noResults" href="\https://t.me/PoliGruppo">There are no suggestions for your query. <i>Try asking here</i></a></div></div>';
-            }
-            else {
-                /*result_div.innerHTML = data
-                    .map(applyMapping)
-                    .map(genHtml)
-                    .join('');
+    function1 = (params) => {
+        return Search.search(searchParamMapper(params.value), 20)
+            .then(data => {
+                if (data.length === 0) {
+                    const result_div = document.getElementById("searchResultsID");
+                    result_div.innerHTML = '<div class=\"result\"><div class="resultContainer"><a class="noResults" href="\https://t.me/PoliGruppo">There are no suggestions for your query. <i>Try asking here</i></a></div></div>';
+                }
+                else {
+                    /*result_div.innerHTML = data
+                        .map(applyMapping)
+                        .map(genHtml)
+                        .join('');
+    
+                     */
+                    showSearchResults(data)
+                }
 
-                 */
-                showSearchResults(data)
-            }
-
-            activateResultsDiv();
-        })
-        .catch(e => {
-            console.error(e);
-        });
+                activateResultsDiv();
+                if (data != null && data.length > 0) {
+                    return applyMapping(data[0]);
+                }
+                return null;
+            })
+            .catch(e => {
+                console.error(e);
+            });
+    }
+    return function1(el)
 }
 
 function searchParamMapper(query) {
-    let toReturnQuery = {class: query};
-    if(queryOverheadYear !== ''){
+    let toReturnQuery = { class: query };
+    if (queryOverheadYear !== '') {
         toReturnQuery.year = queryOverheadYear;
     }
-    if(queryOverheadDegree !== ''){
+    if (queryOverheadDegree !== '') {
         toReturnQuery.degree = queryOverheadDegree;
     }
-    if(queryOverheadGroup !== ''){
+    if (queryOverheadGroup !== '') {
         toReturnQuery.type = queryOverheadGroup;
     }
-    if(queryOverheadPlatform !== ''){
+    if (queryOverheadPlatform !== '') {
         toReturnQuery.platform = queryOverheadPlatform;
     }
-    if(queryOverheadLanguage !== ''){
+    if (queryOverheadLanguage !== '') {
         toReturnQuery.language = queryOverheadLanguage;
     }
     return toReturnQuery
@@ -138,7 +145,7 @@ document.addEventListener('DOMContentLoaded', _ => {
         el.addEventListener('keyup', _ => search(el))
         const params = document.querySelectorAll('input[type="radio"]');
         for (i = 0; i < params.length; i++) {
-          params[i].addEventListener("click", _ => search(el));
+            params[i].addEventListener("click", _ => search(el));
         };
     })
 });
@@ -158,77 +165,68 @@ function activateResultsDiv() {
     }
 }
 
-function showSearchResults(data){
+function showSearchResults(data) {
     let result_div = document.getElementById("searchResultsID");
     data = data
         .filter(item => item.id_link);
 
     var data3 = data.reduce((unique, o) => {
-        if(!unique.some(obj => obj.id_link === o.id_link)) {
+        if (!unique.some(obj => obj.id_link === o.id_link)) {
             unique.push(o);
         }
         return unique;
-    },[]);
+    }, []);
 
-    if (queryOverheadYear == "?/?")
-    {
-        for (var i=0; i< data3.length; i++){
+    if (queryOverheadYear == "?/?") {
+        for (var i = 0; i < data3.length; i++) {
 
-            if (i<0)
-                i =0;
+            if (i < 0)
+                i = 0;
 
-            for (var j=0; j< data3.length; j++){
+            for (var j = 0; j < data3.length; j++) {
 
-                if (i<0)
-                    i =0;
+                if (i < 0)
+                    i = 0;
 
-                if (j<0)
-                    j =0;
+                if (j < 0)
+                    j = 0;
 
-                if (i != j){
-                    if (data3[i].class ==data3[j].class && data3[i].platform == data3[j].platform)
-                    {
-                        if (data3[i].year == data3[j].year)
-                        {
-                            data3.splice(j,1);
+                if (i != j) {
+                    if (data3[i].class == data3[j].class && data3[i].platform == data3[j].platform) {
+                        if (data3[i].year == data3[j].year) {
+                            data3.splice(j, 1);
                             i--;
                             j--;
                         }
-                        else if (data3[i].year == "?/?")
-                        {
-                            data3.splice(i,1);
+                        else if (data3[i].year == "?/?") {
+                            data3.splice(i, 1);
                             i--;
                             j--;
                         }
-                        else if (data3[j].year == "?/?")
-                        {
-                            data3.splice(j,1);
+                        else if (data3[j].year == "?/?") {
+                            data3.splice(j, 1);
                             i--;
                             j--;
                         }
-                        else
-                        {
+                        else {
                             var yi = data3[i].year.split("/");
                             var yj = data3[j].year.split("/");
 
                             var yin = parseInt(yi[0]);
                             var yjn = parseInt(yj[0]);
 
-                            if (yin == yjn)
-                            {
-                                data3.splice(j,1);
+                            if (yin == yjn) {
+                                data3.splice(j, 1);
                                 i--;
                                 j--;
                             }
-                            else if (yin > yjn)
-                            {
-                                data3.splice(j,1);
+                            else if (yin > yjn) {
+                                data3.splice(j, 1);
                                 i--;
                                 j--;
                             }
-                            else if (yin < yjn)
-                            {
-                                data3.splice(i,1);
+                            else if (yin < yjn) {
+                                data3.splice(i, 1);
                                 i--;
                                 j--;
                             }
@@ -239,7 +237,7 @@ function showSearchResults(data){
         }
     }
 
-    data = data3.sort((a,b) => compareType(a,b))
+    data = data3.sort((a, b) => compareType(a, b))
         .slice(0, 20);
 
     var dictDati = {};
@@ -257,9 +255,9 @@ function showSearchResults(data){
     dictNomi["C"] = "Corso (esame)";
 
 
-    for(var key in dictDati) {
+    for (var key in dictDati) {
         dictDati[key] = dictDati[key].sort((a, b) => a.class.toLowerCase().localeCompare(b.class))
-            .sort((a,b) => compareType(a,b))
+            .sort((a, b) => compareType(a, b))
             .map(applyMapping)
             .map(genHtml)
             .join("");
@@ -270,12 +268,11 @@ function showSearchResults(data){
 
 }
 
-function getResultsString(dictDati, dictNomi){
+function getResultsString(dictDati, dictNomi) {
 
     let key;
-    for (key in dictDati){
-        if (!dictDati[key])
-        {
+    for (key in dictDati) {
+        if (!dictDati[key]) {
             delete dictDati[key];
         }
     }
@@ -287,14 +284,14 @@ function getResultsString(dictDati, dictNomi){
 
     let r = "";
     let i = 0;
-    for (key in dictDati){
+    for (key in dictDati) {
         r += "<div>";
         r += '<p class="searchTypeDivider">';
         r += dictNomi[key];
         r += "</p>";
         r += dictDati[key];
         r += "</div>";
-        if (i !== size -1){ //non è ultimo
+        if (i !== size - 1) { //non è ultimo
             r += "<hr />";
         }
 
@@ -326,28 +323,24 @@ function genHtml(data) {
 
 }
 
-function checkFiltroTipo(tipo, negate_false){
-    return function(item){
-        if (negate_false)
-        {
+function checkFiltroTipo(tipo, negate_false) {
+    return function (item) {
+        if (negate_false) {
             return item.type == tipo;
         }
-        else
-        {
+        else {
             return item.type != tipo;
         }
     }
 }
 
-function compareType(a,b){
-    switch(a.type)
-    {
+function compareType(a, b) {
+    switch (a.type) {
         case "G":
             return -1;
     }
 
-    switch(b.type)
-    {
+    switch (b.type) {
         case "G":
             return 1;
     }

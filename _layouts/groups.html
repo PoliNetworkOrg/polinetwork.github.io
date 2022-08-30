@@ -7,7 +7,8 @@ layout: default
 		<h1>{{ page.Ltitle }}</h1>
 		<h3>{{ page.Lname }}</h3>
 		<div class="input-group rounded">
-			<input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" id="searchBarID"
+			<input type="search" class="form-control rounded" placeholder="Search"
+				aria-label="Search" id="searchBarID"
 				aria-describedby="search-addon" class="searchBox" />
 			<span class="input-group-text border-0" id="search-addon">
 				<i class="fas fa-search"></i>
@@ -235,11 +236,19 @@ layout: default
 <script src="/res/js/search/search.js"></script>
 <script src="/res/js/search/search_utils.js"></script>
 <script>
-	var url = new URL(window.location.href);
-	var searchUrlParam = url.searchParams.get("s");
-	if (searchUrlParam) {
-		var searchBar = document.getElementById("searchBarID");
-		searchBar.value = searchUrlParam;
-		search(searchBar);
+	async function urlRedirect(){
+		var url = new URL(window.location.href);
+		var searchUrlParam = url.searchParams.get("s");
+		if (searchUrlParam != null) {
+			var searchBar = document.getElementById("searchBarID");
+			searchBar.value = searchUrlParam;
+			let s = await search(document.getElementById("searchBarID"));
+			console.log("First result:", s)
+			if(s != null){
+				console.log("redirecting to: ", s.platform.link_pre + s.id_link)
+				window.location.replace(s.platform.link_pre + s.id_link);
+			}
+		}
 	}
+	urlRedirect()
 </script>

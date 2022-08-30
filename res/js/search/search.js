@@ -35,7 +35,7 @@ class Search {
     }
 
     static _filter(query, data) {
-        Object.keys(query).map(key => console.log("key: " + key + " , data: " + data[key] + " , query: " + query[key]));
+        /*Object.keys(query).map(key => console.log("key: " + key + " , data: " + data[key] + " , query: " + query[key]));*/
         return Object.keys(query)
             .map(key => data[key] === null || query[key] === null || (data[key].toLowerCase().match(query[key].toLowerCase()) !== null))
             .reduce((acc, item) => acc && item, true);
