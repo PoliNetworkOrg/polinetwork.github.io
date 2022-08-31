@@ -4,7 +4,7 @@ Questa guida è stata redatta dagli admin di Ingegneria Informatica di PoliNetwo
 Cliccate sul nome del corso per aprirne la pagina e leggere il programma dettagliato.<br>
 Per aggiungere un'opinione, usa questo link: <a href="https://forms.gle/j6CfRG2qixg63F1n8" class="accent">https://forms.gle/j6CfRG2qixg63F1n8</a>
 
-###Data mining and text mining 
+###Data Mining and Text Mining 
 Corso davvero completo, assolutamente un must per i Data Scientists. Il corso è anche pratico e Lanzi spiega in maniera davvero semplice e comprensibile. Unico svantaggio: l'esame è poco affidabile, è facile (troppo) prendere un voto basso pur avendo studiato molto.
 
 Corso interessante non particolarmente difficile, progetto interessante una reale applicazione delle consocenze in python, però una volta che viene fatto non si può rifiutare il voto (che vale fino a 9 punti e se si seguono le linee guida si può facilmente prendere un voto alto).
@@ -15,6 +15,33 @@ the course is pretty interesting, fundamental for any data scientist, but the ex
 
 
 Fundamental course for anyone interested in data science, although there is a huge amount of topics which all need to be studied in full detail in order to be able to do the exam. This means that most of the work is left to personal study, which can be quite overwhelming since it includes not only the theory part (which sometimes is explained too quickly during classes) but also the python notebooks which are rarely seen during classes (it happened once or twice, and there are plenty of them in the course materials). There is an optional project which is then presented and graded up to 9 points by a company: it is nice to do if you are already skilled with data science, because the time is very limited (~20 days during Christmas holidays) and it does NOT make the exam easier, but only shorter (you still have to study everything)
+
+
+In pratica vogliono che diventiamo delle calcolatrici
+
+
+Che poi è un peccato perche spiega pure benino
+
+
+Il problema è che gli esami hanno una variazione assurda lol
+
+
+È il tipico esame da "5cfu" qui al Poli
+
+
+Secondo voi vale la pena fare il progetto? Alla fine ti toglie solo un esercizio dall'esame se non sbaglio.. >>> Se vuoi lavorare in questo ambito, si. Altrimenti no, se lo fai per "la ricompensa" è un progetto estremamente sbilanciato. La cosa brutta è il fatto che non puoi rifiutare la valutazione (il progetto viene corretto dall’azienda) secondo me.... 9 punti non sono pochi in ogni caso...
+
+
+A quanto ho sentito prendere un bel voto nel progetto non è difficile, ed è un progetto particolarmente serio considerando che va presentato a un'azienda esterna
+
+
+Si, ed eventualmente il libro può tornare utile se c'è qualche concetto che dalle slide non capisci bene. Ad esempio i vari pseudocode sul libro sono commentati molto bene. Ti consiglio di andare a pari passo tra teoria dalle slide e notebook
+
+
+Lanzi (da quel che dicono) fa esercizi abbastanza stronzi che richiedono comunque una comprensione approfondita degli argomenti
+
+
+Professore super in gamba e qualificato. Spiegazioni top. All'esame però è molto pignolo e esigente.
 
 
 
@@ -40,6 +67,32 @@ It's pretty difficult to get a good grade in this exam. Not only for the magnitu
 Between the two professors, Restelli is by far the best. The exam is shared between the two, so I would highly recommend to follow his course. 
 Another hint: the practice sessions are not really required for the exam: the coding exercise just requires basic coding reading skills (it basically requires you to "decode" a theoretical question from the code), while the non-coding exercises are fully covered by the many solutions of past exams. 
 P.S.   It's ok to take ann before this, but a posteriori I can safely say that it makes much more sense to do the other way around 
+
+
+I speak for Loiacono, the exam had up to 33 points which you could fully get in the written exam. 30 for the problems + 3 depending on the time you took to complete the exam. There were no additional homeworks as far as I know
+
+
+io mi sono trovato bene usando i libri, si trovano tutti in pdf gratuitamente e all'inizio di ogni pacco di slides il prof. indica esattamente quali sono i capitoli e sotto capitoli del libro da studiare. Le slides stesse seguono esattamente quegli argomenti
+
+
+Ragazzi come consigliate di preparare l'esame? Teoria bene, tanti TdE studiando anche le soluzioni. Se hai dubbi cerca di capirli bene che è molto di comprensione
+
+
+Ok, ma la teoria da dove consigli di studiarla? Slide, appunti di PMDS, libro del Bishop e di reinforcement volendo quello che si trova online in PDF
+
+
+Prendi il calendario, e per ogni giorno preghi il santo corrispondente
+
+
+Slide + libro dove qualcosa non mi torna. Temi d'esame per farmi un'idea e tutta la teoria (controllando di non avere alcun buco)
+
+
+Consiglierei questo corso a tutti, fratelli cugini parenti compari e nipoti. È imperativo seguirlo perché altrimenti ci si perdono i commenti di restelli che secondo me sono la parte fondamentale del corso. L'esame è fattibile, ma bisogna studiare.
+
+
+Non open book
+
+
 
 ###Distributed Systems 
 Tanta teoria, argomenti trattati ad alto livello. Prof molto bravo, l’esame non è molto difficile se si studia. 
@@ -67,6 +120,15 @@ Exercises are easy and covered during dedicated lectures: if you find them on th
 The majority of the course follows the topics covered in the book 'Distributed systems' by Tanenbaum and Van Steen, therefore it may be a good reference in order to deepen your study, even if facts show that it is not necessary in order to get a good grade. Polinetwork's GitLab, Studwiz and Telegram groups are always suggested online resources in order to gather resumes done by students, past exam texts and related topics; I suggest you to take a look to them in general, also for preparing other courses.
 
 I enjoyed the arguments of the course, not the course itself, nor the exam structure. I would like to stress the fact that the amount of topics is pretty big, that they are treated poorly during lectures, and that evaluation is not always fair from many point of views. For these reasons, overall IMHO, achieving a good grade is not that easy, therefore if you are interested in keeping a good average and covering the topics I suggest you to just read the book."
+
+
+The course is very theoretical and it is coupled with the Middleware Technologies course, which is the practical counterpart; I only took this and not the other, and I personally regretted it because I felt it lacked purpose on its own
+
+
+Raga non fate il progetto. Addio
+
+
+Fai tutti gli esercizi che ci sono a disposizione e quelli bastano, non chiedono cose stratosferiche. Iomi sono preparato sulle slides e mi sono trovato bene. Sui concetti teorici mi sembra che siano abbastanza flessibili, mentre sono pignoli su cose che non ti aspetti. Tipo a me e a un po' di gente, che io sappia, ha corretto la formulazione di un algoritmo perché la voleva calata nello use case della domanda
 
 
 
@@ -146,9 +208,33 @@ Very interesting course, but this year the exam is quite different and questions
 
 
 
-###Software engineering 2
+###Software Engineering 2
 One of the most useless course of these 5 years. The mandatory project, which now should not be mandatory anymore afaik, was very time consuming and you took home very little in terms of learning (it's pure theoretical). The written exam was rather easy, but the topics are really bullshit and the lessons are very very boring. 
 There was the possibility of doing a research project instead of the written exam, I did it but it turned out to be much less interesting than what I thought and very time consuming. There was also the possibility of doing the implementation of the mandatory project, but for sure it's not worth the time it requires, compared to the written exam. 
+
+
+Consigli su come approcciare questo esame? Non ho seguito nessuna lezione e devo fare l'esame intero >>> With old thesis. I didn't study even 10 hours in total and I passed it good
+
+
+Pareri di studenti passati incitano a fare l'esame completo senza progetti
+
+
+Questo fa parte di quegli esami del cazzo in cui tutti hanno approcci diversi: La cosa più intelligente da fare sarebbe aggiungere cose sulle slide se proprio vuoi secchiartela. Io da buon ingegnere me ne sbatto il cazzo e faccio finta di seguire le lezioni mettendole a 1.75x; Sulle esercitazioni mi concentro un po' di più, ma a questo punto dell'anno è solo per farmi una idea. In sessione si rileggono le slide con attenzione, ti rifai tutte le esercitazioni, ti spacchi di temi di esame (questo esame in particolare ha svariati anni addietro quindi ce ne sono un botto). Se vedi che hai difficoltà a fare i TdE, integri quel concetto con il libro [mai fatto]. Se vuoi secchiartela al massimo, puoi prendere appunti al PC per integrare dalle slide, fare gli esercizi prima delle esercitazione e fare domande in presenza, ma considerando quanto sono una palla gli argomenti preferirei farmi crocifiggere che fare una cosa del genere
+
+
+Il progetto secondo me lo devi fare solo se sei appassionato, ma da quanto dicono di certo non è la strada più semplice per superare l'esame
+
+
+Per le lezioni/ese, secondo me sono sufficienti le slide (io scrivo poco o nulla a lezione), a tempo debito conviene darsi una bella lettura per capire bene i concetti (ma senza impazzirci troppo, perché tanto l'esame è open book) e poi andrei di tanti tde vecchi
+
+
+1 - è openBook, fai più temi d'esame che puoi e portateli
+2 - fai Alloy, è pressapoco certo che ci sia
+3 - JEE sembra complicato ma nella pratica è molto snello da fare, trova un esercizio svolto e fai reverse-Engeneering
+4 - Project planning sono sempre le solite quattro formule, trovale e scrivitele
+
+
+L’ho preparato in 2 giorni
 
 
 
@@ -325,7 +411,7 @@ I found the topics interesting, even though they are not strictly required for t
 An oral exam on the course theory can be taken instead of the presentation&homework, but I do not suggest it.
 Overall, I suggest this course to people who want to find out more about the methods used in projects that require an absolute correctness, such as NASA rovers. 
 
-###Advanced algorithms and parallel programming
+###Advanced Algorithms and Parallel Programming
 The course is very interesting if you are interested in algorithms and parallel programming. The course is divided in two part. The part of AA is held by prof. Ferrandi and it's mainly about randomized algorithms, randomized data structure and some analysis methodologies for randomized algorithms. You have to be interested in the topic (take as a comparison the second part of the API course) otherwise it will be boring and tedious. The professor is not exceptional, but the topics are hard to explain in a catchy way. The second part is taken by Serena Curzel and talks about CUDA/openmp/posix threads and other technologies like Halide. You will learn how to program with different techn. The second part is very hands on and you will also have the opportunity to gain a certificate from NVidia on CUDA. The exam is divided in two modules. The AA part is composed by 3 questions and they are easy (also they are not "new", if you look into past exams you will probably find the questions of your exam). I've personally not taken the PP written exam because I did the project instead. You can skip a written exam (of 1 of the 2 parts) by doing a project. I'd suggest it only if you are really interested as preparing yourself to the written exam is easier. You can also do 4 challenges to gain 0.25x extra points.   
 
 
@@ -341,12 +427,28 @@ The course is very interesting if you are interested in algorithms and parallel 
 Very interesting course if you like the topics. The part on the advanced algorithms is mainly based on randomization algorithms and something on DP. In the part on parallel programming, we saw OpenMP, MPI and PThread, mainly through exercise sessions, and some patterns. The AA part is mainly theoretical, while the PP part is more practical. During the semester we had the possibility to present some work(challenge) by writing some program that implements a specific algorithm. For each challenge, you can skip the corresponding question at the exam (and take the full mark if you did good work). The professor quietly disappear during the last part of the course ( the results of the challenges were published just one day before the exam), but I still think the arguments were presented in a good way. The exam is divided into two parts (you can take them separately) and generally, the marks are good. Not many people follow the course.
 
 
+Il corso non è molto difficile e l'ho trovato abbastanza interessante
+
+
+Il prof fa il suo, non è male
+
+
+Onesto con i voti
+
+
+Il progetto lo si fa entro la prima sessione d esame teoricamente: All inizio fa finta sia un progetto di gruppo nel linguaggio che vuoi. Alla fine se ne esce con progetto singolo in c++ Prepararsi per l esame è molto più facile che fare il progetto soprattutto se come me non hai mai usato c++
+
+
 
 ###Technologies for sensors and clinical instrumentation
 Argomenti interessanti e molto dettagliati. Prof Aliverti bravo e spiega bene. Materiale completo e abbondante (anche su Andreadd). L'esame è duro da preparare perchè gli argomenti sono tantissimi e stradettagliati. Il progetto (Arduino) porta via abbastanza tempo. Esame scritto sia pratica che teoria ed orale obbligatorio, per chi ha lo scritto sufficiente, con correzione dello scritto e domande extra per alzare di due punti il voto.
 
+
+
 ###Segnali per le telecomunicazioni
 course in ITALIAN only. il corso è da 10 cfu e può essere usato per coprire i requisiti INT1. E' interessante per quanto sia più nell'area matematica/fisica che quella informatica (si parla di Trasformate di Fourier principalmente), Prati è molto bravo, tiene lui sia lezioni che esercitazioni e quindi sono ben coordinate e seguirle è molto utile. C'è un libro da lui scritto a cui fare riferimento, e una decina di anni di temi d'esame con le soluzioni. Fa anche un appello extra a inizio giugno. L'esame presenta sempre la stessa tipologia di esercizi e se si fa abbastanza pratica è fattibile prendere un voto alto.
+
+
 
 ###Image analysis and computer vision
 + interesting topics. You learn to manipulate images and extract features from them
@@ -357,10 +459,14 @@ course in ITALIAN only. il corso è da 10 cfu e può essere usato per coprire i 
 - professor Caglioti is super messy. Explanations are clear, but what he writes are hieroglyphics. Even the slides have a weird order
 + Boracchi is instead very clear, and publishes his material on his public site. He covers again topics already taught by Caglioti, but it is very helpful
 
+
+
 ###Data intelligence applications
 The exam is 17 points for a project to be made in groups of about 4 people, on one the proposed tracks, each of which covers 2 of the 4 topics of the course. The remaining 15 points are obtained with a written exam on the remaining parts of the course. All the topics are interesting, even if the lessons are pre-recorded on youtube and a bit boring. Often they don't go too much in detail. The written exam is easy, the questions are standard, while the project is challenging because it's hard to understand what they really want and the teaching assistant (Bernasconi de Luca) is of little help. Anyway I suggest to take this course if you are interested in the topics. 
 
-###Computing infrastructures
+
+
+###Computing Infrastructures
 The performance part is kind of ridiculous, don't waste time following its lessons, read the slides, learn the bunch of formulas which are requested and do some exercises (which are an almost trivial application of these formulas). 
 
 
@@ -370,6 +476,21 @@ It's rather easy at the end, even if a small error can cost you more points than
 
 
 The topics are interesting but the lessons not. It is easy to take an high grade 
+
+
+Esistono riassunti ma sono più vecchi, le slide e i tde bastano e avanzano
+
+
+[Non sono rari problemi dati dall’ambiguità delle tracce]
+
+
+Il corso potrebbe anche risultare interessante, per chi è interessato a comprendere come funzionano i datacenter nella loro interezza. Ma la modalità d'insegnamento lo rendono uno dei corsi più inutili che abbia mai fatto. Specialmente le modalità d'esame. Gli esercizi sono meccanici e l'esame è a crocette. Potresti prendere 30L senza aver capito in realtà una mazza, oppure essere bocciato perché le domande non testano le tue conoscenze, ma la tua fortuna nel ricordarti che la lunghezza di un rack è 44.45mm (è una delle domande da vero o falso). Se vuoi un esame facile ma randomico, è perfetto
+
+
+Complicato di sicuro no, ma è un terno al lotto
+
+
+Secondo me fai tutti gli esercizi delle esercitazioni, leggiti le slides e sei a posto [per puntare a 30]
 
 
 
@@ -395,6 +516,24 @@ Overall, a very cool subject, sometimes poorly presented, and not so easy to pas
 ###Data Bases 2
 "Not so interesting, doable exam. This year the exam indication came very scarcely and late. 
 The best way to approach it IMO is to follow the exercise sessions, read on the slides and do some old exams."
+
+
+A chi interessasse, parrebbe che il prossimo anno db2 tolga tutte le modalità di valutazione "alternative"
+
+
+Da quel poco che c'è scritto sembra anche che cambi il programma
+
+
+Closed book
+
+
+A mio parere comunque Martinenghi è molto bravo
+
+
+Non è difficile quanto che non ha senso, ogni esercizio è a sé e devi avere culo per avere l'intuizione giusta. C'è poco da studiare o capire. Poi non mi motiva molto studiarlo dato che mi sembra una roba specifica per chi deve costruire software di database, non so perché è un argomento di un corso obbligatorio
+
+
+Si infatti trovo difficile confrontare le mie soluzioni perché ogni volta si inventano qualcosa di nuovo. Però quando correggono mi sembrano flessibili
 
 
 
@@ -509,3 +648,51 @@ For more information this is the site of the course: https://www.fer.unizg.hr/ra
 The topics are quite interesting and advanced. However, professor Scattolini is really boring and makes the topics difficult to understand. Because of this it’s quite a hard course as well as overly theoretical. The exercise sessions are quite good, it’s the best way to understand the topics taught.
 
 
+
+###Uncertainty in Artificial Intelligence
+Studiati benissimo la parte di matteucci, per la parte di bonarini prova a fare i temi d'esame vecchi leggendo i suoi consigli
+
+
+Parte di bonarini semplice da studiare, esercitati sui temi d'esame, poi all'esame bisogna aver un pizzico di fortuna con le tracce, visto che normalmente uno dei due problemi è scritto male
+
+
+Matteucci fai gli esercizi sulle slide e studiati anche un po' le definizioni, io ho studiato sul libro anche i markov random field (non in programma) ma è utile solo per capire meglio il factor graph. In questo esame la parte di Matteucci secondo me era molto molto facile
+
+
+Anche se alcuni esercizi non li avevamo mai visti, ma basta usare un po' la logica, tanto la parte time consuming è quella del bonarini
+
+
+
+###Recommender Systems
+Per chi ha fatto l'orale della challenge: ci potete dire cosa chiede o quanto dura? Molto semplice, fa due domande ampie e dura circa 15-20 minuti. A me ha chiesto di fare una panoramica su matrix factorization, entrando sui dettagli sulle cose rilevanti e mostrando formule + stessa cosa per factorization machines. A un mio amico più o meno idem con s-slim e BPR. Se uno ha un'idea generale e sa le formule rilevanti, nulla di cui preoccuparsi - Confermo a me ha chiesto factorization machine e S-slim. Molto tranquillo
+
+
+Corso carino e molto utile. Di per se non è neanche troppo difficile e l'esame orale non è complicato. Tuttavia a mio avviso la vera learning experience è l'esame fatto con challenge del corso + challenge internazionale, li impari davvero un casino di cose e fa una grossa figura sul CV. Drawbacks: la challenge del corso è un po' una faida fra colleghi, il voto dipende unicamente dalla tua posizione in classifica e va a scalare, quindi il primo prende 28, il secondo 27 eccc... (lo scaling non è questo, ma è per darti un'idea). Non è come neural networks che la posizione contava fino a un certo punto. Se ti capita l'annata ultra competitiva, devi sputarci un po' di sangue ahah
+
+
+Super consigliato + corso seguibile su Coursera; esame molto fattibile
+
+
+
+###Principles of Programming Languages
+Le slide sono utilissime, ma credo un po' incomprensibili senza le lezioni
+
+
+Molto bella!! Ti insegna a programmare con 3 linguaggi con paradigmi veramente diversi da quelli standard, quindi è difficile. Ti obbliga a uscire dagli schemi mentali soliti, a ripensare il flusso di controllo, ma questo ti permette, nella pratica, di apprezzare le funzioni lambda e di capirne la toria, il significato, l'utilità e l'importanza, come strutturare un programma thread safe, e come la tipizzazione possa esserti utile (te le ho messe in ordine di come le ho trovate utili nel mondo lavorativo). Per il resto i linguaggi sono praticamente morti o comunque dubito che abbiano un utilità intrinseca, ma ti aprono veramente un mondo!! Poi il prof è capace e disponibile, e all'esame ti lascia consultare gli appunti, ma questo non rende l'esame piu' semplice. Poi ti fa vedere come alcune cose vengono implementate (per esempio vedi come vengono gestite le classi in python e come vengono gestite le eccezioni... cose veramente mind-blowing e interessantissime, secondo me). Credo sia uno degli esami migliori della magistrale!!
+
+
+Per me, è stato leggere le slide più volte, fare esercizi e integrare sui libri le cose che non mi erano chiare
+
+
+Aggiungo solo qualche cosa. Viene chiamato Principi di linguaggi ma secondo me è un po'fuorviante. I primi due linguaggi sono funzionali, il terzo è per la programmazione concorrente, specificatamente modello ad attori. Come diceva Marco sono cose che non trovi da altre parti, quindi secondo me è utile (anche perché gli altri tipi di programmazione già lì impari da altre parti, come imperativa e OO. A me è piaciuto molto, devi accettare il fatto di
+dover fare cose un po'tanto astratte. Come esame è fattibile ma potresti dover farlo un paio di volte, perché ovviamente dipende se ti ci trovi con l'esercizio oppure no.
+
+
+
+Mah, c'entra poco, se non nulla con API. È un corso in cui si impara la semantica e la sintassi di tre linguaggi di programmazione: 
+- Scheme: linguaggio pieno di parentesi 😂 serve ad introdurre alcuni concetti di programmazione funzionale, definizione delle macro, continuations... 
+- Haskell: linguaggio puramente funzionale, fortemente tipizzato 
+- Erlang: linguaggio per la programmazione concorrente. Alla fine non c'è nulla a memoria, l'esame è pure open book, bisogna imparare a ragionare e a scrivere codice in questi tre linguaggio. Se studiato per bene, secondo me, è molto utile. Ad esempio, con questo corso, ho imparato python senza doverlo imparare 😂
+
+
+Lo sto riseguendo ora. È un corso interessante, perché vengono approfonditi concetti di programmazione che non vengono trattati altrove. Però allo stesso tempo è abbastanza complesso. Bisogna seguire bene le lezioni e cercare di capire tutte le slide. L'esame di per sé non è complicato, bisogna scrivere tre programmi, brevi. Però per farlo, devi aver capito bene la teoria dietro. Non è sicuramente un corso cuscinetto o un corso semplice, però nemmeno impossibile. Con un po' di studio si fa' . Il prof tutto sommato è bravo a spiegare. È un po' strano per certi aspetti, ma spiega tutto e con molta calma 😂. In teoria, una volta seguito questo corso, capire qualsiasi altro linguaggio di programmazione consiste nell'impararsi la sintassi
