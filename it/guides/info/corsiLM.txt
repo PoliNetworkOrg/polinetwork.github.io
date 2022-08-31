@@ -392,7 +392,7 @@ Overall, a very cool subject, sometimes poorly presented, and not so easy to pas
 
 
 
-###Databases 2
+###Data Bases 2
 "Not so interesting, doable exam. This year the exam indication came very scarcely and late. 
 The best way to approach it IMO is to follow the exercise sessions, read on the slides and do some old exams."
 
