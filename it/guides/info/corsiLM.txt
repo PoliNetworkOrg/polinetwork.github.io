@@ -14,6 +14,10 @@ Il problema sta nel professore che è un po' pazzo, fa esami con richieste molto
 the course is pretty interesting, fundamental for any data scientist, but the exam is quiet hard. The professor pretends you remember everything he said during the lectures, including every example, and he is too severe in the evaluation. There is an optional project which can substitute one random question of the exam (so you have still to study everything), for 9 points, but the timing to complete it is a bit restricted (3 weeks basically). 
 
 
+Fundamental course for anyone interested in data science, although there is a huge amount of topics which all need to be studied in full detail in order to be able to do the exam. This means that most of the work is left to personal study, which can be quite overwhelming since it includes not only the theory part (which sometimes is explained too quickly during classes) but also the python notebooks which are rarely seen during classes (it happened once or twice, and there are plenty of them in the course materials). There is an optional project which is then presented and graded up to 9 points by a company: it is nice to do if you are already skilled with data science, because the time is very limited (~20 days during Christmas holidays) and it does NOT make the exam easier, but only shorter (you still have to study everything)
+
+
+
 ###Machine Learning
 The course is very interesting, I think it's fundamental for anyone who is in AI or Data Science. The material is not bad, but I recommend to follow the lessons. Prof. Loiacono is a bit boring, but in my opinion the part on RL is better explained by him than prof. Restelli. This year the program was not exactly the same in the two sections. Drawbacks: it's not an easy course, the effort required is near to a 10 CFU course, to get an high mark. The course provide solid theoretical foundations on ML, but it lacks a bit in showing practice applications, so be prepared for this. 
 
@@ -40,11 +44,46 @@ P.S.   It's ok to take ann before this, but a posteriori I can safely say that i
 ###Distributed Systems 
 Tanta teoria, argomenti trattati ad alto livello. Prof molto bravo, l’esame non è molto difficile se si studia. 
 
+
+Challenging course, the contents are well beyond 5 CFU, the exam is completely theoretical (apart from a couple of very mechanical exercises) and can include question on anything that's been done during the course. Cugola is a great professor, his explanations are easy to follow but there just too many topics. There is an extra exam call in November (you will skip one of the other two calls in January/February) which is convenient. The topics are very important and I would suggest this course overall, even if getting a good grade is not easy at all. There is the possibility to do an optional project which gives you 4 extra points but it is extremely time consuming.
+
+
+"I think the course is well organized and the topics are very interesting. It's mostly theory and no applications. It covers the topics of synchronization in distributed systems, fault tolerance, replication, peer-to-peer platforms, etc; and a small part on big data processing and security. Both professors, Cugola and Margara, explain the topics clearly and are always available. Slides are available but they tend to be superficial, I studied mostly from specific parts of the book and rewatching parts of the recordings.
+The course follows closely the structure of the book ""Distributed Systems"" by Tanenbaum and van Steen. The exam is composed of around 5 open-ended questions and 2 trivial exercises. The course lasts half a semester (includes all 50 hours of any 5 credit course though). Grading is reasonably high, plus there's an optional project (implementation in Java or Omnet++) you can take that can award you up to 4 points in the written exam, you can choose one of the 4 or 5 available projects the professor offers. You can submit the project whenever you want, even if you have already taken the exam, the professor freezes your grade.
+There's an exam call in the middle of November, however if you take it you won't be able to use both exam calls in the Winter Session, just one. "
+
+
+Good course and professors. However there are solutions of the exams provided by the professors 
+
+
+"The course is pretty theoretical, take it if you are interested in topics and problems about systems that are composed by different co-dependent components. The course develops into 10 main arguments about DSs: architectures, communication, naming, synchronization, fault tolerance, consistency & replication, P2P architectures, big data architectures, security-related topics and simulation. IMHO, the course is well structured and arguments are interesting, but the amount of topics covered is pretty big and lectures by prof.s Cugola and Margara provide a poor/shallow explanation of every concept. The evaluation is based on:
+- an optional group project covering the simulation part that let you add up to 4 points to the overall score
+- a written exam composed by 7 open questions/exercises (usually composed by up to 3 exercise and the remaining part by questions) covering the whole program except the simulation part
+
+I personally did not made the project; people say that it is worth in order to easily gain up to 4 points while understanding better the topics.
+
+Exercises are easy and covered during dedicated lectures: if you find them on the exam is good, they usually help you to raise the overall mark. The main drawback of the evaluation concerns the open questions: students are required to include in the answers specific concepts that you may encounter only attending lectures, and eventually showing a deep understanding of concepts that go beyond the lectures. In case these requirements are not met, the evaluation will heavily decrease the overall mark.
+
+The majority of the course follows the topics covered in the book 'Distributed systems' by Tanenbaum and Van Steen, therefore it may be a good reference in order to deepen your study, even if facts show that it is not necessary in order to get a good grade. Polinetwork's GitLab, Studwiz and Telegram groups are always suggested online resources in order to gather resumes done by students, past exam texts and related topics; I suggest you to take a look to them in general, also for preparing other courses.
+
+I enjoyed the arguments of the course, not the course itself, nor the exam structure. I would like to stress the fact that the amount of topics is pretty big, that they are treated poorly during lectures, and that evaluation is not always fair from many point of views. For these reasons, overall IMHO, achieving a good grade is not that easy, therefore if you are interested in keeping a good average and covering the topics I suggest you to just read the book."
+
+
+
 ###Foundations of Operations Research
 Our professor (Malucelli) is not able to teach a lesson without having someone falling asleep, but fortunately gives the possibility to increase exam's grade by additional 4 points with 10 weekly puzzles and a very easy peer grade exercise. The exam is pretty simple, if you study the exercises in a mechanical way. Trying to understand operations research theory is useless to pass the exam. The material on beep is bad as hell: using it means studying 2 weeks for an exam worth at most one week study.
 
 
 Prof. Amaldi section. Very interesting course, I suggest to follow the lecture, the professor explains very well. The exam is honest, nor hard nor easy. 
+
+
+"Malucelli might not be the most engaging professor but still I found the course very interesting. The course gives a complete view on OR problems, from theoretical formulations, modelling, solving algorithms and programs to solve them automatically. 
+During the course the professor assigns some puzzles, doing them gives you extra points to be used to skip one exercise in the exam. Also doing a mini lab project (max a couple hours of work) allows you to skip a 4 grade exercise.
+To sum up: interesting and useful course, decent teacher, doable exam. Probably the best course from y1sem1 mandatory exams"
+
+
+This was a mandatory course for me, I must say that the course is full of repetitive topics, especially in the first part, so I didn’t enjoy it too much. Also, the professor Braz was really slow during the lectures and for the most of the time read the slides so it’s better to not follow her course.
+
 
 
 ###Model identification and data analysis 
@@ -72,14 +111,20 @@ The exercise sessions are quite intense, and it's almost impossible to follow th
 Il corso è interessante e non troppo complicato. Non serve avere basi di ML o statistica avanzata per seguirlo (io non avevo seguito altri corsi di AI prima). L'esame scritto vale 26 punti e i voti sono mediamente alti, le tre challenge valgono 6/7 punti e si svolgono tra novembre e gennaio.
 Le challenge, per farle in modo almeno decoroso, portano comunque via un po' di tempo, e sarebbe bene conoscere un po' di programmazione python. I laboratori mostrano solo il minimo necessario per fare una challenge, per migliorare è necessario un bel po' di studio autonomo e di fortuna nel trovare i valori giusti degli iperparametri.
 
+
 Interesting and not difficult at all. Covers a broad spectrum of topics in the field of deep learning, from basic to current state of the art. You also have the opportunity to learn tensorflow. The drawback is that you will know your grade the day before the next exam (there's an high chance). 
+
+
+The course was interesting but half of it was held by Boracchi which he was not really good at explaining it. Moreover in the last year they decided to make the exam more difficult wrt the previous years and take a good grade is not more easy.
+The exam is composed by the write part (20 points) and 2 not mandatory challenges (5.5 points each)
+
 
 
 ###Informatica e diritto
 Corso molto interessante per avere un'idea di come funzionano le cose a livello legale. Precedentemente tenuto da Triberti e Perri (di cui il primo è però ora in pensione ) che venivano entrambi incontro alle esigenze degli studenti e con cui è facile prendere un voto alto
 
 
-###Foundations of artificial intelligence
+###Foundations of Artificial Intelligence
 I've taken the course with professor Colombetti (now retired), but he only covered half of the course, the other half was taken  by professor Amigoni. The course covers search algorithms (for intelligent agents). It's not hard and if you are interested in algorithms I will suggest it. The course is easy, but you have to be very precise in the exam. Following lectures/ex. session may help, but the material was enough to study by yourself. 
 
 
@@ -88,6 +133,17 @@ The problem is that the time in the exam is very short (online).
 
 
 This year the course was held by both prof. Colombetti and prof. Amigoni, alternating in the online lectures for both sections, with prof. Restelli for the exercises. The course covers the classical techniques of early AI, they are somehow ancient, but I think they can be still useful and it would be crazy to ignore them, while learning ML and NN. The exam is not hard at all, even if the online version was a bit harder due to the restricted time and the difficulty of writing some types of exercises in a form.  At the and I suggest it, but if you have something more interesting you could decide to skip it.
+
+
+"I had prof. Amigoni, but the real mind of the course seemed to be prof. Lanzi (for which this was the first year teaching it). Before the exam I would have said that it was great, lessons are easy to follow, topics are interesting and exercises are easy to learn.
+From the last year they added some topics (e.g. reinforcement learning) but this was not a big deal.
+The problem came with the exam itself (I did the first call), prof. Lanzi decided to reduce the time from 90 to 75 minutes without reducing the complexity. At the exam we discovered that he would have assigned negative points to wrong answers (that seems crazy for exercises as you tipically do not try random answers), this caused more than 1/4 of the students to withdraw scared of skipping the following call if their grade was below 10.
+On top of it, they took 16 days to publish the grades (and they did it only when contacted by the student representatives) 7 days before the second call.
+I hope that next year something will change."
+
+
+Very interesting course, but this year the exam is quite different and questions are extremely vague (nobody knows why), so the exam evaluation is a mystery. The exam is neither equal of what you see at exercise sessions nor equal at past exams, but harder. Professors are also very disorganized. Not suggested at all.
+
 
 
 ###Software engineering 2
@@ -99,11 +155,19 @@ There was the possibility of doing a research project instead of the written exa
 ###Logica e algebra 2
 Se vi piace la materia il corso è molto interessante e Frigeri a mio parere è un ottimo professore. L'esame è veramente facilissimo, è un orale in cui si devono portare 10 dimostrazioni a scelta su tutto il programma. Inoltre il prof è molto alto con i voti
 
+
+Corso completamente teorico in cui vengono dimostrati solo teoremi. Tuttavia all’esame (orale) si portano solo 10 dimostrazioni a scelta e i voti sono alti
+
+
+
 ###Internet of things
 Ho fatto IoT nell'anno accademico 2019-2020 e la valutazione era divisa in 25 punti con l'esame, 5 punti di Home Works opzionali e 3 punti di progetto facoltativo. (Quest'anno penso fossero 4 di HW e 4 di progetto)
 Gli HW e il progetto non erano niente di difficile, l'esame secondo me era standard (Se ti fai le esercitazioni e riguardi i TDE vecchi, sai già cosa aspettarti).
 Se fai tutti gli HW il progetto secondo me non è niente di difficile. In 2 / 3 giorni io l'avevo fatto, la parta più difficile era quasi scrivere il report perchè lo voleva di sole 3 pagine con intestazione.
 Gli esami sono simili ai vecchi TDE, i V/F si ripetono e gli esercizi sono della stessa tipologia e se ti alleni un po' prendi un bel voto. 
+
+
+Corso piuttosto semplice e in cui è facile prendere un buon voto. Gli argomenti sono interessanti ma ai fini dell'esame vengono trattati in maniera abbastanza superficiale. Il voto è composto da 26 punti dati dall'esame scritto, 4 punti da challenge (sono 4 tutte abbastanza semplici) e 4 da un progetto. Chi segue anche Wireless Internet può fare un unico progetto valido per entrambi i corsi. Per quanto riguarda l'esame scritto, gli esercizi sono estremamente meccanici e si ripetono. Altra nota positiva: il numero di appelli in un anno è 6 e non 5 perché il prof organizza un preappello o un esame extra a settembre.
 
 
 
@@ -144,16 +208,41 @@ The exam is made by exercise similar to the ones proposed during exercise sessio
 I suggest you this course if you miss 5 CFU and you want to enlarge your knowledge and maybe also push up your final grade.
 
 
+"Very interesting topic, the lectures are not boring and the exercise sessions are very useful.
+It's not really pertinent on IT (it's more abouth math/statistics/strategy) but I still find it really useful for a personal growt prospective. It gives you a better understanding of many real world fenomenons. 
+The exam it's easy (i think 1/3 of the class got 30) and can be taken in early november (the course is emimestral)"
+
+
+Great course, it is very simple and getting a high grade is not difficult. the exam itself is pretty standard and just by following the exercise sessions you may be able to pass it, still I suggest studying for it. it has an exam session in novembre (if you do the exam then you won't be able to do one session in January/February) and that's very convenient in order to have less exams in the upcoming session. Lucchetti is a good professor, I found his lessons interesting but when the time of the exam comes closer he gets a bit angry, maybe even passive aggressive in his emails. Definitely a course I'd recommend, the contents are basic but important mathematical concepts. 
+
+
 
 ###Business Information Systems 1
 Esame che tratta argomenti molto a grandi linee, e poco tecnici. Esame a crocette quindi è sempre un punto di domanda per il voto.
 
-###Technologies for information systems
+
+The course is very similar to "sistemi informativi" held in the bachelor at PoliMi, so the topics are not interesting even if it must be said that professor Francalanci is, in my opinion, really good at explaining. It's all theoretical and the exam is quite easy (cross questions) even if for each question you can get just 4 or 0 points, so one mistake it's enough to lose all the 4 points. There is just a little project to do, it does not give any point but it is mandatory, it's a work that you can do in 2/3 days, nothing difficult.
+
+
+
+###Technologies for Information Systems
 The course is not bad, I think it's easy to pass it with an high mark. The topics are quiet interesting, but at the end you won't have learnt too much in my opinion, due to a superficial approach to all the interesting topics, with exercises quiet mechanic and boring. The communication part can be interesting. Take it if you want an easy course or you don't have anything more interesting to choose.
+
 
 Esame semplice, argomenti non così complessi e neanche così interessanti. Classico corso per tappare un buco.
 
+
 The course topics are interesting, but the approach is too vague and theoretical and at the end I didn't learn too much. The exam is relatively easy, so I suggest it only if your are looking for something easy. Do not underestimate the Communication part, it's just a pass/not pass, but you have to write a good summary to pass it. The most interesting part were the 3/4 seminars held by other professors, which where outside the course program anyway. 
+
+
+"The course was held by prof. Tanca. I don't advise following the lessons are they are not so interesting and in my opinion the slides are enough to study the theory part.
+For the exercise part, the exercise sessions were really good (prof. Azzalini) and I think are a very good starting in view of the exam.
+The exam is composed of 2 parts, 10 pts for the theory with closed and open questions (prof. Tanca is really strict on the correction of the open parts) and 22 pts for the exercises.
+Good exam if you want to get a good grade with low effort but I think that the topics were not so interesting and are difficult to be used in the real world."
+
+
+The course covers the basics of data engineering: the two main topics are data integration and data warehouses, few but fundamental concepts, pretty easy to follow along and master before the exam session. Theory lessons are mediocre, as opposed to exercise sessions, which are very helpful for solving the exam exercises. There is an extra communication part (2 lessons) which is nice to break the monotony and is evaluated with a pass/non pass writing exercise (summarizing a scientific paper). There are some overlaps with data mining. Definitely suggested if you are interested in the topics or you are looking for an honest 5 credits course.
+
 
 
 ###Digital innovation lab
@@ -240,7 +329,6 @@ Overall, I suggest this course to people who want to find out more about the met
 The course is very interesting if you are interested in algorithms and parallel programming. The course is divided in two part. The part of AA is held by prof. Ferrandi and it's mainly about randomized algorithms, randomized data structure and some analysis methodologies for randomized algorithms. You have to be interested in the topic (take as a comparison the second part of the API course) otherwise it will be boring and tedious. The professor is not exceptional, but the topics are hard to explain in a catchy way. The second part is taken by Serena Curzel and talks about CUDA/openmp/posix threads and other technologies like Halide. You will learn how to program with different techn. The second part is very hands on and you will also have the opportunity to gain a certificate from NVidia on CUDA. The exam is divided in two modules. The AA part is composed by 3 questions and they are easy (also they are not "new", if you look into past exams you will probably find the questions of your exam). I've personally not taken the PP written exam because I did the project instead. You can skip a written exam (of 1 of the 2 parts) by doing a project. I'd suggest it only if you are really interested as preparing yourself to the written exam is easier. You can also do 4 challenges to gain 0.25x extra points.   
 
 
-
 + generally interesting
 - some parts are just enumerations of millions of variations of always the same concept, but "luckily" they are not asked
 - the slides are not always complete or comprehensible (because of layout bugs that I guess won't be ever fixed)
@@ -248,6 +336,11 @@ The course is very interesting if you are interested in algorithms and parallel 
 +/- there are projects/homework during the course, but they are worth basically nothing (1 cumulative point for hours/days of work). I suggest to do them anyway to see some concepts in practice
 + Interesting and well done the part of Erica Stella on Cuda. It's a NVIDIA online course that we have for free by attending AAPP
 - the projects during the year 2021 were given unreasonably late. The perception was that two papers were randomly extracted last minute and given to us to work on. Not worth the time and not particularly useful, as they are an extension of the homework 
+
+
+Very interesting course if you like the topics. The part on the advanced algorithms is mainly based on randomization algorithms and something on DP. In the part on parallel programming, we saw OpenMP, MPI and PThread, mainly through exercise sessions, and some patterns. The AA part is mainly theoretical, while the PP part is more practical. During the semester we had the possibility to present some work(challenge) by writing some program that implements a specific algorithm. For each challenge, you can skip the corresponding question at the exam (and take the full mark if you did good work). The professor quietly disappear during the last part of the course ( the results of the challenges were published just one day before the exam), but I still think the arguments were presented in a good way. The exam is divided into two parts (you can take them separately) and generally, the marks are good. Not many people follow the course.
+
+
 
 ###Technologies for sensors and clinical instrumentation
 Argomenti interessanti e molto dettagliati. Prof Aliverti bravo e spiega bene. Materiale completo e abbondante (anche su Andreadd). L'esame è duro da preparare perchè gli argomenti sono tantissimi e stradettagliati. Il progetto (Arduino) porta via abbastanza tempo. Esame scritto sia pratica che teoria ed orale obbligatorio, per chi ha lo scritto sufficiente, con correzione dello scritto e domande extra per alzare di due punti il voto.
@@ -270,9 +363,15 @@ The exam is 17 points for a project to be made in groups of about 4 people, on o
 ###Computing infrastructures
 The performance part is kind of ridiculous, don't waste time following its lessons, read the slides, learn the bunch of formulas which are requested and do some exercises (which are an almost trivial application of these formulas). 
 
+
 The technology part could have been interesting, but is presented in a very superficial way, loosing a lot of times on bullshit (like hard disk exercises). 
 The exam is made of closed questions only, very stupid way to examine imho. 
 It's rather easy at the end, even if a small error can cost you more points than what it should, due to the closed question format. 
+
+
+The topics are interesting but the lessons not. It is easy to take an high grade 
+
+
 
 ###Cryptography and architectures for computer security
 The course is very interesting if you like security topics. The material is quite good. However the exam is very difficult especially if you have never worked with modulus and discrete math.
@@ -283,3 +382,130 @@ The post-covid exam is quite complex.
 
 ###High-tech Enterpreneurship
 Not recommended. The professor (Gaetano Colombo) and his assistants (Julian Giessing and Anna Souakri) are almost useless, same for the lectures. The only few and useful things you can learn are the ones related to the project (and you learn them by yourself) .  The material of the course is not very good. The only difficulty of the course is trying to understand what is required for the project by yourself and which are reliable sources of information
+
+
+
+###Baesyan Statistics
+"This subject is very interesting, and the course very broad. However, I found the teacher to be not so clear, and the subjects quite tricky (especially if you did not have any statistics course before). On top of that, the structure of each lesson may not appear clearly, as the Prof does not emphasize it... The project can be extremely time consuming, but very enriching, try to find good teammates asap.
+The exam is of variable difficulty, several examples are provided. They follow (usually, but not always...) the same pattern, with some classical questions and some ""lesson"" question. 
+Overall, a very cool subject, sometimes poorly presented, and not so easy to pass the exam. Use open resources on the internet to help your learning to benefit the most from the course!"
+
+
+
+###Databases 2
+"Not so interesting, doable exam. This year the exam indication came very scarcely and late. 
+The best way to approach it IMO is to follow the exercise sessions, read on the slides and do some old exams."
+
+
+
+###Complessità nei Sistemi e nelle Reti
+"Corso molto interessante, il professore sa spiegare e far mantenere bene l'attenzione.
+L'esame è abbastanza standard, il professore è MOLTO puntiglioso sulle correzioni, soprattutto sulla teoria. 
+Si può ottenere punti bonus esponendo un paper, vedi qui: https://piccardi.faculty.polimi.it/csr.html"
+
+
+"I chose this course because it was in the INT1 tab and we have to choose 15 CFU from it.
+The course is not difficult to follow, lectures are in italian but slides in english and they are enough to study it. The topics are related to the networks and how they work.
+The exam is a bit difficult (not so much) because the professor Piccardi wants that the student is very precise when he does it. It is made of 3 practice exercise where you have to apply some formulas, 2 open theory question and 3/4/5 closed questions (the number of them depends on what the prof decides). This is the first academic year (21/22) that he makes an exam like this."
+
+
+
+###Natual Language Processing
+The new version of this course (2021) is very focused on theory about NLP; there are two types of lessons: some on NLP aspects (hold by the professor) and others about the main deep learning techniques for NLP (hold by her assistant). There is also an optional laboratory part (if you follow all lab lessons, you gain 2 extra points for the exam) in which some Pytorch code to solve NLP problems is showed. Lessons are not fundamental to pass the exam, but can be useful to understand some difficult topics. The exam is made by 9 open questions about the NLP and/or the deep learning part (no questions on laboratory). Questions are very specific, you need to know the theory very well and may require to invent examples. The main advantage is that it is emisemestral, so you can do the exam on November call and avoid doing it during the winter session.
+
+
+
+###Systems and methods for big and unstructured data
+The course is divided in theory and exercise lessons. In the theory part you study big data, NoSQL solutions (graph, documental, columnar, information retrieval and key value databases) and something on Hadoop. In the exercise sessions, the prof shows you how to use these tools in practise by doing queries. To pass the exam you need to do 3 small group projects (from october to january, worth 30% of the mark) using the NoSQL technologies explained during the course and a theory/practical part (worth 70%) where you need to answer theoretical questions and do queries/design a NoSQL solution. The course is really interesting, the prof is good at explaining things.
+
+
++ Interesting topics, it covers the main technologies used nowadays for big data 
++ not difficult, it is worth 5 CFU and grades are fair 
++- the 30% of the grade is assigned by 3 little projects that will only waste your time, very easy assignments that do not teach you anything 
+- all the topics are covered in poor detail, at the end of the course I feel that I only learned that those technologies exist and how to perform some queries 
+- the final exam evaluates stupid skills like your ability to sketch an E-R model that takes 30 minutes itself and the for rest of the exam you will have to hurry in finishing the last 4 pages of questions.
+In conclusion I do not suggest this exams if you are searching something interesting that upgrades your knowledge."
+
+
+The main topics of the course are interesting, but basically Brambilla's lessons are composed of like 3 or 4 concepts which he continues to repeat going on in the slides. To get the full grade one has to take part to the projects' deliveries (worth 30% of mark/around 10 points). Tocchetti's exercise sessions are really useful to prepare for the written part, even considering that, for now, the exam is really poorly organized.
+
+
+The course is really interesting because many types of databases are studied, but the number of hours isn’t sufficient to understand well all the features. Also, professor Brambilla, who made a very exact course planning  at the beginning of the semester, ended up delaying everything the project included. 
+
+
+
+###Theoretical Computer Science
+I took the course with prof. Morzenti because it was mandatory for me (bachelor degree in another university). I think that this is a useful course, it teaches you the theoretical fundamentals of computation and complexity; it is pure theory and at first sight it may looks hard to understand but if you take your time it is quite simple (the computability part is the most tricky one). I suggest to do reverse engineering following the exercise sessions (you will get 80% of what you need to pass the exam) and then if something is not clear you can study that particular thing on slides or re-watch recordings.
+
+
+
+###Numerical Analysis for Machine Learning
+It's a course with two faces: it's by far the most interesting course I have ever had, but also by far the most difficult one. It covers a large range of topics of machine learning, both theoretically and practically so it is very useful. I suggest attending it but you must be conscious of a couple of things: it is based on a lot of algebra so understanding every theoretical thing is quite hard, and there's no material provided by the professor, so you must attend all the lessons and rely on indian guys on youtube. Prof Miglio is good at explaining, but also impossible to contact via mail (he never answered to my multiple emails in months), prof. Regazzoni is good and his exercise lessons must be followed. The exam is split in multiple parts: 8 cfu are given by the written exam, which summarizes all the things treated in theoretical and exercise lessons, and 2 cfu by the project, which doesn't require a lot of time luckily. If your grade in the written exam is greater than 28, you have to do an oral exam about all the theorems and demonstrations of the course, but you can choose not to do it and your grade will be lowered to 28. Giving my own opinion I suggest you to attend it because I think it's so useful and interesting if you want to improve your machine learning knowledge, but as mentioned before, be conscious that it is not the best choice if you want an easy semester.
+
+
+Very very interesting course, it’s really hard in my opinion, but it is a pure mathematical course and the professor expects the students to have done a Numerical Analysis course previously, thing that I didn’t do during the bachelor degree. For the 10 CFU course there is also a mandatory project that can be done with another person, it’s really useful to clarify the concepts in your mind.
+
+
+"Is a very interesting course but is very difficoult. The topics range from Machine Learning to Artificial Neural Networks where all the mathematics behind them is explained.
+The professor is good at explaining but sometimes assumes the knowledge of some topics, which however is not always present.
+The labs follow the topics of the theoretical lessons and are focused on implementing machine learning algorithms and Artificial Neural Networks using Python.
+The written exam has a maximum grade of 28. To get a higher grade you need to take an oral exam. There is also a mandatory project to do during the year"
+
+
+
+###Bioinformatics and computational biology
+Corso interessante per le tematiche trattate se si è interessati alla bioinformatica. I principali contro sono: 1. professore poco coinvolgente durante la spiegazione 2. Corso troppo denso con esercitazioni che sono praticamente ulteriori lezioni 3. Dipersività del materiale con intere slide che spesso presentano un alto volume di informazioni e non sottolineano veramente i concetti fondamentali.
+
+
+
+###Bioninfarmatica e genomica funzionale
+Esame molto interessante. La Professoressa è estremamente chiara nelle spiegazioni e ci tiene che gli studenti comprendano i vari concetti che sta spiegando, anche ripetendosi più volte. Le esercitazioni prevedono l'uso di Matlab e consistono nell'applicazione di alcuni concetti che sono stati presentati durante il corso. Per quanto riguarda l'esame, la professoressa non fornisce temi d'esame e bisogna un po' andare in giro per ripescare qualche esempio e nell'esame è molto facile perdere tanti punti dovuti a piccoli errori. Sottolineo inoltre che all'esame è presente anche Matlab, quindi è caldamente consigliato avere dimestichezza con il linguaggio. ATTENZIONE: L'esame per noi informatici fa parte della tabella BIO che purtroppo non è presa in considerazione nell'ottimizzazione delle date d'esame. Questo potrebbe comportare una sovrapposizione o comunque una data molto scomoda rispetto agli altri appelli.
+
+
+
+###Advanced Operating Systems
+"This was the first year of prof. Zaccaria, he seems a good person but his lectures are impossible to follow, (for example he explains complex things like OS algorithms only looking at one diagram) at the end of the course I could count less than 10 people in class and no one seemed to be actively following him.
+The arguments are interesting but in my opinion too many for 5 CFUs, considering that in the exam he also asked questions on seminars that were held by external guests.
+The project is optional and is the only way to get the laude but he only presented a handful of them and they were in a first comes first served manner (no two groups on the same project). In the end I probably would not do it again."
+
+
+
+###Offensive and Defensive Cybersecurity
+"If you liked the challenges of Computer Security, you will love this course.
+Prof. Polino is really good, lectures are a pleasure to follow. The topics are interesting but some of them are a bit difficult to grasp at first (you must work on it a bit).
+In this course up to 18 points are given for challenges during the semester (you can complete up to the exam call) in which you can cooperate with other students informally.
+The rest of the points are given at the exam call with a CTF in which you have to solve as many challenges (similar to the ones during the semester, maybe a little bit more difficult) in a day (we had 7 hours for 10 challenges, the majority of the students did 4 or less). During the exam there is no control from the prof but the points of each challenge decrease as people solves it to discourage collaboration."
+
+
+Very interesting course if you like topics on cybersecurity. I took this course during the first year (before cybersecurity), therefore it is feasible to do so. Good knowledge of C, memory data structure (heap/stack), and some PHP / javascript for web part is preferable. The final score was composed of: 60% for challenges during the semester and 40% for final CTF(Capture The Flag). The load during the semester is consistent to solve the challenges. If you attend lessons of Cyber Challenge contents are very similar.
+
+
+###Formal languages and compilers
+I took this course only because it was mandatory. The professor is quite boring and the exam is not easy. For the people who did Polimi in the bachelor it is similar to API
+
+
+###Streaming data analytics
+I really enjoyed the course. Prof. Della Valle can explain topics without being boring and is always willing to help students, although sometimes he can be a bit messy with the organization of the course. Lectures are easily understandable and mostly practical (there are a few theory lessons). This year the exam was closed book and consisted in about 10 open questions (taken from a pool of questions we already had) and 3 exercises, but note that this structure can change because, since this was the first edition of the course, students chose this formula (the alternative was an open book exam with exercises). Slides are available before lectures and are sufficient to prepare for the theory part of the exam, but I still suggest to attend lectures. There's also a project if you get more than 26 at the exam, but I don't know more about it. This course is definitely suggested, if you want to work in the field of data analytics or only if you want to get an high grade.
+
+
+###Distributed Software Development
+"Distributed Software Development isn't properly a course, but it is a project. 
+The course is done with two other universities (FER, MDH) and it consists in developing a project in a distributed way: a team is formed by 6/8 people, a part of them from a university and the others from another university. So the communication between the two side of the team is done remotly.
+The course starts in October and there are very few lectures. The number of lectures depends on the number of project.
+
+The project are presented by business companies at one of the first lectures.
+At the beginning of the course each student has to compile a Google From in which he/she has to select his/her compentencies and the project that he/she prefers. 
+At the next lecture the teams are presented and the project development starts. Every two weeks there is a presentation about the project status until the Alpha and  Beta software prototype.
+Each team is supervised by two professor (one for each university side of the team). The evaluation of the project is about the project final product, the documentations, the developing process and the presentations.
+There aren't lectures about the technologies that can be used, so each students learn by doing his/her.
+This type of course needs a lot of time, more than 5 CFU effort (in the other two universities this course has a value of 8 CFU).
+I have loved this course because the project have allowed me to learn a lot of thing. Also it was a great experience because i have met other students with different background and competencies.
+This course is highly recommend for all students that loves designing and developing software
+
+For more information this is the site of the course: https://www.fer.unizg.hr/rasip/dsd"
+
+
+###Advanced Multivariable Control
+The topics are quite interesting and advanced. However, professor Scattolini is really boring and makes the topics difficult to understand. Because of this it’s quite a hard course as well as overly theoretical. The exercise sessions are quite good, it’s the best way to understand the topics taught.
+
+
