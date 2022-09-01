@@ -1,8 +1,10 @@
 Corsi Laurea Magistrale
 
-Questa guida è stata redatta dagli admin di Ingegneria Informatica di PoliNetwork, raccogliendo opinioni di diversi studenti che hanno frequentato il corso. Ogni paragrafetto è un'opinione.
-Cliccate sul nome del corso per aprirne la pagina e leggere il programma dettagliato.<br>
-Per aggiungere un'opinione, usa questo link: <a href="https://forms.gle/j6CfRG2qixg63F1n8" class="accent">https://forms.gle/j6CfRG2qixg63F1n8</a>
+This guide has been written by the Computer Engineering admins of PoliNetwork, collecting opinions of several students who have taken the course. Each paragraph is an opinion.
+Click on the name of the course to open its page and read the detailed program.<br>
+To add an opinion, use this link: <a href="https://forms.gle/j6CfRG2qixg63F1n8" class="accent">https://forms.gle/j6CfRG2qixg63F1n8</a>
+
+
 
 ###Data Mining and Text Mining 
 Corso davvero completo, assolutamente un must per i Data Scientists. Il corso è anche pratico e Lanzi spiega in maniera davvero semplice e comprensibile. Unico svantaggio: l'esame è poco affidabile, è facile (troppo) prendere un voto basso pur avendo studiato molto.
