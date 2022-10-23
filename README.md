@@ -2,7 +2,7 @@
 
 https://polinetwork.org
 
-Se vuoi contribuire o usare quello che abbiamo fatto per il tuo progetto leggi [la nostra guida](https://github.com/PoliNetwork/polinetwork.github.io/blob/master/_documentation/contributing.md).
+Se vuoi contribuire o usare quello che abbiamo fatto per il tuo progetto leggi [la nostra guida](https://docs.polinetwork.org/#/it/projects/main_website/).
 
 ## Le repository degli altri nostri siti 
 
