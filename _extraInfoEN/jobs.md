@@ -1,10 +1,9 @@
 ---
-title: Poli Jobs - Job Offers
+title: Polimi Jobs - Job Offers
 Lang: en
-Img: /img/polijob.png
+Img: /img/polimijobs.jpg
 layout: extra
-link: Poli Jobs - Offerte Lavoro PoliNetwork
+link: https://t.me/polimijobs
 platform: TG
-redirect: true
 ---
 Poli Jobs - Politecnico di Milano job offers
