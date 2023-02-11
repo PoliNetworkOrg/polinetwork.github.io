@@ -10,17 +10,20 @@ layout: default
             {% capture VARcard4title %} {{ page.card4title }} {% endcapture %}
 			{% capture VARcard5title %} {{ page.card5title }} {% endcapture %}
             {% capture VARcard6title %} {{ page.card6title }} {% endcapture %}
+            {% capture VARcard7title %} {{ page.card7title }} {% endcapture %}
             {% capture VARcard1description %} {{ page.card1description }} {% endcapture %}
             {% capture VARcard2description %} {{ page.card2description }} {% endcapture %}
             {% capture VARcard3description %} {{ page.card3description }} {% endcapture %}
             {% capture VARcard4description %} {{ page.card4description }} {% endcapture %}
 			{% capture VARcard5description %} {{ page.card5description }} {% endcapture %}
             {% capture VARcard6description %} {{ page.card6description }} {% endcapture %}
+            {% capture VARcard7description %} {{ page.card7description }} {% endcapture %}
             {% include bigbutton.html url="./about_us/" title=VARcard1title desc=VARcard1description %}
             {% include bigbutton.html url="./principles/" title=VARcard2title desc=VARcard2description %}
             {% include bigbutton.html url="./structure/" title=VARcard3title desc=VARcard3description %}
             {% include bigbutton.html url="../rules/" title=VARcard4title desc=VARcard4description %}
 			{% include bigbutton.html url="./official/" title=VARcard5title desc=VARcard5description %}
             {% include bigbutton.html url="./privacy/" title=VARcard6title desc=VARcard6description %}
+            {% include bigbutton.html url="./balance/" title=VARcard7title desc=VARcard7description %}
         </div>
       </div>
