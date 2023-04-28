@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+<div class="wrapper">
+  <div class="card white aboutCard struttura noCenter">
+    <div style="padding-top: 5px"></div>
+    <h2>{{page.Ltitle}}</h2>
+    <div style="padding-top: 15px"></div>
+    <div>
+      <span> {{page.desc}} </span> 🔮
+    </div>
+    <div style="padding-top: 15px"></div>
+    <div>
+      <ul>
+        <li>{{page.t1}} <a href="https://www.color-hex.com/color/1056ae">#1056ae</a></li>
+      </ul>
+    </div>
+
+    <div style="padding-top: 15px"></div>
+
+    <hr />
+    <table class="fullWidth accentText">
+      <tr class="about_us_tr">
+        <td class="about_us_td">
+          <a class="about_us_tr" href="/{{page.Lang}}/learnmore/contacts/"
+            ><i class="fa fa-pen"></i>&nbsp;{{page.Contacts}}</a
+          >
+        </td>
+        <td class="about_us_td">
+          <a class="about_us_tr" href="/{{page.Lang}}/learnmore/social/"
+            ><i class="fas fa-bullhorn"></i>&nbsp;Social Network</a
+          >
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<style>
+  .tdDonations {
+    text-align: center;
+    border: 1px solid rgba(129, 129, 129, 0.255);
+    overflow: auto;
+    padding: 5px;
+    font-size: max(min(1rem, calc(2.5vw)), 0.55rem);
+  }
+
+  .tableDonations {
+    width: 100%;
+    text-align: center;
+    overflow: auto;
+  }
+</style>
