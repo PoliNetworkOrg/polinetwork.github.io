@@ -23,6 +23,10 @@ layout: default
             >&nbsp;</span
           >
         </li>
+        <li>
+          I bannati dal network sono
+          <span id="counter" class="explode">0</span>
+        </li>
       </ul>
     </div>
 
@@ -60,4 +64,74 @@ layout: default
     text-align: center;
     overflow: auto;
   }
+
+  #counter {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+  }
+
+  .explode {
+    font-size: 48px;
+    text-align: center;
+    position: relative;
+  }
+
+  .explode span {
+    position: absolute;
+    opacity: 0;
+    animation-name: explode;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes explode {
+    0% {
+      opacity: 1;
+      transform: translate(0, 0);
+    }
+    100% {
+      opacity: 0;
+      transform: translate(calc(100vw - 50%), calc(100vh - 50%));
+    }
+  }
 </style>
+
+<script>
+  const explodeText = (text) => {
+    const chars = text.split("");
+    const explodeContainer = document.querySelector(".explode");
+    let delay = 0;
+
+    chars.forEach((char) => {
+      const charSpan = document.createElement("span");
+      charSpan.innerHTML = char;
+      explodeContainer.appendChild(charSpan);
+
+      setTimeout(() => {
+        charSpan.style.top = `${Math.random() * 100}%`;
+        charSpan.style.left = `${Math.random() * 100}%`;
+        charSpan.style.opacity = 1;
+      }, delay);
+
+      delay += 50;
+    });
+  };
+
+  var counter = document.getElementById("counter");
+  var count = 0;
+
+  var refreshIntervalId = null;
+  refreshIntervalId = setInterval(function () {
+    count++;
+    counter.innerHTML = count;
+
+    if (count > 100) {
+      clearInterval(refreshIntervalId);
+      explodeText(counter.innerHTML);
+      //counter.innerHTML = "⬛";
+    }
+  }, 1);
+</script>
