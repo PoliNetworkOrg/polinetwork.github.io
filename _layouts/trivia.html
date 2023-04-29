@@ -23,6 +23,12 @@ layout: default
             >&nbsp;</span
           >
         </li>
+        <li>
+          {{page.t2}}
+          <span class="counter-container">
+            <span class="counter-value">0</span>
+          </span>
+        </li>
       </ul>
     </div>
 
@@ -60,4 +66,70 @@ layout: default
     text-align: center;
     overflow: auto;
   }
+
+  .counter-container {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .counter-value {
+    font-size: 1.2rem;
+  }
+
+  .counter-explosion {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+    transform: scale(0);
+    animation-name: explode;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes explode {
+    0% {
+      transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(3);
+      opacity: 0;
+    }
+  }
 </style>
+
+<script>
+  const counterValue = document.querySelector(".counter-value");
+  const counterContainer = document.querySelector(".counter-container");
+
+  let count = 0;
+  let frequency = 2;
+  var intervalId = null;
+  let endChar = "♾️";
+  let countMax = 999;
+
+  const incrementCount = () => {
+    count++;
+    counterValue.textContent = count;
+
+    if (count === countMax) {
+      const explosion = document.createElement("div");
+      explosion.classList.add("counter-explosion");
+      counterContainer.appendChild(explosion);
+
+      setTimeout(() => {
+        explosion.remove();
+        counterValue.textContent = endChar;
+      }, 1000);
+
+      clearInterval(intervalId);
+      counterValue.textContent = endChar;
+    }
+  };
+
+  intervalId = setInterval(incrementCount, frequency);
+</script>
