@@ -24,8 +24,10 @@ layout: default
           >
         </li>
         <li>
-          I bannati dal network sono
-          <span id="counter" class="explode">0</span>
+          {{page.t2}}
+          <span class="counter-container">
+            <span class="counter-value">0</span>
+          </span>
         </li>
       </ul>
     </div>
@@ -65,22 +67,23 @@ layout: default
     overflow: auto;
   }
 
-  #counter {
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 5px;
-  }
-
-  .explode {
-    font-size: 48px;
-    text-align: center;
+  .counter-container {
     position: relative;
+    justify-content: center;
+    align-items: center;
   }
 
-  .explode span {
+  .counter-value {
+    font-size: 1.2rem;
+  }
+
+  .counter-explosion {
     position: absolute;
-    opacity: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+    transform: scale(0);
     animation-name: explode;
     animation-duration: 1s;
     animation-timing-function: ease-out;
@@ -89,49 +92,44 @@ layout: default
 
   @keyframes explode {
     0% {
+      transform: scale(0);
       opacity: 1;
-      transform: translate(0, 0);
     }
     100% {
+      transform: scale(3);
       opacity: 0;
-      transform: translate(calc(100vw - 50%), calc(100vh - 50%));
     }
   }
 </style>
 
 <script>
-  const explodeText = (text) => {
-    const chars = text.split("");
-    const explodeContainer = document.querySelector(".explode");
-    let delay = 0;
+  const counterValue = document.querySelector(".counter-value");
+  const counterContainer = document.querySelector(".counter-container");
 
-    chars.forEach((char) => {
-      const charSpan = document.createElement("span");
-      charSpan.innerHTML = char;
-      explodeContainer.appendChild(charSpan);
+  let count = 0;
+  let frequency = 2;
+  var intervalId = null;
+  let endChar = "♾️";
+  let countMax = 999;
+
+  const incrementCount = () => {
+    count++;
+    counterValue.textContent = count;
+
+    if (count === countMax) {
+      const explosion = document.createElement("div");
+      explosion.classList.add("counter-explosion");
+      counterContainer.appendChild(explosion);
 
       setTimeout(() => {
-        charSpan.style.top = `${Math.random() * 100}%`;
-        charSpan.style.left = `${Math.random() * 100}%`;
-        charSpan.style.opacity = 1;
-      }, delay);
+        explosion.remove();
+        counterValue.textContent = endChar;
+      }, 1000);
 
-      delay += 50;
-    });
+      clearInterval(intervalId);
+      counterValue.textContent = endChar;
+    }
   };
 
-  var counter = document.getElementById("counter");
-  var count = 0;
-
-  var refreshIntervalId = null;
-  refreshIntervalId = setInterval(function () {
-    count++;
-    counter.innerHTML = count;
-
-    if (count > 100) {
-      clearInterval(refreshIntervalId);
-      explodeText(counter.innerHTML);
-      //counter.innerHTML = "⬛";
-    }
-  }, 1);
+  intervalId = setInterval(incrementCount, frequency);
 </script>
