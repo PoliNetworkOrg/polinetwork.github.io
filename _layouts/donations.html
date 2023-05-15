@@ -8,9 +8,20 @@ layout: default
     <h2>{{page.Ltitle}}</h2>
     <div style="padding-top: 15px"></div>
     <div>
-      <span> {{page.desc}} </span>
+      <span> {{page.desc0}}: </span>
       <br />
-      <span> {{page.desc2}} </span>
+      <ul>
+        <li>Inviarci una <a href="../contacts">mail</a></li>
+        <li>
+          {{page.desc1}}
+          <a
+            href="https://info730.agenziaentrate.it/portale/web/guest/scelte-8-5-e-2-per-mille"
+            >{{page.desc2}}.</a
+          >
+          <br />
+          <span>{{page.desc3}}.</span>
+        </li>
+      </ul>
     </div>
 
     <div style="padding-top: 15px"></div>
@@ -28,7 +39,7 @@ layout: default
         </td>
       </tr>
     </table>
-    <div style="padding-top: 60px"></div>
+    <div style="padding-top: 40px"></div>
     <hr />
     <table class="fullWidth accentText">
       <tr class="about_us_tr">
@@ -44,6 +55,7 @@ layout: default
         </td>
       </tr>
     </table>
+    <div style="padding-top: 10px"></div>
     <table class="fullWidth accentText">
       <tr class="about_us_tr">
         <td class="about_us_td">
@@ -70,5 +82,9 @@ layout: default
     width: 100%;
     text-align: center;
     overflow: auto;
+  }
+
+  li {
+    margin: 10px 0;
   }
 </style>
