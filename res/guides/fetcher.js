@@ -22,6 +22,11 @@ if(filelocation.slice(-1) == "/"){
 fetch(filelocation.split('/').pop().split('.')[0] + '.txt')
 .then(res => res.text())
 .then(data => {
+    let shuffle = false
+    if (data.startsWith("@SHUFFLE@\n")){
+      data = data.substring("@SHUFFLE@\n".length)
+      shuffle = true
+    }
     lines = data.split('\n')
     
     lines = lines.map(line => line.replace(new RegExp("\r", "g"), ''))
@@ -29,15 +34,16 @@ fetch(filelocation.split('/').pop().split('.')[0] + '.txt')
     
     l = lines.length
     path = window.location.pathname.split('/');
+    console.log(path.length)
+    doc = ''
     if(path.length > 4)
       doc = '<body><div class="wrapper"><h2>.<span class="accent">/</span><a class="" href="/">PoliNetwork</a><span class="accent">/</span><a class="" href="../">' + capitalizeFirstLetter(path[2]) + '</a><span class="accent">/</span><a class="" href="./">' + capitalizeFirstLetter(path[3]) + '</a><span class="accent">/</span></h2><div class="title"><h1>'
-    else if(path.length > 3)
+    else if(path.length <= 4)
       doc = '<body><div class="wrapper"><h2>.<span class="accent">/</span><a class="" href="/">PoliNetwork</a><span class="accent">/</span><a class="" href="./">' + capitalizeFirstLetter(path[2]) + '</a><span class="accent">/</span></h2><div class="title"><h1>'
     document.title = lines[0]
     doc += lines[0]
     doc += '</h1></div>'
     i = 1
-
     // skips newlines after the title
     while (i < l && lines[i] === '') ++i
     doc += '<div class="subtitle">'
@@ -45,41 +51,51 @@ fetch(filelocation.split('/').pop().split('.')[0] + '.txt')
     doc += '</div>'
     // skips newlines after the subtitle
     while (i < l && lines[i] === '') ++i
+    let course = ''
+    let courses = []
     while (i < l) {
         // if a new course is beginning
         if (lines[i++].slice(0, 3) === '###') {
-            doc += '<div class="course"><div class="collapsible"><div class="containerFA"><i class="fa fa-angle-down"></i></div><h3>' + lines[i-1].slice(3) + '</h3>' + '</div>' + '<div class="content">'
+            course += '<div class="course"><div class="collapsible"><div class="containerFA"><i class="fa fa-angle-down"></i></div><h3>' + lines[i-1].slice(3) + '</h3>' + '</div>' + '<div class="content">'
             while (i < l && (lines[i].slice(0, 8) === 'TELEGRAM' || lines[i].slice(0, 8) === 'MANIFEST'))
                 if (lines[i++].slice(0, 8) === 'TELEGRAM')
-                    doc += '<a href="' + lines[i-1].slice(8) + '"><img class="telegram" src="/res/guides/telegram.webp"></a>'
+                  course += '<a href="' + lines[i-1].slice(8) + '"><img class="telegram" src="/res/guides/telegram.webp"></a>'
                 else
-                    doc += '<a href="' + lines[i-1].slice(8) + '"><img class="manifest" src="/res/guides/manifest.png"></a>'
+                  course += '<a href="' + lines[i-1].slice(8) + '"><img class="manifest" src="/res/guides/manifest.png"></a>'
             for (;i < l; ++i) {
                 if (lines[i] === '') continue
                 // if a new course line is found exit from current course construction
                 if (lines[i].slice(0, 3) === '###') break
                 else { // first nonempty line is found, means a new comment
-                    doc += '<div class="comment">' + lines[i++] + ' '
+                    course += '<div class="comment">' + lines[i++] + ' '
                     // as long as there is no empty line
                     for (;i < l && lines[i] !== '' && lines[i].slice(0, 3) !== '###'; ++i) {
-                        doc += lines[i] + ' '
+                      course += lines[i] + ' '
                     }
-                    doc += '</div>'
+                    course += '</div>'
                     if (i < l && lines[i].slice(0, 3) === '###') break
                 } // end of comment
             } // end of commentS
-            doc += '</div>'
-            doc += '</div>'
+            course += '</div>'
+            course += '</div>'
         } // end of course
+        courses.push(course)
+        course = ''
     } // end of courseS
+    console.log(courses)
+    if(shuffle) courses=shuffleArray(courses)
+    console.log(courses)
+    courses.forEach(a => {
+      doc += a
+    })
     let oppositeLangPath = window.location.pathname.split('/').slice(2,window.location.pathname.length).join("/");
     if (window.location.pathname.split('/')[1] == "it"){
       doc += '<div class="footer">Un\'iniziativa PoliNetwork. Trova altro su <span class="accent"><a href="https://polinetwork.org">polinetwork.org</a></span>'
-      doc += '<br>Per commenti o suggerimenti contatta <a href="https://t.me/eliamaggioni" class="accent">@EliaMaggioni</a> o <a href="https://t.me/LuigiFusco" class="accent">@LuigiFusco</a> su Telegram</div>'
+      doc += '<br>Per commenti o suggerimenti contatta <a href="https://t.me/eliamaggioni" class="accent">@EliaMaggioni</a> su Telegram</div>'
       doc += '<div"><span class="accent"><a href="/en/' + oppositeLangPath + '">Switch to EN</a></span></div>'
     } else {
       doc += '<div class="footer">A PoliNetwork initiative. Find more at <span class="accent"><a href="https://polinetwork.org">polinetwork.org</a></span>'
-      doc += '<br>For comments or suggestions contact <a href="https://t.me/eliamaggioni" class="accent">@EliaMaggioni</a> or <a href="https://t.me/LuigiFusco" class="accent">@LuigiFusco</a> on Telegram</div>'
+      doc += '<br>For comments or suggestions contact <a href="https://t.me/eliamaggioni" class="accent">@EliaMaggioni</a> on Telegram</div>'
       doc += '<div"><span class="accent"><a href="/it/' + oppositeLangPath + '">Switch to IT</a></span></div>'
     }
     document.body.innerHTML = doc
@@ -105,4 +121,22 @@ fetch(filelocation.split('/').pop().split('.')[0] + '.txt')
 
 function capitalizeFirstLetter(string) {
   return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
+function shuffleArray(array) {
+  let currentIndex = array.length,  randomIndex;
+
+  // While there remain elements to shuffle.
+  while (currentIndex != 0) {
+
+    // Pick a remaining element.
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+
+    // And swap it with the current element.
+    [array[currentIndex], array[randomIndex]] = [
+      array[randomIndex], array[currentIndex]];
+  }
+
+  return array;
 }
