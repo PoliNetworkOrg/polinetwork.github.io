@@ -24,7 +24,8 @@ fetch(filelocation.split("/").pop().split(".")[0] + ".txt")
   .then((data) => {
     let shuffle = false;
     if (data.startsWith("@SHUFFLE@")) {
-      data = data.substring("@SHUFFLE@".length);
+      data = data.substring("@SHUFFLE@\\n".length);
+      console.log("t:", data[1]);
       shuffle = true;
     }
     lines = data.split("\n");
@@ -124,9 +125,7 @@ fetch(filelocation.split("/").pop().split(".")[0] + ".txt")
       courses.push(course);
       course = "";
     } // end of courseS
-    console.log(courses);
     if (shuffle) courses = shuffleArray(courses);
-    console.log(courses);
     courses.forEach((a) => {
       doc += a;
     });
