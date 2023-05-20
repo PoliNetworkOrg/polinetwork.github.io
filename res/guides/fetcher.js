@@ -73,18 +73,32 @@ fetch(filelocation.split("/").pop().split(".")[0] + ".txt")
         while (
           i < l &&
           (lines[i].slice(0, 8) === "TELEGRAM" ||
-            lines[i].slice(0, 8) === "MANIFEST")
-        )
-          if (lines[i++].slice(0, 8) === "TELEGRAM")
+            lines[i].slice(0, 8) === "MANIFEST" ||
+            lines[i].slice(0, 8) === "WHATSAPP" ||
+            lines[i].slice(0, 4) === "MAIL")
+        ) {
+          if (lines[i].slice(0, 8) === "TELEGRAM")
             course +=
               '<a href="' +
-              lines[i - 1].slice(8) +
+              lines[i].slice(8) +
               '"><img class="telegram" src="/res/guides/telegram.webp"></a>';
-          else
+          else if (lines[i].slice(0, 8) === "MANIFEST")
             course +=
               '<a href="' +
-              lines[i - 1].slice(8) +
+              lines[i].slice(8) +
               '"><img class="manifest" src="/res/guides/manifest.png"></a>';
+          else if (lines[i].slice(0, 8) === "WHATSAPP")
+            course +=
+              '<a href="' +
+              lines[i].slice(8) +
+              '"><img class="telegram" src="/img/wa.svg"></a>';
+          else if (lines[i].slice(0, 4) === "MAIL")
+            course +=
+              '<a href="' +
+              lines[i].slice(4) +
+              '"><img class="telegram" src="/img/mail.svg"></a>';
+          i++;
+        }
         for (; i < l; ++i) {
           if (lines[i] === "") continue;
           // if a new course line is found exit from current course construction
