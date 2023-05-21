@@ -1,16 +1,16 @@
 @SHUFFLE@
-Design della comunicazione
+Communication Design
 
-<p>Il Consiglio di Corso di Studio (CCS) è l’organo della Facoltà che ha la responsabilità didattica relativamente agli insegnamenti erogati, ne definisce obiettivi didattici e formativi, in sintonia con le indicazioni e direttive della Facoltà cui appartiene, e ha il compito di:</p>
+<p>The Course Study Council (CCS) is the body of the Faculty responsible for the educational aspects of the courses offered. It defines the educational and training objectives in line with the indications and directives of the Faculty to which it belongs. Its tasks include:</p>
 <ul>
-    <li>proporre alla Scuola il Regolamento Didattico del Corso di studio</li>
-    <li>approvare i programmi degli insegnamenti</li>
-    <li>svolgere tutte le pratiche relative alla carriera degli studenti</li>
-    <li>deliberare sulle pratiche di propria competenza</li>
-    <li>Consigli di corso di studio</li>
+    <li>Proposing the Course Study Educational Regulations to the School</li>
+    <li>Approving the course syllabi</li>
+    <li>Handling all matters related to student careers</li>
+    <li>Deliberating on matters within its competence</li>
+    <li>Course Study Councils</li>
 </ul>
-<p>Ogni Consiglio di Corso di studio (CCS) riunisce i docenti titolari di insegnamenti o moduli didattici erogati nel Corso di studio e un numero di rappresentanti eletti degli studenti.</p>
-<p>La composizione del CCS viene aggiornata ogni anno a cura del Preside, in relazione all’attivazione o disattivazione di insegnamenti sancita annualmente dal regolamento didattico dello specifico Corso di Studio.</p>
+<p>Each Course Study Council (CCS) brings together the professors responsible for the courses or teaching modules offered in the Course of Study and a number of elected student representatives.</p>
+<p>The composition of the CCS is updated annually by the Dean, in relation to the activation or deactivation of courses as stipulated in the specific Course Study Educational Regulations.</p>
 
 
 ### TOMMASO PRINETTI

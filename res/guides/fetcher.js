@@ -70,7 +70,7 @@ fetch(filelocation.split("/").pop().split(".")[0] + ".txt")
           lines[i - 1].slice(3) +
           "</h3>" +
           "</div>" +
-          '<div class="content">';
+          '<div class="content"><div class="icons" style="display: flex">';
         while (
           i < l &&
           (lines[i].slice(0, 8) === "TELEGRAM" ||
@@ -97,9 +97,10 @@ fetch(filelocation.split("/").pop().split(".")[0] + ".txt")
             course +=
               '<a href="' +
               lines[i].slice(4) +
-              '"><img class="telegram" src="/img/mail.svg"></a>';
+              '"><i class="fa fa-envelope" style="font-size: 42px;"></i></a>';
           i++;
         }
+        course += "</div>";
         for (; i < l; ++i) {
           if (lines[i] === "") continue;
           // if a new course line is found exit from current course construction
