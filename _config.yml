@@ -1,3 +1,6 @@
+url: "https://polinetwork.org"
+plugins:
+  - jekyll-sitemap
 collections:
   projectsInfoIT:
     output: true
