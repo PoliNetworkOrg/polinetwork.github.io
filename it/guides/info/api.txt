@@ -38,7 +38,7 @@ Oltre a questo, un motivo per finire appena possibile il progetto è che se non 
   </li>
   <li><b>[2022-2023]</b>
     Vi sono 7 <b>Problemi</b> a cui sottoporre il proprio file. Tutti i diversi problemi eseguono lo stesso test sul proprio codice, vengono incrementalmente ridotti i margini di tempo e spazio per ottenere una valutazione migliore.
-    Il problema <b>Open</b> è utile per il debugging, creato volutamente con margini molto ampi per poter osservare quanto si è distanti dai requisiti per le sottoposizioni successive, dato che il compiler utilizzato termina in automatico l'esecuzione quando vengono       sforati i limitti di tempo e spazio. Se superato, restituisce la dicitura "Esito non Corretto" in rosso, mentre in <b>Dettagli</b> riporta "L'output è corretto". In questo caso il problema si considera risolto correttamente.
+    Il problema <b>Open</b> è utile per il debugging, creato volutamente con margini molto ampi per poter osservare quanto si è distanti dai requisiti per le sottoposizioni successive, dato che il compiler utilizzato termina in automatico l'esecuzione quando vengono sforati i limitti di tempo e spazio. Se superato, restituisce la dicitura "Esito non Corretto" in rosso, mentre in <b>Dettagli</b> riporta "L'output è corretto". In questo caso il problema si considera risolto correttamente.
     I diversi margini si possono osservare nella sezione <b>Panoramica dei Problemi</b> della pagina web dedicata.
     I professori assegnano la valutazione secondo questa procedura: viene eseguita solamente l'ultima sottoposizione inviata per ogni problema. Per questo motivo è <b>NECESSARIO</b> che tutte le ultime sottoposizioni siano identiche. 
     <b>La scadenza per l'invio di sottoposizione è il 10 set 2023, 00:59:00.</b>.
