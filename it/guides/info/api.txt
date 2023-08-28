@@ -302,6 +302,8 @@ Per installare Valgrind tramite linea di comando su Linux basta fare:
 
 Una guida particolarmente utile la trovi qui: <a href="https://stackoverflow.com/questions/5134891/how-do-i-use-valgrind-to-find-memory-leaks" >https://stackoverflow.com/questions/5134891/how-do-i-use-valgrind-to-find-memory-leaks</a>
 
+Il docente Barenghi ha anche registrato una lezione di presentazione dei vari strumenti utili allo sviluppo del progetto. Siete caldamente invitati a recuperarla nel caso in cui non l'aveste fatto per schiarirvi le idee, vedere un piccolo approfondimento sullo strumento valgrind ed evitare ulteriori domande.
+
 
 
 ### Esiste Valgrind su Mac?
