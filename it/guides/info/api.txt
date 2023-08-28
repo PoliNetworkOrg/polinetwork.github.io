@@ -83,6 +83,27 @@ Se programmando salta fuori che la soluzione è troppo difficile da implementare
 Nel sito del progetto e nella sezione panoramica che si trova sulla colonna a sinistra trovi i limiti per ogni test. Questi limiti fanno riferimento all’ultimo subtask che è sempre quello più oneroso. Potrebbe succedere che i subtasks precedenti violino questi limiti (caso molto estremo).
 
 
+### Quali sono i flag utilizzati dal compilatore? Qual è il loro scopo?
+
+Generalmente, i flag utilizzati dal compilatore che si occupa di verificare le sottoposizioni sono sempre rimasti invariati durante i diversi progetti proposti.
+Il comando di compilazione è il seguente: 
+<pre><code>gcc -DEVAL -Wall -Werror -std=gnu11 -O2 -pipe -static -s -o Open Open.c -lm</code></pre>
+
+<b>Rapida Spiegazione dei Flag</b>
+Per informazioni più approfondite e accurate, visionare <a href="https://man7.org/linux/man-pages/man1/gcc.1.html">il manuale di linux</a>.
+
+<ul>
+  <li><a href="https://gcc.gnu.org/onlinedocs/gcc/Preprocessor-Options.html#Preprocessor-Options"><i>-DEVAL</i></a> Definisce una macro di nome EVAL, al pari di un'istruzione <code>#define EVAL</code>, poco rilevante lato studenti. </li>
+  <li><i>-Wall</i> Abilita tutti i warnings relativi a sintassi e costrutti, anche quelli considerati "fastidiosi ed eccessivi" da alcuni utenti, per evitare che errori difficili da identificare possano creare comportamenti indesiderati da parte del programma.</li>
+  <li><i>-Werror</i> Converte tutti i warnings in errori, invalidandone la compilazione ove presenti.</li>
+  <li><i>-std=gnu11</i> Definisce il linguaggio standard, nel nostro caso C11/gcc.</li>
+  <li><i>-O2</i> Ottimizza il codice e ne migliora le performance.</li>
+  <li><i>-pipe</i> Per la comunicazione tra i vari passaggi del processo di compilazione, vengono utilizzate le pipes, canali di comunicazione monodirezionale. Poco rilevante per gli studenti. </li>
+  <li><i>-static</i> Nei sistemi che supportano il linking dinamico, questo comando previene che il codice venga linkato con le librerie condivise, ovvero tutte le librerie utilizzate vengono inserite nel .c ogni volta. Questo flag potrebbe creare conflitti nel caso     si utilizzi valgrind.</li>
+  <li><i>-s</i></li> Rimuove la tabella dei simboli e le informazioni di rilocazione dall'eseguibile.
+  <li><i>-o file</i> Scrive l'output nel file indicato. Questo flag si applica a qualsiasi tipologia di output prodotto: un exe, un object, un assembler.</li>
+  <li><i>-lm</i> Si tratta dell'opzione -l con argomento m. Collega il programma alla libreria m, la quale contiene molte funzioni matematiche al suo interno.</li>
+</ul>
 
 ### Cosa significa Execution killed (could be triggered by violating memory limits)?
 
@@ -103,6 +124,20 @@ E infine con gli stessi flag che vengono usati per i test privati, che sono scri
 <b>[2020-2021]</b>
 
 <pre><code>gcc -DEVAL -std=gnu11 -Wall -Werror -O2 -g3 -static -s -o normal normal.c -lm</code></pre>
+
+<b>[2022-2023]</b>
+
+<pre><code>gcc -DEVAL -Wall -Werror -std=gnu11 -O2 -pipe -static -s -o Open Open.c -lm</code></pre>
+
+### Warnings più comuni e possibili soluzioni
+
+Durante lo sviluppo e la compilazione del proprio progetto, è possibile imbattersi in qualche warning di cui non si ha mai avuto esperienza. Ecco una lista di alcuni che hanno creato problemi nel corso del tempo:
+<ul>
+    <li><pre><code>error: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Werror=unused-result]"?</code></pre>
+    La funzione <a href="https://man7.org/linux/man-pages/man3/scanf.3.html">'scanf'</a>e le funzioni appartenenenti alla sua famiglia restituiscono un valore di ritorno, che è "necessario" utilizzare.
+    Per risolvere questo errore è possibile incapsulare la funzione in un'istruzione if( ...); ,un' assert(); etc.
+    </li>
+</ul>
 
 
 ### Come configuro CLion perchè abbia gli stessi flags del compilatore?
