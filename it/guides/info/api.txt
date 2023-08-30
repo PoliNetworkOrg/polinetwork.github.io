@@ -8,6 +8,7 @@ S0NN1 August 8, 2021<br>
   <li><b>[2018/2019]</b> Mirko De Vita, Kien Tuong Truong, David, Simone, Raymark</li>
   <li><b>[2019-2020]</b> @bigr </li>
   <li><b>[2020/2021]</b> @Sonni </li>
+  <li><b>[2022/2023]</b> @rossi_matteo </li>
 </ul>
 
 
@@ -35,12 +36,19 @@ Oltre a questo, un motivo per finire appena possibile il progetto è che se non 
     Ci sono 3 batterie di test. La prima <b>UpTo18</b> sono 6 test per arrivare al 18, se non viene passato anche solo un test di questa il progetto sarà considerato come non superato. La seconda è <b>UpTo30</b> permette di arrivare alla valutazione massima di 30, 6 test ognuno vale 2 punti; infine l'ultima <b>CumLaude</b> permette di arrivare fino alla lode.
     La valutazione dei prof avviene in questo modo: Viene fatto eseguire l'ultimo file inviato di ogni test. Per questo motivo è <b>NECESSARIO</b> che tutti gli ultimi file inviati in ogni test siano identici. <b>La scadenza è il 7 settembre</b>, appena scatta la mezzanotte.
   </li>
+  <li><b>[2022-2023]</b>
+    Vi sono 7 <b>Problemi</b> a cui sottoporre il proprio file. Tutti i diversi problemi eseguono lo stesso test sul proprio codice, vengono incrementalmente ridotti i margini di tempo e spazio per ottenere una valutazione migliore.
+    Il problema <b>Open</b> è utile per il debugging, creato volutamente con margini molto ampi per poter osservare quanto si è distanti dai requisiti per le sottoposizioni successive, dato che il compiler utilizzato termina in automatico l'esecuzione quando vengono sforati i limiti di tempo e spazio. Se superato, restituisce la dicitura "Esito non Corretto" in rosso, mentre in <b>Dettagli</b> riporta "L'output è corretto". In questo caso il problema si considera risolto correttamente.
+    I diversi margini si possono osservare nella sezione <b>Panoramica dei Problemi</b> della pagina web dedicata.
+    I professori assegnano la valutazione secondo questa procedura: viene eseguita solamente l'ultima sottoposizione inviata per ogni problema. Per questo motivo è <b>NECESSARIO</b> che tutte le ultime sottoposizioni siano identiche. 
+    <b>La scadenza per l'invio di sottoposizione è il 9 settembre 2023, 23:59:00. CEST</b>.
+  </li>
 </ul>
 
 
 ### Come sottopongo la soluzione?
 
-Per provare a inviare la tua soluzione basta caricare il <b>nomeTuoFile.c</b> in ogni test. Per vedere il risultato di tutti i subtasks dovrai utilizzare il token.
+Per provare a inviare la tua soluzione basta caricare il <b>nomeTuoFile.c</b> in ogni test. Per vedere il risultato di tutti i subtasks dovrai utilizzare il token, premendo il tasto "Usa!".
 
 
 
@@ -75,6 +83,27 @@ Se programmando salta fuori che la soluzione è troppo difficile da implementare
 Nel sito del progetto e nella sezione panoramica che si trova sulla colonna a sinistra trovi i limiti per ogni test. Questi limiti fanno riferimento all’ultimo subtask che è sempre quello più oneroso. Potrebbe succedere che i subtasks precedenti violino questi limiti (caso molto estremo).
 
 
+### Quali sono i flag utilizzati dal compilatore? Qual è il loro scopo?
+
+Generalmente, i flag utilizzati dal compilatore che si occupa di verificare le sottoposizioni sono sempre rimasti invariati durante i diversi progetti proposti.
+Il comando di compilazione è il seguente: 
+<pre><code>gcc -DEVAL -Wall -Werror -std=gnu11 -O2 -pipe -static -s -o Open Open.c -lm</code></pre>
+
+<b>Rapida Spiegazione dei Flag</b>
+Per informazioni più approfondite e accurate, visionare <a href="https://man7.org/linux/man-pages/man1/gcc.1.html">il manuale di linux</a>.
+
+<ul>
+  <li><a href="https://gcc.gnu.org/onlinedocs/gcc/Preprocessor-Options.html#Preprocessor-Options"><i>-DEVAL</i></a> Definisce una macro di nome EVAL, al pari di un'istruzione <code>#define EVAL</code>, poco rilevante lato studenti. </li>
+  <li><i>-Wall</i> Abilita tutti i warnings relativi a sintassi e costrutti, anche quelli considerati "fastidiosi ed eccessivi" da alcuni utenti, per evitare che errori difficili da identificare possano creare comportamenti indesiderati da parte del programma.</li>
+  <li><i>-Werror</i> Converte tutti i warnings in errori, invalidandone la compilazione ove presenti.</li>
+  <li><i>-std=gnu11</i> Definisce il linguaggio standard, nel nostro caso C11/gcc.</li>
+  <li><i>-O2</i> Ottimizza il codice e ne migliora le performance.</li>
+  <li><i>-pipe</i> Per la comunicazione tra i vari passaggi del processo di compilazione, vengono utilizzate le pipes, canali di comunicazione monodirezionale. Poco rilevante per gli studenti. </li>
+  <li><i>-static</i> Nei sistemi che supportano il linking dinamico, questo comando previene che il codice venga linkato con le librerie condivise, ovvero tutte le librerie utilizzate vengono inserite nel .c ogni volta. Questo flag potrebbe creare conflitti nel caso     si utilizzi valgrind.</li>
+  <li><i>-s</i></li> Rimuove la tabella dei simboli e le informazioni di rilocazione dall'eseguibile.
+  <li><i>-o file</i> Scrive l'output nel file indicato. Questo flag si applica a qualsiasi tipologia di output prodotto: un exe, un object, un assembler.</li>
+  <li><i>-lm</i> Si tratta dell'opzione -l con argomento m. Collega il programma alla libreria m, la quale contiene molte funzioni matematiche al suo interno.</li>
+</ul>
 
 ### Cosa significa Execution killed (could be triggered by violating memory limits)?
 
@@ -95,6 +124,20 @@ E infine con gli stessi flag che vengono usati per i test privati, che sono scri
 <b>[2020-2021]</b>
 
 <pre><code>gcc -DEVAL -std=gnu11 -Wall -Werror -O2 -g3 -static -s -o normal normal.c -lm</code></pre>
+
+<b>[2022-2023]</b>
+
+<pre><code>gcc -DEVAL -Wall -Werror -std=gnu11 -O2 -pipe -static -s -o Open Open.c -lm</code></pre>
+
+### Warnings più comuni e possibili soluzioni
+
+Durante lo sviluppo e la compilazione del proprio progetto, è possibile imbattersi in qualche warning di cui non si ha mai avuto esperienza. Ecco una lista di alcuni che hanno creato problemi nel corso del tempo:
+<ul>
+    <li><pre><code>error: ignoring return value of ‘scanf’, declared with attribute warn_unused_result [-Werror=unused-result]"?</code></pre>
+    La funzione <a href="https://man7.org/linux/man-pages/man3/scanf.3.html">'scanf'</a>e le funzioni appartenenenti alla sua famiglia restituiscono un valore di ritorno, che è "necessario" utilizzare.
+    Per risolvere questo errore è possibile incapsulare la funzione in un'istruzione if( ...); ,un' assert(); etc.
+    </li>
+</ul>
 
 
 ### Come configuro CLion perchè abbia gli stessi flags del compilatore?
@@ -138,6 +181,9 @@ Sostituendo le variabili tra &lt;&gt; (comprese le stesse) con le vostre, per ve
         <li><b>Insert+</b>: Insert ma con 2^16 + 2^14 + 2^13 grafi</li>
     </ul>
   </li>
+  <li> <b>[2022-2023]</b>:
+        Il test sottoposto è sempre il medesimo in qualsiasi <b>Problema</b>.
+  </li>
 </ul>
 
 
@@ -156,6 +202,41 @@ Sostituendo le variabili tra &lt;&gt; (comprese le stesse) con le vostre, per ve
     Le istruzioni di change sono SEMPRE corrette, non serve preoccuparsi.
     Per qualsiasi istruzione è sempre vero che gli indici non sono negativi e che ind1 &lt; ind2;
  </li>
+  <li> <b>[2022-2023]</b>:
+        Il file testuale in ingresso contiene una sequenza di comandi, uno per riga, con il seguente formato. Tutti i valori
+        interi positivi o nulli sono codificabili in 32 bit.
+        <ul>
+          <li> aggiungi-stazione distanza numero-auto autonomia-auto-1 ... autonomia-auto-n
+               Aggiunge una stazione, posta alla distanza indicata, dotata di numero-auto, dall’autonomia indicata.
+               Ad esempio:
+               <i>aggiungi-stazione 10 3 100 200 300</i>
+               aggiunge una stazione a distanza 10 dall’inizio dell’autostrada, con un parco di tre veicoli con autonomia
+               100, 200 e 300 km rispettivamente. Se esiste già una stazione alla distanza indicata, il comando non fa nulla.
+               Stampa attesa come risposta: <i>aggiunta</i> oppure <i>non aggiunta</i>.
+          </li> 
+          <li> demolisci-stazione distanza
+               Rimuove la stazione posta alla distanza indicata, se essa esiste.
+               Stampa attesa come risposta: <i>demolita</i> oppure <i>non demolita</i>.
+          </li> 
+          <li> aggiungi-auto distanza-stazione autonomia-auto-da-aggiungere
+               Se la stazione esiste, aggiunge un’auto alla stessa. È possibile avere più auto con la stessa autonomia.
+               Stampa attesa come risposta: <i>aggiunta</i> oppure <i>non aggiunta</i>.
+          </li>
+          <li> rottama-auto distanza-stazione autonomia-auto-da-rottamare
+               Rimuove un’automobile dalla stazione indicata, se la stazione esiste ed è dotata di almeno un’automobile
+               con l’autonomia indicata.
+               Stampa attesa come risposta: <i>rottamata</i> oppure <i>non rottamata</i>.
+          </li>
+          <li> pianifica-percorso distanza-stazione-partenza distanza-stazione-arrivo
+               Richiede di pianificare il percorso con i vincoli sopra indicati.
+               Stampa attesa come risposta: le tappe in ordine di percorrenza, rappresentate con la distanza delle stazioni
+               da inizio autostrada, separate da spazi e alla fine seguite da un a-capo. Devono essere incluse partenza e
+               arrivo; se coincidono la stazione viene stampata una sola volta. Se il percorso non esiste, stampa nessun
+               percorso. L’azione di pianificazione <b>non altera le stazioni</b> o il loro parco veicoli. Le stazioni date sono
+               sicuramente presenti.
+          </li>
+        </ul>
+   </li>
 </ul>
 
 
@@ -166,6 +247,11 @@ Sostituendo le variabili tra &lt;&gt; (comprese le stesse) con le vostre, per ve
   <li> <b>[2019-2020]</b>:
     I test pubblici sono dei test il cui contenuto può essere visualizzato a priori. Per questo motivo è bene utilizzarli per scovare i problemi nel proprio codice. Inoltre ,in ogni test privato, il subtask 1 contiene i test pubblici che seppur diano 0 punti devono essere obbligatoriamente passati. Quindi, se per caso dovessi prendere 3/5 punti ma non passassi il subtask 1, è come se prendessi 00punti in tutto il test.
     Per provare i test pubblici basta andare sul sito del progetto e cliccare nella colonnina a sinistra sull’ultima voce Testing. Tra le voci da inserire nei vari test ci sono Suite e Input. Suite non è altro che il nomeTuoFile.c mentre Input è il file che si trova in ogni test sotto la voce Descrizione -> Allegati. Nello zip da scaricare trovate sia l’input che l’output corretto che potrete confrontare con l’output generato a fine esecuzione nella sezione Testing. In alternativa puoi trovare i tests pubblici nella cartella mega nei Links Utili in fondo a questa pagina.
+  </li>
+  <li> <b>[2022-2023]</b>:
+    I test open sono degli strumenti per verificare la correttezza del proprio programma nella gestione di casi specifici. Per questo motivo è bene utilizzarli per scovare i problemi nel proprio codice.
+    Sono disponibili nella sezione <b>Open -> Allegati</b> del sito web del verificatore, compressi in un archivio <i>archivio_test_aperti.zip</i>.
+    Per questo progetto ne sono stati resi disponibili 111.
   </li>
 </ul>
 
@@ -180,7 +266,9 @@ Sostituendo le variabili tra &lt;&gt; (comprese le stesse) con le vostre, per ve
     Una volta finita l'esecuzione nei vari test generati ci saranno anche gli output corretti che dovranno essere confrontati con l'output generato dal tuo programma sul terminale.
     <i>Warning</i>: l'eseguibile e il file di input dovranno essere nella stessa cartella/percorso.
  </li>
-   <li> <b>[2020-2021]</b>: Generatore di test messo a disposizione da parte dei tutor, disponibile al seguente <a href="">indirizzo</a>.
+   <li> <b>[2020-2021]</b>: Generatore di test messo a disposizione da parte dei tutor.
+   </li>
+   <li> <b>[2022-2023]</b>: Generatore di test messo a disposizione dai docenti disponibile nella sezione <b>Open -> Allegati</b> del sito web del verificatore, compresso in un archivio <i>test_gen_2023.zip</i>.
    </li>
 </ul>
 
@@ -213,6 +301,8 @@ Per installare Valgrind tramite linea di comando su Linux basta fare:
 <pre><code>sudo apt install valgrind</code></pre>
 
 Una guida particolarmente utile la trovi qui: <a href="https://stackoverflow.com/questions/5134891/how-do-i-use-valgrind-to-find-memory-leaks" >https://stackoverflow.com/questions/5134891/how-do-i-use-valgrind-to-find-memory-leaks</a>
+
+Il docente Barenghi ha anche registrato una lezione di presentazione dei vari strumenti utili allo sviluppo del progetto. Siete caldamente invitati a recuperarla nel caso in cui non l'aveste fatto per schiarirvi le idee, vedere un piccolo approfondimento sullo strumento valgrind ed evitare ulteriori domande.
 
 
 
