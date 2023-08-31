@@ -54,7 +54,7 @@ Per provare a inviare la tua soluzione basta caricare il <b>nomeTuoFile.c</b> in
 
 ### Questione anti-plagio
 
-Utilizzare le funzioni sulle slides non è considerato plagio. Anche utilizzare le funzioni di hash note che si trovano su internet non è considerato plagio. Tutto ciò è stato confermato più volte dai tutor o dai prof. E' proibito l'utilizzo di strumenti di Code Autopilot o di supporto come ChatGTP. Questo non è lo scopo del progetto.
+Utilizzare le funzioni sulle slides non è considerato plagio. Anche utilizzare le funzioni di hash note che si trovano su internet non è considerato plagio. Tutto ciò è stato confermato più volte dai tutor o dai prof. E' proibito l'utilizzo di strumenti di Code Autopilot o di supporto come ChatGPT. Questo non è lo scopo del progetto.
 
 
 
