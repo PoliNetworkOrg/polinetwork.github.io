@@ -3,6 +3,22 @@ layout: default
 ---
 
 <div class="wrapper projectsPadding">
+  {% if page.LgroupsWarning %}
+  <div class="alert alert-primary card section">
+    {% if page.LgroupsWarningTitle %}
+    <h2 class="pcenter">
+      {{ page.LgroupsWarningTitle }}
+    </h2>
+    {% endif %}
+    <p class="pcenter">
+      {{ page.LgroupsWarning }}
+      {% if page.LgroupsWarningClick %}
+      <a href="https://linktr.ee/polinetwork">{{ page.LgroupsWarningClick }}</a>
+      {% endif %}
+    </p>
+  </div>
+  {% endif %}
+  
 	<div class="card white">
 		<h1>{{ page.Ltitle }}</h1>
 		<h3>{{ page.Lname }}</h3>

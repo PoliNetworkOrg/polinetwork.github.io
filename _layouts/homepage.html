@@ -33,6 +33,22 @@ layout: default
     <div class="card white section sign">
       {% include logoBanner.html %}
     </div>
+    {% if page.LgroupsWarning %}
+    <div class="alert alert-primary card section">
+      {% if page.LgroupsWarningTitle %}
+      <h2 class="pcenter">
+        {{ page.LgroupsWarningTitle }}
+      </h2>
+      {% endif %}
+      <p class="pcenter">
+        {{ page.LgroupsWarning }}
+        {% if page.LgroupsWarningClick %}
+        <a href="https://linktr.ee/polinetwork">{{ page.LgroupsWarningClick }}</a>
+        {% endif %}
+      </p>
+    </div>
+    {% endif %}
+
     <div class="card white section">
       <div class="cardTitleAndDescription">
         <h2>{{ page.LgroupsTitle }}</h2>
