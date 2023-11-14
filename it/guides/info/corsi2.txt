@@ -17,7 +17,13 @@ TRASMISSIVI e MISURE) (5CFU)<br>
 ###Chimica Generale
 TELEGRAM https://t.me/joinchat/FJ-QR09hqg4kc-iWFD4aKg
 MANIFEST https://www11.ceda.polimi.it/schedaincarico/schedaincarico/controller/scheda_pubblica/SchedaPublic.do?&evn_default=evento&c_classe=743816&polij_device_category=DESKTOP&__pj0=0&__pj1=68b6719d84b413a948a708d25a90bc93
-N.B. Questo corso permette di accedere alla magistrale in CS (al Polimi) senza dover svolgere Fisica Tecnica al secondo semestre del terzo anno, quindi è <b>caldamente </b>consigliato.
+ N.B. <s>Questo corso permette di accedere alla magistrale in CS (al Polimi) senza dover svolgere Fisica Tecnica al secondo semestre del terzo anno, quindi è <b>caldamente </b>consigliato. </s> <br>
+Dall'ultima riforma del Regolamento Didattico del Corso di Studio in Ingegneria Informatica (Laurea Di Primo Livello)
+l'esame di Chimica Generale NON è più l'unico corso che permette di accedere alla magistrale in CS (al Polimi) 
+senza dover svolgere Fisica Tecnica al secondo semestre del terzo anno. Ora un qualsiasi corso del gruppo TABA soddisfa il vincolo, 
+quindi si può scegliere liberamente tra Chimica Generale, Fisica Tecnica, Misure e Onde Elettromagnetiche e Mezzi Trasmissivi.
+Nel caso in cui al secondo anno si scegliesse Elettromagnetismo e Campi da 10 cfu, al terzo anno si ha l'obbligo di inserire 
+Logica e Algebra (gruppo TABREC) siccome è un corso obbligatorio per l'indirizzo I3I (informatica).
 
 È un esame che tratta tutti argomenti già visti in qualsiasi liceo
 scientifico, quindi, per chi venisse da questa scuola è ultra-
