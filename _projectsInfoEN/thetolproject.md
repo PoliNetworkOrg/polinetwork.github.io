@@ -7,4 +7,4 @@ layout: project
 link: https://tol.polinetwork.org
 redirect: true
 ---
-A free admission test simulation for aspiring engineering freshmen
+A free admission test simulator for aspiring engineering freshmen of PoliMi
