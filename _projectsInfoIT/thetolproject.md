@@ -7,4 +7,4 @@ layout: project
 link: https://tol.polinetwork.org
 redirect: true
 ---
-Una simulazione gratuita del test di ammissione per le aspiranti matricole di Ingegneria
+Un simulatore gratuito del test di ammissione per le aspiranti matricole di Ingegneria del PoliMi
