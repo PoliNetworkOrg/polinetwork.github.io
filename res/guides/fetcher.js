@@ -138,7 +138,7 @@ fetch(filelocation.split("/").pop().split(".")[0] + ".txt")
       doc +=
         '<div class="footer">Un\'iniziativa PoliNetwork. Trova altro su <span class="accent"><a href="https://polinetwork.org">polinetwork.org</a></span>';
       doc +=
-        '<br>Per commenti o suggerimenti contatta <a href="https://t.me/eliamaggioni" class="accent">@EliaMaggioni</a> su Telegram</div>';
+        '<br>Per commenti o suggerimenti contatta <a href="https://t.me/maggelia" class="accent">@EliaMaggioni</a> su Telegram</div>';
       doc +=
         '<div"><span class="accent"><a href="/en/' +
         oppositeLangPath +
@@ -147,7 +147,7 @@ fetch(filelocation.split("/").pop().split(".")[0] + ".txt")
       doc +=
         '<div class="footer">A PoliNetwork initiative. Find more at <span class="accent"><a href="https://polinetwork.org">polinetwork.org</a></span>';
       doc +=
-        '<br>For comments or suggestions contact <a href="https://t.me/eliamaggioni" class="accent">@EliaMaggioni</a> on Telegram</div>';
+        '<br>For comments or suggestions contact <a href="https://t.me/maggelia" class="accent">@EliaMaggioni</a> on Telegram</div>';
       doc +=
         '<div"><span class="accent"><a href="/it/' +
         oppositeLangPath +

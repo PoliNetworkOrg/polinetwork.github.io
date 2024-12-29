@@ -1,6 +1,6 @@
 Upload
 
-Questa guida è stata redatta da <a class="accent" href="https://t.me/eliamaggioni">@EliaMaggioni</a> per aiutarvi nell'uso di <a class="accent" href="https://t.me/PoliMaterial_bot">t.me/PoliMaterial_bot</a>.<br>
+Questa guida è stata redatta da <a class="accent" href="https://t.me/maggelia">@EliaMaggioni</a> per aiutarvi nell'uso di <a class="accent" href="https://t.me/PoliMaterial_bot">t.me/PoliMaterial_bot</a>.<br>
 Il bot permette di caricare il materiale direttamente nella cartella GitLab del vostro corso di studi, per aiutare i vostri colleghi attuali e futuri.
 Caricare materiale inerente al corso lo rende più facile per chi lo seguirà dopo di te<br>
 Trovate tutti i corsi disponibili <a class="accent" href="./view/">qui</a>
