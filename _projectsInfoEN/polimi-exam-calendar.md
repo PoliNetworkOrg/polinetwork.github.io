@@ -7,4 +7,4 @@ layout: project
 link: https://github.com/frephs/polimi-exam-calendar
 redirect: true
 ---
-A browser extension to render a calendar interface for Politecnico di Milano's exam enrolment online service.
+A browser extension to render a calendar interface for Politecnico di Milano's exam enrollment online service.
