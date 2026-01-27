@@ -1,6 +1,5 @@
 ---
 title: Polimi Exam Calendar
-Author: Francesco Genovese
 Lang: en
 Img: /img/polimi-exam-calendar.svg
 layout: project
